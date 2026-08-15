@@ -68,7 +68,7 @@ step means the site shows stale data even though your local files are correct.
 
 ## 3. Commit and push to GitHub (so the update is backed up / on record)
 ```
-cd C:\Users\tjsut\tracersports-app
+cd C:\Users\tjsut\TRACERsports
 git add .
 git commit -m "Add [date] results"
 git push origin main
