@@ -1,5 +1,5 @@
 """
-social_card.py — renders an Instagram-ready PNG of Elo's picks for the
+social_card.py — renders an Instagram-ready PNG of Echo's picks for the
 next upcoming slate, styled to match the live site's Games panel
 (app/[league]/GamesPanel.jsx: cream background, dashed "upcoming" card,
 IBM Plex Mono throughout, purple accent).
@@ -252,7 +252,7 @@ def generate_next_slate_card(conn: sqlite3.Connection, league: str) -> Path | No
         dot_cx, dot_cy = header_inset + dot_r, 32
         draw.ellipse((dot_cx - dot_r, dot_cy - dot_r, dot_cx + dot_r, dot_cy + dot_r), fill=UT)
         draw.text((dot_cx + dot_r + 8, dot_cy), "TRACER SPORTS", font=_font("Bold", 24), fill=TEXT, anchor="lm")
-    header_right = (f"{league.upper()} \u00b7 ELO'S PICKS \u00b7 "
+    header_right = (f"{league.upper()} \u00b7 ECHO'S PICKS \u00b7 "
                      f"{slate_date.strftime('%a %b').upper()} {slate_date.day}")
     draw.text((CANVAS_SIZE - header_inset, 32), header_right, font=_font("SemiBold", 19), fill=ACC, anchor="rm")
     header_h = 60
