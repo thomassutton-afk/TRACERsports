@@ -46,6 +46,7 @@ FILENAME_OVERRIDES = {
 }
 
 FONT_DIR = Path(__file__).resolve().parent / "assets" / "fonts"
+LOGO_PATH = Path(__file__).resolve().parent / "assets" / "tracer_logo.png"
 LOGO_ROOT = Path(__file__).resolve().parent.parent / "public" / "logos"
 OUTPUT_ROOT = Path(__file__).resolve().parent.parent / "social_posts"
 
@@ -146,6 +147,26 @@ def _heat_color(pct: float) -> tuple[int, int, int]:
     return (int(r * 255), int(g * 255), int(b * 255))
 
 
+_brand_logo_cache: dict = {}
+
+
+def _load_brand_logo(target_h: int) -> Image.Image | None:
+    """Loads assets/tracer_logo.png once and caches it resized to the
+    requested header height, preserving aspect ratio. Returns None if
+    the file isn't present, so callers can fall back gracefully."""
+    key = target_h
+    if key in _brand_logo_cache:
+        return _brand_logo_cache[key]
+    if not LOGO_PATH.exists():
+        _brand_logo_cache[key] = None
+        return None
+    logo = Image.open(LOGO_PATH).convert("RGBA")
+    scale = target_h / logo.height
+    resized = logo.resize((max(1, int(logo.width * scale)), target_h), Image.LANCZOS)
+    _brand_logo_cache[key] = resized
+    return resized
+
+
 def _mute_logo(img: Image.Image) -> Image.Image:
     """Fades the non-picked team's logo (desaturate + lower alpha) so the
     eye is pulled to the picked team's logo without having to read any
@@ -220,13 +241,20 @@ def generate_next_slate_card(conn: sqlite3.Connection, league: str) -> Path | No
     # --- header: kept as compact as possible (one brand line + one
     # context line) so almost the entire canvas goes to the logos below ---
     header_inset = 24
-    dot_r = 6
-    dot_cx, dot_cy = header_inset + dot_r, 32
-    draw.ellipse((dot_cx - dot_r, dot_cy - dot_r, dot_cx + dot_r, dot_cy + dot_r), fill=UT)
-    draw.text((dot_cx + dot_r + 8, dot_cy), "TRACER SPORTS", font=_font("Bold", 24), fill=TEXT, anchor="lm")
+    logo_h = 34
+    brand_logo = _load_brand_logo(logo_h)
+    if brand_logo:
+        logo_y = int(32 - logo_h / 2)
+        img.paste(brand_logo, (header_inset, logo_y), brand_logo)
+    else:
+        # Fallback if the logo asset is missing - dot + wordmark text
+        dot_r = 6
+        dot_cx, dot_cy = header_inset + dot_r, 32
+        draw.ellipse((dot_cx - dot_r, dot_cy - dot_r, dot_cx + dot_r, dot_cy + dot_r), fill=UT)
+        draw.text((dot_cx + dot_r + 8, dot_cy), "TRACER SPORTS", font=_font("Bold", 24), fill=TEXT, anchor="lm")
     header_right = (f"{league.upper()} \u00b7 ELO'S PICKS \u00b7 "
                      f"{slate_date.strftime('%a %b').upper()} {slate_date.day}")
-    draw.text((CANVAS_SIZE - header_inset, dot_cy), header_right, font=_font("SemiBold", 19), fill=ACC, anchor="rm")
+    draw.text((CANVAS_SIZE - header_inset, 32), header_right, font=_font("SemiBold", 19), fill=ACC, anchor="rm")
     header_h = 60
 
     footer_h = 30
