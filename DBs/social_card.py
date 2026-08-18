@@ -11,11 +11,17 @@ the site's default variant, regardless of which variant loop is
 currently running - see the call site in add_season.py for why that's
 safe to do unconditionally).
 
+A slate with more than page_size games (8 by default) is split across
+multiple images instead of cramming everything into one or truncating -
+post them together as an Instagram carousel and people swipe through it.
+
 Output: social_posts/{league}/{date}.png at the repo root (sibling of
-DBs/, public/, app/) - 1080x1080, the standard Instagram square feed
-size. That folder is plain files, so it rides along with the normal
-`git add . && git commit && git push` step at the end of the daily
-routine - no separate backup step needed.
+DBs/, public/, app/) for a single-image day, or
+social_posts/{league}/{date}-{page}of{total}.png for a multi-page one -
+1080x1080, the standard Instagram square feed size. That folder is plain
+files, so it rides along with the normal `git add . && git commit && git
+push` step at the end of the daily routine - no separate backup step
+needed.
 
 Requires: Pillow (`pip install pillow`). Everything else (fonts, team
 logos) is read from inside this repo, so there's nothing else to
@@ -34,7 +40,6 @@ from export_to_supabase import resolve_current_codes
 
 CANVAS_SIZE = 1080  # Instagram square feed post
 PAD = 56
-MAX_GAMES_SHOWN = 8  # beyond this, extras are summarized in the footer line
 
 # A few team codes collide with reserved Windows device names (CON, PRN,
 # AUX, NUL, COM1-9, LPT1-9), so the logo file can't be saved with that
@@ -201,20 +206,27 @@ def _dashed_rounded_rect(draw: ImageDraw.ImageDraw, box, radius: int) -> None:
         draw.line([(x1, y), (x1, min(y + dash, y1 - radius))], fill=BORDER2, width=2)
 
 
-def generate_next_slate_card(conn: sqlite3.Connection, league: str) -> Path | None:
-    """Render and save the card for whichever slate is soonest in
-    `schedule`. Returns the saved path, or None if there's nothing
-    upcoming to show (e.g. the offseason) - callers should treat None
-    as "nothing to post today", not an error."""
+def generate_next_slate_card(conn: sqlite3.Connection, league: str, page_size: int = 4) -> list[Path]:
+    """Render and save one or more cards for whichever slate is soonest in
+    `schedule`. A slate with more than `page_size` games is split across
+    multiple images rather than crammed into one (or truncated) - which
+    doubles as an Instagram carousel: post them together as one multi-image
+    post and people swipe through it.
+
+    Games are split as evenly as possible across pages, not just chopped
+    into page_size-sized chunks - e.g. 5 games at page_size=4 makes two
+    pages of 3 and 2, not a page of 4 and a nearly-empty page of 1.
+
+    Returns the list of saved paths, in order (empty list if there's
+    nothing upcoming, e.g. the offseason) - callers should treat [] as
+    "nothing to post today", not an error."""
     slate = _next_slate(conn)
     if slate is None:
-        return None
+        return []
     slate_date, all_games = slate
     games = [g for g in all_games if g["expected_win_home"] is not None]
     if not games:
-        return None
-    extra = max(0, len(games) - MAX_GAMES_SHOWN)
-    games = games[:MAX_GAMES_SHOWN]
+        return []
 
     # schedule.home_team/away_team hold the opaque internal team_id
     # (e.g. "wnba_0005"), not the short code shown on-site (e.g. "NYL") -
@@ -225,6 +237,38 @@ def generate_next_slate_card(conn: sqlite3.Connection, league: str) -> Path | No
         g["away_code"] = id_to_code.get(g["away_team"], (g["away_team"], None))[0]
         g["home_code"] = id_to_code.get(g["home_team"], (g["home_team"], None))[0]
 
+    n = len(games)
+    num_pages = max(1, -(-n // page_size))  # ceil(n / page_size)
+    base, remainder = divmod(n, num_pages)
+    # `remainder` pages get one extra game so the sizes differ by at most
+    # 1 (e.g. n=15, page_size=4 -> 4 pages of [4, 4, 4, 3], not [4,4,4,3]
+    # by luck - this is what guarantees it in general, e.g. n=5 -> [3, 2]).
+    page_sizes = [base + 1] * remainder + [base] * (num_pages - remainder)
+    pages, idx = [], 0
+    for size in page_sizes:
+        pages.append(games[idx:idx + size])
+        idx += size
+
+    out_dir = OUTPUT_ROOT / league
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_paths = []
+    for i, page_games in enumerate(pages, start=1):
+        img = _render_page(page_games, slate_date, league, page=i, total_pages=len(pages))
+        if len(pages) == 1:
+            out_path = out_dir / f"{slate_date.isoformat()}.png"
+        else:
+            out_path = out_dir / f"{slate_date.isoformat()}-{i}of{len(pages)}.png"
+        img.save(out_path)
+        out_paths.append(out_path)
+    return out_paths
+
+
+def _render_page(games: list[dict], slate_date: date, league: str, page: int, total_pages: int) -> Image.Image:
+    """Renders a single 1080x1080 card for up to page_size games. Layout
+    (1 vs. 2 games per row, logo sizing, badge placement) is all worked
+    out purely from len(games), so a partial last page (e.g. 7 games on
+    page 2 of 2) still lays out cleanly on its own rather than looking
+    like a cut-off remainder of a bigger grid."""
     img = Image.new("RGB", (CANVAS_SIZE, CANVAS_SIZE), BG)
     draw = ImageDraw.Draw(img)
     cx = CANVAS_SIZE / 2
@@ -254,30 +298,47 @@ def generate_next_slate_card(conn: sqlite3.Connection, league: str) -> Path | No
         draw.text((dot_cx + dot_r + 8, dot_cy), "TRACER SPORTS", font=_font("Bold", 24), fill=TEXT, anchor="lm")
     header_right = (f"{league.upper()} \u00b7 ECHO'S PICKS \u00b7 "
                      f"{slate_date.strftime('%a %b').upper()} {slate_date.day}")
+    if total_pages > 1:
+        header_right += f"  \u00b7  {page}/{total_pages}"
     draw.text((CANVAS_SIZE - header_inset, 32), header_right, font=_font("SemiBold", 19), fill=ACC, anchor="rm")
     header_h = 60
 
     footer_h = 30
     rows_top, rows_bottom = header_h, CANVAS_SIZE - footer_h
     n = len(games)
-    row_h = (rows_bottom - rows_top) / n
-    half_w = CANVAS_SIZE / 2
+    # Past ~4 games, a single game-per-row column runs out of height (row
+    # height keeps shrinking 1:1 with game count, and past a point that
+    # crushes the logos and runs the team-code label straight into the
+    # logo artwork). Switch to 2 games per row once a page is busy, so
+    # row height only shrinks with n/2 instead of n. Since pages are
+    # capped at page_size (8 by default) by generate_next_slate_card,
+    # this never has to go past a 2-column grid.
+    games_per_row = 1 if n <= 4 else 2
+    n_grid_rows = -(-n // games_per_row)  # ceil
+    max_row_h = 340
+    row_h = min(max_row_h, (rows_bottom - rows_top) / n_grid_rows)
+    total_rows_h = row_h * n_grid_rows
+    block_top = rows_top + max(0, (rows_bottom - rows_top - total_rows_h) / 2)
+    col_w = CANVAS_SIZE / games_per_row
+    half_col = col_w / 2
 
-    # Logos are sized off the row/half geometry itself - not a fixed px
-    # value - so they dominate the row (~85-90% of its height) instead of
-    # floating in it. Everything else (labels, badge) is layered on top
+    # Logos are sized off the row/column geometry itself - not a fixed px
+    # value - so they dominate their cell (~85-90% of its height) instead
+    # of floating in it. Everything else (labels, badge) is layered on top
     # of/around the logo rather than pushed into its own reserved band.
-    logo_size = int(min(row_h * 0.75, half_w * 0.61))
+    logo_size = int(min(row_h * 0.75, half_col * 0.61))
     ring_r = logo_size / 2 + 14
-    badge_r = max(30, int(logo_size * 0.15))
-    team_font = _font("Bold", 22)
-    badge_font = _font("Bold", 22)
+    badge_r = max(24, int(logo_size * 0.15))
+    team_font = _font("Bold", 22 if games_per_row == 1 else 18)
+    badge_font = _font("Bold", 22 if games_per_row == 1 else 18)
 
     for i, g in enumerate(games):
-        row_y0 = rows_top + i * row_h
+        grid_row, grid_col = divmod(i, games_per_row)
+        row_y0 = block_top + grid_row * row_h
         row_y1 = row_y0 + row_h
         row_cy = (row_y0 + row_y1) / 2
-        away_x, home_x = half_w / 2, half_w + half_w / 2
+        cell_x0 = grid_col * col_w
+        away_x, home_x = cell_x0 + half_col / 2, cell_x0 + half_col + half_col / 2
 
         home_prob = g["expected_win_home"]
         home_fav = home_prob >= 0.5
@@ -308,8 +369,8 @@ def generate_next_slate_card(conn: sqlite3.Connection, league: str) -> Path | No
             _draw_placeholder_mark(draw, int(home_x), int(row_cy), logo_size, g["home_code"])
 
         # Team code, small, tucked at the top of each half
-        draw.text((away_x, row_y0 + 22), g["away_code"], font=team_font, fill=TEXT, anchor="mm")
-        draw.text((home_x, row_y0 + 22), g["home_code"], font=team_font, fill=TEXT, anchor="mm")
+        draw.text((away_x, row_y0 + 18), g["away_code"], font=team_font, fill=TEXT, anchor="mm")
+        draw.text((home_x, row_y0 + 18), g["home_code"], font=team_font, fill=TEXT, anchor="mm")
 
         # Percentage badge: solid circle pinned just outside the picked
         # logo's ring - anchored to ring_r itself (not a fraction of it)
@@ -321,20 +382,17 @@ def generate_next_slate_card(conn: sqlite3.Connection, league: str) -> Path | No
                      fill=_heat_color(pct), outline=BG, width=4)
         draw.text((badge_cx, badge_cy), f"{pct}%", font=badge_font, fill="#FFFFFF", anchor="mm")
 
-        # Thin divider between rows and down the middle (no gap - the
-        # rows themselves tile edge to edge)
-        if i > 0:
+        # Thin divider down the middle of each game cell (away | home)
+        draw.line([(cell_x0 + half_col, row_y0 + 10), (cell_x0 + half_col, row_y1 - 10)], fill=BORDER2, width=2)
+        # Horizontal divider at the start of each new grid row
+        if grid_row > 0 and grid_col == 0:
             draw.line([(0, row_y0), (CANVAS_SIZE, row_y0)], fill=BORDER2, width=2)
-        draw.line([(half_w, row_y0 + 10), (half_w, row_y1 - 10)], fill=BORDER2, width=2)
+
+    # Vertical divider between the two game columns, when in 2-per-row mode
+    if games_per_row == 2:
+        draw.line([(col_w, block_top), (col_w, block_top + total_rows_h)], fill=BORDER2, width=2)
 
     # --- footer ---
     draw.text((cx, CANVAS_SIZE - footer_h / 2), "tracersports.net", font=_font("Medium", 16), fill=TEXT3, anchor="mm")
-    if extra:
-        draw.text((cx - 200, CANVAS_SIZE - footer_h / 2), f"+{extra} more",
-                   font=_font("Regular", 15), fill=TEXT3, anchor="mm")
 
-    out_dir = OUTPUT_ROOT / league
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / f"{slate_date.isoformat()}.png"
-    img.save(out_path)
-    return out_path
+    return img
