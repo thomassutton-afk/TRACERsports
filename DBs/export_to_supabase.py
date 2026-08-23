@@ -84,11 +84,23 @@ ACTIVE_CODES = {
         "ATL", "CHI", "CON", "IND", "NYL", "TOR", "WAS", "DAL", "GSV", "LVA",
         "LAS", "MIN", "PHX", "POR", "SEA",
     },
+    # OAK/SD/STL are the pipeline's permanent franchise codes for the
+    # current Las Vegas Raiders / LA Chargers / LA Rams - same reasoning
+    # as NBA's CHH: the code is a stable historical identity, not
+    # necessarily today's city. See lib/sports/nfl/config.js for the
+    # current display name/city each code actually renders as.
+    "nfl": {
+        "ARI", "ATL", "BAL", "BUF", "CAR", "CHI", "CIN", "CLE", "DAL", "DEN",
+        "DET", "GB", "HOU", "IND", "JAX", "KC", "MIA", "MIN", "NE", "NO",
+        "NYG", "NYJ", "OAK", "PHI", "PIT", "SD", "SEA", "SF", "STL", "TB",
+        "TEN", "WAS",
+    },
 }
 
 SPORT_FOR_LEAGUE = {
     "nba": "basketball",
     "wnba": "basketball",
+    "nfl": "football",
 }
 
 # Both rating variants this export moves over. 'echo' is the original
@@ -107,17 +119,28 @@ VARIANTS = ("echo", "pulse")
 def format_round(round_val):
     """
     games.round and schedule.round are TEXT columns on Supabase, but the
-    source SQLite columns are REAL (e.g. 1.0, 2.0, 0.5, 0.1). Stringifying
-    a Python float directly produces trailing-.0 strings ("1.0", "2.0")
-    for whole-number rounds, which then fail to match the roundLabels
-    config keys ('1', '2', '3', '4') and any app-side string comparisons
-    that expect the plain integer form. Fractional rounds (0.5 = play-in,
-    0.1 = in-season tournament) are left as-is since they're not whole
-    numbers and their config keys already include the decimal.
+    source SQLite columns are REAL for NBA/WNBA (e.g. 1.0, 2.0, 0.5,
+    0.1) - stringifying a Python float directly produces trailing-.0
+    strings ("1.0", "2.0") for whole-number rounds, which then fail to
+    match the roundLabels config keys ('1', '2', '3', '4') and any
+    app-side string comparisons that expect the plain integer form.
+    Fractional rounds (0.5 = play-in, 0.1 = in-season tournament) are
+    left as-is since they're not whole numbers and their config keys
+    already include the decimal.
+
+    NFL's round column is TEXT to begin with ('WC', 'DV', 'CC', 'SB') -
+    not a stringified float at all, so float(round_val) would raise
+    ValueError on it. Any round value that isn't parseable as a float
+    is passed through unchanged rather than reformatted - this covers
+    NFL today, and any other league that ever uses text round codes
+    instead of numeric ones, without needing a per-league branch here.
     """
     if round_val is None:
         return None
-    f = float(round_val)
+    try:
+        f = float(round_val)
+    except (TypeError, ValueError):
+        return str(round_val)
     return str(int(f)) if f == int(f) else str(f)
 
 
@@ -230,7 +253,7 @@ GAMES_COLUMNS = [
     "opp_days_off", "rest_diff", "rest_adj", "pre_gm_rate", "opp_pre_gm_rate",
     "expected_win_pct", "mov", "result", "accuracy", "brier", "mov_mult",
     "games_played", "k", "po_mult", "k_eff", "rating_change", "post_gm_rate",
-    "w", "l", "r1w", "r1l", "r2w", "r2l", "r3w", "r3l", "fw", "fl",
+    "w", "l", "t", "r1w", "r1l", "r2w", "r2l", "r3w", "r3l", "fw", "fl",
 ]
 
 
@@ -241,7 +264,7 @@ def build_games(conn, league, id_to_code, variant):
         "round, games_played, days_off, opp_days_off, rest_adj, pre_rate, "
         "opp_pre_rate, expected_win, points_for, points_against, ot, mov, "
         "result, accuracy, brier, mov_mult, po_mult, k, keff, "
-        "rating_change, post_rate, w, l, r1w, r1l, r2w, r2l, r3w, r3l, fw, fl "
+        "rating_change, post_rate, w, l, t, r1w, r1l, r2w, r2l, r3w, r3l, fw, fl "
         "FROM ratings WHERE variant = ?", (variant,)
     )
     cols = [d[0] for d in cur.description]
@@ -289,6 +312,7 @@ def build_games(conn, league, id_to_code, variant):
                 "post_gm_rate": r["post_rate"],
                 "w": r["w"],
                 "l": r["l"],
+                "t": r["t"],
                 "r1w": r["r1w"], "r1l": r["r1l"],
                 "r2w": r["r2w"], "r2l": r["r2l"],
                 "r3w": r["r3w"], "r3l": r["r3l"],

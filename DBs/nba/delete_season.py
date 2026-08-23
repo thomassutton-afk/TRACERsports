@@ -13,7 +13,7 @@ relocation aliases - is untouched.
 """
 import argparse
 import db
-from rebuild import rebuild_ratings
+from rebuild import rebuild_ratings, VARIANTS
 
 DB_PATH = "nba_elo.db"
 
@@ -61,8 +61,9 @@ def main():
             return
 
     delete_seasons(conn, seasons)
-    rebuild_ratings(conn)
-    print(f"Deleted season(s) {seasons} and rebuilt the remaining history.")
+    for variant in VARIANTS:
+        rebuild_ratings(conn, variant)
+    print(f"Deleted season(s) {seasons} and rebuilt the remaining history (both variants).")
 
 
 if __name__ == "__main__":
