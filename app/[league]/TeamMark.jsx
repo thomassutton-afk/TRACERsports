@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { logoFileName, displayAbbr } from "../../lib/logoFilenameOverrides";
 
 /**
  * TeamMark — league-agnostic replacement for the old single-league
@@ -10,26 +11,18 @@ import { useState } from "react";
  * the old TeamLogo's `errored` state.
  *
  * Needs `teamId` + `league` to build the image path
- * (`/logos/${league}/${teamId}.png`). If either is missing, it skips
- * straight to the badge fallback.
- *
- * FILENAME_OVERRIDES: a few team IDs collide with reserved Windows device
- * names (CON, PRN, AUX, NUL, COM1-9, LPT1-9), so a file literally named
- * e.g. `CON.png` can't exist on disk on Windows. For any such ID, the
- * actual asset on disk is named differently (convention: trailing
- * underscore) — this map is the ONLY place that needs to know about it.
- * teamId itself (used for DB lookups, display, etc.) is untouched.
+ * (`/logos/${league}/${logoFileName(teamId)}.png`). If either is
+ * missing, it skips straight to the badge fallback. See
+ * lib/logoFilenameOverrides.js for why the filename can differ from
+ * teamId itself.
  */
-const FILENAME_OVERRIDES = {
-  CON: "CON_", // WNBA Connecticut Sun — reserved Windows device name
-};
 
 export default function TeamMark({ team, teamId, league, size = 28 }) {
   const [errored, setErrored] = useState(false);
   const color = team.primary || "#663399";
-  const abbr = teamId || team.abbr || team.id || (team.nickname ? team.nickname.slice(0, 3).toUpperCase() : "??");
+  const abbr = displayAbbr(teamId || team.abbr || team.id || (team.nickname ? team.nickname.slice(0, 3).toUpperCase() : "??"));
   const canLoadImage = !!(teamId && league);
-  const fileName = FILENAME_OVERRIDES[teamId] || teamId;
+  const fileName = logoFileName(teamId);
 
   if (!canLoadImage || errored) {
     return (

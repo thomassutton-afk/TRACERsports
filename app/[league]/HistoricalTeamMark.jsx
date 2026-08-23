@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { logoFileName } from "../../lib/logoFilenameOverrides";
 
 /**
  * HistoricalTeamMark — season-aware version of TeamMark.jsx.
@@ -71,7 +72,7 @@ export default function HistoricalTeamMark({
   if (currentLogoTeamId && league && !currentErrored) {
     return (
       <img
-        src={`/logos/${league}/${currentLogoTeamId}.png`}
+        src={`/logos/${league}/${logoFileName(currentLogoTeamId)}.png`}
         alt={abbr}
         width={size}
         height={size}
