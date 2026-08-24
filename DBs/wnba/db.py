@@ -134,7 +134,7 @@ CREATE TABLE IF NOT EXISTS ratings (
     keff          REAL,
     rating_change REAL,
     post_rate     REAL,
-    w REAL, l REAL, r1w REAL, r1l REAL, r2w REAL, r2l REAL,
+    w REAL, l REAL, t REAL DEFAULT 0, r1w REAL, r1l REAL, r2w REAL, r2l REAL,
     r3w REAL, r3l REAL, fw REAL, fl REAL,
     PRIMARY KEY (game_id, team, variant)
 );
