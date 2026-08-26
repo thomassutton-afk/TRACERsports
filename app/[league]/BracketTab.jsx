@@ -21,6 +21,7 @@
 
 import { useState } from "react";
 import TeamMark from "./TeamMark";
+import { getFillColor, getTextColor } from "@/lib/teamColors";
 
 const mono = "var(--font-mono)";
 const serif = "var(--font-display)";
@@ -90,8 +91,8 @@ export default function BracketTab({ poGames, standings, leagueConfig, season })
   const hasPlayIn = playInSeeds > 0;
 
   const teams = leagueConfig.teams;
-  const tc = (abbr) => teams[abbr]?.primary || "#663399";
-  const ts = (abbr) => teams[abbr]?.secondary || teams[abbr]?.primary || "#663399";
+  const tc = (abbr) => (teams[abbr] ? getFillColor(teams[abbr]) : null) || "#663399";
+  const ts = (abbr) => (teams[abbr] ? getTextColor(teams[abbr]) : null) || "#663399";
   const tn = (abbr) => teams[abbr]?.name || abbr;
 
   const teamMap = {};

@@ -22,6 +22,7 @@
  */
 
 import TeamMark from "./TeamMark";
+import { getFillColor, getTextColor } from "@/lib/teamColors";
 
 const mono = "var(--font-mono)";
 const C = {
@@ -82,8 +83,8 @@ export default function OverallBracketTab({ standings, leagueConfig, season }) {
     const rowH = CARD_H / 2;
     if (!team) return <div style={{ height: rowH }} />;
     const teamCfg = teams[team.team_id];
-    const color = teamCfg?.primary || "#663399";
-    const sec = teamCfg?.secondary || color;
+    const color = (teamCfg ? getFillColor(teamCfg) : null) || "#663399";
+    const sec = (teamCfg ? getTextColor(teamCfg) : null) || color;
     return (
       <div
         style={{
