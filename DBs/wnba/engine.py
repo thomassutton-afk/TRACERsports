@@ -19,7 +19,7 @@ BASELINE_PARAMS = dict(
     hca=84.0,        # home court advantage, in Elo points
     kmin=6.0,
     kmax=76.0,
-    playoff_mult={1: 1.1, 2: 1.2, 3: 1.35, 4: 1.5, 0.5: 1.05},  # default 1.0
+    playoff_mult={1: 1.1, 2: 1.2, 3: 1.35, 4: 1.5, 0.5: 1.05, 0.1: 1.02},  # default 1.0
 )
 # These are the ORIGINAL spreadsheet's exact values (1997-1999
 # verified to floating-point precision). Never mutate this dict in
