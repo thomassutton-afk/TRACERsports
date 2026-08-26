@@ -36,7 +36,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useParams, useSearchParams } from "next/navigation";
 import { getLeagueConfig } from "@/lib/sports/registry";
-import { getFillColor } from "@/lib/teamColors";
+import { getFillColor, getTextColor } from "@/lib/teamColors";
 import {
   getAvailableSeasons,
   fetchSeasonTeamGames,
@@ -406,7 +406,7 @@ export default function SeasonPage() {
                               color={fillColor}
                               size={28}
                             />
-                            <span style={{ fontSize: 13, fontWeight: 700, color: identity.secondary }}>{identity.name}</span>
+                            <span style={{ fontSize: 13, fontWeight: 700, color: getTextColor(identity) }}>{identity.name}</span>
                           </Link>
                         </td>
                         {showPreseason && (

@@ -24,7 +24,7 @@ import { getLeagueConfig } from "@/lib/sports/registry";
 import TeamMark from "../TeamMark";
 import HistoricalTeamMark from "../HistoricalTeamMark";
 import { fetchLogoIndex, resolveHistoricalLogoPath } from "@/lib/historicalIdentity";
-import { getFillColor } from "@/lib/teamColors";
+import { getFillColor, getTextColor } from "@/lib/teamColors";
 
 // Folded franchises (e.g. WNBA's Sting/Rockers/Comets/Sol/Monarchs) never
 // got a "current" logo under /logos/{league}/{code}.png — TeamMark 404s on
@@ -185,15 +185,15 @@ function TeamGrid({ teamIds, teams, league, onSelect, muted = false, logoIndex =
                 currentLogoTeamId={id}
                 league={league}
                 abbr={id}
-                color={team.secondary}
+                color={getTextColor(team)}
                 size={32}
               />
             ) : (
               <TeamMark team={team} teamId={id} league={league} size={32} />
             )}
             <div>
-              <div style={{ fontSize: 13, fontWeight: 700, color: team.secondary }}>{team.name}</div>
-              <div style={{ fontFamily: "var(--font-mono)", fontSize: 10, color: team.secondary, opacity: 0.7, letterSpacing: 0.5 }}>
+              <div style={{ fontSize: 13, fontWeight: 700, color: getTextColor(team) }}>{team.name}</div>
+              <div style={{ fontFamily: "var(--font-mono)", fontSize: 10, color: getTextColor(team), opacity: 0.7, letterSpacing: 0.5 }}>
                 {id}
               </div>
             </div>

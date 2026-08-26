@@ -24,7 +24,7 @@ import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import { useParams, useSearchParams } from "next/navigation";
 import { getLeagueConfig } from "@/lib/sports/registry";
-import { getFillColor } from "@/lib/teamColors";
+import { getFillColor, getTextColor } from "@/lib/teamColors";
 import {
   fetchAllTimeTeamGames,
   fetchAllTimePreseasonRatings,
@@ -64,21 +64,19 @@ function inDecade(season, decade) {
 // with "Made Playoffs" (every playoff team has at least a Round 1 result).
 function buildDepthFilters(leagueConfig) {
   const roundLabels = leagueConfig.engine?.roundLabels ?? {};
-  const roundNumbers = Object.keys(roundLabels)
-    .map(Number)
-    .filter((n) => !Number.isNaN(n) && n >= 1)
-    .sort((a, b) => a - b);
+  const order = leagueConfig.engine?.playoffRoundOrder ?? [];
 
   const filters = [
     { id: "all", label: "All Seasons" },
     { id: "playoffs", label: "Made Playoffs" },
   ];
-  for (const r of roundNumbers) {
-    if (r === 1) continue;
+  for (let r = 2; r <= order.length; r++) {
     // Old-site wording: label describes the round just won (r-1), not the
     // round reached (r) — e.g. reaching Conf. Semis (round 2) is phrased
     // "Won Round 1", matching reference/old-site/AllTimeRankings.jsx.
-    const priorRoundLabel = roundLabels[String(r - 1)] ?? `Round ${r - 1}`;
+    // order[r-2] is the round-code for rank (r-1) — rank is 1-based,
+    // array is 0-based, so rank (r-1) sits at index (r-1)-1 = r-2.
+    const priorRoundLabel = roundLabels[order[r - 2]] ?? `Round ${r - 1}`;
     filters.push({ id: `round${r}`, label: `Won ${priorRoundLabel}` });
   }
   filters.push({ id: "champion", label: "Champions Only" });
@@ -421,10 +419,10 @@ export default function AllTimeRankingsPage() {
                               />
                             </div>
                             <div>
-                              <div style={{ fontFamily: "var(--font-mono)", fontSize: 10, fontWeight: 600, color: row.identity.secondary, opacity: 0.75, letterSpacing: 0.3, marginBottom: 2 }}>
+                              <div style={{ fontFamily: "var(--font-mono)", fontSize: 10, fontWeight: 600, color: getTextColor(row.identity), opacity: 0.75, letterSpacing: 0.3, marginBottom: 2 }}>
                                 {leagueConfig.seasonLabel(row.season)}
                               </div>
-                              <div style={{ fontSize: 13, fontWeight: 700, color: row.identity.secondary, lineHeight: 1.2 }}>
+                              <div style={{ fontSize: 13, fontWeight: 700, color: getTextColor(row.identity), lineHeight: 1.2 }}>
                                 {row.identity.name}
                               </div>
                             </div>
