@@ -1,13 +1,8 @@
 import Link from "next/link";
 import { SPORTS, LEAGUES } from "@/lib/sports/registry";
 import { supabase } from "@/lib/supabase";
-import { getGamesOrScheduleForDate, roundLabel } from "@/lib/gamesData";
+import { getGamesOrScheduleForDate, getCurrentSeason, roundLabel } from "@/lib/gamesData";
 import TeamMark from "./[league]/TeamMark";
-
-// Matches app/[league]/page.js's CURRENT_SEASON — kept in sync manually,
-// there's no shared constant file yet. If a season rolls over, both need
-// updating (page.js already has this same duplication note).
-const CURRENT_SEASON = 2026;
 
 /**
  * Homepage.
@@ -112,15 +107,30 @@ export default async function Home() {
   const allLeagueIds = Object.values(SPORTS).flatMap((sport) => sport.leagues);
   const todayStr = todayET();
 
+  // Each league resolves its own current season (e.g. NFL is still on its
+  // 2025 season through the summer, while NBA/WNBA have already rolled to
+  // 2026) — same helper app/[league]/page.js uses, so this can't drift out
+  // of sync with what the per-league dashboards show.
+  const currentSeasonEntries = await Promise.all(
+    allLeagueIds.map(async (leagueId) => [leagueId, (await getCurrentSeason(leagueId)).season])
+  );
+  const currentSeasonByLeague: Record<string, number | null> = Object.fromEntries(currentSeasonEntries);
+
   const [topTeamsEntries, todaysGamesEntries] = await Promise.all([
     Promise.all(
-      allLeagueIds.map(async (leagueId) => [leagueId, await fetchTopTeams(leagueId, CURRENT_SEASON, "echo")])
+      allLeagueIds.map(async (leagueId) => {
+        const season = currentSeasonByLeague[leagueId];
+        return [leagueId, season ? await fetchTopTeams(leagueId, season, "echo") : []];
+      })
     ),
     Promise.all(
-      allLeagueIds.map(async (leagueId) => [
-        leagueId,
-        await getGamesOrScheduleForDate(leagueId, todayStr, CURRENT_SEASON, "echo"),
-      ])
+      allLeagueIds.map(async (leagueId) => {
+        const season = currentSeasonByLeague[leagueId];
+        return [
+          leagueId,
+          season ? await getGamesOrScheduleForDate(leagueId, todayStr, season, "echo") : [],
+        ];
+      })
     ),
   ]);
   const topTeamsByLeague: Record<string, any[]> = Object.fromEntries(topTeamsEntries);
@@ -154,20 +164,6 @@ export default async function Home() {
         >
           TRACER
         </h1>
-        <p
-          style={{
-            fontFamily: "var(--font-body)",
-            fontSize: 14,
-            fontWeight: 300,
-            color: "var(--text2)",
-            marginTop: 8,
-            maxWidth: 440,
-            marginLeft: "auto",
-            marginRight: "auto",
-          }}
-        >
-          Echo (carry-forward) and Pulse (season-reset) ratings, side by side.
-        </p>
       </div>
 
       {hasAnyGamesToday && (

@@ -12,8 +12,8 @@
  */
 
 import Link from "next/link";
-import { usePathname, useSearchParams } from "next/navigation";
-import { getAllLeagueIds, getLeagueConfig } from "@/lib/sports/registry";
+import { usePathname, useSearchParams, useRouter } from "next/navigation";
+import { SPORTS, getAllLeagueIds, getLeagueConfig } from "@/lib/sports/registry";
 
 const VARIANTS = [
   { id: "echo", label: "Echo" },
@@ -23,6 +23,7 @@ const VARIANTS = [
 export default function Nav() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
+  const router = useRouter();
   const currentLeague = pathname.split("/")[1]; // "" | "nba" | "wnba" | "about" | ...
   const currentVariant = searchParams.get("variant") || "echo";
   const leagueIds = getAllLeagueIds();
@@ -36,6 +37,18 @@ export default function Nav() {
   const onAllTimePage = pathname.endsWith("/all-time");
   const onTeamPage = pathname.endsWith("/team") || pathname.includes("/team/");
   const onDashboard = leagueIds.includes(currentLeague) && !onSeasonPage && !onAllTimePage && !onTeamPage;
+
+  // Which page "type" (Dashboard/Season/All-Time/Team) the sport dropdown
+  // should preserve when switching leagues — e.g. picking WNBA while on
+  // /nba/all-time should land on /wnba/all-time, not reset to Dashboard.
+  // A specific team ID (/nba/team/BOS) doesn't carry over since the same
+  // ID rarely means anything in another league, so that case just lands
+  // on the new league's team list (/wnba/team) instead.
+  const currentSection = onSeasonPage ? "/season" : onAllTimePage ? "/all-time" : onTeamPage ? "/team" : "";
+
+  function goToLeague(newLeagueId) {
+    router.push(`/${newLeagueId}${currentSection}?variant=${currentVariant}`);
+  }
 
   return (
     <>
@@ -94,21 +107,22 @@ export default function Nav() {
               </Link>
             ))}
           </div>
-          <div className="league-switcher">
-            {leagueIds.map((id) => {
-              const config = getLeagueConfig(id);
-              const active = currentLeague === id;
-              return (
-                <Link
-                  key={id}
-                  href={`/${id}?variant=${currentVariant}`}
-                  className={`ls-btn${active ? " active" : ""}`}
-                >
-                  {config.label}
-                </Link>
-              );
-            })}
-          </div>
+          <select
+            value={currentLeague && leagueIds.includes(currentLeague) ? currentLeague : navLeague}
+            onChange={(e) => goToLeague(e.target.value)}
+            className="league-select"
+            aria-label="Switch league"
+          >
+            {Object.values(SPORTS).map((sport) => (
+              <optgroup key={sport.id} label={sport.label}>
+                {sport.leagues.map((id) => (
+                  <option key={id} value={id}>
+                    {getLeagueConfig(id).label}
+                  </option>
+                ))}
+              </optgroup>
+            ))}
+          </select>
         </div>
       </nav>
 

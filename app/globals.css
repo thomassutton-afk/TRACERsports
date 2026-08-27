@@ -82,26 +82,17 @@ body {
 
 .nav-right { display: flex; align-items: center; gap: 12px; }
 
-/* LEAGUE SWITCHER — same visual pattern as the variant toggle */
-.league-switcher {
-  display: flex;
-  background: var(--surface2);
-  border: 1px solid var(--border2);
-  border-radius: 8px;
-  overflow: hidden;
-}
-.ls-btn {
-  padding: 5px 12px;
-  cursor: pointer;
-  color: var(--text2);
-  border: none;
-  background: none;
+/* LEAGUE SELECT — same visual pattern as the Season/Team page selects */
+.league-select {
   font-family: var(--font-mono);
   font-size: 12px;
-  transition: all 0.15s;
-  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid var(--border2);
+  border-radius: 8px;
+  background: var(--surface2);
+  color: var(--text);
+  cursor: pointer;
 }
-.ls-btn.active { background: var(--acc); color: #fff; }
 
 .pipeline-badge {
   display: flex;

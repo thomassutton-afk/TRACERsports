@@ -174,6 +174,59 @@ WNBA_SPLITS = {
 }
 
 
+# NFL splits. Unlike NBA's season-ends-in-this-year convention, NFL uses
+# season-STARTS-in-this-year (a "2023" row is the 2023 season, no +1 trap
+# here - see nfl/config.js seasonLabel). Source: TJ-provided
+# NFL_Team_Color_History.txt (TruColor-derived), cross-checked against the
+# live nfl_elo.db team_history boundaries before writing this list - every
+# start_season below was confirmed to NOT already exist as a row start for
+# that code (i.e. genuinely needs a new split), computed programmatically
+# rather than by hand to avoid the kind of off-by-one error that bit the
+# NBA_SPLITS doc-shorthand conversion above.
+#
+# Relocated/renamed franchises (OAK, SD, STL, TEN) already have multiple
+# team_history rows from their code/name change - these splits land INSIDE
+# whichever of those rows currently spans the target season (split_era()
+# handles this generically, same as NBA_RELOCATED_ADDITIONAL_SPLITS does
+# for Seattle above). WAS has 3 existing rename rows (Redskins/Football
+# Team/Commanders) whose boundaries already exactly match TruColor's real
+# color-era boundaries (1996-2021 one continuous look, 2022-present a new
+# one) - no split needed, appears nowhere below.
+NFL_SPLITS = {
+    "ARI": [2005, 2023],
+    "ATL": [2003, 2026],
+    "BUF": [2002, 2011],
+    "CAR": [2012],
+    "CIN": [2002, 2012, 2021],
+    "CLE": [2015],
+    "DAL": [2002],
+    "DEN": [1997, 2024],
+    "DET": [1997, 2003, 2017],
+    "GB": [2002],
+    "HOU": [2024],
+    "IND": [2002, 2004],
+    "JAX": [2002, 2012],
+    "KC": [2002, 2012],
+    "MIA": [1997, 2013, 2018],
+    "MIN": [2002, 2010, 2013],
+    "NE": [2000],
+    "NO": [2002, 2012],
+    "NYG": [2000],
+    "NYJ": [1998, 2002, 2019],
+    "OAK": [2025],  # lands inside the open 2020-present (Las Vegas) row
+    "PHI": [2003],
+    "SD": [2020],  # lands inside the open 2017-present (LA Chargers) row
+    "SEA": [2002, 2009, 2012],
+    "SF": [2002, 2009, 2025],
+    "STL": [2000, 2002, 2020],  # 2000/2002 land inside the closed 1996-2015
+                                  # (St. Louis) row, 2020 inside the open
+                                  # 2016-present (LA Rams) row
+    "TB": [1997, 2014, 2020],
+    "TEN": [2018, 2026],  # both land inside the open 1999-present (Titans) row
+    # BAL, CHI, PIT: single continuous color era 1996-present, no split needed.
+}
+
+
 def load_db_module(league: str):
     path = os.path.join(os.path.dirname(__file__), league, "db.py")
     spec = importlib.util.spec_from_file_location(f"{league}_db", path)
@@ -237,7 +290,7 @@ def split_era(db, conn, code: str, new_start_season: int) -> bool:
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--league", required=True, choices=["nba", "wnba"])
+    p.add_argument("--league", required=True, choices=["nba", "wnba", "nfl"])
     args = p.parse_args()
 
     db = load_db_module(args.league)
@@ -250,8 +303,10 @@ def main():
     conn = db.connect(db_path)
     if args.league == "nba":
         splits = {**NBA_SPLITS, **NBA_RELOCATED_ADDITIONAL_SPLITS}
-    else:
+    elif args.league == "wnba":
         splits = WNBA_SPLITS
+    else:
+        splits = NFL_SPLITS
 
     applied, skipped = 0, 0
     for code, seasons in splits.items():

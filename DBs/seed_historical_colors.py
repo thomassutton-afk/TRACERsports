@@ -19,16 +19,28 @@ Each team's "3 colors" were chosen deliberately for visual distinctiveness,
 not just the first 3 TruColor happens to list - see individual comments.
 
 USAGE - run from DBs\\ (matches every other pipeline script's convention;
-do NOT run from inside DBs\\nba\\ or DBs\\wnba\\, see the Operations Guide's
-"working directory is critical" note):
+do NOT run from inside DBs\\nba\\, DBs\\wnba\\, or DBs\\nfl\\, see the
+Operations Guide's "working directory is critical" note):
 
     python3 seed_historical_colors.py --league nba
     python3 seed_historical_colors.py --league wnba
+    python3 seed_historical_colors.py --league nfl
 
-Each targets the TOP-LEVEL db (DBs/nba_elo.db or DBs/wnba_elo.db) - the
-one export_to_supabase.py actually reads - not the subfolder working copy.
-If you also want the subfolder copy in sync for your next add_season.py
-run, follow your normal copy convention afterward.
+Each targets the TOP-LEVEL db (DBs/nba_elo.db, DBs/wnba_elo.db, or
+DBs/nfl_elo.db) - the one export_to_supabase.py actually reads - not the
+subfolder working copy. If you also want the subfolder copy in sync for
+your next add_season.py run, follow your normal copy convention afterward.
+
+NFL note: run split_color_eras.py --league nfl FIRST - NFL_COLORS below
+targets team_history rows that only exist after that script creates them
+(same NBA_CURRENT30_COLORS dependency as above, now true for NFL too).
+NFL's current (most recent, still-open) era per team was written directly
+into lib/sports/nfl/config.js instead of left for a later "confirm this
+matches config.js" pass - TJ confirmed the TruColor doc is now the site's
+source of truth for NFL colors, current era included, so config.js itself
+was updated to TruColor's current-era values rather than the NBA/WNBA
+pattern of only ever touching config.js's colors in a separate, deferred
+decision.
 """
 import argparse
 import importlib.util
@@ -401,6 +413,116 @@ WNBA_COLORS = [
 ]
 
 
+NFL_COLORS = [
+    # Source: TJ-provided NFL_Team_Color_History.txt (TruColor-derived),
+    # cross-checked against nfl_elo.db team_history row boundaries. Rows here
+    # match the start_season of an EXISTING team_history row - either an
+    # original 1996 franchise row, a rename/relocate row (OAK/SD/STL/TEN/WAS),
+    # or a new row created by split_color_eras.py --league nfl (run that FIRST,
+    # this script will SKIP any row that does not exist yet). Current (open,
+    # most recent) era intentionally NOT included below - now that TJ has
+    # confirmed the TruColor doc supersedes config.js, current colors were
+    # already written directly into nfl/config.js, so leaving current NULL
+    # here matches the same convention as NBA/WNBA (served by config.js).
+    # Franchises that renamed WITHOUT a real color change (TEN 1996 Houston
+    # Oilers -> 1997 Tennessee Oilers; OAK/SD/STL/WAS across their respective
+    # relocations) get the SAME colors written to multiple team_id/start_season
+    # rows below, since team_history splits on rename regardless of whether the
+    # look actually changed.
+    # --- Arizona Cardinals ---
+    ("nfl_0001", 1996, "#9B2743", "#FFFFFF", "#010101"),
+    ("nfl_0001", 2005, "#9B2743", "#010101", "#FFFFFF"),
+    # --- Atlanta Falcons ---
+    ("nfl_0002", 1996, "#010101", "#C8102E", "#B1B3B3"),
+    ("nfl_0002", 2003, "#010101", "#A6192E", "#FFFFFF"),
+    # --- Buffalo Bills ---
+    ("nfl_0004", 1996, "#003087", "#C8102E", "#FFFFFF"),
+    ("nfl_0004", 2002, "#091F2C", "#C8102E", "#003087"),
+    # --- Carolina Panthers ---
+    ("nfl_0005", 1996, "#101820", "#0085CA", "#A2AAAD"),
+    # --- Cincinnati Bengals ---
+    ("nfl_0007", 1996, "#101820", "#FA4616", "#FFFFFF"),
+    ("nfl_0007", 2002, "#010101", "#DC4405", "#FFFFFF"),
+    ("nfl_0007", 2012, "#010101", "#FC4C02", "#FFFFFF"),
+    # --- Cleveland Browns ---
+    ("nfl_0031", 1999, "#22150C", "#FC4C02", "#FFFFFF"),
+    # --- Dallas Cowboys ---
+    ("nfl_0008", 1996, "#041E42", "#869397", "#FFFFFF"),
+    # --- Denver Broncos ---
+    ("nfl_0009", 1996, "#FA4616", "#001489", "#FFFFFF"),
+    ("nfl_0009", 1997, "#0C2340", "#FC4C02", "#FFFFFF"),
+    # --- Detroit Lions ---
+    ("nfl_0010", 1996, "#003DA5", "#A2AAAD", "#FFFFFF"),
+    ("nfl_0010", 1997, "#407EC9", "#A2AAAD", "#FFFFFF"),
+    ("nfl_0010", 2003, "#00558C", "#A2AAAD", "#010101"),
+    # --- Green Bay Packers ---
+    ("nfl_0011", 1996, "#285C4D", "#FFB81C", "#FFFFFF"),
+    # --- Houston Texans ---
+    ("nfl_0032", 2002, "#091F2C", "#A6192E", "#FFFFFF"),
+    # --- Indianapolis Colts ---
+    ("nfl_0012", 1996, "#001489", "#FFFFFF", None),
+    ("nfl_0012", 2002, "#012169", "#FFFFFF", None),
+    # --- Jacksonville Jaguars ---
+    ("nfl_0013", 1996, "#00677F", "#101820", "#B58500"),
+    ("nfl_0013", 2002, "#006271", "#010101", "#9A7611"),
+    # --- Kansas City Chiefs ---
+    ("nfl_0014", 1996, "#C8102E", "#FFB81C", "#FFFFFF"),
+    ("nfl_0014", 2002, "#A6192E", "#FFB81C", "#FFFFFF"),
+    # --- Miami Dolphins ---
+    ("nfl_0015", 1996, "#005F61", "#FF6720", "#FFFFFF"),
+    ("nfl_0015", 1997, "#005F61", "#FC4C02", "#0C2340"),
+    ("nfl_0015", 2013, "#008C95", "#FF8200", "#005776"),
+    # --- Minnesota Vikings ---
+    ("nfl_0016", 1996, "#512D6D", "#FFB81C", "#FFFFFF"),
+    ("nfl_0016", 2002, "#330072", "#FFB81C", "#FFFFFF"),
+    ("nfl_0016", 2010, "#582C83", "#FFB81C", "#FFFFFF"),
+    # --- New England Patriots ---
+    ("nfl_0017", 1996, "#012169", "#C8102E", "#A2AAAD"),
+    # --- New Orleans Saints ---
+    ("nfl_0018", 1996, "#B3A369", "#101820", "#FFFFFF"),
+    ("nfl_0018", 2002, "#B9975B", "#010101", "#FFFFFF"),
+    # --- New York Giants ---
+    ("nfl_0019", 1996, "#003087", "#C8102E", "#FFFFFF"),
+    # --- New York Jets ---
+    ("nfl_0020", 1996, "#046A38", "#101820", "#FFFFFF"),
+    ("nfl_0020", 1998, "#285C4D", "#FFFFFF", None),
+    ("nfl_0020", 2002, "#183029", "#FFFFFF", "#B5BD00"),
+    # --- Oakland/Las Vegas Raiders (code OAK, permanent) ---
+    ("nfl_0021", 1996, "#A2AAAD", "#010101", "#FFFFFF"),
+    ("nfl_0021", 2020, "#A2AAAD", "#010101", "#FFFFFF"),
+    # --- Philadelphia Eagles ---
+    ("nfl_0022", 1996, "#004851", "#101820", "#919D9D"),
+    # --- San Diego/LA Chargers (code SD, permanent) ---
+    ("nfl_0024", 1996, "#0C2340", "#FFB81C", "#FFFFFF"),
+    ("nfl_0024", 2017, "#0C2340", "#FFB81C", "#FFFFFF"),
+    # --- Seattle Seahawks ---
+    ("nfl_0025", 1996, "#003087", "#00843D", "#A2AAAD"),
+    ("nfl_0025", 2002, "#2D5980", "#091F2C", "#64A70B"),
+    ("nfl_0025", 2009, "#213D5A", "#091F2C", "#43B02A"),
+    # --- San Francisco 49ers ---
+    ("nfl_0026", 1996, "#9B2743", "#B9975B", "#101820"),
+    ("nfl_0026", 2002, "#9D2235", "#B9975B", "#010101"),
+    ("nfl_0026", 2009, "#A6192E", "#B9975B", "#FFFFFF"),
+    # --- St. Louis/LA Rams (code STL, permanent) ---
+    ("nfl_0027", 1996, "#002D72", "#FFB81C", "#FFFFFF"),
+    ("nfl_0027", 2000, "#041E42", "#AD841F", "#FFFFFF"),
+    ("nfl_0027", 2002, "#0C2340", "#C6AA76", "#FFFFFF"),
+    ("nfl_0027", 2016, "#0C2340", "#FFFFFF", "#C6AA76"),
+    # --- Tampa Bay Buccaneers ---
+    ("nfl_0028", 1996, "#FF8200", "#C8102E", "#FFFFFF"),
+    ("nfl_0028", 1997, "#A6192E", "#696158", "#010101"),
+    ("nfl_0028", 2014, "#C8102E", "#3D3935", "#B2B4B2"),
+    # --- Houston Oilers -> Tennessee Oilers -> Tennessee Titans (code TEN) ---
+    ("nfl_0029", 1996, "#418FDE", "#C8102E", "#FFFFFF"),
+    ("nfl_0029", 1997, "#418FDE", "#C8102E", "#FFFFFF"),
+    ("nfl_0029", 1999, "#0C2340", "#418FDE", "#FFFFFF"),
+    ("nfl_0029", 2018, "#0C2340", "#418FDE", "#B2B4B2"),
+    # --- Washington Redskins -> Football Team -> Commanders (code WAS) ---
+    ("nfl_0030", 1996, "#651C32", "#FFB81C", "#FFFFFF"),
+    ("nfl_0030", 2020, "#651C32", "#FFB81C", "#FFFFFF"),
+]
+
+
 def load_db_module(league: str):
     path = os.path.join(os.path.dirname(__file__), league, "db.py")
     spec = importlib.util.spec_from_file_location(f"{league}_db", path)
@@ -411,7 +533,7 @@ def load_db_module(league: str):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--league", required=True, choices=["nba", "wnba"])
+    p.add_argument("--league", required=True, choices=["nba", "wnba", "nfl"])
     args = p.parse_args()
 
     db = load_db_module(args.league)
@@ -425,8 +547,14 @@ def main():
     # NBA_CURRENT30_COLORS requires split_color_eras.py --league nba to
     # have already been run - those rows don't exist otherwise, and any
     # entry here will just print as SKIPPED (harmless, but check
-    # franchise.py status if you weren't expecting that).
-    rows = NBA_COLORS + NBA_CURRENT30_COLORS if args.league == "nba" else WNBA_COLORS
+    # franchise.py status if you weren't expecting that). Same story for
+    # NFL_COLORS and split_color_eras.py --league nfl.
+    if args.league == "nba":
+        rows = NBA_COLORS + NBA_CURRENT30_COLORS
+    elif args.league == "wnba":
+        rows = WNBA_COLORS
+    else:
+        rows = NFL_COLORS
 
     applied, skipped = 0, 0
     for team_id, start_season, primary, secondary, tertiary in rows:
