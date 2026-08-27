@@ -59,11 +59,6 @@ import SeasonRatingChart from "../SeasonRatingChart";
 import SeasonGameLog from "../SeasonGameLog";
 import Footer from "@/components/Footer";
 
-const VARIANT_LABELS = {
-  echo: "Echo ratings — carry-forward variant",
-  pulse: "Pulse ratings — season-reset variant",
-};
-
 const TABS = [
   { id: "standings", label: "Standings" },
   { id: "chart", label: "Rating Chart" },
@@ -218,7 +213,6 @@ export default function SeasonPage() {
             {isCurrentSeason && hasPlayoffData ? " · Playoffs" : ""}
           </div>
           <div className="hero-heading">Season Overview</div>
-          <div className="hero-sub">{leagueConfig ? VARIANT_LABELS[variant] : ""}</div>
         </div>
         {seasons.length > 0 && (
           <select

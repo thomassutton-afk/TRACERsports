@@ -42,11 +42,6 @@ import HistoricalTeamMark from "../../HistoricalTeamMark";
 import Footer from "@/components/Footer";
 import AllTimeChart from "../../AllTimeChart";
 
-const VARIANT_LABELS = {
-  echo: "Echo carry-forward variant",
-  pulse: "Pulse season-reset variant",
-};
-
 const GAMES_PER_PAGE = 30;
 
 function fmt1(v) {
@@ -230,11 +225,10 @@ export default function TeamPage() {
             </div>
           </div>
           <div className="hero-sub">
-            {VARIANT_LABELS[variant]}
             <select
               value={teamId}
               onChange={(e) => router.push(`/${league}/team/${e.target.value}?variant=${variant}`)}
-              style={{ ...selectStyle, marginLeft: 14 }}
+              style={selectStyle}
             >
               {Object.keys(leagueConfig.teams)
                 .sort()

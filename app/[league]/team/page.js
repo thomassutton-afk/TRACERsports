@@ -88,7 +88,6 @@ export default function TeamSelectorPage() {
         <div>
           <div className="hero-label">Franchise History</div>
           <div className="hero-heading">Teams</div>
-          <div className="hero-sub">Pick a team to see its full {leagueConfig.label} history</div>
         </div>
         <select
           value={selected}
@@ -193,9 +192,6 @@ function TeamGrid({ teamIds, teams, league, onSelect, muted = false, logoIndex =
             )}
             <div>
               <div style={{ fontSize: 13, fontWeight: 700, color: getTextColor(team) }}>{team.name}</div>
-              <div style={{ fontFamily: "var(--font-mono)", fontSize: 10, color: getTextColor(team), opacity: 0.7, letterSpacing: 0.5 }}>
-                {id}
-              </div>
             </div>
           </button>
         );

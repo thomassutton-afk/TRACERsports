@@ -3,6 +3,11 @@
 /**
  * app/about/page.js — About / Methodology page.
  *
+ * Content ported as-is from reference/old-site/AboutPage.jsx per TJ's
+ * call — including the "for the NBA" line in the first section, which is
+ * now inaccurate on a multi-sport site (flagged, not silently fixed;
+ * tracked as an open item).
+ *
  * Structural changes (not content changes):
  *   - Uses the real shared Nav.jsx instead of hand-rolled inline nav markup.
  *   - Uses the new components/Footer.jsx instead of a missing import.
@@ -39,17 +44,24 @@ function useAllTimeAccuracyTable() {
   useEffect(() => {
     let cancelled = false;
     (async () => {
-      const [nbaEcho, nbaPulse, wnbaEcho, wnbaPulse] = await Promise.all([
+      const [nbaEcho, nbaPulse, wnbaEcho, wnbaPulse, nflEcho, nflPulse] = await Promise.all([
         fetchLeagueAccuracy("nba", "echo"),
         fetchLeagueAccuracy("nba", "pulse"),
         fetchLeagueAccuracy("wnba", "echo"),
         fetchLeagueAccuracy("wnba", "pulse"),
+        fetchLeagueAccuracy("nfl", "echo"),
+        fetchLeagueAccuracy("nfl", "pulse"),
       ]);
       if (cancelled) return;
 
       setTable({
         NBA: { echo: buildSeasonAccuracy(nbaEcho.rows), pulse: buildSeasonAccuracy(nbaPulse.rows) },
         WNBA: { echo: buildSeasonAccuracy(wnbaEcho.rows), pulse: buildSeasonAccuracy(wnbaPulse.rows) },
+        NFL: { echo: buildSeasonAccuracy(nflEcho.rows), pulse: buildSeasonAccuracy(nflPulse.rows) },
+        // Combined is intentionally NBA+WNBA only, not +NFL — kept as-is
+        // pending a call on whether pooling a different sport's game-level
+        // accuracy into one "Combined" number is meaningful. Flagged for
+        // TJ, not decided here.
         Combined: {
           echo: buildSeasonAccuracy([...nbaEcho.rows, ...wnbaEcho.rows]),
           pulse: buildSeasonAccuracy([...nbaPulse.rows, ...wnbaPulse.rows]),
@@ -74,34 +86,29 @@ export default function AboutPage() {
         <div>
           <div className="hero-label">Methodology</div>
           <div className="hero-heading">About TRACER</div>
-          <div className="hero-sub">A quick rundown of how it works, and who built it</div>
         </div>
       </div>
 
       <div style={S.contentWrap}>
         <Section title="What is TRACER?">
           <p style={S.body}>
-            TRACER Sports builds rating systems that predict the outcomes of sporting
-            events based on a team&apos;s full history of results. Every model currently
-            in production uses an Elo-based approach, with two variants: Echo, a
-            continuous rating that carries forward between seasons with an adjustment
-            for roster turnover, and Pulse, which resets to a base rating of 1500 at
-            the start of every season to give a snapshot of that season in isolation.
+            TRACER is an Elo-based rating system for the NBA, calculating a single number
+            for every team after every game, going back to the 1995–96 season. An Elo
+            rating is a predictive system that calculates the probability of who will win
+            a game based on both teams&apos; current ratings.
           </p>
         </Section>
 
         <div style={S.divider} />
 
-        <Section title="What's covered right now">
+        <Section title="What's the difference between Pulse and Echo?">
           <p style={S.body}>
-            TRACER currently has models built for the NBA, WNBA, and NFL, with NCAA
-            College Football, NCAA Men&apos;s and Women&apos;s College Basketball, MLB, NHL,
-            and professional soccer in active development. The NBA and WNBA models are
-            both live on the site today — WNBA covers the league&apos;s full history, NBA
-            begins with the 1996 season, with plans to extend further back over time.
-            NFL is complete and next up to launch on the site; now that the platform
-            already supports multiple sports, that rollout should move faster than
-            WNBA&apos;s did.
+            Pulse and Echo ratings are identical in calculation. The only difference is
+            how they handle season-to-season carryover. The Pulse rating is an in-season
+            snapshot only. Every team begins the season with an identical rating, and only
+            the games in that season affect it. The Echo rating never fully resets: teams
+            carry forward 60% of their rating gap from average, resetting the rest of the
+            way toward a league-average baseline.
           </p>
         </Section>
 
@@ -123,15 +130,10 @@ export default function AboutPage() {
         <Section title="How accurate is it?">
           <p style={S.body}>
             The table below is computed live, straight off every game on record for each
-            league — not a fixed snapshot, so it moves as new games get added. The NBA
-            Echo rating was tested head-to-head against the now-discontinued FiveThirtyEight
-            NBA Elo ratings across 73,000 games covering the same seasons — and came out
-            ahead on accuracy. The NFL Echo rating was benchmarked against the field of
-            documented rating systems tracked on PredictionTracker&apos;s database back to
-            the 2000 season, averaging in the 60th percentile with its best individual
-            season ranking in the 90th percentile or higher — though since NFL isn&apos;t
-            live on the site yet, it isn&apos;t included in the table below. Work is
-            underway to bring player-level data into both models.
+            league — not a fixed snapshot, so it moves as new games get added. After
+            finishing the system, I tested the NBA Echo rating against the now-defunct NBA
+            Elo ratings that used to be available on FiveThirtyEight. Echo beat the
+            FiveThirtyEight model on accuracy, a result confirmed by significance testing.
           </p>
           {loading ? (
             <div style={S.tableLoading}>Loading live accuracy…</div>
@@ -149,7 +151,7 @@ export default function AboutPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  {["NBA", "WNBA", "Combined"].map((label) => {
+                  {["NBA", "WNBA", "NFL", "Combined"].map((label) => {
                     const row = table[label];
                     // Combined Brier is deliberately omitted, not just
                     // hidden with CSS - averaging a proper-scoring-rule

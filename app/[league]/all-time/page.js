@@ -41,11 +41,6 @@ import {
 import HistoricalTeamMark from "../HistoricalTeamMark";
 import Footer from "@/components/Footer";
 
-const VARIANT_LABELS = {
-  echo: "Echo carry-forward variant",
-  pulse: "Pulse season-reset variant",
-};
-
 const DECADES = ["All Eras", "1990s", "2000s", "2010s", "2020s"];
 const PER_PAGE = 50;
 
@@ -249,9 +244,7 @@ export default function AllTimeRankingsPage() {
         <div>
           <div className="hero-label">Historical Record</div>
           <div className="hero-heading">All-Time Rankings</div>
-          <div className="hero-sub">
-            Every team-season in {leagueConfig.label} history · {VARIANT_LABELS[variant]}
-          </div>
+          <div className="hero-sub">Every team-season in {leagueConfig.label} history</div>
         </div>
       </div>
 
