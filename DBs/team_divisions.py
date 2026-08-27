@@ -11,11 +11,13 @@ realignment — rare), update both this file and the matching config.js.
 LEAGUE_HAS_DIVISIONS = {
     "nba": True,
     "wnba": False,
+    "nfl": True,
 }
 
 LEAGUE_HAS_CONFERENCES = {
     "nba": True,
     "wnba": True,
+    "nfl": True,
 }
 
 # league -> team_id (code) -> (conference, division)
@@ -71,6 +73,20 @@ TEAM_CONF_DIV = {
         "PHX": ("West", None),
         "POR": ("West", None),
         "SEA": ("West", None),
+    },
+    # Codes are the pipeline's permanent franchise identities (OAK/SD/STL
+    # for the current Las Vegas Raiders/LA Chargers/LA Rams), matching
+    # lib/sports/nfl/config.js's `teams` keys exactly — same reasoning as
+    # NBA's CHH above.
+    "nfl": {
+        "BUF": ("AFC", "East"), "MIA": ("AFC", "East"), "NE": ("AFC", "East"), "NYJ": ("AFC", "East"),
+        "BAL": ("AFC", "North"), "CIN": ("AFC", "North"), "CLE": ("AFC", "North"), "PIT": ("AFC", "North"),
+        "HOU": ("AFC", "South"), "IND": ("AFC", "South"), "JAX": ("AFC", "South"), "TEN": ("AFC", "South"),
+        "DEN": ("AFC", "West"), "KC": ("AFC", "West"), "OAK": ("AFC", "West"), "SD": ("AFC", "West"),
+        "DAL": ("NFC", "East"), "NYG": ("NFC", "East"), "PHI": ("NFC", "East"), "WAS": ("NFC", "East"),
+        "CHI": ("NFC", "North"), "DET": ("NFC", "North"), "GB": ("NFC", "North"), "MIN": ("NFC", "North"),
+        "ATL": ("NFC", "South"), "CAR": ("NFC", "South"), "NO": ("NFC", "South"), "TB": ("NFC", "South"),
+        "ARI": ("NFC", "West"), "SEA": ("NFC", "West"), "SF": ("NFC", "West"), "STL": ("NFC", "West"),
     },
 }
 

@@ -101,6 +101,7 @@ CREATE TABLE IF NOT EXISTS games (
     post_gm_rate        FLOAT,
     w                   INTEGER DEFAULT 0,
     l                   INTEGER DEFAULT 0,
+    t                   INTEGER DEFAULT 0, -- ties (NFL only in practice - basketball leagues never populate this, always 0)
     r1w INTEGER DEFAULT 0, r1l INTEGER DEFAULT 0,
     r2w INTEGER DEFAULT 0, r2l INTEGER DEFAULT 0,
     r3w INTEGER DEFAULT 0, r3l INTEGER DEFAULT 0,

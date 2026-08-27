@@ -40,11 +40,6 @@ const TABS = [
   { id: "bracket", label: "Playoff Bracket" },
 ];
 
-const VARIANT_LABELS = {
-  echo: "Echo ratings — carry-forward variant",
-  pulse: "Pulse ratings — season-reset variant",
-};
-
 async function fetchStandings(league, season, variant) {
   const PAGE_SIZE = 1000; // matches Supabase/PostgREST's typical default Max Rows;
                            // safe even if the project's cap is raised later, since
@@ -280,9 +275,7 @@ export default function LeaguePage() {
             {leagueConfig.seasonLabel(season)} Season
           </div>
           <div className="hero-heading">Dashboard</div>
-          <div className="hero-sub">
-            {VARIANT_LABELS[variant]} · Updated after every game
-          </div>
+          <div className="hero-sub">Updated Daily</div>
         </div>
       </div>
 

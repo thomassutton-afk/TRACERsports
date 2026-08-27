@@ -28,6 +28,7 @@ import TeamMark from "./TeamMark";
 import { displayAbbr } from "../../lib/logoFilenameOverrides";
 import { rankTeams, buildContext } from "../../lib/tiebreakers";
 import tiebreakerOverrides from "../../lib/sports/tiebreakerOverrides.json";
+import { getFillColor, getTextColor } from "../../lib/teamColors";
 
 const mono = "var(--font-mono)";
 const serif = "var(--font-display)";
@@ -63,8 +64,8 @@ function buildMatches(poGames) {
 
 export default function NflBracketTab({ poGames, standings, games = [], leagueConfig, season, variant }) {
   const teams = leagueConfig.teams;
-  const tc = (abbr) => teams[abbr]?.primary || "#663399";
-  const ts = (abbr) => teams[abbr]?.secondary || tc(abbr);
+  const tc = (abbr) => (teams[abbr] ? getFillColor(teams[abbr]) : null) || "#663399";
+  const ts = (abbr) => (teams[abbr] ? getTextColor(teams[abbr]) : null) || tc(abbr);
   const tn = (abbr) => teams[abbr]?.name || abbr;
   const roundLabels = leagueConfig.engine?.roundLabels || {};
   const seasonLabel = leagueConfig.seasonLabel ? leagueConfig.seasonLabel(season) : season;
