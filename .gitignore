@@ -45,3 +45,5 @@ __pycache__/
 *.pyc
 .vercel
 .env*.local
+
+social_posts/

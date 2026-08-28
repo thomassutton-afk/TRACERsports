@@ -19,7 +19,7 @@ import os
 # Path to your logos folder. The script processes both subfolders.
 # Update this to match your machine, e.g.:
 # Windows: r"C:\Users\tjsut\tracersports-app\public\logos"
-LOGOS_DIR = r"C:\Users\tjsut\tracersports-app\public\logos"
+LOGOS_DIR = r"C:\Users\tjsut\TRACERsports\public\logos"
 
 # How close to white a pixel needs to be to get removed.
 # 255 = only pure white. 230 = catches off-white/light grey too.
