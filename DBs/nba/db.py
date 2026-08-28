@@ -258,6 +258,19 @@ def _migrate(conn: sqlite3.Connection) -> None:
         conn.executescript(SCHEMA)
         conn.commit()
 
+    # Ties support: `ratings.t` records tied games. NBA/WNBA games are
+    # structurally tie-free, but the column is part of SCHEMA now so
+    # cross-league code (export_to_supabase.py, etc.) doesn't need to
+    # special-case leagues. Added 2026-08 - folded in from the old
+    # standalone migrate_add_ties.py. Simple ALTER TABLE here (not a
+    # drop/recreate like the variant migrations above) since it's a
+    # nullable column with a default - existing rows just get t=0,
+    # which is correct (they're not ties).
+    ratings_cols = {row[1] for row in conn.execute("PRAGMA table_info(ratings)")}
+    if ratings_cols and "t" not in ratings_cols:
+        conn.execute("ALTER TABLE ratings ADD COLUMN t REAL DEFAULT 0")
+        conn.commit()
+
     # Era-specific colors: nullable by design. A row with no colors set
     # just means nobody's populated that era's colors yet - callers fall
     # back to the current identity's colors (from config.js), not an
