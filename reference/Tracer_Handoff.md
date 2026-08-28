@@ -31,7 +31,7 @@ TJ's stated preferences, reconfirmed this session: confirm before writing code, 
 
 Files now live at `DBs\nfl\` (12 files, matching `DBs\nba\`/`DBs\wnba\` exactly), not the old `NFL_Elo\` folder. `nfl_elo.db` and `param_schedule.json` moved to `DBs\` (top level, alongside `nba_elo.db`/`wnba_elo.db` — same reasoning: `DB_PATH` is relative to wherever the command runs from). Confirmed via a real, non-dry-run `add_season.py` run against TJ's actual 8,029-game database: real 2025 standings check out, no errors.
 
-**Deliberately not carried over**: 15 one-off tuning/dev scripts (`nfl_tune_engine.py`, `build_nfl_db.py`, `retune_season.py`, etc.) and their scratch data — none of the 12 core pipeline scripts reference them, confirmed by grep. `NFL_Elo\` has nothing left worth keeping once the file moves above are done.
+**Deliberately left in place at the time, since deleted 2026-08-27**: 15 one-off tuning/dev scripts (`nfl_tune_engine.py`, `build_nfl_db.py`, `retune_season.py`, etc.) and their scratch data — none of the 12 core pipeline scripts reference them, confirmed by grep. `NFL_Elo\` (27 files total, including these 15) has been deleted from the repo — nothing outside the folder referenced any of it.
 
 ### 2. Frontend wiring
 - `lib/sports/nfl/config.js` — all 32 teams, cross-checked byte-for-byte against the real database's registered codes. Team codes are the pipeline's **permanent** franchise identities (`OAK`/`SD`/`STL` for the current Las Vegas Raiders/LA Chargers/LA Rams — same convention as NBA's `CHH`), while `name`/`city` fields show the current identity. Conferences/divisions reflect the current alignment only (not era-correct historically — that's a separate, not-yet-built concern, same status as NBA's "Fix B").
@@ -96,11 +96,13 @@ This was not a smooth one-pass build — it involved a long chain of real bugs, 
 
 ## Open items / where to pick up next
 
+*A separate site-polish pass landed 2026-08-27, after this handoff was written — text cleanup, a homepage bug fix, nav redesign, a full `lib/teamColors.js` rewrite, and a `lib/gamesData.js` load-speed fix. Documented in `GITHUB_SYNC_HANDOFF.md`'s "Site polish pass" section rather than here, since it wasn't part of the original NFL build this doc covers — check there too before starting new work.*
+
 **New from this session:**
 1. **Delete the stray `wnba_elo.db` copies** (repo root, `DBs\wnba\`) once confirmed nothing depends on them.
-2. **NFL colors and logos** — TJ has this in progress separately. `lib/sports/nfl/config.js`'s current hex values are real official colors used as placeholders; safe to overwrite whenever that work lands. Logo image files need to exist at `/logos/nfl/{code}.png` using **current** abbreviations for the three relocated franchises (`LV.png`/`LAC.png`/`LAR.png`, not `OAK`/`SD`/`STL`) — `lib/logoFilenameOverrides.js` already expects this.
+2. **NFL colors and logos** — TJ has this in progress separately. `lib/sports/nfl/config.js`'s current hex values are real official colors used as placeholders; safe to overwrite whenever that work lands. Logo image files need to exist at `/logos/nfl/{code}.png` using **current** abbreviations for the three relocated franchises (`LV.png`/`LAC.png`/`LAR.png`, not `OAK`/`SD`/`STL`) — `lib/logoFilenameOverrides.js` already expects this. Whatever colors land here now flows through a substantially more robust readability system than existed when this was written (see the `lib/teamColors.js` rewrite in `GITHUB_SYNC_HANDOFF.md`'s 2026-08-27 section) — new colors get contrast-checked automatically, so this shouldn't reintroduce any of the readability issues that system fixed.
 3. **Era-correct NFL team identity** (the equivalent of NBA/WNBA's "Fix B") — not built. `lib/sports/nfl/config.js` only reflects current conferences/divisions/names; historical games would show today's alignment, not what was true at the time.
-4. **The 15 leftover one-off scripts in `NFL_Elo\`** — never triaged individually beyond confirming none of them are load-bearing for the 12 core files now in `DBs\nfl\`. `NFL_Elo\` itself is safe to delete once TJ's confirmed the moved files are all working.
+4. ~~**The 15 leftover one-off scripts in `NFL_Elo\`**~~ — **Done 2026-08-27.** `NFL_Elo\` (27 files, including these 15) deleted entirely — confirmed via repo-wide grep that nothing outside the folder referenced any of it first.
 5. **Confirm the tie backfill SQL and the `t` column addition were both actually run** — flagged and given to TJ, not independently re-confirmed in a follow-up session.
 
 **Carried forward, still open (unchanged by this session):**
