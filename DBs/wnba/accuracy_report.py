@@ -40,7 +40,9 @@ import csv
 import os
 import db
 
-DB_PATH = "wnba_elo.db"
+DB_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "..", "wnba_elo.db"
+)
 OUT_DIR = "reports"
 
 

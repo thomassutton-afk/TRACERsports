@@ -17,7 +17,9 @@ import os
 import db
 from rebuild import standings
 
-DB_PATH = "nba_elo.db"
+DB_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "..", "nba_elo.db"
+)
 OUT_DIR = "reports"
 
 

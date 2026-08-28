@@ -1,3 +1,4 @@
+import os
 """
 Delete one or more entire seasons from the database.
 
@@ -15,7 +16,9 @@ import argparse
 import db
 from rebuild import rebuild_ratings, VARIANTS
 
-DB_PATH = "nfl_elo.db"
+DB_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "..", "nfl_elo.db"
+)
 
 
 def preview(conn, seasons):

@@ -20,7 +20,9 @@ import db
 import engine
 from rebuild import variant_params
 
-DB_PATH = "nba_elo.db"
+DB_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "..", "nba_elo.db"
+)
 OUT_DIR = "reports"
 
 

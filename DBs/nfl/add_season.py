@@ -1,3 +1,4 @@
+import os
 """
 Add a new season's games to the database, from a single command.
 
@@ -54,7 +55,9 @@ import predict
 import simulate_season
 from rebuild import rebuild_ratings, standings, sanity_checks, VARIANTS
 
-DB_PATH = "nfl_elo.db"
+DB_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "..", "nfl_elo.db"
+)
 
 
 def _read_any(path: str) -> pd.DataFrame:

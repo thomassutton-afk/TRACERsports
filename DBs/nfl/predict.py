@@ -21,7 +21,9 @@ import os
 import db
 from rebuild import build_current_engine
 
-DB_PATH = "nfl_elo.db"
+DB_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "..", "nfl_elo.db"
+)
 OUT_DIR = "reports"
 
 

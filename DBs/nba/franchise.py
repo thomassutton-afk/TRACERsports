@@ -1,3 +1,4 @@
+import os
 """
 Manage franchise relocations and fold/revival resets.
 
@@ -61,7 +62,9 @@ import sys
 import db
 from rebuild import rebuild_ratings
 
-DB_PATH = "nba_elo.db"
+DB_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "..", "nba_elo.db"
+)
 
 
 def _resolve_or_die(conn, current_code: str) -> str:
