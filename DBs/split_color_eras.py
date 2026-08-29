@@ -213,16 +213,15 @@ NFL_SPLITS = {
     "NO": [2002, 2012],
     "NYG": [2000],
     "NYJ": [1998, 2002, 2019],
-    "OAK": [2025],  # lands inside the open 2020-present (Las Vegas) row
     "PHI": [2003],
-    "SD": [2020],  # lands inside the open 2017-present (LA Chargers) row
     "SEA": [2002, 2009, 2012],
     "SF": [2002, 2009, 2025],
-    "STL": [2000, 2002, 2020],  # 2000/2002 land inside the closed 1996-2015
-                                  # (St. Louis) row, 2020 inside the open
-                                  # 2016-present (LA Rams) row
+    "STL": [2000, 2002],  # both land inside the closed 1996-2015 row
     "TB": [1997, 2014, 2020],
     "TEN": [2018, 2026],  # both land inside the open 1999-present (Titans) row
+    "LV": [2025],  # post-relocation color tweak, lands inside the open 2020-present row
+    "LAC": [2020],  # post-relocation color change, lands inside the open 2017-present row
+    "LAR": [2020],  # post-relocation color change, lands inside the open 2016-present row
     # BAL, CHI, PIT: single continuous color era 1996-present, no split needed.
 }
 

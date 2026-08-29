@@ -93,6 +93,12 @@ def build_current_engine(conn, variant: str = "echo", resets=None, params=None) 
     the time this runs), but it's a real path here the first time NFL
     data gets loaded."""
     games = db.load_games(conn)
+    missing = engine.check_conf_div_coverage(games)
+    if missing:
+        raise RuntimeError(
+            "conf_div() coverage is incomplete - fix these before replaying games:\n  "
+            + "\n  ".join(missing)
+        )
     resets = resets if resets is not None else db.load_resets(conn)
     use_schedule = params is None
 
@@ -142,6 +148,13 @@ def rebuild_ratings(conn, variant: str, params: dict | None = None) -> None:
         db.clear_ratings(conn, variant)
         conn.commit()
         return
+
+    missing = engine.check_conf_div_coverage(games)
+    if missing:
+        raise RuntimeError(
+            "conf_div() coverage is incomplete - fix these before rebuilding ratings:\n  "
+            + "\n  ".join(missing)
+        )
 
     resets = db.load_resets(conn)
     use_schedule = params is None

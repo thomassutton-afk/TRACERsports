@@ -114,14 +114,22 @@ def _po_mult(game_type: str, round_: Optional[str], params: dict) -> float:
 
 
 # ----------------------------------------------------------------------
-# Conference / division reference table, keyed on each franchise's
-# stable NFL abbreviation. Unlike NBA, an NFL team's code does NOT
-# change across a relocation (Oakland/LA/Las Vegas all play as "OAK"),
-# so this only needs to branch on the 2002 realignment, not on
-# team_id/era history. Games carry their home_code/away_code alongside
-# the permanent home_team/away_team synthetic IDs specifically so this
-# lookup can stay pure/DB-free here - see db.py's `games.home_code` /
-# `away_code` columns.
+# Conference / division reference table, keyed on whatever code was
+# actually used in the source file for that game (its home_code/
+# away_code, NOT its permanent team_id) - a franchise that relocates
+# gets a NEW entry here under its new code (e.g. Oakland's OAK entry
+# AND Las Vegas's LV entry both exist, side by side, mapping to the
+# same conference/division), rather than the old code's entry being
+# edited or removed. This branches on the 2002 realignment only,
+# still nothing about team_id/era history - games carry their
+# home_code/away_code alongside the permanent home_team/away_team
+# synthetic IDs specifically so this lookup can stay pure/DB-free here
+# - see db.py's `games.home_code` / `away_code` columns. Whenever
+# franchise.py relocate registers a new code via --alias, the new code
+# needs a matching entry added here too - see
+# engine.check_conf_div_coverage(), which rebuild.py runs before every
+# rebuild specifically to catch a missing one before it reaches
+# process_week() as a bare KeyError.
 # ----------------------------------------------------------------------
 TEAM_CONF_DIV_PRE2002 = {
     "ARI": ("NFC", "East"), "ATL": ("NFC", "West"), "BAL": ("AFC", "Central"),
@@ -134,7 +142,7 @@ TEAM_CONF_DIV_PRE2002 = {
     "OAK": ("AFC", "West"), "PHI": ("NFC", "East"), "PIT": ("AFC", "Central"),
     "SD": ("AFC", "West"), "SEA": ("AFC", "West"), "SF": ("NFC", "West"),
     "STL": ("NFC", "West"), "TB": ("NFC", "Central"), "TEN": ("AFC", "Central"),
-    "WAS": ("NFC", "East"),
+    "WAS": ("NFC", "East"), "HOO": ("AFC", "Central")
 }
 
 TEAM_CONF_DIV_2002_PLUS = {
@@ -148,13 +156,41 @@ TEAM_CONF_DIV_2002_PLUS = {
     "NYJ": ("AFC", "East"), "OAK": ("AFC", "West"), "PHI": ("NFC", "East"),
     "PIT": ("AFC", "North"), "SD": ("AFC", "West"), "SEA": ("NFC", "West"),
     "SF": ("NFC", "West"), "STL": ("NFC", "West"), "TB": ("NFC", "South"),
-    "TEN": ("AFC", "South"), "WAS": ("NFC", "East"),
+    "TEN": ("AFC", "South"), "WAS": ("NFC", "East"),"LAR": ("NFC", "West"),
+    "LAC": ("AFC", "West"), "LV": ("AFC", "West"),"WFT": ("NFC", "East")
 }
 
 
 def conf_div(code: str, season: int) -> tuple[str, str]:
     table = TEAM_CONF_DIV_PRE2002 if season <= 2001 else TEAM_CONF_DIV_2002_PLUS
     return table[code]
+
+
+def check_conf_div_coverage(games: list[dict]) -> list[str]:
+    """Return one description per (season, code) combination among these
+    games' home_code/away_code that conf_div() cannot resolve - empty
+    list if every code/season pair is covered.
+
+    Call this BEFORE replaying games through process_week(), so a
+    missing entry (a new team code, or a relocation whose new code
+    hasn't been added to TEAM_CONF_DIV_PRE2002/TEAM_CONF_DIV_2002_PLUS
+    yet) surfaces as one complete, actionable list up front - instead
+    of a bare KeyError deep inside process_week() that aborts the whole
+    rebuild on the FIRST missing code it happens to hit, leaving every
+    other missing code (if there's more than one) undiscovered until
+    the next run."""
+    missing = set()
+    for g in games:
+        for code in (g["home_code"], g["away_code"]):
+            try:
+                conf_div(code, g["season"])
+            except KeyError:
+                missing.add((g["season"], code))
+    return [
+        f"season {season}: no conf_div entry for code '{code}' "
+        f"(add it to TEAM_CONF_DIV_PRE2002 or TEAM_CONF_DIV_2002_PLUS in engine.py)"
+        for season, code in sorted(missing)
+    ]
 
 
 @dataclass

@@ -9,26 +9,43 @@ identify a team by whatever code it's CURRENTLY known by.
 
 RELOCATION (same franchise, new city - rating carries over):
 
-    python3 franchise.py relocate --current-code SD --name "Los Angeles Chargers" --season 2017
+    python3 franchise.py relocate --current-code SD --alias LAC --name "Los Angeles Chargers" --season 2017
 
-    Most real relocations do NOT change the code used in source files
-    (the Chargers' move to LA stayed coded "SD" throughout - that's
-    this dataset's own convention, matching how Continelo tags every
-    era of a franchise under one constant code). This closes the old
-    team_history era at --season minus one and opens a new one at
-    --season, under the SAME code, with the new display name - so old
+    This dataset's convention is that a franchise's code tracks
+    whatever abbreviation is CURRENTLY real (matching how source files
+    actually label it), not one constant code held forever - so most
+    real relocations DO pass --alias (Oakland/Las Vegas: OAK->LV in
+    2020, San Diego/LA Chargers: SD->LAC in 2017, St. Louis/LA Rams:
+    STL->LAR in 2016, Washington's WAS->WFT->WAS round trip in
+    2020-2021). Passing --alias registers the new code as an alias for
+    the SAME team_id, so future files using the new code merge into
+    this franchise's existing history instead of registering a brand
+    new team - and closes the old team_history era at --season minus
+    one, opening a new one at --season under the new code/name, so old
     seasons still show "San Diego Chargers" and new ones show "Los
-    Angeles Chargers", even though nothing in the source files or the
-    alias table changes.
+    Angeles Chargers".
 
-    Pass --alias only on the rarer occasion a relocation genuinely
-    changes the code itself:
+    IMPORTANT: engine.py's conf_div() table (conference/division
+    lookup) is keyed on these same source-file codes, completely
+    separately from this alias mechanism - so whenever a relocation
+    introduces a new code, that code ALSO needs an entry added to
+    engine.py's TEAM_CONF_DIV_2002_PLUS (or TEAM_CONF_DIV_PRE2002),
+    or rebuild.py's rebuild will refuse to run with a clear
+    "conf_div() coverage is incomplete" error (see
+    engine.check_conf_div_coverage(), called automatically before
+    every rebuild) until that entry exists. Do this BEFORE loading any
+    season file that uses the new code.
 
-    python3 franchise.py relocate --current-code OLD --alias NEW --name "New City Team" --season 2030
+    Omit --alias only when a franchise's real-world code genuinely
+    never changed across its relocation (the code stays the same
+    because the abbreviation itself didn't change, not because this
+    script defaults to preserving it):
 
-    This additionally registers NEW as an alias for the same team_id,
-    so future files using the new code merge into this franchise's
-    existing history instead of registering a brand new team.
+    python3 franchise.py relocate --current-code OLD --name "New City Team" --season 2030
+
+    This still closes the old team_history era and opens a new one
+    with the new display name, but keeps using --current-code as the
+    code going forward, since no new code needs registering.
 
     You do NOT need this if a franchise's code stays the same but its
     name/city changes cosmetically - for that just rename it:
@@ -162,6 +179,19 @@ def revive(conn, current_code: str, season: int, name: str | None):
     print("Ratings rebuilt.")
 
 
+def set_colors(conn, current_code: str, season: int, primary: str, secondary: str, tertiary: str):
+    team_id = _resolve_or_die(conn, current_code)
+    ok = db.set_era_colors(conn, team_id, season, primary, secondary, tertiary)
+    conn.commit()
+    if not ok:
+        print(f"No team_history era for '{current_code}' (team_id '{team_id}') starts exactly "
+              f"at season {season}. Run 'franchise.py status' to see each era's real "
+              f"start_season - colors are set on a specific era, not a season range.")
+        sys.exit(1)
+    print(f"Set colors for '{current_code}' (team_id '{team_id}') era starting {season}: "
+          f"primary={primary} secondary={secondary} tertiary={tertiary}")
+
+
 def list_status(conn):
     print("Teams:")
     for tid, name in conn.execute("SELECT team_id, team_name FROM teams ORDER BY team_id"):
@@ -172,16 +202,18 @@ def list_status(conn):
         print("  (none)")
     for alias, tid, note in rows:
         print(f"  {alias:6s} -> {tid:10s} {note or ''}")
-    print("\nEra history (team_id: code/name valid seasons):")
+    print("\nEra history (team_id: code/name valid seasons, colors if set):")
     rows = conn.execute(
-        "SELECT team_id, code, name, start_season, end_season FROM team_history "
+        "SELECT team_id, code, name, start_season, end_season, "
+        "primary_color, secondary_color, tertiary_color FROM team_history "
         "ORDER BY team_id, start_season"
     ).fetchall()
     if not rows:
         print("  (none)")
-    for tid, code, name, start, end in rows:
+    for tid, code, name, start, end, pri, sec, ter in rows:
         end_label = end if end is not None else "present"
-        print(f"  {tid:10s} {code:6s} {name:24s} {start}-{end_label}")
+        colors = f"  colors: {pri}/{sec}/{ter}" if pri else ""
+        print(f"  {tid:10s} {code:6s} {name:24s} {start}-{end_label}{colors}")
     print("\nForced resets (team_id, season -> base rating):")
     rows = conn.execute("SELECT team_id, season, note FROM franchise_resets ORDER BY season").fetchall()
     if not rows:
@@ -196,10 +228,12 @@ def main():
 
     r = sub.add_parser("relocate")
     r.add_argument("--current-code", required=True, help="the code this team is CURRENTLY known by")
-    r.add_argument("--alias", help="new team code, ONLY if the relocation actually changes the "
-                    "code used in source files - most real relocations don't (e.g. the Chargers' "
-                    "move stayed coded 'SD' throughout); omit this and the new era just keeps "
-                    "using --current-code")
+    r.add_argument("--alias", help="new team code, if the relocation changes the code used in "
+                    "source files - most real relocations do (e.g. SD->LAC, STL->LAR, OAK->LV). "
+                    "Remember to also add a matching entry to engine.py's conf_div table before "
+                    "loading any file with the new code. Omit --alias only when the real-world "
+                    "abbreviation genuinely didn't change; the new era then just keeps using "
+                    "--current-code")
     r.add_argument("--name", help="new display name")
     r.add_argument("--season", type=int,
                     help="season the relocation takes effect (closes the old team_history era "
@@ -214,6 +248,15 @@ def main():
     rv.add_argument("--season", type=int, required=True)
     rv.add_argument("--name", help="new display name")
 
+    sc = sub.add_parser("set-colors")
+    sc.add_argument("--current-code", required=True, help="the code this team is CURRENTLY known by")
+    sc.add_argument("--season", type=int, required=True,
+                     help="the era's start_season (see 'status') - identifies which era row "
+                          "to color, since a code alone can be ambiguous across eras")
+    sc.add_argument("--primary", required=True, help="hex color, e.g. '#00653A'")
+    sc.add_argument("--secondary", required=True, help="hex color")
+    sc.add_argument("--tertiary", required=True, help="hex color")
+
     sub.add_parser("status")
 
     args = p.parse_args()
@@ -225,6 +268,8 @@ def main():
         rename(conn, args.current_code, args.name)
     elif args.cmd == "revive":
         revive(conn, args.current_code, args.season, args.name)
+    elif args.cmd == "set-colors":
+        set_colors(conn, args.current_code, args.season, args.primary, args.secondary, args.tertiary)
     elif args.cmd == "status":
         list_status(conn)
 
