@@ -84,15 +84,15 @@ ACTIVE_CODES = {
         "ATL", "CHI", "CON", "IND", "NYL", "TOR", "WAS", "DAL", "GSV", "LVA",
         "LAS", "MIN", "PHX", "POR", "SEA",
     },
-    # OAK/SD/STL are the pipeline's permanent franchise codes for the
-    # current Las Vegas Raiders / LA Chargers / LA Rams - same reasoning
-    # as NBA's CHH: the code is a stable historical identity, not
-    # necessarily today's city. See lib/sports/nfl/config.js for the
-    # current display name/city each code actually renders as.
+    # Each code here is a franchise's CURRENT code (matches id_to_code's
+    # output, and lib/sports/nfl/config.js's team keys) - LV/LAC/LAR, not
+    # the old OAK/SD/STL, since those relocations are tracked via
+    # franchise.py's --alias mechanism and every exported row uses the
+    # current code (see build_games()/build_teams()'s id_to_code lookup).
     "nfl": {
         "ARI", "ATL", "BAL", "BUF", "CAR", "CHI", "CIN", "CLE", "DAL", "DEN",
         "DET", "GB", "HOU", "IND", "JAX", "KC", "MIA", "MIN", "NE", "NO",
-        "NYG", "NYJ", "OAK", "PHI", "PIT", "SD", "SEA", "SF", "STL", "TB",
+        "NYG", "NYJ", "LV", "PHI", "PIT", "LAC", "SEA", "SF", "LAR", "TB",
         "TEN", "WAS",
     },
 }
