@@ -47,3 +47,5 @@ __pycache__/
 .env*.local
 
 social_posts/
+
+reports/

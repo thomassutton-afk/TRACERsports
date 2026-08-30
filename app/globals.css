@@ -136,6 +136,74 @@ body {
 }
 .vt-btn.active { background: var(--acc); color: #fff; }
 
+/* HAMBURGER — hidden on desktop, shown at mobile breakpoint below */
+.nav-hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.nav-hamburger span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--text);
+  border-radius: 2px;
+  transition: transform 0.15s, opacity 0.15s;
+}
+.nav-hamburger.open span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+.nav-hamburger.open span:nth-child(2) { opacity: 0; }
+.nav-hamburger.open span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+/* MOBILE DRAWER — dropdown panel under the nav, mobile only */
+.mobile-drawer {
+  display: none;
+  flex-direction: column;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 8px 1.25rem 16px;
+}
+.mobile-drawer-links { display: flex; flex-direction: column; }
+.mobile-drawer-link {
+  padding: 12px 4px;
+  color: var(--text2);
+  text-decoration: none;
+  font-family: var(--font-body);
+  font-size: 15px;
+  border-bottom: 1px solid var(--border);
+}
+.mobile-drawer-link.active { color: var(--text); font-weight: 500; }
+.mobile-drawer-divider { height: 12px; }
+.mobile-drawer-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .nav-links,
+  .nav-right {
+    display: none;
+  }
+  .nav {
+    padding: 0 1.25rem;
+  }
+  .nav-hamburger {
+    display: flex;
+  }
+  .mobile-drawer {
+    display: flex;
+  }
+}
+
 /* MAIN GRID (two-column Dashboard layout) */
 .main-grid {
   display: grid;
@@ -238,4 +306,3 @@ body {
   border-color: var(--acc);
   transform: translateY(-2px);
 }
-

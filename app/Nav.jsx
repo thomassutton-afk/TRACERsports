@@ -9,8 +9,15 @@
  * Dashboard/Season/All-Time/Teams are league-aware (built from
  * currentLeague, so they follow whichever league is active); About is
  * league-agnostic.
+ *
+ * Mobile (<=768px): nav-links / nav-right are hidden via CSS and replaced
+ * by a hamburger button that toggles a dropdown drawer containing the same
+ * links, variant toggle, and league select, stacked for touch. Desktop is
+ * unaffected — the drawer only ever renders because the hamburger (the only
+ * way to set menuOpen true) is itself hidden above the breakpoint.
  */
 
+import { useState } from "react";
 import Link from "next/link";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
 import { SPORTS, getAllLeagueIds, getLeagueConfig } from "@/lib/sports/registry";
@@ -21,6 +28,7 @@ const VARIANTS = [
 ];
 
 export default function Nav() {
+  const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -124,7 +132,97 @@ export default function Nav() {
             ))}
           </select>
         </div>
+
+        <button
+          type="button"
+          className={`nav-hamburger${menuOpen ? " open" : ""}`}
+          onClick={() => setMenuOpen((open) => !open)}
+          aria-label={menuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={menuOpen}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
       </nav>
+
+      {menuOpen && (
+        <div className="mobile-drawer">
+          <div className="mobile-drawer-links">
+            <Link
+              href={`/${navLeague}?variant=${currentVariant}`}
+              className={`mobile-drawer-link${onDashboard ? " active" : ""}`}
+              onClick={() => setMenuOpen(false)}
+            >
+              Dashboard
+            </Link>
+            <Link
+              href={`/${navLeague}/season?variant=${currentVariant}`}
+              className={`mobile-drawer-link${onSeasonPage ? " active" : ""}`}
+              onClick={() => setMenuOpen(false)}
+            >
+              Season
+            </Link>
+            <Link
+              href={`/${navLeague}/all-time?variant=${currentVariant}`}
+              className={`mobile-drawer-link${onAllTimePage ? " active" : ""}`}
+              onClick={() => setMenuOpen(false)}
+            >
+              All-Time
+            </Link>
+            <Link
+              href={`/${navLeague}/team?variant=${currentVariant}`}
+              className={`mobile-drawer-link${onTeamPage ? " active" : ""}`}
+              onClick={() => setMenuOpen(false)}
+            >
+              Teams
+            </Link>
+            <Link
+              href="/about"
+              className={`mobile-drawer-link${pathname === "/about" ? " active" : ""}`}
+              onClick={() => setMenuOpen(false)}
+            >
+              About
+            </Link>
+          </div>
+
+          <div className="mobile-drawer-divider" />
+
+          <div className="mobile-drawer-controls">
+            <div className="variant-toggle">
+              {VARIANTS.map((v) => (
+                <Link
+                  key={v.id}
+                  href={`${pathname}?variant=${v.id}`}
+                  className={`vt-btn${currentVariant === v.id ? " active" : ""}`}
+                  onClick={() => setMenuOpen(false)}
+                >
+                  {v.label}
+                </Link>
+              ))}
+            </div>
+            <select
+              value={currentLeague && leagueIds.includes(currentLeague) ? currentLeague : navLeague}
+              onChange={(e) => {
+                goToLeague(e.target.value);
+                setMenuOpen(false);
+              }}
+              className="league-select"
+              aria-label="Switch league"
+            >
+              {Object.values(SPORTS).map((sport) => (
+                <optgroup key={sport.id} label={sport.label}>
+                  {sport.leagues.map((id) => (
+                    <option key={id} value={id}>
+                      {getLeagueConfig(id).label}
+                    </option>
+                  ))}
+                </optgroup>
+              ))}
+            </select>
+          </div>
+        </div>
+      )}
 
       <div className="color-stripe">
         <div className="stripe-acc" />

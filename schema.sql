@@ -48,15 +48,6 @@ CREATE TABLE IF NOT EXISTS team_history (
     FOREIGN KEY (league, team_id) REFERENCES teams(league, team_id)
 );
 
-CREATE TABLE IF NOT EXISTS seasons (
-    league      TEXT NOT NULL,
-    season      INTEGER NOT NULL,
-    variant     TEXT NOT NULL,
-    start_date  DATE,
-    end_date    DATE,
-    PRIMARY KEY (league, season, variant)
-);
-
 CREATE TABLE IF NOT EXISTS preseason_ratings (
     league         TEXT NOT NULL,
     season         INTEGER NOT NULL,
@@ -189,35 +180,9 @@ CREATE TABLE IF NOT EXISTS season_projections (
 ALTER TABLE season_projections ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "Public read access" ON season_projections FOR SELECT USING (true);
 
-CREATE TABLE IF NOT EXISTS standings (
-    league              TEXT    NOT NULL,
-    season              INTEGER NOT NULL,
-    variant             TEXT    NOT NULL,
-    team_id             TEXT    NOT NULL,
-    rs_wins             INTEGER DEFAULT 0,
-    rs_losses           INTEGER DEFAULT 0,
-    rs_end_rating       FLOAT,
-    po_r1_wins          INTEGER DEFAULT 0,
-    po_r1_losses        INTEGER DEFAULT 0,
-    po_r2_wins          INTEGER DEFAULT 0,
-    po_r2_losses        INTEGER DEFAULT 0,
-    po_r3_wins          INTEGER DEFAULT 0,
-    po_r3_losses        INTEGER DEFAULT 0,
-    po_finals_wins      INTEGER DEFAULT 0,
-    po_finals_losses    INTEGER DEFAULT 0,
-    po_end_rating       FLOAT,
-    is_rs_champ         BOOLEAN DEFAULT FALSE,
-    is_conf_champ       BOOLEAN DEFAULT FALSE,
-    is_div_champ        BOOLEAN DEFAULT FALSE,
-    is_champion          BOOLEAN DEFAULT FALSE,
-    PRIMARY KEY (league, season, variant, team_id),
-    FOREIGN KEY (league, team_id) REFERENCES teams(league, team_id)
-);
-
 CREATE INDEX IF NOT EXISTS idx_games_league_season_variant     ON games (league, season, variant);
 CREATE INDEX IF NOT EXISTS idx_schedule_league_season_variant  ON schedule (league, season, variant);
 CREATE INDEX IF NOT EXISTS idx_projections_league_season_variant ON season_projections (league, season, variant);
-CREATE INDEX IF NOT EXISTS idx_standings_league_season_variant ON standings (league, season, variant);
 CREATE INDEX IF NOT EXISTS idx_preseason_league_season_variant ON preseason_ratings (league, season, variant);
 CREATE INDEX IF NOT EXISTS idx_teams_sport                     ON teams (sport);
 CREATE INDEX IF NOT EXISTS idx_team_history_league_team         ON team_history (league, team_id);
