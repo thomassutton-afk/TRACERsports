@@ -279,16 +279,7 @@ export default function LeaguePage() {
         </div>
       </div>
 
-      <div
-        style={{
-          borderBottom: "1px solid var(--border)",
-          background: "var(--surface)",
-          display: "flex",
-          maxWidth: 1280,
-          margin: "0 auto",
-          padding: "0 2rem",
-        }}
-      >
+      <div className="tab-bar">
         {TABS.map((tab) => (
           <button
             key={tab.id}
@@ -300,6 +291,8 @@ export default function LeaguePage() {
               cursor: "pointer",
               background: "none",
               border: "none",
+              whiteSpace: "nowrap",
+              flexShrink: 0,
               marginBottom: -1,
               borderBottom:
                 activeTab === tab.id
@@ -315,11 +308,11 @@ export default function LeaguePage() {
       </div>
 
       {activeTab === "rankings" && (
-        <div style={{ maxWidth: 1280, margin: "0 auto", padding: "1.5rem 2rem 4rem" }}>
+        <div className="page-container">
         <div className="main-grid">
           <div className="left-col">
             <div className="section-label">Current Ratings</div>
-            <table className="ratings-table">
+            <table className="ratings-table desktop-only">
               <thead>
                 <tr>
                   <Th align="left">#</Th>
@@ -418,6 +411,36 @@ export default function LeaguePage() {
                 })}
               </tbody>
             </table>
+
+            {/* Mobile replacement for the table above — same core fields
+                (rank, team, rating, record); Δ Last and projections are
+                dropped here since they're the least glanceable on a phone. */}
+            <div className="ratings-cards mobile-only">
+              {standings.map((row, i) => {
+                const team = leagueConfig.teams[row.team_id];
+                if (!team) return null;
+                const fillColor = getFillColor(team);
+                return (
+                  <div
+                    key={row.team_id}
+                    className="rating-card"
+                    style={{ borderLeft: `4px solid ${fillColor}` }}
+                  >
+                    <div className="rating-card-rank">{i + 1}</div>
+                    <TeamMark team={team} teamId={row.team_id} league={league} size={26} />
+                    <div className="rating-card-name" style={{ color: getTextColor(team) }}>
+                      {team.name}
+                    </div>
+                    <div className="rating-card-stats">
+                      <div className="rating-card-rating">{row.rating?.toFixed(1) ?? "—"}</div>
+                      <div className="rating-card-record">
+                        {row.w}–{row.l}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </div>
 
           <GamesPanel league={league} season={season} variant={variant} leagueConfig={leagueConfig} />
@@ -426,13 +449,13 @@ export default function LeaguePage() {
       )}
 
       {activeTab === "standings" && (
-        <div style={{ maxWidth: 1280, margin: "0 auto", padding: "1.5rem 2rem 4rem" }}>
+        <div className="page-container">
           <StandingsTab leagueConfig={leagueConfig} standings={standings} games={standingsGames} season={season} variant={variant} />
         </div>
       )}
 
       {activeTab === "bracket" && (
-        <div style={{ maxWidth: 1280, margin: "0 auto", padding: "1.5rem 2rem 4rem" }}>
+        <div className="page-container">
           {leagueConfig.playoffFormat?.type === "conference-bracket" ? (
             <div style={{ overflowX: "auto" }}>
               <BracketTab poGames={poGames} standings={standings} leagueConfig={leagueConfig} season={season} />
