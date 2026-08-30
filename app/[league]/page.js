@@ -35,9 +35,9 @@ import NflBracketTab from "./NflBracketTab";
 import Footer from "@/components/Footer";
 
 const TABS = [
-  { id: "rankings", label: "Power Rankings" },
-  { id: "standings", label: "Standings" },
-  { id: "bracket", label: "Playoff Bracket" },
+  { id: "rankings", label: "Power Rankings", shortLabel: "Rankings" },
+  { id: "standings", label: "Standings", shortLabel: "Standings" },
+  { id: "bracket", label: "Playoff Bracket", shortLabel: "Bracket" },
 ];
 
 async function fetchStandings(league, season, variant) {
@@ -284,16 +284,8 @@ export default function LeaguePage() {
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
+            className="tab-btn"
             style={{
-              fontSize: 13,
-              fontFamily: "var(--font-mono)",
-              padding: "12px 20px",
-              cursor: "pointer",
-              background: "none",
-              border: "none",
-              whiteSpace: "nowrap",
-              flexShrink: 0,
-              marginBottom: -1,
               borderBottom:
                 activeTab === tab.id
                   ? "2px solid var(--acc)"
@@ -302,7 +294,8 @@ export default function LeaguePage() {
               fontWeight: activeTab === tab.id ? 600 : 400,
             }}
           >
-            {tab.label}
+            <span className="desktop-only">{tab.label}</span>
+            <span className="mobile-only-inline">{tab.shortLabel}</span>
           </button>
         ))}
       </div>
@@ -428,7 +421,7 @@ export default function LeaguePage() {
                   >
                     <div className="rating-card-rank">{i + 1}</div>
                     <TeamMark team={team} teamId={row.team_id} league={league} size={26} />
-                    <div className="rating-card-name" style={{ color: getTextColor(team) }}>
+                    <div className="rating-card-name">
                       {team.name}
                     </div>
                     <div className="rating-card-stats">

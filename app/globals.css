@@ -232,12 +232,27 @@ body {
   margin: 0 auto;
   padding: 1.5rem 2rem 4rem;
 }
+.tab-btn {
+  font-size: 13px;
+  font-family: var(--font-mono);
+  padding: 12px 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-bottom: -1px;
+}
 
 /* Utility toggles — reused wherever a component needs a genuinely different
    markup structure on mobile vs desktop, not just a CSS-only reflow. Both
-   variants stay in the DOM; the media query below decides which renders. */
+   variants stay in the DOM; the media query below decides which renders.
+   -inline variant is for text/spans that should stay inline when shown
+   (e.g. tab labels); the plain variant is for block/flex containers
+   (e.g. the ratings-cards list). */
 .desktop-only { display: revert; }
 .mobile-only { display: none; }
+.mobile-only-inline { display: none; }
 
 @media (max-width: 768px) {
   .main-grid {
@@ -259,11 +274,16 @@ body {
     padding: 0 1.25rem;
     overflow-x: auto;
   }
+  .tab-btn {
+    padding: 12px 10px;
+    font-size: 12px;
+  }
   .page-container {
     padding: 1.25rem 1.25rem 3rem;
   }
   .desktop-only { display: none; }
   .mobile-only { display: flex; }
+  .mobile-only-inline { display: inline; }
 }
 
 /* SECTION LABEL */
