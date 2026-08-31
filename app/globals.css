@@ -232,6 +232,21 @@ body {
   margin: 0 auto;
   padding: 1.5rem 2rem 4rem;
 }
+.home-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem 4rem;
+}
+.team-list-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem 4rem;
+}
+.about-wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 2rem 4rem;
+}
 .tab-btn {
   font-size: 13px;
   font-family: var(--font-mono);
@@ -280,6 +295,15 @@ body {
   }
   .page-container {
     padding: 1.25rem 1.25rem 3rem;
+  }
+  .home-wrap {
+    padding: 2rem 1.25rem 3rem;
+  }
+  .team-list-wrap {
+    padding: 1.25rem 1.25rem 3rem;
+  }
+  .about-wrap {
+    padding: 0 1.25rem 3rem;
   }
   .desktop-only { display: none; }
   .mobile-only { display: flex; }

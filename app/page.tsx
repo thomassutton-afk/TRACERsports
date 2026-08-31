@@ -138,7 +138,7 @@ export default async function Home() {
   const hasAnyGamesToday = Object.values(todaysGamesByLeague).some((games) => games.length > 0);
 
   return (
-    <div style={{ maxWidth: 1200, margin: "0 auto", padding: "3rem 2rem 4rem" }}>
+    <div className="home-wrap">
       <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
         <div
           style={{

@@ -117,7 +117,7 @@ export default function TeamSelectorPage() {
         </select>
       </div>
 
-      <div style={{ maxWidth: 1200, margin: "0 auto", padding: "1.5rem 2rem 4rem" }}>
+      <div className="team-list-wrap">
         <TeamGrid teamIds={activeIds} teams={leagueConfig.teams} league={league} onSelect={goToTeam} />
 
         {formerIds.length > 0 && (

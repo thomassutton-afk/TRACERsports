@@ -89,7 +89,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <div style={S.contentWrap}>
+      <div className="about-wrap">
         <Section title="What is TRACER?">
           <p style={S.body}>
             TRACER is an Elo-based rating system for the NBA, calculating a single number
@@ -225,8 +225,6 @@ export default function AboutPage() {
 }
 
 const S = {
-  contentWrap: { maxWidth: 760, margin: "0 auto", padding: "0 2rem 4rem" },
-
   section: { padding: "3rem 0 0" },
   eyebrow: {
     fontFamily: "var(--font-mono)",
