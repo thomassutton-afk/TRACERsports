@@ -93,6 +93,32 @@ async function fetchStandings(league, season, variant) {
       points_for: row.points_for,
       points_against: row.points_against,
     }));
+
+  // Zero games back means either a bad league/season, or - much more
+  // commonly - a season whose schedule is loaded but hasn't kicked off
+  // yet. Rather than showing "No data yet", fall back to preseason_ratings
+  // (populated even pre-kickoff, see export_to_supabase.py's
+  // build_future_preseason_ratings) so the Dashboard can still show a
+  // real projected power ranking, just with 0-0 records and no
+  // week-over-week change yet (both fields the table already renders as
+  // "—"/0 when null, same as a missing season-projection row).
+  if (standings.length === 0) {
+    const { data: preseasonRows, error: preseasonError } = await supabase
+      .from("preseason_ratings")
+      .select("team_id, preseason_elo")
+      .eq("league", league)
+      .eq("season", season)
+      .eq("variant", variant);
+
+    if (preseasonError) return { standings: [], games: [], error: preseasonError };
+
+    const preseasonStandings = (preseasonRows ?? [])
+      .map((row) => ({ team_id: row.team_id, w: 0, l: 0, t: 0, rating: row.preseason_elo, change: null }))
+      .sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
+
+    return { standings: preseasonStandings, games: [], error: null };
+  }
+
   return { standings, games, error: null };
 }
 
