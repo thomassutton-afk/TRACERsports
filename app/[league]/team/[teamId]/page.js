@@ -265,6 +265,7 @@ export default function TeamPage() {
             <button
               key={id}
               onClick={() => setActiveTab(id)}
+              className={id === "gamelog" ? "desktop-only" : undefined}
               style={{
                 fontFamily: "var(--font-mono)",
                 fontSize: 12,

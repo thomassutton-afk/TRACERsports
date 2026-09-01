@@ -264,7 +264,7 @@ export default function SeasonPage() {
             <button
               key={id}
               onClick={() => setActiveTab(id)}
-              className="tab-btn"
+              className={`tab-btn${id === "gamelog" ? " desktop-only" : ""}`}
               style={{
                 borderBottom: activeTab === id ? "2px solid var(--acc)" : "2px solid transparent",
                 color: activeTab === id ? "var(--acc)" : "var(--text3)",
