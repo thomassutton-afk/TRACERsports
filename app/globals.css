@@ -247,6 +247,22 @@ body {
   margin: 0 auto;
   padding: 0 2rem 4rem;
 }
+.accuracy-strip {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.5rem 2rem;
+  display: flex;
+  gap: 18px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text3);
+  flex-wrap: wrap;
+}
+.season-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem 4rem;
+}
 .tab-btn {
   font-size: 13px;
   font-family: var(--font-mono);
@@ -305,6 +321,12 @@ body {
   .about-wrap {
     padding: 0 1.25rem 3rem;
   }
+  .accuracy-strip {
+    padding: 0.5rem 1.25rem;
+  }
+  .season-content {
+    padding: 1.25rem 1.25rem 3rem;
+  }
   .desktop-only { display: none; }
   .mobile-only { display: flex; }
   .mobile-only-inline { display: inline; }
@@ -340,6 +362,7 @@ body {
   align-items: flex-end;
   justify-content: space-between;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 .hero-label {
   font-family: var(--font-mono);
@@ -405,10 +428,29 @@ body {
   text-align: center;
   flex-shrink: 0;
 }
-.rating-card-name {
+.rating-card-body {
   flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.rating-card > .rating-card-name {
+  flex: 1;
+}
+.rating-card-name {
   font-size: 14px;
   font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  color: var(--text);
+}
+.rating-card-sub {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text3);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

@@ -243,18 +243,7 @@ export default function SeasonPage() {
           than styled like a stats dashboard. */}
       {accuracy && (
         <div style={{ borderBottom: "1px solid var(--border)", background: "var(--surface)" }}>
-          <div
-            style={{
-              maxWidth: 1200,
-              margin: "0 auto",
-              padding: "0.5rem 2rem",
-              display: "flex",
-              gap: 18,
-              fontFamily: "var(--font-mono)",
-              fontSize: 11,
-              color: "var(--text3)",
-            }}
-          >
+          <div className="accuracy-strip">
             <span>{Number(accuracy.n).toLocaleString()} games rated</span>
             <span>·</span>
             <span>{accuracy.pct}% accuracy</span>
@@ -270,19 +259,13 @@ export default function SeasonPage() {
 
       {/* TABS */}
       <div style={{ borderBottom: "1px solid var(--border)", background: "var(--surface)" }}>
-        <div style={{ display: "flex", maxWidth: 1200, margin: "0 auto", padding: "0 2rem" }}>
+        <div className="tab-bar" style={{ maxWidth: 1200 }}>
           {TABS.map(({ id, label }) => (
             <button
               key={id}
               onClick={() => setActiveTab(id)}
+              className="tab-btn"
               style={{
-                fontSize: 13,
-                fontFamily: "var(--font-mono)",
-                padding: "12px 20px",
-                cursor: "pointer",
-                background: "none",
-                border: "none",
-                marginBottom: -1,
                 borderBottom: activeTab === id ? "2px solid var(--acc)" : "2px solid transparent",
                 color: activeTab === id ? "var(--acc)" : "var(--text3)",
                 fontWeight: activeTab === id ? 600 : 400,
@@ -294,7 +277,7 @@ export default function SeasonPage() {
         </div>
       </div>
 
-      <div style={{ maxWidth: 1200, margin: "0 auto", padding: "1.5rem 2rem 4rem" }}>
+      <div className="season-content">
         {activeTab === "chart" ? (
           loading ? (
             <div style={{ padding: "40px 0", textAlign: "center", color: "var(--text3)", fontFamily: "var(--font-mono)", fontSize: 13 }}>Loading…</div>
@@ -337,12 +320,12 @@ export default function SeasonPage() {
                     {c === "all" ? `All ${rows.length}` : c}
                   </button>
                 ))}
-              <span style={{ marginLeft: "auto", fontSize: 10, color: "var(--text3)", fontFamily: "var(--font-mono)" }}>
+              <span className="desktop-only" style={{ marginLeft: "auto", fontSize: 10, color: "var(--text3)", fontFamily: "var(--font-mono)" }}>
                 Click column headers to sort
               </span>
             </div>
 
-            <div style={{ overflowX: "auto", borderRadius: 12, border: "1px solid var(--border)", background: "var(--surface)" }}>
+            <div className="desktop-only" style={{ overflowX: "auto", borderRadius: 12, border: "1px solid var(--border)", background: "var(--surface)" }}>
               <table style={{ width: "100%", borderCollapse: "collapse" }}>
                 <thead>
                   <tr>
@@ -443,6 +426,55 @@ export default function SeasonPage() {
                   })}
                 </tbody>
               </table>
+            </div>
+
+            {/* Mobile replacement for the table above. Shows Final Rating
+                (the headline number for a season recap) and RS Record;
+                Pre-Season, RS Rating, and the Strength bar are dropped as
+                the least glanceable on a phone. Playoff result is kept as
+                a secondary line since it's a genuinely important fact for
+                browsing past seasons, not just a minor column. */}
+            <div className="ratings-cards mobile-only">
+              {sorted.map((row) => {
+                const team = leagueConfig.teams[row.team_id];
+                if (!team) return null;
+                const identity = getDisplayIdentity(row.team_id, season, historyByTeam, leagueConfig);
+                const logoPath = resolveHistoricalLogoPath(row.team_id, season, historyByTeam, logoIndex, league);
+                const fillColor = getFillColor(identity);
+                const po = playoffLabel(row.team_id);
+                return (
+                  <Link
+                    key={row.team_id}
+                    href={`/${league}/team/${row.team_id}?variant=${variant}`}
+                    className="rating-card"
+                    style={{ borderLeft: `4px solid ${fillColor}`, textDecoration: "none" }}
+                  >
+                    <div className="rating-card-rank">{rankByTeam[row.team_id]}</div>
+                    <HistoricalTeamMark
+                      logoPath={logoPath}
+                      currentLogoTeamId={row.team_id}
+                      league={league}
+                      abbr={identity.code}
+                      color={fillColor}
+                      size={26}
+                    />
+                    <div className="rating-card-body">
+                      <div className="rating-card-name">{identity.name}</div>
+                      {po && (
+                        <div className="rating-card-sub">
+                          {po.champion ? "Champion" : `${po.label} (${po.w}–${po.l})`}
+                        </div>
+                      )}
+                    </div>
+                    <div className="rating-card-stats">
+                      <div className="rating-card-rating">{row.finalRating?.toFixed(1) ?? "—"}</div>
+                      <div className="rating-card-record">
+                        {row.rsW}–{row.rsL}
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
           </>
         )}
