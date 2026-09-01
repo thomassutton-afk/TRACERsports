@@ -250,17 +250,7 @@ export default function AllTimeRankingsPage() {
 
       {/* FILTER BAR */}
       <div style={{ borderBottom: "1px solid var(--border)", background: "var(--surface)", padding: "0 2rem" }}>
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: 16,
-            flexWrap: "wrap",
-            maxWidth: 1280,
-            margin: "0 auto",
-            padding: "12px 0",
-          }}
-        >
+        <div className="at-filter-bar">
           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
             <span style={filterLabelStyle}>Playoff Depth</span>
             <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
@@ -278,7 +268,7 @@ export default function AllTimeRankingsPage() {
               ))}
             </div>
           </div>
-          <div style={{ width: 1, height: 28, background: "var(--border)", flexShrink: 0 }} />
+          <div className="at-filter-divider" />
           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
             <span style={filterLabelStyle}>Era</span>
             <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
@@ -306,17 +296,7 @@ export default function AllTimeRankingsPage() {
                 setTeamSearch(e.target.value);
                 setPage(1);
               }}
-              style={{
-                fontFamily: "var(--font-mono)",
-                fontSize: 12,
-                padding: "5px 12px",
-                border: "1px solid var(--border2)",
-                borderRadius: 20,
-                background: "var(--surface)",
-                color: "var(--text)",
-                outline: "none",
-                width: 160,
-              }}
+              className="at-search-input"
             />
           </div>
           <div
@@ -334,7 +314,7 @@ export default function AllTimeRankingsPage() {
         </div>
       </div>
 
-      <div style={{ maxWidth: 1280, margin: "0 auto", padding: "1.5rem 2rem 2rem" }}>
+      <div className="season-content" style={{ maxWidth: 1280, paddingBottom: "2rem" }}>
         {loading ? (
           <div style={{ padding: "80px 0", textAlign: "center", color: "var(--text3)", fontFamily: "var(--font-mono)", fontSize: 13 }}>
             Loading historical data…
@@ -361,7 +341,7 @@ export default function AllTimeRankingsPage() {
           </div>
         ) : (
           <>
-            <div style={{ overflowX: "auto", borderRadius: 10, border: "1px solid var(--border)", background: "var(--surface)", marginBottom: 20 }}>
+            <div className="desktop-only" style={{ overflowX: "auto", borderRadius: 10, border: "1px solid var(--border)", background: "var(--surface)", marginBottom: 20 }}>
               <table style={{ width: "100%", borderCollapse: "collapse" }}>
                 <thead>
                   <tr>
@@ -474,8 +454,54 @@ export default function AllTimeRankingsPage() {
               </table>
             </div>
 
+            {/* Mobile replacement for the table above. Unlike Season/Dashboard,
+                every row here is a different season for the same team, so the
+                season label is essential context (not optional) — it's kept
+                as its own line above the team name. Playoff Result is kept
+                too since playoff depth is central to how this page is
+                filtered/browsed; RS Rating, Pre-Season, and Δ Playoff are
+                dropped as the least glanceable on a phone. */}
+            <div className="ratings-cards mobile-only" style={{ marginBottom: 20 }}>
+              {pageRows.map((row) => {
+                const overallRank = overallRankMap[`${row.team_id}-${row.season}`];
+                const fillColor = getFillColor(row.identity);
+                const po = playoffBadge(row);
+                return (
+                  <Link
+                    key={`${row.team_id}-${row.season}`}
+                    href={`/${league}/team/${row.team_id}?variant=${variant}`}
+                    className="rating-card"
+                    style={{ borderLeft: `4px solid ${fillColor}`, textDecoration: "none" }}
+                  >
+                    <div className="rating-card-rank">{overallRank}</div>
+                    <HistoricalTeamMark
+                      logoPath={row.logoPath}
+                      currentLogoTeamId={row.team_id}
+                      league={league}
+                      abbr={row.identity.code}
+                      color={fillColor}
+                      size={26}
+                    />
+                    <div className="rating-card-body">
+                      <div className="rating-card-sub">{leagueConfig.seasonLabel(row.season)}</div>
+                      <div className="rating-card-name">{row.identity.name}</div>
+                      {po && (
+                        <div className="rating-card-sub">
+                          {po.champion ? "Champion" : `${po.label} (${po.w}–${po.l})`}
+                        </div>
+                      )}
+                    </div>
+                    <div className="rating-card-stats">
+                      <div className="rating-card-rating">{fmt1(row.finalRating)}</div>
+                      <div className="rating-card-record">{fmtRec(row.rsW, row.rsL)}</div>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+
             {totalPages > 1 && (
-              <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 12, marginTop: 8 }}>
+              <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "center", gap: 12, marginTop: 8 }}>
                 <button style={pageBtnStyle(page === 1)} disabled={page === 1} onClick={() => { setPage(1); window.scrollTo({ top: 0, behavior: "smooth" }); }}>
                   «« First
                 </button>

@@ -263,6 +263,32 @@ body {
   margin: 0 auto;
   padding: 1.5rem 2rem 4rem;
 }
+.at-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px 0;
+}
+.at-filter-divider {
+  width: 1px;
+  height: 28px;
+  background: var(--border);
+  flex-shrink: 0;
+}
+.at-search-input {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  padding: 5px 12px;
+  border: 1px solid var(--border2);
+  border-radius: 20px;
+  background: var(--surface);
+  color: var(--text);
+  outline: none;
+  width: 160px;
+}
 .tab-btn {
   font-size: 13px;
   font-family: var(--font-mono);
@@ -326,6 +352,18 @@ body {
   }
   .season-content {
     padding: 1.25rem 1.25rem 3rem;
+  }
+  .at-filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 12px 0;
+  }
+  .at-filter-divider {
+    display: none;
+  }
+  .at-search-input {
+    width: 100%;
   }
   .desktop-only { display: none; }
   .mobile-only { display: flex; }
