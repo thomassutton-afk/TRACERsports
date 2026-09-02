@@ -152,7 +152,7 @@ export default function OverallBracketTab({ standings, leagueConfig, season }) {
   }
 
   return (
-    <div>
+    <div className="bracket-scroll">
       <div
         style={{
           background: "#DDD5C4", borderRadius: 14, padding: "16px 14px 20px",
@@ -211,7 +211,7 @@ export default function OverallBracketTab({ standings, leagueConfig, season }) {
           </div>
         </div>
 
-        <div style={{ display: "flex", justifyContent: "flex-end", marginTop: 24, fontFamily: mono, fontSize: 9, color: "rgba(0,0,0,0.35)" }}>
+        <div style={{ display: "flex", justifyContent: "flex-end", marginTop: 24, fontFamily: mono, fontSize: 9, color: "rgba(0,0,0,0.35)", flexWrap: "wrap" }}>
           <span># = Seed (top {autoSeeds} overall, no conference split · win% · tiebreak: wins)</span>
         </div>
       </div>

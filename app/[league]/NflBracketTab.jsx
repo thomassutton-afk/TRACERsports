@@ -330,10 +330,11 @@ export default function NflBracketTab({ poGames, standings, games = [], leagueCo
 
   return (
     <div>
-      <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 12 }}>
+      <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 12, flexWrap: "wrap" }}>
         <span style={{ fontFamily: mono, fontSize: 9, color: C.text3 }}>Seeds reflect RS standings (win%) · #1 seed has a Wild Card bye</span>
       </div>
 
+      <div className="bracket-scroll">
       <div style={{ background: "#DDD5C4", borderRadius: 14, padding: "16px 14px 20px", boxShadow: "0 4px 24px rgba(0,0,0,0.10), inset 0 1px 0 rgba(255,255,255,0.4)", border: "1px solid #C8BFB1", position: "relative", overflow: "hidden", width: "fit-content", margin: "0 auto" }}>
         <div style={{ position: "absolute", top: 0, left: "50%", transform: "translateX(-50%)", width: "80%", height: "40%", borderRadius: "50%", background: "radial-gradient(ellipse, rgba(255,255,255,0.04) 0%, transparent 70%)", pointerEvents: "none" }} />
 
@@ -375,6 +376,7 @@ export default function NflBracketTab({ poGames, standings, games = [], leagueCo
         <div style={{ display: "flex", gap: 20, marginTop: 28, fontFamily: mono, fontSize: 9, color: "rgba(0,0,0,0.35)", flexWrap: "wrap" }}>
           <span># = Conference seed (RS standings)</span>
         </div>
+      </div>
       </div>
     </div>
   );

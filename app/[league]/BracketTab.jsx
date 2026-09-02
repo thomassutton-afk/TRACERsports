@@ -675,7 +675,7 @@ export default function BracketTab({ poGames, standings, leagueConfig, season })
   // ── Main render ────────────────────────────────────────────────────────
   return (
     <div>
-      <div style={{ display: "flex", gap: 8, marginBottom: 20 }}>
+      <div style={{ display: "flex", gap: 8, marginBottom: 20, flexWrap: "wrap" }}>
         {[["playoffs", "Playoff Bracket"], ...(hasPlayIn ? [["playin", "Play-In Tournament"]] : [])].map(([v, l]) => (
           <button
             key={v}
@@ -695,10 +695,14 @@ export default function BracketTab({ poGames, standings, leagueConfig, season })
         </span>
       </div>
 
-      {bracketView === "playin" && hasPlayIn && <PlayInBracket />}
+      {bracketView === "playin" && hasPlayIn && (
+        <div className="bracket-scroll">
+          <PlayInBracket />
+        </div>
+      )}
 
       {bracketView === "playoffs" && (
-        <div>
+        <div className="bracket-scroll">
           <div style={{ background: "#DDD5C4", borderRadius: 14, padding: "16px 14px 20px", boxShadow: "0 4px 24px rgba(0,0,0,0.10), inset 0 1px 0 rgba(255,255,255,0.4)", border: "1px solid #C8BFB1", position: "relative", overflow: "hidden", width: "fit-content", margin: "0 auto" }}>
             <div style={{ position: "absolute", top: 0, left: "50%", transform: "translateX(-50%)", width: "80%", height: "40%", borderRadius: "50%", background: "radial-gradient(ellipse, rgba(255,255,255,0.04) 0%, transparent 70%)", pointerEvents: "none" }} />
             <BracketHeaders />

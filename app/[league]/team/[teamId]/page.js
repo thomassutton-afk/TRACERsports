@@ -195,9 +195,6 @@ export default function TeamPage() {
   const pagedGames = games.slice((gamePage - 1) * GAMES_PER_PAGE, gamePage * GAMES_PER_PAGE);
   const totalGamePages = Math.max(1, Math.ceil(games.length / GAMES_PER_PAGE));
 
-  // Franchise identity legend — only rendered if this team actually has history rows
-  const identityEras = historyByTeam[teamId];
-
   function playoffBadge(po) {
     if (!po || po.highestRound === null) return null;
     const rec = po.rounds[String(po.highestRound)];
@@ -298,24 +295,6 @@ export default function TeamPage() {
                 <AllTimeChart points={chartPoints} color={fillColor} seasonLabel={leagueConfig.seasonLabel} width={960} height={340} />
               )}
             </div>
-
-            {identityEras && identityEras.length > 0 && (
-              <div style={{ display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap", padding: "14px 4px", marginTop: 4 }}>
-                <span style={{ fontFamily: "var(--font-mono)", fontSize: 10, color: "var(--text3)", textTransform: "uppercase", letterSpacing: 1, fontWeight: 600 }}>
-                  Franchise Identities
-                </span>
-                {identityEras.map((era) => (
-                  <span key={`${era.code}-${era.start_season}`} style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                    <span style={identityBadgeStyle(era.primary || fillColor)}>{era.code}</span>
-                    <span style={{ fontSize: 12, color: "var(--text2)" }}>
-                      {era.name} ({leagueConfig.seasonLabel(era.start_season)}
-                      {" – "}
-                      {era.end_season ? leagueConfig.seasonLabel(era.end_season) : "present"})
-                    </span>
-                  </span>
-                ))}
-              </div>
-            )}
           </>
         )}
 

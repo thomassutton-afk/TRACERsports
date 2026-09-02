@@ -298,6 +298,19 @@ body {
   gap: 12px;
   margin-bottom: 16px;
 }
+.standings-conf-row {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+.standings-table-scroll {
+  overflow-x: auto;
+}
+.bracket-scroll {
+  overflow-x: auto;
+  padding-bottom: 4px;
+  -webkit-overflow-scrolling: touch;
+}
 .tab-btn {
   font-size: 13px;
   font-family: var(--font-mono);
@@ -382,6 +395,13 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+  }
+  .standings-conf-row {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .standings-conf-row > div {
+    width: 100%;
   }
   .desktop-only { display: none; }
   .mobile-only { display: flex; }
