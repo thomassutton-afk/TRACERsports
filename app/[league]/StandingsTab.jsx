@@ -52,7 +52,23 @@ export default function StandingsTab({ leagueConfig, standings, games = [], seas
         <td style={{ padding: "9px 8px" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
             <TeamMark team={team} teamId={t.team_id} league={leagueConfig.id} size={24} />
-            <span style={{ fontSize: 12, fontWeight: 600, color: "var(--text)" }}>{team.name}</span>
+            <span className="desktop-only" style={{ fontSize: 12, fontWeight: 600, color: "var(--text)" }}>{team.name}</span>
+            <span
+              className="mobile-only-inline"
+              style={{
+                fontFamily: "var(--font-mono)",
+                fontSize: 10,
+                fontWeight: 700,
+                padding: "2px 6px",
+                borderRadius: 3,
+                border: `1.5px solid ${team.primary}`,
+                color: team.primary,
+                background: `${team.primary}20`,
+                letterSpacing: 0.3,
+              }}
+            >
+              {t.team_id}
+            </span>
             {ctx.flaggedIds.has(t.team_id) && (
               <span
                 title="Tied on every real tiebreaker criterion — needs a manual override in lib/sports/tiebreakerOverrides.json"
