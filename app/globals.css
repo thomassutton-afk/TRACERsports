@@ -289,6 +289,15 @@ body {
   outline: none;
   width: 160px;
 }
+.team-stats-row {
+  display: flex;
+  gap: 0;
+}
+.summary-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
 .tab-btn {
   font-size: 13px;
   font-family: var(--font-mono);
@@ -364,6 +373,15 @@ body {
   }
   .at-search-input {
     width: 100%;
+  }
+  .team-stats-row {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+  .summary-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
   }
   .desktop-only { display: none; }
   .mobile-only { display: flex; }

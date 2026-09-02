@@ -241,7 +241,7 @@ export default function TeamPage() {
           </div>
         </div>
 
-        <div style={{ display: "flex", gap: 0 }}>
+        <div className="team-stats-row">
           <StatCard label="Current Rating" value={fmt1(currentRow?.finalRating)} color={fillColor} />
           <Divider />
           <StatCard label="This Season" value={fmtRec(currentRow?.rsW, currentRow?.rsL)} />
@@ -256,7 +256,7 @@ export default function TeamPage() {
 
       {/* TAB BAR */}
       <div style={{ borderBottom: "1px solid var(--border)", background: "var(--surface)" }}>
-        <div style={{ maxWidth: 1280, margin: "0 auto", display: "flex", gap: 4, padding: "0 2rem" }}>
+        <div className="tab-bar" style={{ gap: 4 }}>
           {[
             { id: "history", label: "Rating History" },
             { id: "seasons", label: "Season-by-Season" },
@@ -265,17 +265,11 @@ export default function TeamPage() {
             <button
               key={id}
               onClick={() => setActiveTab(id)}
-              className={id === "gamelog" ? "desktop-only" : undefined}
+              className={`tab-btn${id === "gamelog" ? " desktop-only" : ""}`}
               style={{
-                fontFamily: "var(--font-mono)",
-                fontSize: 12,
-                padding: "12px 16px",
-                background: "none",
-                border: "none",
                 borderBottom: `2px solid ${activeTab === id ? fillColor : "transparent"}`,
                 color: activeTab === id ? "var(--text)" : "var(--text3)",
                 fontWeight: activeTab === id ? 600 : 400,
-                cursor: "pointer",
               }}
             >
               {label}
@@ -284,12 +278,12 @@ export default function TeamPage() {
         </div>
       </div>
 
-      <div style={{ maxWidth: 1280, margin: "0 auto", padding: "1.5rem 2rem 2rem" }}>
+      <div className="page-container" style={{ paddingBottom: "2rem" }}>
         {/* ===== RATING HISTORY ===== */}
         {activeTab === "history" && (
           <>
             {!chartLoading && chartPoints.length > 0 && (
-              <div style={summaryRowStyle}>
+              <div className="summary-row">
                 <SummaryCard label="All-Time Peak" value={fmt1(chartPeak)} color={fillColor} desc={peakPoint ? leagueConfig.seasonLabel(peakPoint.season) : ""} />
                 <SummaryCard label="All-Time Low" value={fmt1(chartTrough)} color="var(--text3)" desc={troughPoint ? leagueConfig.seasonLabel(troughPoint.season) : ""} />
                 <SummaryCard label="Current" value={fmt1(chartCurrent)} color={fillColor} desc={currentSeason ? leagueConfig.seasonLabel(currentSeason) : ""} />
@@ -331,7 +325,8 @@ export default function TeamPage() {
             {seasonsLoading ? (
               <div style={loadingStyle}>Loading season data…</div>
             ) : (
-              <div style={{ overflowX: "auto", borderRadius: 10, border: "1px solid var(--border)", background: "var(--surface)" }}>
+              <>
+              <div className="desktop-only" style={{ overflowX: "auto", borderRadius: 10, border: "1px solid var(--border)", background: "var(--surface)" }}>
                 <table style={{ width: "100%", borderCollapse: "collapse" }}>
                   <thead>
                     <tr>
@@ -408,7 +403,62 @@ export default function TeamPage() {
                   </tbody>
                 </table>
               </div>
-            )}
+
+              {/* Mobile replacement for the table above. There's no rank
+                  concept here (all rows are the same team across seasons),
+                  so Season is the headline identifier instead of a rank
+                  number. Identity name and playoff result are kept as
+                  secondary lines; Pre-Season, RS Rating, and the Strength
+                  bar are dropped as the least glanceable on a phone. */}
+              <div className="ratings-cards mobile-only">
+                {seasonRows.map((row, i) => {
+                  const isChamp = row.po?.champion;
+                  const isCurrent = row.season === currentSeason;
+                  const po = playoffBadge(row.po);
+                  return (
+                    <div
+                      key={row.season}
+                      className="rating-card"
+                      style={{
+                        borderLeft: `4px solid ${row.identity.primary || fillColor}`,
+                        background: isChamp ? "var(--acc-dim)" : "var(--surface)",
+                      }}
+                    >
+                      <HistoricalTeamMark
+                        logoPath={row.logoPath}
+                        currentLogoTeamId={teamId}
+                        league={league}
+                        abbr={row.identity.code}
+                        color={row.identity.primary || fillColor}
+                        size={26}
+                      />
+                      <div className="rating-card-body">
+                        <div className="rating-card-name">
+                          {leagueConfig.seasonLabel(row.season)}
+                          {isCurrent && <span style={nowBadgeStyle(fillColor)}>Now</span>}
+                        </div>
+                        <div className="rating-card-sub">{row.identity.name}</div>
+                        {po && (
+                          <div className="rating-card-sub">
+                            {po.champion ? "Champion" : `${po.label} (${po.w}–${po.l})`}
+                          </div>
+                        )}
+                      </div>
+                      <div className="rating-card-stats">
+                        <div
+                          className="rating-card-rating"
+                          style={{ color: isChamp ? "var(--ut)" : i === 0 ? fillColor : "var(--text)" }}
+                        >
+                          {fmt1(row.finalRating)}
+                        </div>
+                        <div className="rating-card-record">{fmtRec(row.rsW, row.rsL)}</div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </>
+          )}
 
             {!seasonsLoading && seasonRows.length > 0 && (
               <div style={{ padding: "14px 4px", fontFamily: "var(--font-mono)", fontSize: 11, color: "var(--text3)" }}>
@@ -553,7 +603,7 @@ export default function TeamPage() {
 
 function StatCard({ label, value, color }) {
   return (
-    <div style={{ padding: "0 18px", textAlign: "center" }}>
+    <div style={{ padding: "0 18px", textAlign: "center", flexShrink: 0 }}>
       <div style={{ fontFamily: "var(--font-mono)", fontSize: 20, fontWeight: 700, color: color ?? "var(--text)" }}>{value}</div>
       <div style={{ fontFamily: "var(--font-mono)", fontSize: 9, color: "var(--text3)", textTransform: "uppercase", letterSpacing: 1, marginTop: 3 }}>{label}</div>
     </div>
@@ -561,7 +611,7 @@ function StatCard({ label, value, color }) {
 }
 
 function Divider() {
-  return <div style={{ width: 1, background: "var(--border)", margin: "4px 0" }} />;
+  return <div style={{ width: 1, background: "var(--border)", margin: "4px 0", flexShrink: 0 }} />;
 }
 
 function SummaryCard({ label, value, color, desc }) {
@@ -573,8 +623,6 @@ function SummaryCard({ label, value, color, desc }) {
     </div>
   );
 }
-
-const summaryRowStyle = { display: "flex", gap: 12, marginBottom: 16 };
 
 const loadingStyle = { padding: "80px 0", textAlign: "center", color: "var(--text3)", fontFamily: "var(--font-mono)", fontSize: 13 };
 
