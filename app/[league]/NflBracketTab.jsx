@@ -24,6 +24,7 @@
  * no fabricated "who'd win" guess.
  */
 
+import { useState } from "react";
 import TeamMark from "./TeamMark";
 import { displayAbbr } from "../../lib/logoFilenameOverrides";
 import { rankTeams, buildContext } from "../../lib/tiebreakers";
@@ -328,13 +329,90 @@ export default function NflBracketTab({ poGames, standings, games = [], leagueCo
     );
   }
 
+  // ── Mobile round-by-round view ────────────────────────────────────────
+  // Same rationale as BracketTab.jsx: a multi-column bracket doesn't
+  // shrink well, so mobile gets a round selector + stacked matchup cards
+  // instead of scrolling the desktop diagram sideways. NFL games are
+  // single-elimination (one score each, no series win-count), so this
+  // reads from m.scores/m.winner directly rather than BracketTab's
+  // series w1/w2 tally.
+  function MobileTeamRow({ abbr, score, isWin, seed }) {
+    if (!abbr) {
+      return (
+        <div className="mobile-matchup-row">
+          <span className="mobile-matchup-seed">—</span>
+          <span className="mobile-matchup-name" style={{ color: C.text3 }}>TBD</span>
+        </div>
+      );
+    }
+    const color = tc(abbr);
+    return (
+      <div className="mobile-matchup-row" style={{ background: isWin ? `${color}12` : "transparent" }}>
+        <span className="mobile-matchup-seed">{seed ?? "—"}</span>
+        <TeamMark team={teams[abbr]} teamId={abbr} league={leagueConfig.id} size={22} />
+        <span className="mobile-matchup-name" style={{ fontWeight: isWin ? 700 : 500 }}>{tn(abbr)}</span>
+        <span className="mobile-matchup-score">{score ?? "—"}</span>
+      </div>
+    );
+  }
+
+  function MobileMatchCard({ m }) {
+    if (!m) return <div className="mobile-bracket-tbd">TBD</div>;
+    return (
+      <div className="mobile-matchup-card">
+        <MobileTeamRow abbr={m.t1} score={m.scores[m.t1]} isWin={m.winner === m.t1} seed={seedMap[m.t1]} />
+        <div className="mobile-matchup-divider" />
+        <MobileTeamRow abbr={m.t2} score={m.scores[m.t2]} isWin={m.winner === m.t2} seed={seedMap[m.t2]} />
+      </div>
+    );
+  }
+
+  function MobileBracketRounds() {
+    const rounds = [
+      { id: "wc", label: roundLabels.WC || "Wild Card", groups: [{ name: confA, list: aWC }, { name: confB, list: bWC }] },
+      { id: "dv", label: roundLabels.DV || "Divisional", groups: [{ name: confA, list: aDV }, { name: confB, list: bDV }] },
+      { id: "cc", label: roundLabels.CC || "Conf Champ", groups: [{ name: confA, list: aCC }, { name: confB, list: bCC }] },
+      { id: "sb", label: roundLabels.SB || "Super Bowl", groups: [{ name: `${leagueConfig.label} Championship`, list: sb ? [sb] : [] }] },
+    ];
+    const defaultId = sb ? "sb" : aCC.length || bCC.length ? "cc" : aDV.length || bDV.length ? "dv" : "wc";
+    const [round, setRound] = useState(defaultId);
+    const active = rounds.find((r) => r.id === round) || rounds[0];
+
+    return (
+      <>
+        <div className="mobile-bracket-round-tabs">
+          {rounds.map((r) => (
+            <button key={r.id} className={`mobile-bracket-round-btn${round === r.id ? " active" : ""}`} onClick={() => setRound(r.id)}>
+              {r.label}
+            </button>
+          ))}
+        </div>
+        {active.groups.map((g) => (
+          <div key={g.name}>
+            <div className="mobile-bracket-group-label">{g.name}</div>
+            {g.list.length === 0 ? <div className="mobile-bracket-tbd">TBD</div> : g.list.map((m, i) => <MobileMatchCard key={i} m={m} />)}
+          </div>
+        ))}
+        {round === "sb" && champion && (
+          <div className="mobile-bracket-champion">
+            <TeamMark team={teams[champion]} teamId={champion} league={leagueConfig.id} size={48} />
+            <div style={{ fontFamily: mono, fontSize: 10, fontWeight: 700, color: C.ut, textTransform: "uppercase", letterSpacing: 2 }}>
+              {seasonLabel} {leagueConfig.label} Champion
+            </div>
+            <div style={{ fontFamily: serif, fontSize: 20, fontWeight: 900, color: C.text }}>{tn(champion)}</div>
+          </div>
+        )}
+      </>
+    );
+  }
+
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 12, flexWrap: "wrap" }}>
         <span style={{ fontFamily: mono, fontSize: 9, color: C.text3 }}>Seeds reflect RS standings (win%) · #1 seed has a Wild Card bye</span>
       </div>
 
-      <div className="bracket-scroll">
+      <div className="bracket-scroll desktop-only">
       <div style={{ background: "#DDD5C4", borderRadius: 14, padding: "16px 14px 20px", boxShadow: "0 4px 24px rgba(0,0,0,0.10), inset 0 1px 0 rgba(255,255,255,0.4)", border: "1px solid #C8BFB1", position: "relative", overflow: "hidden", width: "fit-content", margin: "0 auto" }}>
         <div style={{ position: "absolute", top: 0, left: "50%", transform: "translateX(-50%)", width: "80%", height: "40%", borderRadius: "50%", background: "radial-gradient(ellipse, rgba(255,255,255,0.04) 0%, transparent 70%)", pointerEvents: "none" }} />
 
@@ -377,6 +455,10 @@ export default function NflBracketTab({ poGames, standings, games = [], leagueCo
           <span># = Conference seed (RS standings)</span>
         </div>
       </div>
+      </div>
+
+      <div className="mobile-only" style={{ flexDirection: "column" }}>
+        <MobileBracketRounds />
       </div>
     </div>
   );

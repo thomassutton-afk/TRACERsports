@@ -151,8 +151,47 @@ export default function OverallBracketTab({ standings, leagueConfig, season }) {
     );
   }
 
+  // ── Mobile view ──────────────────────────────────────────────────────
+  // Unlike BracketTab/NflBracketTab, only Round 1 here is ever real data —
+  // Round 2/3 are permanent TBD placeholders until live playoff games are
+  // wired up (see file header). A round-tab selector would be pointless
+  // when two of the three tabs are always empty, so mobile just gets
+  // Round 1 stacked full-width; this is the natural place to add the same
+  // round-tabs pattern as the other two bracket files once Round 2/3 have
+  // real content to switch to.
+  function MobileSeedRow({ seed, team }) {
+    if (!team) {
+      return (
+        <div className="mobile-matchup-row">
+          <span className="mobile-matchup-seed">{seed}</span>
+          <span className="mobile-matchup-name" style={{ color: C.text3 }}>TBD</span>
+        </div>
+      );
+    }
+    const teamCfg = teams[team.team_id];
+    return (
+      <div className="mobile-matchup-row">
+        <span className="mobile-matchup-seed">{seed}</span>
+        <TeamMark team={teamCfg} teamId={team.team_id} league={leagueConfig.id} size={22} />
+        <span className="mobile-matchup-name">{teamCfg?.name || team.team_id}</span>
+      </div>
+    );
+  }
+
+  function MobileR1Card({ pair }) {
+    const [seedA, seedB] = pair;
+    return (
+      <div className="mobile-matchup-card">
+        <MobileSeedRow seed={seedA} team={teamBySeed[seedA]} />
+        <div className="mobile-matchup-divider" />
+        <MobileSeedRow seed={seedB} team={teamBySeed[seedB]} />
+      </div>
+    );
+  }
+
   return (
-    <div className="bracket-scroll">
+    <div>
+    <div className="bracket-scroll desktop-only">
       <div
         style={{
           background: "#DDD5C4", borderRadius: 14, padding: "16px 14px 20px",
@@ -214,6 +253,14 @@ export default function OverallBracketTab({ standings, leagueConfig, season }) {
         <div style={{ display: "flex", justifyContent: "flex-end", marginTop: 24, fontFamily: mono, fontSize: 9, color: "rgba(0,0,0,0.35)", flexWrap: "wrap" }}>
           <span># = Seed (top {autoSeeds} overall, no conference split · win% · tiebreak: wins)</span>
         </div>
+      </div>
+      </div>
+
+      <div className="mobile-only" style={{ flexDirection: "column" }}>
+        <div className="mobile-bracket-group-label" style={{ marginTop: 0 }}>{r1Label}</div>
+        {r1Pairs.map((pair, i) => (
+          <MobileR1Card key={i} pair={pair} />
+        ))}
       </div>
 
       {/* "Not final" note — small footnote below the bracket, not a big banner up top */}

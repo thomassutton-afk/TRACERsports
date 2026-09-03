@@ -311,6 +311,109 @@ body {
   padding-bottom: 4px;
   -webkit-overflow-scrolling: touch;
 }
+
+/* MOBILE BRACKET — round-by-round view replacing the horizontal-scroll
+   desktop bracket entirely on mobile (scrolling a multi-column diagram
+   sideways on a phone reads poorly no matter how it's tuned). Shared
+   across BracketTab / NflBracketTab / OverallBracketTab since the visual
+   language (round tabs, matchup cards) doesn't depend on league format. */
+.mobile-bracket-round-tabs {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+.mobile-bracket-round-btn {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  padding: 6px 12px;
+  border-radius: 16px;
+  border: 1px solid var(--border2);
+  background: transparent;
+  color: var(--text2);
+  white-space: nowrap;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.mobile-bracket-round-btn.active {
+  background: var(--acc);
+  color: #fff;
+  border-color: var(--acc);
+}
+.mobile-bracket-group-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin: 14px 0 6px;
+}
+.mobile-matchup-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--surface);
+  margin-bottom: 10px;
+}
+.mobile-matchup-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+}
+.mobile-matchup-divider {
+  height: 1px;
+  background: var(--border);
+}
+.mobile-matchup-name {
+  flex: 1;
+  min-width: 0;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--text);
+}
+.mobile-matchup-seed {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text3);
+  width: 16px;
+  text-align: center;
+  flex-shrink: 0;
+}
+.mobile-matchup-score {
+  font-family: var(--font-mono);
+  font-size: 15px;
+  font-weight: 700;
+  flex-shrink: 0;
+  min-width: 20px;
+  text-align: right;
+  color: var(--text);
+}
+.mobile-bracket-tbd {
+  padding: 16px;
+  text-align: center;
+  color: var(--text3);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  border: 1px dashed var(--border2);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.mobile-bracket-champion {
+  text-align: center;
+  padding: 18px 16px;
+  border-radius: 10px;
+  background: var(--acc-dim);
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
 .tab-btn {
   font-size: 13px;
   font-family: var(--font-mono);

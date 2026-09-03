@@ -672,6 +672,122 @@ export default function BracketTab({ poGames, standings, leagueConfig, season })
     );
   }
 
+  // ── Mobile round-by-round view ────────────────────────────────────────
+  // Replaces the horizontal-scroll desktop bracket entirely on mobile —
+  // swiping a multi-column diagram sideways on a phone reads poorly no
+  // matter how it's tuned, so mobile gets a genuinely different layout:
+  // pick a round, see that round's matchups stacked full-width.
+  function MobileMatchupRow({ abbr, wins, isWinner, rating }) {
+    if (!abbr) {
+      return (
+        <div className="mobile-matchup-row">
+          <span className="mobile-matchup-seed">—</span>
+          <span className="mobile-matchup-name" style={{ color: C.text3 }}>TBD</span>
+        </div>
+      );
+    }
+    const team = teams[abbr];
+    const color = tc(abbr);
+    const seed = seedMap[abbr];
+    return (
+      <div className="mobile-matchup-row" style={{ background: isWinner ? `${color}12` : "transparent" }}>
+        <span className="mobile-matchup-seed">{seed ?? "—"}</span>
+        <TeamMark team={team} teamId={abbr} league={leagueConfig.id} size={22} />
+        <span className="mobile-matchup-name" style={{ fontWeight: isWinner ? 700 : 500 }}>{tn(abbr)}</span>
+        {rating != null && <span style={{ fontFamily: mono, fontSize: 11, color: C.text3, flexShrink: 0 }}>{Math.round(rating)}</span>}
+        <span className="mobile-matchup-score">{wins ?? 0}</span>
+      </div>
+    );
+  }
+
+  function MobileMatchupCard({ s }) {
+    if (!s) return <div className="mobile-bracket-tbd">TBD</div>;
+    return (
+      <div className="mobile-matchup-card">
+        <MobileMatchupRow abbr={s.t1} wins={s.w1} isWinner={s.winner === s.t1} rating={s.latestRating?.[s.t1]} />
+        <div className="mobile-matchup-divider" />
+        <MobileMatchupRow abbr={s.t2} wins={s.w2} isWinner={s.winner === s.t2} rating={s.latestRating?.[s.t2]} />
+      </div>
+    );
+  }
+
+  function MobileBracketRounds() {
+    const rounds = [
+      { id: "r1", label: "Round 1", groups: [{ name: confA, series: aR1o }, { name: confB, series: bR1o }] },
+      { id: "r2", label: "Round 2", groups: [{ name: confA, series: [aR2top, aR2bot] }, { name: confB, series: [bR2top, bR2bot] }] },
+      { id: "cf", label: "Conf Finals", groups: [{ name: confA, series: [aCF] }, { name: confB, series: [bCF] }] },
+      { id: "finals", label: "Finals", groups: [{ name: `${leagueConfig.label} Finals`, series: [fin] }] },
+    ];
+    const hasGames = (s) => s && s.games && s.games.length > 0;
+    const defaultId = hasGames(fin)
+      ? "finals"
+      : hasGames(aCF) || hasGames(bCF)
+      ? "cf"
+      : hasGames(aR2top) || hasGames(aR2bot) || hasGames(bR2top) || hasGames(bR2bot)
+      ? "r2"
+      : "r1";
+    const [round, setRound] = useState(defaultId);
+    const active = rounds.find((r) => r.id === round) || rounds[0];
+
+    return (
+      <>
+        <div className="mobile-bracket-round-tabs">
+          {rounds.map((r) => (
+            <button key={r.id} className={`mobile-bracket-round-btn${round === r.id ? " active" : ""}`} onClick={() => setRound(r.id)}>
+              {r.label}
+            </button>
+          ))}
+        </div>
+        {active.groups.map((g) => (
+          <div key={g.name}>
+            <div className="mobile-bracket-group-label">{g.name}</div>
+            {g.series.map((s, i) => (
+              <MobileMatchupCard key={i} s={s} />
+            ))}
+          </div>
+        ))}
+        {round === "finals" && champion && (
+          <div className="mobile-bracket-champion">
+            <TeamMark team={teams[champion.winner]} teamId={champion.winner} league={leagueConfig.id} size={48} />
+            <div style={{ fontFamily: mono, fontSize: 10, fontWeight: 700, color: C.ut, textTransform: "uppercase", letterSpacing: 2 }}>
+              {leagueConfig.seasonLabel ? leagueConfig.seasonLabel(season) : season} {leagueConfig.label} Champion
+            </div>
+            <div style={{ fontFamily: serif, fontSize: 20, fontWeight: 900, color: C.text }}>{tn(champion.winner)}</div>
+          </div>
+        )}
+      </>
+    );
+  }
+
+  function MobilePIGame({ label, s }) {
+    return (
+      <div style={{ marginBottom: 12 }}>
+        <div style={{ fontFamily: mono, fontSize: 9, color: C.text3, textTransform: "uppercase", letterSpacing: 1, marginBottom: 5, fontWeight: 600 }}>{label}</div>
+        <MobileMatchupCard s={s} />
+      </div>
+    );
+  }
+
+  function MobilePlayIn() {
+    return (
+      <>
+        <div className="mobile-bracket-group-label" style={{ marginTop: 0 }}>{confA} Conference</div>
+        <MobilePIGame label="7 vs 8 · winner = 7-seed" s={aPI.game78} />
+        <MobilePIGame label="9 vs 10" s={aPI.game910} />
+        <MobilePIGame label="9/10 winner vs 7/8 loser · winner = 8-seed" s={aPI.secondary} />
+
+        <div className="mobile-bracket-group-label">{confB} Conference</div>
+        <MobilePIGame label="7 vs 8 · winner = 7-seed" s={bPI.game78} />
+        <MobilePIGame label="9 vs 10" s={bPI.game910} />
+        <MobilePIGame label="9/10 winner vs 7/8 loser · winner = 8-seed" s={bPI.secondary} />
+
+        <div style={{ marginTop: 8, padding: "10px 14px", background: "var(--surface2)", border: "1px solid var(--border)", borderRadius: 8, fontFamily: mono, fontSize: 10, color: C.text2 }}>
+          <strong style={{ color: C.text }}>How it works:</strong> The 7 vs 8 winner earns the 7-seed directly. The loser plays the 9 vs 10 winner — that winner earns the 8-seed.
+        </div>
+      </>
+    );
+  }
+
   // ── Main render ────────────────────────────────────────────────────────
   return (
     <div>
@@ -696,13 +812,19 @@ export default function BracketTab({ poGames, standings, leagueConfig, season })
       </div>
 
       {bracketView === "playin" && hasPlayIn && (
-        <div className="bracket-scroll">
-          <PlayInBracket />
-        </div>
+        <>
+          <div className="bracket-scroll desktop-only">
+            <PlayInBracket />
+          </div>
+          <div className="mobile-only" style={{ flexDirection: "column" }}>
+            <MobilePlayIn />
+          </div>
+        </>
       )}
 
       {bracketView === "playoffs" && (
-        <div className="bracket-scroll">
+        <>
+        <div className="bracket-scroll desktop-only">
           <div style={{ background: "#DDD5C4", borderRadius: 14, padding: "16px 14px 20px", boxShadow: "0 4px 24px rgba(0,0,0,0.10), inset 0 1px 0 rgba(255,255,255,0.4)", border: "1px solid #C8BFB1", position: "relative", overflow: "hidden", width: "fit-content", margin: "0 auto" }}>
             <div style={{ position: "absolute", top: 0, left: "50%", transform: "translateX(-50%)", width: "80%", height: "40%", borderRadius: "50%", background: "radial-gradient(ellipse, rgba(255,255,255,0.04) 0%, transparent 70%)", pointerEvents: "none" }} />
             <BracketHeaders />
@@ -734,6 +856,10 @@ export default function BracketTab({ poGames, standings, leagueConfig, season })
             </div>
           </div>
         </div>
+        <div className="mobile-only" style={{ flexDirection: "column" }}>
+          <MobileBracketRounds />
+        </div>
+        </>
       )}
     </div>
   );
