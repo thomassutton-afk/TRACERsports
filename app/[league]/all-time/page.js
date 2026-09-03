@@ -26,10 +26,9 @@ import { useParams, useSearchParams } from "next/navigation";
 import { getLeagueConfig } from "@/lib/sports/registry";
 import { getFillColor, getTextColor } from "@/lib/teamColors";
 import {
-  fetchAllTimeTeamGames,
+  fetchAllTimeTeamSeasons,
   fetchAllTimePreseasonRatings,
   fetchAllTimePlayoffGames,
-  buildAllTimeRows,
   tallyPlayoffResults,
 } from "@/lib/gamesData";
 import {
@@ -122,23 +121,26 @@ export default function AllTimeRankingsPage() {
   }, [league, leagueConfig]);
 
   // The actual all-time data — every team-season this league has, for the
-  // selected variant. This is the expensive query (150k+ game rows for a
-  // 30-season league), so it runs once per variant switch, not per filter
-  // change — filtering/sorting/paginating below is all client-side.
+  // selected variant. This used to be the expensive query (150k+ game rows
+  // for a 30-season league, aggregated client-side); now it's a single
+  // ~900-row query against the all_time_team_seasons Postgres view, which
+  // does that same aggregation server-side. Still runs once per variant
+  // switch, not per filter change — filtering/sorting/paginating below is
+  // all client-side, same as before.
   useEffect(() => {
     if (!leagueConfig) return;
     setLoading(true);
     Promise.all([
-      fetchAllTimeTeamGames(league, variant),
+      fetchAllTimeTeamSeasons(league, variant),
       fetchAllTimePreseasonRatings(league, variant),
       fetchAllTimePlayoffGames(league, variant),
-    ]).then(([gamesResult, preseasonResult, poResult]) => {
-      if (gamesResult.error) {
-        setFetchError(gamesResult.error);
+    ]).then(([seasonsResult, preseasonResult, poResult]) => {
+      if (seasonsResult.error) {
+        setFetchError(seasonsResult.error);
         setRows([]);
       } else {
         setFetchError(null);
-        setRows(buildAllTimeRows(gamesResult.rows));
+        setRows(seasonsResult.rows);
       }
       setPreseasonByTeamSeason(preseasonResult.byTeamSeason);
       setPoByTeamSeason(
