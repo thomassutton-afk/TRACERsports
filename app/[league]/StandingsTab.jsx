@@ -69,14 +69,6 @@ export default function StandingsTab({ leagueConfig, standings, games = [], seas
             >
               {t.team_id}
             </span>
-            {ctx.flaggedIds.has(t.team_id) && (
-              <span
-                title="Tied on every real tiebreaker criterion — needs a manual override in lib/sports/tiebreakerOverrides.json"
-                style={{ fontSize: 11, color: "#b45309", cursor: "help" }}
-              >
-                ⚠
-              </span>
-            )}
           </div>
         </td>
         <td style={{ padding: "0 8px", fontFamily: "var(--font-mono)", fontSize: 12, fontWeight: 600, textAlign: "right" }}>{t.w}</td>
