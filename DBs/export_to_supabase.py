@@ -326,6 +326,7 @@ def build_games(conn, league, id_to_code, variant):
 SCHEDULE_COLUMNS = [
     "team_id", "date", "season", "type", "round", "opponent_id", "home_away",
     "neutral", "expected_win_pct", "days_off", "opp_days_off", "rest_diff", "rest_adj",
+    "predicted_spread",
 ]
 
 
@@ -353,7 +354,7 @@ def build_schedule(conn, league, id_to_code, variant):
     cur.execute(
         "SELECT s.schedule_id, s.date, s.season, s.type, s.round, s.home_team, "
         "s.away_team, s.neutral, p.expected_win_home, p.expected_win_away, "
-        "p.home_days_off, p.away_days_off, p.rest_adj "
+        "p.home_days_off, p.away_days_off, p.rest_adj, p.predicted_spread "
         "FROM schedule s LEFT JOIN schedule_predictions p "
         "ON p.schedule_id = s.schedule_id AND p.variant = ?", (variant,)
     )
@@ -382,12 +383,16 @@ def build_schedule(conn, league, id_to_code, variant):
             league=league, variant=variant, date=r["date"], season=r["season"],
             type=r["type"], round=round_, neutral=r["neutral"],
         )
+        predicted_spread_home = r["predicted_spread"]
+        predicted_spread_away = None if predicted_spread_home is None else -predicted_spread_home
+
         rows.append({
             **base,
             "team_id": home_code, "opponent_id": away_code, "home_away": "H",
             "expected_win_pct": r["expected_win_home"],
             "days_off": home_days_off, "opp_days_off": away_days_off,
             "rest_diff": rest_diff_home, "rest_adj": rest_adj_home,
+            "predicted_spread": predicted_spread_home,
         })
         rows.append({
             **base,
@@ -396,6 +401,7 @@ def build_schedule(conn, league, id_to_code, variant):
             "days_off": away_days_off, "opp_days_off": home_days_off,
             "rest_diff": None if rest_diff_home is None else -rest_diff_home,
             "rest_adj": rest_adj_away,
+            "predicted_spread": predicted_spread_away,
         })
     return rows
 

@@ -19,6 +19,7 @@ import argparse
 import csv
 import os
 import db
+import spread
 from rebuild import build_current_engine
 
 DB_PATH = os.path.join(
@@ -40,6 +41,15 @@ def predict_all(conn, season=None, variant: str = "echo"):
         )
         p["home_name"] = db.display_name(conn, g["home_team"], g["season"])
         p["away_name"] = db.display_name(conn, g["away_team"], g["season"])
+
+        # Elo differential feeding preview_matchup's win prob, reconstructed
+        # here so predicted_spread stays in sync with whatever HFA the
+        # engine is actually using this season (eng.params["hfa"]) rather
+        # than a hardcoded copy of it.
+        hfa_applied = 0.0 if g["neutral"] else eng.params["hfa"]
+        elo_diff = (p["home_rating"] - p["away_rating"]) + hfa_applied + p["rest_adj_home"]
+        p["predicted_spread"] = spread.elo_diff_to_spread(elo_diff)  # + = home favored
+
         predictions.append(p)
     return predictions
 
@@ -49,12 +59,13 @@ def write_csv(predictions, path):
         w = csv.writer(f)
         w.writerow(["date", "season", "type", "round", "home_team", "away_team",
                     "home_rating", "away_rating", "expected_win_home", "expected_win_away",
-                    "favored_team"])
+                    "favored_team", "predicted_spread"])
         for p in predictions:
             favored = p["home_team"] if p["expected_win_home"] >= 0.5 else p["away_team"]
             w.writerow([p["date"], p["season"], p["type"], p["round"], p["home_team"],
                         p["away_team"], round(p["home_rating"], 2), round(p["away_rating"], 2),
-                        round(p["expected_win_home"], 4), round(p["expected_win_away"], 4), favored])
+                        round(p["expected_win_home"], 4), round(p["expected_win_away"], 4), favored,
+                        round(p["predicted_spread"], 1)])
 
 
 def main():
@@ -77,11 +88,14 @@ def main():
 
     print(f"{len(predictions)} upcoming game(s):\n")
     for p in predictions:
+        spread_line = p["predicted_spread"]
+        fav_name = p["home_name"] if spread_line >= 0 else p["away_name"]
         print(f"  {p['date']}  {p['home_name']} vs {p['away_name']}")
         print(f"    Ratings: {p['home_name']} {p['home_rating']:.1f}  |  "
               f"{p['away_name']} {p['away_rating']:.1f}")
         print(f"    Win probability: {p['home_name']} {p['expected_win_home']:.1%}  |  "
-              f"{p['away_name']} {p['expected_win_away']:.1%}\n")
+              f"{p['away_name']} {p['expected_win_away']:.1%}")
+        print(f"    Predicted spread: {fav_name} -{abs(spread_line):.1f}\n")
 
     print(f"Wrote {csv_path}")
 

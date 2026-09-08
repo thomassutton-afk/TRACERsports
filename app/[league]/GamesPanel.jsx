@@ -157,6 +157,17 @@ export default function GamesPanel({ league, season, variant, leagueConfig }) {
                       {homeFav && <span style={{ color: "var(--acc)", fontSize: 10 }}>▶</span>}
                     </div>
                   )}
+
+                  {g.showPick && g.predictedSpread != null && (() => {
+                    const spreadFav = g.predictedSpread >= 0;
+                    const spreadAbs = Math.abs(g.predictedSpread).toFixed(1);
+                    return (
+                      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 4, marginTop: 4, fontFamily: "var(--font-mono)", fontSize: 11, color: "var(--text3)" }}>
+                        <span>Spread:</span>
+                        <strong>{spreadFav ? g.home : g.away} -{spreadAbs}</strong>
+                      </div>
+                    );
+                  })()}
                 </div>
               );
             }

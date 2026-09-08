@@ -103,6 +103,7 @@ CREATE TABLE IF NOT EXISTS schedule_predictions (
     home_days_off       INTEGER,
     away_days_off       INTEGER,
     rest_adj            REAL,
+    predicted_spread    REAL,   -- home-perspective, positive = home favored (see spread.py)
     PRIMARY KEY (schedule_id, variant)
 );
 
@@ -657,7 +658,7 @@ def save_ratings(conn: sqlite3.Connection, variant: str, rows: list[dict],
 def save_schedule_prediction(conn: sqlite3.Connection, schedule_id: int, variant: str,
                               expected_win_home: float, expected_win_away: float,
                               home_days_off: int | None, away_days_off: int | None,
-                              rest_adj: float | None) -> None:
+                              rest_adj: float | None, predicted_spread: float | None) -> None:
     """Write a preview_matchup() result for one variant into
     schedule_predictions. Called from write_schedule_predictions()
     (add_season.py) for every row returned by upcoming_games() after
@@ -665,14 +666,15 @@ def save_schedule_prediction(conn: sqlite3.Connection, schedule_id: int, variant
     never read by the rating engine itself."""
     conn.execute(
         "INSERT INTO schedule_predictions(schedule_id, variant, expected_win_home, "
-        "expected_win_away, home_days_off, away_days_off, rest_adj) VALUES (?,?,?,?,?,?,?) "
+        "expected_win_away, home_days_off, away_days_off, rest_adj, predicted_spread) "
+        "VALUES (?,?,?,?,?,?,?,?) "
         "ON CONFLICT(schedule_id, variant) DO UPDATE SET "
         "expected_win_home=excluded.expected_win_home, "
         "expected_win_away=excluded.expected_win_away, "
         "home_days_off=excluded.home_days_off, away_days_off=excluded.away_days_off, "
-        "rest_adj=excluded.rest_adj",
+        "rest_adj=excluded.rest_adj, predicted_spread=excluded.predicted_spread",
         (schedule_id, variant, expected_win_home, expected_win_away,
-         home_days_off, away_days_off, rest_adj),
+         home_days_off, away_days_off, rest_adj, predicted_spread),
     )
 
 
@@ -685,7 +687,8 @@ def schedule_with_predictions(conn: sqlite3.Connection, variant: str) -> list[di
     cur = conn.execute(
         "SELECT s.schedule_id, s.date, s.season, s.type, s.round, s.home_team, "
         "s.away_team, s.home_code, s.away_code, s.neutral, p.expected_win_home, "
-        "p.expected_win_away, p.home_days_off, p.away_days_off, p.rest_adj "
+        "p.expected_win_away, p.home_days_off, p.away_days_off, p.rest_adj, "
+        "p.predicted_spread "
         "FROM schedule s LEFT JOIN schedule_predictions p "
         "ON p.schedule_id = s.schedule_id AND p.variant = ?",
         (variant,),

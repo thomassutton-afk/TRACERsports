@@ -52,6 +52,7 @@ from pathlib import Path
 import pandas as pd
 import db
 import predict
+import spread
 import simulate_season
 from rebuild import rebuild_ratings, standings, sanity_checks, VARIANTS
 
@@ -239,6 +240,13 @@ def write_schedule_predictions(conn, variant: str) -> int:
             season=g["season"], type_=g["type"], round_=g["round"],
             home_code=g["home_code"], away_code=g["away_code"], neutral=bool(g["neutral"]),
         )
+        # Same elo_diff reconstruction as predict.py's predict_all() -
+        # uses eng.params["hfa"] directly so this can't drift out of
+        # sync with whatever HFA the engine is actually using.
+        hfa_applied = 0.0 if g["neutral"] else eng.params["hfa"]
+        elo_diff = (p["home_rating"] - p["away_rating"]) + hfa_applied + p["rest_adj_home"]
+        predicted_spread = spread.elo_diff_to_spread(elo_diff)  # + = home favored
+
         db.save_schedule_prediction(
             conn, g["schedule_id"], variant,
             expected_win_home=p["expected_win_home"],
@@ -250,6 +258,7 @@ def write_schedule_predictions(conn, variant: str) -> int:
             # to be stored. See db.py's SCHEMA docstring for
             # schedule_predictions.
             rest_adj=p["rest_adj_home"],
+            predicted_spread=predicted_spread,
         )
     conn.commit()
     return len(upcoming)

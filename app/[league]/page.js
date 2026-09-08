@@ -198,6 +198,7 @@ export default function LeaguePage() {
   const searchParams = useSearchParams();
   const league = params.league;
   const variant = searchParams.get("variant") || "echo";
+  const seasonParam = searchParams.get("season");
   const [activeTab, setActiveTab] = useState("rankings");
   const [season, setSeason] = useState(null);
   const [standings, setStandings] = useState([]);
@@ -225,13 +226,24 @@ export default function LeaguePage() {
   // Resolve "current season" from real data (latest season with games)
   // rather than a hardcoded year, so this self-corrects the moment a new
   // season starts writing rows - no manual bump needed each year.
+  //
+  // ?season=YYYY in the URL overrides this - e.g. for previewing next
+  // year's preseason rankings (fetchStandings()'s preseason_ratings
+  // fallback below already handles a season with zero games; this is
+  // just what lets a person deliberately land on one before
+  // getCurrentSeason() would pick it on its own). Leaving the param off
+  // keeps today's exact behavior - nothing changes for a normal visit.
   useEffect(() => {
     if (!leagueConfig) return;
+    if (seasonParam) {
+      setSeason(Number(seasonParam));
+      return;
+    }
     setSeason(null);
     getCurrentSeason(league).then(({ season: resolved }) => {
       setSeason(resolved);
     });
-  }, [league, leagueConfig]);
+  }, [league, leagueConfig, seasonParam]);
 
   useEffect(() => {
     if (!leagueConfig || season === null) return;
