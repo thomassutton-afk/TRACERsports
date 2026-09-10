@@ -55,6 +55,28 @@ async function fetchTopTeams(league: string, season: number, variant: string, co
     }
   }
 
+  // A season with no games played yet (its preseason - see gamesData.js's
+  // getCurrentSeason(), which already treats this as "current" once the
+  // schedule is loaded) has nothing in `games` for the loop above to find.
+  // Fall back to preseason_ratings so the homepage card still shows a
+  // real top-3 instead of silently going blank - same reasoning as the
+  // Dashboard's preseason fallback in fetchStandings().
+  if (Object.keys(latestByTeam).length === 0) {
+    const { data: preseasonRows, error: preseasonError } = await supabase
+      .from("preseason_ratings")
+      .select("team_id, preseason_elo")
+      .eq("league", league)
+      .eq("season", season)
+      .eq("variant", variant);
+
+    if (preseasonError || !preseasonRows) return [];
+
+    return preseasonRows
+      .map((row) => ({ team_id: row.team_id, rating: row.preseason_elo }))
+      .sort((a, b) => b.rating - a.rating)
+      .slice(0, count);
+  }
+
   return Object.entries(latestByTeam)
     .map(([team_id, rating]) => ({ team_id, rating }))
     .sort((a, b) => b.rating - a.rating)

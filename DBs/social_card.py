@@ -83,6 +83,15 @@ def _font(weight: str, size: int) -> ImageFont.FreeTypeFont:
     return _FONT_CACHE[key]
 
 
+def _has_column(conn: sqlite3.Connection, table: str, column: str) -> bool:
+    """Whether `column` exists on `table` in this connection's db. Used
+    to keep _next_slate() safe across leagues that share this script -
+    NFL's schedule_predictions has predicted_spread (see spread.py),
+    NBA/WNBA's doesn't, and a hardcoded SELECT of a column that doesn't
+    exist would throw for those leagues rather than just skip it."""
+    return any(row[1] == column for row in conn.execute(f"PRAGMA table_info({table})"))
+
+
 def _next_slate(conn: sqlite3.Connection) -> tuple[date, list[dict]] | None:
     """Soonest date in `schedule` with at least one unplayed game and a
     saved Echo prediction. `schedule` only ever holds unplayed games
@@ -94,8 +103,9 @@ def _next_slate(conn: sqlite3.Connection) -> tuple[date, list[dict]] | None:
     if not row or not row[0]:
         return None
     next_date = row[0]
+    spread_select = ", p.predicted_spread" if _has_column(conn, "schedule_predictions", "predicted_spread") else ""
     cur = conn.execute(
-        "SELECT s.home_team, s.away_team, p.expected_win_home "
+        f"SELECT s.home_team, s.away_team, p.expected_win_home{spread_select} "
         "FROM schedule s LEFT JOIN schedule_predictions p "
         "ON p.schedule_id = s.schedule_id AND p.variant = 'echo' "
         "WHERE s.date = ? ORDER BY s.schedule_id",
@@ -381,6 +391,32 @@ def _render_page(games: list[dict], slate_date: date, league: str, page: int, to
         draw.ellipse((badge_cx - badge_r, badge_cy - badge_r, badge_cx + badge_r, badge_cy + badge_r),
                      fill=_heat_color(pct), outline=BG, width=4)
         draw.text((badge_cx, badge_cy), f"{pct}%", font=badge_font, fill="#FFFFFF", anchor="mm")
+
+        # Predicted spread, when this league's db has it (currently NFL
+        # only - see _has_column() in _next_slate()). Grouped directly
+        # under the win% badge as a small solid pill - same badge_cx so
+        # the two read as one "confidence" cluster instead of two
+        # unrelated labels, and a filled pill (not bare text) so it
+        # holds contrast regardless of what's behind it on the canvas.
+        # `.get()` rather than a dict key access - a league without the
+        # column simply never has this key, and nothing here draws.
+        spread = g.get("predicted_spread")
+        if spread is not None:
+            spread_text = f"-{abs(spread):.1f}"
+            spread_font = _font("Bold", 18 if games_per_row == 1 else 15)
+            pill_h = 30 if games_per_row == 1 else 24
+            # Clamped rather than a fixed offset below the badge - on a
+            # dense slate (smaller logos, tighter rows) badge_cy + badge_r
+            # can land close enough to row_y1 that a fixed gap would push
+            # this pill past the cell's own bottom edge. Never drawing
+            # outside the row matters more here than a perfectly even gap
+            # from the badge in that one dense case.
+            pill_cy = min(badge_cy + badge_r + 22, row_y1 - pill_h / 2 - 6)
+            text_w = draw.textlength(spread_text, font=spread_font)
+            pill_w = text_w + 22
+            pill_box = (badge_cx - pill_w / 2, pill_cy - pill_h / 2, badge_cx + pill_w / 2, pill_cy + pill_h / 2)
+            draw.rounded_rectangle(pill_box, radius=pill_h / 2, fill=TEXT)
+            draw.text((badge_cx, pill_cy), spread_text, font=spread_font, fill="#FFFFFF", anchor="mm")
 
         # Thin divider down the middle of each game cell (away | home)
         draw.line([(cell_x0 + half_col, row_y0 + 10), (cell_x0 + half_col, row_y1 - 10)], fill=BORDER2, width=2)
