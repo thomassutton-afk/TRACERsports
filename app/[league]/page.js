@@ -72,7 +72,28 @@ async function fetchStandings(league, season, variant) {
     from += PAGE_SIZE;
   }
 
+  // Always start from preseason_ratings so every team in the league has a
+  // row (populated even pre-kickoff, see export_to_supabase.py's
+  // build_future_preseason_ratings), then let any team that has actually
+  // played override its entry with real record/rating below. This keeps
+  // not-yet-played teams visible at 0-0 with their preseason rating
+  // instead of disappearing the moment *some* teams around the league
+  // have kicked off — the old logic only ever showed preseason data when
+  // the whole league was still at zero games, so a single early game
+  // dropped every other team off the board.
+  const { data: preseasonRows, error: preseasonError } = await supabase
+    .from("preseason_ratings")
+    .select("team_id, preseason_elo")
+    .eq("league", league)
+    .eq("season", season)
+    .eq("variant", variant);
+
+  if (preseasonError) return { standings: [], games: [], error: preseasonError };
+
   const byTeam = {};
+  for (const row of preseasonRows ?? []) {
+    byTeam[row.team_id] = { team_id: row.team_id, w: 0, l: 0, t: 0, rating: row.preseason_elo, change: null };
+  }
   for (const row of allRows) {
     const t = (byTeam[row.team_id] ??= { team_id: row.team_id, w: 0, l: 0, t: 0, rating: null, change: null });
     t.w += row.w ?? 0;
@@ -93,31 +114,6 @@ async function fetchStandings(league, season, variant) {
       points_for: row.points_for,
       points_against: row.points_against,
     }));
-
-  // Zero games back means either a bad league/season, or - much more
-  // commonly - a season whose schedule is loaded but hasn't kicked off
-  // yet. Rather than showing "No data yet", fall back to preseason_ratings
-  // (populated even pre-kickoff, see export_to_supabase.py's
-  // build_future_preseason_ratings) so the Dashboard can still show a
-  // real projected power ranking, just with 0-0 records and no
-  // week-over-week change yet (both fields the table already renders as
-  // "—"/0 when null, same as a missing season-projection row).
-  if (standings.length === 0) {
-    const { data: preseasonRows, error: preseasonError } = await supabase
-      .from("preseason_ratings")
-      .select("team_id, preseason_elo")
-      .eq("league", league)
-      .eq("season", season)
-      .eq("variant", variant);
-
-    if (preseasonError) return { standings: [], games: [], error: preseasonError };
-
-    const preseasonStandings = (preseasonRows ?? [])
-      .map((row) => ({ team_id: row.team_id, w: 0, l: 0, t: 0, rating: row.preseason_elo, change: null }))
-      .sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
-
-    return { standings: preseasonStandings, games: [], error: null };
-  }
 
   return { standings, games, error: null };
 }
