@@ -336,7 +336,41 @@ def _render_page(games: list[dict], slate_date: date, league: str, page: int, to
     # value - so they dominate their cell (~85-90% of its height) instead
     # of floating in it. Everything else (labels, badge) is layered on top
     # of/around the logo rather than pushed into its own reserved band.
-    logo_size = int(min(row_h * 0.75, half_col * 0.61))
+    #
+    # That headroom is already razor-thin by design - the win% badge
+    # alone sits within ~5px of the row's own bottom edge at several
+    # common slate sizes, and touches it exactly at others (checked
+    # directly against this geometry, not assumed - a flat shrink factor
+    # tried here first still overlapped at n=4 and n=8 specifically,
+    # because margin-below-the-badge isn't linear in row_h; it depends
+    # on badge_r's own max(24, ...) floor kicking in at different logo
+    # sizes for different slate sizes). So instead of a fixed factor,
+    # solve per-render for the largest logo that still leaves >=10px
+    # between the spread pill's actual bottom edge and this row's own
+    # bottom edge - guaranteed correct at any n, rather than verified
+    # only at the handful of slate sizes anyone thought to check.
+    # Pages without spread data (NBA/WNBA, or NFL before
+    # write_schedule_predictions has run) are completely unaffected -
+    # same fixed 0.75 as always, no pill to make room for.
+    has_spread_data = any(g.get("predicted_spread") is not None for g in games)
+    pill_gap, pill_h = (7, 26) if games_per_row == 1 else (6, 20)
+
+    def _logo_factor_for_pill(target_margin=10.0):
+        lo, hi = 0.20, 0.75
+        for _ in range(30):
+            mid = (lo + hi) / 2
+            probe_logo = min(row_h * mid, half_col * 0.61)
+            probe_ring_r = probe_logo / 2 + 14
+            probe_badge_r = max(24, probe_logo * 0.15)
+            pill_bottom = probe_ring_r * 0.90 + probe_badge_r + pill_gap + pill_h
+            if row_h / 2 - pill_bottom > target_margin:
+                lo = mid
+            else:
+                hi = mid
+        return lo
+
+    logo_factor = _logo_factor_for_pill() if has_spread_data else 0.75
+    logo_size = int(min(row_h * logo_factor, half_col * 0.61))
     ring_r = logo_size / 2 + 14
     badge_r = max(24, int(logo_size * 0.15))
     team_font = _font("Bold", 22 if games_per_row == 1 else 18)
@@ -403,17 +437,14 @@ def _render_page(games: list[dict], slate_date: date, league: str, page: int, to
         spread = g.get("predicted_spread")
         if spread is not None:
             spread_text = f"-{abs(spread):.1f}"
-            spread_font = _font("Bold", 18 if games_per_row == 1 else 15)
-            pill_h = 30 if games_per_row == 1 else 24
-            # Clamped rather than a fixed offset below the badge - on a
-            # dense slate (smaller logos, tighter rows) badge_cy + badge_r
-            # can land close enough to row_y1 that a fixed gap would push
-            # this pill past the cell's own bottom edge. Never drawing
-            # outside the row matters more here than a perfectly even gap
-            # from the badge in that one dense case.
-            pill_cy = min(badge_cy + badge_r + 22, row_y1 - pill_h / 2 - 6)
+            spread_font = _font("Bold", 18 if games_per_row == 1 else 14)
+            # pill_gap/pill_h come from the same variables logo_factor was
+            # solved against above - using different values here would
+            # silently break the no-overlap guarantee that solve exists
+            # to provide.
+            pill_cy = badge_cy + badge_r + pill_gap + pill_h / 2
             text_w = draw.textlength(spread_text, font=spread_font)
-            pill_w = text_w + 22
+            pill_w = text_w + 18
             pill_box = (badge_cx - pill_w / 2, pill_cy - pill_h / 2, badge_cx + pill_w / 2, pill_cy + pill_h / 2)
             draw.rounded_rectangle(pill_box, radius=pill_h / 2, fill=TEXT)
             draw.text((badge_cx, pill_cy), spread_text, font=spread_font, fill="#FFFFFF", anchor="mm")
