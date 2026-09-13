@@ -69,6 +69,7 @@ CREATE TABLE IF NOT EXISTS games (
     round               TEXT,              -- nullable: NULL for every regular-season game (type='R'); only playoff games (type='P') have a round. The live table already allows this (confirmed by successful exports); this fixes the file to match, so a from-scratch rebuild wouldn't reintroduce the bug schedule.round just hit.
     opponent_id         TEXT    NOT NULL,
     home_away           TEXT    NOT NULL,
+    neutral             INTEGER NOT NULL DEFAULT 0, -- game played at a neutral site (Super Bowl every year, plus International Series and weather/disaster/COVID-displaced games). home_away still reflects the designated home/away team for scheduling purposes; this flag is additive, not a replacement.
     points_for          INTEGER NOT NULL,
     points_against      INTEGER NOT NULL,
     ot                  INTEGER NOT NULL DEFAULT 0,

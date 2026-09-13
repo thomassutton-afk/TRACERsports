@@ -59,7 +59,6 @@ WHAT THIS DOES NOT DO YET
   database — this export only needs to satisfy the FK from games/standings.
 """
 import argparse
-import importlib
 import os
 import sqlite3
 import sys
@@ -250,7 +249,7 @@ def build_team_history(conn, league, id_to_code):
 
 GAMES_COLUMNS = [
     "game_id", "team_id", "date", "season", "type", "round", "opponent_id",
-    "home_away", "points_for", "points_against", "ot", "days_off",
+    "home_away", "neutral", "points_for", "points_against", "ot", "days_off",
     "opp_days_off", "rest_diff", "rest_adj", "pre_gm_rate", "opp_pre_gm_rate",
     "expected_win_pct", "mov", "result", "accuracy", "brier", "mov_mult",
     "games_played", "k", "po_mult", "k_eff", "rating_change", "post_gm_rate",
@@ -261,7 +260,7 @@ GAMES_COLUMNS = [
 def build_games(conn, league, id_to_code, variant):
     cur = conn.cursor()
     cur.execute(
-        "SELECT game_id, team, opponent, home_away, date, season, type, "
+        "SELECT game_id, team, opponent, home_away, neutral, date, season, type, "
         "round, games_played, days_off, opp_days_off, rest_adj, pre_rate, "
         "opp_pre_rate, expected_win, points_for, points_against, ot, mov, "
         "result, accuracy, brier, mov_mult, po_mult, k, keff, "
@@ -286,6 +285,7 @@ def build_games(conn, league, id_to_code, variant):
                 "round": format_round(r["round"]),
                 "opponent_id": opp_code,
                 "home_away": r["home_away"],
+                "neutral": r["neutral"],
                 "points_for": r["points_for"],
                 "points_against": r["points_against"],
                 "ot": r["ot"],
@@ -467,55 +467,6 @@ def build_preseason_ratings(games_rows):
     ]
 
 
-def build_future_preseason_ratings(conn, league, id_to_code, variant, covered_seasons):
-    """
-    build_preseason_ratings() above can only produce a row for a season
-    once its first REAL game has been played (it reads that game's
-    pre_gm_rate). That leaves a real gap right before a season's kickoff
-    - e.g. publishing 2026 NFL preseason ratings in August, when the
-    schedule is loaded but zero 2026 games have happened yet.
-
-    This covers that gap: for every season present in `schedule` but NOT
-    in `covered_seasons` (i.e. no completed games for it), replays every
-    real game up to now via that league's own rebuild.build_current_engine
-    (identical to what predict.py already does for schedule predictions),
-    then uses the engine's preview_preseason_rating() - the same
-    regression-to-mean predict.py's win probabilities already rely on -
-    to get each team's rating entering that season. Once the season's
-    first real game is actually played, build_preseason_ratings() takes
-    over for it automatically and this function stops producing a row
-    for it (covered_seasons will include it going forward).
-    """
-    cur = conn.cursor()
-    cur.execute("SELECT DISTINCT season FROM schedule")
-    schedule_seasons = {r[0] for r in cur.fetchall()}
-    future_seasons = sorted(s for s in schedule_seasons if (league, s, variant) not in covered_seasons)
-    if not future_seasons:
-        return []
-
-    league_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), league)
-    sys.path.insert(0, league_dir)
-    try:
-        sys.modules.pop("rebuild", None)  # don't reuse another league's cached rebuild module
-        rebuild_mod = importlib.import_module("rebuild")
-        eng = rebuild_mod.build_current_engine(conn, variant)
-    finally:
-        sys.path.remove(league_dir)
-        sys.modules.pop("rebuild", None)
-
-    return [
-        {
-            "league": league,
-            "season": season,
-            "variant": variant,
-            "team_id": code,
-            "preseason_elo": eng.preview_preseason_rating(internal_id, season),
-        }
-        for season in future_seasons
-        for internal_id, (code, _name) in id_to_code.items()
-    ]
-
-
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--league", required=True, choices=list(SPORT_FOR_LEAGUE))
@@ -542,9 +493,6 @@ def main():
         schedule_rows += build_schedule(conn, args.league, id_to_code, variant)
         projection_rows += build_season_projection(conn, args.league, id_to_code, variant)
     preseason_rows = build_preseason_ratings(games_rows)
-    covered_seasons = {(r["league"], r["season"], r["variant"]) for r in preseason_rows}
-    for variant in VARIANTS:
-        preseason_rows += build_future_preseason_ratings(conn, args.league, id_to_code, variant, covered_seasons)
     conn.close()
 
     print(f"League: {args.league}  (variants: {', '.join(VARIANTS)})")

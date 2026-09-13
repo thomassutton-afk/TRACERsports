@@ -387,6 +387,7 @@ class EloEngine:
                     w=win, l=loss, t=tie,
                     r1w=po_w["r1"], r1l=po_l["r1"], r2w=po_w["r2"], r2l=po_l["r2"],
                     r3w=po_w["r3"], r3l=po_l["r3"], fw=po_w["f"], fl=po_l["f"],
+                    neutral=1 if g.get("neutral") else 0,
                 )
 
             row_home = row(home_id, away_id, True, pre_home, pre_away, exp_home,
@@ -429,19 +430,6 @@ class EloEngine:
             return state.rating, state.last_game_date, state.games_played_in_season
         alpha, base = self.params["alpha"], self.params["base"]
         return alpha * state.rating + (1 - alpha) * base, None, 0
-
-    def preview_preseason_rating(self, team_id: str, season: int) -> float:
-        """Public single-team wrapper around _preview_season_entry - no
-        opponent/matchup needed. What a team's rating WOULD be entering
-        `season`, with the same regression-to-mean _preview_season_entry
-        already applies for preview_matchup's predictions - just exposed
-        standalone, for publishing preseason ratings before a season's
-        first game exists (see export_to_supabase.py's
-        build_future_preseason_ratings). Read-only, same as
-        preview_matchup - does not mutate engine state."""
-        state = self.teams.get(team_id) or TeamState(rating=self.params["base"])
-        rating, _, _ = self._preview_season_entry(state, season, team_id)
-        return rating
 
     def preview_matchup(self, home_team: str, away_team: str, game_date: date, season: int,
                          type_: str = "R", round_: Optional[str] = None,
