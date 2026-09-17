@@ -4,6 +4,11 @@ import { supabase } from "@/lib/supabase";
 import { getGamesOrScheduleForDate, getCurrentSeason, roundLabel } from "@/lib/gamesData";
 import TeamMark from "./[league]/TeamMark";
 
+// Without this, Next.js can statically cache this page's Supabase fetches
+// indefinitely, so "Today's Games" silently goes stale until the next
+// deploy instead of reflecting what's actually in the DB right now.
+export const revalidate = 60;
+
 /**
  * Homepage.
  *
@@ -157,7 +162,6 @@ export default async function Home() {
   ]);
   const topTeamsByLeague: Record<string, any[]> = Object.fromEntries(topTeamsEntries);
   const todaysGamesByLeague: Record<string, any[]> = Object.fromEntries(todaysGamesEntries);
-  const hasAnyGamesToday = Object.values(todaysGamesByLeague).some((games) => games.length > 0);
 
   return (
     <div className="home-wrap">
@@ -188,32 +192,42 @@ export default async function Home() {
         </h1>
       </div>
 
-      {hasAnyGamesToday && (
-        <div style={{ marginBottom: "2.5rem" }}>
-          <div
-            style={{
-              fontFamily: "var(--font-mono)",
-              fontSize: 11,
-              fontWeight: 700,
-              color: "var(--text3)",
-              textTransform: "uppercase",
-              letterSpacing: 2,
-              marginBottom: 14,
-              paddingBottom: 8,
-              borderBottom: "1px solid var(--border)",
-            }}
-          >
-            Today's Games
+      {Object.values(SPORTS).map((sport) => {
+        const sportGames = sport.leagues.flatMap((leagueId) =>
+          (todaysGamesByLeague[leagueId] || []).map((game, i) => ({ leagueId, game, i }))
+        );
+        if (sportGames.length === 0) return null;
+
+        return (
+          <div key={`today-${sport.id}`} style={{ marginBottom: "2.5rem" }}>
+            <div
+              style={{
+                fontFamily: "var(--font-mono)",
+                fontSize: 11,
+                fontWeight: 700,
+                color: "var(--text3)",
+                textTransform: "uppercase",
+                letterSpacing: 2,
+                marginBottom: 14,
+                paddingBottom: 8,
+                borderBottom: "1px solid var(--border)",
+              }}
+            >
+              Today — {sport.label}
+            </div>
+            <div style={{ display: "flex", gap: 12, overflowX: "auto", paddingBottom: 4 }}>
+              {sportGames.map(({ leagueId, game, i }) => (
+                <TodayGameCard
+                  key={`${leagueId}-${i}`}
+                  leagueId={leagueId}
+                  leagueConfig={(LEAGUES as any)[leagueId]}
+                  game={game}
+                />
+              ))}
+            </div>
           </div>
-          <div style={{ display: "flex", gap: 12, overflowX: "auto", paddingBottom: 4 }}>
-            {allLeagueIds.flatMap((leagueId) =>
-              (todaysGamesByLeague[leagueId] || []).map((game, i) => (
-                <TodayGameCard key={`${leagueId}-${i}`} leagueId={leagueId} leagueConfig={(LEAGUES as any)[leagueId]} game={game} />
-              ))
-            )}
-          </div>
-        </div>
-      )}
+        );
+      })}
 
       {Object.values(SPORTS).map((sport) => (
         <div key={sport.id} style={{ marginBottom: "2.5rem" }}>
