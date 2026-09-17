@@ -165,6 +165,20 @@ export default async function Home() {
 
   return (
     <div className="home-wrap">
+      <style>{`
+        .game-scroll-row {
+          scrollbar-width: none;
+          -ms-overflow-style: none;
+          scroll-snap-type: x proximity;
+          scroll-behavior: smooth;
+        }
+        .game-scroll-row::-webkit-scrollbar {
+          display: none;
+        }
+        .game-scroll-row > * {
+          scroll-snap-align: start;
+        }
+      `}</style>
       <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
         <div
           style={{
@@ -215,7 +229,21 @@ export default async function Home() {
             >
               Today — {sport.label}
             </div>
-            <div style={{ display: "flex", gap: 12, overflowX: "auto", paddingBottom: 4 }}>
+            <div
+              className="game-scroll-row"
+              style={{
+                display: "flex",
+                gap: 12,
+                overflowX: "auto",
+                paddingBottom: 4,
+                // Fades cards out near the edges instead of an abrupt cut-off,
+                // hinting there's more to scroll to without a visible scrollbar.
+                maskImage:
+                  "linear-gradient(to right, transparent 0, black 24px, black calc(100% - 24px), transparent 100%)",
+                WebkitMaskImage:
+                  "linear-gradient(to right, transparent 0, black 24px, black calc(100% - 24px), transparent 100%)",
+              }}
+            >
               {sportGames.map(({ leagueId, game, i }) => (
                 <TodayGameCard
                   key={`${leagueId}-${i}`}
