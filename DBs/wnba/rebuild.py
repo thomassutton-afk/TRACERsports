@@ -45,6 +45,13 @@ def rebuild_ratings(conn: sqlite3.Connection, variant: str, params: dict | None 
     eng = engine.EloEngine(params, resets=resets)
     for g in games:
         rows = eng.process_game(g)
+        # engine.py builds each row from matchup math and doesn't know
+        # about neutral-site flags - stamp it on here straight from the
+        # game itself (the authoritative source) so `ratings` always
+        # agrees with `games`/`schedule`, regardless of what the engine
+        # does or doesn't carry through.
+        for r in rows:
+            r["neutral"] = g["neutral"]
         db.save_ratings(conn, variant, rows, [g["game_id"], g["game_id"]])
     conn.commit()
 
@@ -52,8 +59,9 @@ def rebuild_ratings(conn: sqlite3.Connection, variant: str, params: dict | None 
 def standings(conn: sqlite3.Connection, season: int, variant: str = "echo"):
     """Regular-season W/L + final rating as of end of that season's games
     seen so far, for ONE variant. Team name reflects whatever the
-    franchise was actually called THAT season, via db.display_name -
-    not just its current name."""
+    franchise was actually called THAT season (e.g. Seattle SuperSonics
+    in 1996, Oklahoma City Thunder in 2010), via db.display_name - not
+    just its current name."""
     cur = conn.execute(
         """
         SELECT r.team,
@@ -100,9 +108,9 @@ def sanity_checks(conn: sqlite3.Connection, seasons, variant: str = "echo") -> l
 
 
 if __name__ == "__main__":
-    conn = db.connect("wnba_elo.db")
+    conn = db.connect("nba_elo.db")
     for variant in VARIANTS:
         rebuild_ratings(conn, variant)
         print(f"--- {variant} ---")
-        for row in standings(conn, 1997, variant):
+        for row in standings(conn, 1996, variant):
             print(row)

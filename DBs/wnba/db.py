@@ -1,8 +1,8 @@
-"""SQLite storage for the WNBA Echo Ratings model.
+"""SQLite storage for the NBA Elo model.
 
 TEAM IDENTITY MODEL
 --------------------
-`teams.team_id` is a permanent synthetic ID (e.g. "wnba_0001") assigned
+`teams.team_id` is a permanent synthetic ID (e.g. "nba_0001") assigned
 once to a franchise and never changed, regardless of relocations or
 rebrands. It carries no meaning of its own - it's just a stable peg for
 `games` and `ratings` to reference.
@@ -13,14 +13,16 @@ permanent ID via `resolve_team_id`. No single code is privileged as
 "the real one."
 
 `team_history` tracks which code/name a franchise used during which
-seasons, so you can ask "what was this team called in 1998?" vs "what
-is it called now?" even though both are the same team_id. `teams.team_name`
-remains a simple current-name fallback for convenience/older callers.
+seasons, so you can ask "what was this team called in 1996?" (Seattle
+SuperSonics) vs "in 2010?" (Oklahoma City Thunder) even though both are
+the same team_id. `teams.team_name` remains a simple current-name
+fallback for convenience/older callers.
 """
 from __future__ import annotations
 import sqlite3
 from datetime import date, datetime
 from pathlib import Path
+from typing import Optional
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS teams (
@@ -94,7 +96,33 @@ CREATE TABLE IF NOT EXISTS schedule_predictions (
     home_days_off       INTEGER,
     away_days_off       INTEGER,
     rest_adj            REAL,
+    predicted_spread    REAL,
     PRIMARY KEY (schedule_id, variant)
+);
+
+-- Monte Carlo season projection (simulate_season.py), one row per team
+-- per season per VARIANT - Pulse's projected win totals genuinely
+-- differ from Echo's once ratings diverge, same reasoning as ratings
+-- below. Fully replaced each time it's recomputed (see
+-- save_season_projection below) - this is always a fresh snapshot from
+-- current ratings, never an incremental update, so there's no
+-- reasonable way to "diff" an old projection against a new one, and no
+-- reason to try. computed_at records when a given snapshot was made,
+-- mainly so the site can show "as of" freshness if useful later.
+CREATE TABLE IF NOT EXISTS season_projections (
+    season             INTEGER NOT NULL,
+    team_id            TEXT NOT NULL,
+    variant            TEXT NOT NULL,
+    avg_wins           REAL,
+    p10_wins           INTEGER,
+    median_wins        INTEGER,
+    p90_wins           INTEGER,
+    avg_rating         REAL,
+    prob_finish_first  REAL,
+    trials             INTEGER,
+    remaining_games    INTEGER,
+    computed_at        TEXT,
+    PRIMARY KEY (season, team_id, variant)
 );
 
 -- One row per team per game per VARIANT (e.g. 'echo', 'pulse') - the
@@ -123,6 +151,7 @@ CREATE TABLE IF NOT EXISTS ratings (
     points_for    INTEGER,
     points_against INTEGER,
     ot            INTEGER,
+    neutral       INTEGER NOT NULL DEFAULT 0,
     mov           INTEGER,
     result        REAL,
     accuracy      INTEGER,
@@ -144,35 +173,10 @@ CREATE TABLE IF NOT EXISTS params (
     value TEXT NOT NULL
 );
 
--- Monte Carlo season projection (simulate_season.py), one row per team
--- per season per VARIANT - Pulse's projected win totals genuinely
--- differ from Echo's once ratings diverge, same reasoning as ratings
--- above. Fully replaced each time it's recomputed (see
--- save_season_projection below) - this is always a fresh snapshot from
--- current ratings, never an incremental update, so there's no
--- reasonable way to "diff" an old projection against a new one, and no
--- reason to try. computed_at records when a given snapshot was made,
--- mainly so the site can show "as of" freshness if useful later.
-CREATE TABLE IF NOT EXISTS season_projections (
-    season             INTEGER NOT NULL,
-    team_id            TEXT NOT NULL,
-    variant            TEXT NOT NULL,
-    avg_wins           REAL,
-    p10_wins           INTEGER,
-    median_wins        INTEGER,
-    p90_wins           INTEGER,
-    avg_rating         REAL,
-    prob_finish_first  REAL,
-    trials             INTEGER,
-    remaining_games    INTEGER,
-    computed_at        TEXT,
-    PRIMARY KEY (season, team_id, variant)
-);
-
--- Franchise relocations: maps a team code as it appears in a new
--- season's source file (e.g. "SAS") to the canonical team_id already
--- used in the database for that same continuous franchise (e.g.
--- "UTA"). Rating history carries through unaffected.
+-- Every code a franchise has ever used (current or historical) maps
+-- here to its permanent team_id. Loaders resolve raw source-file codes
+-- through this table; a code with no alias yet is treated as a brand
+-- new franchise (see register_new_team).
 CREATE TABLE IF NOT EXISTS team_aliases (
     alias      TEXT PRIMARY KEY,
     team_id    TEXT NOT NULL REFERENCES teams(team_id),
@@ -273,15 +277,31 @@ def _migrate(conn: sqlite3.Connection) -> None:
     # just means nobody's populated that era's colors yet - callers fall
     # back to the current identity's colors (from config.js), not an
     # error. Kept on team_history itself (not a separate lookup keyed by
-    # code) because code alone isn't a stable key - e.g. 'San Antonio
-    # Silver Stars' (2003-2013) and 'San Antonio Stars' (2014-2017) are
-    # two different team_history rows sharing the code 'SAS'; only
-    # (team_id, start_season) uniquely identifies an era.
+    # code) because code alone isn't a stable key - e.g. WNBA's
+    # 'San Antonio Silver Stars' (2003-2013) and 'San Antonio Stars'
+    # (2014-2017) are two different team_history rows sharing the code
+    # 'SAS'; only (team_id, start_season) uniquely identifies an era.
     history_cols = {row[1] for row in conn.execute("PRAGMA table_info(team_history)")}
     for col in ("primary_color", "secondary_color", "tertiary_color"):
         if col not in history_cols:
             conn.execute(f"ALTER TABLE team_history ADD COLUMN {col} TEXT")
     conn.commit()
+
+
+# --------------------------------------------------------------------
+# Franchise identity: synthetic IDs, aliases, era-scoped history
+# --------------------------------------------------------------------
+
+def next_team_id(conn: sqlite3.Connection) -> str:
+    """Generate the next sequential permanent franchise ID, e.g.
+    'nba_0001'. Once assigned, a team_id never changes - relocations
+    and rebrands are handled entirely through aliases/team_history."""
+    row = conn.execute(
+        "SELECT team_id FROM teams WHERE team_id LIKE 'nba\\_%' ESCAPE '\\' "
+        "ORDER BY team_id DESC LIMIT 1"
+    ).fetchone()
+    n = int(row[0].split("_")[1]) + 1 if row else 1
+    return f"nba_{n:04d}"
 
 
 def add_alias(conn: sqlite3.Connection, alias: str, team_id: str, note: str = "") -> None:
@@ -295,27 +315,16 @@ def add_alias(conn: sqlite3.Connection, alias: str, team_id: str, note: str = ""
 
 
 def resolve_team_id(conn: sqlite3.Connection, code: str) -> str:
-    """Translate a raw team code from a source file into its canonical
-    team_id, following any registered alias. Returns the code unchanged
-    if no alias exists."""
+    """Translate a raw team code from a source file into its permanent
+    team_id, following the registered alias. Returns the code unchanged
+    if no alias exists yet (caller should register one first - see
+    register_new_team)."""
     row = conn.execute("SELECT team_id FROM team_aliases WHERE alias = ?", (code,)).fetchone()
     return row[0] if row else code
 
 
-def next_team_id(conn: sqlite3.Connection) -> str:
-    """Generate the next sequential permanent franchise ID, e.g.
-    'wnba_0001'. Once assigned, a team_id never changes - relocations
-    and rebrands are handled entirely through aliases/team_history."""
-    row = conn.execute(
-        "SELECT team_id FROM teams WHERE team_id LIKE 'wnba\\_%' ESCAPE '\\' "
-        "ORDER BY team_id DESC LIMIT 1"
-    ).fetchone()
-    n = int(row[0].split("_")[1]) + 1 if row else 1
-    return f"wnba_{n:04d}"
-
-
 def add_team_history(conn: sqlite3.Connection, team_id: str, code: str, name: str,
-                      start_season: int, end_season: int | None = None) -> None:
+                      start_season: int, end_season: Optional[int] = None) -> None:
     conn.execute(
         "INSERT INTO team_history(team_id, code, name, start_season, end_season) "
         "VALUES (?, ?, ?, ?, ?)",
@@ -362,10 +371,10 @@ def rename_current_history(conn: sqlite3.Connection, team_id: str, name: str) ->
 
 
 def display_name(conn: sqlite3.Connection, team_id: str, season: int) -> str:
-    """The name a franchise went by during `season` - e.g. its 1998
-    name vs. its current name, even for the same team_id. Falls back
-    to teams.team_name if no era-specific history row covers that
-    season yet."""
+    """The name a franchise went by during `season` - e.g. 'Seattle
+    SuperSonics' for a given team_id in 1996, 'Oklahoma City Thunder'
+    for the same team_id in 2010. Falls back to teams.team_name if no
+    era-specific history row covers that season yet."""
     row = conn.execute(
         "SELECT name FROM team_history WHERE team_id = ? AND start_season <= ? "
         "AND (end_season IS NULL OR end_season >= ?)",
@@ -377,7 +386,7 @@ def display_name(conn: sqlite3.Connection, team_id: str, season: int) -> str:
     return row[0] if row else team_id
 
 
-def era_info(conn: sqlite3.Connection, team_id: str, season: int) -> dict | None:
+def era_info(conn: sqlite3.Connection, team_id: str, season: int) -> Optional[dict]:
     """Everything about the era covering `season`: code, name, and
     (possibly None) colors. Returns None if no team_history row covers
     that season - caller should fall back to teams.team_name/config.js
@@ -431,7 +440,7 @@ def load_resets(conn: sqlite3.Connection) -> set[tuple[str, int]]:
 
 PARAMS_FILE = "active_params.json"
 # Active (tuned) parameters live in this file, deliberately SEPARATE
-# from the database, so deleting/resetting wnba_elo.db can never
+# from the database, so deleting/resetting nba_elo.db can never
 # silently wipe out tuning. If you genuinely want to go back to the
 # original values, use `python3 set_params.py reset` (or delete this
 # file directly) rather than deleting the database.
@@ -516,22 +525,29 @@ def upcoming_games(conn: sqlite3.Connection, season: int | None = None) -> list[
 def save_schedule_prediction(conn: sqlite3.Connection, schedule_id: int, variant: str,
                               expected_win_home: float, expected_win_away: float,
                               home_days_off: int | None, away_days_off: int | None,
-                              rest_adj: float | None) -> None:
+                              rest_adj: float | None, predicted_spread: float | None = None) -> None:
     """Write a preview_matchup() result for one variant into
     schedule_predictions. Called from write_schedule_predictions()
     (add_season.py) for every row returned by upcoming_games() after
     each rebuild_ratings() pass, once per variant. Display-only -
-    never read by the rating engine itself."""
+    never read by the rating engine itself.
+
+    predicted_spread is optional (defaults to NULL) since it's derived
+    via spread.py's elo_diff_to_spread(), a separate calibration step
+    from the engine itself - callers that don't have it yet (or don't
+    care) can omit it rather than being forced to pass None
+    explicitly."""
     conn.execute(
         "INSERT INTO schedule_predictions(schedule_id, variant, expected_win_home, "
-        "expected_win_away, home_days_off, away_days_off, rest_adj) VALUES (?,?,?,?,?,?,?) "
+        "expected_win_away, home_days_off, away_days_off, rest_adj, predicted_spread) "
+        "VALUES (?,?,?,?,?,?,?,?) "
         "ON CONFLICT(schedule_id, variant) DO UPDATE SET "
         "expected_win_home=excluded.expected_win_home, "
         "expected_win_away=excluded.expected_win_away, "
         "home_days_off=excluded.home_days_off, away_days_off=excluded.away_days_off, "
-        "rest_adj=excluded.rest_adj",
+        "rest_adj=excluded.rest_adj, predicted_spread=excluded.predicted_spread",
         (schedule_id, variant, expected_win_home, expected_win_away,
-         home_days_off, away_days_off, rest_adj),
+         home_days_off, away_days_off, rest_adj, predicted_spread),
     )
 
 
@@ -669,7 +685,7 @@ def save_ratings(conn: sqlite3.Connection, variant: str, rows: list[dict],
                   game_id_by_row: list[int]) -> None:
     cols = ["game_id", "team", "variant", "opponent", "home_away", "date", "season", "type", "round",
             "games_played", "days_off", "opp_days_off", "rest_adj", "pre_rate", "opp_pre_rate",
-            "expected_win", "points_for", "points_against", "ot", "mov", "result", "accuracy",
+            "expected_win", "points_for", "points_against", "ot", "neutral", "mov", "result", "accuracy",
             "test", "brier", "mov_mult", "po_mult", "k", "keff", "rating_change", "post_rate",
             "w", "l", "r1w", "r1l", "r2w", "r2l", "r3w", "r3l", "fw", "fl"]
     placeholders = ",".join("?" for _ in cols)

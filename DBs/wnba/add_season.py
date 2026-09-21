@@ -53,6 +53,7 @@ import db
 import predict
 import simulate_season
 from rebuild import rebuild_ratings, standings, sanity_checks, VARIANTS
+import spread
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))  # DBs/ - for social_card.py
 import social_card
@@ -260,6 +261,14 @@ def write_schedule_predictions(conn, variant: str) -> int:
             home_team=g["home_team"], away_team=g["away_team"], game_date=g["date"],
             season=g["season"], type_=g["type"], round_=g["round"], neutral=bool(g["neutral"]),
         )
+        # preview_matchup() itself has no notion of a point spread - it
+        # only produces a win probability. Rebuild the same home-adjusted
+        # Elo differential that feeds that probability (HCA + rest
+        # already folded in, matching spread.py's convention exactly)
+        # and run it through spread.py's calibration to get a spread.
+        hca_applied = 0.0 if g["neutral"] else spread.HCA
+        elo_diff = p["home_rating"] - p["away_rating"] + hca_applied + p["rest_adj_home"]
+        predicted_spread = spread.elo_diff_to_spread(elo_diff)
         db.save_schedule_prediction(
             conn, g["schedule_id"], variant,
             expected_win_home=p["expected_win_home"],
@@ -271,6 +280,7 @@ def write_schedule_predictions(conn, variant: str) -> int:
             # the home value needs to be stored. See schema note in
             # db.py's SCHEMA docstring for schedule_predictions.
             rest_adj=p["rest_adj_home"],
+            predicted_spread=predicted_spread,
         )
     conn.commit()
     return len(upcoming)
