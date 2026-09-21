@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "league": "nfl",
+    "season": 2026,
+    "variant": "echo",
+    "above": "CAR",
+    "below": "DAL"
+  },
+  {
+    "league": "nfl",
+    "season": 2026,
+    "variant": "echo",
+    "above": "HOU",
+    "below": "WAS"
+  },
+  {
+    "league": "nfl",
+    "season": 2026,
+    "variant": "pulse",
+    "above": "CAR",
+    "below": "DAL"
+  },
+  {
+    "league": "nfl",
+    "season": 2026,
+    "variant": "pulse",
+    "above": "HOU",
+    "below": "WAS"
+  }
+]
