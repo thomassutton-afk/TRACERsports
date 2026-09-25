@@ -81,20 +81,23 @@ def _riser_color(value: float, lo: float, hi: float) -> tuple[int, int, int]:
     return (int(r * 255), int(g * 255), int(b * 255))
 
 
-def generate_weekly_risers_card(
+def render_risers_card(
+    rows: list[tuple[str, float]],
     league: str,
     week: int,
-    standings_text: str,
     out_dir: Path | None = None,
 ) -> Path:
     """Renders and saves one 1080x1080 leaderboard card ranking this
-    week's winners by rating gain, most-improved first (the order the
-    text block is given in - see _parse_standings).
+    week's winners by rating gain, most-improved first - from an
+    already-assembled (name, rating_change) list, in the order given
+    (this doesn't re-sort; sort before calling if the source wasn't
+    already ranked). Shared by generate_weekly_risers_card (manual
+    paste) and weekly_risers_from_db.py (reads straight from the
+    league db), so a style change here reaches both.
 
     Returns the saved path."""
-    rows = _parse_standings(standings_text)
     if not rows:
-        raise ValueError("No rows to render - standings_text was empty.")
+        raise ValueError("No rows to render.")
 
     values = [v for _, v in rows]
     lo, hi = min(values), max(values)
@@ -190,3 +193,19 @@ def generate_weekly_risers_card(
     out_path = out_dir / f"week{week}-risers.png"
     img.save(out_path)
     return out_path
+
+
+def generate_weekly_risers_card(
+    league: str,
+    week: int,
+    standings_text: str,
+    out_dir: Path | None = None,
+) -> Path:
+    """Manual-paste entry point: parses a "Team<whitespace>delta" block
+    (see _parse_standings) and renders it via render_risers_card.
+    Kept around for leagues/situations without db-backed rating_change
+    lookup yet - for NFL, prefer
+    weekly_risers_from_db.generate_weekly_risers_card_from_db, which
+    needs no copy-pasting at all."""
+    rows = _parse_standings(standings_text)
+    return render_risers_card(rows, league=league, week=week, out_dir=out_dir)
