@@ -26,5 +26,19 @@
     "variant": "pulse",
     "above": "HOU",
     "below": "WAS"
+  },
+  {
+    "league": "nfl",
+    "season": 2026,
+    "variant": "echo",
+    "above": "NO",
+    "below": "LAR"
+  },
+  {
+    "league": "nfl",
+    "season": 2026,
+    "variant": "pulse",
+    "above": "NO",
+    "below": "LAR"
   }
 ]

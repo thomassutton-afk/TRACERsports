@@ -113,6 +113,11 @@ async function fetchStandings(league, season, variant) {
       opponent_id: row.opponent_id,
       points_for: row.points_for,
       points_against: row.points_against,
+      // w/l/t let OverallBracketTab rebuild regular-season-only records for
+      // seeding (standings' w/l also sums playoff rows once they exist).
+      w: row.w,
+      l: row.l,
+      t: row.t,
     }));
 
   return { standings, games, error: null };
@@ -247,12 +252,11 @@ export default function LeaguePage() {
     Promise.all([
       fetchStandings(league, season, variant),
       fetchProjection(league, season, variant),
-      // Only conference-bracket-shaped leagues need actual playoff game
-      // rows right now — OverallBracketTab (WNBA) projects off standings
-      // alone. Covers both conference-bracket (NBA) and
-      // conference-bracket-bye (NFL) — same underlying data shape
-      // (poGames), just rendered by a different component.
-      ["conference-bracket", "conference-bracket-bye"].includes(leagueConfig.playoffFormat?.type)
+      // Every bracket-shaped league needs actual playoff game rows:
+      // conference-bracket (NBA), conference-bracket-bye (NFL), and
+      // overall-bracket (WNBA) — same underlying data shape (poGames),
+      // just rendered by a different component.
+      ["conference-bracket", "conference-bracket-bye", "overall-bracket"].includes(leagueConfig.playoffFormat?.type)
         ? fetchPlayoffGames(league, season, variant)
         : Promise.resolve({ poGames: [], error: null }),
     ]).then(([standingsResult, projResult, poResult]) => {
@@ -493,7 +497,7 @@ export default function LeaguePage() {
             </div>
           ) : leagueConfig.playoffFormat?.type === "overall-bracket" ? (
             <div style={{ overflowX: "auto" }}>
-              <OverallBracketTab standings={standings} leagueConfig={leagueConfig} season={season} />
+              <OverallBracketTab poGames={poGames} standings={standings} games={standingsGames} leagueConfig={leagueConfig} season={season} variant={variant} />
             </div>
           ) : (
             <div style={{ padding: "2.5rem 0", textAlign: "center", color: "var(--text3)", fontFamily: "var(--font-mono)", fontSize: 13 }}>
