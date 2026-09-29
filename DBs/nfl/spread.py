@@ -52,14 +52,38 @@ from dataclasses import dataclass
 import numpy as np
 import pandas as pd
 
-DB_PATH = "nfl_elo.db"
-BETTING_CSV = "games_betting.csv"
-HFA = 72.0  # must match engine.BASELINE_PARAMS["hfa"] - keep in sync by hand
+import os
+DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "nfl_elo.db")
+# Resolved relative to this file, matching every other nfl/*.py script
+# (add_season.py, predict.py, report.py, etc.). A bare "nfl_elo.db" is
+# the one thing that was different here - sqlite3.connect() creates a
+# file that doesn't exist rather than erroring, so running this from
+# nfl/ (its own directory) instead of DBs/ silently connects to a
+# brand-new EMPTY database next to the real one one level up, and
+# every query then fails with "no such table: ratings" - or worse,
+# succeeds against zero rows without any error at all.
+BETTING_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "games_betting.csv")
+# HFA is NOT a constant - it's tuned per-season in param_schedule.json
+# (68 in 1996, stepping down to 36 by 2025-26, reflecting the NFL's real
+# shrinking home-field edge). elo_diff must be built with each row's own
+# season's hfa via db.params_for_season(), the same lookup rebuild.py and
+# predict.py use - NOT a hardcoded value here, which previously stayed at
+# 72.0 for every season regardless of the schedule (see load_elo_vs_vegas).
 
 # Fit on 1999-2025 (games_betting.csv coverage), see calibrate() below.
 # spread_or_margin = intercept + slope * elo_diff
-VEGAS_CALIBRATION = dict(intercept=-0.9397, slope=0.04347)
-MARGIN_CALIBRATION = dict(intercept=-1.1281, slope=0.04745)
+VEGAS_CALIBRATION = dict(intercept=-0.0998, slope=0.04107)
+MARGIN_CALIBRATION = dict(intercept=-0.2099, slope=0.04467)
+# Refit 2026-09-28 after fixing two bugs: (1) db.py's SCHEDULE_FILE/
+# PARAMS_FILE were bare relative paths, so param_schedule.json's tuned
+# per-season hfa (68 in 1996 down to 36 by 2025-26) was never actually
+# applied - every season silently used the engine's 72 Elo baseline
+# instead; (2) this file's own DB_PATH was a second bare relative path
+# that pointed at a different (often nonexistent) file depending on
+# the caller's cwd. Once ratings were rebuilt with the correct
+# per-season hfa, the intercept collapsed from -0.9397 to -0.10 - most
+# of the old "Vegas gives home teams less credit than we do" gap was
+# actually just this model overrating home-field advantage.
 
 
 def elo_diff_to_spread(elo_diff: float, cal: dict = VEGAS_CALIBRATION) -> float:
@@ -131,7 +155,11 @@ def load_elo_vs_vegas(conn: sqlite3.Connection, betting_csv: str = BETTING_CSV,
     if ratings.empty:
         return ratings
 
-    hfa_applied = np.where(ratings["neutral"] == 1, 0.0, HFA)
+    import db as _db
+    hfa_by_season = {s: _db.params_for_season(conn, int(s))["hfa"]
+                      for s in ratings["season"].unique()}
+    row_hfa = ratings["season"].map(hfa_by_season)
+    hfa_applied = np.where(ratings["neutral"] == 1, 0.0, row_hfa)
     ratings["elo_diff"] = (ratings["home_pre"] - ratings["away_pre"]
                             + hfa_applied + ratings["home_rest_adj"])
 

@@ -24,6 +24,7 @@ automatically, without a second schedule file to keep in sync by hand.
 """
 import db
 import engine
+import os
 
 # Every rating variant this pipeline computes. Add new variant names
 # here (and make sure variant_params() below handles them) if a third
@@ -238,3 +239,41 @@ def sanity_checks(conn, seasons, variant: str = "echo") -> list[str]:
             if tid not in standings_teams:
                 warnings.append(f"Season {season}: {tid} played games but has no standings row.")
     return warnings
+
+
+def _main():
+    """CLI entry point. rebuild.py is normally imported as a library
+    (add_season.py, delete_season.py, franchise.py all call
+    rebuild_ratings() directly as one step of a bigger operation), so
+    it had no standalone way to just rebuild ratings for BOTH variants
+    from the current `games` table - running `python rebuild.py` on
+    its own silently did nothing at all, with no error. This adds that
+    plain "recompute everything, nothing else" path, e.g. for after a
+    param_schedule.json change (a new HFA, retuned alpha/kmax) that
+    needs every rating replayed but touches no games."""
+    import argparse
+    ap = argparse.ArgumentParser(
+        description="Rebuild NFL Elo ratings (both echo and pulse) from the current games table."
+    )
+    ap.add_argument("--db", default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "nfl_elo.db"))
+    args = ap.parse_args()
+
+    conn = db.connect(args.db)
+    for variant in VARIANTS:
+        print(f"Rebuilding {variant}...")
+        rebuild_ratings(conn, variant)
+
+    seasons = sorted({g["season"] for g in db.load_games(conn)})
+    problems = []
+    for variant in VARIANTS:
+        problems += [f"[{variant}] {w}" for w in sanity_checks(conn, seasons, variant)]
+    if problems:
+        print(f"\n{len(problems)} sanity-check warning(s):")
+        for p in problems:
+            print(f"  [!] {p}")
+    else:
+        print(f"\nRebuilt {len(seasons)} season(s) for both variants — sanity checks passed.")
+
+
+if __name__ == "__main__":
+    _main()

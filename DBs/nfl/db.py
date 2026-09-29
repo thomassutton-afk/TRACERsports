@@ -430,7 +430,11 @@ def load_resets(conn: sqlite3.Connection) -> set[tuple[str, int]]:
     return {(t, s) for t, s in rows}
 
 
-PARAMS_FILE = "active_params.json"
+import os as _os
+PARAMS_FILE = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "active_params.json")
+# Resolved relative to this file for the same reason as SCHEDULE_FILE
+# below: a bare filename breaks silently when a script is run from a
+# different working directory (e.g. DBs/ instead of DBs/nfl/).
 # Active (tuned) parameters live in this file, deliberately SEPARATE
 # from the database, so deleting/resetting nfl_elo.db can never
 # silently wipe out tuning. There's no set_params.py for NFL yet (see
@@ -463,7 +467,14 @@ def load_active_params(conn: sqlite3.Connection) -> Optional[dict]:
         return json.load(f)
 
 
-SCHEDULE_FILE = "param_schedule.json"
+# Resolved relative to THIS FILE, not the process's current working
+# directory. A bare "param_schedule.json" silently resolves to nothing
+# (no error - see params_for_season's fallback chain) the moment a
+# script is run from anywhere other than DBs/nfl/ - e.g. `python
+# nfl/rebuild.py` from DBs/ - which is exactly the failure mode that
+# had every season quietly using the engine's 72 Elo baseline instead
+# of the schedule's tuned per-season HFA.
+SCHEDULE_FILE = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "param_schedule.json")
 # A per-season override of alpha/kmax/hfa (see nfl_tune_engine.py /
 # nfl_reconstruct_engine.py). Deliberately a SEPARATE file from
 # active_params.json rather than a new shape inside it, so a system that
@@ -486,10 +497,24 @@ def save_param_schedule(conn: sqlite3.Connection, schedule: dict[int, dict]) -> 
 def load_param_schedule(conn: sqlite3.Connection) -> Optional[dict[int, dict]]:
     """Returns the persisted season -> {alpha, kmax, hfa} schedule, or
     None if no schedule file exists yet (caller should fall back to
-    load_active_params()/baseline - see PARAMS_FILE note above)."""
+    load_active_params()/baseline - see PARAMS_FILE note above).
+
+    SCHEDULE_FILE is resolved next to this module (see above), so
+    "not found" here should only mean the file was actually deleted or
+    renamed, not a wrong working directory - warn loudly rather than
+    silently falling back to the engine baseline for every season,
+    which is the bug this replaced."""
     import json
     import os
+    import warnings
     if not os.path.exists(SCHEDULE_FILE):
+        warnings.warn(
+            f"param_schedule.json not found at {SCHEDULE_FILE!r} - every season will "
+            "silently use active_params.json / the engine baseline instead of its tuned "
+            "per-season hfa/alpha/kmax. If a schedule should exist, this will misprice "
+            "every prediction.",
+            stacklevel=2,
+        )
         return None
     with open(SCHEDULE_FILE) as f:
         raw = json.load(f)
