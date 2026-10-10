@@ -58,16 +58,41 @@ jobs:
       - name: 1 - Update results
         run: python update_nba_results.py --file nba/Results/NBA_2026_Results.xlsx
 
+      - name: Check for new scores
+        id: check
+        run: |
+          if git diff --quiet -- nba/Results/NBA_2026_Results.xlsx; then
+            echo "No new scores - skipping the rest."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: 2 - Add season
+        if: steps.check.outputs.changed == 'true'
         run: python nba/add_season.py nba/Results/NBA_2026_Results.xlsx
 
       - name: 3 - Export to Supabase
+        if: steps.check.outputs.changed == 'true'
         env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          SUPABASE_DB_HOST: ${{ secrets.SUPABASE_DB_HOST }}
+          SUPABASE_DB_PORT: ${{ secrets.SUPABASE_DB_PORT }}
+          SUPABASE_DB_NAME: ${{ secrets.SUPABASE_DB_NAME }}
+          SUPABASE_DB_USER: ${{ secrets.SUPABASE_DB_USER }}
+          SUPABASE_DB_PASS: ${{ secrets.SUPABASE_DB_PASS }}
         run: python export_to_supabase.py --league nba --db nba_elo.db
 
+      - name: Save Instagram cards
+        if: steps.check.outputs.changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: nba-instagram-cards
+          path: social_posts/nba/
+          retention-days: 14
+          if-no-files-found: ignore
+
       - name: 4-6 - Commit and push
+        if: steps.check.outputs.changed == 'true'
         run: |
           git config user.name "tracer-bot"
           git config user.email "tracer-bot@users.noreply.github.com"
