@@ -7,7 +7,12 @@ on:
       timezone: "America/Los_Angeles"
     - cron: "0 1 * * *"
       timezone: "America/Los_Angeles"
-  workflow_dispatch: # adds a manual "Run workflow" button (works any time)
+  workflow_dispatch: # adds a manual "Run workflow" button
+    inputs:
+      force:
+        description: "Run everything even if there are no new scores (use for testing)"
+        type: boolean
+        default: false
 
 concurrency:
   group: nba-update
@@ -61,11 +66,11 @@ jobs:
       - name: Check for new scores
         id: check
         run: |
-          if git diff --quiet -- nba/Results/NBA_2026_Results.xlsx; then
+          if [ "${{ inputs.force }}" = "true" ] || ! git diff --quiet -- nba/Results/NBA_2026_Results.xlsx; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
             echo "No new scores - skipping the rest."
             echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: 2 - Add season
