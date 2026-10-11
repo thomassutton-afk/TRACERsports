@@ -22,7 +22,7 @@ jobs:
   # Does nothing until the first run AFTER opening night (Tue Oct 20, 2026).
   # The midnight run on Oct 21 is the first one that picks up opening-night games.
   gate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       go: ${{ steps.check.outputs.go }}
     steps:
@@ -39,7 +39,7 @@ jobs:
   update:
     needs: gate
     if: needs.gate.outputs.go == 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     defaults:
       run:
