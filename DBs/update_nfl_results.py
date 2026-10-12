@@ -26,8 +26,10 @@ WHAT IT DOES
          - no past-dated game left blank after the update
        Anything that fails is printed and the row is left untouched — it
        never writes a value it isn't confident about.
-    6. Saves the file in place (only if there were no validation failures
-       introduced by this run) and prints a short summary.
+    6. Saves the file in place (only if there were no real validation failures)
+       and prints a short summary. Games that have started but don't have a
+       final ESPN score yet are reported as "waiting" and do NOT block the save
+       or fail the run; the next scheduled recheck picks them up.
 
 NOTES ON THE DATA SOURCE
     ESPN's endpoint is unofficial, so team names are matched by NICKNAME
@@ -247,7 +249,8 @@ def main():
     print(f"Filled {filled} row(s). {already_had_value} already had scores. {unmatched} unmatched game(s).")
 
     # ---- Validation pass over the whole sheet before saving ----
-    errors = []
+    errors = []    # real problems: block the save
+    waiting = []   # past games with no final score yet: just report
     seen_pairs = {}
     for r in rows:
         dcell = r[c_date - 1].value
@@ -258,7 +261,7 @@ def main():
         pf, pa, ot = r[c_pf - 1].value, r[c_pa - 1].value, r[c_ot - 1].value
 
         if pf is None and gdate < today:
-            errors.append(f"{gdate} {team} vs {opp}: game is in the past but still has no score")
+            waiting.append(f"{gdate} {team} vs {opp}: no final score yet")
             continue
         if pf is None:
             continue  # future game, fine
@@ -287,6 +290,11 @@ def main():
         for e in errors:
             print(f"  [!] {e}")
         sys.exit(1)
+
+    if waiting:
+        print(f"\n{len(waiting)} game(s) waiting on a final score (not an error; will retry at the next run):")
+        for w in waiting:
+            print(f"  [i] {w}")
 
     wb.save(args.file)
     print(f"\nSaved {args.file} — sheet passed validation.")
