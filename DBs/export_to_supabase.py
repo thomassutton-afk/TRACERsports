@@ -39,12 +39,24 @@ WHAT THIS DOES
                          Fully replaced on every run (delete-then-insert per
                          league/variant, not upserted) — see build_schedule()
                          docstring for why an upsert alone isn't enough here.
-4. preseason_ratings   — APPROXIMATED as each team's `pre_rate` from its
-                         first chronological game of a season, per variant.
-                         This isn't necessarily identical to a true "preseason"
-                         figure if the source system computes one separately —
-                         flagged as an approximation, not verified against
-                         source intent.
+4. preseason_ratings   — two sources, per variant:
+                         (a) PLAYED seasons: each team's `pre_rate` from its
+                             first chronological game of the season
+                             (build_preseason_ratings()).
+                         (b) SCHEDULED-BUT-UNPLAYED seasons: a season whose
+                             schedule is loaded but has zero games yet has no
+                             game rows to read (a) from, so
+                             build_future_preseason_ratings() carries each
+                             team's rating is asked of the league's own
+                             engine (rebuild.build_current_engine +
+                             preview_preseason_rating), falling back to
+                             carrying the final rating forward with the
+                             carryover inferred from recent seasons. Works
+                             for any league/variant with no per-league
+                             config. If neither is possible it says so
+                             loudly instead of writing guesses - see
+                             check_preseason_coverage(). The Dashboard's
+                             0-0 preseason view depends on these rows.
 
 WHAT THIS DOES NOT DO YET
 --------------------------
@@ -59,9 +71,12 @@ WHAT THIS DOES NOT DO YET
   database — this export only needs to satisfy the FK from games/standings.
 """
 import argparse
+import importlib
 import os
 import sqlite3
 import sys
+from collections import defaultdict
+from statistics import median
 
 from tiebreakers import check_tiebreakers
 
@@ -467,11 +482,255 @@ def build_preseason_ratings(games_rows):
     ]
 
 
+# Rating every team starts from before any carryover (config.js engine.base).
+ELO_BASE = 1500.0
+# How many most-recent season transitions must agree on the carryover
+# before it's trusted for the next one, and how closely they must agree.
+CARRY_MIN_TRANSITIONS = 3
+CARRY_TOLERANCE = 1e-6
+# A team whose final rating is this close to base tells us nothing about
+# the carryover coefficient (division by ~0), so it's left out of the fit.
+CARRY_MIN_DEVIATION = 25.0
+
+
+def _fit_carry(first_pre, last_post, played, league, variant, base):
+    """
+    Infers the carryover coefficient `a` in
+        preseason = base + a * (previous_final - base)
+    from the most recent season transitions already in the data
+    (echo: a = alpha, e.g. 0.6 for NBA; pulse: a = 0, i.e. reset to base).
+    Returns (a, None) on success or (None, reason) if the data doesn't
+    support a confident answer - e.g. a league whose carryover changes
+    season to season (NFL's param_schedule.json), where guessing would
+    write wrong numbers.
+    """
+    seasons = sorted(played)
+    transitions = []  # (new_season, median ratio) for transitions that fit cleanly
+    for prev, new in zip(seasons, seasons[1:]):
+        if new != prev + 1:
+            continue
+        ratios = []
+        for (lg, vr, season, team), (_, pre) in first_pre.items():
+            if (lg, vr, season) != (league, variant, new):
+                continue
+            last = last_post.get((league, variant, prev, team))
+            if last is None or abs(last[1] - base) < CARRY_MIN_DEVIATION:
+                continue
+            ratios.append((pre - base) / (last[1] - base))
+        # pulse-style variants (a == 0) have |pre - base| ~ 0 for everyone,
+        # which is a perfectly consistent ratio of 0, so no special case.
+        if len(ratios) < 5:
+            continue
+        m = median(ratios)
+        agree = sum(1 for r in ratios if abs(r - m) <= CARRY_TOLERANCE) / len(ratios)
+        if agree >= 0.9:
+            transitions.append((new, m))
+    recent = transitions[-CARRY_MIN_TRANSITIONS:]
+    if len(recent) < CARRY_MIN_TRANSITIONS:
+        return None, f"only {len(recent)} clean season transition(s) to learn the carryover from (need {CARRY_MIN_TRANSITIONS})"
+    vals = [m for _, m in recent]
+    if max(vals) - min(vals) > CARRY_TOLERANCE:
+        return None, ("carryover differs between recent seasons "
+                      f"({', '.join(f'{n}: {m:.6f}' for n, m in recent)}) - can't tell which applies next")
+    return recent[-1][1], None
+
+
+def infer_future_preseason_ratings(games_rows, schedule_rows, base=ELO_BASE):
+    """
+    FALLBACK for engine_future_preseason_ratings(): used only when a league's
+    rebuild.py can't provide the engine's own preview.
+
+    Preseason ratings for a season that is SCHEDULED but has no games played
+    yet. build_preseason_ratings() can't cover this case - it reads each
+    team's first game of the season, and there is none - so without this a
+    schedule-only season has no preseason_ratings rows and the Dashboard
+    (which starts from preseason_ratings, see app/[league]/page.js) shows
+    "No data yet" instead of a 0-0 projected power ranking.
+
+    Generic by construction: league-agnostic, driven only by what's in
+    games_rows/schedule_rows, so a new league or season needs no code or
+    config change. For each (league, variant) it finds the scheduled
+    season with no played games, carries every scheduled team's FINAL
+    rating from the last played season forward with the carryover the
+    engine itself used (inferred, see _fit_carry()), and returns rows in
+    the same shape as build_preseason_ratings().
+
+    Skips (and reports) rather than guesses when it can't be confident:
+    no prior season, an unreadable carryover, a scheduled team with no prior
+    rating (expansion team) when the carryover isn't a pure reset, or a
+    second future season stacked behind the first.
+
+    Returns (rows, warnings).
+    """
+    played = defaultdict(set)   # (league, variant) -> seasons with games
+    first_pre = {}              # (league, variant, season, team) -> (date, pre_gm_rate)
+    last_post = {}              # (league, variant, season, team) -> ((date, games_played), post_gm_rate)
+    for g in games_rows:
+        grp = (g["league"], g["variant"])
+        key = grp + (g["season"], g["team_id"])
+        played[grp].add(g["season"])
+        if key not in first_pre or g["date"] < first_pre[key][0]:
+            first_pre[key] = (g["date"], g["pre_gm_rate"])
+        order = (g["date"], g.get("games_played") or 0)
+        if key not in last_post or order > last_post[key][0]:
+            last_post[key] = (order, g["post_gm_rate"])
+
+    scheduled = defaultdict(lambda: defaultdict(set))  # grp -> season -> {team}
+    for r in schedule_rows:
+        scheduled[(r["league"], r["variant"])][r["season"]].add(r["team_id"])
+
+    rows, warnings = [], []
+    for grp, by_season in scheduled.items():
+        league, variant = grp
+        future = sorted(s for s in by_season if s not in played[grp])
+        if not future:
+            continue
+        season, extra = future[0], future[1:]
+        for s in extra:
+            warnings.append(f"{league}/{variant}: season {s} is also scheduled but sits behind unplayed "
+                            f"season {season}; its preseason ratings can't be derived until {season} is played")
+        prior = [s for s in played[grp] if s < season]
+        if not prior:
+            warnings.append(f"{league}/{variant}: season {season} is scheduled but no earlier season has "
+                            "any games to carry ratings forward from")
+            continue
+        prev = max(prior)
+        carry, why = _fit_carry(first_pre, last_post, played[grp], league, variant, base)
+        if carry is None:
+            warnings.append(f"{league}/{variant}: season {season} preseason ratings NOT written - {why}")
+            continue
+        missing = []
+        for team in sorted(by_season[season]):
+            last = last_post.get(grp + (prev, team))
+            if last is not None:
+                elo = base + carry * (last[1] - base)
+            elif carry == 0:
+                elo = base  # pure reset: a team with no history starts at base like everyone else
+            else:
+                missing.append(team)
+                continue
+            rows.append({"league": league, "season": season, "variant": variant,
+                         "team_id": team, "preseason_elo": elo})
+        if missing:
+            warnings.append(f"{league}/{variant}: season {season} has no prior-season rating for "
+                            f"{', '.join(missing)} (new franchise?) - seed them manually")
+    return rows, warnings
+
+
+def engine_future_preseason_ratings(conn, league, id_to_code, variant, seasons):
+    """
+    PRIMARY source for scheduled-but-unplayed seasons (restored from
+    e690c5d, where it was first added; commit 29969f1 deleted it by
+    accident while adding the `neutral` column).
+
+    build_preseason_ratings() can only produce a row once a season's first
+    REAL game has been played (it reads that game's pre_gm_rate). That
+    leaves a gap right before kickoff - schedule loaded, zero games played.
+
+    This covers it: replay every real game up to now via that league's own
+    rebuild.build_current_engine (identical to what predict.py already does
+    for schedule predictions), then ask the engine's
+    preview_preseason_rating() - the same regression-to-mean predict.py's
+    win probabilities already use - for each team's rating entering the
+    season. Exact for any league, including ones whose carryover changes
+    from season to season. Raises if the league's rebuild.py doesn't offer
+    these hooks; the caller then falls back to infer_future_preseason_ratings().
+    """
+    league_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), league)
+    sys.path.insert(0, league_dir)
+    try:
+        sys.modules.pop("rebuild", None)  # don't reuse another league's cached rebuild module
+        rebuild_mod = importlib.import_module("rebuild")
+        eng = rebuild_mod.build_current_engine(conn, variant)
+    finally:
+        sys.path.remove(league_dir)
+        sys.modules.pop("rebuild", None)
+
+    rows = []
+    for season in seasons:
+        for internal_id, (code, _name) in id_to_code.items():
+            elo = eng.preview_preseason_rating(internal_id, season)
+            if elo is None:
+                continue
+            rows.append({"league": league, "season": season, "variant": variant,
+                         "team_id": code, "preseason_elo": float(elo)})
+    return rows
+
+
+def build_future_preseason_ratings(conn, league, id_to_code, games_rows, schedule_rows):
+    """
+    Preseason ratings for every SCHEDULED season that has no played games yet,
+    for any league/variant - no per-league code or config. Once a season's
+    first real game exists, build_preseason_ratings() takes over for it
+    automatically and this stops producing rows for it.
+
+    Order of preference: the league's own engine (exact), then inference from
+    game history (see infer_future_preseason_ratings). Only teams actually on
+    that season's schedule are kept, so defunct/historical franchises in
+    id_to_code never leak into the Dashboard's preseason list.
+
+    Returns (rows, warnings).
+    """
+    played = defaultdict(set)
+    for g in games_rows:
+        played[g["variant"]].add(g["season"])
+    scheduled = defaultdict(lambda: defaultdict(set))  # variant -> season -> {team codes}
+    for r in schedule_rows:
+        scheduled[r["variant"]][r["season"]].add(r["team_id"])
+
+    rows, warnings, fallback_variants = [], [], []
+    for variant, by_season in scheduled.items():
+        future = sorted(s for s in by_season if s not in played[variant])
+        if not future:
+            continue
+        try:
+            raw = engine_future_preseason_ratings(conn, league, id_to_code, variant, future)
+        except Exception as e:  # missing rebuild.py / hook / replay failure
+            warnings.append(f"{league}/{variant}: engine preview unavailable ({type(e).__name__}: {e}) "
+                            "- inferring from game history instead")
+            fallback_variants.append(variant)
+            continue
+        rows += [r for r in raw if r["team_id"] in by_season[r["season"]]]
+
+    if fallback_variants:
+        fb_rows, fb_warnings = infer_future_preseason_ratings(
+            games_rows, [r for r in schedule_rows if r["variant"] in fallback_variants])
+        rows += fb_rows
+        warnings += fb_warnings
+    return rows, warnings
+
+
+def check_preseason_coverage(schedule_rows, preseason_rows):
+    """
+    Guard against the silent failure this file once had: a season whose
+    schedule is exported but whose preseason_ratings aren't, which makes
+    the Dashboard show "No data yet". Returns a list of problem strings
+    (empty = every scheduled season has a preseason rating for every
+    scheduled team, so nothing to worry about).
+    """
+    have = defaultdict(set)
+    for p in preseason_rows:
+        have[(p["league"], p["variant"], p["season"])].add(p["team_id"])
+    need = defaultdict(set)
+    for r in schedule_rows:
+        need[(r["league"], r["variant"], r["season"])].add(r["team_id"])
+    problems = []
+    for (league, variant, season), teams in sorted(need.items()):
+        gap = sorted(teams - have[(league, variant, season)])
+        if gap:
+            problems.append(f"{league}/{variant}/{season}: no preseason rating for "
+                            f"{len(gap)} of {len(teams)} scheduled team(s)"
+                            + (f" ({', '.join(gap[:6])}{'...' if len(gap) > 6 else ''})"))
+    return problems
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--league", required=True, choices=list(SPORT_FOR_LEAGUE))
     parser.add_argument("--db", required=True, help="Path to the SQLite .db file")
     parser.add_argument("--dry-run", action="store_true", help="Don't touch Supabase, just report")
+    parser.add_argument("--strict-preseason", action="store_true",
+                        help="Abort before writing if any scheduled season lacks preseason ratings")
     args = parser.parse_args()
 
     conn = sqlite3.connect(args.db)
@@ -493,6 +752,10 @@ def main():
         schedule_rows += build_schedule(conn, args.league, id_to_code, variant)
         projection_rows += build_season_projection(conn, args.league, id_to_code, variant)
     preseason_rows = build_preseason_ratings(games_rows)
+    future_rows, future_warnings = build_future_preseason_ratings(
+        conn, args.league, id_to_code, games_rows, schedule_rows)
+    preseason_rows += future_rows
+    coverage_problems = check_preseason_coverage(schedule_rows, preseason_rows)
     conn.close()
 
     print(f"League: {args.league}  (variants: {', '.join(VARIANTS)})")
@@ -504,7 +767,18 @@ def main():
     print(f"  schedule: {len(schedule_rows)} rows "
           f"({len(schedule_rows) // 2 // len(VARIANTS)} upcoming game(s) per variant)")
     print(f"  season_projections: {len(projection_rows)} rows")
-    print(f"  preseason_ratings: {len(preseason_rows)} rows")
+    print(f"  preseason_ratings: {len(preseason_rows)} rows "
+          f"({len(future_rows)} for scheduled-but-unplayed season(s))")
+    for w in future_warnings:
+        print(f"  [preseason] {w}")
+    if coverage_problems:
+        print()
+        print("  !!! SCHEDULED SEASON(S) WITHOUT PRESEASON RATINGS - the Dashboard will show")
+        print("  !!! \"No data yet\" for these until fixed:")
+        for c in coverage_problems:
+            print(f"  !!!   {c}")
+        if args.strict_preseason:
+            sys.exit("Aborting (--strict-preseason): fix the above before exporting.")
     print()
 
     print("Sample team rows:")
