@@ -45,6 +45,12 @@ def rebuild_ratings(conn: sqlite3.Connection, variant: str, params: dict | None 
     eng = engine.EloEngine(params, resets=resets)
     for g in games:
         rows = eng.process_game(g)
+        # engine.py builds each row from matchup math and doesn't carry
+        # the neutral-site flag - stamp it on here straight from the
+        # game itself (the authoritative source) so `ratings` always
+        # agrees with `games`/`schedule`.
+        for r in rows:
+            r["neutral"] = g["neutral"]
         db.save_ratings(conn, variant, rows, [g["game_id"], g["game_id"]])
     conn.commit()
 

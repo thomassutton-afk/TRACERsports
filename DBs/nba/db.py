@@ -96,6 +96,7 @@ CREATE TABLE IF NOT EXISTS schedule_predictions (
     home_days_off       INTEGER,
     away_days_off       INTEGER,
     rest_adj            REAL,
+    predicted_spread    REAL,
     PRIMARY KEY (schedule_id, variant)
 );
 
@@ -150,6 +151,7 @@ CREATE TABLE IF NOT EXISTS ratings (
     points_for    INTEGER,
     points_against INTEGER,
     ot            INTEGER,
+    neutral       INTEGER NOT NULL DEFAULT 0,
     mov           INTEGER,
     result        REAL,
     accuracy      INTEGER,
@@ -269,6 +271,23 @@ def _migrate(conn: sqlite3.Connection) -> None:
     ratings_cols = {row[1] for row in conn.execute("PRAGMA table_info(ratings)")}
     if ratings_cols and "t" not in ratings_cols:
         conn.execute("ALTER TABLE ratings ADD COLUMN t REAL DEFAULT 0")
+        conn.commit()
+
+    # `ratings` predates carrying the neutral-site flag through from
+    # `games` (it was tracked on games/schedule but dropped once a game
+    # reached ratings), and `schedule_predictions` predates
+    # predicted_spread. Same additive pattern as the columns above:
+    # existing rows default to 0 / NULL until the next rebuild_ratings()
+    # (neutral, recomputed from games.neutral) or prediction pass
+    # (predicted_spread) rewrites them.
+    ratings_cols = {row[1] for row in conn.execute("PRAGMA table_info(ratings)")}
+    if ratings_cols and "neutral" not in ratings_cols:
+        conn.execute("ALTER TABLE ratings ADD COLUMN neutral INTEGER NOT NULL DEFAULT 0")
+        conn.commit()
+
+    pred_cols = {row[1] for row in conn.execute("PRAGMA table_info(schedule_predictions)")}
+    if pred_cols and "predicted_spread" not in pred_cols:
+        conn.execute("ALTER TABLE schedule_predictions ADD COLUMN predicted_spread REAL")
         conn.commit()
 
     # Era-specific colors: nullable by design. A row with no colors set
@@ -523,22 +542,29 @@ def upcoming_games(conn: sqlite3.Connection, season: int | None = None) -> list[
 def save_schedule_prediction(conn: sqlite3.Connection, schedule_id: int, variant: str,
                               expected_win_home: float, expected_win_away: float,
                               home_days_off: int | None, away_days_off: int | None,
-                              rest_adj: float | None) -> None:
+                              rest_adj: float | None, predicted_spread: float | None = None) -> None:
     """Write a preview_matchup() result for one variant into
     schedule_predictions. Called from write_schedule_predictions()
     (add_season.py) for every row returned by upcoming_games() after
     each rebuild_ratings() pass, once per variant. Display-only -
-    never read by the rating engine itself."""
+    never read by the rating engine itself.
+
+    predicted_spread is optional (defaults to NULL) since it's derived
+    via spread.py's elo_diff_to_spread(), a separate calibration step
+    from the engine itself - callers that don't have it yet (or don't
+    care) can omit it rather than being forced to pass None
+    explicitly."""
     conn.execute(
         "INSERT INTO schedule_predictions(schedule_id, variant, expected_win_home, "
-        "expected_win_away, home_days_off, away_days_off, rest_adj) VALUES (?,?,?,?,?,?,?) "
+        "expected_win_away, home_days_off, away_days_off, rest_adj, predicted_spread) "
+        "VALUES (?,?,?,?,?,?,?,?) "
         "ON CONFLICT(schedule_id, variant) DO UPDATE SET "
         "expected_win_home=excluded.expected_win_home, "
         "expected_win_away=excluded.expected_win_away, "
         "home_days_off=excluded.home_days_off, away_days_off=excluded.away_days_off, "
-        "rest_adj=excluded.rest_adj",
+        "rest_adj=excluded.rest_adj, predicted_spread=excluded.predicted_spread",
         (schedule_id, variant, expected_win_home, expected_win_away,
-         home_days_off, away_days_off, rest_adj),
+         home_days_off, away_days_off, rest_adj, predicted_spread),
     )
 
 
@@ -676,7 +702,7 @@ def save_ratings(conn: sqlite3.Connection, variant: str, rows: list[dict],
                   game_id_by_row: list[int]) -> None:
     cols = ["game_id", "team", "variant", "opponent", "home_away", "date", "season", "type", "round",
             "games_played", "days_off", "opp_days_off", "rest_adj", "pre_rate", "opp_pre_rate",
-            "expected_win", "points_for", "points_against", "ot", "mov", "result", "accuracy",
+            "expected_win", "points_for", "points_against", "ot", "neutral", "mov", "result", "accuracy",
             "test", "brier", "mov_mult", "po_mult", "k", "keff", "rating_change", "post_rate",
             "w", "l", "r1w", "r1l", "r2w", "r2l", "r3w", "r3l", "fw", "fl"]
     placeholders = ",".join("?" for _ in cols)
@@ -685,4 +711,5 @@ def save_ratings(conn: sqlite3.Connection, variant: str, rows: list[dict],
         r = dict(r)
         r["date"] = r["date"].isoformat()
         r["variant"] = variant
+        r.setdefault("neutral", 0)  # rebuild_ratings() stamps the real value; 0 only for other callers
         conn.execute(sql, [gid] + [r[c] for c in cols[1:]])
