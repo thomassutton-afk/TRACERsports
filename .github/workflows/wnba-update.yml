@@ -25,6 +25,12 @@ jobs:
         working-directory: DBs
     permissions:
       contents: write
+    env:
+      # The database lives in a rolling GitHub release (tag db-wnba), NOT in git
+      # history. Every run overwrites the release copy instead of adding a new
+      # full copy of the file to the repository.
+      GH_TOKEN: ${{ github.token }}
+      DB_RELEASE: db-wnba
     steps:
       - uses: actions/checkout@v4
         with:
@@ -38,6 +44,16 @@ jobs:
 
       - name: Install packages
         run: pip install -r requirements.txt
+
+      # No fallback on purpose: if this step fails the run stops. Carrying on
+      # without the real database would let the scripts create a brand-new empty
+      # one, and the upload step below would then overwrite the good copy.
+      - name: Download database from release
+        run: |
+          gh release download "$DB_RELEASE" --repo "$GITHUB_REPOSITORY" --pattern wnba_elo.db --dir . --clobber
+          ls -l wnba_elo.db
+          # Keep the copy we started from, so each run can be rolled back by one step.
+          cp wnba_elo.db wnba_elo_previous.db
 
       - name: 1 - Update results
         run: python update_wnba_results.py --file wnba/Results/WNBA_2026_Results.xlsx --add-playoffs
@@ -74,6 +90,13 @@ jobs:
           path: social_posts/wnba/
           retention-days: 14
           if-no-files-found: ignore
+
+      # Runs only after every step above succeeded, so a failed run never
+      # replaces the release copy. wnba_elo_previous.db is the pre-run copy.
+      - name: Upload database to release
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          gh release upload "$DB_RELEASE" wnba_elo.db wnba_elo_previous.db --repo "$GITHUB_REPOSITORY" --clobber
 
       - name: 4-6 - Commit and push
         if: steps.check.outputs.changed == 'true'

@@ -49,3 +49,4 @@ __pycache__/
 social_posts/
 
 reports/
+DBs/*_previous.db
