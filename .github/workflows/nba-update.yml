@@ -61,12 +61,12 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: 1 - Update results
-        run: python update_nba_results.py --file nba/Results/NBA_2026_Results.xlsx
+        run: python update_nba_results.py --file nba/Results/NBA_2027_Results.xlsx
 
       - name: Check for new scores
         id: check
         run: |
-          if [ "${{ inputs.force }}" = "true" ] || ! git diff --quiet -- nba/Results/NBA_2026_Results.xlsx; then
+          if [ "${{ inputs.force }}" = "true" ] || ! git diff --quiet -- nba/Results/NBA_2027_Results.xlsx; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "No new scores - skipping the rest."
@@ -75,7 +75,7 @@ jobs:
 
       - name: 2 - Add season
         if: steps.check.outputs.changed == 'true'
-        run: python nba/add_season.py nba/Results/NBA_2026_Results.xlsx
+        run: python nba/add_season.py nba/Results/NBA_2027_Results.xlsx
 
       - name: 3 - Export to Supabase
         if: steps.check.outputs.changed == 'true'
