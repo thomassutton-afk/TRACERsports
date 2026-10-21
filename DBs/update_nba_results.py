@@ -2,14 +2,14 @@
 """
 update_nba_results.py
 
-Fills PF / PA / OT into NBA_2026_Results.xlsx by pulling final scores from
+Fills PF / PA / OT into NBA_2027_Results.xlsx by pulling final scores from
 ESPN's public (unofficial, no key required) scoreboard API, then validates
 that every game's two mirror rows (home + away) agree before saving.
 
 USAGE
-    python update_nba_results.py --file NBA_2026_Results.xlsx --start 2026-10-21 --end 2026-10-27
-    python update_nba_results.py --file NBA_2026_Results.xlsx --date 2026-10-21
-    python update_nba_results.py --file NBA_2026_Results.xlsx --start 2026-10-21 --end today
+    python update_nba_results.py --file NBA_2027_Results.xlsx --start 2027-10-21 --end 2027-10-27
+    python update_nba_results.py --file NBA_2027_Results.xlsx --date 2027-10-21
+    python update_nba_results.py --file NBA_2027_Results.xlsx --start 2027-10-21 --end today
 
 If --start/--end/--date are omitted, it scans the whole sheet and fetches
 scores for every date that still has blank PF/PA and is not in the future.
@@ -51,7 +51,7 @@ ESPN_SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/basketball/
 
 # Map substrings found in ESPN's team display name -> the code used in the
 # sheet. Matched on NICKNAME, not city (see module docstring) - current as
-# of the 2026 season's 30 active franchises.
+# of the 2027 season's 30 active franchises.
 TEAM_NAME_MAP = {
     "hawks": "ATL",
     "celtics": "BOS",
@@ -159,7 +159,7 @@ def col_index(ws, header_name: str) -> int:
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--file", required=True, help="Path to NBA_2026_Results.xlsx")
+    ap.add_argument("--file", required=True, help="Path to NBA_2027_Results.xlsx")
     ap.add_argument("--start", help="YYYY-MM-DD, or 'today'")
     ap.add_argument("--end", help="YYYY-MM-DD, or 'today'")
     ap.add_argument("--date", help="Single date YYYY-MM-DD, shorthand for --start/--end the same day")

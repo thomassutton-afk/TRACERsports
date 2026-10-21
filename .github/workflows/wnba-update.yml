@@ -2,8 +2,8 @@ name: Update WNBA
 
 on:
   schedule:
-    # Every night at 12:00 AM Pacific (GitHub handles daylight saving for us)
-    - cron: "0 0 * * *"
+    # Every night at 12:07 AM Pacific (off the :00 mark)
+    - cron: "7 0 * * *"
       timezone: "America/Los_Angeles"
   workflow_dispatch: # adds a manual "Run workflow" button
     inputs:
