@@ -40,5 +40,61 @@
     "variant": "pulse",
     "above": "NO",
     "below": "LAR"
+  },
+  {
+    "league": "nba",
+    "season": 2027,
+    "variant": "echo",
+    "above": "CHH",
+    "below": "ATL"
+  },
+  {
+    "league": "nba",
+    "season": 2027,
+    "variant": "echo",
+    "above": "ORL",
+    "below": "BRK"
+  },
+  {
+    "league": "nba",
+    "season": 2027,
+    "variant": "echo",
+    "above": "SAS",
+    "below": "MIL"
+  },
+  {
+    "league": "nba",
+    "season": 2027,
+    "variant": "echo",
+    "above": "MIA",
+    "below": "SAC"
+  },
+  {
+    "league": "nba",
+    "season": 2027,
+    "variant": "pulse",
+    "above": "CHH",
+    "below": "ATL"
+  },
+  {
+    "league": "nba",
+    "season": 2027,
+    "variant": "pulse",
+    "above": "ORL",
+    "below": "BRK"
+  },
+  {
+    "league": "nba",
+    "season": 2027,
+    "variant": "pulse",
+    "above": "SAS",
+    "below": "MIL"
+  },
+  {
+    "league": "nba",
+    "season": 2027,
+    "variant": "pulse",
+    "above": "MIA",
+    "below": "SAC"
   }
 ]
