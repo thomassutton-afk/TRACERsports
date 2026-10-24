@@ -41,6 +41,7 @@ NOTES ON THE DATA SOURCE
 """
 
 import argparse
+import re
 import sys
 from datetime import date, datetime, timedelta
 
@@ -88,10 +89,18 @@ TEAM_NAME_MAP = {
 
 def code_for_espn_team(display_name: str) -> str | None:
     name = display_name.lower()
-    for substr, code in TEAM_NAME_MAP.items():
-        if substr in name:
-            return code
-    return None
+    # Match WHOLE WORDS only. A plain substring test matched "nets" inside
+    # "Hornets", so every Charlotte game came back as Brooklyn ("BRK vs BRK")
+    # and blocked the whole update on the first Hornets game of the season.
+    matches = [
+        (substr, code)
+        for substr, code in TEAM_NAME_MAP.items()
+        if re.search(rf"\b{re.escape(substr)}\b", name)
+    ]
+    if not matches:
+        return None
+    # If a name ever matches more than one key, the longest key is the most specific.
+    return max(matches, key=lambda m: len(m[0]))[1]
 
 
 def fetch_scores_for_date(d: date) -> list[dict]:
