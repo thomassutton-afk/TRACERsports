@@ -11,6 +11,10 @@ on:
         description: "Run everything even if there are no new scores (use for testing)"
         type: boolean
         default: false
+      remove_schedule_date:
+        description: "Optional: remove the unplayed playoff game on this date (YYYY-MM-DD) from the schedule, e.g. an 'if necessary' game that was never needed. Leave blank normally."
+        type: string
+        default: ""
 
 concurrency:
   group: wnba-update
@@ -55,13 +59,43 @@ jobs:
           # Keep the copy we started from, so each run can be rolled back by one step.
           cp wnba_elo.db wnba_elo_previous.db
 
+      # One-off cleanup hook for manual runs. add_season.py only deletes a
+      # schedule row once that game has been PLAYED, so an "if necessary" game
+      # that gets deleted from the results sheet would otherwise stay in the
+      # database (and keep being published to the site) indefinitely.
+      - name: Remove an unneeded schedule game
+        if: inputs.remove_schedule_date != ''
+        env:
+          REMOVE_DATE: ${{ inputs.remove_schedule_date }}
+        run: |
+          python - <<'PY'
+          import os, sqlite3
+          day = os.environ["REMOVE_DATE"].strip()
+          conn = sqlite3.connect("wnba_elo.db")
+          conn.execute("PRAGMA foreign_keys=ON")
+          rows = conn.execute(
+              "SELECT schedule_id, date, type, round, home_team, away_team FROM schedule "
+              "WHERE date = ? AND type = 'P'", (day,)).fetchall()
+          print("Playoff schedule rows on", day, ":", rows)
+          if not rows:
+              raise SystemExit("Nothing to remove for that date. Stopping so you can check the date.")
+          if len(rows) > 2:
+              raise SystemExit("More than 2 rows on that date, refusing to guess which to remove.")
+          ids = [r[0] for r in rows]
+          marks = ",".join("?" * len(ids))
+          p = conn.execute(f"DELETE FROM schedule_predictions WHERE schedule_id IN ({marks})", ids).rowcount
+          s = conn.execute(f"DELETE FROM schedule WHERE schedule_id IN ({marks})", ids).rowcount
+          conn.commit()
+          print(f"Removed {p} prediction row(s) and {s} schedule row(s).")
+          PY
+
       - name: 1 - Update results
         run: python update_wnba_results.py --file wnba/Results/WNBA_2026_Results.xlsx --add-playoffs
 
       - name: Check for new scores
         id: check
         run: |
-          if [ "${{ inputs.force }}" = "true" ] || ! git diff --quiet -- wnba/Results/WNBA_2026_Results.xlsx; then
+          if [ "${{ inputs.force }}" = "true" ] || [ -n "${{ inputs.remove_schedule_date }}" ] || ! git diff --quiet -- wnba/Results/WNBA_2026_Results.xlsx; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "No new scores - skipping the rest."
