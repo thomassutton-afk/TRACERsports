@@ -51,3 +51,15 @@ social_posts/
 reports/
 DBs/*_previous.db
 DBs/wnba_elo.db
+
+# Database backups and sync snapshots
+DBs/*_backup_*.db
+DBs/*_pre_sync_*.db
+DBs/cfb/cfb_elo_backup_*.db
+
+# CFB database lives in the db-cfb release, never in git
+DBs/cfb_elo.db
+DBs/cfb/Results/*.before_espn_fill.csv
+
+# Excel lock files
+~$*
