@@ -1,0 +1,1843 @@
+{
+ "abilene-christian": {
+  "espn": "Abilene Christian Wildcats",
+  "full": "Abilene Christian Wildcats",
+  "short": "Abilene Christian",
+  "sports_reference": "Abilene Christian",
+  "team_id": "cfb_0235"
+ },
+ "air-force": {
+  "espn": "Air Force Falcons",
+  "full": "Air Force Falcons",
+  "short": "Air Force",
+  "sports_reference": "Air Force",
+  "team_id": "cfb_0001"
+ },
+ "akron": {
+  "espn": "Akron Zips",
+  "full": "Akron Zips",
+  "short": "Akron",
+  "sports_reference": "Akron",
+  "team_id": "cfb_0002"
+ },
+ "alabama": {
+  "espn": "Alabama Crimson Tide",
+  "full": "Alabama Crimson Tide",
+  "short": "Alabama",
+  "sports_reference": "Alabama",
+  "team_id": "cfb_0003"
+ },
+ "alabama-a-m": {
+  "espn": "Alabama A&M Bulldogs",
+  "full": "Alabama A&M Bulldogs",
+  "short": "Alabama A&M",
+  "sports_reference": "Alabama A&M",
+  "team_id": "cfb_0217"
+ },
+ "alabama-birmingham": {
+  "espn": "UAB Blazers",
+  "full": "UAB Blazers",
+  "short": "UAB",
+  "sports_reference": "Alabama-Birmingham",
+  "team_id": "cfb_0004"
+ },
+ "alabama-state": {
+  "espn": "Alabama State Hornets",
+  "full": "Alabama State Hornets",
+  "short": "Alabama State",
+  "sports_reference": "Alabama State",
+  "team_id": "cfb_0204"
+ },
+ "albany": {
+  "espn": "UAlbany Great Danes",
+  "full": "UAlbany Great Danes",
+  "short": "Albany",
+  "sports_reference": "Albany",
+  "team_id": "cfb_0239"
+ },
+ "alcorn-state": {
+  "espn": "Alcorn State Braves",
+  "full": "Alcorn State Braves",
+  "short": "Alcorn State",
+  "sports_reference": "Alcorn State",
+  "team_id": "cfb_0205"
+ },
+ "appalachian-state": {
+  "espn": "Appalachian State Mountaineers",
+  "full": "Appalachian State Mountaineers",
+  "short": "App State",
+  "sports_reference": "Appalachian State",
+  "team_id": "cfb_0005"
+ },
+ "arizona": {
+  "espn": "Arizona Wildcats",
+  "full": "Arizona Wildcats",
+  "short": "Arizona",
+  "sports_reference": "Arizona",
+  "team_id": "cfb_0006"
+ },
+ "arizona-state": {
+  "espn": "Arizona State Sun Devils",
+  "full": "Arizona State Sun Devils",
+  "short": "Arizona State",
+  "sports_reference": "Arizona State",
+  "team_id": "cfb_0007"
+ },
+ "arkansas": {
+  "espn": "Arkansas Razorbacks",
+  "full": "Arkansas Razorbacks",
+  "short": "Arkansas",
+  "sports_reference": "Arkansas",
+  "team_id": "cfb_0008"
+ },
+ "arkansas-pine-bluff": {
+  "espn": "Arkansas-Pine Bluff Golden Lions",
+  "full": "Arkansas-Pine Bluff Golden Lions",
+  "short": "Arkansas-Pine Bluff",
+  "sports_reference": "Arkansas-Pine Bluff",
+  "team_id": "cfb_0207"
+ },
+ "arkansas-state": {
+  "espn": "Arkansas State Red Wolves",
+  "full": "Arkansas State Red Wolves",
+  "short": "Arkansas State",
+  "sports_reference": "Arkansas State",
+  "team_id": "cfb_0009"
+ },
+ "army": {
+  "espn": "Army Black Knights",
+  "full": "Army Black Knights",
+  "short": "Army",
+  "sports_reference": "Army",
+  "team_id": "cfb_0010"
+ },
+ "auburn": {
+  "espn": "Auburn Tigers",
+  "full": "Auburn Tigers",
+  "short": "Auburn",
+  "sports_reference": "Auburn",
+  "team_id": "cfb_0011"
+ },
+ "austin-peay": {
+  "espn": "Austin Peay Governors",
+  "full": "Austin Peay Governors",
+  "short": "Austin Peay",
+  "sports_reference": "Austin Peay",
+  "team_id": "cfb_0012"
+ },
+ "ball-state": {
+  "espn": "Ball State Cardinals",
+  "full": "Ball State Cardinals",
+  "short": "Ball State",
+  "sports_reference": "Ball State",
+  "team_id": "cfb_0013"
+ },
+ "baylor": {
+  "espn": "Baylor Bears",
+  "full": "Baylor Bears",
+  "short": "Baylor",
+  "sports_reference": "Baylor",
+  "team_id": "cfb_0014"
+ },
+ "bethune-cookman": {
+  "espn": "Bethune-Cookman Wildcats",
+  "full": "Bethune-Cookman Wildcats",
+  "short": "Bethune-Cookman",
+  "sports_reference": "Bethune-Cookman",
+  "team_id": "cfb_0195"
+ },
+ "boise-state": {
+  "espn": "Boise State Broncos",
+  "full": "Boise State Broncos",
+  "short": "Boise State",
+  "sports_reference": "Boise State",
+  "team_id": "cfb_0015"
+ },
+ "boston-college": {
+  "espn": "Boston College Eagles",
+  "full": "Boston College Eagles",
+  "short": "Boston College",
+  "sports_reference": "Boston College",
+  "team_id": "cfb_0016"
+ },
+ "bowling-green": {
+  "espn": "Bowling Green Falcons",
+  "full": "Bowling Green Falcons",
+  "short": "Bowling Green",
+  "sports_reference": "Bowling Green",
+  "team_id": "cfb_0017"
+ },
+ "brigham-young": {
+  "espn": "BYU Cougars",
+  "full": "BYU Cougars",
+  "short": "BYU",
+  "sports_reference": "Brigham Young",
+  "team_id": "cfb_0018"
+ },
+ "bryant": {
+  "espn": "Bryant Bulldogs",
+  "full": "Bryant Bulldogs",
+  "short": "Bryant",
+  "sports_reference": "Bryant",
+  "team_id": "cfb_0251"
+ },
+ "bucknell": {
+  "espn": null,
+  "full": "Bucknell Bison",
+  "short": "Bucknell",
+  "sports_reference": "Bucknell",
+  "team_id": "cfb_0182"
+ },
+ "buffalo": {
+  "espn": "Buffalo Bulls",
+  "full": "Buffalo Bulls",
+  "short": "Buffalo",
+  "sports_reference": "Buffalo",
+  "team_id": "cfb_0154"
+ },
+ "cal-poly": {
+  "espn": "Cal Poly Mustangs",
+  "full": "Cal Poly Mustangs",
+  "short": "Cal Poly",
+  "sports_reference": "Cal Poly",
+  "team_id": "cfb_0019"
+ },
+ "cal-state-northridge": {
+  "espn": null,
+  "full": "Cal State Northridge Matadors",
+  "short": "Cal State Northridge",
+  "sports_reference": "Cal State Northridge",
+  "team_id": "cfb_0020"
+ },
+ "california": {
+  "espn": "California Golden Bears",
+  "full": "California Golden Bears",
+  "short": "California",
+  "sports_reference": "California",
+  "team_id": "cfb_0021"
+ },
+ "california-davis": {
+  "espn": "UC Davis Aggies",
+  "full": "UC Davis Aggies",
+  "short": "UC Davis",
+  "sports_reference": "California-Davis",
+  "team_id": "cfb_0155"
+ },
+ "campbell": {
+  "espn": "Campbell Fighting Camels",
+  "full": "Campbell Fighting Camels",
+  "short": "Campbell",
+  "sports_reference": "Campbell",
+  "team_id": "cfb_0237"
+ },
+ "central-arkansas": {
+  "espn": "Central Arkansas Bears",
+  "full": "Central Arkansas Bears",
+  "short": "Central Arkansas",
+  "sports_reference": "Central Arkansas",
+  "team_id": "cfb_0022"
+ },
+ "central-connecticut-state": {
+  "espn": "Central Connecticut Blue Devils",
+  "full": "Central Connecticut Blue Devils",
+  "short": "Central Connecticut",
+  "sports_reference": "Central Connecticut State",
+  "team_id": "cfb_0208"
+ },
+ "central-florida": {
+  "espn": "UCF Knights",
+  "full": "UCF Knights",
+  "short": "UCF",
+  "sports_reference": "Central Florida",
+  "team_id": "cfb_0023"
+ },
+ "central-michigan": {
+  "espn": "Central Michigan Chippewas",
+  "full": "Central Michigan Chippewas",
+  "short": "Central Michigan",
+  "sports_reference": "Central Michigan",
+  "team_id": "cfb_0024"
+ },
+ "charleston-southern": {
+  "espn": "Charleston Southern Buccaneers",
+  "full": "Charleston Southern Buccaneers",
+  "short": "Charleston Southern",
+  "sports_reference": "Charleston Southern",
+  "team_id": "cfb_0025"
+ },
+ "charlotte": {
+  "espn": "Charlotte 49ers",
+  "full": "Charlotte 49ers",
+  "short": "Charlotte",
+  "sports_reference": "Charlotte",
+  "team_id": "cfb_0240"
+ },
+ "chattanooga": {
+  "espn": "Chattanooga Mocs",
+  "full": "Chattanooga Mocs",
+  "short": "Chattanooga",
+  "sports_reference": "Chattanooga",
+  "team_id": "cfb_0026"
+ },
+ "cincinnati": {
+  "espn": "Cincinnati Bearcats",
+  "full": "Cincinnati Bearcats",
+  "short": "Cincinnati",
+  "sports_reference": "Cincinnati",
+  "team_id": "cfb_0027"
+ },
+ "citadel": {
+  "espn": "The Citadel Bulldogs",
+  "full": "The Citadel Bulldogs",
+  "short": "Citadel",
+  "sports_reference": "Citadel",
+  "team_id": "cfb_0028"
+ },
+ "clemson": {
+  "espn": "Clemson Tigers",
+  "full": "Clemson Tigers",
+  "short": "Clemson",
+  "sports_reference": "Clemson",
+  "team_id": "cfb_0029"
+ },
+ "coastal-carolina": {
+  "espn": "Coastal Carolina Chanticleers",
+  "full": "Coastal Carolina Chanticleers",
+  "short": "Coastal Carolina",
+  "sports_reference": "Coastal Carolina",
+  "team_id": "cfb_0218"
+ },
+ "colgate": {
+  "espn": "Colgate Raiders",
+  "full": "Colgate Raiders",
+  "short": "Colgate",
+  "sports_reference": "Colgate",
+  "team_id": "cfb_0156"
+ },
+ "colorado": {
+  "espn": "Colorado Buffaloes",
+  "full": "Colorado Buffaloes",
+  "short": "Colorado",
+  "sports_reference": "Colorado",
+  "team_id": "cfb_0030"
+ },
+ "colorado-state": {
+  "espn": "Colorado State Rams",
+  "full": "Colorado State Rams",
+  "short": "Colorado State",
+  "sports_reference": "Colorado State",
+  "team_id": "cfb_0031"
+ },
+ "connecticut": {
+  "espn": "UConn Huskies",
+  "full": "UConn Huskies",
+  "short": "UConn",
+  "sports_reference": "Connecticut",
+  "team_id": "cfb_0169"
+ },
+ "delaware": {
+  "espn": "Delaware Blue Hens",
+  "full": "Delaware Blue Hens",
+  "short": "Delaware",
+  "sports_reference": "Delaware",
+  "team_id": "cfb_0032"
+ },
+ "delaware-state": {
+  "espn": "Delaware State Hornets",
+  "full": "Delaware State Hornets",
+  "short": "Delaware State",
+  "sports_reference": "Delaware State",
+  "team_id": "cfb_0209"
+ },
+ "dixie-state": {
+  "espn": null,
+  "full": "Utah Tech Trailblazers",
+  "short": "Utah Tech",
+  "sports_reference": "Dixie State",
+  "team_id": "cfb_0249"
+ },
+ "drake": {
+  "espn": "Drake Bulldogs",
+  "full": "Drake Bulldogs",
+  "short": "Drake",
+  "sports_reference": "Drake",
+  "team_id": "cfb_0246"
+ },
+ "duke": {
+  "espn": "Duke Blue Devils",
+  "full": "Duke Blue Devils",
+  "short": "Duke",
+  "sports_reference": "Duke",
+  "team_id": "cfb_0033"
+ },
+ "duquesne": {
+  "espn": "Duquesne Dukes",
+  "full": "Duquesne Dukes",
+  "short": "Duquesne",
+  "sports_reference": "Duquesne",
+  "team_id": "cfb_0238"
+ },
+ "east-carolina": {
+  "espn": "East Carolina Pirates",
+  "full": "East Carolina Pirates",
+  "short": "East Carolina",
+  "sports_reference": "East Carolina",
+  "team_id": "cfb_0034"
+ },
+ "east-tennessee-state": {
+  "espn": "East Tennessee State Buccaneers",
+  "full": "East Tennessee State Buccaneers",
+  "short": "East Tennessee State",
+  "sports_reference": "East Tennessee State",
+  "team_id": "cfb_0035"
+ },
+ "east-texas-a-m": {
+  "espn": "East Texas A&M Lions",
+  "full": "East Texas A&M Lions",
+  "short": "East Texas A&M",
+  "sports_reference": "East Texas A&M",
+  "team_id": "cfb_0259"
+ },
+ "eastern-illinois": {
+  "espn": null,
+  "full": "Eastern Illinois Panthers",
+  "short": "Eastern Illinois",
+  "sports_reference": "Eastern Illinois",
+  "team_id": "cfb_0036"
+ },
+ "eastern-kentucky": {
+  "espn": "Eastern Kentucky Colonels",
+  "full": "Eastern Kentucky Colonels",
+  "short": "Eastern Kentucky",
+  "sports_reference": "Eastern Kentucky",
+  "team_id": "cfb_0162"
+ },
+ "eastern-michigan": {
+  "espn": "Eastern Michigan Eagles",
+  "full": "Eastern Michigan Eagles",
+  "short": "Eastern Michigan",
+  "sports_reference": "Eastern Michigan",
+  "team_id": "cfb_0037"
+ },
+ "eastern-washington": {
+  "espn": "Eastern Washington Eagles",
+  "full": "Eastern Washington Eagles",
+  "short": "Eastern Washington",
+  "sports_reference": "Eastern Washington",
+  "team_id": "cfb_0038"
+ },
+ "edward-waters": {
+  "espn": null,
+  "full": "Edward Waters Tigers",
+  "short": "Edward Waters",
+  "sports_reference": "Edward Waters",
+  "team_id": "cfb_0196"
+ },
+ "elon": {
+  "espn": "Elon Phoenix",
+  "full": "Elon Phoenix",
+  "short": "Elon",
+  "sports_reference": "Elon",
+  "team_id": "cfb_0210"
+ },
+ "florida": {
+  "espn": "Florida Gators",
+  "full": "Florida Gators",
+  "short": "Florida",
+  "sports_reference": "Florida",
+  "team_id": "cfb_0039"
+ },
+ "florida-a-m": {
+  "espn": "Florida A&M Rattlers",
+  "full": "Florida A&M Rattlers",
+  "short": "Florida A&M",
+  "sports_reference": "Florida A&M",
+  "team_id": "cfb_0170"
+ },
+ "florida-atlantic": {
+  "espn": "Florida Atlantic Owls",
+  "full": "Florida Atlantic Owls",
+  "short": "Florida Atlantic",
+  "sports_reference": "Florida Atlantic",
+  "team_id": "cfb_0185"
+ },
+ "florida-international": {
+  "espn": "FIU Panthers",
+  "full": "FIU Panthers",
+  "short": "FIU",
+  "sports_reference": "Florida International",
+  "team_id": "cfb_0191"
+ },
+ "florida-state": {
+  "espn": "Florida State Seminoles",
+  "full": "Florida State Seminoles",
+  "short": "Florida State",
+  "sports_reference": "Florida State",
+  "team_id": "cfb_0040"
+ },
+ "fordham": {
+  "espn": "Fordham Rams",
+  "full": "Fordham Rams",
+  "short": "Fordham",
+  "sports_reference": "Fordham",
+  "team_id": "cfb_0228"
+ },
+ "fresno-state": {
+  "espn": "Fresno State Bulldogs",
+  "full": "Fresno State Bulldogs",
+  "short": "Fresno State",
+  "sports_reference": "Fresno State",
+  "team_id": "cfb_0041"
+ },
+ "furman": {
+  "espn": "Furman Paladins",
+  "full": "Furman Paladins",
+  "short": "Furman",
+  "sports_reference": "Furman",
+  "team_id": "cfb_0042"
+ },
+ "gardner-webb": {
+  "espn": "Gardner-Webb Runnin' Bulldogs",
+  "full": "Gardner-Webb Runnin' Bulldogs",
+  "short": "Gardner-Webb",
+  "sports_reference": "Gardner-Webb",
+  "team_id": "cfb_0211"
+ },
+ "georgia": {
+  "espn": "Georgia Bulldogs",
+  "full": "Georgia Bulldogs",
+  "short": "Georgia",
+  "sports_reference": "Georgia",
+  "team_id": "cfb_0043"
+ },
+ "georgia-southern": {
+  "espn": "Georgia Southern Eagles",
+  "full": "Georgia Southern Eagles",
+  "short": "Georgia Southern",
+  "sports_reference": "Georgia Southern",
+  "team_id": "cfb_0044"
+ },
+ "georgia-state": {
+  "espn": "Georgia State Panthers",
+  "full": "Georgia State Panthers",
+  "short": "Georgia State",
+  "sports_reference": "Georgia State",
+  "team_id": "cfb_0223"
+ },
+ "georgia-tech": {
+  "espn": "Georgia Tech Yellow Jackets",
+  "full": "Georgia Tech Yellow Jackets",
+  "short": "Georgia Tech",
+  "sports_reference": "Georgia Tech",
+  "team_id": "cfb_0045"
+ },
+ "grambling-state": {
+  "espn": "Grambling Tigers",
+  "full": "Grambling Tigers",
+  "short": "Grambling",
+  "sports_reference": "Grambling State",
+  "team_id": "cfb_0177"
+ },
+ "hampton": {
+  "espn": "Hampton Pirates",
+  "full": "Hampton Pirates",
+  "short": "Hampton",
+  "sports_reference": "Hampton",
+  "team_id": "cfb_0224"
+ },
+ "hawaii": {
+  "espn": "Hawai'i Rainbow Warriors",
+  "full": "Hawai'i Rainbow Warriors",
+  "short": "Hawai'i",
+  "sports_reference": "Hawaii",
+  "team_id": "cfb_0046"
+ },
+ "hofstra": {
+  "espn": null,
+  "full": "Hofstra Pride",
+  "short": "Hofstra",
+  "sports_reference": "Hofstra",
+  "team_id": "cfb_0171"
+ },
+ "holy-cross": {
+  "espn": "Holy Cross Crusaders",
+  "full": "Holy Cross Crusaders",
+  "short": "Holy Cross",
+  "sports_reference": "Holy Cross",
+  "team_id": "cfb_0186"
+ },
+ "houston": {
+  "espn": "Houston Cougars",
+  "full": "Houston Cougars",
+  "short": "Houston",
+  "sports_reference": "Houston",
+  "team_id": "cfb_0047"
+ },
+ "houston-baptist": {
+  "espn": "Houston Christian Huskies",
+  "full": "Houston Christian Huskies",
+  "short": "Houston Christian",
+  "sports_reference": "Houston Baptist",
+  "team_id": "cfb_0244"
+ },
+ "howard": {
+  "espn": "Howard Bison",
+  "full": "Howard Bison",
+  "short": "Howard",
+  "sports_reference": "Howard",
+  "team_id": "cfb_0192"
+ },
+ "idaho": {
+  "espn": null,
+  "full": "Idaho Vandals",
+  "short": "Idaho",
+  "sports_reference": "Idaho",
+  "team_id": "cfb_0048"
+ },
+ "idaho-state": {
+  "espn": "Idaho State Bengals",
+  "full": "Idaho State Bengals",
+  "short": "Idaho State",
+  "sports_reference": "Idaho State",
+  "team_id": "cfb_0049"
+ },
+ "illinois": {
+  "espn": "Illinois Fighting Illini",
+  "full": "Illinois Fighting Illini",
+  "short": "Illinois",
+  "sports_reference": "Illinois",
+  "team_id": "cfb_0050"
+ },
+ "illinois-state": {
+  "espn": "Illinois State Redbirds",
+  "full": "Illinois State Redbirds",
+  "short": "Illinois State",
+  "sports_reference": "Illinois State",
+  "team_id": "cfb_0051"
+ },
+ "incarnate-word": {
+  "espn": "Incarnate Word Cardinals",
+  "full": "Incarnate Word Cardinals",
+  "short": "Incarnate Word",
+  "sports_reference": "Incarnate Word",
+  "team_id": "cfb_0241"
+ },
+ "indiana": {
+  "espn": "Indiana Hoosiers",
+  "full": "Indiana Hoosiers",
+  "short": "Indiana",
+  "sports_reference": "Indiana",
+  "team_id": "cfb_0052"
+ },
+ "indiana-state": {
+  "espn": "Indiana State Sycamores",
+  "full": "Indiana State Sycamores",
+  "short": "Indiana State",
+  "sports_reference": "Indiana State",
+  "team_id": "cfb_0053"
+ },
+ "iowa": {
+  "espn": "Iowa Hawkeyes",
+  "full": "Iowa Hawkeyes",
+  "short": "Iowa",
+  "sports_reference": "Iowa",
+  "team_id": "cfb_0054"
+ },
+ "iowa-state": {
+  "espn": "Iowa State Cyclones",
+  "full": "Iowa State Cyclones",
+  "short": "Iowa State",
+  "sports_reference": "Iowa State",
+  "team_id": "cfb_0055"
+ },
+ "jackson-state": {
+  "espn": "Jackson State Tigers",
+  "full": "Jackson State Tigers",
+  "short": "Jackson State",
+  "sports_reference": "Jackson State",
+  "team_id": "cfb_0187"
+ },
+ "jacksonville-state": {
+  "espn": "Jacksonville State Gamecocks",
+  "full": "Jacksonville State Gamecocks",
+  "short": "Jacksonville State",
+  "sports_reference": "Jacksonville State",
+  "team_id": "cfb_0056"
+ },
+ "james-madison": {
+  "espn": "James Madison Dukes",
+  "full": "James Madison Dukes",
+  "short": "James Madison",
+  "sports_reference": "James Madison",
+  "team_id": "cfb_0157"
+ },
+ "kansas": {
+  "espn": "Kansas Jayhawks",
+  "full": "Kansas Jayhawks",
+  "short": "Kansas",
+  "sports_reference": "Kansas",
+  "team_id": "cfb_0057"
+ },
+ "kansas-state": {
+  "espn": "Kansas State Wildcats",
+  "full": "Kansas State Wildcats",
+  "short": "Kansas State",
+  "sports_reference": "Kansas State",
+  "team_id": "cfb_0058"
+ },
+ "kennesaw-state": {
+  "espn": "Kennesaw State Owls",
+  "full": "Kennesaw State Owls",
+  "short": "Kennesaw State",
+  "sports_reference": "Kennesaw State",
+  "team_id": "cfb_0247"
+ },
+ "kent-state": {
+  "espn": "Kent State Golden Flashes",
+  "full": "Kent State Golden Flashes",
+  "short": "Kent State",
+  "sports_reference": "Kent State",
+  "team_id": "cfb_0059"
+ },
+ "kentucky": {
+  "espn": "Kentucky Wildcats",
+  "full": "Kentucky Wildcats",
+  "short": "Kentucky",
+  "sports_reference": "Kentucky",
+  "team_id": "cfb_0060"
+ },
+ "lafayette": {
+  "espn": "Lafayette Leopards",
+  "full": "Lafayette Leopards",
+  "short": "Lafayette",
+  "sports_reference": "Lafayette",
+  "team_id": "cfb_0061"
+ },
+ "lamar": {
+  "espn": "Lamar Cardinals",
+  "full": "Lamar Cardinals",
+  "short": "Lamar",
+  "sports_reference": "Lamar",
+  "team_id": "cfb_0230"
+ },
+ "lehigh": {
+  "espn": "Lehigh Mountain Hawks",
+  "full": "Lehigh Mountain Hawks",
+  "short": "Lehigh",
+  "sports_reference": "Lehigh",
+  "team_id": "cfb_0188"
+ },
+ "liberty": {
+  "espn": "Liberty Flames",
+  "full": "Liberty Flames",
+  "short": "Liberty",
+  "sports_reference": "Liberty",
+  "team_id": "cfb_0172"
+ },
+ "lindenwood": {
+  "espn": null,
+  "full": "Lindenwood Lions",
+  "short": "Lindenwood",
+  "sports_reference": "Lindenwood",
+  "team_id": "cfb_0258"
+ },
+ "long-island": {
+  "espn": "Long Island University Sharks",
+  "full": "Long Island University Sharks",
+  "short": "LIU",
+  "sports_reference": "Long Island",
+  "team_id": "cfb_0252"
+ },
+ "louisiana": {
+  "espn": "Louisiana Ragin' Cajuns",
+  "full": "Louisiana Ragin' Cajuns",
+  "short": "Louisiana",
+  "sports_reference": "Louisiana",
+  "team_id": "cfb_0062"
+ },
+ "louisiana-monroe": {
+  "espn": "UL Monroe Warhawks",
+  "full": "UL Monroe Warhawks",
+  "short": "UL Monroe",
+  "sports_reference": "Louisiana-Monroe",
+  "team_id": "cfb_0063"
+ },
+ "louisiana-state": {
+  "espn": "LSU Tigers",
+  "full": "LSU Tigers",
+  "short": "LSU",
+  "sports_reference": "Louisiana State",
+  "team_id": "cfb_0064"
+ },
+ "louisiana-tech": {
+  "espn": "Louisiana Tech Bulldogs",
+  "full": "Louisiana Tech Bulldogs",
+  "short": "Louisiana Tech",
+  "sports_reference": "Louisiana Tech",
+  "team_id": "cfb_0065"
+ },
+ "louisville": {
+  "espn": "Louisville Cardinals",
+  "full": "Louisville Cardinals",
+  "short": "Louisville",
+  "sports_reference": "Louisville",
+  "team_id": "cfb_0066"
+ },
+ "maine": {
+  "espn": "Maine Black Bears",
+  "full": "Maine Black Bears",
+  "short": "Maine",
+  "sports_reference": "Maine",
+  "team_id": "cfb_0197"
+ },
+ "marshall": {
+  "espn": "Marshall Thundering Herd",
+  "full": "Marshall Thundering Herd",
+  "short": "Marshall",
+  "sports_reference": "Marshall",
+  "team_id": "cfb_0158"
+ },
+ "maryland": {
+  "espn": "Maryland Terrapins",
+  "full": "Maryland Terrapins",
+  "short": "Maryland",
+  "sports_reference": "Maryland",
+  "team_id": "cfb_0067"
+ },
+ "massachusetts": {
+  "espn": "Massachusetts Minutemen",
+  "full": "Massachusetts Minutemen",
+  "short": "UMass",
+  "sports_reference": "Massachusetts",
+  "team_id": "cfb_0173"
+ },
+ "mcneese-state": {
+  "espn": "McNeese Cowboys",
+  "full": "McNeese Cowboys",
+  "short": "McNeese",
+  "sports_reference": "McNeese State",
+  "team_id": "cfb_0178"
+ },
+ "memphis": {
+  "espn": "Memphis Tigers",
+  "full": "Memphis Tigers",
+  "short": "Memphis",
+  "sports_reference": "Memphis",
+  "team_id": "cfb_0068"
+ },
+ "mercer": {
+  "espn": "Mercer Bears",
+  "full": "Mercer Bears",
+  "short": "Mercer",
+  "sports_reference": "Mercer",
+  "team_id": "cfb_0245"
+ },
+ "mercyhurst": {
+  "espn": "Mercyhurst Lakers",
+  "full": "Mercyhurst Lakers",
+  "short": "Mercyhurst",
+  "sports_reference": "Mercyhurst",
+  "team_id": "cfb_0260"
+ },
+ "merrimack": {
+  "espn": "Merrimack Warriors",
+  "full": "Merrimack Warriors",
+  "short": "Merrimack",
+  "sports_reference": "Merrimack",
+  "team_id": "cfb_0256"
+ },
+ "miami-fl": {
+  "espn": "Miami Hurricanes",
+  "full": "Miami Hurricanes",
+  "short": "Miami (FL)",
+  "sports_reference": "Miami (FL)",
+  "team_id": "cfb_0069"
+ },
+ "miami-oh": {
+  "espn": "Miami (OH) RedHawks",
+  "full": "Miami (OH) RedHawks",
+  "short": "Miami (OH)",
+  "sports_reference": "Miami (OH)",
+  "team_id": "cfb_0070"
+ },
+ "michigan": {
+  "espn": "Michigan Wolverines",
+  "full": "Michigan Wolverines",
+  "short": "Michigan",
+  "sports_reference": "Michigan",
+  "team_id": "cfb_0071"
+ },
+ "michigan-state": {
+  "espn": "Michigan State Spartans",
+  "full": "Michigan State Spartans",
+  "short": "Michigan State",
+  "sports_reference": "Michigan State",
+  "team_id": "cfb_0072"
+ },
+ "middle-tennessee-state": {
+  "espn": "Middle Tennessee Blue Raiders",
+  "full": "Middle Tennessee Blue Raiders",
+  "short": "Middle Tennessee",
+  "sports_reference": "Middle Tennessee State",
+  "team_id": "cfb_0073"
+ },
+ "minnesota": {
+  "espn": "Minnesota Golden Gophers",
+  "full": "Minnesota Golden Gophers",
+  "short": "Minnesota",
+  "sports_reference": "Minnesota",
+  "team_id": "cfb_0074"
+ },
+ "mississippi": {
+  "espn": "Ole Miss Rebels",
+  "full": "Ole Miss Rebels",
+  "short": "Ole Miss",
+  "sports_reference": "Mississippi",
+  "team_id": "cfb_0075"
+ },
+ "mississippi-state": {
+  "espn": "Mississippi State Bulldogs",
+  "full": "Mississippi State Bulldogs",
+  "short": "Mississippi State",
+  "sports_reference": "Mississippi State",
+  "team_id": "cfb_0076"
+ },
+ "mississippi-valley-state": {
+  "espn": "Mississippi Valley State Delta Devils",
+  "full": "Mississippi Valley State Delta Devils",
+  "short": "Mississippi Valley State",
+  "sports_reference": "Mississippi Valley State",
+  "team_id": "cfb_0179"
+ },
+ "missouri": {
+  "espn": "Missouri Tigers",
+  "full": "Missouri Tigers",
+  "short": "Missouri",
+  "sports_reference": "Missouri",
+  "team_id": "cfb_0077"
+ },
+ "missouri-state": {
+  "espn": "Missouri State Bears",
+  "full": "Missouri State Bears",
+  "short": "Missouri State",
+  "sports_reference": "Missouri State",
+  "team_id": "cfb_0078"
+ },
+ "monmouth": {
+  "espn": "Monmouth Hawks",
+  "full": "Monmouth Hawks",
+  "short": "Monmouth",
+  "sports_reference": "Monmouth",
+  "team_id": "cfb_0242"
+ },
+ "montana": {
+  "espn": "Montana Grizzlies",
+  "full": "Montana Grizzlies",
+  "short": "Montana",
+  "sports_reference": "Montana",
+  "team_id": "cfb_0079"
+ },
+ "montana-state": {
+  "espn": "Montana State Bobcats",
+  "full": "Montana State Bobcats",
+  "short": "Montana State",
+  "sports_reference": "Montana State",
+  "team_id": "cfb_0080"
+ },
+ "morehead-state": {
+  "espn": "Morehead State Eagles",
+  "full": "Morehead State Eagles",
+  "short": "Morehead State",
+  "sports_reference": "Morehead State",
+  "team_id": "cfb_0212"
+ },
+ "morgan-state": {
+  "espn": "Morgan State Bears",
+  "full": "Morgan State Bears",
+  "short": "Morgan State",
+  "sports_reference": "Morgan State",
+  "team_id": "cfb_0198"
+ },
+ "murray-state": {
+  "espn": "Murray State Racers",
+  "full": "Murray State Racers",
+  "short": "Murray State",
+  "sports_reference": "Murray State",
+  "team_id": "cfb_0163"
+ },
+ "navy": {
+  "espn": "Navy Midshipmen",
+  "full": "Navy Midshipmen",
+  "short": "Navy",
+  "sports_reference": "Navy",
+  "team_id": "cfb_0081"
+ },
+ "nebraska": {
+  "espn": "Nebraska Cornhuskers",
+  "full": "Nebraska Cornhuskers",
+  "short": "Nebraska",
+  "sports_reference": "Nebraska",
+  "team_id": "cfb_0082"
+ },
+ "nevada": {
+  "espn": "Nevada Wolf Pack",
+  "full": "Nevada Wolf Pack",
+  "short": "Nevada",
+  "sports_reference": "Nevada",
+  "team_id": "cfb_0083"
+ },
+ "nevada-las-vegas": {
+  "espn": "UNLV Rebels",
+  "full": "UNLV Rebels",
+  "short": "UNLV",
+  "sports_reference": "Nevada-Las Vegas",
+  "team_id": "cfb_0084"
+ },
+ "new-hampshire": {
+  "espn": "New Hampshire Wildcats",
+  "full": "New Hampshire Wildcats",
+  "short": "New Hampshire",
+  "sports_reference": "New Hampshire",
+  "team_id": "cfb_0189"
+ },
+ "new-mexico": {
+  "espn": "New Mexico Lobos",
+  "full": "New Mexico Lobos",
+  "short": "New Mexico",
+  "sports_reference": "New Mexico",
+  "team_id": "cfb_0085"
+ },
+ "new-mexico-highlands": {
+  "espn": null,
+  "full": "New Mexico Highlands Cowboys",
+  "short": "New Mexico Highlands",
+  "sports_reference": "New Mexico Highlands",
+  "team_id": "cfb_0174"
+ },
+ "new-mexico-state": {
+  "espn": "New Mexico State Aggies",
+  "full": "New Mexico State Aggies",
+  "short": "New Mexico State",
+  "sports_reference": "New Mexico State",
+  "team_id": "cfb_0086"
+ },
+ "nicholls-state": {
+  "espn": "Nicholls Colonels",
+  "full": "Nicholls Colonels",
+  "short": "Nicholls",
+  "sports_reference": "Nicholls State",
+  "team_id": "cfb_0087"
+ },
+ "norfolk-state": {
+  "espn": "Norfolk State Spartans",
+  "full": "Norfolk State Spartans",
+  "short": "Norfolk State",
+  "sports_reference": "Norfolk State",
+  "team_id": "cfb_0213"
+ },
+ "north-alabama": {
+  "espn": "North Alabama Lions",
+  "full": "North Alabama Lions",
+  "short": "North Alabama",
+  "sports_reference": "North Alabama",
+  "team_id": "cfb_0159"
+ },
+ "north-carolina": {
+  "espn": "North Carolina Tar Heels",
+  "full": "North Carolina Tar Heels",
+  "short": "North Carolina",
+  "sports_reference": "North Carolina",
+  "team_id": "cfb_0088"
+ },
+ "north-carolina-a-t": {
+  "espn": "North Carolina A&T Aggies",
+  "full": "North Carolina A&T Aggies",
+  "short": "North Carolina A&T",
+  "sports_reference": "North Carolina A&T",
+  "team_id": "cfb_0199"
+ },
+ "north-carolina-central": {
+  "espn": "North Carolina Central Eagles",
+  "full": "North Carolina Central Eagles",
+  "short": "North Carolina Central",
+  "sports_reference": "North Carolina Central",
+  "team_id": "cfb_0214"
+ },
+ "north-carolina-state": {
+  "espn": "NC State Wolfpack",
+  "full": "NC State Wolfpack",
+  "short": "NC State",
+  "sports_reference": "North Carolina State",
+  "team_id": "cfb_0089"
+ },
+ "north-dakota": {
+  "espn": "North Dakota Fighting Hawks",
+  "full": "North Dakota Fighting Hawks",
+  "short": "North Dakota",
+  "sports_reference": "North Dakota",
+  "team_id": "cfb_0221"
+ },
+ "north-dakota-state": {
+  "espn": "North Dakota State Bison",
+  "full": "North Dakota State Bison",
+  "short": "North Dakota State",
+  "sports_reference": "North Dakota State",
+  "team_id": "cfb_0206"
+ },
+ "north-texas": {
+  "espn": "North Texas Mean Green",
+  "full": "North Texas Mean Green",
+  "short": "North Texas",
+  "sports_reference": "North Texas",
+  "team_id": "cfb_0090"
+ },
+ "northeastern": {
+  "espn": null,
+  "full": "Northeastern Huskies",
+  "short": "Northeastern",
+  "sports_reference": "Northeastern",
+  "team_id": "cfb_0175"
+ },
+ "northern-arizona": {
+  "espn": "Northern Arizona Lumberjacks",
+  "full": "Northern Arizona Lumberjacks",
+  "short": "Northern Arizona",
+  "sports_reference": "Northern Arizona",
+  "team_id": "cfb_0091"
+ },
+ "northern-colorado": {
+  "espn": "Northern Colorado Bears",
+  "full": "Northern Colorado Bears",
+  "short": "Northern Colorado",
+  "sports_reference": "Northern Colorado",
+  "team_id": "cfb_0200"
+ },
+ "northern-illinois": {
+  "espn": "Northern Illinois Huskies",
+  "full": "Northern Illinois Huskies",
+  "short": "Northern Illinois",
+  "sports_reference": "Northern Illinois",
+  "team_id": "cfb_0092"
+ },
+ "northern-iowa": {
+  "espn": "Northern Iowa Panthers",
+  "full": "Northern Iowa Panthers",
+  "short": "Northern Iowa",
+  "sports_reference": "Northern Iowa",
+  "team_id": "cfb_0093"
+ },
+ "northwestern": {
+  "espn": "Northwestern Wildcats",
+  "full": "Northwestern Wildcats",
+  "short": "Northwestern",
+  "sports_reference": "Northwestern",
+  "team_id": "cfb_0094"
+ },
+ "northwestern-oklahoma-state": {
+  "espn": null,
+  "full": "Northwestern Oklahoma State Rangers",
+  "short": "Northwestern Oklahoma State",
+  "sports_reference": "Northwestern Oklahoma State",
+  "team_id": "cfb_0231"
+ },
+ "northwestern-state": {
+  "espn": "Northwestern State Demons",
+  "full": "Northwestern State Demons",
+  "short": "Northwestern State",
+  "sports_reference": "Northwestern State",
+  "team_id": "cfb_0095"
+ },
+ "notre-dame": {
+  "espn": "Notre Dame Fighting Irish",
+  "full": "Notre Dame Fighting Irish",
+  "short": "Notre Dame",
+  "sports_reference": "Notre Dame",
+  "team_id": "cfb_0096"
+ },
+ "ohio": {
+  "espn": "Ohio Bobcats",
+  "full": "Ohio Bobcats",
+  "short": "Ohio",
+  "sports_reference": "Ohio",
+  "team_id": "cfb_0097"
+ },
+ "ohio-state": {
+  "espn": "Ohio State Buckeyes",
+  "full": "Ohio State Buckeyes",
+  "short": "Ohio State",
+  "sports_reference": "Ohio State",
+  "team_id": "cfb_0098"
+ },
+ "oklahoma": {
+  "espn": "Oklahoma Sooners",
+  "full": "Oklahoma Sooners",
+  "short": "Oklahoma",
+  "sports_reference": "Oklahoma",
+  "team_id": "cfb_0099"
+ },
+ "oklahoma-state": {
+  "espn": "Oklahoma State Cowboys",
+  "full": "Oklahoma State Cowboys",
+  "short": "Oklahoma State",
+  "sports_reference": "Oklahoma State",
+  "team_id": "cfb_0100"
+ },
+ "old-dominion": {
+  "espn": "Old Dominion Monarchs",
+  "full": "Old Dominion Monarchs",
+  "short": "Old Dominion",
+  "sports_reference": "Old Dominion",
+  "team_id": "cfb_0236"
+ },
+ "oregon": {
+  "espn": "Oregon Ducks",
+  "full": "Oregon Ducks",
+  "short": "Oregon",
+  "sports_reference": "Oregon",
+  "team_id": "cfb_0101"
+ },
+ "oregon-state": {
+  "espn": "Oregon State Beavers",
+  "full": "Oregon State Beavers",
+  "short": "Oregon State",
+  "sports_reference": "Oregon State",
+  "team_id": "cfb_0102"
+ },
+ "penn-state": {
+  "espn": "Penn State Nittany Lions",
+  "full": "Penn State Nittany Lions",
+  "short": "Penn State",
+  "sports_reference": "Penn State",
+  "team_id": "cfb_0103"
+ },
+ "pittsburgh": {
+  "espn": "Pittsburgh Panthers",
+  "full": "Pittsburgh Panthers",
+  "short": "Pittsburgh",
+  "sports_reference": "Pittsburgh",
+  "team_id": "cfb_0104"
+ },
+ "portland-state": {
+  "espn": null,
+  "full": "Portland State Vikings",
+  "short": "Portland State",
+  "sports_reference": "Portland State",
+  "team_id": "cfb_0105"
+ },
+ "prairie-view-a-m": {
+  "espn": "Prairie View A&M Panthers",
+  "full": "Prairie View A&M Panthers",
+  "short": "Prairie View A&M",
+  "sports_reference": "Prairie View A&M",
+  "team_id": "cfb_0222"
+ },
+ "presbyterian": {
+  "espn": "Presbyterian Blue Hose",
+  "full": "Presbyterian Blue Hose",
+  "short": "Presbyterian",
+  "sports_reference": "Presbyterian",
+  "team_id": "cfb_0225"
+ },
+ "purdue": {
+  "espn": "Purdue Boilermakers",
+  "full": "Purdue Boilermakers",
+  "short": "Purdue",
+  "sports_reference": "Purdue",
+  "team_id": "cfb_0106"
+ },
+ "rhode-island": {
+  "espn": "Rhode Island Rams",
+  "full": "Rhode Island Rams",
+  "short": "Rhode Island",
+  "sports_reference": "Rhode Island",
+  "team_id": "cfb_0180"
+ },
+ "rice": {
+  "espn": "Rice Owls",
+  "full": "Rice Owls",
+  "short": "Rice",
+  "sports_reference": "Rice",
+  "team_id": "cfb_0107"
+ },
+ "richmond": {
+  "espn": "Richmond Spiders",
+  "full": "Richmond Spiders",
+  "short": "Richmond",
+  "sports_reference": "Richmond",
+  "team_id": "cfb_0160"
+ },
+ "robert-morris": {
+  "espn": "Robert Morris Colonials",
+  "full": "Robert Morris Colonials",
+  "short": "Robert Morris",
+  "sports_reference": "Robert Morris",
+  "team_id": "cfb_0248"
+ },
+ "rutgers": {
+  "espn": "Rutgers Scarlet Knights",
+  "full": "Rutgers Scarlet Knights",
+  "short": "Rutgers",
+  "sports_reference": "Rutgers",
+  "team_id": "cfb_0108"
+ },
+ "sacramento-state": {
+  "espn": "Sacramento State Hornets",
+  "full": "Sacramento State Hornets",
+  "short": "Sacramento State",
+  "sports_reference": "Sacramento State",
+  "team_id": "cfb_0190"
+ },
+ "sacred-heart": {
+  "espn": "Sacred Heart Pioneers",
+  "full": "Sacred Heart Pioneers",
+  "short": "Sacred Heart",
+  "sports_reference": "Sacred Heart",
+  "team_id": "cfb_0257"
+ },
+ "saint-mary-s-ca": {
+  "espn": null,
+  "full": "Saint Mary's Gaels",
+  "short": "Saint Mary's",
+  "sports_reference": "Saint Mary's (CA)",
+  "team_id": "cfb_0109"
+ },
+ "sam-houston": {
+  "espn": "Sam Houston Bearkats",
+  "full": "Sam Houston Bearkats",
+  "short": "Sam Houston",
+  "sports_reference": "Sam Houston",
+  "team_id": "cfb_0110"
+ },
+ "samford": {
+  "espn": "Samford Bulldogs",
+  "full": "Samford Bulldogs",
+  "short": "Samford",
+  "sports_reference": "Samford",
+  "team_id": "cfb_0111"
+ },
+ "san-diego": {
+  "espn": "San Diego Toreros",
+  "full": "San Diego Toreros",
+  "short": "San Diego",
+  "sports_reference": "San Diego",
+  "team_id": "cfb_0243"
+ },
+ "san-diego-state": {
+  "espn": "San Diego State Aztecs",
+  "full": "San Diego State Aztecs",
+  "short": "San Diego State",
+  "sports_reference": "San Diego State",
+  "team_id": "cfb_0112"
+ },
+ "san-jose-state": {
+  "espn": "San José State Spartans",
+  "full": "San José State Spartans",
+  "short": "San Jose State",
+  "sports_reference": "San Jose State",
+  "team_id": "cfb_0113"
+ },
+ "savannah-state": {
+  "espn": null,
+  "full": "Savannah State Tigers",
+  "short": "Savannah State",
+  "sports_reference": "Savannah State",
+  "team_id": "cfb_0201"
+ },
+ "south-alabama": {
+  "espn": "South Alabama Jaguars",
+  "full": "South Alabama Jaguars",
+  "short": "South Alabama",
+  "sports_reference": "South Alabama",
+  "team_id": "cfb_0229"
+ },
+ "south-carolina": {
+  "espn": "South Carolina Gamecocks",
+  "full": "South Carolina Gamecocks",
+  "short": "South Carolina",
+  "sports_reference": "South Carolina",
+  "team_id": "cfb_0114"
+ },
+ "south-carolina-state": {
+  "espn": "South Carolina State Bulldogs",
+  "full": "South Carolina State Bulldogs",
+  "short": "South Carolina State",
+  "sports_reference": "South Carolina State",
+  "team_id": "cfb_0215"
+ },
+ "south-dakota": {
+  "espn": "South Dakota Coyotes",
+  "full": "South Dakota Coyotes",
+  "short": "South Dakota",
+  "sports_reference": "South Dakota",
+  "team_id": "cfb_0226"
+ },
+ "south-dakota-state": {
+  "espn": "South Dakota State Jackrabbits",
+  "full": "South Dakota State Jackrabbits",
+  "short": "South Dakota State",
+  "sports_reference": "South Dakota State",
+  "team_id": "cfb_0219"
+ },
+ "south-florida": {
+  "espn": "South Florida Bulls",
+  "full": "South Florida Bulls",
+  "short": "South Florida",
+  "sports_reference": "South Florida",
+  "team_id": "cfb_0176"
+ },
+ "southeast-missouri-state": {
+  "espn": "Southeast Missouri State Redhawks",
+  "full": "Southeast Missouri State Redhawks",
+  "short": "SE Missouri State",
+  "sports_reference": "Southeast Missouri State",
+  "team_id": "cfb_0115"
+ },
+ "southeastern-louisiana": {
+  "espn": null,
+  "full": "Southeastern Louisiana Lions",
+  "short": "Southeastern Louisiana",
+  "sports_reference": "Southeastern Louisiana",
+  "team_id": "cfb_0193"
+ },
+ "southern": {
+  "espn": "Southern Jaguars",
+  "full": "Southern Jaguars",
+  "short": "Southern",
+  "sports_reference": "Southern",
+  "team_id": "cfb_0183"
+ },
+ "southern-california": {
+  "espn": "USC Trojans",
+  "full": "USC Trojans",
+  "short": "USC",
+  "sports_reference": "Southern California",
+  "team_id": "cfb_0116"
+ },
+ "southern-illinois": {
+  "espn": "Southern Illinois Salukis",
+  "full": "Southern Illinois Salukis",
+  "short": "Southern Illinois",
+  "sports_reference": "Southern Illinois",
+  "team_id": "cfb_0181"
+ },
+ "southern-methodist": {
+  "espn": "SMU Mustangs",
+  "full": "SMU Mustangs",
+  "short": "SMU",
+  "sports_reference": "Southern Methodist",
+  "team_id": "cfb_0117"
+ },
+ "southern-mississippi": {
+  "espn": "Southern Miss Golden Eagles",
+  "full": "Southern Miss Golden Eagles",
+  "short": "Southern Miss",
+  "sports_reference": "Southern Mississippi",
+  "team_id": "cfb_0118"
+ },
+ "southern-utah": {
+  "espn": "Southern Utah Thunderbirds",
+  "full": "Southern Utah Thunderbirds",
+  "short": "Southern Utah",
+  "sports_reference": "Southern Utah",
+  "team_id": "cfb_0119"
+ },
+ "st-francis-pa": {
+  "espn": null,
+  "full": "St. Francis (PA) Red Flash",
+  "short": "St. Francis (PA)",
+  "sports_reference": "St. Francis (PA)",
+  "team_id": "cfb_0253"
+ },
+ "stanford": {
+  "espn": "Stanford Cardinal",
+  "full": "Stanford Cardinal",
+  "short": "Stanford",
+  "sports_reference": "Stanford",
+  "team_id": "cfb_0120"
+ },
+ "stephen-f-austin": {
+  "espn": "Stephen F. Austin Lumberjacks",
+  "full": "Stephen F. Austin Lumberjacks",
+  "short": "Stephen F. Austin",
+  "sports_reference": "Stephen F. Austin",
+  "team_id": "cfb_0164"
+ },
+ "stonehill": {
+  "espn": "Stonehill Skyhawks",
+  "full": "Stonehill Skyhawks",
+  "short": "Stonehill",
+  "sports_reference": "Stonehill",
+  "team_id": "cfb_0261"
+ },
+ "stony-brook": {
+  "espn": null,
+  "full": "Stony Brook Seawolves",
+  "short": "Stony Brook",
+  "sports_reference": "Stony Brook",
+  "team_id": "cfb_0227"
+ },
+ "syracuse": {
+  "espn": "Syracuse Orange",
+  "full": "Syracuse Orange",
+  "short": "Syracuse",
+  "sports_reference": "Syracuse",
+  "team_id": "cfb_0121"
+ },
+ "tarleton-state": {
+  "espn": "Tarleton State Texans",
+  "full": "Tarleton State Texans",
+  "short": "Tarleton State",
+  "sports_reference": "Tarleton State",
+  "team_id": "cfb_0250"
+ },
+ "temple": {
+  "espn": "Temple Owls",
+  "full": "Temple Owls",
+  "short": "Temple",
+  "sports_reference": "Temple",
+  "team_id": "cfb_0122"
+ },
+ "tennessee": {
+  "espn": "Tennessee Volunteers",
+  "full": "Tennessee Volunteers",
+  "short": "Tennessee",
+  "sports_reference": "Tennessee",
+  "team_id": "cfb_0123"
+ },
+ "tennessee-martin": {
+  "espn": "UT Martin Skyhawks",
+  "full": "UT Martin Skyhawks",
+  "short": "UT Martin",
+  "sports_reference": "Tennessee-Martin",
+  "team_id": "cfb_0165"
+ },
+ "tennessee-state": {
+  "espn": "Tennessee State Tigers",
+  "full": "Tennessee State Tigers",
+  "short": "Tennessee State",
+  "sports_reference": "Tennessee State",
+  "team_id": "cfb_0202"
+ },
+ "tennessee-tech": {
+  "espn": "Tennessee Tech Golden Eagles",
+  "full": "Tennessee Tech Golden Eagles",
+  "short": "Tennessee Tech",
+  "sports_reference": "Tennessee Tech",
+  "team_id": "cfb_0161"
+ },
+ "texas": {
+  "espn": "Texas Longhorns",
+  "full": "Texas Longhorns",
+  "short": "Texas",
+  "sports_reference": "Texas",
+  "team_id": "cfb_0124"
+ },
+ "texas-a-m": {
+  "espn": "Texas A&M Aggies",
+  "full": "Texas A&M Aggies",
+  "short": "Texas A&M",
+  "sports_reference": "Texas A&M",
+  "team_id": "cfb_0125"
+ },
+ "texas-a-m-commerce": {
+  "espn": null,
+  "full": "East Texas A&M Lions",
+  "short": "East Texas A&M",
+  "sports_reference": "Texas A&M-Commerce",
+  "team_id": "cfb_0232"
+ },
+ "texas-christian": {
+  "espn": "TCU Horned Frogs",
+  "full": "TCU Horned Frogs",
+  "short": "TCU",
+  "sports_reference": "Texas Christian",
+  "team_id": "cfb_0126"
+ },
+ "texas-el-paso": {
+  "espn": "UTEP Miners",
+  "full": "UTEP Miners",
+  "short": "UTEP",
+  "sports_reference": "Texas-El Paso",
+  "team_id": "cfb_0127"
+ },
+ "texas-san-antonio": {
+  "espn": "UTSA Roadrunners",
+  "full": "UTSA Roadrunners",
+  "short": "UTSA",
+  "sports_reference": "Texas-San Antonio",
+  "team_id": "cfb_0233"
+ },
+ "texas-southern": {
+  "espn": "Texas Southern Tigers",
+  "full": "Texas Southern Tigers",
+  "short": "Texas Southern",
+  "sports_reference": "Texas Southern",
+  "team_id": "cfb_0184"
+ },
+ "texas-state": {
+  "espn": "Texas State Bobcats",
+  "full": "Texas State Bobcats",
+  "short": "Texas State",
+  "sports_reference": "Texas State",
+  "team_id": "cfb_0128"
+ },
+ "texas-tech": {
+  "espn": "Texas Tech Red Raiders",
+  "full": "Texas Tech Red Raiders",
+  "short": "Texas Tech",
+  "sports_reference": "Texas Tech",
+  "team_id": "cfb_0129"
+ },
+ "toledo": {
+  "espn": "Toledo Rockets",
+  "full": "Toledo Rockets",
+  "short": "Toledo",
+  "sports_reference": "Toledo",
+  "team_id": "cfb_0130"
+ },
+ "towson": {
+  "espn": "Towson Tigers",
+  "full": "Towson Tigers",
+  "short": "Towson",
+  "sports_reference": "Towson",
+  "team_id": "cfb_0220"
+ },
+ "troy": {
+  "espn": "Troy Trojans",
+  "full": "Troy Trojans",
+  "short": "Troy",
+  "sports_reference": "Troy",
+  "team_id": "cfb_0166"
+ },
+ "tulane": {
+  "espn": "Tulane Green Wave",
+  "full": "Tulane Green Wave",
+  "short": "Tulane",
+  "sports_reference": "Tulane",
+  "team_id": "cfb_0131"
+ },
+ "tulsa": {
+  "espn": "Tulsa Golden Hurricane",
+  "full": "Tulsa Golden Hurricane",
+  "short": "Tulsa",
+  "sports_reference": "Tulsa",
+  "team_id": "cfb_0132"
+ },
+ "ucla": {
+  "espn": "UCLA Bruins",
+  "full": "UCLA Bruins",
+  "short": "UCLA",
+  "sports_reference": "UCLA",
+  "team_id": "cfb_0133"
+ },
+ "utah": {
+  "espn": "Utah Utes",
+  "full": "Utah Utes",
+  "short": "Utah",
+  "sports_reference": "Utah",
+  "team_id": "cfb_0134"
+ },
+ "utah-state": {
+  "espn": "Utah State Aggies",
+  "full": "Utah State Aggies",
+  "short": "Utah State",
+  "sports_reference": "Utah State",
+  "team_id": "cfb_0135"
+ },
+ "utah-tech": {
+  "espn": "Utah Tech Trailblazers",
+  "full": "Utah Tech Trailblazers",
+  "short": "Utah Tech",
+  "sports_reference": "Utah Tech",
+  "team_id": "cfb_0254"
+ },
+ "utrgv": {
+  "espn": "UT Rio Grande Valley Vaqueros",
+  "full": "UT Rio Grande Valley Vaqueros",
+  "short": "UTRGV",
+  "sports_reference": "UTRGV",
+  "team_id": "cfb_0262"
+ },
+ "valparaiso": {
+  "espn": "Valparaiso Beacons",
+  "full": "Valparaiso Beacons",
+  "short": "Valparaiso",
+  "sports_reference": "Valparaiso",
+  "team_id": "cfb_0255"
+ },
+ "vanderbilt": {
+  "espn": "Vanderbilt Commodores",
+  "full": "Vanderbilt Commodores",
+  "short": "Vanderbilt",
+  "sports_reference": "Vanderbilt",
+  "team_id": "cfb_0136"
+ },
+ "villanova": {
+  "espn": "Villanova Wildcats",
+  "full": "Villanova Wildcats",
+  "short": "Villanova",
+  "sports_reference": "Villanova",
+  "team_id": "cfb_0137"
+ },
+ "virginia": {
+  "espn": "Virginia Cavaliers",
+  "full": "Virginia Cavaliers",
+  "short": "Virginia",
+  "sports_reference": "Virginia",
+  "team_id": "cfb_0138"
+ },
+ "virginia-military-institute": {
+  "espn": "VMI Keydets",
+  "full": "VMI Keydets",
+  "short": "VMI",
+  "sports_reference": "Virginia Military Institute",
+  "team_id": "cfb_0139"
+ },
+ "virginia-tech": {
+  "espn": "Virginia Tech Hokies",
+  "full": "Virginia Tech Hokies",
+  "short": "Virginia Tech",
+  "sports_reference": "Virginia Tech",
+  "team_id": "cfb_0140"
+ },
+ "virginia-union": {
+  "espn": null,
+  "full": "Virginia Union Panthers",
+  "short": "Virginia Union",
+  "sports_reference": "Virginia Union",
+  "team_id": "cfb_0203"
+ },
+ "wagner": {
+  "espn": "Wagner Seahawks",
+  "full": "Wagner Seahawks",
+  "short": "Wagner",
+  "sports_reference": "Wagner",
+  "team_id": "cfb_0234"
+ },
+ "wake-forest": {
+  "espn": "Wake Forest Demon Deacons",
+  "full": "Wake Forest Demon Deacons",
+  "short": "Wake Forest",
+  "sports_reference": "Wake Forest",
+  "team_id": "cfb_0141"
+ },
+ "washington": {
+  "espn": "Washington Huskies",
+  "full": "Washington Huskies",
+  "short": "Washington",
+  "sports_reference": "Washington",
+  "team_id": "cfb_0142"
+ },
+ "washington-state": {
+  "espn": "Washington State Cougars",
+  "full": "Washington State Cougars",
+  "short": "Washington State",
+  "sports_reference": "Washington State",
+  "team_id": "cfb_0143"
+ },
+ "weber-state": {
+  "espn": "Weber State Wildcats",
+  "full": "Weber State Wildcats",
+  "short": "Weber State",
+  "sports_reference": "Weber State",
+  "team_id": "cfb_0144"
+ },
+ "west-georgia": {
+  "espn": "West Georgia Wolves",
+  "full": "West Georgia Wolves",
+  "short": "West Georgia",
+  "sports_reference": "West Georgia",
+  "team_id": "cfb_0263"
+ },
+ "west-virginia": {
+  "espn": "West Virginia Mountaineers",
+  "full": "West Virginia Mountaineers",
+  "short": "West Virginia",
+  "sports_reference": "West Virginia",
+  "team_id": "cfb_0145"
+ },
+ "west-virginia-tech": {
+  "espn": null,
+  "full": "West Virginia Tech Golden Bears",
+  "short": "West Virginia Tech",
+  "sports_reference": "West Virginia Tech",
+  "team_id": "cfb_0216"
+ },
+ "western-carolina": {
+  "espn": "Western Carolina Catamounts",
+  "full": "Western Carolina Catamounts",
+  "short": "Western Carolina",
+  "sports_reference": "Western Carolina",
+  "team_id": "cfb_0167"
+ },
+ "western-illinois": {
+  "espn": "Western Illinois Leathernecks",
+  "full": "Western Illinois Leathernecks",
+  "short": "Western Illinois",
+  "sports_reference": "Western Illinois",
+  "team_id": "cfb_0146"
+ },
+ "western-kentucky": {
+  "espn": "Western Kentucky Hilltoppers",
+  "full": "Western Kentucky Hilltoppers",
+  "short": "Western Kentucky",
+  "sports_reference": "Western Kentucky",
+  "team_id": "cfb_0147"
+ },
+ "western-michigan": {
+  "espn": "Western Michigan Broncos",
+  "full": "Western Michigan Broncos",
+  "short": "Western Michigan",
+  "sports_reference": "Western Michigan",
+  "team_id": "cfb_0148"
+ },
+ "western-new-mexico": {
+  "espn": null,
+  "full": "Western New Mexico Mustangs",
+  "short": "Western New Mexico",
+  "sports_reference": "Western New Mexico",
+  "team_id": "cfb_0194"
+ },
+ "william-mary": {
+  "espn": "William & Mary Tribe",
+  "full": "William & Mary Tribe",
+  "short": "William & Mary",
+  "sports_reference": "William & Mary",
+  "team_id": "cfb_0149"
+ },
+ "wisconsin": {
+  "espn": "Wisconsin Badgers",
+  "full": "Wisconsin Badgers",
+  "short": "Wisconsin",
+  "sports_reference": "Wisconsin",
+  "team_id": "cfb_0150"
+ },
+ "wofford": {
+  "espn": "Wofford Terriers",
+  "full": "Wofford Terriers",
+  "short": "Wofford",
+  "sports_reference": "Wofford",
+  "team_id": "cfb_0168"
+ },
+ "wyoming": {
+  "espn": "Wyoming Cowboys",
+  "full": "Wyoming Cowboys",
+  "short": "Wyoming",
+  "sports_reference": "Wyoming",
+  "team_id": "cfb_0151"
+ },
+ "yale": {
+  "espn": "Yale Bulldogs",
+  "full": "Yale Bulldogs",
+  "short": "Yale",
+  "sports_reference": "Yale",
+  "team_id": "cfb_0152"
+ },
+ "youngstown-state": {
+  "espn": "Youngstown State Penguins",
+  "full": "Youngstown State Penguins",
+  "short": "Youngstown State",
+  "sports_reference": "Youngstown State",
+  "team_id": "cfb_0153"
+ }
+}

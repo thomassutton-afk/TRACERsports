@@ -112,10 +112,16 @@ ACTIVE_CODES = {
     },
 }
 
+ACTIVE_CODES["cfb"] = set()  # filled from fbs_membership in main()
+
+# Leagues with no single-table standings, so no tiebreaker check (CFB: 138 teams, ~12 conferences).
+NO_TIEBREAKER_LEAGUES = {"cfb"}
+
 SPORT_FOR_LEAGUE = {
     "nba": "basketball",
     "wnba": "basketball",
     "nfl": "football",
+    "cfb": "football",
 }
 
 # Both rating variants this export moves over. 'echo' is the original
@@ -272,10 +278,33 @@ GAMES_COLUMNS = [
 ]
 
 
+def _has_column(conn, table, column):
+    """True if `table` in this SQLite db has `column` (used to tolerate leagues
+    whose local schema hasn't had a column added yet, e.g. CFB's `neutral`)."""
+    return any(c[1] == column for c in conn.execute(f"PRAGMA table_info({table})"))
+
+# CFB's pipeline stores bowls, the CFP and conference title games as type 'R' with a round code,
+# but the site reads type 'R' as "counts toward the regular-season record" and type 'P' as
+# postseason. So for CFB: bowls and CFP games export as 'P' (round kept); a conference title game
+# counts toward the regular-season record, so it exports as plain 'R' with no round.
+CFB_POSTSEASON_ROUNDS = {"BOWL", "CFP-R1", "CFP-QF", "CFP-SF", "NC"}
+
+
+def site_type_round(league, type_, round_):
+    if league != "cfb" or round_ is None:
+        return type_, round_
+    if round_ in CFB_POSTSEASON_ROUNDS:
+        return "P", round_
+    return type_, None
+
+
 def build_games(conn, league, id_to_code, variant):
     cur = conn.cursor()
+    # A ratings table without a `neutral` column exports every game as
+    # neutral = 0 instead of crashing.
+    neutral_sql = "neutral" if _has_column(conn, "ratings", "neutral") else "0 AS neutral"
     cur.execute(
-        "SELECT game_id, team, opponent, home_away, neutral, date, season, type, "
+        f"SELECT game_id, team, opponent, home_away, {neutral_sql}, date, season, type, "
         "round, games_played, days_off, opp_days_off, rest_adj, pre_rate, "
         "opp_pre_rate, expected_win, points_for, points_against, ot, mov, "
         "result, accuracy, brier, mov_mult, po_mult, k, keff, "
@@ -288,6 +317,7 @@ def build_games(conn, league, id_to_code, variant):
         r = dict(zip(cols, raw))
         team_code = id_to_code.get(r["team"], (r["team"], None))[0]
         opp_code = id_to_code.get(r["opponent"], (r["opponent"], None))[0]
+        g_type, g_round = site_type_round(league, r["type"], r["round"])
         rows.append(
             {
                 "game_id": str(r["game_id"]),
@@ -296,8 +326,8 @@ def build_games(conn, league, id_to_code, variant):
                 "team_id": team_code,
                 "date": r["date"],
                 "season": r["season"],
-                "type": r["type"],
-                "round": format_round(r["round"]),
+                "type": g_type,
+                "round": format_round(g_round),
                 "opponent_id": opp_code,
                 "home_away": r["home_away"],
                 "neutral": r["neutral"],
@@ -366,10 +396,13 @@ def build_schedule(conn, league, id_to_code, variant):
     and simpler than trying to diff out exactly which rows to remove.
     """
     cur = conn.cursor()
+    has_spread = any(c[1] == "predicted_spread"
+                     for c in cur.execute("PRAGMA table_info(schedule_predictions)"))
+    spread_sql = "p.predicted_spread" if has_spread else "NULL AS predicted_spread"
     cur.execute(
         "SELECT s.schedule_id, s.date, s.season, s.type, s.round, s.home_team, "
         "s.away_team, s.neutral, p.expected_win_home, p.expected_win_away, "
-        "p.home_days_off, p.away_days_off, p.rest_adj, p.predicted_spread "
+        f"p.home_days_off, p.away_days_off, p.rest_adj, {spread_sql} "
         "FROM schedule s LEFT JOIN schedule_predictions p "
         "ON p.schedule_id = s.schedule_id AND p.variant = ?", (variant,)
     )
@@ -379,7 +412,8 @@ def build_schedule(conn, league, id_to_code, variant):
         r = dict(zip(cols, raw))
         home_code = id_to_code.get(r["home_team"], (r["home_team"], None))[0]
         away_code = id_to_code.get(r["away_team"], (r["away_team"], None))[0]
-        round_ = format_round(r["round"])
+        s_type, s_round = site_type_round(league, r["type"], r["round"])
+        round_ = format_round(s_round)
 
         home_days_off = r["home_days_off"]
         away_days_off = r["away_days_off"]
@@ -396,7 +430,7 @@ def build_schedule(conn, league, id_to_code, variant):
 
         base = dict(
             league=league, variant=variant, date=r["date"], season=r["season"],
-            type=r["type"], round=round_, neutral=r["neutral"],
+            type=s_type, round=round_, neutral=r["neutral"],
         )
         predicted_spread_home = r["predicted_spread"]
         predicted_spread_away = None if predicted_spread_home is None else -predicted_spread_home
@@ -734,6 +768,8 @@ def main():
     args = parser.parse_args()
 
     conn = sqlite3.connect(args.db)
+    if args.league == "cfb":
+        ACTIVE_CODES["cfb"] = {r[0] for r in conn.execute("SELECT h.code FROM team_history h JOIN fbs_membership f ON f.team_id=h.team_id AND f.season=(SELECT MAX(season) FROM fbs_membership) WHERE h.end_season IS NULL")}
     id_to_code = resolve_current_codes(conn)
     teams_rows = build_teams(conn, args.league, id_to_code)  # variant-independent, built once
     team_history_rows = build_team_history(conn, args.league, id_to_code)  # also variant-independent
@@ -747,7 +783,8 @@ def main():
         # after every real criterion (see tiebreakers.py for the full
         # procedure). Runs on every export, dry-run or not, since a tie is
         # a tie regardless of whether this run pushes to Supabase.
-        check_tiebreakers(variant_games, args.league, variant, name_by_code, interactive=True)
+        if args.league not in NO_TIEBREAKER_LEAGUES:
+            check_tiebreakers(variant_games, args.league, variant, name_by_code, interactive=True)
         games_rows += variant_games
         schedule_rows += build_schedule(conn, args.league, id_to_code, variant)
         projection_rows += build_season_projection(conn, args.league, id_to_code, variant)
