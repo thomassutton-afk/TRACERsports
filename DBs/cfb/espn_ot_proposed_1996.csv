@@ -1,0 +1,663 @@
+game_id,date,season,home,away,home_code,away_code,hp,ap,db_ot,espn_ot,espn_neutral,period_vs_detail_disagree,status,n_cands,cand_info
+72792,1996-08-24,1996,cfb_0018,cfb_0125,brigham-young,texas-a-m,41,37,0,,,,unmatched,0,
+72793,1996-08-25,1996,cfb_0103,cfb_0116,penn-state,southern-california,24,7,0,0,0,0,matched,1,162380213 1996-08-25T04:00 USC Trojans @ Penn State Nittany Lions 7-24 ot=0
+72794,1996-08-29,1996,cfb_0023,cfb_0149,central-florida,william-mary,39,33,0,0,0,0,matched,1,162422116 1996-08-29T04:00 William & Mary Tribe @ UCF Knights 33-39 ot=0
+72795,1996-08-29,1996,cfb_0148,cfb_0036,western-michigan,eastern-illinois,20,28,0,,,,unmatched,0,
+72796,1996-08-29,1996,cfb_0057,cfb_0013,kansas,ball-state,35,10,0,0,0,0,matched,1,162422305 1996-08-29T04:00 Ball State Cardinals @ Kansas Jayhawks 10-35 ot=0
+72797,1996-08-29,1996,cfb_0063,cfb_0087,louisiana-monroe,nicholls-state,14,12,0,,,,unmatched,0,
+72798,1996-08-29,1996,cfb_0086,cfb_0085,new-mexico-state,new-mexico,7,28,0,0,0,0,matched,1,162420166 1996-08-29T04:00 New Mexico Lobos @ New Mexico State Aggies 28-7 ot=0
+72799,1996-08-29,1996,cfb_0097,cfb_0002,ohio,akron,44,14,0,0,0,0,matched,1,162420195 1996-08-29T04:00 Akron Zips @ Ohio Bobcats 14-44 ot=0
+72800,1996-08-29,1996,cfb_0141,cfb_0005,wake-forest,appalachian-state,19,13,0,0,0,0,matched,1,162420154 1996-08-29T04:00 App State Mountaineers @ Wake Forest Demon Deacons 13-19 ot=0
+72801,1996-08-30,1996,cfb_0027,cfb_0131,cincinnati,tulane,14,34,0,,,,unmatched,0,
+72802,1996-08-31,1996,cfb_0001,cfb_0113,air-force,san-jose-state,45,0,0,0,0,0,matched,1,162440153 1996-08-31T04:00 Clemson Tigers @ North Carolina Tar Heels 0-45 ot=0
+72803,1996-08-31,1996,cfb_0003,cfb_0017,alabama,bowling-green,21,7,0,0,0,0,matched,1,162440333 1996-08-31T04:00 Bowling Green Falcons @ Alabama Crimson Tide 7-21 ot=0
+72804,1996-08-31,1996,cfb_0006,cfb_0127,arizona,texas-el-paso,23,3,0,0,0,0,matched,1,162440012 1996-08-31T04:00 UTEP Miners @ Arizona Wildcats 3-23 ot=0
+72805,1996-08-31,1996,cfb_0011,cfb_0004,auburn,alabama-birmingham,29,0,0,0,0,0,matched,1,162440002 1996-08-31T04:00 UAB Blazers @ Auburn Tigers 0-29 ot=0
+72806,1996-08-31,1996,cfb_0046,cfb_0016,hawaii,boston-college,21,24,0,0,0,0,matched,1,162440062 1996-08-31T04:00 Boston College Eagles @ Hawai'i Rainbow Warriors 24-21 ot=0
+72807,1996-08-31,1996,cfb_0018,cfb_0009,brigham-young,arkansas-state,58,9,0,,,,unmatched,0,
+72808,1996-08-31,1996,cfb_0015,cfb_0024,boise-state,central-michigan,21,42,0,,,,unmatched,0,
+72809,1996-08-31,1996,cfb_0030,cfb_0143,colorado,washington-state,37,19,0,0,0,0,matched,1,162440038 1996-08-31T04:00 Washington State Cougars @ Colorado Buffaloes 19-37 ot=0
+72810,1996-08-31,1996,cfb_0031,cfb_0026,colorado-state,chattanooga,61,19,0,0,0,0,matched,1,162440036 1996-08-31T04:00 Chattanooga Mocs @ Colorado State Rams 19-61 ot=0
+72811,1996-08-31,1996,cfb_0039,cfb_0062,florida,louisiana,55,21,0,0,0,0,matched,1,162440057 1996-08-31T04:00 Louisiana Ragin' Cajuns @ Florida Gators 21-55 ot=0
+72812,1996-08-31,1996,cfb_0047,cfb_0110,houston,sam-houston,43,25,0,0,0,0,matched,1,162440248 1996-08-31T04:00 Sam Houston Bearkats @ Houston Cougars 25-43 ot=0
+72813,1996-08-31,1996,cfb_0058,cfb_0129,kansas-state,texas-tech,21,14,0,0,0,0,matched,1,162442306 1996-08-31T04:00 Texas Tech Red Raiders @ Kansas State Wildcats 14-21 ot=0
+72814,1996-08-31,1996,cfb_0065,cfb_0073,louisiana-tech,middle-tennessee-state,20,0,0,0,0,0,matched,1,162440130 1996-08-31T04:00 James Madison Dukes @ Michigan Wolverines 0-20 ot=0
+72815,1996-08-31,1996,cfb_0060,cfb_0066,kentucky,louisville,14,38,0,0,0,0,matched,1,162440096 1996-08-31T04:00 Louisville Cardinals @ Kentucky Wildcats 38-14 ot=0
+72816,1996-08-31,1996,cfb_0067,cfb_0092,maryland,northern-illinois,30,6,0,0,0,0,matched,1,162440120 1996-08-31T04:00 Northern Illinois Huskies @ Maryland Terrapins 6-30 ot=0
+72817,1996-08-31,1996,cfb_0068,cfb_0069,memphis,miami-fl,7,30,0,0,0,0,matched,1,162440235 1996-08-31T04:00 Miami Hurricanes @ Memphis Tigers 30-7 ot=0
+72818,1996-08-31,1996,cfb_0070,cfb_0059,miami-oh,kent-state,64,6,0,0,0,0,matched,1,162440193 1996-08-31T04:00 Kent State Golden Flashes @ Miami (OH) RedHawks 6-64 ot=0
+72819,1996-08-31,1996,cfb_0071,cfb_0050,michigan,illinois,20,8,0,,,,unmatched,0,
+72820,1996-08-31,1996,cfb_0072,cfb_0106,michigan-state,purdue,52,14,0,0,0,0,matched,1,162440127 1996-08-31T04:00 Purdue Boilermakers @ Michigan State Spartans 14-52 ot=0
+72821,1996-08-31,1996,cfb_0075,cfb_0049,mississippi,idaho-state,38,14,0,0,0,0,matched,1,162440145 1996-08-31T04:00 Idaho State Bengals @ Ole Miss Rebels 14-38 ot=0
+72822,1996-08-31,1996,cfb_0088,cfb_0029,north-carolina,clemson,45,0,0,0,0,0,matched,1,162440153 1996-08-31T04:00 Clemson Tigers @ North Carolina Tar Heels 0-45 ot=0
+72823,1996-08-31,1996,cfb_0100,cfb_0078,oklahoma-state,missouri-state,23,20,0,1,0,0,matched,1,162440197 1996-08-31T04:00 Missouri State Bears @ Oklahoma State Cowboys 20-23 ot=1
+72824,1996-08-31,1996,cfb_0041,cfb_0101,fresno-state,oregon,27,30,0,1,0,0,matched,1,162440278 1996-08-31T04:00 Oregon Ducks @ Fresno State Bulldogs 30-27 ot=1
+72825,1996-08-31,1996,cfb_0108,cfb_0137,rutgers,villanova,38,28,0,0,0,0,matched,1,162440164 1996-08-31T04:00 Villanova Wildcats @ Rutgers Scarlet Knights 28-38 ot=0
+72826,1996-08-31,1996,cfb_0117,cfb_0132,southern-methodist,tulsa,17,10,0,0,0,0,matched,1,162442567 1996-08-31T04:00 Tulsa Golden Hurricane @ SMU Mustangs 10-17 ot=0
+72827,1996-08-31,1996,cfb_0043,cfb_0118,georgia,southern-mississippi,7,11,0,0,0,0,matched,1,162440061 1996-08-31T04:00 Southern Miss Golden Eagles @ Georgia Bulldogs 11-7 ot=0
+72828,1996-08-31,1996,cfb_0037,cfb_0122,eastern-michigan,temple,24,28,0,0,0,0,matched,1,162442199 1996-08-31T04:00 Temple Owls @ Eastern Michigan Eagles 28-24 ot=0
+72829,1996-08-31,1996,cfb_0123,cfb_0084,tennessee,nevada-las-vegas,62,3,0,0,0,0,matched,1,162442633 1996-08-31T04:00 UNLV Rebels @ Tennessee Volunteers 3-62 ot=0
+72830,1996-08-31,1996,cfb_0124,cfb_0077,texas,missouri,40,10,0,0,0,0,matched,1,162440251 1996-08-31T04:00 Missouri Tigers @ Texas Longhorns 10-40 ot=0
+72831,1996-08-31,1996,cfb_0135,cfb_0134,utah-state,utah,20,17,0,0,0,0,matched,1,162440328 1996-08-31T04:00 Utah Utes @ Utah State Aggies 17-20 ot=0
+72832,1996-08-31,1996,cfb_0104,cfb_0145,pittsburgh,west-virginia,0,34,0,0,0,0,matched,1,162440221 1996-08-31T04:00 West Virginia Mountaineers @ Pittsburgh Panthers 0-34 ot=0
+72833,1996-08-31,1996,cfb_0151,cfb_0048,wyoming,idaho,40,38,0,0,0,0,matched,1,162442751 1996-08-31T04:00 Idaho Vandals @ Wyoming Cowboys 38-40 ot=0
+72834,1996-09-05,1996,cfb_0136,cfb_0096,vanderbilt,notre-dame,7,14,0,0,0,0,matched,1,162490238 1996-09-05T04:00 Notre Dame Fighting Irish @ Vanderbilt Commodores 14-7 ot=0
+72835,1996-09-07,1996,cfb_0084,cfb_0001,nevada-las-vegas,air-force,17,65,0,0,0,0,matched,1,162512439 1996-09-07T04:00 Air Force Falcons @ UNLV Rebels 65-17 ot=0
+72836,1996-09-07,1996,cfb_0003,cfb_0118,alabama,southern-mississippi,20,10,0,0,0,0,matched,1,162510333 1996-09-07T04:00 Southern Miss Golden Eagles @ Alabama Crimson Tide 10-20 ot=0
+72837,1996-09-07,1996,cfb_0007,cfb_0142,arizona-state,washington,45,42,0,0,0,0,matched,1,162510009 1996-09-07T04:00 Washington Huskies @ Arizona State Sun Devils 42-45 ot=0
+72838,1996-09-07,1996,cfb_0009,cfb_0012,arkansas-state,austin-peay,24,0,0,,,,unmatched,0,
+72839,1996-09-07,1996,cfb_0011,cfb_0041,auburn,fresno-state,62,0,0,0,0,0,matched,1,162510002 1996-09-07T04:00 Fresno State Bulldogs @ Auburn Tigers 0-62 ot=0
+72840,1996-09-07,1996,cfb_0065,cfb_0014,louisiana-tech,baylor,16,24,0,0,0,0,matched,1,162510239 1996-09-07T04:00 Louisiana Tech Bulldogs @ Baylor Bears 16-24 ot=0
+72841,1996-09-07,1996,cfb_0015,cfb_0105,boise-state,portland-state,33,22,0,,,,unmatched,0,
+72842,1996-09-07,1996,cfb_0113,cfb_0021,san-jose-state,california,25,45,0,0,0,0,matched,1,162510023 1996-09-07T04:00 California Golden Bears @ San José State Spartans 45-25 ot=0
+72843,1996-09-07,1996,cfb_0027,cfb_0060,cincinnati,kentucky,24,3,0,0,0,0,matched_agree,2,162510275 1996-09-07T04:00 Eastern Michigan Eagles @ Wisconsin Badgers 3-24 ot=0 || 162512132 1996-09-07T04:00 Kentucky Wildcats @ Cincinnati Bearcats 3-24 ot=0
+72844,1996-09-07,1996,cfb_0029,cfb_0042,clemson,furman,19,3,0,0,0,0,matched,1,162510228 1996-09-07T04:00 Furman Paladins @ Clemson Tigers 3-19 ot=0
+72845,1996-09-07,1996,cfb_0031,cfb_0030,colorado-state,colorado,34,48,0,0,0,0,matched,1,162510036 1996-09-07T04:00 Colorado Buffaloes @ Colorado State Rams 48-34 ot=0
+72846,1996-09-07,1996,cfb_0034,cfb_0035,east-carolina,east-tennessee-state,45,21,0,0,0,0,matched,1,162510151 1996-09-07T04:00 East Tennessee State Buccaneers @ East Carolina Pirates 21-45 ot=0
+72847,1996-09-07,1996,cfb_0039,cfb_0044,florida,georgia-southern,62,14,0,0,0,0,matched,1,162510057 1996-09-07T04:00 Furman Paladins @ Florida Gators 14-62 ot=0
+72848,1996-09-07,1996,cfb_0040,cfb_0033,florida-state,duke,44,7,0,0,0,0,matched,1,162510052 1996-09-07T04:00 Duke Blue Devils @ Florida State Seminoles 7-44 ot=0
+72849,1996-09-07,1996,cfb_0089,cfb_0045,north-carolina-state,georgia-tech,16,28,0,0,0,0,matched,1,162510152 1996-09-07T04:00 Georgia Tech Yellow Jackets @ NC State Wolfpack 28-16 ot=0
+72850,1996-09-07,1996,cfb_0130,cfb_0052,toledo,indiana,6,40,0,0,0,0,matched,1,162512649 1996-09-07T04:00 Indiana Hoosiers @ Toledo Rockets 40-6 ot=0
+72851,1996-09-07,1996,cfb_0054,cfb_0006,iowa,arizona,21,20,0,0,0,0,matched,1,162512294 1996-09-07T04:00 Arizona Wildcats @ Iowa Hawkeyes 20-21 ot=0
+72852,1996-09-07,1996,cfb_0058,cfb_0053,kansas-state,indiana-state,59,3,0,0,0,0,matched,1,162512306 1996-09-07T04:00 Indiana State Sycamores @ Kansas State Wildcats 3-59 ot=0
+72853,1996-09-07,1996,cfb_0064,cfb_0047,louisiana-state,houston,35,34,0,0,0,0,matched,1,162510099 1996-09-07T04:00 Houston Cougars @ LSU Tigers 34-35 ot=0
+72854,1996-09-07,1996,cfb_0067,cfb_0004,maryland,alabama-birmingham,39,15,0,0,0,0,matched,1,162510120 1996-09-07T04:00 UAB Blazers @ Maryland Terrapins 15-39 ot=0
+72855,1996-09-07,1996,cfb_0069,cfb_0028,miami-fl,citadel,52,6,0,0,0,0,matched,1,162512390 1996-09-07T04:00 The Citadel Bulldogs @ Miami Hurricanes 6-52 ot=0
+72856,1996-09-07,1996,cfb_0013,cfb_0070,ball-state,miami-oh,6,16,0,0,0,0,matched,1,162512050 1996-09-07T04:00 Miami (OH) RedHawks @ Ball State Cardinals 16-6 ot=0
+72857,1996-09-07,1996,cfb_0063,cfb_0074,louisiana-monroe,minnesota,3,30,0,,,,unmatched,0,
+72858,1996-09-07,1996,cfb_0075,cfb_0139,mississippi,virginia-military-institute,31,7,0,0,0,0,matched,1,162512678 1996-09-07T04:00 Ole Miss Rebels @ VMI Keydets 31-7 ot=0
+72859,1996-09-07,1996,cfb_0068,cfb_0076,memphis,mississippi-state,10,31,0,0,0,0,matched,1,162510235 1996-09-07T04:00 Mississippi State Bulldogs @ Memphis Tigers 31-10 ot=0
+72860,1996-09-07,1996,cfb_0102,cfb_0079,oregon-state,montana,14,35,0,0,0,0,matched,1,162510204 1996-09-07T04:00 Montana Grizzlies @ Oregon State Beavers 35-14 ot=0
+72861,1996-09-07,1996,cfb_0108,cfb_0081,rutgers,navy,6,10,0,0,0,0,matched,1,162510164 1996-09-07T04:00 Navy Midshipmen @ Rutgers Scarlet Knights 10-6 ot=0
+72862,1996-09-07,1996,cfb_0082,cfb_0072,nebraska,michigan-state,55,14,0,0,0,0,matched,1,162510158 1996-09-07T04:00 Michigan State Spartans @ Nebraska Cornhuskers 14-55 ot=0
+72863,1996-09-07,1996,cfb_0085,cfb_0091,new-mexico,northern-arizona,49,33,0,0,0,0,matched,1,162510167 1996-09-07T04:00 Northern Arizona Lumberjacks @ New Mexico Lobos 33-49 ot=0
+72864,1996-09-07,1996,cfb_0121,cfb_0088,syracuse,north-carolina,10,27,0,0,0,0,matched,1,162510183 1996-09-07T04:00 North Carolina Tar Heels @ Syracuse Orange 27-10 ot=0
+72865,1996-09-07,1996,cfb_0090,cfb_0051,north-texas,illinois-state,20,14,0,0,0,0,matched,1,162510249 1996-09-07T04:00 Illinois State Redbirds @ North Texas Mean Green 14-20 ot=0
+72866,1996-09-07,1996,cfb_0046,cfb_0097,hawaii,ohio,10,21,0,,,,unmatched,0,
+72867,1996-09-07,1996,cfb_0098,cfb_0107,ohio-state,rice,70,7,0,0,0,0,matched,1,162510194 1996-09-07T04:00 Rice Owls @ Ohio State Buckeyes 7-70 ot=0
+72868,1996-09-07,1996,cfb_0101,cfb_0083,oregon,nevada,44,30,0,0,0,0,matched,1,162512440 1996-09-07T04:00 Oregon Ducks @ Nevada Wolf Pack 44-30 ot=0
+72869,1996-09-07,1996,cfb_0103,cfb_0066,penn-state,louisville,24,7,0,0,0,0,matched,1,162510213 1996-09-07T04:00 Louisville Cardinals @ Penn State Nittany Lions 7-24 ot=0
+72870,1996-09-07,1996,cfb_0104,cfb_0059,pittsburgh,kent-state,52,14,0,0,0,0,matched,1,162510221 1996-09-07T04:00 Kent State Golden Flashes @ Pittsburgh Panthers 14-52 ot=0
+72871,1996-09-07,1996,cfb_0112,cfb_0048,san-diego-state,idaho,40,21,0,0,0,0,matched,1,162510021 1996-09-07T04:00 Idaho Vandals @ San Diego State Aztecs 21-40 ot=0
+72872,1996-09-07,1996,cfb_0114,cfb_0023,south-carolina,central-florida,33,14,0,0,0,0,matched,1,162512579 1996-09-07T04:00 UCF Knights @ South Carolina Gamecocks 14-33 ot=0
+72873,1996-09-07,1996,cfb_0050,cfb_0116,illinois,southern-california,3,55,0,0,0,0,matched,1,162510356 1996-09-07T04:00 USC Trojans @ Illinois Fighting Illini 55-3 ot=0
+72874,1996-09-07,1996,cfb_0008,cfb_0117,arkansas,southern-methodist,10,23,0,0,0,0,matched,1,162510008 1996-09-07T04:00 SMU Mustangs @ Arkansas Razorbacks 23-10 ot=0
+72875,1996-09-07,1996,cfb_0123,cfb_0133,tennessee,ucla,35,20,0,0,0,0,matched,1,162512633 1996-09-07T04:00 UCLA Bruins @ Tennessee Volunteers 20-35 ot=0
+72876,1996-09-07,1996,cfb_0124,cfb_0086,texas,new-mexico-state,41,7,0,0,0,0,matched,1,162510251 1996-09-07T04:00 New Mexico State Aggies @ Texas Longhorns 7-41 ot=0
+72877,1996-09-07,1996,cfb_0099,cfb_0126,oklahoma,texas-christian,7,20,0,0,0,0,matched,1,162510201 1996-09-07T04:00 TCU Horned Frogs @ Oklahoma Sooners 20-7 ot=0
+72878,1996-09-07,1996,cfb_0129,cfb_0100,texas-tech,oklahoma-state,31,3,0,0,0,0,matched,1,162510197 1996-09-07T04:00 Texas Tech Red Raiders @ Oklahoma State Cowboys 31-3 ot=0
+72879,1996-09-07,1996,cfb_0120,cfb_0134,stanford,utah,10,17,0,0,0,0,matched,1,162510024 1996-09-07T04:00 Utah Utes @ Stanford Cardinal 17-10 ot=0
+72880,1996-09-07,1996,cfb_0135,cfb_0020,utah-state,cal-state-northridge,57,27,0,0,0,0,matched,1,162510328 1996-09-07T04:00 CSU Northridge Matadors @ Utah State Aggies 27-57 ot=0
+72881,1996-09-07,1996,cfb_0138,cfb_0024,virginia,central-michigan,55,21,0,0,0,0,matched,1,162510258 1996-09-07T04:00 Central Michigan Chippewas @ Virginia Cavaliers 21-55 ot=0
+72882,1996-09-07,1996,cfb_0002,cfb_0140,akron,virginia-tech,18,21,0,0,0,0,matched,1,162512006 1996-09-07T04:00 Virginia Tech Hokies @ Akron Zips 21-18 ot=0
+72883,1996-09-07,1996,cfb_0141,cfb_0094,wake-forest,northwestern,28,27,0,0,0,0,matched,1,162510154 1996-09-07T04:00 Northwestern Wildcats @ Wake Forest Demon Deacons 27-28 ot=0
+72884,1996-09-07,1996,cfb_0122,cfb_0143,temple,washington-state,34,38,0,0,0,0,matched,1,162510218 1996-09-07T04:00 Washington State Cougars @ Temple Owls 38-34 ot=0
+72885,1996-09-07,1996,cfb_0145,cfb_0148,west-virginia,western-michigan,34,9,0,0,0,0,matched,1,162510277 1996-09-07T04:00 Western Michigan Broncos @ West Virginia Mountaineers 9-34 ot=0
+72886,1996-09-07,1996,cfb_0092,cfb_0146,northern-illinois,western-illinois,0,17,0,0,0,0,matched,1,162512459 1996-09-07T04:00 Western Illinois Leathernecks @ Northern Illinois Huskies 17-0 ot=0
+72887,1996-09-07,1996,cfb_0150,cfb_0037,wisconsin,eastern-michigan,24,3,0,0,0,0,matched_agree,2,162510275 1996-09-07T04:00 Eastern Michigan Eagles @ Wisconsin Badgers 3-24 ot=0 || 162512132 1996-09-07T04:00 Kentucky Wildcats @ Cincinnati Bearcats 3-24 ot=0
+72888,1996-09-07,1996,cfb_0055,cfb_0151,iowa-state,wyoming,38,41,0,0,0,0,matched,1,162510066 1996-09-07T04:00 Wyoming Cowboys @ Iowa State Cyclones 41-38 ot=0
+72889,1996-09-12,1996,cfb_0108,cfb_0069,rutgers,miami-fl,0,33,0,0,0,0,matched,1,162560164 1996-09-12T04:00 Miami Hurricanes @ Rutgers Scarlet Knights 33-0 ot=0
+72890,1996-09-14,1996,cfb_0003,cfb_0136,alabama,vanderbilt,36,26,0,0,0,0,matched,1,162580238 1996-09-14T04:00 Alabama Crimson Tide @ Vanderbilt Commodores 36-26 ot=0
+72891,1996-09-14,1996,cfb_0004,cfb_0009,alabama-birmingham,arkansas-state,42,17,0,0,0,0,matched,1,162580005 1996-09-14T04:00 Arkansas State Red Wolves @ UAB Blazers 17-42 ot=0
+72892,1996-09-14,1996,cfb_0006,cfb_0050,arizona,illinois,41,0,0,0,0,0,matched,1,162580012 1996-09-14T04:00 Illinois Fighting Illini @ Arizona Wildcats 0-41 ot=0
+72893,1996-09-14,1996,cfb_0007,cfb_0090,arizona-state,north-texas,52,7,0,0,0,0,matched,1,162580009 1996-09-14T04:00 North Texas Mean Green @ Arizona State Sun Devils 7-52 ot=0
+72894,1996-09-14,1996,cfb_0010,cfb_0097,army,ohio,37,20,0,0,0,0,matched,1,162580349 1996-09-14T04:00 Ohio Bobcats @ Army Black Knights 20-37 ot=0
+72895,1996-09-14,1996,cfb_0075,cfb_0011,mississippi,auburn,28,45,0,0,0,0,matched,1,162580145 1996-09-14T04:00 Auburn Tigers @ Ole Miss Rebels 45-28 ot=0
+72896,1996-09-14,1996,cfb_0066,cfb_0014,louisville,baylor,13,14,0,0,0,0,matched,1,162580097 1996-09-14T04:00 Baylor Bears @ Louisville Cardinals 14-13 ot=0
+72897,1996-09-14,1996,cfb_0017,cfb_0122,bowling-green,temple,20,16,0,0,0,0,matched,1,162580189 1996-09-14T04:00 Temple Owls @ Bowling Green Falcons 16-20 ot=0
+72898,1996-09-14,1996,cfb_0021,cfb_0112,california,san-diego-state,42,37,0,0,0,0,matched,1,162580025 1996-09-14T04:00 San Diego State Aztecs @ California Golden Bears 37-42 ot=0
+72899,1996-09-14,1996,cfb_0148,cfb_0037,western-michigan,eastern-michigan,12,19,0,0,0,0,matched,1,162582711 1996-09-14T04:00 Eastern Michigan Eagles @ Western Michigan Broncos 19-12 ot=0
+72900,1996-09-14,1996,cfb_0015,cfb_0038,boise-state,eastern-washington,21,27,0,,,,unmatched,0,
+72901,1996-09-14,1996,cfb_0045,cfb_0141,georgia-tech,wake-forest,30,10,0,0,0,0,matched,1,162580059 1996-09-14T04:00 Wake Forest Demon Deacons @ Georgia Tech Yellow Jackets 10-30 ot=0
+72902,1996-09-14,1996,cfb_0104,cfb_0047,pittsburgh,houston,35,42,0,1,0,0,matched,1,162580221 1996-09-14T04:00 Houston Cougars @ Pittsburgh Panthers 42-35 ot=1
+72903,1996-09-14,1996,cfb_0048,cfb_0109,idaho,saint-mary-s-ca,52,17,0,0,0,0,matched,1,162580070 1996-09-14T04:00 Saint Mary (KS) Spires @ Idaho Vandals 17-52 ot=0
+72904,1996-09-14,1996,cfb_0052,cfb_0070,indiana,miami-oh,21,14,0,0,0,0,matched,1,162580084 1996-09-14T04:00 Miami (OH) RedHawks @ Indiana Hoosiers 14-21 ot=0
+72905,1996-09-14,1996,cfb_0054,cfb_0055,iowa,iowa-state,38,13,0,0,0,0,matched,1,162582294 1996-09-14T04:00 Iowa State Cyclones @ Iowa Hawkeyes 13-38 ot=0
+72906,1996-09-14,1996,cfb_0126,cfb_0057,texas-christian,kansas,17,52,0,0,0,0,matched_agree,2,162582439 1996-09-14T04:00 Wisconsin Badgers @ UNLV Rebels 52-17 ot=0 || 162582628 1996-09-14T04:00 Kansas Jayhawks @ TCU Horned Frogs 52-17 ot=0
+72907,1996-09-14,1996,cfb_0058,cfb_0027,kansas-state,cincinnati,35,0,0,0,0,0,matched_agree,2,162580087 1996-09-14T04:00 Purdue Boilermakers @ Notre Dame Fighting Irish 0-35 ot=0 || 162582306 1996-09-14T04:00 Cincinnati Bearcats @ Kansas State Wildcats 0-35 ot=0
+72908,1996-09-14,1996,cfb_0059,cfb_0153,kent-state,youngstown-state,28,12,0,0,0,0,matched,1,162582309 1996-09-14T04:00 Youngstown State Penguins @ Kent State Golden Flashes 12-28 ot=0
+72909,1996-09-14,1996,cfb_0062,cfb_0125,louisiana,texas-a-m,29,22,0,0,0,0,matched,1,162580309 1996-09-14T04:00 Texas A&M Aggies @ Louisiana Ragin' Cajuns 22-29 ot=0
+72910,1996-09-14,1996,cfb_0024,cfb_0065,central-michigan,louisiana-tech,37,38,0,,,,unmatched,0,
+72911,1996-09-14,1996,cfb_0077,cfb_0068,missouri,memphis,16,19,0,0,0,0,matched,1,162580142 1996-09-14T04:00 Memphis Tigers @ Missouri Tigers 19-16 ot=0
+72912,1996-09-14,1996,cfb_0030,cfb_0071,colorado,michigan,13,20,0,0,0,0,matched,1,162580038 1996-09-14T04:00 Michigan Wolverines @ Colorado Buffaloes 20-13 ot=0
+72913,1996-09-14,1996,cfb_0074,cfb_0013,minnesota,ball-state,26,23,0,0,0,0,matched,1,162580135 1996-09-14T04:00 Ball State Cardinals @ Minnesota Golden Gophers 23-26 ot=0
+72914,1996-09-14,1996,cfb_0083,cfb_0080,nevada,montana-state,31,7,0,0,0,0,matched,1,162582440 1996-09-14T04:00 Montana State Bobcats @ Nevada Wolf Pack 7-31 ot=0
+72915,1996-09-14,1996,cfb_0085,cfb_0023,new-mexico,central-florida,17,7,0,0,0,0,matched,1,162580167 1996-09-14T04:00 UCF Knights @ New Mexico Lobos 7-17 ot=0
+72916,1996-09-14,1996,cfb_0033,cfb_0094,duke,northwestern,13,38,0,0,0,0,matched,1,162580150 1996-09-14T04:00 Northwestern Wildcats @ Duke Blue Devils 38-13 ot=0
+72917,1996-09-14,1996,cfb_0096,cfb_0106,notre-dame,purdue,35,0,0,0,0,0,matched_agree,2,162580087 1996-09-14T04:00 Purdue Boilermakers @ Notre Dame Fighting Irish 0-35 ot=0 || 162582306 1996-09-14T04:00 Cincinnati Bearcats @ Kansas State Wildcats 0-35 ot=0
+72918,1996-09-14,1996,cfb_0100,cfb_0132,oklahoma-state,tulsa,30,9,0,0,0,0,matched,1,162580197 1996-09-14T04:00 Tulsa Golden Hurricane @ Oklahoma State Cowboys 9-30 ot=0
+72919,1996-09-14,1996,cfb_0101,cfb_0031,oregon,colorado-state,35,28,0,0,0,0,matched,1,162582483 1996-09-14T04:00 Colorado State Rams @ Oregon Ducks 28-35 ot=0
+72920,1996-09-14,1996,cfb_0103,cfb_0092,penn-state,northern-illinois,49,0,0,0,0,0,matched,1,162580213 1996-09-14T04:00 Northern Illinois Huskies @ Penn State Nittany Lions 0-49 ot=0
+72921,1996-09-14,1996,cfb_0131,cfb_0107,tulane,rice,14,21,0,0,0,0,matched,1,162582655 1996-09-14T04:00 Rice Owls @ Tulane Green Wave 21-14 ot=0
+72922,1996-09-14,1996,cfb_0114,cfb_0043,south-carolina,georgia,23,14,0,,,,unmatched,0,
+72923,1996-09-14,1996,cfb_0116,cfb_0102,southern-california,oregon-state,46,17,0,0,0,0,matched,1,162580030 1996-09-14T04:00 Oregon State Beavers @ USC Trojans 17-46 ot=0
+72924,1996-09-14,1996,cfb_0118,cfb_0135,southern-mississippi,utah-state,31,24,0,0,0,0,matched,1,162582572 1996-09-14T04:00 Utah State Aggies @ Southern Miss Golden Eagles 24-31 ot=0
+72925,1996-09-14,1996,cfb_0120,cfb_0113,stanford,san-jose-state,25,2,0,0,0,0,matched,1,162580023 1996-09-14T04:00 Stanford Cardinal @ San José State Spartans 25-2 ot=0
+72926,1996-09-14,1996,cfb_0127,cfb_0086,texas-el-paso,new-mexico-state,14,7,0,0,0,0,matched,1,162582638 1996-09-14T04:00 New Mexico State Aggies @ UTEP Miners 7-14 ot=0
+72927,1996-09-14,1996,cfb_0002,cfb_0130,akron,toledo,10,27,0,0,0,0,matched,1,162582006 1996-09-14T04:00 Toledo Rockets @ Akron Zips 27-10 ot=0
+72928,1996-09-14,1996,cfb_0133,cfb_0063,ucla,louisiana-monroe,44,0,0,,,,unmatched,0,
+72929,1996-09-14,1996,cfb_0117,cfb_0134,southern-methodist,utah,17,21,0,0,0,0,matched,1,162582567 1996-09-14T04:00 Utah Utes @ SMU Mustangs 21-17 ot=0
+72930,1996-09-14,1996,cfb_0138,cfb_0067,virginia,maryland,21,3,0,0,0,0,matched,1,162580258 1996-09-14T04:00 Maryland Terrapins @ Virginia Cavaliers 3-21 ot=0
+72931,1996-09-14,1996,cfb_0016,cfb_0140,boston-college,virginia-tech,7,45,0,0,0,0,matched,1,162580103 1996-09-14T04:00 Virginia Tech Hokies @ Boston College Eagles 45-7 ot=0
+72932,1996-09-14,1996,cfb_0142,cfb_0018,washington,brigham-young,29,17,0,,,,unmatched,0,
+72933,1996-09-14,1996,cfb_0145,cfb_0034,west-virginia,east-carolina,10,9,0,0,0,0,matched,1,162580277 1996-09-14T04:00 East Carolina Pirates @ West Virginia Mountaineers 9-10 ot=0
+72934,1996-09-14,1996,cfb_0084,cfb_0150,nevada-las-vegas,wisconsin,17,52,0,0,0,0,matched_agree,2,162582439 1996-09-14T04:00 Wisconsin Badgers @ UNLV Rebels 52-17 ot=0 || 162582628 1996-09-14T04:00 Kansas Jayhawks @ TCU Horned Frogs 52-17 ot=0
+72935,1996-09-14,1996,cfb_0151,cfb_0046,wyoming,hawaii,66,0,0,0,0,0,matched,1,162582751 1996-09-14T04:00 Hawai'i Rainbow Warriors @ Wyoming Cowboys 0-66 ot=0
+72936,1996-09-19,1996,cfb_0089,cfb_0040,north-carolina-state,florida-state,17,51,0,0,0,0,matched,1,162630152 1996-09-19T04:00 Florida State Seminoles @ NC State Wolfpack 51-17 ot=0
+72937,1996-09-21,1996,cfb_0008,cfb_0003,arkansas,alabama,7,17,0,0,0,0,matched,1,162650008 1996-09-21T04:00 Alabama Crimson Tide @ Arkansas Razorbacks 17-7 ot=0
+72938,1996-09-21,1996,cfb_0004,cfb_0056,alabama-birmingham,jacksonville-state,24,17,0,0,0,0,matched,1,162650005 1996-09-21T04:00 Jacksonville State Gamecocks @ UAB Blazers 17-24 ot=0
+72939,1996-09-21,1996,cfb_0007,cfb_0082,arizona-state,nebraska,19,0,0,0,0,0,matched,1,162650009 1996-09-21T04:00 Nebraska Cornhuskers @ Arizona State Sun Devils 0-19 ot=0
+72940,1996-09-21,1996,cfb_0010,cfb_0033,army,duke,35,17,0,0,0,0,matched,1,162650349 1996-09-21T04:00 Duke Blue Devils @ Army Black Knights 17-35 ot=0
+72941,1996-09-21,1996,cfb_0013,cfb_0023,ball-state,central-florida,31,10,0,0,0,0,matched,1,162652050 1996-09-21T04:00 UCF Knights @ Ball State Cardinals 10-31 ot=0
+72942,1996-09-21,1996,cfb_0014,cfb_0102,baylor,oregon-state,42,10,0,0,0,0,matched,1,162650239 1996-09-21T04:00 Oregon State Beavers @ Baylor Bears 10-42 ot=0
+72943,1996-09-21,1996,cfb_0070,cfb_0017,miami-oh,bowling-green,10,14,0,0,0,0,matched_agree,2,162650193 1996-09-21T04:00 Bowling Green Falcons @ Miami (OH) RedHawks 14-10 ot=0 || 162652390 1996-09-21T04:00 Bowling Green Falcons @ Miami Hurricanes 14-10 ot=0
+72944,1996-09-21,1996,cfb_0018,cfb_0085,brigham-young,new-mexico,17,14,0,0,0,0,matched,1,162650252 1996-09-21T04:00 New Mexico Lobos @ BYU Cougars 14-17 ot=0
+72945,1996-09-21,1996,cfb_0086,cfb_0020,new-mexico-state,cal-state-northridge,0,33,0,0,0,0,matched,1,162650166 1996-09-21T04:00 CSU Northridge Matadors @ New Mexico State Aggies 33-0 ot=0
+72946,1996-09-21,1996,cfb_0021,cfb_0083,california,nevada,33,15,0,0,0,0,matched,1,162650025 1996-09-21T04:00 Nevada Wolf Pack @ California Golden Bears 15-33 ot=0
+72947,1996-09-21,1996,cfb_0024,cfb_0148,central-michigan,western-michigan,38,28,0,,,,unmatched,0,
+72948,1996-09-21,1996,cfb_0031,cfb_0084,colorado-state,nevada-las-vegas,35,16,0,0,0,0,matched,1,162650036 1996-09-21T04:00 UNLV Rebels @ Colorado State Rams 16-35 ot=0
+72949,1996-09-21,1996,cfb_0114,cfb_0034,south-carolina,east-carolina,7,23,0,0,0,0,matched,1,162652579 1996-09-21T04:00 East Carolina Pirates @ South Carolina Gamecocks 23-7 ot=0
+72950,1996-09-21,1996,cfb_0123,cfb_0039,tennessee,florida,29,35,0,0,0,0,matched,1,162650057 1996-09-21T04:00 Tennessee Volunteers @ Florida Gators 29-35 ot=0
+72951,1996-09-21,1996,cfb_0043,cfb_0129,georgia,texas-tech,15,12,0,0,0,0,matched,1,162650061 1996-09-21T04:00 Texas Tech Red Raiders @ Georgia Bulldogs 12-15 ot=0
+72952,1996-09-21,1996,cfb_0046,cfb_0015,hawaii,boise-state,20,14,0,0,0,0,matched,1,162650130 1996-09-21T04:00 Boston College Eagles @ Michigan Wolverines 14-20 ot=0
+72953,1996-09-21,1996,cfb_0050,cfb_0002,illinois,akron,38,7,0,0,0,0,matched,1,162650356 1996-09-21T04:00 Akron Zips @ Illinois Fighting Illini 7-38 ot=0
+72954,1996-09-21,1996,cfb_0055,cfb_0093,iowa-state,northern-iowa,42,23,0,0,0,0,matched,1,162650066 1996-09-21T04:00 Northern Iowa Panthers @ Iowa State Cyclones 23-42 ot=0
+72955,1996-09-21,1996,cfb_0107,cfb_0058,rice,kansas-state,7,34,0,0,0,0,matched,1,162650242 1996-09-21T04:00 Kansas State Wildcats @ Rice Owls 34-7 ot=0
+72956,1996-09-21,1996,cfb_0060,cfb_0052,kentucky,indiana,3,0,0,0,0,0,matched,1,162650096 1996-09-21T04:00 Indiana Hoosiers @ Kentucky Wildcats 0-3 ot=0
+72957,1996-09-21,1996,cfb_0011,cfb_0064,auburn,louisiana-state,15,19,0,0,0,0,matched,1,162650002 1996-09-21T04:00 LSU Tigers @ Auburn Tigers 19-15 ot=0
+72958,1996-09-21,1996,cfb_0076,cfb_0065,mississippi-state,louisiana-tech,23,38,0,0,0,0,matched,1,162650344 1996-09-21T04:00 Louisiana Tech Bulldogs @ Mississippi State Bulldogs 38-23 ot=0
+72959,1996-09-21,1996,cfb_0063,cfb_0110,louisiana-monroe,sam-houston,34,31,0,,,,unmatched,0,
+72960,1996-09-21,1996,cfb_0072,cfb_0066,michigan-state,louisville,20,30,0,0,0,0,matched,1,162650127 1996-09-21T04:00 Louisville Cardinals @ Michigan State Spartans 30-20 ot=0
+72961,1996-09-21,1996,cfb_0068,cfb_0131,memphis,tulane,17,10,0,0,0,0,matched,1,162650235 1996-09-21T04:00 Tulane Green Wave @ Memphis Tigers 10-17 ot=0
+72962,1996-09-21,1996,cfb_0071,cfb_0016,michigan,boston-college,20,14,0,0,0,0,matched,1,162650130 1996-09-21T04:00 Boston College Eagles @ Michigan Wolverines 14-20 ot=0
+72963,1996-09-21,1996,cfb_0074,cfb_0121,minnesota,syracuse,35,33,0,0,0,0,matched,1,162650135 1996-09-21T04:00 Syracuse Orange @ Minnesota Golden Gophers 33-35 ot=0
+72964,1996-09-21,1996,cfb_0136,cfb_0075,vanderbilt,mississippi,9,20,0,0,0,0,matched,1,162650238 1996-09-21T04:00 Ole Miss Rebels @ Vanderbilt Commodores 20-9 ot=0
+72965,1996-09-21,1996,cfb_0077,cfb_0029,missouri,clemson,38,24,0,0,0,0,matched,1,162650142 1996-09-21T04:00 Clemson Tigers @ Missouri Tigers 24-38 ot=0
+72966,1996-09-21,1996,cfb_0081,cfb_0117,navy,southern-methodist,19,17,0,0,0,0,matched,1,162652426 1996-09-21T04:00 SMU Mustangs @ Navy Midshipmen 17-19 ot=0
+72967,1996-09-21,1996,cfb_0088,cfb_0045,north-carolina,georgia-tech,16,0,0,0,0,0,matched,1,162650153 1996-09-21T04:00 Georgia Tech Yellow Jackets @ North Carolina Tar Heels 0-16 ot=0
+72968,1996-09-21,1996,cfb_0009,cfb_0092,arkansas-state,northern-illinois,30,31,0,0,0,0,matched,1,162652032 1996-09-21T04:00 Northern Illinois Huskies @ Arkansas State Red Wolves 31-30 ot=0
+72969,1996-09-21,1996,cfb_0094,cfb_0097,northwestern,ohio,28,7,0,0,0,0,matched,1,162650077 1996-09-21T04:00 Ohio Bobcats @ Northwestern Wildcats 7-28 ot=0
+72970,1996-09-21,1996,cfb_0124,cfb_0096,texas,notre-dame,24,27,0,0,0,0,matched,1,162650251 1996-09-21T04:00 Notre Dame Fighting Irish @ Texas Longhorns 27-24 ot=0
+72971,1996-09-21,1996,cfb_0098,cfb_0104,ohio-state,pittsburgh,72,0,0,0,0,0,matched,1,162650194 1996-09-21T04:00 Pittsburgh Panthers @ Ohio State Buckeyes 72-0 ot=0
+72972,1996-09-21,1996,cfb_0100,cfb_0135,oklahoma-state,utah-state,31,17,0,0,0,0,matched_agree,2,162650197 1996-09-21T04:00 Utah State Aggies @ Oklahoma State Cowboys 17-31 ot=0 || 162650264 1996-09-21T04:00 Arizona Wildcats @ Washington Huskies 17-31 ot=0
+72973,1996-09-21,1996,cfb_0103,cfb_0122,penn-state,temple,41,0,0,0,0,0,matched,1,162650213 1996-09-21T04:00 Temple Owls @ Penn State Nittany Lions 0-41 ot=0
+72974,1996-09-21,1996,cfb_0112,cfb_0099,san-diego-state,oklahoma,51,31,0,0,0,0,matched,1,162650021 1996-09-21T04:00 Oklahoma Sooners @ San Diego State Aztecs 51-31 ot=0
+72975,1996-09-21,1996,cfb_0113,cfb_0127,san-jose-state,texas-el-paso,26,25,0,0,0,0,matched,1,162650023 1996-09-21T04:00 UTEP Miners @ San José State Spartans 25-26 ot=0
+72976,1996-09-21,1996,cfb_0047,cfb_0116,houston,southern-california,9,26,0,0,0,0,matched,1,162650248 1996-09-21T04:00 USC Trojans @ Houston Cougars 26-9 ot=0
+72977,1996-09-21,1996,cfb_0118,cfb_0062,southern-mississippi,louisiana,52,27,0,0,0,0,matched,1,162652572 1996-09-21T04:00 Louisiana Ragin' Cajuns @ Southern Miss Golden Eagles 27-52 ot=0
+72978,1996-09-21,1996,cfb_0125,cfb_0090,texas-a-m,north-texas,55,0,0,0,0,0,matched,1,162650245 1996-09-21T04:00 North Texas Mean Green @ Texas A&M Aggies 0-55 ot=0
+72979,1996-09-21,1996,cfb_0037,cfb_0130,eastern-michigan,toledo,7,24,0,0,0,0,matched_agree,2,162650154 1996-09-21T04:00 Virginia Cavaliers @ Wake Forest Demon Deacons 24-7 ot=0 || 162652199 1996-09-21T04:00 Toledo Rockets @ Eastern Michigan Eagles 24-7 ot=0
+72980,1996-09-21,1996,cfb_0132,cfb_0054,tulsa,iowa,27,20,0,0,0,0,matched,1,162650202 1996-09-21T04:00 Iowa Hawkeyes @ Tulsa Golden Hurricane 20-27 ot=0
+72981,1996-09-21,1996,cfb_0134,cfb_0041,utah,fresno-state,45,17,0,0,0,0,matched,1,162650254 1996-09-21T04:00 Fresno State Bulldogs @ Utah Utes 17-45 ot=0
+72982,1996-09-21,1996,cfb_0141,cfb_0138,wake-forest,virginia,7,42,0,,,,unmatched,0,
+72983,1996-09-21,1996,cfb_0140,cfb_0108,virginia-tech,rutgers,30,14,0,0,0,0,matched,1,162650259 1996-09-21T04:00 Rutgers Scarlet Knights @ Virginia Tech Hokies 14-30 ot=0
+72984,1996-09-21,1996,cfb_0142,cfb_0006,washington,arizona,31,17,0,0,0,0,matched_agree,2,162650197 1996-09-21T04:00 Utah State Aggies @ Oklahoma State Cowboys 17-31 ot=0 || 162650264 1996-09-21T04:00 Arizona Wildcats @ Washington Huskies 17-31 ot=0
+72985,1996-09-21,1996,cfb_0143,cfb_0101,washington-state,oregon,55,44,0,0,0,0,matched,1,162650265 1996-09-21T04:00 Oregon Ducks @ Washington State Cougars 44-55 ot=0
+72986,1996-09-21,1996,cfb_0106,cfb_0145,purdue,west-virginia,6,20,0,0,0,0,matched,1,162652509 1996-09-21T04:00 West Virginia Mountaineers @ Purdue Boilermakers 20-6 ot=0
+72987,1996-09-21,1996,cfb_0150,cfb_0120,wisconsin,stanford,14,0,0,0,0,0,matched,1,162650275 1996-09-21T04:00 Stanford Cardinal @ Wisconsin Badgers 0-14 ot=0
+72988,1996-09-21,1996,cfb_0151,cfb_0001,wyoming,air-force,22,19,0,0,0,0,matched,1,162652751 1996-09-21T04:00 Air Force Falcons @ Wyoming Cowboys 19-22 ot=0
+72989,1996-09-26,1996,cfb_0045,cfb_0033,georgia-tech,duke,48,22,0,0,0,0,matched,1,162700059 1996-09-26T04:00 Duke Blue Devils @ Georgia Tech Yellow Jackets 22-48 ot=0
+72990,1996-09-28,1996,cfb_0001,cfb_0107,air-force,rice,45,17,0,0,0,0,matched_agree,2,162722005 1996-09-28T04:00 Rice Owls @ Air Force Falcons 17-45 ot=0 || 162722006 1996-09-28T04:00 Rice Owls @ Akron Zips 17-45 ot=0
+72991,1996-09-28,1996,cfb_0002,cfb_0148,akron,western-michigan,27,7,0,0,0,0,matched,1,162720167 1996-09-28T04:00 TCU Horned Frogs @ New Mexico Lobos 7-27 ot=0
+72992,1996-09-28,1996,cfb_0007,cfb_0101,arizona-state,oregon,48,27,0,0,0,0,matched,1,162720009 1996-09-28T04:00 Oregon Ducks @ Arizona State Sun Devils 27-48 ot=0
+72993,1996-09-28,1996,cfb_0008,cfb_0063,arkansas,louisiana-monroe,38,21,0,,,,unmatched,0,
+72994,1996-09-28,1996,cfb_0090,cfb_0010,north-texas,army,10,27,0,0,0,0,matched,1,162720249 1996-09-28T04:00 Army Black Knights @ North Texas Mean Green 27-10 ot=0
+72995,1996-09-28,1996,cfb_0016,cfb_0081,boston-college,navy,43,38,0,0,0,0,matched,1,162720103 1996-09-28T04:00 Navy Midshipmen @ Boston College Eagles 38-43 ot=0
+72996,1996-09-28,1996,cfb_0017,cfb_0024,bowling-green,central-michigan,31,27,0,0,0,0,matched,1,162720189 1996-09-28T04:00 Central Michigan Chippewas @ Bowling Green Falcons 27-31 ot=0
+72997,1996-09-28,1996,cfb_0018,cfb_0117,brigham-young,southern-methodist,31,3,0,0,0,0,matched,1,162720252 1996-09-28T04:00 SMU Mustangs @ BYU Cougars 3-31 ot=0
+72998,1996-09-28,1996,cfb_0021,cfb_0102,california,oregon-state,48,42,0,1,0,0,matched,1,162720025 1996-09-28T04:00 Oregon State Beavers @ California Golden Bears 42-48 ot=1
+72999,1996-09-28,1996,cfb_0027,cfb_0070,cincinnati,miami-oh,30,23,0,1,0,0,matched,1,162722132 1996-09-28T04:00 Miami (OH) RedHawks @ Cincinnati Bearcats 23-30 ot=1
+73000,1996-09-28,1996,cfb_0029,cfb_0141,clemson,wake-forest,21,10,0,0,0,0,matched,1,162720228 1996-09-28T04:00 Wake Forest Demon Deacons @ Clemson Tigers 10-21 ot=0
+73001,1996-09-28,1996,cfb_0125,cfb_0030,texas-a-m,colorado,10,24,0,0,0,0,matched,1,162720245 1996-09-28T04:00 Colorado Buffaloes @ Texas A&M Aggies 24-10 ot=0
+73002,1996-09-28,1996,cfb_0034,cfb_0023,east-carolina,central-florida,28,7,0,0,0,0,matched,1,162720151 1996-09-28T04:00 UCF Knights @ East Carolina Pirates 7-28 ot=0
+73003,1996-09-28,1996,cfb_0039,cfb_0060,florida,kentucky,65,0,0,0,0,0,matched,1,162720057 1996-09-28T04:00 Kentucky Wildcats @ Florida Gators 0-65 ot=0
+73004,1996-09-28,1996,cfb_0040,cfb_0088,florida-state,north-carolina,13,0,0,0,0,0,matched_agree,2,162720052 1996-09-28T04:00 North Carolina Tar Heels @ Florida State Seminoles 0-13 ot=0 || 162720277 1996-09-28T04:00 Maryland Terrapins @ West Virginia Mountaineers 0-13 ot=0
+73005,1996-09-28,1996,cfb_0041,cfb_0046,fresno-state,hawaii,20,0,0,0,0,0,matched,1,162720278 1996-09-28T04:00 Hawai'i Rainbow Warriors @ Fresno State Bulldogs 0-20 ot=0
+73006,1996-09-28,1996,cfb_0055,cfb_0077,iowa-state,missouri,45,31,0,0,0,0,matched,1,162720066 1996-09-28T04:00 Missouri Tigers @ Iowa State Cyclones 31-45 ot=0
+73007,1996-09-28,1996,cfb_0065,cfb_0062,louisiana-tech,louisiana,31,37,0,0,0,0,matched,1,162722348 1996-09-28T04:00 Louisiana Ragin' Cajuns @ Louisiana Tech Bulldogs 37-31 ot=0
+73008,1996-09-28,1996,cfb_0064,cfb_0086,louisiana-state,new-mexico-state,63,7,0,0,0,0,matched,1,162720099 1996-09-28T04:00 New Mexico State Aggies @ LSU Tigers 7-63 ot=0
+73009,1996-09-28,1996,cfb_0069,cfb_0104,miami-fl,pittsburgh,45,0,0,0,0,0,matched,1,162722390 1996-09-28T04:00 Pittsburgh Panthers @ Miami Hurricanes 45-0 ot=0
+73010,1996-09-28,1996,cfb_0071,cfb_0133,michigan,ucla,38,9,0,0,0,0,matched,1,162720130 1996-09-28T04:00 UCLA Bruins @ Michigan Wolverines 9-38 ot=0
+73011,1996-09-28,1996,cfb_0072,cfb_0037,michigan-state,eastern-michigan,47,0,0,0,0,0,matched,1,162720127 1996-09-28T04:00 Eastern Michigan Eagles @ Michigan State Spartans 0-47 ot=0
+73012,1996-09-28,1996,cfb_0114,cfb_0076,south-carolina,mississippi-state,10,14,0,0,0,0,matched,1,162720344 1996-09-28T04:00 South Carolina Gamecocks @ Mississippi State Bulldogs 10-14 ot=0
+73013,1996-09-28,1996,cfb_0082,cfb_0031,nebraska,colorado-state,65,9,0,0,0,0,matched,1,162720158 1996-09-28T04:00 Colorado State Rams @ Nebraska Cornhuskers 9-65 ot=0
+73014,1996-09-28,1996,cfb_0083,cfb_0059,nevada,kent-state,63,42,0,0,0,0,matched,1,162722440 1996-09-28T04:00 Kent State Golden Flashes @ Nevada Wolf Pack 42-63 ot=0
+73015,1996-09-28,1996,cfb_0085,cfb_0126,new-mexico,texas-christian,27,7,0,0,0,0,matched,1,162720167 1996-09-28T04:00 TCU Horned Frogs @ New Mexico Lobos 7-27 ot=0
+73016,1996-09-28,1996,cfb_0052,cfb_0094,indiana,northwestern,17,35,0,0,0,0,matched,1,162720084 1996-09-28T04:00 Northwestern Wildcats @ Indiana Hoosiers 35-17 ot=0
+73017,1996-09-28,1996,cfb_0015,cfb_0095,boise-state,northwestern-state,16,20,0,,,,unmatched,0,
+73018,1996-09-28,1996,cfb_0096,cfb_0098,notre-dame,ohio-state,16,29,0,0,0,0,matched,1,162720087 1996-09-28T04:00 Ohio State Buckeyes @ Notre Dame Fighting Irish 29-16 ot=0
+73019,1996-09-28,1996,cfb_0150,cfb_0103,wisconsin,penn-state,20,23,0,0,0,0,matched,1,162720275 1996-09-28T04:00 Penn State Nittany Lions @ Wisconsin Badgers 23-20 ot=0
+73020,1996-09-28,1996,cfb_0106,cfb_0089,purdue,north-carolina-state,42,21,0,0,0,0,matched,1,162722509 1996-09-28T04:00 NC State Wolfpack @ Purdue Boilermakers 21-42 ot=0
+73021,1996-09-28,1996,cfb_0066,cfb_0118,louisville,southern-mississippi,7,24,0,0,0,0,matched,1,162720097 1996-09-28T04:00 Southern Miss Golden Eagles @ Louisville Cardinals 24-7 ot=0
+73022,1996-09-28,1996,cfb_0121,cfb_0140,syracuse,virginia-tech,52,21,0,0,0,0,matched,1,162720183 1996-09-28T04:00 Virginia Tech Hokies @ Syracuse Orange 21-52 ot=0
+73023,1996-09-28,1996,cfb_0128,cfb_0048,texas-state,idaho,27,21,0,,,,unmatched,0,
+73024,1996-09-28,1996,cfb_0129,cfb_0135,texas-tech,utah-state,58,20,0,0,0,0,matched,1,162722641 1996-09-28T04:00 Utah State Aggies @ Texas Tech Red Raiders 20-58 ot=0
+73025,1996-09-28,1996,cfb_0092,cfb_0127,northern-illinois,texas-el-paso,6,37,0,0,0,0,matched,1,162722459 1996-09-28T04:00 UTEP Miners @ Northern Illinois Huskies 37-6 ot=0
+73026,1996-09-28,1996,cfb_0130,cfb_0144,toledo,weber-state,31,24,0,0,0,0,matched,1,162722649 1996-09-28T04:00 Weber State Wildcats @ Toledo Rockets 24-31 ot=0
+73027,1996-09-28,1996,cfb_0099,cfb_0132,oklahoma,tulsa,24,31,0,0,0,0,matched,1,162720201 1996-09-28T04:00 Tulsa Golden Hurricane @ Oklahoma Sooners 31-24 ot=0
+73028,1996-09-28,1996,cfb_0134,cfb_0057,utah,kansas,45,42,0,0,0,0,matched,1,162720254 1996-09-28T04:00 Kansas Jayhawks @ Utah Utes 42-45 ot=0
+73029,1996-09-28,1996,cfb_0138,cfb_0124,virginia,texas,37,13,0,0,0,0,matched,1,162720258 1996-09-28T04:00 Texas Longhorns @ Virginia Cavaliers 13-37 ot=0
+73030,1996-09-28,1996,cfb_0143,cfb_0113,washington-state,san-jose-state,52,16,0,0,0,0,matched,1,162720023 1996-09-28T04:00 Washington State Cougars @ San José State Spartans 52-16 ot=0
+73031,1996-09-28,1996,cfb_0145,cfb_0067,west-virginia,maryland,13,0,0,0,0,0,matched_agree,2,162720052 1996-09-28T04:00 North Carolina Tar Heels @ Florida State Seminoles 0-13 ot=0 || 162720277 1996-09-28T04:00 Maryland Terrapins @ West Virginia Mountaineers 0-13 ot=0
+73032,1996-09-28,1996,cfb_0084,cfb_0151,nevada-las-vegas,wyoming,21,33,0,0,0,0,matched,1,162722439 1996-09-28T04:00 Wyoming Cowboys @ UNLV Rebels 33-21 ot=0
+73033,1996-10-03,1996,cfb_0075,cfb_0123,mississippi,tennessee,3,41,0,0,0,0,matched,1,162770145 1996-10-03T04:00 Tennessee Volunteers @ Ole Miss Rebels 41-3 ot=0
+73034,1996-10-04,1996,cfb_0135,cfb_0018,utah-state,brigham-young,17,45,0,0,0,0,matched,1,162780328 1996-10-04T04:00 BYU Cougars @ Utah State Aggies 45-17 ot=0
+73035,1996-10-05,1996,cfb_0003,cfb_0060,alabama,kentucky,35,7,0,0,0,0,matched,1,162792655 1996-10-05T04:00 TCU Horned Frogs @ Tulane Green Wave 7-35 ot=0
+73036,1996-10-05,1996,cfb_0004,cfb_0147,alabama-birmingham,western-kentucky,24,0,0,0,0,0,matched,1,162790005 1996-10-05T04:00 Western Kentucky Hilltoppers @ UAB Blazers 0-24 ot=0
+73037,1996-10-05,1996,cfb_0006,cfb_0143,arizona,washington-state,34,26,0,0,0,0,matched,1,162790012 1996-10-05T04:00 Washington State Cougars @ Arizona Wildcats 26-34 ot=0
+73038,1996-10-05,1996,cfb_0007,cfb_0015,arizona-state,boise-state,56,7,0,0,0,0,matched,1,162790009 1996-10-05T04:00 Boise State Broncos @ Arizona State Sun Devils 7-56 ot=0
+73039,1996-10-05,1996,cfb_0009,cfb_0022,arkansas-state,central-arkansas,17,7,0,,,,unmatched,0,
+73040,1996-10-05,1996,cfb_0010,cfb_0152,army,yale,39,13,0,0,0,0,matched,1,162790349 1996-10-05T04:00 Yale Bulldogs @ Army Black Knights 13-39 ot=0
+73041,1996-10-05,1996,cfb_0011,cfb_0114,auburn,south-carolina,28,24,0,0,0,0,matched,1,162790002 1996-10-05T04:00 South Carolina Gamecocks @ Auburn Tigers 24-28 ot=0
+73042,1996-10-05,1996,cfb_0148,cfb_0013,western-michigan,ball-state,5,28,0,0,0,0,matched,1,162792711 1996-10-05T04:00 Ball State Cardinals @ Western Michigan Broncos 28-5 ot=0
+73043,1996-10-05,1996,cfb_0116,cfb_0021,southern-california,california,15,22,0,0,0,0,matched,1,162790030 1996-10-05T04:00 California Golden Bears @ USC Trojans 22-15 ot=0
+73044,1996-10-05,1996,cfb_0046,cfb_0031,hawaii,colorado-state,16,28,0,0,0,0,matched,1,162790062 1996-10-05T04:00 Colorado State Rams @ Hawai'i Rainbow Warriors 28-16 ot=0
+73045,1996-10-05,1996,cfb_0008,cfb_0039,arkansas,florida,7,42,0,0,0,0,matched,1,162790008 1996-10-05T04:00 Florida Gators @ Arkansas Razorbacks 42-7 ot=0
+73046,1996-10-05,1996,cfb_0040,cfb_0029,florida-state,clemson,34,3,0,0,0,0,matched,1,162790052 1996-10-05T04:00 Clemson Tigers @ Florida State Seminoles 3-34 ot=0
+73047,1996-10-05,1996,cfb_0076,cfb_0043,mississippi-state,georgia,19,38,0,,,,unmatched,0,
+73048,1996-10-05,1996,cfb_0045,cfb_0138,georgia-tech,virginia,13,7,0,0,0,0,matched,1,162790059 1996-10-05T04:00 Virginia Cavaliers @ Georgia Tech Yellow Jackets 7-13 ot=0
+73049,1996-10-05,1996,cfb_0062,cfb_0047,louisiana,houston,24,31,0,0,0,0,matched,1,162790309 1996-10-05T04:00 Houston Cougars @ Louisiana Ragin' Cajuns 31-24 ot=0
+73050,1996-10-05,1996,cfb_0048,cfb_0019,idaho,cal-poly,38,33,0,,,,unmatched,0,
+73051,1996-10-05,1996,cfb_0050,cfb_0052,illinois,indiana,46,43,0,0,0,0,matched_agree,2,162790256 1996-10-05T04:00 Indiana Hoosiers @ James Madison Dukes 43-46 ot=0 || 162790356 1996-10-05T04:00 Indiana Hoosiers @ Illinois Fighting Illini 43-46 ot=0
+73052,1996-10-05,1996,cfb_0054,cfb_0072,iowa,michigan-state,37,30,0,0,0,0,matched,1,162792294 1996-10-05T04:00 Michigan State Spartans @ Iowa Hawkeyes 30-37 ot=0
+73053,1996-10-05,1996,cfb_0099,cfb_0057,oklahoma,kansas,24,52,0,0,0,0,matched,1,162790201 1996-10-05T04:00 Kansas Jayhawks @ Oklahoma Sooners 52-24 ot=0
+73054,1996-10-05,1996,cfb_0059,cfb_0002,kent-state,akron,32,17,0,0,0,0,matched,1,162792309 1996-10-05T04:00 Akron Zips @ Kent State Golden Flashes 17-32 ot=0
+73055,1996-10-05,1996,cfb_0064,cfb_0136,louisiana-state,vanderbilt,35,0,0,0,0,0,matched,1,162790099 1996-10-05T04:00 Vanderbilt Commodores @ LSU Tigers 0-35 ot=0
+73056,1996-10-05,1996,cfb_0063,cfb_0095,louisiana-monroe,northwestern-state,13,10,0,,,,unmatched,0,
+73057,1996-10-05,1996,cfb_0068,cfb_0027,memphis,cincinnati,18,16,0,0,0,0,matched,1,162790235 1996-10-05T04:00 Cincinnati Bearcats @ Memphis Tigers 16-18 ot=0
+73058,1996-10-05,1996,cfb_0070,cfb_0024,miami-oh,central-michigan,46,14,0,0,0,0,matched,1,162790193 1996-10-05T04:00 Central Michigan Chippewas @ Miami (OH) RedHawks 14-46 ot=0
+73059,1996-10-05,1996,cfb_0117,cfb_0077,southern-methodist,missouri,26,27,0,0,0,0,matched,1,162792567 1996-10-05T04:00 Missouri Tigers @ SMU Mustangs 27-26 ot=0
+73060,1996-10-05,1996,cfb_0081,cfb_0033,navy,duke,64,27,0,0,0,0,matched,1,162792426 1996-10-05T04:00 Duke Blue Devils @ Navy Midshipmen 27-64 ot=0
+73061,1996-10-05,1996,cfb_0058,cfb_0082,kansas-state,nebraska,3,39,0,0,0,0,matched,1,162792306 1996-10-05T04:00 Nebraska Cornhuskers @ Kansas State Wildcats 39-3 ot=0
+73062,1996-10-05,1996,cfb_0084,cfb_0083,nevada-las-vegas,nevada,17,54,0,0,0,0,matched,1,162792440 1996-10-05T04:00 UNLV Rebels @ Nevada Wolf Pack 17-54 ot=0
+73063,1996-10-05,1996,cfb_0141,cfb_0088,wake-forest,north-carolina,6,45,0,0,0,0,matched,1,162790154 1996-10-05T04:00 North Carolina Tar Heels @ Wake Forest Demon Deacons 45-6 ot=0
+73064,1996-10-05,1996,cfb_0067,cfb_0089,maryland,north-carolina-state,8,34,0,0,0,0,matched,1,162790120 1996-10-05T04:00 NC State Wolfpack @ Maryland Terrapins 34-8 ot=0
+73065,1996-10-05,1996,cfb_0092,cfb_0090,northern-illinois,north-texas,21,24,0,0,0,0,matched,1,162792459 1996-10-05T04:00 North Texas Mean Green @ Northern Illinois Huskies 24-21 ot=0
+73066,1996-10-05,1996,cfb_0094,cfb_0071,northwestern,michigan,17,16,0,0,0,0,matched,1,162790077 1996-10-05T04:00 Michigan Wolverines @ Northwestern Wildcats 16-17 ot=0
+73067,1996-10-05,1996,cfb_0097,cfb_0037,ohio,eastern-michigan,7,0,0,0,0,0,matched,1,162790195 1996-10-05T04:00 Eastern Michigan Eagles @ Ohio Bobcats 0-7 ot=0
+73068,1996-10-05,1996,cfb_0098,cfb_0103,ohio-state,penn-state,38,7,0,,,,unmatched,0,
+73069,1996-10-05,1996,cfb_0104,cfb_0122,pittsburgh,temple,53,52,0,0,0,0,matched,1,162790221 1996-10-05T04:00 Temple Owls @ Pittsburgh Panthers 52-53 ot=0
+73070,1996-10-05,1996,cfb_0106,cfb_0074,purdue,minnesota,30,27,0,0,0,0,matched,1,162792509 1996-10-05T04:00 Minnesota Golden Gophers @ Purdue Boilermakers 27-30 ot=0
+73071,1996-10-05,1996,cfb_0107,cfb_0085,rice,new-mexico,38,21,0,0,0,0,matched,1,162790167 1996-10-05T04:00 Rice Owls @ New Mexico Lobos 38-21 ot=0
+73072,1996-10-05,1996,cfb_0121,cfb_0108,syracuse,rutgers,42,0,0,0,0,0,matched,1,162790183 1996-10-05T04:00 Rutgers Scarlet Knights @ Syracuse Orange 0-42 ot=0
+73073,1996-10-05,1996,cfb_0124,cfb_0100,texas,oklahoma-state,71,14,0,0,0,0,matched,1,162790251 1996-10-05T04:00 Oklahoma State Cowboys @ Texas Longhorns 14-71 ot=0
+73074,1996-10-05,1996,cfb_0125,cfb_0065,texas-a-m,louisiana-tech,63,13,0,,,,unmatched,0,
+73075,1996-10-05,1996,cfb_0129,cfb_0014,texas-tech,baylor,45,24,0,0,0,0,matched,1,162792641 1996-10-05T04:00 Baylor Bears @ Texas Tech Red Raiders 24-45 ot=0
+73076,1996-10-05,1996,cfb_0130,cfb_0017,toledo,bowling-green,24,16,0,0,0,0,matched,1,162792649 1996-10-05T04:00 Bowling Green Falcons @ Toledo Rockets 16-24 ot=0
+73077,1996-10-05,1996,cfb_0131,cfb_0126,tulane,texas-christian,35,7,0,0,0,0,matched,1,162792655 1996-10-05T04:00 TCU Horned Frogs @ Tulane Green Wave 7-35 ot=0
+73078,1996-10-05,1996,cfb_0101,cfb_0133,oregon,ucla,22,41,0,0,0,0,matched,1,162792483 1996-10-05T04:00 UCLA Bruins @ Oregon Ducks 41-22 ot=0
+73079,1996-10-05,1996,cfb_0127,cfb_0134,texas-el-paso,utah,27,34,0,0,0,0,matched,1,162792638 1996-10-05T04:00 Utah Utes @ UTEP Miners 34-27 ot=0
+73080,1996-10-05,1996,cfb_0142,cfb_0120,washington,stanford,27,6,0,0,0,0,matched,1,162790264 1996-10-05T04:00 Stanford Cardinal @ Washington Huskies 6-27 ot=0
+73081,1996-10-05,1996,cfb_0145,cfb_0016,west-virginia,boston-college,34,17,0,0,0,0,matched,1,162790277 1996-10-05T04:00 Boston College Eagles @ West Virginia Mountaineers 17-34 ot=0
+73082,1996-10-05,1996,cfb_0113,cfb_0151,san-jose-state,wyoming,22,45,0,0,0,0,matched,1,162790023 1996-10-05T04:00 Wyoming Cowboys @ San José State Spartans 45-22 ot=0
+73083,1996-10-10,1996,cfb_0034,cfb_0118,east-carolina,southern-mississippi,7,28,0,0,0,0,matched,1,162840151 1996-10-10T04:00 Southern Miss Golden Eagles @ East Carolina Pirates 28-7 ot=0
+73084,1996-10-11,1996,cfb_0112,cfb_0046,san-diego-state,hawaii,56,8,0,0,0,0,matched,1,162850021 1996-10-11T04:00 Hawai'i Rainbow Warriors @ San Diego State Aztecs 8-56 ot=0
+73085,1996-10-12,1996,cfb_0089,cfb_0003,north-carolina-state,alabama,19,24,0,0,0,0,matched,1,162860152 1996-10-12T04:00 Alabama Crimson Tide @ NC State Wolfpack 24-19 ot=0
+73086,1996-10-12,1996,cfb_0133,cfb_0007,ucla,arizona-state,34,42,0,0,0,0,matched,1,162860026 1996-10-12T04:00 Arizona State Sun Devils @ UCLA Bruins 42-34 ot=0
+73087,1996-10-12,1996,cfb_0008,cfb_0065,arkansas,louisiana-tech,38,21,0,0,0,0,matched,1,162860008 1996-10-12T04:00 Louisiana Tech Bulldogs @ Arkansas Razorbacks 21-38 ot=0
+73088,1996-10-12,1996,cfb_0010,cfb_0108,army,rutgers,42,21,0,0,0,0,matched,1,162860164 1996-10-12T04:00 Army Black Knights @ Rutgers Scarlet Knights 42-21 ot=0
+73089,1996-10-12,1996,cfb_0076,cfb_0011,mississippi-state,auburn,15,49,0,0,0,0,matched,1,162860344 1996-10-12T04:00 Auburn Tigers @ Mississippi State Bulldogs 49-15 ot=0
+73090,1996-10-12,1996,cfb_0013,cfb_0097,ball-state,ohio,30,27,0,0,0,0,matched,1,162860251 1996-10-12T04:00 Oklahoma Sooners @ Texas Longhorns 30-27 ot=0
+73091,1996-10-12,1996,cfb_0027,cfb_0016,cincinnati,boston-college,17,24,0,0,0,0,matched_agree,2,162860061 1996-10-12T04:00 Tennessee Volunteers @ Georgia Bulldogs 24-17 ot=0 || 162862132 1996-10-12T04:00 Boston College Eagles @ Cincinnati Bearcats 24-17 ot=0
+73092,1996-10-12,1996,cfb_0017,cfb_0059,bowling-green,kent-state,31,24,0,0,0,0,matched,1,162860189 1996-10-12T04:00 Kent State Golden Flashes @ Bowling Green Falcons 24-31 ot=0
+73093,1996-10-12,1996,cfb_0018,cfb_0084,brigham-young,nevada-las-vegas,63,28,0,,,,unmatched,0,
+73094,1996-10-12,1996,cfb_0023,cfb_0111,central-florida,samford,38,6,0,0,0,0,matched,1,162862116 1996-10-12T04:00 Samford Bulldogs @ UCF Knights 6-38 ot=0
+73095,1996-10-12,1996,cfb_0024,cfb_0002,central-michigan,akron,42,0,0,0,0,0,matched,1,162862117 1996-10-12T04:00 Akron Zips @ Central Michigan Chippewas 0-42 ot=0
+73096,1996-10-12,1996,cfb_0033,cfb_0029,duke,clemson,6,13,0,0,0,0,matched,1,162860150 1996-10-12T04:00 Clemson Tigers @ Duke Blue Devils 13-6 ot=0
+73097,1996-10-12,1996,cfb_0030,cfb_0100,colorado,oklahoma-state,35,13,0,0,0,0,matched,1,162860038 1996-10-12T04:00 Oklahoma State Cowboys @ Colorado Buffaloes 13-35 ot=0
+73098,1996-10-12,1996,cfb_0039,cfb_0064,florida,louisiana-state,56,13,0,0,0,0,matched,1,162860057 1996-10-12T04:00 LSU Tigers @ Florida Gators 13-56 ot=0
+73099,1996-10-12,1996,cfb_0069,cfb_0040,miami-fl,florida-state,16,34,0,0,0,0,matched,1,162862390 1996-10-12T04:00 Florida State Seminoles @ Miami Hurricanes 34-16 ot=0
+73100,1996-10-12,1996,cfb_0041,cfb_0113,fresno-state,san-jose-state,28,18,0,0,0,0,matched,1,162860023 1996-10-12T04:00 Fresno State Bulldogs @ San José State Spartans 28-18 ot=0
+73101,1996-10-12,1996,cfb_0047,cfb_0068,houston,memphis,37,20,0,0,0,0,matched,1,162860248 1996-10-12T04:00 Memphis Tigers @ Houston Cougars 20-37 ot=0
+73102,1996-10-12,1996,cfb_0052,cfb_0054,indiana,iowa,10,31,0,0,0,0,matched,1,162860084 1996-10-12T04:00 Iowa Hawkeyes @ Indiana Hoosiers 31-10 ot=0
+73103,1996-10-12,1996,cfb_0077,cfb_0058,missouri,kansas-state,10,35,0,0,0,0,matched,1,162860142 1996-10-12T04:00 Kansas State Wildcats @ Missouri Tigers 35-10 ot=0
+73104,1996-10-12,1996,cfb_0062,cfb_0009,louisiana,arkansas-state,42,31,0,0,0,0,matched,1,162860309 1996-10-12T04:00 Arkansas State Red Wolves @ Louisiana Ragin' Cajuns 31-42 ot=0
+73105,1996-10-12,1996,cfb_0131,cfb_0066,tulane,louisville,20,23,0,0,0,0,matched,1,162862655 1996-10-12T04:00 Louisville Cardinals @ Tulane Green Wave 23-20 ot=0
+73106,1996-10-12,1996,cfb_0037,cfb_0070,eastern-michigan,miami-oh,25,35,0,0,0,0,matched,1,162862199 1996-10-12T04:00 Miami (OH) RedHawks @ Eastern Michigan Eagles 35-25 ot=0
+73107,1996-10-12,1996,cfb_0072,cfb_0050,michigan-state,illinois,42,14,0,0,0,0,matched,1,162860127 1996-10-12T04:00 James Madison Dukes @ Michigan State Spartans 14-42 ot=0
+73108,1996-10-12,1996,cfb_0001,cfb_0081,air-force,navy,17,20,0,0,0,0,matched,1,162862005 1996-10-12T04:00 Navy Midshipmen @ Air Force Falcons 20-17 ot=0
+73109,1996-10-12,1996,cfb_0082,cfb_0014,nebraska,baylor,49,0,0,0,0,0,matched,1,162860158 1996-10-12T04:00 Baylor Bears @ Nebraska Cornhuskers 0-49 ot=0
+73110,1996-10-12,1996,cfb_0083,cfb_0015,nevada,boise-state,66,28,0,0,0,0,matched,1,162862440 1996-10-12T04:00 Boise State Broncos @ Nevada Wolf Pack 28-66 ot=0
+73111,1996-10-12,1996,cfb_0088,cfb_0067,north-carolina,maryland,38,7,0,0,0,0,matched,1,162860153 1996-10-12T04:00 Maryland Terrapins @ North Carolina Tar Heels 7-38 ot=0
+73112,1996-10-12,1996,cfb_0094,cfb_0074,northwestern,minnesota,26,24,0,0,0,0,matched,1,162860077 1996-10-12T04:00 Minnesota Golden Gophers @ Northwestern Wildcats 24-26 ot=0
+73113,1996-10-12,1996,cfb_0096,cfb_0142,notre-dame,washington,54,20,0,0,0,0,matched,1,162860087 1996-10-12T04:00 Washington Huskies @ Notre Dame Fighting Irish 20-54 ot=0
+73114,1996-10-12,1996,cfb_0098,cfb_0150,ohio-state,wisconsin,17,14,0,0,0,0,matched,1,162860194 1996-10-12T04:00 Wisconsin Badgers @ Ohio State Buckeyes 14-17 ot=0
+73115,1996-10-12,1996,cfb_0099,cfb_0124,oklahoma,texas,30,27,0,0,0,0,matched,1,162860251 1996-10-12T04:00 Oklahoma Sooners @ Texas Longhorns 30-27 ot=0
+73116,1996-10-12,1996,cfb_0103,cfb_0106,penn-state,purdue,31,14,0,0,0,0,matched,1,162860213 1996-10-12T04:00 Purdue Boilermakers @ Penn State Nittany Lions 14-31 ot=0
+73117,1996-10-12,1996,cfb_0060,cfb_0114,kentucky,south-carolina,14,25,0,0,0,0,matched,1,162862579 1996-10-12T04:00 Kentucky Wildcats @ South Carolina Gamecocks 14-25 ot=0
+73118,1996-10-12,1996,cfb_0116,cfb_0006,southern-california,arizona,14,7,0,0,0,0,matched,1,162860030 1996-10-12T04:00 Arizona Wildcats @ USC Trojans 7-14 ot=0
+73119,1996-10-12,1996,cfb_0120,cfb_0101,stanford,oregon,27,24,0,1,0,0,matched,1,162860024 1996-10-12T04:00 Oregon Ducks @ Stanford Cardinal 24-27 ot=1
+73120,1996-10-12,1996,cfb_0121,cfb_0104,syracuse,pittsburgh,55,7,0,0,0,0,matched,1,162860183 1996-10-12T04:00 Pittsburgh Panthers @ Syracuse Orange 55-7 ot=0
+73121,1996-10-12,1996,cfb_0043,cfb_0123,georgia,tennessee,17,29,0,,,,unmatched,0,
+73122,1996-10-12,1996,cfb_0055,cfb_0125,iowa-state,texas-a-m,21,24,0,0,0,0,matched,1,162860066 1996-10-12T04:00 Texas A&M Aggies @ Iowa State Cyclones 24-21 ot=0
+73123,1996-10-12,1996,cfb_0126,cfb_0127,texas-christian,texas-el-paso,18,0,0,0,0,0,matched,1,162862628 1996-10-12T04:00 UTEP Miners @ TCU Horned Frogs 0-18 ot=0
+73124,1996-10-12,1996,cfb_0057,cfb_0129,kansas,texas-tech,17,30,0,,,,unmatched,0,
+73125,1996-10-12,1996,cfb_0132,cfb_0031,tulsa,colorado-state,20,14,0,0,0,0,matched,1,162860202 1996-10-12T04:00 Colorado State Rams @ Tulsa Golden Hurricane 14-20 ot=0
+73126,1996-10-12,1996,cfb_0086,cfb_0135,new-mexico-state,utah-state,21,53,0,0,0,0,matched,1,162860166 1996-10-12T04:00 Utah State Aggies @ New Mexico State Aggies 53-21 ot=0
+73127,1996-10-12,1996,cfb_0090,cfb_0136,north-texas,vanderbilt,7,19,0,0,0,0,matched,1,162860249 1996-10-12T04:00 Vanderbilt Commodores @ North Texas Mean Green 19-7 ot=0
+73128,1996-10-12,1996,cfb_0140,cfb_0122,virginia-tech,temple,38,0,0,0,0,0,matched,1,162860259 1996-10-12T04:00 Temple Owls @ Virginia Tech Hokies 0-38 ot=0
+73129,1996-10-12,1996,cfb_0102,cfb_0143,oregon-state,washington-state,3,24,0,0,0,0,matched,1,162860204 1996-10-12T04:00 Washington State Cougars @ Oregon State Beavers 24-3 ot=0
+73130,1996-10-12,1996,cfb_0151,cfb_0148,wyoming,western-michigan,42,28,0,0,0,0,matched,1,162862751 1996-10-12T04:00 Western Michigan Broncos @ Wyoming Cowboys 28-42 ot=0
+73131,1996-10-19,1996,cfb_0096,cfb_0001,notre-dame,air-force,17,20,0,,,,unmatched,0,
+73132,1996-10-19,1996,cfb_0002,cfb_0070,akron,miami-oh,10,7,0,0,0,0,matched,1,162932006 1996-10-19T04:00 Miami (OH) RedHawks @ Akron Zips 7-10 ot=0
+73133,1996-10-19,1996,cfb_0003,cfb_0075,alabama,mississippi,37,0,0,0,0,0,matched,1,162930333 1996-10-19T04:00 Ole Miss Rebels @ Alabama Crimson Tide 0-37 ot=0
+73134,1996-10-19,1996,cfb_0004,cfb_0062,alabama-birmingham,louisiana,39,29,0,0,0,0,matched,1,162930005 1996-10-19T04:00 Louisiana Ragin' Cajuns @ UAB Blazers 29-39 ot=0
+73135,1996-10-19,1996,cfb_0007,cfb_0116,arizona-state,southern-california,48,35,0,1,0,0,matched,1,162930009 1996-10-19T04:00 USC Trojans @ Arizona State Sun Devils 35-48 ot=1
+73136,1996-10-19,1996,cfb_0009,cfb_0115,arkansas-state,southeast-missouri-state,38,9,0,,,,unmatched,0,
+73137,1996-10-19,1996,cfb_0010,cfb_0131,army,tulane,34,10,0,0,0,0,matched,1,162930349 1996-10-19T04:00 Tulane Green Wave @ Army Black Knights 10-34 ot=0
+73138,1996-10-19,1996,cfb_0017,cfb_0013,bowling-green,ball-state,11,16,0,0,0,0,matched_agree,2,162930189 1996-10-19T04:00 Ball State Cardinals @ Bowling Green Falcons 16-11 ot=0 || 162932075 1996-10-19T04:00 Ball State Cardinals @ Bowie State Bulldogs 16-11 ot=0
+73139,1996-10-19,1996,cfb_0016,cfb_0108,boston-college,rutgers,37,13,0,0,0,0,matched,1,162930103 1996-10-19T04:00 Rutgers Scarlet Knights @ Boston College Eagles 13-37 ot=0
+73140,1996-10-19,1996,cfb_0132,cfb_0018,tulsa,brigham-young,30,55,0,,,,unmatched,0,
+73141,1996-10-19,1996,cfb_0024,cfb_0037,central-michigan,eastern-michigan,41,36,0,0,0,0,matched,1,162932117 1996-10-19T04:00 Eastern Michigan Eagles @ Central Michigan Chippewas 36-41 ot=0
+73142,1996-10-19,1996,cfb_0027,cfb_0047,cincinnati,houston,31,20,0,0,0,0,matched,1,162932132 1996-10-19T04:00 Houston Cougars @ Cincinnati Bearcats 20-31 ot=0
+73143,1996-10-19,1996,cfb_0029,cfb_0045,clemson,georgia-tech,28,25,0,0,0,0,matched,1,162930228 1996-10-19T04:00 Georgia Tech Yellow Jackets @ Clemson Tigers 25-28 ot=0
+73144,1996-10-19,1996,cfb_0057,cfb_0030,kansas,colorado,7,20,0,0,0,0,matched,1,162932305 1996-10-19T04:00 Colorado Buffaloes @ Kansas Jayhawks 20-7 ot=0
+73145,1996-10-19,1996,cfb_0031,cfb_0113,colorado-state,san-jose-state,36,13,0,0,0,0,matched,1,162930023 1996-10-19T04:00 Colorado State Rams @ San José State Spartans 36-13 ot=0
+73146,1996-10-19,1996,cfb_0069,cfb_0034,miami-fl,east-carolina,6,31,0,0,0,0,matched,1,162932390 1996-10-19T04:00 East Carolina Pirates @ Miami Hurricanes 31-6 ot=0
+73147,1996-10-19,1996,cfb_0039,cfb_0011,florida,auburn,51,10,0,0,0,0,matched,1,162930057 1996-10-19T04:00 Auburn Tigers @ Florida Gators 10-51 ot=0
+73148,1996-10-19,1996,cfb_0043,cfb_0136,georgia,vanderbilt,13,2,0,,,,unmatched,0,
+73149,1996-10-19,1996,cfb_0046,cfb_0084,hawaii,nevada-las-vegas,38,28,0,0,0,0,matched,1,162930062 1996-10-19T04:00 UNLV Rebels @ Hawai'i Rainbow Warriors 28-38 ot=0
+73150,1996-10-19,1996,cfb_0048,cfb_0083,idaho,nevada,24,15,0,0,0,0,matched,1,162930070 1996-10-19T04:00 Nevada Wolf Pack @ Idaho Vandals 15-24 ot=0
+73151,1996-10-19,1996,cfb_0103,cfb_0054,penn-state,iowa,20,21,0,0,0,0,matched,1,162930213 1996-10-19T04:00 Iowa Hawkeyes @ Penn State Nittany Lions 21-20 ot=0
+73152,1996-10-19,1996,cfb_0125,cfb_0058,texas-a-m,kansas-state,20,23,0,0,0,0,matched,1,162930245 1996-10-19T04:00 Kansas State Wildcats @ Texas A&M Aggies 23-20 ot=0
+73153,1996-10-19,1996,cfb_0064,cfb_0060,louisiana-state,kentucky,41,14,0,0,0,0,matched,1,162930099 1996-10-19T04:00 Kentucky Wildcats @ LSU Tigers 14-41 ot=0
+73154,1996-10-19,1996,cfb_0065,cfb_0130,louisiana-tech,toledo,61,20,0,0,0,0,matched,1,162932348 1996-10-19T04:00 Toledo Rockets @ Louisiana Tech Bulldogs 20-61 ot=0
+73155,1996-10-19,1996,cfb_0023,cfb_0063,central-florida,louisiana-monroe,38,39,0,0,0,0,matched,1,162932116 1996-10-19T04:00 UL Monroe Warhawks @ UCF Knights 39-38 ot=0
+73156,1996-10-19,1996,cfb_0066,cfb_0092,louisville,northern-illinois,27,3,0,0,0,0,matched,1,162930097 1996-10-19T04:00 Northern Illinois Huskies @ Louisville Cardinals 3-27 ot=0
+73157,1996-10-19,1996,cfb_0067,cfb_0141,maryland,wake-forest,52,0,0,0,0,0,matched,1,162930120 1996-10-19T04:00 Wake Forest Demon Deacons @ Maryland Terrapins 0-52 ot=0
+73158,1996-10-19,1996,cfb_0071,cfb_0052,michigan,indiana,27,20,0,0,0,0,matched,1,162930130 1996-10-19T04:00 Indiana Hoosiers @ Michigan Wolverines 20-27 ot=0
+73159,1996-10-19,1996,cfb_0074,cfb_0072,minnesota,michigan-state,9,27,0,0,0,0,matched,1,162930135 1996-10-19T04:00 Michigan State Spartans @ Minnesota Golden Gophers 27-9 ot=0
+73160,1996-10-19,1996,cfb_0129,cfb_0082,texas-tech,nebraska,10,24,0,0,0,0,matched,1,162932641 1996-10-19T04:00 Nebraska Cornhuskers @ Texas Tech Red Raiders 24-10 ot=0
+73161,1996-10-19,1996,cfb_0090,cfb_0086,north-texas,new-mexico-state,13,0,0,0,0,0,matched,1,162930249 1996-10-19T04:00 New Mexico State Aggies @ North Texas Mean Green 0-13 ot=0
+73162,1996-10-19,1996,cfb_0150,cfb_0094,wisconsin,northwestern,30,34,0,0,0,0,matched,1,162930275 1996-10-19T04:00 Northwestern Wildcats @ Wisconsin Badgers 34-30 ot=0
+73163,1996-10-19,1996,cfb_0059,cfb_0097,kent-state,ohio,15,24,0,0,0,0,matched,1,162932309 1996-10-19T04:00 Ohio Bobcats @ Kent State Golden Flashes 24-15 ot=0
+73164,1996-10-19,1996,cfb_0106,cfb_0098,purdue,ohio-state,14,42,0,0,0,0,matched,1,162932509 1996-10-19T04:00 Ohio State Buckeyes @ Purdue Boilermakers 42-14 ot=0
+73165,1996-10-19,1996,cfb_0014,cfb_0099,baylor,oklahoma,24,28,0,0,0,0,matched,1,162930239 1996-10-19T04:00 Oklahoma Sooners @ Baylor Bears 28-24 ot=0
+73166,1996-10-19,1996,cfb_0100,cfb_0055,oklahoma-state,iowa-state,28,27,0,0,0,0,matched,1,162930197 1996-10-19T04:00 Iowa State Cyclones @ Oklahoma State Cowboys 27-28 ot=0
+73167,1996-10-19,1996,cfb_0102,cfb_0120,oregon-state,stanford,26,12,0,0,0,0,matched,1,162930204 1996-10-19T04:00 Stanford Cardinal @ Oregon State Beavers 12-26 ot=0
+73168,1996-10-19,1996,cfb_0107,cfb_0117,rice,southern-methodist,35,17,0,0,0,0,matched,1,162930242 1996-10-19T04:00 SMU Mustangs @ Rice Owls 17-35 ot=0
+73169,1996-10-19,1996,cfb_0085,cfb_0112,new-mexico,san-diego-state,42,48,0,0,0,0,matched,1,162930167 1996-10-19T04:00 San Diego State Aztecs @ New Mexico Lobos 48-42 ot=0
+73170,1996-10-19,1996,cfb_0114,cfb_0008,south-carolina,arkansas,23,17,0,0,0,0,matched,1,162932579 1996-10-19T04:00 Arkansas Razorbacks @ South Carolina Gamecocks 17-23 ot=0
+73171,1996-10-19,1996,cfb_0118,cfb_0068,southern-mississippi,memphis,16,0,0,0,0,0,matched,1,162932572 1996-10-19T04:00 Memphis Tigers @ Southern Miss Golden Eagles 0-16 ot=0
+73172,1996-10-19,1996,cfb_0134,cfb_0126,utah,texas-christian,21,7,0,0,0,0,matched,1,162930254 1996-10-19T04:00 TCU Horned Frogs @ Utah Utes 7-21 ot=0
+73173,1996-10-19,1996,cfb_0015,cfb_0135,boise-state,utah-state,14,39,0,0,0,0,matched,1,162930068 1996-10-19T04:00 Utah State Aggies @ Boise State Broncos 39-14 ot=0
+73174,1996-10-19,1996,cfb_0138,cfb_0089,virginia,north-carolina-state,62,14,0,0,0,0,matched,1,162930258 1996-10-19T04:00 NC State Wolfpack @ Virginia Cavaliers 14-62 ot=0
+73175,1996-10-19,1996,cfb_0142,cfb_0133,washington,ucla,41,21,0,0,0,0,matched,1,162930264 1996-10-19T04:00 UCLA Bruins @ Washington Huskies 21-41 ot=0
+73176,1996-10-19,1996,cfb_0143,cfb_0021,washington-state,california,21,18,0,0,0,0,matched,1,162930265 1996-10-19T04:00 California Golden Bears @ Washington State Cougars 18-21 ot=0
+73177,1996-10-19,1996,cfb_0122,cfb_0145,temple,west-virginia,10,30,0,0,0,0,matched,1,162930218 1996-10-19T04:00 West Virginia Mountaineers @ Temple Owls 30-10 ot=0
+73178,1996-10-19,1996,cfb_0151,cfb_0041,wyoming,fresno-state,42,21,0,0,0,0,matched,1,162932751 1996-10-19T04:00 Fresno State Bulldogs @ Wyoming Cowboys 21-42 ot=0
+73179,1996-10-26,1996,cfb_0001,cfb_0046,air-force,hawaii,34,7,0,0,0,0,matched,1,163002005 1996-10-26T04:00 Hawai'i Rainbow Warriors @ Air Force Falcons 7-34 ot=0
+73180,1996-10-26,1996,cfb_0092,cfb_0002,northern-illinois,akron,17,34,0,0,0,0,matched_agree,2,163000259 1996-10-26T04:00 Pittsburgh Panthers @ Virginia Tech Hokies 34-17 ot=0 || 163002459 1996-10-26T04:00 Akron Zips @ Northern Illinois Huskies 34-17 ot=0
+73181,1996-10-26,1996,cfb_0006,cfb_0102,arizona,oregon-state,33,7,0,0,0,0,matched,1,163000012 1996-10-26T04:00 Oregon State Beavers @ Arizona Wildcats 7-33 ot=0
+73182,1996-10-26,1996,cfb_0120,cfb_0007,stanford,arizona-state,9,41,0,0,0,0,matched,1,163000024 1996-10-26T04:00 Arizona State Sun Devils @ Stanford Cardinal 41-9 ot=0
+73183,1996-10-26,1996,cfb_0070,cfb_0010,miami-oh,army,7,27,0,0,0,0,matched,1,163000193 1996-10-26T04:00 Army Black Knights @ Miami (OH) RedHawks 27-7 ot=0
+73184,1996-10-26,1996,cfb_0024,cfb_0013,central-michigan,ball-state,17,24,0,0,0,0,matched,1,163002117 1996-10-26T04:00 Ball State Cardinals @ Central Michigan Chippewas 24-17 ot=0
+73185,1996-10-26,1996,cfb_0014,cfb_0055,baylor,iowa-state,49,21,0,0,0,0,matched,1,163000239 1996-10-26T04:00 Iowa State Cyclones @ Baylor Bears 21-49 ot=0
+73186,1996-10-26,1996,cfb_0126,cfb_0018,texas-christian,brigham-young,21,45,0,,,,unmatched,0,
+73187,1996-10-26,1996,cfb_0066,cfb_0027,louisville,cincinnati,7,10,0,0,0,0,matched_agree,2,163000097 1996-10-26T04:00 Cincinnati Bearcats @ Louisville Cardinals 10-7 ot=0 || 163000277 1996-10-26T04:00 Miami Hurricanes @ West Virginia Mountaineers 10-7 ot=0
+73188,1996-10-26,1996,cfb_0030,cfb_0124,colorado,texas,28,24,0,0,0,0,matched,1,163000038 1996-10-26T04:00 Texas Longhorns @ Colorado Buffaloes 24-28 ot=0
+73189,1996-10-26,1996,cfb_0031,cfb_0112,colorado-state,san-diego-state,27,18,0,0,0,0,matched,1,163000036 1996-10-26T04:00 San Diego State Aztecs @ Colorado State Rams 18-27 ot=0
+73190,1996-10-26,1996,cfb_0037,cfb_0059,eastern-michigan,kent-state,51,10,0,0,0,0,matched,1,163002199 1996-10-26T04:00 Kent State Golden Flashes @ Eastern Michigan Eagles 10-51 ot=0
+73191,1996-10-26,1996,cfb_0040,cfb_0138,florida-state,virginia,31,24,0,0,0,0,matched,1,163000052 1996-10-26T04:00 Virginia Cavaliers @ Florida State Seminoles 24-31 ot=0
+73192,1996-10-26,1996,cfb_0084,cfb_0041,nevada-las-vegas,fresno-state,23,34,0,0,0,0,matched,1,163002439 1996-10-26T04:00 Fresno State Bulldogs @ UNLV Rebels 34-23 ot=0
+73193,1996-10-26,1996,cfb_0045,cfb_0023,georgia-tech,central-florida,27,20,0,0,0,0,matched,1,163000059 1996-10-26T04:00 UCF Knights @ Georgia Tech Yellow Jackets 20-27 ot=0
+73194,1996-10-26,1996,cfb_0058,cfb_0099,kansas-state,oklahoma,42,35,0,0,0,0,matched,1,163002306 1996-10-26T04:00 Oklahoma Sooners @ Kansas State Wildcats 42-35 ot=0
+73195,1996-10-26,1996,cfb_0060,cfb_0043,kentucky,georgia,24,17,0,0,0,0,matched,1,163002117 1996-10-26T04:00 Ball State Cardinals @ Central Michigan Chippewas 24-17 ot=0
+73196,1996-10-26,1996,cfb_0062,cfb_0068,louisiana,memphis,13,9,0,0,0,0,matched,1,163000309 1996-10-26T04:00 Memphis Tigers @ Louisiana Ragin' Cajuns 9-13 ot=0
+73197,1996-10-26,1996,cfb_0064,cfb_0076,louisiana-state,mississippi-state,28,20,0,0,0,0,matched,1,163000099 1996-10-26T04:00 Mississippi State Bulldogs @ LSU Tigers 20-28 ot=0
+73198,1996-10-26,1996,cfb_0065,cfb_0004,louisiana-tech,alabama-birmingham,35,31,0,0,0,0,matched,1,163002348 1996-10-26T04:00 UAB Blazers @ Louisiana Tech Bulldogs 31-35 ot=0
+73199,1996-10-26,1996,cfb_0033,cfb_0067,duke,maryland,19,22,0,0,0,0,matched,1,163000150 1996-10-26T04:00 Maryland Terrapins @ Duke Blue Devils 22-19 ot=0
+73200,1996-10-26,1996,cfb_0145,cfb_0069,west-virginia,miami-fl,7,10,0,0,0,0,matched_agree,2,163000097 1996-10-26T04:00 Cincinnati Bearcats @ Louisville Cardinals 10-7 ot=0 || 163000277 1996-10-26T04:00 Miami Hurricanes @ West Virginia Mountaineers 10-7 ot=0
+73201,1996-10-26,1996,cfb_0074,cfb_0071,minnesota,michigan,10,44,0,0,0,0,matched,1,163000135 1996-10-26T04:00 Michigan Wolverines @ Minnesota Golden Gophers 44-10 ot=0
+73202,1996-10-26,1996,cfb_0072,cfb_0150,michigan-state,wisconsin,30,13,0,0,0,0,matched,1,163000127 1996-10-26T04:00 Wisconsin Badgers @ Michigan State Spartans 13-30 ot=0
+73203,1996-10-26,1996,cfb_0075,cfb_0009,mississippi,arkansas-state,38,21,0,0,0,0,matched,1,163000145 1996-10-26T04:00 Arkansas State Red Wolves @ Ole Miss Rebels 21-38 ot=0
+73204,1996-10-26,1996,cfb_0077,cfb_0100,missouri,oklahoma-state,35,28,0,1,0,0,matched_name,2,163000142 1996-10-26T04:00 Oklahoma State Cowboys @ Missouri Tigers 28-35 ot=1 || 163000328 1996-10-26T04:00 Idaho Vandals @ Utah State Aggies 28-35 ot=0
+73205,1996-10-26,1996,cfb_0141,cfb_0081,wake-forest,navy,18,47,0,0,0,0,matched,1,163000154 1996-10-26T04:00 Navy Midshipmen @ Wake Forest Demon Deacons 47-18 ot=0
+73206,1996-10-26,1996,cfb_0082,cfb_0057,nebraska,kansas,63,7,0,0,0,0,matched,1,163000158 1996-10-26T04:00 Kansas Jayhawks @ Nebraska Cornhuskers 7-63 ot=0
+73207,1996-10-26,1996,cfb_0090,cfb_0083,north-texas,nevada,13,40,0,0,0,0,matched,1,163000249 1996-10-26T04:00 Nevada Wolf Pack @ North Texas Mean Green 40-13 ot=0
+73208,1996-10-26,1996,cfb_0086,cfb_0119,new-mexico-state,southern-utah,52,21,0,0,0,0,matched,1,163000166 1996-10-26T04:00 Southern Utah Thunderbirds @ New Mexico State Aggies 21-52 ot=0
+73209,1996-10-26,1996,cfb_0047,cfb_0088,houston,north-carolina,14,42,0,0,0,0,matched,1,163000248 1996-10-26T04:00 North Carolina Tar Heels @ Houston Cougars 42-14 ot=0
+73210,1996-10-26,1996,cfb_0094,cfb_0050,northwestern,illinois,27,24,0,0,0,0,matched,1,163000077 1996-10-26T04:00 James Madison Dukes @ Northwestern Wildcats 24-27 ot=0
+73211,1996-10-26,1996,cfb_0097,cfb_0017,ohio,bowling-green,38,0,0,,,,unmatched,0,
+73212,1996-10-26,1996,cfb_0054,cfb_0098,iowa,ohio-state,26,38,0,0,0,0,matched,1,163002294 1996-10-26T04:00 Ohio State Buckeyes @ Iowa Hawkeyes 38-26 ot=0
+73213,1996-10-26,1996,cfb_0052,cfb_0103,indiana,penn-state,26,48,0,0,0,0,matched,1,163000084 1996-10-26T04:00 Penn State Nittany Lions @ Indiana Hoosiers 48-26 ot=0
+73214,1996-10-26,1996,cfb_0127,cfb_0107,texas-el-paso,rice,21,48,0,0,0,0,matched,1,163002638 1996-10-26T04:00 Rice Owls @ UTEP Miners 48-21 ot=0
+73215,1996-10-26,1996,cfb_0108,cfb_0122,rutgers,temple,28,17,0,0,0,0,matched,1,163000164 1996-10-26T04:00 Temple Owls @ Rutgers Scarlet Knights 17-28 ot=0
+73216,1996-10-26,1996,cfb_0136,cfb_0114,vanderbilt,south-carolina,0,27,0,0,0,0,matched,1,163000238 1996-10-26T04:00 South Carolina Gamecocks @ Vanderbilt Commodores 27-0 ot=0
+73217,1996-10-26,1996,cfb_0143,cfb_0116,washington-state,southern-california,24,29,0,0,0,0,matched,1,163000265 1996-10-26T04:00 USC Trojans @ Washington State Cougars 29-24 ot=0
+73218,1996-10-26,1996,cfb_0117,cfb_0085,southern-methodist,new-mexico,52,31,0,0,0,0,matched,1,163002567 1996-10-26T04:00 New Mexico Lobos @ SMU Mustangs 31-52 ot=0
+73219,1996-10-26,1996,cfb_0131,cfb_0118,tulane,southern-mississippi,28,31,0,0,0,0,matched,1,163002655 1996-10-26T04:00 Southern Miss Golden Eagles @ Tulane Green Wave 31-28 ot=0
+73220,1996-10-26,1996,cfb_0016,cfb_0121,boston-college,syracuse,17,45,0,0,0,0,matched,1,163000103 1996-10-26T04:00 Syracuse Orange @ Boston College Eagles 45-17 ot=0
+73221,1996-10-26,1996,cfb_0123,cfb_0003,tennessee,alabama,20,13,0,0,0,0,matched,1,163002633 1996-10-26T04:00 Alabama Crimson Tide @ Tennessee Volunteers 13-20 ot=0
+73222,1996-10-26,1996,cfb_0125,cfb_0129,texas-a-m,texas-tech,10,13,0,0,0,0,matched_agree,2,163000245 1996-10-26T04:00 Texas Tech Red Raiders @ Texas A&M Aggies 13-10 ot=0 || 163000043 1996-10-26T04:00 Columbia Lions @ Yale Bulldogs 13-10 ot=0
+73223,1996-10-26,1996,cfb_0130,cfb_0148,toledo,western-michigan,10,7,0,1,0,0,matched,1,163002649 1996-10-26T04:00 Western Michigan Broncos @ Toledo Rockets 7-10 ot=1
+73224,1996-10-26,1996,cfb_0021,cfb_0133,california,ucla,29,38,0,0,0,0,matched,1,163000025 1996-10-26T04:00 UCLA Bruins @ California Golden Bears 38-29 ot=0
+73225,1996-10-26,1996,cfb_0134,cfb_0132,utah,tulsa,45,19,0,0,0,0,matched,1,163000254 1996-10-26T04:00 Tulsa Golden Hurricane @ Utah Utes 19-45 ot=0
+73226,1996-10-26,1996,cfb_0135,cfb_0048,utah-state,idaho,35,28,0,0,0,0,matched_name,2,163000142 1996-10-26T04:00 Oklahoma State Cowboys @ Missouri Tigers 28-35 ot=1 || 163000328 1996-10-26T04:00 Idaho Vandals @ Utah State Aggies 28-35 ot=0
+73227,1996-10-26,1996,cfb_0140,cfb_0104,virginia-tech,pittsburgh,34,17,0,0,0,0,matched_agree,2,163000259 1996-10-26T04:00 Pittsburgh Panthers @ Virginia Tech Hokies 34-17 ot=0 || 163002459 1996-10-26T04:00 Akron Zips @ Northern Illinois Huskies 34-17 ot=0
+73228,1996-10-26,1996,cfb_0101,cfb_0142,oregon,washington,14,33,0,0,0,0,matched,1,163002483 1996-10-26T04:00 Washington Huskies @ Oregon Ducks 33-14 ot=0
+73229,1996-10-31,1996,cfb_0104,cfb_0016,pittsburgh,boston-college,20,13,0,0,0,0,matched,1,163050221 1996-10-31T05:00 Boston College Eagles @ Pittsburgh Panthers 13-20 ot=0
+73230,1996-11-02,1996,cfb_0002,cfb_0017,akron,bowling-green,21,14,0,0,0,0,matched,1,163072006 1996-11-02T05:00 Bowling Green Falcons @ Akron Zips 14-21 ot=0
+73231,1996-11-02,1996,cfb_0102,cfb_0007,oregon-state,arizona-state,14,29,0,0,0,0,matched,1,163070204 1996-11-02T05:00 Arizona State Sun Devils @ Oregon State Beavers 29-14 ot=0
+73232,1996-11-02,1996,cfb_0010,cfb_0061,army,lafayette,41,21,0,0,0,0,matched,1,163070349 1996-11-02T05:00 Lafayette Leopards @ Army Black Knights 21-41 ot=0
+73233,1996-11-02,1996,cfb_0011,cfb_0008,auburn,arkansas,28,7,0,0,0,0,matched,1,163070002 1996-11-02T05:00 Arkansas Razorbacks @ Auburn Tigers 7-28 ot=0
+73234,1996-11-02,1996,cfb_0037,cfb_0013,eastern-michigan,ball-state,25,39,0,0,0,0,matched,1,163072199 1996-11-02T05:00 Ball State Cardinals @ Eastern Michigan Eagles 39-25 ot=0
+73235,1996-11-02,1996,cfb_0018,cfb_0127,brigham-young,texas-el-paso,40,18,0,,,,unmatched,0,
+73236,1996-11-02,1996,cfb_0021,cfb_0006,california,arizona,56,55,0,1,0,0,matched,1,163070025 1996-11-02T05:00 Arizona Wildcats @ California Golden Bears 55-56 ot=1
+73237,1996-11-02,1996,cfb_0023,cfb_0051,central-florida,illinois-state,42,15,0,0,0,0,matched,1,163072116 1996-11-02T05:00 Illinois State Redbirds @ UCF Knights 15-42 ot=0
+73238,1996-11-02,1996,cfb_0059,cfb_0024,kent-state,central-michigan,51,52,0,0,0,0,matched,1,163072309 1996-11-02T05:00 Central Michigan Chippewas @ Kent State Golden Flashes 52-51 ot=0
+73239,1996-11-02,1996,cfb_0029,cfb_0067,clemson,maryland,35,3,0,0,0,0,matched,1,163070228 1996-11-02T05:00 Maryland Terrapins @ Clemson Tigers 3-35 ot=0
+73240,1996-11-02,1996,cfb_0077,cfb_0030,missouri,colorado,13,41,0,0,0,0,matched,1,163070142 1996-11-02T05:00 Colorado Buffaloes @ Missouri Tigers 41-13 ot=0
+73241,1996-11-02,1996,cfb_0001,cfb_0031,air-force,colorado-state,41,42,0,0,0,0,matched,1,163072005 1996-11-02T05:00 Colorado State Rams @ Air Force Falcons 42-41 ot=0
+73242,1996-11-02,1996,cfb_0034,cfb_0009,east-carolina,arkansas-state,34,16,0,0,0,0,matched,1,163070151 1996-11-02T05:00 Arkansas State Red Wolves @ East Carolina Pirates 16-34 ot=0
+73243,1996-11-02,1996,cfb_0039,cfb_0043,florida,georgia,47,7,0,,,,unmatched,0,
+73244,1996-11-02,1996,cfb_0045,cfb_0040,georgia-tech,florida-state,3,49,0,0,0,0,matched,1,163070059 1996-11-02T05:00 Florida State Seminoles @ Georgia Tech Yellow Jackets 49-3 ot=0
+73245,1996-11-02,1996,cfb_0041,cfb_0015,fresno-state,boise-state,41,7,0,,,,unmatched,0,
+73246,1996-11-02,1996,cfb_0131,cfb_0047,tulane,houston,17,20,0,0,0,0,matched,1,163072655 1996-11-02T05:00 Houston Cougars @ Tulane Green Wave 20-17 ot=0
+73247,1996-11-02,1996,cfb_0048,cfb_0038,idaho,eastern-washington,37,27,0,0,0,0,matched,1,163070070 1996-11-02T05:00 Eastern Washington Eagles @ Idaho Vandals 27-37 ot=0
+73248,1996-11-02,1996,cfb_0050,cfb_0054,illinois,iowa,21,31,0,0,0,0,matched_agree,2,163070256 1996-11-02T05:00 Iowa Hawkeyes @ James Madison Dukes 31-21 ot=0 || 163070356 1996-11-02T05:00 Iowa Hawkeyes @ Illinois Fighting Illini 31-21 ot=0
+73249,1996-11-02,1996,cfb_0055,cfb_0057,iowa-state,kansas,31,34,0,0,0,0,matched,1,163070066 1996-11-02T05:00 Nebraska Cornhuskers @ Iowa State Cyclones 34-31 ot=0
+73250,1996-11-02,1996,cfb_0092,cfb_0065,northern-illinois,louisiana-tech,14,40,0,0,0,0,matched,1,163072459 1996-11-02T05:00 Louisiana Tech Bulldogs @ Northern Illinois Huskies 40-14 ot=0
+73251,1996-11-02,1996,cfb_0066,cfb_0068,louisville,memphis,13,10,0,0,0,0,matched,1,163070097 1996-11-02T05:00 Memphis Tigers @ Louisville Cardinals 10-13 ot=0
+73252,1996-11-02,1996,cfb_0122,cfb_0069,temple,miami-fl,26,57,0,0,0,0,matched,1,163070218 1996-11-02T05:00 Miami Hurricanes @ Temple Owls 57-26 ot=0
+73253,1996-11-02,1996,cfb_0130,cfb_0070,toledo,miami-oh,7,27,0,0,0,0,matched,1,163072649 1996-11-02T05:00 Miami (OH) RedHawks @ Toledo Rockets 27-7 ot=0
+73254,1996-11-02,1996,cfb_0071,cfb_0072,michigan,michigan-state,45,29,0,0,0,0,matched,1,163070130 1996-11-02T05:00 Michigan State Spartans @ Michigan Wolverines 29-45 ot=0
+73255,1996-11-02,1996,cfb_0076,cfb_0063,mississippi-state,louisiana-monroe,59,0,0,,,,unmatched,0,
+73256,1996-11-02,1996,cfb_0099,cfb_0082,oklahoma,nebraska,21,73,0,0,0,0,matched,1,163070201 1996-11-02T05:00 Nebraska Cornhuskers @ Oklahoma Sooners 73-21 ot=0
+73257,1996-11-02,1996,cfb_0083,cfb_0086,nevada,new-mexico-state,63,14,0,0,0,0,matched,1,163072440 1996-11-02T05:00 New Mexico State Aggies @ Nevada Wolf Pack 14-63 ot=0
+73258,1996-11-02,1996,cfb_0132,cfb_0085,tulsa,new-mexico,23,34,0,0,0,0,matched,1,163070167 1996-11-02T05:00 Tulsa Golden Hurricane @ New Mexico Lobos 23-34 ot=0
+73259,1996-11-02,1996,cfb_0088,cfb_0089,north-carolina,north-carolina-state,52,20,0,0,0,0,matched,1,163070153 1996-11-02T05:00 NC State Wolfpack @ North Carolina Tar Heels 20-52 ot=0
+73260,1996-11-02,1996,cfb_0081,cfb_0096,navy,notre-dame,27,54,0,0,0,0,matched,1,163070087 1996-11-02T05:00 Navy Midshipmen @ Notre Dame Fighting Irish 27-54 ot=0
+73261,1996-11-02,1996,cfb_0148,cfb_0097,western-michigan,ohio,0,38,0,,,,unmatched,0,
+73262,1996-11-02,1996,cfb_0098,cfb_0074,ohio-state,minnesota,45,0,0,0,0,0,matched,1,163070194 1996-11-02T05:00 Minnesota Golden Gophers @ Ohio State Buckeyes 0-45 ot=0
+73263,1996-11-02,1996,cfb_0103,cfb_0094,penn-state,northwestern,34,9,0,0,0,0,matched,1,163070213 1996-11-02T05:00 Northwestern Wildcats @ Penn State Nittany Lions 9-34 ot=0
+73264,1996-11-02,1996,cfb_0107,cfb_0134,rice,utah,51,10,0,0,0,0,matched,1,163070242 1996-11-02T05:00 Utah Utes @ Rice Owls 10-51 ot=0
+73265,1996-11-02,1996,cfb_0113,cfb_0112,san-jose-state,san-diego-state,20,49,0,0,0,0,matched,1,163070023 1996-11-02T05:00 San Diego State Aztecs @ San José State Spartans 49-20 ot=0
+73266,1996-11-02,1996,cfb_0118,cfb_0027,southern-mississippi,cincinnati,21,17,0,0,0,0,matched,1,163072572 1996-11-02T05:00 Cincinnati Bearcats @ Southern Miss Golden Eagles 17-21 ot=0
+73267,1996-11-02,1996,cfb_0133,cfb_0120,ucla,stanford,20,21,0,0,0,0,matched,1,163070026 1996-11-02T05:00 Stanford Cardinal @ UCLA Bruins 21-20 ot=0
+73268,1996-11-02,1996,cfb_0145,cfb_0121,west-virginia,syracuse,7,30,0,0,0,0,matched,1,163070277 1996-11-02T05:00 Syracuse Orange @ West Virginia Mountaineers 30-7 ot=0
+73269,1996-11-02,1996,cfb_0114,cfb_0123,south-carolina,tennessee,14,31,0,0,0,0,matched,1,163072579 1996-11-02T05:00 Tennessee Volunteers @ South Carolina Gamecocks 31-14 ot=0
+73270,1996-11-02,1996,cfb_0124,cfb_0014,texas,baylor,28,23,0,0,0,0,matched,1,163070251 1996-11-02T05:00 Baylor Bears @ Texas Longhorns 23-28 ot=0
+73271,1996-11-02,1996,cfb_0100,cfb_0125,oklahoma-state,texas-a-m,19,38,0,0,0,0,matched,1,163070197 1996-11-02T05:00 Texas A&M Aggies @ Oklahoma State Cowboys 38-19 ot=0
+73272,1996-11-02,1996,cfb_0126,cfb_0084,texas-christian,nevada-las-vegas,42,34,0,0,0,0,matched,1,163072628 1996-11-02T05:00 UNLV Rebels @ TCU Horned Frogs 34-42 ot=0
+73273,1996-11-02,1996,cfb_0135,cfb_0090,utah-state,north-texas,21,13,0,0,0,0,matched,1,163070328 1996-11-02T05:00 North Texas Mean Green @ Utah State Aggies 13-21 ot=0
+73274,1996-11-02,1996,cfb_0136,cfb_0004,vanderbilt,alabama-birmingham,31,15,0,0,0,0,matched,1,163070238 1996-11-02T05:00 UAB Blazers @ Vanderbilt Commodores 15-31 ot=0
+73275,1996-11-02,1996,cfb_0033,cfb_0138,duke,virginia,3,27,0,0,0,0,matched,1,163070150 1996-11-02T05:00 Virginia Cavaliers @ Duke Blue Devils 27-3 ot=0
+73276,1996-11-02,1996,cfb_0140,cfb_0062,virginia-tech,louisiana,47,16,0,0,0,0,matched,1,163070259 1996-11-02T05:00 Louisiana Ragin' Cajuns @ Virginia Tech Hokies 16-47 ot=0
+73277,1996-11-02,1996,cfb_0116,cfb_0142,southern-california,washington,10,21,0,0,0,0,matched,1,163070030 1996-11-02T05:00 Washington Huskies @ USC Trojans 21-10 ot=0
+73278,1996-11-02,1996,cfb_0150,cfb_0106,wisconsin,purdue,33,25,0,0,0,0,matched,1,163070275 1996-11-02T05:00 Purdue Boilermakers @ Wisconsin Badgers 25-33 ot=0
+73279,1996-11-02,1996,cfb_0151,cfb_0117,wyoming,southern-methodist,59,17,0,0,0,0,matched,1,163072751 1996-11-02T05:00 SMU Mustangs @ Wyoming Cowboys 17-59 ot=0
+73280,1996-11-07,1996,cfb_0112,cfb_0151,san-diego-state,wyoming,28,24,0,0,0,0,matched,1,163120021 1996-11-07T05:00 Wyoming Cowboys @ San Diego State Aztecs 24-28 ot=0
+73281,1996-11-09,1996,cfb_0064,cfb_0003,louisiana-state,alabama,0,26,0,0,0,0,matched,1,163140099 1996-11-09T05:00 Alabama Crimson Tide @ LSU Tigers 26-0 ot=0
+73282,1996-11-09,1996,cfb_0007,cfb_0021,arizona-state,california,35,7,0,0,0,0,matched,1,163140009 1996-11-09T05:00 California Golden Bears @ Arizona State Sun Devils 7-35 ot=0
+73283,1996-11-09,1996,cfb_0008,cfb_0075,arkansas,mississippi,13,7,0,0,0,0,matched,1,163140008 1996-11-09T05:00 Ole Miss Rebels @ Arkansas Razorbacks 7-13 ot=0
+73284,1996-11-09,1996,cfb_0009,cfb_0065,arkansas-state,louisiana-tech,55,38,0,,,,unmatched,0,
+73285,1996-11-09,1996,cfb_0010,cfb_0001,army,air-force,23,7,0,0,0,0,matched,1,163140349 1996-11-09T05:00 Air Force Falcons @ Army Black Knights 7-23 ot=0
+73286,1996-11-09,1996,cfb_0011,cfb_0063,auburn,louisiana-monroe,28,24,0,0,0,0,matched,1,163140002 1996-11-09T05:00 UL Monroe Warhawks @ Auburn Tigers 24-28 ot=0
+73287,1996-11-09,1996,cfb_0013,cfb_0059,ball-state,kent-state,50,6,0,0,0,0,matched,1,163142050 1996-11-09T05:00 Kent State Golden Flashes @ Ball State Cardinals 6-50 ot=0
+73288,1996-11-09,1996,cfb_0018,cfb_0107,brigham-young,rice,49,0,0,,,,unmatched,0,
+73289,1996-11-09,1996,cfb_0004,cfb_0023,alabama-birmingham,central-florida,13,35,0,0,0,0,matched,1,163140005 1996-11-09T05:00 UCF Knights @ UAB Blazers 35-13 ot=0
+73290,1996-11-09,1996,cfb_0138,cfb_0029,virginia,clemson,16,24,0,0,0,0,matched,1,163140258 1996-11-09T05:00 Clemson Tigers @ Virginia Cavaliers 24-16 ot=0
+73291,1996-11-09,1996,cfb_0030,cfb_0055,colorado,iowa-state,49,42,0,0,0,0,matched_agree,2,163140038 1996-11-09T05:00 Iowa State Cyclones @ Colorado Buffaloes 42-49 ot=0 || 163142306 1996-11-09T05:00 Iowa State Cyclones @ Kansas State Wildcats 42-49 ot=0
+73292,1996-11-09,1996,cfb_0041,cfb_0031,fresno-state,colorado-state,20,42,0,0,0,0,matched,1,163140278 1996-11-09T05:00 Colorado State Rams @ Fresno State Bulldogs 42-20 ot=0
+73293,1996-11-09,1996,cfb_0037,cfb_0002,eastern-michigan,akron,20,17,0,0,0,0,matched,1,163142199 1996-11-09T05:00 Akron Zips @ Eastern Michigan Eagles 17-20 ot=0
+73294,1996-11-09,1996,cfb_0136,cfb_0039,vanderbilt,florida,21,28,0,0,0,0,matched,1,163140057 1996-11-09T05:00 Vanderbilt Commodores @ Florida Gators 21-28 ot=0
+73295,1996-11-09,1996,cfb_0040,cfb_0141,florida-state,wake-forest,44,7,0,0,0,0,matched,1,163140154 1996-11-09T05:00 Florida State Seminoles @ Wake Forest Demon Deacons 44-7 ot=0
+73296,1996-11-09,1996,cfb_0047,cfb_0118,houston,southern-mississippi,56,49,0,0,0,0,matched,1,163140248 1996-11-09T05:00 Southern Miss Golden Eagles @ Houston Cougars 49-56 ot=0
+73297,1996-11-09,1996,cfb_0048,cfb_0086,idaho,new-mexico-state,34,19,0,0,0,0,matched,1,163140070 1996-11-09T05:00 New Mexico State Aggies @ Idaho Vandals 19-34 ot=0
+73298,1996-11-09,1996,cfb_0057,cfb_0058,kansas,kansas-state,12,38,0,0,0,0,matched,1,163142305 1996-11-09T05:00 Kansas State Wildcats @ Kansas Jayhawks 38-12 ot=0
+73299,1996-11-09,1996,cfb_0060,cfb_0076,kentucky,mississippi-state,24,21,0,0,0,0,matched,1,163140344 1996-11-09T05:00 Kentucky Wildcats @ Mississippi State Bulldogs 24-21 ot=0
+73300,1996-11-09,1996,cfb_0062,cfb_0092,louisiana,northern-illinois,45,31,0,0,0,0,matched,1,163140309 1996-11-09T05:00 Northern Illinois Huskies @ Louisiana Ragin' Cajuns 31-45 ot=0
+73301,1996-11-09,1996,cfb_0068,cfb_0123,memphis,tennessee,21,17,0,,,,unmatched,0,
+73302,1996-11-09,1996,cfb_0070,cfb_0097,miami-oh,ohio,24,8,0,0,0,0,matched,1,163140193 1996-11-09T05:00 Ohio Bobcats @ Miami (OH) RedHawks 8-24 ot=0
+73303,1996-11-09,1996,cfb_0072,cfb_0052,michigan-state,indiana,38,15,0,0,0,0,matched,1,163140127 1996-11-09T05:00 Indiana Hoosiers @ Michigan State Spartans 15-38 ot=0
+73304,1996-11-09,1996,cfb_0081,cfb_0032,navy,delaware,30,14,0,0,0,0,matched,1,163142426 1996-11-09T05:00 Delaware Blue Hens @ Navy Midshipmen 14-30 ot=0
+73305,1996-11-09,1996,cfb_0082,cfb_0077,nebraska,missouri,51,7,0,0,0,0,matched,1,163140158 1996-11-09T05:00 Missouri Tigers @ Nebraska Cornhuskers 7-51 ot=0
+73306,1996-11-09,1996,cfb_0135,cfb_0083,utah-state,nevada,27,54,0,0,0,0,matched,1,163140328 1996-11-09T05:00 Nevada Wolf Pack @ Utah State Aggies 54-27 ot=0
+73307,1996-11-09,1996,cfb_0088,cfb_0066,north-carolina,louisville,28,10,0,0,0,0,matched,1,163140153 1996-11-09T05:00 Louisville Cardinals @ North Carolina Tar Heels 10-28 ot=0
+73308,1996-11-09,1996,cfb_0089,cfb_0033,north-carolina-state,duke,44,22,0,0,0,0,matched,1,163140152 1996-11-09T05:00 Duke Blue Devils @ NC State Wolfpack 22-44 ot=0
+73309,1996-11-09,1996,cfb_0015,cfb_0090,boise-state,north-texas,27,30,0,0,0,0,matched,1,163140068 1996-11-09T05:00 North Texas Mean Green @ Boise State Broncos 30-27 ot=0
+73310,1996-11-09,1996,cfb_0054,cfb_0094,iowa,northwestern,13,40,0,0,0,0,matched,1,163142294 1996-11-09T05:00 Northwestern Wildcats @ Iowa Hawkeyes 40-13 ot=0
+73311,1996-11-09,1996,cfb_0016,cfb_0096,boston-college,notre-dame,21,48,0,0,0,0,matched,1,163140103 1996-11-09T05:00 Notre Dame Fighting Irish @ Boston College Eagles 48-21 ot=0
+73312,1996-11-09,1996,cfb_0050,cfb_0098,illinois,ohio-state,0,48,0,0,0,0,matched,1,163140356 1996-11-09T05:00 Ohio State Buckeyes @ Illinois Fighting Illini 48-0 ot=0
+73313,1996-11-09,1996,cfb_0100,cfb_0099,oklahoma-state,oklahoma,17,27,0,0,0,0,matched,1,163140197 1996-11-09T05:00 Oklahoma Sooners @ Oklahoma State Cowboys 27-17 ot=0
+73314,1996-11-09,1996,cfb_0101,cfb_0006,oregon,arizona,49,31,0,0,0,0,matched,1,163142483 1996-11-09T05:00 Arizona Wildcats @ Oregon Ducks 31-49 ot=0
+73315,1996-11-09,1996,cfb_0106,cfb_0071,purdue,michigan,9,3,0,0,0,0,matched,1,163142509 1996-11-09T05:00 Michigan Wolverines @ Purdue Boilermakers 3-9 ot=0
+73316,1996-11-09,1996,cfb_0046,cfb_0113,hawaii,san-jose-state,17,38,0,0,0,0,matched,1,163140023 1996-11-09T05:00 Hawai'i Rainbow Warriors @ San José State Spartans 17-38 ot=0
+73317,1996-11-09,1996,cfb_0127,cfb_0117,texas-el-paso,southern-methodist,0,30,0,0,0,0,matched,1,163142638 1996-11-09T05:00 SMU Mustangs @ UTEP Miners 30-0 ot=0
+73318,1996-11-09,1996,cfb_0120,cfb_0116,stanford,southern-california,24,20,0,0,0,0,matched,1,163140024 1996-11-09T05:00 USC Trojans @ Stanford Cardinal 20-24 ot=0
+73319,1996-11-09,1996,cfb_0131,cfb_0121,tulane,syracuse,7,31,0,0,0,0,matched,1,163142655 1996-11-09T05:00 Syracuse Orange @ Tulane Green Wave 31-7 ot=0
+73320,1996-11-09,1996,cfb_0129,cfb_0124,texas-tech,texas,32,38,0,0,0,0,matched,1,163142641 1996-11-09T05:00 Texas Longhorns @ Texas Tech Red Raiders 38-32 ot=0
+73321,1996-11-09,1996,cfb_0014,cfb_0125,baylor,texas-a-m,7,24,0,0,0,0,matched,1,163140239 1996-11-09T05:00 Texas A&M Aggies @ Baylor Bears 24-7 ot=0
+73322,1996-11-09,1996,cfb_0132,cfb_0126,tulsa,texas-christian,24,31,0,0,0,0,matched_agree,2,163140167 1996-11-09T05:00 Utah Utes @ New Mexico Lobos 31-24 ot=0 || 163140202 1996-11-09T05:00 TCU Horned Frogs @ Tulsa Golden Hurricane 31-24 ot=0
+73323,1996-11-09,1996,cfb_0130,cfb_0024,toledo,central-michigan,23,20,0,0,0,0,matched,1,163142649 1996-11-09T05:00 Central Michigan Chippewas @ Toledo Rockets 20-23 ot=0
+73324,1996-11-09,1996,cfb_0133,cfb_0143,ucla,washington-state,38,14,0,0,0,0,matched,1,163140026 1996-11-09T05:00 Washington State Cougars @ UCLA Bruins 14-38 ot=0
+73325,1996-11-09,1996,cfb_0085,cfb_0134,new-mexico,utah,24,31,0,0,0,0,matched_agree,2,163140167 1996-11-09T05:00 Utah Utes @ New Mexico Lobos 31-24 ot=0 || 163140202 1996-11-09T05:00 TCU Horned Frogs @ Tulsa Golden Hurricane 31-24 ot=0
+73326,1996-11-09,1996,cfb_0140,cfb_0034,virginia-tech,east-carolina,35,14,0,0,0,0,matched,1,163140259 1996-11-09T05:00 East Carolina Pirates @ Virginia Tech Hokies 14-35 ot=0
+73327,1996-11-09,1996,cfb_0142,cfb_0102,washington,oregon-state,42,3,0,0,0,0,matched_agree,2,163140264 1996-11-09T05:00 Oregon State Beavers @ Washington Huskies 3-42 ot=0 || 163140333 1996-11-09T05:00 Oregon State Beavers @ Alabama Crimson Tide 3-42 ot=0
+73328,1996-11-09,1996,cfb_0108,cfb_0145,rutgers,west-virginia,14,55,0,0,0,0,matched,1,163140164 1996-11-09T05:00 West Virginia Mountaineers @ Rutgers Scarlet Knights 55-14 ot=0
+73329,1996-11-09,1996,cfb_0017,cfb_0148,bowling-green,western-michigan,13,16,0,1,0,0,matched,1,163140189 1996-11-09T05:00 Western Michigan Broncos @ Bowling Green Falcons 16-13 ot=1
+73330,1996-11-09,1996,cfb_0150,cfb_0074,wisconsin,minnesota,45,28,0,0,0,0,matched,1,163140275 1996-11-09T05:00 Minnesota Golden Gophers @ Wisconsin Badgers 28-45 ot=0
+73331,1996-11-14,1996,cfb_0067,cfb_0045,maryland,georgia-tech,13,10,0,0,0,0,matched,1,163190120 1996-11-14T05:00 Georgia Tech Yellow Jackets @ Maryland Terrapins 10-13 ot=0
+73332,1996-11-16,1996,cfb_0041,cfb_0001,fresno-state,air-force,38,44,0,0,0,0,matched,1,163210278 1996-11-16T05:00 Air Force Falcons @ Fresno State Bulldogs 44-38 ot=0
+73333,1996-11-16,1996,cfb_0006,cfb_0133,arizona,ucla,35,17,0,0,0,0,matched,1,163210012 1996-11-16T05:00 UCLA Bruins @ Arizona Wildcats 17-35 ot=0
+73334,1996-11-16,1996,cfb_0013,cfb_0130,ball-state,toledo,24,14,0,0,0,0,matched,1,163212050 1996-11-16T05:00 Toledo Rockets @ Ball State Cardinals 14-24 ot=0
+73335,1996-11-16,1996,cfb_0086,cfb_0015,new-mexico-state,boise-state,32,33,0,0,0,0,matched,1,163210166 1996-11-16T05:00 Boise State Broncos @ New Mexico State Aggies 33-32 ot=0
+73336,1996-11-16,1996,cfb_0016,cfb_0122,boston-college,temple,21,20,0,0,0,0,matched,1,163210103 1996-11-16T05:00 Temple Owls @ Boston College Eagles 20-21 ot=0
+73337,1996-11-16,1996,cfb_0046,cfb_0018,hawaii,brigham-young,14,45,0,,,,unmatched,0,
+73338,1996-11-16,1996,cfb_0023,cfb_0017,central-florida,bowling-green,27,19,0,0,0,0,matched,1,163212116 1996-11-16T05:00 Bowling Green Falcons @ UCF Knights 19-27 ot=0
+73339,1996-11-16,1996,cfb_0004,cfb_0027,alabama-birmingham,cincinnati,14,34,0,0,0,0,matched,1,163210005 1996-11-16T05:00 Cincinnati Bearcats @ UAB Blazers 34-14 ot=0
+73340,1996-11-16,1996,cfb_0029,cfb_0089,clemson,north-carolina-state,40,17,0,0,0,0,matched,1,163210228 1996-11-16T05:00 NC State Wolfpack @ Clemson Tigers 17-40 ot=0
+73341,1996-11-16,1996,cfb_0030,cfb_0058,colorado,kansas-state,12,0,0,0,0,0,matched,1,163210038 1996-11-16T05:00 Kansas State Wildcats @ Colorado Buffaloes 0-12 ot=0
+73342,1996-11-16,1996,cfb_0034,cfb_0097,east-carolina,ohio,55,45,0,0,0,0,matched,1,163210151 1996-11-16T05:00 Ohio Bobcats @ East Carolina Pirates 45-55 ot=0
+73343,1996-11-16,1996,cfb_0039,cfb_0114,florida,south-carolina,52,25,0,0,0,0,matched,1,163210057 1996-11-16T05:00 South Carolina Gamecocks @ Florida Gators 25-52 ot=0
+73344,1996-11-16,1996,cfb_0040,cfb_0118,florida-state,southern-mississippi,54,14,0,0,0,0,matched,1,163210052 1996-11-16T05:00 Southern Miss Golden Eagles @ Florida State Seminoles 14-54 ot=0
+73345,1996-11-16,1996,cfb_0011,cfb_0043,auburn,georgia,49,56,0,,,,unmatched,0,
+73346,1996-11-16,1996,cfb_0047,cfb_0066,houston,louisville,38,7,0,0,0,0,matched,1,163210248 1996-11-16T05:00 Louisville Cardinals @ Houston Cougars 7-38 ot=0
+73347,1996-11-16,1996,cfb_0054,cfb_0150,iowa,wisconsin,31,0,0,0,0,0,matched,1,163212294 1996-11-16T05:00 Wisconsin Badgers @ Iowa Hawkeyes 0-31 ot=0
+73348,1996-11-16,1996,cfb_0060,cfb_0136,kentucky,vanderbilt,25,0,0,0,0,0,matched,1,163210096 1996-11-16T05:00 Vanderbilt Commodores @ Kentucky Wildcats 0-25 ot=0
+73349,1996-11-16,1996,cfb_0075,cfb_0064,mississippi,louisiana-state,7,39,0,0,0,0,matched,1,163210145 1996-11-16T05:00 LSU Tigers @ Ole Miss Rebels 39-7 ot=0
+73350,1996-11-16,1996,cfb_0063,cfb_0056,louisiana-monroe,jacksonville-state,31,28,0,,,,unmatched,0,
+73351,1996-11-16,1996,cfb_0074,cfb_0050,minnesota,illinois,23,21,0,0,0,0,matched,1,163210135 1996-11-16T05:00 Illinois Fighting Illini @ Minnesota Golden Gophers 21-23 ot=0
+73352,1996-11-16,1996,cfb_0076,cfb_0003,mississippi-state,alabama,17,16,0,0,0,0,matched_agree,2,163210154 1996-11-16T05:00 Duke Blue Devils @ Wake Forest Demon Deacons 16-17 ot=0 || 163210344 1996-11-16T05:00 Alabama Crimson Tide @ Mississippi State Bulldogs 16-17 ot=0
+73353,1996-11-16,1996,cfb_0014,cfb_0077,baylor,missouri,42,49,0,0,0,0,matched,1,163210239 1996-11-16T05:00 Missouri Tigers @ Baylor Bears 49-42 ot=0
+73354,1996-11-16,1996,cfb_0081,cfb_0131,navy,tulane,35,21,0,0,0,0,matched,1,163212426 1996-11-16T05:00 Tulane Green Wave @ Navy Midshipmen 21-35 ot=0
+73355,1996-11-16,1996,cfb_0055,cfb_0082,iowa-state,nebraska,14,49,0,0,0,0,matched,1,163210066 1996-11-16T05:00 Nebraska Cornhuskers @ Iowa State Cyclones 49-14 ot=0
+73356,1996-11-16,1996,cfb_0083,cfb_0009,nevada,arkansas-state,66,14,0,0,0,0,matched,1,163212440 1996-11-16T05:00 Arkansas State Red Wolves @ Nevada Wolf Pack 14-66 ot=0
+73357,1996-11-16,1996,cfb_0084,cfb_0112,nevada-las-vegas,san-diego-state,44,42,0,0,0,0,matched,1,163212439 1996-11-16T05:00 San Diego State Aztecs @ UNLV Rebels 42-44 ot=0
+73358,1996-11-16,1996,cfb_0090,cfb_0048,north-texas,idaho,24,17,0,0,0,0,matched,1,163210249 1996-11-16T05:00 Idaho Vandals @ North Texas Mean Green 17-24 ot=0
+73359,1996-11-16,1996,cfb_0094,cfb_0106,northwestern,purdue,27,24,0,0,0,0,matched,1,163210077 1996-11-16T05:00 Purdue Boilermakers @ Northwestern Wildcats 24-27 ot=0
+73360,1996-11-16,1996,cfb_0096,cfb_0104,notre-dame,pittsburgh,60,6,0,0,0,0,matched,1,163210087 1996-11-16T05:00 Pittsburgh Panthers @ Notre Dame Fighting Irish 60-6 ot=0
+73361,1996-11-16,1996,cfb_0052,cfb_0098,indiana,ohio-state,17,27,0,0,0,0,matched,1,163210084 1996-11-16T05:00 Ohio State Buckeyes @ Indiana Hoosiers 27-17 ot=0
+73362,1996-11-16,1996,cfb_0101,cfb_0021,oregon,california,40,23,0,0,0,0,matched,1,163212483 1996-11-16T05:00 California Golden Bears @ Oregon Ducks 23-40 ot=0
+73363,1996-11-16,1996,cfb_0102,cfb_0092,oregon-state,northern-illinois,67,28,0,0,0,0,matched,1,163210204 1996-11-16T05:00 Northern Illinois Huskies @ Oregon State Beavers 28-67 ot=0
+73364,1996-11-16,1996,cfb_0071,cfb_0103,michigan,penn-state,17,29,0,0,0,0,matched,1,163210130 1996-11-16T05:00 Penn State Nittany Lions @ Michigan Wolverines 29-17 ot=0
+73365,1996-11-16,1996,cfb_0126,cfb_0107,texas-christian,rice,17,30,0,0,0,0,matched,1,163212628 1996-11-16T05:00 Rice Owls @ TCU Horned Frogs 30-17 ot=0
+73366,1996-11-16,1996,cfb_0120,cfb_0143,stanford,washington-state,33,17,0,0,0,0,matched,1,163210024 1996-11-16T05:00 Washington State Cougars @ Stanford Cardinal 17-33 ot=0
+73367,1996-11-16,1996,cfb_0121,cfb_0010,syracuse,army,42,17,0,0,0,0,matched_agree,2,163210183 1996-11-16T05:00 Army Black Knights @ Syracuse Orange 17-42 ot=0 || 163210276 1996-11-16T05:00 Furman Paladins @ Marshall Thundering Herd 17-42 ot=0
+73368,1996-11-16,1996,cfb_0123,cfb_0008,tennessee,arkansas,55,14,0,0,0,0,matched,1,163212633 1996-11-16T05:00 Arkansas Razorbacks @ Tennessee Volunteers 14-55 ot=0
+73369,1996-11-16,1996,cfb_0057,cfb_0124,kansas,texas,17,38,0,0,0,0,matched,1,163212305 1996-11-16T05:00 Texas Longhorns @ Kansas Jayhawks 38-17 ot=0
+73370,1996-11-16,1996,cfb_0125,cfb_0099,texas-a-m,oklahoma,33,16,0,0,0,0,matched,1,163210245 1996-11-16T05:00 Oklahoma Sooners @ Texas A&M Aggies 33-16 ot=0
+73371,1996-11-16,1996,cfb_0129,cfb_0062,texas-tech,louisiana,56,21,0,0,0,0,matched,1,163212641 1996-11-16T05:00 Louisiana Ragin' Cajuns @ Texas Tech Red Raiders 21-56 ot=0
+73372,1996-11-16,1996,cfb_0127,cfb_0132,texas-el-paso,tulsa,21,38,0,0,0,0,matched,1,163212638 1996-11-16T05:00 Tulsa Golden Hurricane @ UTEP Miners 38-21 ot=0
+73373,1996-11-16,1996,cfb_0138,cfb_0088,virginia,north-carolina,20,17,0,0,0,0,matched,1,163210258 1996-11-16T05:00 North Carolina Tar Heels @ Virginia Cavaliers 17-20 ot=0
+73374,1996-11-16,1996,cfb_0069,cfb_0140,miami-fl,virginia-tech,7,21,0,0,0,0,matched,1,163212390 1996-11-16T05:00 Virginia Tech Hokies @ Miami Hurricanes 21-7 ot=0
+73375,1996-11-16,1996,cfb_0141,cfb_0033,wake-forest,duke,17,16,0,0,0,0,matched_agree,2,163210154 1996-11-16T05:00 Duke Blue Devils @ Wake Forest Demon Deacons 16-17 ot=0 || 163210344 1996-11-16T05:00 Alabama Crimson Tide @ Mississippi State Bulldogs 16-17 ot=0
+73376,1996-11-16,1996,cfb_0142,cfb_0113,washington,san-jose-state,53,10,0,0,0,0,matched,1,163210023 1996-11-16T05:00 Washington Huskies @ San José State Spartans 53-10 ot=0
+73377,1996-11-16,1996,cfb_0148,cfb_0059,western-michigan,kent-state,76,27,0,0,0,0,matched,1,163212711 1996-11-16T05:00 Kent State Golden Flashes @ Western Michigan Broncos 27-76 ot=0
+73378,1996-11-16,1996,cfb_0031,cfb_0151,colorado-state,wyoming,24,25,0,0,0,0,matched,1,163210036 1996-11-16T05:00 Wyoming Cowboys @ Colorado State Rams 25-24 ot=0
+73379,1996-11-21,1996,cfb_0004,cfb_0025,alabama-birmingham,charleston-southern,49,13,0,0,0,0,matched,1,163260005 1996-11-21T05:00 Charleston Southern Buccaneers @ UAB Blazers 13-49 ot=0
+73380,1996-11-21,1996,cfb_0117,cfb_0126,southern-methodist,texas-christian,27,24,0,0,0,0,matched,1,163262567 1996-11-21T05:00 TCU Horned Frogs @ SMU Mustangs 24-27 ot=0
+73381,1996-11-23,1996,cfb_0003,cfb_0011,alabama,auburn,24,23,0,0,0,0,matched,1,163280333 1996-11-23T05:00 Auburn Tigers @ Alabama Crimson Tide 23-24 ot=0
+73382,1996-11-23,1996,cfb_0006,cfb_0007,arizona,arizona-state,14,56,0,0,0,0,matched,1,163280012 1996-11-23T05:00 Arizona State Sun Devils @ Arizona Wildcats 56-14 ot=0
+73383,1996-11-23,1996,cfb_0076,cfb_0008,mississippi-state,arkansas,13,16,0,0,0,0,matched,1,163280344 1996-11-23T05:00 Arkansas Razorbacks @ Mississippi State Bulldogs 16-13 ot=0
+73384,1996-11-23,1996,cfb_0134,cfb_0018,utah,brigham-young,17,37,0,0,0,0,matched,1,163280197 1996-11-23T05:00 Baylor Bears @ Oklahoma State Cowboys 17-37 ot=0
+73385,1996-11-23,1996,cfb_0027,cfb_0063,cincinnati,louisiana-monroe,35,13,0,0,0,0,matched,1,163282132 1996-11-23T05:00 UL Monroe Warhawks @ Cincinnati Bearcats 13-35 ot=0
+73386,1996-11-23,1996,cfb_0068,cfb_0034,memphis,east-carolina,10,20,0,0,0,0,matched,1,163280235 1996-11-23T05:00 East Carolina Pirates @ Memphis Tigers 20-10 ot=0
+73387,1996-11-23,1996,cfb_0040,cfb_0067,florida-state,maryland,48,10,0,0,0,0,matched,1,163280120 1996-11-23T05:00 Florida State Seminoles @ Maryland Terrapins 48-10 ot=0
+73388,1996-11-23,1996,cfb_0015,cfb_0048,boise-state,idaho,19,64,0,0,0,0,matched,1,163280068 1996-11-23T05:00 Idaho Vandals @ Boise State Broncos 64-19 ot=0
+73389,1996-11-23,1996,cfb_0106,cfb_0052,purdue,indiana,16,33,0,0,0,0,matched,1,163282509 1996-11-23T05:00 Indiana Hoosiers @ Purdue Boilermakers 33-16 ot=0
+73390,1996-11-23,1996,cfb_0074,cfb_0054,minnesota,iowa,24,43,0,0,0,0,matched,1,163280135 1996-11-23T05:00 Iowa Hawkeyes @ Minnesota Golden Gophers 43-24 ot=0
+73391,1996-11-23,1996,cfb_0058,cfb_0055,kansas-state,iowa-state,35,20,0,0,0,0,matched,1,163282306 1996-11-23T05:00 Iowa State Cyclones @ Kansas State Wildcats 20-35 ot=0
+73392,1996-11-23,1996,cfb_0064,cfb_0131,louisiana-state,tulane,35,17,0,0,0,0,matched,1,163280099 1996-11-23T05:00 Tulane Green Wave @ LSU Tigers 17-35 ot=0
+73393,1996-11-23,1996,cfb_0069,cfb_0016,miami-fl,boston-college,43,26,0,0,0,0,matched,1,163282390 1996-11-23T05:00 Boston College Eagles @ Miami Hurricanes 26-43 ot=0
+73394,1996-11-23,1996,cfb_0098,cfb_0071,ohio-state,michigan,9,13,0,0,0,0,matched,1,163280194 1996-11-23T05:00 Michigan Wolverines @ Ohio State Buckeyes 13-9 ot=0
+73395,1996-11-23,1996,cfb_0043,cfb_0075,georgia,mississippi,27,31,0,0,0,0,matched,1,163280061 1996-11-23T05:00 Ole Miss Rebels @ Georgia Bulldogs 31-27 ot=0
+73396,1996-11-23,1996,cfb_0077,cfb_0057,missouri,kansas,42,25,0,0,0,0,matched,1,163280142 1996-11-23T05:00 Kansas Jayhawks @ Missouri Tigers 25-42 ot=0
+73397,1996-11-23,1996,cfb_0045,cfb_0081,georgia-tech,navy,26,36,0,0,0,0,matched,1,163280059 1996-11-23T05:00 Navy Midshipmen @ Georgia Tech Yellow Jackets 36-26 ot=0
+73398,1996-11-23,1996,cfb_0085,cfb_0127,new-mexico,texas-el-paso,44,17,0,0,0,0,matched,1,163280167 1996-11-23T05:00 UTEP Miners @ New Mexico Lobos 17-44 ot=0
+73399,1996-11-23,1996,cfb_0033,cfb_0088,duke,north-carolina,10,27,0,0,0,0,matched,1,163280150 1996-11-23T05:00 North Carolina Tar Heels @ Duke Blue Devils 27-10 ot=0
+73400,1996-11-23,1996,cfb_0089,cfb_0141,north-carolina-state,wake-forest,37,22,0,0,0,0,matched,1,163280152 1996-11-23T05:00 Wake Forest Demon Deacons @ NC State Wolfpack 22-37 ot=0
+73401,1996-11-23,1996,cfb_0096,cfb_0108,notre-dame,rutgers,62,0,0,0,0,0,matched,1,163280087 1996-11-23T05:00 Rutgers Scarlet Knights @ Notre Dame Fighting Irish 0-62 ot=0
+73402,1996-11-23,1996,cfb_0100,cfb_0014,oklahoma-state,baylor,37,17,0,0,0,0,matched,1,163280197 1996-11-23T05:00 Baylor Bears @ Oklahoma State Cowboys 17-37 ot=0
+73403,1996-11-23,1996,cfb_0102,cfb_0101,oregon-state,oregon,13,49,0,0,0,0,matched,1,163280204 1996-11-23T05:00 Oregon Ducks @ Oregon State Beavers 49-13 ot=0
+73404,1996-11-23,1996,cfb_0103,cfb_0072,penn-state,michigan-state,32,29,0,0,0,0,matched,1,163280213 1996-11-23T05:00 Michigan State Spartans @ Penn State Nittany Lions 29-32 ot=0
+73405,1996-11-23,1996,cfb_0107,cfb_0132,rice,tulsa,42,14,0,0,0,0,matched,1,163280242 1996-11-23T05:00 Tulsa Golden Hurricane @ Rice Owls 14-42 ot=0
+73406,1996-11-23,1996,cfb_0112,cfb_0041,san-diego-state,fresno-state,31,21,0,0,0,0,matched,1,163280021 1996-11-23T05:00 Fresno State Bulldogs @ San Diego State Aztecs 21-31 ot=0
+73407,1996-11-23,1996,cfb_0113,cfb_0084,san-jose-state,nevada-las-vegas,31,28,0,0,0,0,matched,1,163280023 1996-11-23T05:00 UNLV Rebels @ San José State Spartans 28-31 ot=0
+73408,1996-11-23,1996,cfb_0029,cfb_0114,clemson,south-carolina,31,34,0,0,0,0,matched,1,163280228 1996-11-23T05:00 South Carolina Gamecocks @ Clemson Tigers 34-31 ot=0
+73409,1996-11-23,1996,cfb_0021,cfb_0120,california,stanford,21,42,0,0,0,0,matched,1,163280025 1996-11-23T05:00 Stanford Cardinal @ California Golden Bears 42-21 ot=0
+73410,1996-11-23,1996,cfb_0122,cfb_0121,temple,syracuse,15,36,0,0,0,0,matched,1,163280218 1996-11-23T05:00 Syracuse Orange @ Temple Owls 36-15 ot=0
+73411,1996-11-23,1996,cfb_0123,cfb_0060,tennessee,kentucky,56,10,0,0,0,0,matched,1,163282633 1996-11-23T05:00 Kentucky Wildcats @ Tennessee Volunteers 10-56 ot=0
+73412,1996-11-23,1996,cfb_0099,cfb_0129,oklahoma,texas-tech,12,22,0,0,0,0,matched,1,163280201 1996-11-23T05:00 Texas Tech Red Raiders @ Oklahoma Sooners 22-12 ot=0
+73413,1996-11-23,1996,cfb_0097,cfb_0130,ohio,toledo,23,24,0,0,0,0,matched,1,163280195 1996-11-23T05:00 Toledo Rockets @ Ohio Bobcats 24-23 ot=0
+73414,1996-11-23,1996,cfb_0133,cfb_0116,ucla,southern-california,48,41,0,1,0,0,matched,1,163280026 1996-11-23T05:00 USC Trojans @ UCLA Bruins 41-48 ot=1
+73415,1996-11-23,1996,cfb_0140,cfb_0145,virginia-tech,west-virginia,31,14,0,0,0,0,matched,1,163280259 1996-11-23T05:00 West Virginia Mountaineers @ Virginia Tech Hokies 14-31 ot=0
+73416,1996-11-23,1996,cfb_0143,cfb_0142,washington-state,washington,24,31,0,0,0,0,matched,1,163280265 1996-11-23T05:00 Washington Huskies @ Washington State Cougars 31-24 ot=0
+73417,1996-11-23,1996,cfb_0050,cfb_0150,illinois,wisconsin,15,35,0,0,0,0,matched,1,163280356 1996-11-23T05:00 Wisconsin Badgers @ Illinois Fighting Illini 35-15 ot=0
+73418,1996-11-28,1996,cfb_0112,cfb_0001,san-diego-state,air-force,28,23,0,0,0,0,matched,1,163330021 1996-11-28T05:00 Air Force Falcons @ San Diego State Aztecs 23-28 ot=0
+73419,1996-11-29,1996,cfb_0008,cfb_0064,arkansas,louisiana-state,7,17,0,0,0,0,matched,1,163340008 1996-11-29T05:00 LSU Tigers @ Arkansas Razorbacks 17-7 ot=0
+73420,1996-11-29,1996,cfb_0082,cfb_0030,nebraska,colorado,17,12,0,0,0,0,matched,1,163340158 1996-11-29T05:00 Colorado Buffaloes @ Nebraska Cornhuskers 12-17 ot=0
+73421,1996-11-29,1996,cfb_0124,cfb_0125,texas,texas-a-m,51,15,0,0,0,0,matched,1,163340251 1996-11-29T05:00 Texas A&M Aggies @ Texas Longhorns 15-51 ot=0
+73422,1996-11-29,1996,cfb_0140,cfb_0138,virginia-tech,virginia,26,9,0,0,0,0,matched,1,163340259 1996-11-29T05:00 Virginia Cavaliers @ Virginia Tech Hokies 9-26 ot=0
+73423,1996-11-30,1996,cfb_0034,cfb_0089,east-carolina,north-carolina-state,50,29,0,0,0,0,matched,1,163350152 1996-11-30T05:00 East Carolina Pirates @ NC State Wolfpack 50-29 ot=0
+73424,1996-11-30,1996,cfb_0040,cfb_0039,florida-state,florida,24,21,0,0,0,0,matched,1,163350052 1996-11-30T05:00 Florida Gators @ Florida State Seminoles 24-21 ot=0
+73425,1996-11-30,1996,cfb_0043,cfb_0045,georgia,georgia-tech,19,10,0,0,0,0,matched,1,163350061 1996-11-30T05:00 Georgia Tech Yellow Jackets @ Georgia Bulldogs 10-19 ot=0
+73426,1996-11-30,1996,cfb_0121,cfb_0069,syracuse,miami-fl,31,38,0,0,0,0,matched,1,163350183 1996-11-30T05:00 Miami Hurricanes @ Syracuse Orange 38-31 ot=0
+73427,1996-11-30,1996,cfb_0075,cfb_0076,mississippi,mississippi-state,0,17,0,0,0,0,matched,1,163350145 1996-11-30T05:00 Mississippi State Bulldogs @ Ole Miss Rebels 17-0 ot=0
+73428,1996-11-30,1996,cfb_0104,cfb_0108,pittsburgh,rutgers,24,9,0,0,0,0,matched,1,163350221 1996-11-30T05:00 Rutgers Scarlet Knights @ Pittsburgh Panthers 9-24 ot=0
+73429,1996-11-30,1996,cfb_0116,cfb_0096,southern-california,notre-dame,27,20,0,1,0,0,matched_agree,2,163350030 1996-11-30T05:00 Notre Dame Fighting Irish @ USC Trojans 20-27 ot=1 || 163352579 1996-11-30T05:00 Notre Dame Fighting Irish @ South Carolina Gamecocks 20-27 ot=1
+73430,1996-11-30,1996,cfb_0136,cfb_0123,vanderbilt,tennessee,7,14,0,0,0,0,matched,1,163350238 1996-11-30T05:00 Tennessee Volunteers @ Vanderbilt Commodores 14-7 ot=0
+73431,1996-11-30,1996,cfb_0046,cfb_0150,hawaii,wisconsin,10,59,0,0,0,0,matched,1,163350062 1996-11-30T05:00 Wisconsin Badgers @ Hawai'i Rainbow Warriors 59-10 ot=0
+73432,1996-12-07,1996,cfb_0010,cfb_0081,army,navy,28,24,0,0,0,0,matched,1,163420349 1996-12-07T05:00 Navy Midshipmen @ Army Black Knights 24-28 ot=0
+73433,1996-12-07,1996,cfb_0018,cfb_0151,brigham-young,wyoming,28,25,0,,,,unmatched,0,
+73434,1996-12-07,1996,cfb_0003,cfb_0039,alabama,florida,30,45,0,0,0,0,matched,1,163420057 1996-12-07T05:00 Alabama Crimson Tide @ Florida Gators 30-45 ot=0
+73435,1996-12-07,1996,cfb_0082,cfb_0124,nebraska,texas,27,37,0,0,0,0,matched,1,163420251 1996-12-07T05:00 Nebraska Cornhuskers @ Texas Longhorns 27-37 ot=0
+73436,1996-12-19,1996,cfb_0013,cfb_0083,ball-state,nevada,15,18,0,0,0,0,matched,1,163542440 1996-12-19T05:00 Ball State Cardinals @ Nevada Wolf Pack 15-18 ot=0
+73437,1996-12-25,1996,cfb_0021,cfb_0081,california,navy,38,42,0,0,0,0,matched,1,163600025 1996-12-25T05:00 Navy Midshipmen @ California Golden Bears 42-38 ot=0
+73438,1996-12-27,1996,cfb_0069,cfb_0138,miami-fl,virginia,31,21,0,0,0,0,matched,1,163620258 1996-12-27T05:00 Miami Hurricanes @ Virginia Cavaliers 31-21 ot=0
+73439,1996-12-27,1996,cfb_0047,cfb_0121,houston,syracuse,17,30,0,0,0,0,matched,1,163620183 1996-12-27T05:00 Houston Cougars @ Syracuse Orange 17-30 ot=0
+73440,1996-12-27,1996,cfb_0134,cfb_0150,utah,wisconsin,10,38,0,0,0,0,matched,1,163620254 1996-12-27T05:00 Wisconsin Badgers @ Utah Utes 38-10 ot=0
+73441,1996-12-28,1996,cfb_0029,cfb_0064,clemson,louisiana-state,7,10,0,0,0,0,matched,1,163630099 1996-12-28T05:00 Clemson Tigers @ LSU Tigers 7-10 ot=0
+73442,1996-12-29,1996,cfb_0054,cfb_0129,iowa,texas-tech,27,0,0,0,0,0,matched,1,163642294 1996-12-29T05:00 Texas Tech Red Raiders @ Iowa Hawkeyes 0-27 ot=0
+73443,1996-12-30,1996,cfb_0030,cfb_0142,colorado,washington,33,21,0,0,0,0,matched,1,163650264 1996-12-30T05:00 Colorado Buffaloes @ Washington Huskies 33-21 ot=0
+73444,1996-12-31,1996,cfb_0010,cfb_0011,army,auburn,29,32,0,0,0,0,matched,1,163660349 1996-12-31T05:00 Auburn Tigers @ Army Black Knights 32-29 ot=0
+73445,1996-12-31,1996,cfb_0082,cfb_0140,nebraska,virginia-tech,41,21,0,0,0,0,matched,1,163660158 1996-12-31T05:00 Virginia Tech Hokies @ Nebraska Cornhuskers 21-41 ot=0
+73446,1996-12-31,1996,cfb_0072,cfb_0120,michigan-state,stanford,0,38,0,0,0,0,matched,1,163660024 1996-12-31T05:00 Michigan State Spartans @ Stanford Cardinal 0-38 ot=0
+73447,1997-01-01,1996,cfb_0003,cfb_0071,alabama,michigan,17,14,0,,,,unmatched,0,
+73448,1997-01-01,1996,cfb_0018,cfb_0058,brigham-young,kansas-state,19,15,0,,,,unmatched,0,
+73449,1997-01-01,1996,cfb_0088,cfb_0145,north-carolina,west-virginia,20,13,0,,,,unmatched,0,
+73450,1997-01-01,1996,cfb_0007,cfb_0098,arizona-state,ohio-state,17,20,0,,,,unmatched,0,
+73451,1997-01-01,1996,cfb_0103,cfb_0124,penn-state,texas,38,15,0,,,,unmatched,0,
+73452,1997-01-01,1996,cfb_0094,cfb_0123,northwestern,tennessee,28,48,0,,,,unmatched,0,
+73453,1997-01-02,1996,cfb_0039,cfb_0040,florida,florida-state,52,20,0,,,,unmatched,0,
