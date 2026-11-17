@@ -1,0 +1,30 @@
+date,home_code,away_code,new_neutral,round,db_neutral,espn_neutral,season,game_id,host,info
+2013-08-31,louisiana-state,texas-christian,0,,1,,2013,85580,texas-christian,AT&T Stadium - Arlington TX | louisiana-state 37-27 texas-christian
+2013-12-21,louisiana,tulane,0,BOWL,1,,2013,86352,tulane,New Orleans Bowl (New Orleans LA) | louisiana 24-21 tulane
+2014-08-30,navy,ohio-state,0,,1,,2014,86445,navy,M&T Bank Stadium - Baltimore MD | navy 17-34 ohio-state
+2014-11-01,navy,notre-dame,0,,1,,2014,86960,navy,FedEx Field - Landover MD | navy 39-49 notre-dame
+2014-11-08,army,connecticut,0,,1,,2014,86993,army,Yankee Stadium - Bronx NY | army 35-21 connecticut
+2014-12-13,army,navy,0,,1,,2014,87214,navy,M&T Bank Stadium - Baltimore MD | army 10-17 navy
+2014-12-23,navy,san-diego-state,0,BOWL,1,,2014,87222,san-diego-state,Poinsettia Bowl (San Diego CA) | navy 17-16 san-diego-state
+2014-12-30,maryland,stanford,0,BOWL,1,,2014,87238,stanford,Foster Farms Bowl (Santa Clara CA) | maryland 21-45 stanford
+2015-10-24,maryland,penn-state,0,,1,,2015,87755,maryland,M&T Bank Stadium - Baltimore Maryland | maryland 30-31 penn-state
+2015-11-21,boston-college,notre-dame,0,,1,,2015,87984,boston-college,Fenway Park - Boston Massachusetts | boston-college 16-19 notre-dame
+2015-12-19,arizona,new-mexico,0,BOWL,1,,2015,88084,new-mexico,New Mexico Bowl (Albuquerque NM) | arizona 45-37 new-mexico
+2015-12-28,navy,pittsburgh,0,BOWL,1,,2015,88102,navy,Military Bowl (Annapolis MD) | navy 44-28 pittsburgh
+2016-01-02,arizona-state,west-virginia,0,BOWL,1,,2015,88122,arizona-state,Cactus Bowl (Tempe AZ) | arizona-state 42-43 west-virginia
+2016-09-03,houston,oklahoma,0,,1,,2016,88171,houston,NRG Stadium - Houston Texas | houston 33-23 oklahoma
+2016-12-10,army,navy,0,,1,,2016,88966,navy,M&T Bank Stadium - Baltimore Maryland | army 21-17 navy
+2017-01-02,penn-state,southern-california,0,BOWL,1,,2016,89005,southern-california,Rose Bowl (Pasadena CA) | penn-state 49-52 southern-california
+2017-08-31,arkansas,florida-a-m,0,,1,,2017,89015,arkansas,War Memorial Stadium - Little Rock Arkansas | arkansas 49-7 florida-a-m
+2017-09-04,georgia-tech,tennessee,0,,1,,2017,89099,georgia-tech,Mercedes-Benz Stadium - Atlanta Georgia | georgia-tech 41-42 tennessee
+2017-11-18,boston-college,connecticut,0,,1,,2017,89719,boston-college,Fenway Park - Boston Massachusetts | boston-college 39-16 connecticut
+2018-09-01,maryland,texas,0,,1,,2018,89945,maryland,FedExField - Landover Maryland | maryland 34-29 texas
+2018-09-15,ohio-state,texas-christian,0,,1,,2018,90100,texas-christian,AT&T Stadium - Arlington Texas | ohio-state 40-28 texas-christian
+2018-10-13,army,san-jose-state,0,,1,,2018,90306,san-jose-state,Levi's Stadium - Santa Clara California | army 52-3 san-jose-state
+2018-12-22,hawaii,louisiana-tech,0,BOWL,1,,2018,90746,hawaii,Hawaii Bowl (Aloha Stadium - Honolulu Hawaii) | hawaii 14-31 louisiana-tech
+2019-09-13,houston,washington-state,0,,1,,2019,90935,houston,NRG Stadium - Houston Texas | houston 24-31 washington-state
+2019-09-14,rice,texas,0,,1,,2019,90989,rice,NRG Stadium - Houston Texas | rice 13-48 texas
+2021-09-04,houston,texas-tech,0,,1,,2021,92310,houston,NRG Stadium - Houston Texas | houston 21-38 texas-tech
+2021-09-25,georgia-tech,north-carolina,0,,1,,2021,92501,georgia-tech,Mercedes-Benz Stadium - Atlanta Georgia | georgia-tech 45-22 north-carolina
+2021-11-20,northwestern,purdue,0,,1,,2021,92989,northwestern,Wrigley Field - Chicago Illinois | northwestern 14-32 purdue
+2021-12-11,army,navy,0,,1,,2021,93080,army,MetLife Stadium - East Rutherford New Jersey | army 13-17 navy

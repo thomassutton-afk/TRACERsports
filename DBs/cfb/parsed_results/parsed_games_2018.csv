@@ -1,0 +1,1769 @@
+Date,Season,Type,Round,Team,Opp,HomeAway,PointsFor,PointsAgainst,OT,TeamAPRank,OppAPRank,Notes
+2018-08-25,2018,R,,hawaii,colorado-state,A,43,34,0,,,Sonny Lubick Field at Canvas Stadium - Fort Collins Colorado
+2018-08-25,2018,R,,colorado-state,hawaii,H,34,43,0,,,Sonny Lubick Field at Canvas Stadium - Fort Collins Colorado
+2018-08-25,2018,R,,massachusetts,duquesne,H,63,15,0,,,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+2018-08-25,2018,R,,duquesne,massachusetts,A,15,63,0,,,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+2018-08-25,2018,R,,rice,prairie-view-a-m,H,31,28,0,,,Rice Stadium - Houston Texas
+2018-08-25,2018,R,,prairie-view-a-m,rice,A,28,31,0,,,Rice Stadium - Houston Texas
+2018-08-25,2018,R,,wyoming,new-mexico-state,A,29,7,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2018-08-25,2018,R,,new-mexico-state,wyoming,H,7,29,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2018-08-30,2018,R,,alabama-birmingham,savannah-state,H,52,0,0,,,Legion Field - Birmingham Alabama
+2018-08-30,2018,R,,savannah-state,alabama-birmingham,A,0,52,0,,,Legion Field - Birmingham Alabama
+2018-08-30,2018,R,,ball-state,central-connecticut-state,H,42,6,0,,,Scheumann Stadium - Muncie Indiana
+2018-08-30,2018,R,,central-connecticut-state,ball-state,A,6,42,0,,,Scheumann Stadium - Muncie Indiana
+2018-08-30,2018,R,,california-davis,san-jose-state,A,44,38,0,,,CEFCU Stadium - San Jose California
+2018-08-30,2018,R,,san-jose-state,california-davis,H,38,44,0,,,CEFCU Stadium - San Jose California
+2018-08-30,2018,R,,central-florida,connecticut,A,56,17,0,21.0,,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+2018-08-30,2018,R,,connecticut,central-florida,H,17,56,0,,21.0,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+2018-08-30,2018,R,,georgia-state,kennesaw-state,H,24,20,0,,,Georgia State Stadium - Atlanta Georgia
+2018-08-30,2018,R,,kennesaw-state,georgia-state,A,20,24,0,,,Georgia State Stadium - Atlanta Georgia
+2018-08-30,2018,R,,louisiana-monroe,southeastern-louisiana,H,34,31,0,,,Malone Stadium - Monroe Louisiana
+2018-08-30,2018,R,,southeastern-louisiana,louisiana-monroe,A,31,34,0,,,Malone Stadium - Monroe Louisiana
+2018-08-30,2018,R,,minnesota,new-mexico-state,H,48,10,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2018-08-30,2018,R,,new-mexico-state,minnesota,A,10,48,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2018-08-30,2018,R,,northwestern,purdue,A,31,27,0,,,Ross-Ade Stadium - West Lafayette Indiana
+2018-08-30,2018,R,,purdue,northwestern,H,27,31,0,,,Ross-Ade Stadium - West Lafayette Indiana
+2018-08-30,2018,R,,oklahoma-state,missouri-state,H,58,17,0,,,Boone Pickens Stadium - Stillwater Oklahoma
+2018-08-30,2018,R,,missouri-state,oklahoma-state,A,17,58,0,,,Boone Pickens Stadium - Stillwater Oklahoma
+2018-08-30,2018,R,,texas-a-m,northwestern-state,H,59,7,0,,,Kyle Field - College Station Texas
+2018-08-30,2018,R,,northwestern-state,texas-a-m,A,7,59,0,,,Kyle Field - College Station Texas
+2018-08-30,2018,R,,utah,weber-state,H,41,10,0,,,Rice-Eccles Stadium - Salt Lake City Utah
+2018-08-30,2018,R,,weber-state,utah,A,10,41,0,,,Rice-Eccles Stadium - Salt Lake City Utah
+2018-08-30,2018,R,,wake-forest,tulane,A,23,17,0,,,Yulman Stadium - New Orleans Louisiana
+2018-08-30,2018,R,,tulane,wake-forest,H,17,23,0,,,Yulman Stadium - New Orleans Louisiana
+2018-08-31,2018,R,,colorado,colorado-state,N,45,13,0,,,Broncos Stadium at Mile High - Denver Colorado
+2018-08-31,2018,R,,colorado-state,colorado,N,13,45,0,,,Broncos Stadium at Mile High - Denver Colorado
+2018-08-31,2018,R,,duke,army,H,34,14,0,,,Wallace Wade Stadium - Durham North Carolina
+2018-08-31,2018,R,,army,duke,A,14,34,0,,,Wallace Wade Stadium - Durham North Carolina
+2018-08-31,2018,R,,eastern-michigan,monmouth,H,51,17,0,,,Rynearson Stadium - Ypsilanti Michigan
+2018-08-31,2018,R,,monmouth,eastern-michigan,A,17,51,0,,,Rynearson Stadium - Ypsilanti Michigan
+2018-08-31,2018,R,,michigan-state,utah-state,H,38,31,0,11.0,,Spartan Stadium - East Lansing Michigan
+2018-08-31,2018,R,,utah-state,michigan-state,A,31,38,0,,11.0,Spartan Stadium - East Lansing Michigan
+2018-08-31,2018,R,,nevada,portland-state,H,72,19,0,,,MacKay Stadium - Reno Nevada
+2018-08-31,2018,R,,portland-state,nevada,A,19,72,0,,,MacKay Stadium - Reno Nevada
+2018-08-31,2018,R,,stanford,san-diego-state,H,31,10,0,13.0,,Stanford Stadium - Stanford California
+2018-08-31,2018,R,,san-diego-state,stanford,A,10,31,0,,13.0,Stanford Stadium - Stanford California
+2018-08-31,2018,R,,syracuse,western-michigan,A,55,42,0,,,Waldo Stadium - Kalamazoo Michigan
+2018-08-31,2018,R,,western-michigan,syracuse,H,42,55,0,,,Waldo Stadium - Kalamazoo Michigan
+2018-08-31,2018,R,,wisconsin,western-kentucky,H,34,3,0,4.0,,Camp Randall Stadium - Madison Wisconsin
+2018-08-31,2018,R,,western-kentucky,wisconsin,A,3,34,0,,4.0,Camp Randall Stadium - Madison Wisconsin
+2018-09-01,2018,R,,air-force,stony-brook,H,38,0,0,,,Falcon Stadium - Colorado Springs Colorado
+2018-09-01,2018,R,,stony-brook,air-force,A,0,38,0,,,Falcon Stadium - Colorado Springs Colorado
+2018-09-01,2018,R,,alabama,louisville,N,51,14,0,1.0,,Camping World Stadium - Orlando Florida
+2018-09-01,2018,R,,louisville,alabama,N,14,51,0,,1.0,Camping World Stadium - Orlando Florida
+2018-09-01,2018,R,,arizona-state,texas-san-antonio,H,49,7,0,,,Sun Devil Stadium - Tempe Arizona
+2018-09-01,2018,R,,texas-san-antonio,arizona-state,A,7,49,0,,,Sun Devil Stadium - Tempe Arizona
+2018-09-01,2018,R,,arkansas,eastern-illinois,H,55,20,0,,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2018-09-01,2018,R,,eastern-illinois,arkansas,A,20,55,0,,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2018-09-01,2018,R,,arkansas-state,southeast-missouri-state,H,48,21,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2018-09-01,2018,R,,southeast-missouri-state,arkansas-state,A,21,48,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2018-09-01,2018,R,,auburn,washington,N,21,16,0,9.0,6.0,Mercedes-Benz Stadium - Atlanta Georgia
+2018-09-01,2018,R,,washington,auburn,N,16,21,0,6.0,9.0,Mercedes-Benz Stadium - Atlanta Georgia
+2018-09-01,2018,R,,baylor,abilene-christian,H,55,27,0,,,McLane Stadium - Waco Texas
+2018-09-01,2018,R,,abilene-christian,baylor,A,27,55,0,,,McLane Stadium - Waco Texas
+2018-09-01,2018,R,,boise-state,troy,A,56,20,0,22.0,,Veterans Memorial Stadium - Troy Alabama
+2018-09-01,2018,R,,troy,boise-state,H,20,56,0,,22.0,Veterans Memorial Stadium - Troy Alabama
+2018-09-01,2018,R,,boston-college,massachusetts,H,55,21,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2018-09-01,2018,R,,massachusetts,boston-college,A,21,55,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2018-09-01,2018,R,,brigham-young,arizona,A,28,23,0,,,Arizona Stadium - Tucson Arizona
+2018-09-01,2018,R,,arizona,brigham-young,H,23,28,0,,,Arizona Stadium - Tucson Arizona
+2018-09-01,2018,R,,buffalo,delaware-state,H,48,10,0,,,UB Stadium - Buffalo New York
+2018-09-01,2018,R,,delaware-state,buffalo,A,10,48,0,,,UB Stadium - Buffalo New York
+2018-09-01,2018,R,,california,north-carolina,H,24,17,0,,,California Memorial Stadium - Berkeley California
+2018-09-01,2018,R,,north-carolina,california,A,17,24,0,,,California Memorial Stadium - Berkeley California
+2018-09-01,2018,R,,charlotte,fordham,H,34,10,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2018-09-01,2018,R,,fordham,charlotte,A,10,34,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2018-09-01,2018,R,,cincinnati,ucla,A,26,17,0,,,Rose Bowl - Pasadena California
+2018-09-01,2018,R,,ucla,cincinnati,H,17,26,0,,,Rose Bowl - Pasadena California
+2018-09-01,2018,R,,clemson,furman,H,48,7,0,2.0,,Clemson Memorial Stadium - Clemson South Carolina
+2018-09-01,2018,R,,furman,clemson,A,7,48,0,,2.0,Clemson Memorial Stadium - Clemson South Carolina
+2018-09-01,2018,R,,florida,charleston-southern,H,53,6,0,,,Ben Hill Griffin Stadium - Gainesville Florida
+2018-09-01,2018,R,,charleston-southern,florida,A,6,53,0,,,Ben Hill Griffin Stadium - Gainesville Florida
+2018-09-01,2018,R,,fresno-state,idaho,H,79,13,0,,,Bulldog Stadium - Fresno California
+2018-09-01,2018,R,,idaho,fresno-state,A,13,79,0,,,Bulldog Stadium - Fresno California
+2018-09-01,2018,R,,georgia,austin-peay,H,45,0,0,3.0,,Sanford Stadium - Athens Georgia
+2018-09-01,2018,R,,austin-peay,georgia,A,0,45,0,,3.0,Sanford Stadium - Athens Georgia
+2018-09-01,2018,R,,georgia-southern,south-carolina-state,H,37,6,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2018-09-01,2018,R,,south-carolina-state,georgia-southern,A,6,37,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2018-09-01,2018,R,,georgia-tech,alcorn-state,H,41,0,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2018-09-01,2018,R,,alcorn-state,georgia-tech,A,0,41,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2018-09-01,2018,R,,hawaii,navy,H,59,41,0,,,Aloha Stadium - Honolulu Hawaii
+2018-09-01,2018,R,,navy,hawaii,A,41,59,0,,,Aloha Stadium - Honolulu Hawaii
+2018-09-01,2018,R,,houston,rice,A,45,27,0,,,Rice Stadium - Houston Texas
+2018-09-01,2018,R,,rice,houston,H,27,45,0,,,Rice Stadium - Houston Texas
+2018-09-01,2018,R,,illinois,kent-state,H,31,24,0,,,Memorial Stadium - Champaign Illinois
+2018-09-01,2018,R,,kent-state,illinois,A,24,31,0,,,Memorial Stadium - Champaign Illinois
+2018-09-01,2018,R,,indiana,florida-international,A,38,28,0,,,Riccardo Silva Stadium - Miami Florida
+2018-09-01,2018,R,,florida-international,indiana,H,28,38,0,,,Riccardo Silva Stadium - Miami Florida
+2018-09-01,2018,R,,iowa,northern-illinois,H,33,7,0,,,Kinnick Stadium - Iowa City Iowa
+2018-09-01,2018,R,,northern-illinois,iowa,A,7,33,0,,,Kinnick Stadium - Iowa City Iowa
+2018-09-01,2018,R,,kansas-state,south-dakota,H,27,24,0,,,Bill Snyder Family Stadium - Manhattan Kansas
+2018-09-01,2018,R,,south-dakota,kansas-state,A,24,27,0,,,Bill Snyder Family Stadium - Manhattan Kansas
+2018-09-01,2018,R,,kentucky,central-michigan,H,35,20,0,,,Kroger Field - Lexington Kentucky
+2018-09-01,2018,R,,central-michigan,kentucky,A,20,35,0,,,Kroger Field - Lexington Kentucky
+2018-09-01,2018,R,,liberty,old-dominion,H,52,10,0,,,Williams Stadium - Lynchburg Virginia
+2018-09-01,2018,R,,old-dominion,liberty,A,10,52,0,,,Williams Stadium - Lynchburg Virginia
+2018-09-01,2018,R,,louisiana,grambling-state,H,49,17,0,,,Cajun Field - Lafayette Louisiana
+2018-09-01,2018,R,,grambling-state,louisiana,A,17,49,0,,,Cajun Field - Lafayette Louisiana
+2018-09-01,2018,R,,louisiana-tech,south-alabama,A,30,26,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2018-09-01,2018,R,,south-alabama,louisiana-tech,H,26,30,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2018-09-01,2018,R,,marshall,miami-oh,A,35,28,0,,,Fred Yager Stadium - Oxford Ohio
+2018-09-01,2018,R,,miami-oh,marshall,H,28,35,0,,,Fred Yager Stadium - Oxford Ohio
+2018-09-01,2018,R,,maryland,texas,N,34,29,0,,23.0,FedExField - Landover Maryland
+2018-09-01,2018,R,,texas,maryland,N,29,34,0,23.0,,FedExField - Landover Maryland
+2018-09-01,2018,R,,memphis,mercer,H,66,14,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2018-09-01,2018,R,,mercer,memphis,A,14,66,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2018-09-01,2018,R,,mississippi,texas-tech,N,47,27,0,,,NRG Stadium - Houston Texas
+2018-09-01,2018,R,,texas-tech,mississippi,N,27,47,0,,,NRG Stadium - Houston Texas
+2018-09-01,2018,R,,mississippi-state,stephen-f-austin,H,63,6,0,18.0,,Davis Wade Stadium - Starkville Mississippi
+2018-09-01,2018,R,,stephen-f-austin,mississippi-state,A,6,63,0,,18.0,Davis Wade Stadium - Starkville Mississippi
+2018-09-01,2018,R,,missouri,tennessee-martin,H,51,14,0,,,Memorial Stadium/Faurot Field - Columbia Missouri
+2018-09-01,2018,R,,tennessee-martin,missouri,A,14,51,0,,,Memorial Stadium/Faurot Field - Columbia Missouri
+2018-09-01,2018,R,,new-mexico,incarnate-word,H,62,30,0,,,Dreamstyle Stadium - Albuquerque New Mexico
+2018-09-01,2018,R,,incarnate-word,new-mexico,A,30,62,0,,,Dreamstyle Stadium - Albuquerque New Mexico
+2018-09-01,2018,R,,nicholls-state,kansas,A,26,23,0,,,Memorial Stadium - Lawrence Kansas
+2018-09-01,2018,R,,kansas,nicholls-state,H,23,26,0,,,Memorial Stadium - Lawrence Kansas
+2018-09-01,2018,R,,north-carolina-state,james-madison,H,24,13,0,,,Carter-Finley Stadium - Raleigh North Carolina
+2018-09-01,2018,R,,james-madison,north-carolina-state,A,13,24,0,,,Carter-Finley Stadium - Raleigh North Carolina
+2018-09-01,2018,R,,north-texas,southern-methodist,H,46,23,0,,,Apogee Stadium - Denton Texas
+2018-09-01,2018,R,,southern-methodist,north-texas,A,23,46,0,,,Apogee Stadium - Denton Texas
+2018-09-01,2018,R,,northern-arizona,texas-el-paso,A,30,10,0,,,Sun Bowl - El Paso Texas
+2018-09-01,2018,R,,texas-el-paso,northern-arizona,H,10,30,0,,,Sun Bowl - El Paso Texas
+2018-09-01,2018,R,,notre-dame,michigan,H,24,17,0,12.0,14.0,Notre Dame Stadium - South Bend Indiana
+2018-09-01,2018,R,,michigan,notre-dame,A,17,24,0,14.0,12.0,Notre Dame Stadium - South Bend Indiana
+2018-09-01,2018,R,,ohio,howard,H,38,32,0,,,Peden Stadium - Athens Ohio
+2018-09-01,2018,R,,howard,ohio,A,32,38,0,,,Peden Stadium - Athens Ohio
+2018-09-01,2018,R,,ohio-state,oregon-state,H,77,31,0,5.0,,Ohio Stadium - Columbus Ohio
+2018-09-01,2018,R,,oregon-state,ohio-state,A,31,77,0,,5.0,Ohio Stadium - Columbus Ohio
+2018-09-01,2018,R,,oklahoma,florida-atlantic,H,63,14,0,7.0,,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2018-09-01,2018,R,,florida-atlantic,oklahoma,A,14,63,0,,7.0,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2018-09-01,2018,R,,oregon,bowling-green,H,58,24,0,24.0,,Autzen Stadium - Eugene Oregon
+2018-09-01,2018,R,,bowling-green,oregon,A,24,58,0,,24.0,Autzen Stadium - Eugene Oregon
+2018-09-01,2018,R,,penn-state,appalachian-state,H,45,38,0,10.0,,Beaver Stadium - University Park Pennsylvania
+2018-09-01,2018,R,,appalachian-state,penn-state,A,38,45,0,,10.0,Beaver Stadium - University Park Pennsylvania
+2018-09-01,2018,R,,pittsburgh,albany,H,33,7,0,,,Heinz Field - Pittsburgh Pennsylvania
+2018-09-01,2018,R,,albany,pittsburgh,A,7,33,0,,,Heinz Field - Pittsburgh Pennsylvania
+2018-09-01,2018,R,,rutgers,texas-state,H,35,7,0,,,High Point Solutions Stadium - Piscataway New Jersey
+2018-09-01,2018,R,,texas-state,rutgers,A,7,35,0,,,High Point Solutions Stadium - Piscataway New Jersey
+2018-09-01,2018,R,,south-carolina,coastal-carolina,H,49,15,0,,,Williams-Brice Stadium - Columbia South Carolina
+2018-09-01,2018,R,,coastal-carolina,south-carolina,A,15,49,0,,,Williams-Brice Stadium - Columbia South Carolina
+2018-09-01,2018,R,,south-florida,elon,H,34,14,0,,,Raymond James Stadium - Tampa Florida
+2018-09-01,2018,R,,elon,south-florida,A,14,34,0,,,Raymond James Stadium - Tampa Florida
+2018-09-01,2018,R,,southern-california,nevada-las-vegas,H,43,21,0,15.0,,Los Angeles Memorial Coliseum - Los Angeles California
+2018-09-01,2018,R,,nevada-las-vegas,southern-california,A,21,43,0,,15.0,Los Angeles Memorial Coliseum - Los Angeles California
+2018-09-01,2018,R,,southern-mississippi,jackson-state,H,55,7,0,,,M. M. Roberts Stadium - Hattiesburg Mississippi
+2018-09-01,2018,R,,jackson-state,southern-mississippi,A,7,55,0,,,M. M. Roberts Stadium - Hattiesburg Mississippi
+2018-09-01,2018,R,,texas-christian,southern,H,55,7,0,16.0,,Amon G. Carter Stadium - Fort Worth Texas
+2018-09-01,2018,R,,southern,texas-christian,A,7,55,0,,16.0,Amon G. Carter Stadium - Fort Worth Texas
+2018-09-01,2018,R,,toledo,virginia-military-institute,H,66,3,0,,,Glass Bowl - Toledo Ohio
+2018-09-01,2018,R,,virginia-military-institute,toledo,A,3,66,0,,,Glass Bowl - Toledo Ohio
+2018-09-01,2018,R,,tulsa,central-arkansas,H,38,27,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2018-09-01,2018,R,,central-arkansas,tulsa,A,27,38,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2018-09-01,2018,R,,vanderbilt,middle-tennessee-state,H,35,7,0,,,Vanderbilt Stadium - Nashville Tennessee
+2018-09-01,2018,R,,middle-tennessee-state,vanderbilt,A,7,35,0,,,Vanderbilt Stadium - Nashville Tennessee
+2018-09-01,2018,R,,villanova,temple,A,19,17,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2018-09-01,2018,R,,temple,villanova,H,17,19,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2018-09-01,2018,R,,virginia,richmond,H,42,13,0,,,Scott Stadium - Charlottesville Virginia
+2018-09-01,2018,R,,richmond,virginia,A,13,42,0,,,Scott Stadium - Charlottesville Virginia
+2018-09-01,2018,R,,washington-state,wyoming,A,41,19,0,,,Jonah Field War Memorial Stadium - Laramie Wyoming
+2018-09-01,2018,R,,wyoming,washington-state,H,19,41,0,,,Jonah Field War Memorial Stadium - Laramie Wyoming
+2018-09-01,2018,R,,west-virginia,tennessee,N,40,14,0,17.0,,Bank of America Stadium - Charlotte North Carolina
+2018-09-01,2018,R,,tennessee,west-virginia,N,14,40,0,,17.0,Bank of America Stadium - Charlotte North Carolina
+2018-09-02,2018,R,,louisiana-state,miami-fl,N,33,17,0,25.0,8.0,AT&T Stadium - Arlington Texas
+2018-09-02,2018,R,,miami-fl,louisiana-state,N,17,33,0,8.0,25.0,AT&T Stadium - Arlington Texas
+2018-09-02,2018,R,,north-carolina-a-t,east-carolina,A,28,23,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2018-09-02,2018,R,,east-carolina,north-carolina-a-t,H,23,28,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2018-09-03,2018,R,,virginia-tech,florida-state,A,24,3,0,20.0,19.0,Doak Campbell Stadium - Tallahassee Florida
+2018-09-03,2018,R,,florida-state,virginia-tech,H,3,24,0,19.0,20.0,Doak Campbell Stadium - Tallahassee Florida
+2018-09-07,2018,R,,texas-christian,southern-methodist,A,42,12,0,16.0,,Gerald J. Ford Stadium - Dallas Texas
+2018-09-07,2018,R,,southern-methodist,texas-christian,H,12,42,0,,16.0,Gerald J. Ford Stadium - Dallas Texas
+2018-09-08,2018,R,,akron,morgan-state,H,41,7,0,,,InfoCision Stadium - Akron Ohio
+2018-09-08,2018,R,,morgan-state,akron,A,7,41,0,,,InfoCision Stadium - Akron Ohio
+2018-09-08,2018,R,,alabama,arkansas-state,H,57,7,0,1.0,,Bryant-Denny Stadium - Tuscaloosa Alabama
+2018-09-08,2018,R,,arkansas-state,alabama,A,7,57,0,,1.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2018-09-08,2018,R,,appalachian-state,charlotte,A,45,9,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2018-09-08,2018,R,,charlotte,appalachian-state,H,9,45,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2018-09-08,2018,R,,arizona-state,michigan-state,H,16,13,0,,15.0,Sun Devil Stadium - Tempe Arizona
+2018-09-08,2018,R,,michigan-state,arizona-state,A,13,16,0,15.0,,Sun Devil Stadium - Tempe Arizona
+2018-09-08,2018,R,,army,liberty,H,38,14,0,,,Michie Stadium - West Point New York
+2018-09-08,2018,R,,liberty,army,A,14,38,0,,,Michie Stadium - West Point New York
+2018-09-08,2018,R,,auburn,alabama-state,H,63,9,0,7.0,,Jordan-Hare Stadium - Auburn Alabama
+2018-09-08,2018,R,,alabama-state,auburn,A,9,63,0,,7.0,Jordan-Hare Stadium - Auburn Alabama
+2018-09-08,2018,R,,baylor,texas-san-antonio,A,37,20,0,,,Alamodome - San Antonio Texas
+2018-09-08,2018,R,,texas-san-antonio,baylor,H,20,37,0,,,Alamodome - San Antonio Texas
+2018-09-08,2018,R,,boise-state,connecticut,H,62,7,0,20.0,,Albertsons Stadium - Boise Idaho
+2018-09-08,2018,R,,connecticut,boise-state,A,7,62,0,,20.0,Albertsons Stadium - Boise Idaho
+2018-09-08,2018,R,,boston-college,holy-cross,H,62,14,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2018-09-08,2018,R,,holy-cross,boston-college,A,14,62,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2018-09-08,2018,R,,buffalo,temple,A,36,29,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2018-09-08,2018,R,,temple,buffalo,H,29,36,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2018-09-08,2018,R,,california,brigham-young,A,21,18,0,,,LaVell Edwards Stadium - Provo Utah
+2018-09-08,2018,R,,brigham-young,california,H,18,21,0,,,LaVell Edwards Stadium - Provo Utah
+2018-09-08,2018,R,,central-florida,south-carolina-state,H,38,0,0,19.0,,Spectrum Stadium - Orlando Florida
+2018-09-08,2018,R,,south-carolina-state,central-florida,A,0,38,0,,19.0,Spectrum Stadium - Orlando Florida
+2018-09-08,2018,R,,cincinnati,miami-oh,A,21,0,0,,,Fred Yager Stadium - Oxford Ohio
+2018-09-08,2018,R,,miami-oh,cincinnati,H,0,21,0,,,Fred Yager Stadium - Oxford Ohio
+2018-09-08,2018,R,,clemson,texas-a-m,A,28,26,0,2.0,,Kyle Field - College Station Texas
+2018-09-08,2018,R,,texas-a-m,clemson,H,26,28,0,,2.0,Kyle Field - College Station Texas
+2018-09-08,2018,R,,coastal-carolina,alabama-birmingham,H,47,24,0,,,Brooks Stadium - Conway South Carolina
+2018-09-08,2018,R,,alabama-birmingham,coastal-carolina,A,24,47,0,,,Brooks Stadium - Conway South Carolina
+2018-09-08,2018,R,,colorado,nebraska,A,33,28,0,,,Memorial Stadium - Lincoln Nebraska
+2018-09-08,2018,R,,nebraska,colorado,H,28,33,0,,,Memorial Stadium - Lincoln Nebraska
+2018-09-08,2018,R,,colorado-state,arkansas,H,34,27,0,,,Sonny Lubick Field at Canvas Stadium - Fort Collins Colorado
+2018-09-08,2018,R,,arkansas,colorado-state,A,27,34,0,,,Sonny Lubick Field at Canvas Stadium - Fort Collins Colorado
+2018-09-08,2018,R,,duke,northwestern,A,21,7,0,,,Ryan Field - Evanston Illinois
+2018-09-08,2018,R,,northwestern,duke,H,7,21,0,,,Ryan Field - Evanston Illinois
+2018-09-08,2018,R,,east-carolina,north-carolina,H,41,19,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2018-09-08,2018,R,,north-carolina,east-carolina,A,19,41,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2018-09-08,2018,R,,eastern-michigan,purdue,A,20,19,0,,,Ross-Ade Stadium - West Lafayette Indiana
+2018-09-08,2018,R,,purdue,eastern-michigan,H,19,20,0,,,Ross-Ade Stadium - West Lafayette Indiana
+2018-09-08,2018,R,,florida-atlantic,air-force,H,33,27,0,,,FAU Football Stadium - Boca Raton Florida
+2018-09-08,2018,R,,air-force,florida-atlantic,A,27,33,0,,,FAU Football Stadium - Boca Raton Florida
+2018-09-08,2018,R,,florida-international,old-dominion,A,28,20,0,,,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+2018-09-08,2018,R,,old-dominion,florida-international,H,20,28,0,,,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+2018-09-08,2018,R,,florida-state,samford,H,36,26,0,,,Doak Campbell Stadium - Tallahassee Florida
+2018-09-08,2018,R,,samford,florida-state,A,26,36,0,,,Doak Campbell Stadium - Tallahassee Florida
+2018-09-08,2018,R,,georgia,south-carolina,A,41,17,0,3.0,24.0,Williams-Brice Stadium - Columbia South Carolina
+2018-09-08,2018,R,,south-carolina,georgia,H,17,41,0,24.0,3.0,Williams-Brice Stadium - Columbia South Carolina
+2018-09-08,2018,R,,georgia-southern,massachusetts,H,34,13,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2018-09-08,2018,R,,massachusetts,georgia-southern,A,13,34,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2018-09-08,2018,R,,hawaii,rice,H,43,29,0,,,Aloha Stadium - Honolulu Hawaii
+2018-09-08,2018,R,,rice,hawaii,A,29,43,0,,,Aloha Stadium - Honolulu Hawaii
+2018-09-08,2018,R,,houston,arizona,H,45,18,0,,,TDECU Stadium - Houston Texas
+2018-09-08,2018,R,,arizona,houston,A,18,45,0,,,TDECU Stadium - Houston Texas
+2018-09-08,2018,R,,illinois,western-illinois,H,34,14,0,,,Memorial Stadium - Champaign Illinois
+2018-09-08,2018,R,,western-illinois,illinois,A,14,34,0,,,Memorial Stadium - Champaign Illinois
+2018-09-08,2018,R,,indiana,virginia,H,20,16,0,,,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+2018-09-08,2018,R,,virginia,indiana,A,16,20,0,,,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+2018-09-08,2018,R,,iowa,iowa-state,H,13,3,0,,,Kinnick Stadium - Iowa City Iowa
+2018-09-08,2018,R,,iowa-state,iowa,A,3,13,0,,,Kinnick Stadium - Iowa City Iowa
+2018-09-08,2018,R,,kansas,central-michigan,A,31,7,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2018-09-08,2018,R,,central-michigan,kansas,H,7,31,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2018-09-08,2018,R,,kent-state,howard,H,54,14,0,,,Dix Stadium - Kent Ohio
+2018-09-08,2018,R,,howard,kent-state,A,14,54,0,,,Dix Stadium - Kent Ohio
+2018-09-08,2018,R,,kentucky,florida,A,27,16,0,,25.0,Ben Hill Griffin Stadium - Gainesville Florida
+2018-09-08,2018,R,,florida,kentucky,H,16,27,0,25.0,,Ben Hill Griffin Stadium - Gainesville Florida
+2018-09-08,2018,R,,louisiana-state,southeastern-louisiana,H,31,0,0,11.0,,Tiger Stadium - Baton Rouge Louisiana
+2018-09-08,2018,R,,southeastern-louisiana,louisiana-state,A,0,31,0,,11.0,Tiger Stadium - Baton Rouge Louisiana
+2018-09-08,2018,R,,louisiana-tech,southern,H,54,17,0,,,Joe Aillet Stadium - Ruston Louisiana
+2018-09-08,2018,R,,southern,louisiana-tech,A,17,54,0,,,Joe Aillet Stadium - Ruston Louisiana
+2018-09-08,2018,R,,louisiana-monroe,southern-mississippi,A,21,20,0,,,M. M. Roberts Stadium - Hattiesburg Mississippi
+2018-09-08,2018,R,,southern-mississippi,louisiana-monroe,H,20,21,0,,,M. M. Roberts Stadium - Hattiesburg Mississippi
+2018-09-08,2018,R,,louisville,indiana-state,H,31,7,0,,,Cardinal Stadium - Louisville Kentucky
+2018-09-08,2018,R,,indiana-state,louisville,A,7,31,0,,,Cardinal Stadium - Louisville Kentucky
+2018-09-08,2018,R,,maine,western-kentucky,A,31,28,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2018-09-08,2018,R,,western-kentucky,maine,H,28,31,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2018-09-08,2018,R,,marshall,eastern-kentucky,H,32,16,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2018-09-08,2018,R,,eastern-kentucky,marshall,A,16,32,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2018-09-08,2018,R,,maryland,bowling-green,A,45,14,0,,,Doyt Perry Stadium - Bowling Green Ohio
+2018-09-08,2018,R,,bowling-green,maryland,H,14,45,0,,,Doyt Perry Stadium - Bowling Green Ohio
+2018-09-08,2018,R,,miami-fl,savannah-state,H,77,0,0,22.0,,Hard Rock Stadium - Miami Gardens Florida
+2018-09-08,2018,R,,savannah-state,miami-fl,A,0,77,0,,22.0,Hard Rock Stadium - Miami Gardens Florida
+2018-09-08,2018,R,,michigan,western-michigan,H,49,3,0,21.0,,Michigan Stadium - Ann Arbor Michigan
+2018-09-08,2018,R,,western-michigan,michigan,A,3,49,0,,21.0,Michigan Stadium - Ann Arbor Michigan
+2018-09-08,2018,R,,middle-tennessee-state,tennessee-martin,H,61,37,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2018-09-08,2018,R,,tennessee-martin,middle-tennessee-state,A,37,61,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2018-09-08,2018,R,,minnesota,fresno-state,H,21,14,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2018-09-08,2018,R,,fresno-state,minnesota,A,14,21,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2018-09-08,2018,R,,mississippi,southern-illinois,H,76,41,0,,,Vaught-Hemingway Stadium - Oxford Mississippi
+2018-09-08,2018,R,,southern-illinois,mississippi,A,41,76,0,,,Vaught-Hemingway Stadium - Oxford Mississippi
+2018-09-08,2018,R,,mississippi-state,kansas-state,A,31,10,0,18.0,,Bill Snyder Family Stadium - Manhattan Kansas
+2018-09-08,2018,R,,kansas-state,mississippi-state,H,10,31,0,,18.0,Bill Snyder Family Stadium - Manhattan Kansas
+2018-09-08,2018,R,,missouri,wyoming,H,40,13,0,,,Memorial Stadium/Faurot Field - Columbia Missouri
+2018-09-08,2018,R,,wyoming,missouri,A,13,40,0,,,Memorial Stadium/Faurot Field - Columbia Missouri
+2018-09-08,2018,R,,navy,memphis,H,22,21,0,,,Navy-Marine Corps Memorial Stadium - Annapolis Maryland
+2018-09-08,2018,R,,memphis,navy,A,21,22,0,,,Navy-Marine Corps Memorial Stadium - Annapolis Maryland
+2018-09-08,2018,R,,nevada-las-vegas,texas-el-paso,H,52,24,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2018-09-08,2018,R,,texas-el-paso,nevada-las-vegas,A,24,52,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2018-09-08,2018,R,,north-carolina-state,georgia-state,H,41,7,0,,,Carter-Finley Stadium - Raleigh North Carolina
+2018-09-08,2018,R,,georgia-state,north-carolina-state,A,7,41,0,,,Carter-Finley Stadium - Raleigh North Carolina
+2018-09-08,2018,R,,north-texas,incarnate-word,H,58,16,0,,,Apogee Stadium - Denton Texas
+2018-09-08,2018,R,,incarnate-word,north-texas,A,16,58,0,,,Apogee Stadium - Denton Texas
+2018-09-08,2018,R,,notre-dame,ball-state,H,24,16,0,8.0,,Notre Dame Stadium - South Bend Indiana
+2018-09-08,2018,R,,ball-state,notre-dame,A,16,24,0,,8.0,Notre Dame Stadium - South Bend Indiana
+2018-09-08,2018,R,,ohio-state,rutgers,H,52,3,0,4.0,,Ohio Stadium - Columbus Ohio
+2018-09-08,2018,R,,rutgers,ohio-state,A,3,52,0,,4.0,Ohio Stadium - Columbus Ohio
+2018-09-08,2018,R,,oklahoma,ucla,H,49,21,0,6.0,,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2018-09-08,2018,R,,ucla,oklahoma,A,21,49,0,,6.0,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2018-09-08,2018,R,,oklahoma-state,south-alabama,H,55,13,0,,,Boone Pickens Stadium - Stillwater Oklahoma
+2018-09-08,2018,R,,south-alabama,oklahoma-state,A,13,55,0,,,Boone Pickens Stadium - Stillwater Oklahoma
+2018-09-08,2018,R,,oregon,portland-state,H,62,14,0,23.0,,Autzen Stadium - Eugene Oregon
+2018-09-08,2018,R,,portland-state,oregon,A,14,62,0,,23.0,Autzen Stadium - Eugene Oregon
+2018-09-08,2018,R,,oregon-state,southern-utah,H,48,25,0,,,Reser Stadium - Corvallis Oregon
+2018-09-08,2018,R,,southern-utah,oregon-state,A,25,48,0,,,Reser Stadium - Corvallis Oregon
+2018-09-08,2018,R,,penn-state,pittsburgh,A,51,6,0,13.0,,Heinz Field - Pittsburgh Pennsylvania
+2018-09-08,2018,R,,pittsburgh,penn-state,H,6,51,0,,13.0,Heinz Field - Pittsburgh Pennsylvania
+2018-09-08,2018,R,,san-diego-state,sacramento-state,H,28,14,0,,,SDCCU Stadium - San Diego California
+2018-09-08,2018,R,,sacramento-state,san-diego-state,A,14,28,0,,,SDCCU Stadium - San Diego California
+2018-09-08,2018,R,,south-florida,georgia-tech,H,49,38,0,,,Raymond James Stadium - Tampa Florida
+2018-09-08,2018,R,,georgia-tech,south-florida,A,38,49,0,,,Raymond James Stadium - Tampa Florida
+2018-09-08,2018,R,,stanford,southern-california,H,17,3,0,10.0,17.0,Stanford Stadium - Stanford California
+2018-09-08,2018,R,,southern-california,stanford,A,3,17,0,17.0,10.0,Stanford Stadium - Stanford California
+2018-09-08,2018,R,,syracuse,wagner,H,62,10,0,,,Carrier Dome - Syracuse New York
+2018-09-08,2018,R,,wagner,syracuse,A,10,62,0,,,Carrier Dome - Syracuse New York
+2018-09-08,2018,R,,tennessee,east-tennessee-state,H,59,3,0,,,Neyland Stadium - Knoxville Tennessee
+2018-09-08,2018,R,,east-tennessee-state,tennessee,A,3,59,0,,,Neyland Stadium - Knoxville Tennessee
+2018-09-08,2018,R,,texas,tulsa,H,28,21,0,,,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2018-09-08,2018,R,,tulsa,texas,A,21,28,0,,,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2018-09-08,2018,R,,texas-state,texas-southern,H,36,20,0,,,Bobcat Stadium - San Marcos Texas
+2018-09-08,2018,R,,texas-southern,texas-state,A,20,36,0,,,Bobcat Stadium - San Marcos Texas
+2018-09-08,2018,R,,texas-tech,lamar,H,77,0,0,,,Jones AT&T Stadium - Lubbock Texas
+2018-09-08,2018,R,,lamar,texas-tech,A,0,77,0,,,Jones AT&T Stadium - Lubbock Texas
+2018-09-08,2018,R,,troy,florida-a-m,H,59,7,0,,,Veterans Memorial Stadium - Troy Alabama
+2018-09-08,2018,R,,florida-a-m,troy,A,7,59,0,,,Veterans Memorial Stadium - Troy Alabama
+2018-09-08,2018,R,,tulane,nicholls-state,H,42,17,0,,,Yulman Stadium - New Orleans Louisiana
+2018-09-08,2018,R,,nicholls-state,tulane,A,17,42,0,,,Yulman Stadium - New Orleans Louisiana
+2018-09-08,2018,R,,utah,northern-illinois,A,17,6,0,,,Huskie Stadium - DeKalb Illinois
+2018-09-08,2018,R,,northern-illinois,utah,H,6,17,0,,,Huskie Stadium - DeKalb Illinois
+2018-09-08,2018,R,,utah-state,new-mexico-state,H,60,13,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2018-09-08,2018,R,,new-mexico-state,utah-state,A,13,60,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2018-09-08,2018,R,,vanderbilt,nevada,H,41,10,0,,,Vanderbilt Stadium - Nashville Tennessee
+2018-09-08,2018,R,,nevada,vanderbilt,A,10,41,0,,,Vanderbilt Stadium - Nashville Tennessee
+2018-09-08,2018,R,,virginia-tech,william-mary,H,62,17,0,12.0,,Lane Stadium - Blacksburg Virginia
+2018-09-08,2018,R,,william-mary,virginia-tech,A,17,62,0,,12.0,Lane Stadium - Blacksburg Virginia
+2018-09-08,2018,R,,wake-forest,towson,H,51,20,0,,,BB&T Field - Winston-Salem North Carolina
+2018-09-08,2018,R,,towson,wake-forest,A,20,51,0,,,BB&T Field - Winston-Salem North Carolina
+2018-09-08,2018,R,,washington,north-dakota,H,45,3,0,9.0,,Husky Stadium - Seattle Washington
+2018-09-08,2018,R,,north-dakota,washington,A,3,45,0,,9.0,Husky Stadium - Seattle Washington
+2018-09-08,2018,R,,washington-state,san-jose-state,H,31,0,0,,,Martin Stadium - Pullman Washington
+2018-09-08,2018,R,,san-jose-state,washington-state,A,0,31,0,,,Martin Stadium - Pullman Washington
+2018-09-08,2018,R,,west-virginia,youngstown-state,H,52,17,0,14.0,,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+2018-09-08,2018,R,,youngstown-state,west-virginia,A,17,52,0,,14.0,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+2018-09-08,2018,R,,wisconsin,new-mexico,H,45,14,0,5.0,,Camp Randall Stadium - Madison Wisconsin
+2018-09-08,2018,R,,new-mexico,wisconsin,A,14,45,0,,5.0,Camp Randall Stadium - Madison Wisconsin
+2018-09-12,2018,R,,coastal-carolina,campbell,A,58,21,0,,,Barker-Lane Stadium - Buies Creek North Carolina
+2018-09-12,2018,R,,campbell,coastal-carolina,H,21,58,0,,,Barker-Lane Stadium - Buies Creek North Carolina
+2018-09-13,2018,R,,boston-college,wake-forest,A,41,34,0,,,BB&T Field - Winston-Salem North Carolina
+2018-09-13,2018,R,,wake-forest,boston-college,H,34,41,0,,,BB&T Field - Winston-Salem North Carolina
+2018-09-13,2018,R,,charlotte,old-dominion,H,28,25,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2018-09-13,2018,R,,old-dominion,charlotte,A,25,28,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2018-09-13,2018,R,,utah-state,tennessee-tech,H,73,12,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2018-09-13,2018,R,,tennessee-tech,utah-state,A,12,73,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2018-09-14,2018,R,,memphis,georgia-state,H,59,22,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2018-09-14,2018,R,,georgia-state,memphis,A,22,59,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2018-09-15,2018,R,,akron,northwestern,A,39,34,0,,,Ryan Field - Evanston Illinois
+2018-09-15,2018,R,,northwestern,akron,H,34,39,0,,,Ryan Field - Evanston Illinois
+2018-09-15,2018,R,,alabama,mississippi,A,62,7,0,1.0,,Vaught-Hemingway Stadium - Oxford Mississippi
+2018-09-15,2018,R,,mississippi,alabama,H,7,62,0,,1.0,Vaught-Hemingway Stadium - Oxford Mississippi
+2018-09-15,2018,R,,alabama-birmingham,tulane,H,31,24,0,,,Legion Field - Birmingham Alabama
+2018-09-15,2018,R,,tulane,alabama-birmingham,A,24,31,0,,,Legion Field - Birmingham Alabama
+2018-09-15,2018,R,,arizona,southern-utah,H,62,31,0,,,Arizona Stadium - Tucson Arizona
+2018-09-15,2018,R,,southern-utah,arizona,A,31,62,0,,,Arizona Stadium - Tucson Arizona
+2018-09-15,2018,R,,arkansas-state,tulsa,A,29,20,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2018-09-15,2018,R,,tulsa,arkansas-state,H,20,29,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2018-09-15,2018,R,,army,hawaii,H,28,21,0,,,Michie Stadium - West Point New York
+2018-09-15,2018,R,,hawaii,army,A,21,28,0,,,Michie Stadium - West Point New York
+2018-09-15,2018,R,,bowling-green,eastern-kentucky,H,42,35,0,,,Doyt Perry Stadium - Bowling Green Ohio
+2018-09-15,2018,R,,eastern-kentucky,bowling-green,A,35,42,0,,,Doyt Perry Stadium - Bowling Green Ohio
+2018-09-15,2018,R,,brigham-young,wisconsin,A,24,21,0,,6.0,Camp Randall Stadium - Madison Wisconsin
+2018-09-15,2018,R,,wisconsin,brigham-young,H,21,24,0,6.0,,Camp Randall Stadium - Madison Wisconsin
+2018-09-15,2018,R,,buffalo,eastern-michigan,H,35,28,0,,,UB Stadium - Buffalo New York
+2018-09-15,2018,R,,eastern-michigan,buffalo,A,28,35,0,,,UB Stadium - Buffalo New York
+2018-09-15,2018,R,,california,idaho-state,H,45,23,0,,,California Memorial Stadium - Berkeley California
+2018-09-15,2018,R,,idaho-state,california,A,23,45,0,,,California Memorial Stadium - Berkeley California
+2018-09-15,2018,R,,cincinnati,alabama-a-m,H,63,7,0,,,Nippert Stadium - Cincinnati Ohio
+2018-09-15,2018,R,,alabama-a-m,cincinnati,A,7,63,0,,,Nippert Stadium - Cincinnati Ohio
+2018-09-15,2018,R,,clemson,georgia-southern,H,38,7,0,2.0,,Clemson Memorial Stadium - Clemson South Carolina
+2018-09-15,2018,R,,georgia-southern,clemson,A,7,38,0,,2.0,Clemson Memorial Stadium - Clemson South Carolina
+2018-09-15,2018,R,,colorado,new-hampshire,H,45,14,0,,,Folsom Field - Boulder Colorado
+2018-09-15,2018,R,,new-hampshire,colorado,A,14,45,0,,,Folsom Field - Boulder Colorado
+2018-09-15,2018,R,,connecticut,rhode-island,H,56,49,0,,,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+2018-09-15,2018,R,,rhode-island,connecticut,A,49,56,0,,,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+2018-09-15,2018,R,,duke,baylor,A,40,27,0,,,McLane Stadium - Waco Texas
+2018-09-15,2018,R,,baylor,duke,H,27,40,0,,,McLane Stadium - Waco Texas
+2018-09-15,2018,R,,florida,colorado-state,H,48,10,0,,,Ben Hill Griffin Stadium - Gainesville Florida
+2018-09-15,2018,R,,colorado-state,florida,A,10,48,0,,,Ben Hill Griffin Stadium - Gainesville Florida
+2018-09-15,2018,R,,florida-atlantic,bethune-cookman,H,49,28,0,,,FAU Football Stadium - Boca Raton Florida
+2018-09-15,2018,R,,bethune-cookman,florida-atlantic,A,28,49,0,,,FAU Football Stadium - Boca Raton Florida
+2018-09-15,2018,R,,florida-international,massachusetts,H,63,24,0,,,Riccardo Silva Stadium - Miami Florida
+2018-09-15,2018,R,,massachusetts,florida-international,A,24,63,0,,,Riccardo Silva Stadium - Miami Florida
+2018-09-15,2018,R,,fresno-state,ucla,A,38,14,0,,,Rose Bowl - Pasadena California
+2018-09-15,2018,R,,ucla,fresno-state,H,14,38,0,,,Rose Bowl - Pasadena California
+2018-09-15,2018,R,,georgia,middle-tennessee-state,H,49,7,0,3.0,,Sanford Stadium - Athens Georgia
+2018-09-15,2018,R,,middle-tennessee-state,georgia,A,7,49,0,,3.0,Sanford Stadium - Athens Georgia
+2018-09-15,2018,R,,indiana,ball-state,H,38,10,0,,,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+2018-09-15,2018,R,,ball-state,indiana,A,10,38,0,,,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+2018-09-15,2018,R,,iowa,northern-iowa,H,38,14,0,,,Kinnick Stadium - Iowa City Iowa
+2018-09-15,2018,R,,northern-iowa,iowa,A,14,38,0,,,Kinnick Stadium - Iowa City Iowa
+2018-09-15,2018,R,,kansas,rutgers,H,55,14,0,,,Memorial Stadium - Lawrence Kansas
+2018-09-15,2018,R,,rutgers,kansas,A,14,55,0,,,Memorial Stadium - Lawrence Kansas
+2018-09-15,2018,R,,kansas-state,texas-san-antonio,H,41,17,0,,,Bill Snyder Family Stadium - Manhattan Kansas
+2018-09-15,2018,R,,texas-san-antonio,kansas-state,A,17,41,0,,,Bill Snyder Family Stadium - Manhattan Kansas
+2018-09-15,2018,R,,kentucky,murray-state,H,48,10,0,,,Kroger Field - Lexington Kentucky
+2018-09-15,2018,R,,murray-state,kentucky,A,10,48,0,,,Kroger Field - Lexington Kentucky
+2018-09-15,2018,R,,louisiana-state,auburn,A,22,21,0,12.0,7.0,Jordan-Hare Stadium - Auburn Alabama
+2018-09-15,2018,R,,auburn,louisiana-state,H,21,22,0,7.0,12.0,Jordan-Hare Stadium - Auburn Alabama
+2018-09-15,2018,R,,louisville,western-kentucky,H,20,17,0,,,Cardinal Stadium - Louisville Kentucky
+2018-09-15,2018,R,,western-kentucky,louisville,A,17,20,0,,,Cardinal Stadium - Louisville Kentucky
+2018-09-15,2018,R,,miami-fl,toledo,A,49,24,0,21.0,,Glass Bowl - Toledo Ohio
+2018-09-15,2018,R,,toledo,miami-fl,H,24,49,0,,21.0,Glass Bowl - Toledo Ohio
+2018-09-15,2018,R,,michigan,southern-methodist,H,45,20,0,19.0,,Michigan Stadium - Ann Arbor Michigan
+2018-09-15,2018,R,,southern-methodist,michigan,A,20,45,0,,19.0,Michigan Stadium - Ann Arbor Michigan
+2018-09-15,2018,R,,minnesota,miami-oh,H,26,3,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2018-09-15,2018,R,,miami-oh,minnesota,A,3,26,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2018-09-15,2018,R,,mississippi-state,louisiana,H,56,10,0,16.0,,Davis Wade Stadium - Starkville Mississippi
+2018-09-15,2018,R,,louisiana,mississippi-state,A,10,56,0,,16.0,Davis Wade Stadium - Starkville Mississippi
+2018-09-15,2018,R,,missouri,purdue,A,40,37,0,,,Ross-Ade Stadium - West Lafayette Indiana
+2018-09-15,2018,R,,purdue,missouri,H,37,40,0,,,Ross-Ade Stadium - West Lafayette Indiana
+2018-09-15,2018,R,,navy,lehigh,H,51,21,0,,,Navy-Marine Corps Memorial Stadium - Annapolis Maryland
+2018-09-15,2018,R,,lehigh,navy,A,21,51,0,,,Navy-Marine Corps Memorial Stadium - Annapolis Maryland
+2018-09-15,2018,R,,nevada,oregon-state,H,37,35,0,,,MacKay Stadium - Reno Nevada
+2018-09-15,2018,R,,oregon-state,nevada,A,35,37,0,,,MacKay Stadium - Reno Nevada
+2018-09-15,2018,R,,nevada-las-vegas,prairie-view-a-m,H,46,17,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2018-09-15,2018,R,,prairie-view-a-m,nevada-las-vegas,A,17,46,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2018-09-15,2018,R,,new-mexico,new-mexico-state,A,42,25,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2018-09-15,2018,R,,new-mexico-state,new-mexico,H,25,42,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2018-09-15,2018,R,,north-texas,arkansas,A,44,17,0,,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2018-09-15,2018,R,,arkansas,north-texas,H,17,44,0,,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2018-09-15,2018,R,,northern-illinois,central-michigan,H,24,16,0,,,Huskie Stadium - DeKalb Illinois
+2018-09-15,2018,R,,central-michigan,northern-illinois,A,16,24,0,,,Huskie Stadium - DeKalb Illinois
+2018-09-15,2018,R,,notre-dame,vanderbilt,H,22,17,0,8.0,,Notre Dame Stadium - South Bend Indiana
+2018-09-15,2018,R,,vanderbilt,notre-dame,A,17,22,0,,8.0,Notre Dame Stadium - South Bend Indiana
+2018-09-15,2018,R,,ohio-state,texas-christian,N,40,28,0,4.0,15.0,AT&T Stadium - Arlington Texas
+2018-09-15,2018,R,,texas-christian,ohio-state,N,28,40,0,15.0,4.0,AT&T Stadium - Arlington Texas
+2018-09-15,2018,R,,oklahoma,iowa-state,A,37,27,0,5.0,,Jack Trice Stadium - Ames Iowa
+2018-09-15,2018,R,,iowa-state,oklahoma,H,27,37,0,,5.0,Jack Trice Stadium - Ames Iowa
+2018-09-15,2018,R,,oklahoma-state,boise-state,H,44,21,0,24.0,17.0,Boone Pickens Stadium - Stillwater Oklahoma
+2018-09-15,2018,R,,boise-state,oklahoma-state,A,21,44,0,17.0,24.0,Boone Pickens Stadium - Stillwater Oklahoma
+2018-09-15,2018,R,,oregon,san-jose-state,H,35,22,0,20.0,,Autzen Stadium - Eugene Oregon
+2018-09-15,2018,R,,san-jose-state,oregon,A,22,35,0,,20.0,Autzen Stadium - Eugene Oregon
+2018-09-15,2018,R,,penn-state,kent-state,H,63,10,0,10.0,,Beaver Stadium - University Park Pennsylvania
+2018-09-15,2018,R,,kent-state,penn-state,A,10,63,0,,10.0,Beaver Stadium - University Park Pennsylvania
+2018-09-15,2018,R,,pittsburgh,georgia-tech,H,24,19,0,,,Heinz Field - Pittsburgh Pennsylvania
+2018-09-15,2018,R,,georgia-tech,pittsburgh,A,19,24,0,,,Heinz Field - Pittsburgh Pennsylvania
+2018-09-15,2018,R,,san-diego-state,arizona-state,H,28,21,0,,23.0,SDCCU Stadium - San Diego California
+2018-09-15,2018,R,,arizona-state,san-diego-state,A,21,28,0,23.0,,SDCCU Stadium - San Diego California
+2018-09-15,2018,R,,south-alabama,texas-state,H,41,31,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2018-09-15,2018,R,,texas-state,south-alabama,A,31,41,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2018-09-15,2018,R,,south-florida,illinois,N,25,19,0,,,Soldier Field (Chicago Illinois)
+2018-09-15,2018,R,,illinois,south-florida,N,19,25,0,,,Soldier Field (Chicago Illinois)
+2018-09-15,2018,R,,stanford,california-davis,H,30,10,0,9.0,,Stanford Stadium - Stanford California
+2018-09-15,2018,R,,california-davis,stanford,A,10,30,0,,9.0,Stanford Stadium - Stanford California
+2018-09-15,2018,R,,syracuse,florida-state,H,30,7,0,,,Carrier Dome - Syracuse New York
+2018-09-15,2018,R,,florida-state,syracuse,A,7,30,0,,,Carrier Dome - Syracuse New York
+2018-09-15,2018,R,,temple,maryland,A,35,14,0,,,Capital One Field at Maryland Stadium - College Park Maryland
+2018-09-15,2018,R,,maryland,temple,H,14,35,0,,,Capital One Field at Maryland Stadium - College Park Maryland
+2018-09-15,2018,R,,tennessee,texas-el-paso,H,24,0,0,,,Neyland Stadium - Knoxville Tennessee
+2018-09-15,2018,R,,texas-el-paso,tennessee,A,0,24,0,,,Neyland Stadium - Knoxville Tennessee
+2018-09-15,2018,R,,texas,southern-california,H,37,14,0,,22.0,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2018-09-15,2018,R,,southern-california,texas,A,14,37,0,22.0,,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2018-09-15,2018,R,,texas-a-m,louisiana-monroe,H,48,10,0,,,Kyle Field - College Station Texas
+2018-09-15,2018,R,,louisiana-monroe,texas-a-m,A,10,48,0,,,Kyle Field - College Station Texas
+2018-09-15,2018,R,,texas-tech,houston,H,63,49,0,,,Jones AT&T Stadium - Lubbock Texas
+2018-09-15,2018,R,,houston,texas-tech,A,49,63,0,,,Jones AT&T Stadium - Lubbock Texas
+2018-09-15,2018,R,,troy,nebraska,A,24,19,0,,,Memorial Stadium - Lincoln Nebraska
+2018-09-15,2018,R,,nebraska,troy,H,19,24,0,,,Memorial Stadium - Lincoln Nebraska
+2018-09-15,2018,R,,virginia,ohio,N,45,31,0,,,Vanderbilt Stadium - Nashville Tennessee
+2018-09-15,2018,R,,ohio,virginia,N,31,45,0,,,Vanderbilt Stadium - Nashville Tennessee
+2018-09-15,2018,R,,washington,utah,A,21,7,0,10.0,,Rice-Eccles Stadium - Salt Lake City Utah
+2018-09-15,2018,R,,utah,washington,H,7,21,0,,10.0,Rice-Eccles Stadium - Salt Lake City Utah
+2018-09-15,2018,R,,washington-state,eastern-washington,H,59,24,0,,,Martin Stadium - Pullman Washington
+2018-09-15,2018,R,,eastern-washington,washington-state,A,24,59,0,,,Martin Stadium - Pullman Washington
+2018-09-15,2018,R,,western-michigan,delaware-state,H,68,0,0,,,Waldo Stadium - Kalamazoo Michigan
+2018-09-15,2018,R,,delaware-state,western-michigan,A,0,68,0,,,Waldo Stadium - Kalamazoo Michigan
+2018-09-15,2018,R,,wyoming,wofford,H,17,14,0,,,Jonah Field War Memorial Stadium - Laramie Wyoming
+2018-09-15,2018,R,,wofford,wyoming,A,14,17,0,,,Jonah Field War Memorial Stadium - Laramie Wyoming
+2018-09-20,2018,R,,temple,tulsa,H,31,17,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2018-09-20,2018,R,,tulsa,temple,A,17,31,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2018-09-21,2018,R,,central-florida,florida-atlantic,H,56,36,0,16.0,,Spectrum Stadium - Orlando Florida
+2018-09-21,2018,R,,florida-atlantic,central-florida,A,36,56,0,,16.0,Spectrum Stadium - Orlando Florida
+2018-09-21,2018,R,,penn-state,illinois,A,63,24,0,10.0,,Memorial Stadium - Champaign Illinois
+2018-09-21,2018,R,,illinois,penn-state,H,24,63,0,,10.0,Memorial Stadium - Champaign Illinois
+2018-09-21,2018,R,,southern-california,washington-state,H,39,36,0,,,Los Angeles Memorial Coliseum - Los Angeles California
+2018-09-21,2018,R,,washington-state,southern-california,A,36,39,0,,,Los Angeles Memorial Coliseum - Los Angeles California
+2018-09-22,2018,R,,alabama,texas-a-m,H,45,23,0,1.0,22.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2018-09-22,2018,R,,texas-a-m,alabama,A,23,45,0,22.0,1.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2018-09-22,2018,R,,appalachian-state,gardner-webb,H,72,7,0,,,Kidd Brewer Stadium - Boone North Carolina
+2018-09-22,2018,R,,gardner-webb,appalachian-state,A,7,72,0,,,Kidd Brewer Stadium - Boone North Carolina
+2018-09-22,2018,R,,arizona,oregon-state,A,35,14,0,,,Reser Stadium - Corvallis Oregon
+2018-09-22,2018,R,,oregon-state,arizona,H,14,35,0,,,Reser Stadium - Corvallis Oregon
+2018-09-22,2018,R,,arkansas-state,nevada-las-vegas,H,27,20,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2018-09-22,2018,R,,nevada-las-vegas,arkansas-state,A,20,27,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2018-09-22,2018,R,,auburn,arkansas,H,34,3,0,9.0,,Jordan-Hare Stadium - Auburn Alabama
+2018-09-22,2018,R,,arkansas,auburn,A,3,34,0,,9.0,Jordan-Hare Stadium - Auburn Alabama
+2018-09-22,2018,R,,baylor,kansas,H,26,7,0,,,McLane Stadium - Waco Texas
+2018-09-22,2018,R,,kansas,baylor,A,7,26,0,,,McLane Stadium - Waco Texas
+2018-09-22,2018,R,,brigham-young,mcneese-state,H,30,3,0,25.0,,LaVell Edwards Stadium - Provo Utah
+2018-09-22,2018,R,,mcneese-state,brigham-young,A,3,30,0,,25.0,LaVell Edwards Stadium - Provo Utah
+2018-09-22,2018,R,,buffalo,rutgers,A,42,13,0,,,High Point Solutions Stadium - Piscataway New Jersey
+2018-09-22,2018,R,,rutgers,buffalo,H,13,42,0,,,High Point Solutions Stadium - Piscataway New Jersey
+2018-09-22,2018,R,,central-michigan,maine,H,17,5,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2018-09-22,2018,R,,maine,central-michigan,A,5,17,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2018-09-22,2018,R,,cincinnati,ohio,H,34,30,0,,,Nippert Stadium - Cincinnati Ohio
+2018-09-22,2018,R,,ohio,cincinnati,A,30,34,0,,,Nippert Stadium - Cincinnati Ohio
+2018-09-22,2018,R,,clemson,georgia-tech,A,49,21,0,3.0,,Bobby Dodd Stadium - Atlanta Georgia
+2018-09-22,2018,R,,georgia-tech,clemson,H,21,49,0,,3.0,Bobby Dodd Stadium - Atlanta Georgia
+2018-09-22,2018,R,,coastal-carolina,louisiana,A,30,28,0,,,Cajun Field - Lafayette Louisiana
+2018-09-22,2018,R,,louisiana,coastal-carolina,H,28,30,0,,,Cajun Field - Lafayette Louisiana
+2018-09-22,2018,R,,duke,north-carolina-central,H,55,13,0,,,Wallace Wade Stadium - Durham North Carolina
+2018-09-22,2018,R,,north-carolina-central,duke,A,13,55,0,,,Wallace Wade Stadium - Durham North Carolina
+2018-09-22,2018,R,,florida,tennessee,A,47,21,0,,,Neyland Stadium - Knoxville Tennessee
+2018-09-22,2018,R,,tennessee,florida,H,21,47,0,,,Neyland Stadium - Knoxville Tennessee
+2018-09-22,2018,R,,florida-state,northern-illinois,H,37,19,0,,,Doak Campbell Stadium - Tallahassee Florida
+2018-09-22,2018,R,,northern-illinois,florida-state,A,19,37,0,,,Doak Campbell Stadium - Tallahassee Florida
+2018-09-22,2018,R,,georgia,missouri,A,43,29,0,2.0,,Memorial Stadium/Faurot Field - Columbia Missouri
+2018-09-22,2018,R,,missouri,georgia,H,29,43,0,,2.0,Memorial Stadium/Faurot Field - Columbia Missouri
+2018-09-22,2018,R,,hawaii,duquesne,H,42,21,0,,,Aloha Stadium - Honolulu Hawaii
+2018-09-22,2018,R,,duquesne,hawaii,A,21,42,0,,,Aloha Stadium - Honolulu Hawaii
+2018-09-22,2018,R,,houston,texas-southern,H,70,14,0,,,TDECU Stadium - Houston Texas
+2018-09-22,2018,R,,texas-southern,houston,A,14,70,0,,,TDECU Stadium - Houston Texas
+2018-09-22,2018,R,,illinois-state,colorado-state,A,35,19,0,,,Sonny Lubick Field at Canvas Stadium - Fort Collins Colorado
+2018-09-22,2018,R,,colorado-state,illinois-state,H,19,35,0,,,Sonny Lubick Field at Canvas Stadium - Fort Collins Colorado
+2018-09-22,2018,R,,iowa-state,akron,H,26,13,0,,,Jack Trice Stadium - Ames Iowa
+2018-09-22,2018,R,,akron,iowa-state,A,13,26,0,,,Jack Trice Stadium - Ames Iowa
+2018-09-22,2018,R,,kentucky,mississippi-state,H,28,7,0,,14.0,Kroger Field - Lexington Kentucky
+2018-09-22,2018,R,,mississippi-state,kentucky,A,7,28,0,14.0,,Kroger Field - Lexington Kentucky
+2018-09-22,2018,R,,louisiana-state,louisiana-tech,H,38,21,0,6.0,,Tiger Stadium - Baton Rouge Louisiana
+2018-09-22,2018,R,,louisiana-tech,louisiana-state,A,21,38,0,,6.0,Tiger Stadium - Baton Rouge Louisiana
+2018-09-22,2018,R,,maryland,minnesota,H,42,13,0,,,Capital One Field at Maryland Stadium - College Park Maryland
+2018-09-22,2018,R,,minnesota,maryland,A,13,42,0,,,Capital One Field at Maryland Stadium - College Park Maryland
+2018-09-22,2018,R,,massachusetts,charlotte,H,49,31,0,,,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+2018-09-22,2018,R,,charlotte,massachusetts,A,31,49,0,,,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+2018-09-22,2018,R,,memphis,south-alabama,H,52,35,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2018-09-22,2018,R,,south-alabama,memphis,A,35,52,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2018-09-22,2018,R,,miami-fl,florida-international,H,31,17,0,21.0,,Hard Rock Stadium - Miami Gardens Florida
+2018-09-22,2018,R,,florida-international,miami-fl,A,17,31,0,,21.0,Hard Rock Stadium - Miami Gardens Florida
+2018-09-22,2018,R,,miami-oh,bowling-green,A,38,23,0,,,Doyt Perry Stadium - Bowling Green Ohio
+2018-09-22,2018,R,,bowling-green,miami-oh,H,23,38,0,,,Doyt Perry Stadium - Bowling Green Ohio
+2018-09-22,2018,R,,michigan,nebraska,H,56,10,0,19.0,,Michigan Stadium - Ann Arbor Michigan
+2018-09-22,2018,R,,nebraska,michigan,A,10,56,0,,19.0,Michigan Stadium - Ann Arbor Michigan
+2018-09-22,2018,R,,michigan-state,indiana,A,35,21,0,24.0,,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+2018-09-22,2018,R,,indiana,michigan-state,H,21,35,0,,24.0,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+2018-09-22,2018,R,,mississippi,kent-state,H,38,17,0,,,Vaught-Hemingway Stadium - Oxford Mississippi
+2018-09-22,2018,R,,kent-state,mississippi,A,17,38,0,,,Vaught-Hemingway Stadium - Oxford Mississippi
+2018-09-22,2018,R,,new-mexico-state,texas-el-paso,A,27,20,0,,,Sun Bowl - El Paso Texas
+2018-09-22,2018,R,,texas-el-paso,new-mexico-state,H,20,27,0,,,Sun Bowl - El Paso Texas
+2018-09-22,2018,R,,north-carolina,pittsburgh,H,38,35,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2018-09-22,2018,R,,pittsburgh,north-carolina,A,35,38,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2018-09-22,2018,R,,north-carolina-state,marshall,A,37,20,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2018-09-22,2018,R,,marshall,north-carolina-state,H,20,37,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2018-09-22,2018,R,,north-texas,liberty,A,47,7,0,,,Williams Stadium - Lynchburg Virginia
+2018-09-22,2018,R,,liberty,north-texas,H,7,47,0,,,Williams Stadium - Lynchburg Virginia
+2018-09-22,2018,R,,notre-dame,wake-forest,A,56,27,0,8.0,,BB&T Field - Winston-Salem North Carolina
+2018-09-22,2018,R,,wake-forest,notre-dame,H,27,56,0,,8.0,BB&T Field - Winston-Salem North Carolina
+2018-09-22,2018,R,,ohio-state,tulane,H,49,6,0,4.0,,Ohio Stadium - Columbus Ohio
+2018-09-22,2018,R,,tulane,ohio-state,A,6,49,0,,4.0,Ohio Stadium - Columbus Ohio
+2018-09-22,2018,R,,oklahoma,army,H,28,21,0,5.0,,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2018-09-22,2018,R,,army,oklahoma,A,21,28,0,,5.0,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2018-09-22,2018,R,,old-dominion,virginia-tech,H,49,35,0,,13.0,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+2018-09-22,2018,R,,virginia-tech,old-dominion,A,35,49,0,13.0,,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+2018-09-22,2018,R,,purdue,boston-college,H,30,13,0,,23.0,Ross-Ade Stadium - West Lafayette Indiana
+2018-09-22,2018,R,,boston-college,purdue,A,13,30,0,23.0,,Ross-Ade Stadium - West Lafayette Indiana
+2018-09-22,2018,R,,san-diego-state,eastern-michigan,H,23,20,0,,,SDCCU Stadium - San Diego California
+2018-09-22,2018,R,,eastern-michigan,san-diego-state,A,20,23,0,,,SDCCU Stadium - San Diego California
+2018-09-22,2018,R,,south-carolina,vanderbilt,A,37,14,0,,,Vanderbilt Stadium - Nashville Tennessee
+2018-09-22,2018,R,,vanderbilt,south-carolina,H,14,37,0,,,Vanderbilt Stadium - Nashville Tennessee
+2018-09-22,2018,R,,south-florida,east-carolina,H,20,13,0,,,Raymond James Stadium - Tampa Florida
+2018-09-22,2018,R,,east-carolina,south-florida,A,13,20,0,,,Raymond James Stadium - Tampa Florida
+2018-09-22,2018,R,,southern-methodist,navy,H,31,30,0,,,Gerald J. Ford Stadium - Dallas Texas
+2018-09-22,2018,R,,navy,southern-methodist,A,30,31,0,,,Gerald J. Ford Stadium - Dallas Texas
+2018-09-22,2018,R,,southern-mississippi,rice,H,40,22,0,,,M. M. Roberts Stadium - Hattiesburg Mississippi
+2018-09-22,2018,R,,rice,southern-mississippi,A,22,40,0,,,M. M. Roberts Stadium - Hattiesburg Mississippi
+2018-09-22,2018,R,,stanford,oregon,A,38,31,0,7.0,20.0,Autzen Stadium - Eugene Oregon
+2018-09-22,2018,R,,oregon,stanford,H,31,38,0,20.0,7.0,Autzen Stadium - Eugene Oregon
+2018-09-22,2018,R,,syracuse,connecticut,H,51,21,0,,,Carrier Dome - Syracuse New York
+2018-09-22,2018,R,,connecticut,syracuse,A,21,51,0,,,Carrier Dome - Syracuse New York
+2018-09-22,2018,R,,texas,texas-christian,H,31,16,0,,17.0,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2018-09-22,2018,R,,texas-christian,texas,A,16,31,0,17.0,,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2018-09-22,2018,R,,texas-tech,oklahoma-state,A,41,17,0,,15.0,Boone Pickens Stadium - Stillwater Oklahoma
+2018-09-22,2018,R,,oklahoma-state,texas-tech,H,17,41,0,15.0,,Boone Pickens Stadium - Stillwater Oklahoma
+2018-09-22,2018,R,,texas-san-antonio,texas-state,H,25,21,0,,,Alamodome - San Antonio Texas
+2018-09-22,2018,R,,texas-state,texas-san-antonio,A,21,25,0,,,Alamodome - San Antonio Texas
+2018-09-22,2018,R,,toledo,nevada,H,63,44,0,,,Glass Bowl - Toledo Ohio
+2018-09-22,2018,R,,nevada,toledo,A,44,63,0,,,Glass Bowl - Toledo Ohio
+2018-09-22,2018,R,,troy,louisiana-monroe,A,35,27,0,,,Malone Stadium - Monroe Louisiana
+2018-09-22,2018,R,,louisiana-monroe,troy,H,27,35,0,,,Malone Stadium - Monroe Louisiana
+2018-09-22,2018,R,,utah-state,air-force,H,42,32,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2018-09-22,2018,R,,air-force,utah-state,A,32,42,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2018-09-22,2018,R,,virginia,louisville,H,27,3,0,,,Scott Stadium - Charlottesville Virginia
+2018-09-22,2018,R,,louisville,virginia,A,3,27,0,,,Scott Stadium - Charlottesville Virginia
+2018-09-22,2018,R,,washington,arizona-state,H,27,20,0,10.0,,Husky Stadium - Seattle Washington
+2018-09-22,2018,R,,arizona-state,washington,A,20,27,0,,10.0,Husky Stadium - Seattle Washington
+2018-09-22,2018,R,,west-virginia,kansas-state,H,35,6,0,12.0,,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+2018-09-22,2018,R,,kansas-state,west-virginia,A,6,35,0,,12.0,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+2018-09-22,2018,R,,western-kentucky,ball-state,A,28,20,0,,,Scheumann Stadium - Muncie Indiana
+2018-09-22,2018,R,,ball-state,western-kentucky,H,20,28,0,,,Scheumann Stadium - Muncie Indiana
+2018-09-22,2018,R,,western-michigan,georgia-state,A,34,15,0,,,Georgia State Stadium - Atlanta Georgia
+2018-09-22,2018,R,,georgia-state,western-michigan,H,15,34,0,,,Georgia State Stadium - Atlanta Georgia
+2018-09-22,2018,R,,wisconsin,iowa,A,28,17,0,18.0,,Kinnick Stadium - Iowa City Iowa
+2018-09-22,2018,R,,iowa,wisconsin,H,17,28,0,,18.0,Kinnick Stadium - Iowa City Iowa
+2018-09-27,2018,R,,miami-fl,north-carolina,H,47,10,0,16.0,,Hard Rock Stadium - Miami Gardens Florida
+2018-09-27,2018,R,,north-carolina,miami-fl,A,10,47,0,,16.0,Hard Rock Stadium - Miami Gardens Florida
+2018-09-28,2018,R,,colorado,ucla,H,38,16,0,,,Folsom Field - Boulder Colorado
+2018-09-28,2018,R,,ucla,colorado,A,16,38,0,,,Folsom Field - Boulder Colorado
+2018-09-28,2018,R,,tulane,memphis,H,40,24,0,,,Yulman Stadium - New Orleans Louisiana
+2018-09-28,2018,R,,memphis,tulane,A,24,40,0,,,Yulman Stadium - New Orleans Louisiana
+2018-09-29,2018,R,,alabama,louisiana,H,56,14,0,1.0,,Bryant-Denny Stadium - Tuscaloosa Alabama
+2018-09-29,2018,R,,louisiana,alabama,A,14,56,0,,1.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2018-09-29,2018,R,,alabama-birmingham,charlotte,H,28,7,0,,,Legion Field - Birmingham Alabama
+2018-09-29,2018,R,,charlotte,alabama-birmingham,A,7,28,0,,,Legion Field - Birmingham Alabama
+2018-09-29,2018,R,,appalachian-state,south-alabama,H,52,7,0,,,Kidd Brewer Stadium - Boone North Carolina
+2018-09-29,2018,R,,south-alabama,appalachian-state,A,7,52,0,,,Kidd Brewer Stadium - Boone North Carolina
+2018-09-29,2018,R,,arizona-state,oregon-state,H,52,24,0,,,Sun Devil Stadium - Tempe Arizona
+2018-09-29,2018,R,,oregon-state,arizona-state,A,24,52,0,,,Sun Devil Stadium - Tempe Arizona
+2018-09-29,2018,R,,army,buffalo,A,42,13,0,,,UB Stadium - Buffalo New York
+2018-09-29,2018,R,,buffalo,army,H,13,42,0,,,UB Stadium - Buffalo New York
+2018-09-29,2018,R,,auburn,southern-mississippi,H,24,13,0,10.0,,Jordan-Hare Stadium - Auburn Alabama
+2018-09-29,2018,R,,southern-mississippi,auburn,A,13,24,0,,10.0,Jordan-Hare Stadium - Auburn Alabama
+2018-09-29,2018,R,,ball-state,kent-state,H,52,24,0,,,Scheumann Stadium - Muncie Indiana
+2018-09-29,2018,R,,kent-state,ball-state,A,24,52,0,,,Scheumann Stadium - Muncie Indiana
+2018-09-29,2018,R,,boise-state,wyoming,A,34,14,0,,,Jonah Field War Memorial Stadium - Laramie Wyoming
+2018-09-29,2018,R,,wyoming,boise-state,H,14,34,0,,,Jonah Field War Memorial Stadium - Laramie Wyoming
+2018-09-29,2018,R,,boston-college,temple,H,45,35,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2018-09-29,2018,R,,temple,boston-college,A,35,45,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2018-09-29,2018,R,,central-florida,pittsburgh,H,45,14,0,13.0,,Spectrum Stadium - Orlando Florida
+2018-09-29,2018,R,,pittsburgh,central-florida,A,14,45,0,,13.0,Spectrum Stadium - Orlando Florida
+2018-09-29,2018,R,,cincinnati,connecticut,A,49,7,0,,,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+2018-09-29,2018,R,,connecticut,cincinnati,H,7,49,0,,,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+2018-09-29,2018,R,,clemson,syracuse,H,27,23,0,3.0,,Clemson Memorial Stadium - Clemson South Carolina
+2018-09-29,2018,R,,syracuse,clemson,A,23,27,0,,3.0,Clemson Memorial Stadium - Clemson South Carolina
+2018-09-29,2018,R,,east-carolina,old-dominion,H,37,35,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2018-09-29,2018,R,,old-dominion,east-carolina,A,35,37,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2018-09-29,2018,R,,florida,mississippi-state,A,13,6,0,,23.0,Davis Wade Stadium - Starkville Mississippi
+2018-09-29,2018,R,,mississippi-state,florida,H,6,13,0,23.0,,Davis Wade Stadium - Starkville Mississippi
+2018-09-29,2018,R,,florida-international,arkansas-pine-bluff,H,55,9,0,,,Riccardo Silva Stadium - Miami Florida
+2018-09-29,2018,R,,arkansas-pine-bluff,florida-international,A,9,55,0,,,Riccardo Silva Stadium - Miami Florida
+2018-09-29,2018,R,,florida-state,louisville,A,28,24,0,,,Cardinal Stadium - Louisville Kentucky
+2018-09-29,2018,R,,louisville,florida-state,H,24,28,0,,,Cardinal Stadium - Louisville Kentucky
+2018-09-29,2018,R,,fresno-state,toledo,H,49,27,0,,,Bulldog Stadium - Fresno California
+2018-09-29,2018,R,,toledo,fresno-state,A,27,49,0,,,Bulldog Stadium - Fresno California
+2018-09-29,2018,R,,georgia,tennessee,H,38,12,0,2.0,,Sanford Stadium - Athens Georgia
+2018-09-29,2018,R,,tennessee,georgia,A,12,38,0,,2.0,Sanford Stadium - Athens Georgia
+2018-09-29,2018,R,,georgia-southern,arkansas-state,H,28,21,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2018-09-29,2018,R,,arkansas-state,georgia-southern,A,21,28,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2018-09-29,2018,R,,georgia-state,louisiana-monroe,H,46,14,0,,,Georgia State Stadium - Atlanta Georgia
+2018-09-29,2018,R,,louisiana-monroe,georgia-state,A,14,46,0,,,Georgia State Stadium - Atlanta Georgia
+2018-09-29,2018,R,,georgia-tech,bowling-green,H,63,17,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2018-09-29,2018,R,,bowling-green,georgia-tech,A,17,63,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2018-09-29,2018,R,,hawaii,san-jose-state,A,44,41,0,,,CEFCU Stadium - San Jose California
+2018-09-29,2018,R,,san-jose-state,hawaii,H,41,44,0,,,CEFCU Stadium - San Jose California
+2018-09-29,2018,R,,indiana,rutgers,A,24,17,0,,,High Point Solutions Stadium - Piscataway New Jersey
+2018-09-29,2018,R,,rutgers,indiana,H,17,24,0,,,High Point Solutions Stadium - Piscataway New Jersey
+2018-09-29,2018,R,,kentucky,south-carolina,H,24,10,0,17.0,,Kroger Field - Lexington Kentucky
+2018-09-29,2018,R,,south-carolina,kentucky,A,10,24,0,,17.0,Kroger Field - Lexington Kentucky
+2018-09-29,2018,R,,liberty,new-mexico,A,52,43,0,,,Dreamstyle Stadium - Albuquerque New Mexico
+2018-09-29,2018,R,,new-mexico,liberty,H,43,52,0,,,Dreamstyle Stadium - Albuquerque New Mexico
+2018-09-29,2018,R,,louisiana-state,mississippi,H,45,16,0,5.0,,Tiger Stadium - Baton Rouge Louisiana
+2018-09-29,2018,R,,mississippi,louisiana-state,A,16,45,0,,5.0,Tiger Stadium - Baton Rouge Louisiana
+2018-09-29,2018,R,,louisiana-tech,north-texas,A,29,27,0,,,Apogee Stadium - Denton Texas
+2018-09-29,2018,R,,north-texas,louisiana-tech,H,27,29,0,,,Apogee Stadium - Denton Texas
+2018-09-29,2018,R,,marshall,western-kentucky,A,20,17,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2018-09-29,2018,R,,western-kentucky,marshall,H,17,20,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2018-09-29,2018,R,,michigan,northwestern,A,20,17,0,14.0,,Ryan Field - Evanston Illinois
+2018-09-29,2018,R,,northwestern,michigan,H,17,20,0,,14.0,Ryan Field - Evanston Illinois
+2018-09-29,2018,R,,michigan-state,central-michigan,H,31,20,0,21.0,,Spartan Stadium - East Lansing Michigan
+2018-09-29,2018,R,,central-michigan,michigan-state,A,20,31,0,,21.0,Spartan Stadium - East Lansing Michigan
+2018-09-29,2018,R,,middle-tennessee-state,florida-atlantic,H,25,24,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2018-09-29,2018,R,,florida-atlantic,middle-tennessee-state,A,24,25,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2018-09-29,2018,R,,nevada,air-force,A,28,25,0,,,Falcon Stadium - Colorado Springs Colorado
+2018-09-29,2018,R,,air-force,nevada,H,25,28,0,,,Falcon Stadium - Colorado Springs Colorado
+2018-09-29,2018,R,,north-carolina-state,virginia,H,35,21,0,,,Carter-Finley Stadium - Raleigh North Carolina
+2018-09-29,2018,R,,virginia,north-carolina-state,A,21,35,0,,,Carter-Finley Stadium - Raleigh North Carolina
+2018-09-29,2018,R,,northern-illinois,eastern-michigan,A,26,23,0,,,Rynearson Stadium - Ypsilanti Michigan
+2018-09-29,2018,R,,eastern-michigan,northern-illinois,H,23,26,0,,,Rynearson Stadium - Ypsilanti Michigan
+2018-09-29,2018,R,,notre-dame,stanford,H,38,17,0,8.0,7.0,Notre Dame Stadium - South Bend Indiana
+2018-09-29,2018,R,,stanford,notre-dame,A,17,38,0,7.0,8.0,Notre Dame Stadium - South Bend Indiana
+2018-09-29,2018,R,,ohio,massachusetts,H,58,42,0,,,Peden Stadium - Athens Ohio
+2018-09-29,2018,R,,massachusetts,ohio,A,42,58,0,,,Peden Stadium - Athens Ohio
+2018-09-29,2018,R,,ohio-state,penn-state,A,27,26,0,4.0,9.0,Beaver Stadium - University Park Pennsylvania
+2018-09-29,2018,R,,penn-state,ohio-state,H,26,27,0,9.0,4.0,Beaver Stadium - University Park Pennsylvania
+2018-09-29,2018,R,,oklahoma,baylor,H,66,33,0,6.0,,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2018-09-29,2018,R,,baylor,oklahoma,A,33,66,0,,6.0,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2018-09-29,2018,R,,oklahoma-state,kansas,A,48,28,0,,,Memorial Stadium - Lawrence Kansas
+2018-09-29,2018,R,,kansas,oklahoma-state,H,28,48,0,,,Memorial Stadium - Lawrence Kansas
+2018-09-29,2018,R,,oregon,california,A,42,24,0,19.0,24.0,California Memorial Stadium - Berkeley California
+2018-09-29,2018,R,,california,oregon,H,24,42,0,24.0,19.0,California Memorial Stadium - Berkeley California
+2018-09-29,2018,R,,purdue,nebraska,A,42,28,0,,,Memorial Stadium - Lincoln Nebraska
+2018-09-29,2018,R,,nebraska,purdue,H,28,42,0,,,Memorial Stadium - Lincoln Nebraska
+2018-09-29,2018,R,,southern-california,arizona,A,24,20,0,,,Arizona Stadium - Tucson Arizona
+2018-09-29,2018,R,,arizona,southern-california,H,20,24,0,,,Arizona Stadium - Tucson Arizona
+2018-09-29,2018,R,,southern-methodist,houston-baptist,H,63,27,0,,,Gerald J. Ford Stadium - Dallas Texas
+2018-09-29,2018,R,,houston-baptist,southern-methodist,A,27,63,0,,,Gerald J. Ford Stadium - Dallas Texas
+2018-09-29,2018,R,,texas,kansas-state,A,19,14,0,18.0,,Bill Snyder Family Stadium - Manhattan Kansas
+2018-09-29,2018,R,,kansas-state,texas,H,14,19,0,,18.0,Bill Snyder Family Stadium - Manhattan Kansas
+2018-09-29,2018,R,,texas-a-m,arkansas,N,24,17,0,,,AT&T Stadium - Arlington Texas
+2018-09-29,2018,R,,arkansas,texas-a-m,N,17,24,0,,,AT&T Stadium - Arlington Texas
+2018-09-29,2018,R,,texas-christian,iowa-state,H,17,14,0,,,Amon G. Carter Stadium - Fort Worth Texas
+2018-09-29,2018,R,,iowa-state,texas-christian,A,14,17,0,,,Amon G. Carter Stadium - Fort Worth Texas
+2018-09-29,2018,R,,texas-san-antonio,texas-el-paso,H,30,21,0,,,Alamodome - San Antonio Texas
+2018-09-29,2018,R,,texas-el-paso,texas-san-antonio,A,21,30,0,,,Alamodome - San Antonio Texas
+2018-09-29,2018,R,,troy,coastal-carolina,H,45,21,0,,,Veterans Memorial Stadium - Troy Alabama
+2018-09-29,2018,R,,coastal-carolina,troy,A,21,45,0,,,Veterans Memorial Stadium - Troy Alabama
+2018-09-29,2018,R,,vanderbilt,tennessee-state,H,31,27,0,,,Vanderbilt Stadium - Nashville Tennessee
+2018-09-29,2018,R,,tennessee-state,vanderbilt,A,27,31,0,,,Vanderbilt Stadium - Nashville Tennessee
+2018-09-29,2018,R,,virginia-tech,duke,A,31,14,0,,22.0,Wallace Wade Stadium - Durham North Carolina
+2018-09-29,2018,R,,duke,virginia-tech,H,14,31,0,22.0,,Wallace Wade Stadium - Durham North Carolina
+2018-09-29,2018,R,,wake-forest,rice,H,56,24,0,,,BB&T Field - Winston-Salem North Carolina
+2018-09-29,2018,R,,rice,wake-forest,A,24,56,0,,,BB&T Field - Winston-Salem North Carolina
+2018-09-29,2018,R,,washington,brigham-young,H,35,7,0,11.0,20.0,Husky Stadium - Seattle Washington
+2018-09-29,2018,R,,brigham-young,washington,A,7,35,0,20.0,11.0,Husky Stadium - Seattle Washington
+2018-09-29,2018,R,,washington-state,utah,H,28,24,0,,,Martin Stadium - Pullman Washington
+2018-09-29,2018,R,,utah,washington-state,A,24,28,0,,,Martin Stadium - Pullman Washington
+2018-09-29,2018,R,,west-virginia,texas-tech,A,42,34,0,12.0,25.0,Jones AT&T Stadium - Lubbock Texas
+2018-09-29,2018,R,,texas-tech,west-virginia,H,34,42,0,25.0,12.0,Jones AT&T Stadium - Lubbock Texas
+2018-09-29,2018,R,,western-michigan,miami-oh,A,40,39,0,,,Fred Yager Stadium - Oxford Ohio
+2018-09-29,2018,R,,miami-oh,western-michigan,H,39,40,0,,,Fred Yager Stadium - Oxford Ohio
+2018-10-04,2018,R,,houston,tulsa,H,41,26,0,,,TDECU Stadium - Houston Texas
+2018-10-04,2018,R,,tulsa,houston,A,26,41,0,,,TDECU Stadium - Houston Texas
+2018-10-04,2018,R,,troy,georgia-state,H,37,20,0,,,Veterans Memorial Stadium - Troy Alabama
+2018-10-04,2018,R,,georgia-state,troy,A,20,37,0,,,Veterans Memorial Stadium - Troy Alabama
+2018-10-05,2018,R,,georgia-tech,louisville,A,66,31,0,,,Cardinal Stadium - Louisville Kentucky
+2018-10-05,2018,R,,louisville,georgia-tech,H,31,66,0,,,Cardinal Stadium - Louisville Kentucky
+2018-10-05,2018,R,,middle-tennessee-state,marshall,A,34,24,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2018-10-05,2018,R,,marshall,middle-tennessee-state,H,24,34,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2018-10-05,2018,R,,utah-state,brigham-young,A,45,20,0,,,LaVell Edwards Stadium - Provo Utah
+2018-10-05,2018,R,,brigham-young,utah-state,H,20,45,0,,,LaVell Edwards Stadium - Provo Utah
+2018-10-06,2018,R,,air-force,navy,H,35,7,0,,,Falcon Stadium - Colorado Springs Colorado
+2018-10-06,2018,R,,navy,air-force,A,7,35,0,,,Falcon Stadium - Colorado Springs Colorado
+2018-10-06,2018,R,,alabama,arkansas,A,65,31,0,1.0,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2018-10-06,2018,R,,arkansas,alabama,H,31,65,0,,1.0,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2018-10-06,2018,R,,alabama-birmingham,louisiana-tech,A,28,7,0,,,Joe Aillet Stadium - Ruston Louisiana
+2018-10-06,2018,R,,louisiana-tech,alabama-birmingham,H,7,28,0,,,Joe Aillet Stadium - Ruston Louisiana
+2018-10-06,2018,R,,arizona,california,H,24,17,0,,,Arizona Stadium - Tucson Arizona
+2018-10-06,2018,R,,california,arizona,A,17,24,0,,,Arizona Stadium - Tucson Arizona
+2018-10-06,2018,R,,baylor,kansas-state,H,37,34,0,,,McLane Stadium - Waco Texas
+2018-10-06,2018,R,,kansas-state,baylor,A,34,37,0,,,McLane Stadium - Waco Texas
+2018-10-06,2018,R,,buffalo,central-michigan,A,34,24,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2018-10-06,2018,R,,central-michigan,buffalo,H,24,34,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2018-10-06,2018,R,,central-florida,southern-methodist,H,48,20,0,12.0,,Spectrum Stadium - Orlando Florida
+2018-10-06,2018,R,,southern-methodist,central-florida,A,20,48,0,,12.0,Spectrum Stadium - Orlando Florida
+2018-10-06,2018,R,,cincinnati,tulane,H,37,21,0,,,Nippert Stadium - Cincinnati Ohio
+2018-10-06,2018,R,,tulane,cincinnati,A,21,37,0,,,Nippert Stadium - Cincinnati Ohio
+2018-10-06,2018,R,,clemson,wake-forest,A,63,3,0,4.0,,BB&T Field - Winston-Salem North Carolina
+2018-10-06,2018,R,,wake-forest,clemson,H,3,63,0,,4.0,BB&T Field - Winston-Salem North Carolina
+2018-10-06,2018,R,,colorado,arizona-state,H,28,21,0,21.0,,Folsom Field - Boulder Colorado
+2018-10-06,2018,R,,arizona-state,colorado,A,21,28,0,,21.0,Folsom Field - Boulder Colorado
+2018-10-06,2018,R,,colorado-state,san-jose-state,A,42,30,0,,,CEFCU Stadium - San Jose California
+2018-10-06,2018,R,,san-jose-state,colorado-state,H,30,42,0,,,CEFCU Stadium - San Jose California
+2018-10-06,2018,R,,florida,louisiana-state,H,27,19,0,20.0,5.0,Ben Hill Griffin Stadium - Gainesville Florida
+2018-10-06,2018,R,,louisiana-state,florida,A,19,27,0,5.0,20.0,Ben Hill Griffin Stadium - Gainesville Florida
+2018-10-06,2018,R,,florida-atlantic,old-dominion,H,52,33,0,,,FAU Football Stadium - Boca Raton Florida
+2018-10-06,2018,R,,old-dominion,florida-atlantic,A,33,52,0,,,FAU Football Stadium - Boca Raton Florida
+2018-10-06,2018,R,,fresno-state,nevada,A,21,3,0,,,MacKay Stadium - Reno Nevada
+2018-10-06,2018,R,,nevada,fresno-state,H,3,21,0,,,MacKay Stadium - Reno Nevada
+2018-10-06,2018,R,,georgia,vanderbilt,H,41,13,0,2.0,,Sanford Stadium - Athens Georgia
+2018-10-06,2018,R,,vanderbilt,georgia,A,13,41,0,,2.0,Sanford Stadium - Athens Georgia
+2018-10-06,2018,R,,georgia-southern,south-alabama,H,48,13,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2018-10-06,2018,R,,south-alabama,georgia-southern,A,13,48,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2018-10-06,2018,R,,hawaii,wyoming,H,17,13,0,,,Aloha Stadium - Honolulu Hawaii
+2018-10-06,2018,R,,wyoming,hawaii,A,13,17,0,,,Aloha Stadium - Honolulu Hawaii
+2018-10-06,2018,R,,illinois,rutgers,A,38,17,0,,,High Point Solutions Stadium - Piscataway New Jersey
+2018-10-06,2018,R,,rutgers,illinois,H,17,38,0,,,High Point Solutions Stadium - Piscataway New Jersey
+2018-10-06,2018,R,,iowa,minnesota,A,48,31,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2018-10-06,2018,R,,minnesota,iowa,H,31,48,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2018-10-06,2018,R,,iowa-state,oklahoma-state,A,48,42,0,,25.0,Boone Pickens Stadium - Stillwater Oklahoma
+2018-10-06,2018,R,,oklahoma-state,iowa-state,H,42,48,0,25.0,,Boone Pickens Stadium - Stillwater Oklahoma
+2018-10-06,2018,R,,louisiana,texas-state,A,42,27,0,,,Bobcat Stadium - San Marcos Texas
+2018-10-06,2018,R,,texas-state,louisiana,H,27,42,0,,,Bobcat Stadium - San Marcos Texas
+2018-10-06,2018,R,,memphis,connecticut,H,55,14,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2018-10-06,2018,R,,connecticut,memphis,A,14,55,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2018-10-06,2018,R,,miami-fl,florida-state,H,28,27,0,17.0,,Hard Rock Stadium - Miami Gardens Florida
+2018-10-06,2018,R,,florida-state,miami-fl,A,27,28,0,,17.0,Hard Rock Stadium - Miami Gardens Florida
+2018-10-06,2018,R,,miami-oh,akron,A,41,17,0,,,InfoCision Stadium - Akron Ohio
+2018-10-06,2018,R,,akron,miami-oh,H,17,41,0,,,InfoCision Stadium - Akron Ohio
+2018-10-06,2018,R,,michigan,maryland,H,42,21,0,15.0,,Michigan Stadium - Ann Arbor Michigan
+2018-10-06,2018,R,,maryland,michigan,A,21,42,0,,15.0,Michigan Stadium - Ann Arbor Michigan
+2018-10-06,2018,R,,mississippi,louisiana-monroe,H,70,21,0,,,Vaught-Hemingway Stadium - Oxford Mississippi
+2018-10-06,2018,R,,louisiana-monroe,mississippi,A,21,70,0,,,Vaught-Hemingway Stadium - Oxford Mississippi
+2018-10-06,2018,R,,mississippi-state,auburn,H,23,9,0,,8.0,Davis Wade Stadium - Starkville Mississippi
+2018-10-06,2018,R,,auburn,mississippi-state,A,9,23,0,8.0,,Davis Wade Stadium - Starkville Mississippi
+2018-10-06,2018,R,,new-mexico,nevada-las-vegas,A,50,14,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2018-10-06,2018,R,,nevada-las-vegas,new-mexico,H,14,50,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2018-10-06,2018,R,,new-mexico-state,liberty,H,49,41,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2018-10-06,2018,R,,liberty,new-mexico-state,A,41,49,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2018-10-06,2018,R,,north-carolina-state,boston-college,H,28,23,0,23.0,,Carter-Finley Stadium - Raleigh North Carolina
+2018-10-06,2018,R,,boston-college,north-carolina-state,A,23,28,0,,23.0,Carter-Finley Stadium - Raleigh North Carolina
+2018-10-06,2018,R,,north-texas,texas-el-paso,A,27,24,0,,,Sun Bowl - El Paso Texas
+2018-10-06,2018,R,,texas-el-paso,north-texas,H,24,27,0,,,Sun Bowl - El Paso Texas
+2018-10-06,2018,R,,northern-illinois,ball-state,A,24,16,0,,,Scheumann Stadium - Muncie Indiana
+2018-10-06,2018,R,,ball-state,northern-illinois,H,16,24,0,,,Scheumann Stadium - Muncie Indiana
+2018-10-06,2018,R,,northwestern,michigan-state,A,29,19,0,,20.0,Spartan Stadium - East Lansing Michigan
+2018-10-06,2018,R,,michigan-state,northwestern,H,19,29,0,20.0,,Spartan Stadium - East Lansing Michigan
+2018-10-06,2018,R,,notre-dame,virginia-tech,A,45,23,0,6.0,24.0,Lane Stadium - Blacksburg Virginia
+2018-10-06,2018,R,,virginia-tech,notre-dame,H,23,45,0,24.0,6.0,Lane Stadium - Blacksburg Virginia
+2018-10-06,2018,R,,ohio,kent-state,A,27,26,0,,,Dix Stadium - Kent Ohio
+2018-10-06,2018,R,,kent-state,ohio,H,26,27,0,,,Dix Stadium - Kent Ohio
+2018-10-06,2018,R,,ohio-state,indiana,H,49,26,0,3.0,,Ohio Stadium - Columbus Ohio
+2018-10-06,2018,R,,indiana,ohio-state,A,26,49,0,,3.0,Ohio Stadium - Columbus Ohio
+2018-10-06,2018,R,,pittsburgh,syracuse,H,44,37,0,,,Heinz Field - Pittsburgh Pennsylvania
+2018-10-06,2018,R,,syracuse,pittsburgh,A,37,44,0,,,Heinz Field - Pittsburgh Pennsylvania
+2018-10-06,2018,R,,san-diego-state,boise-state,A,19,13,0,,,Albertsons Stadium - Boise Idaho
+2018-10-06,2018,R,,boise-state,san-diego-state,H,13,19,0,,,Albertsons Stadium - Boise Idaho
+2018-10-06,2018,R,,south-carolina,missouri,H,37,35,0,,,Williams-Brice Stadium - Columbia South Carolina
+2018-10-06,2018,R,,missouri,south-carolina,A,35,37,0,,,Williams-Brice Stadium - Columbia South Carolina
+2018-10-06,2018,R,,south-florida,massachusetts,A,58,42,0,,,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+2018-10-06,2018,R,,massachusetts,south-florida,H,42,58,0,,,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+2018-10-06,2018,R,,temple,east-carolina,H,49,6,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2018-10-06,2018,R,,east-carolina,temple,A,6,49,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2018-10-06,2018,R,,texas,oklahoma,N,48,45,0,19.0,7.0,Cotton Bowl - Dallas Texas
+2018-10-06,2018,R,,oklahoma,texas,N,45,48,0,7.0,19.0,Cotton Bowl - Dallas Texas
+2018-10-06,2018,R,,texas-a-m,kentucky,H,20,14,0,,13.0,Kyle Field - College Station Texas
+2018-10-06,2018,R,,kentucky,texas-a-m,A,14,20,0,13.0,,Kyle Field - College Station Texas
+2018-10-06,2018,R,,texas-san-antonio,rice,A,20,3,0,,,Rice Stadium - Houston Texas
+2018-10-06,2018,R,,rice,texas-san-antonio,H,3,20,0,,,Rice Stadium - Houston Texas
+2018-10-06,2018,R,,toledo,bowling-green,H,52,36,0,,,Glass Bowl - Toledo Ohio
+2018-10-06,2018,R,,bowling-green,toledo,A,36,52,0,,,Glass Bowl - Toledo Ohio
+2018-10-06,2018,R,,utah,stanford,A,40,21,0,,14.0,Stanford Stadium - Stanford California
+2018-10-06,2018,R,,stanford,utah,H,21,40,0,14.0,,Stanford Stadium - Stanford California
+2018-10-06,2018,R,,washington,ucla,A,31,24,0,10.0,,Rose Bowl - Pasadena California
+2018-10-06,2018,R,,ucla,washington,H,24,31,0,,10.0,Rose Bowl - Pasadena California
+2018-10-06,2018,R,,washington-state,oregon-state,A,56,37,0,,,Reser Stadium - Corvallis Oregon
+2018-10-06,2018,R,,oregon-state,washington-state,H,37,56,0,,,Reser Stadium - Corvallis Oregon
+2018-10-06,2018,R,,west-virginia,kansas,H,38,22,0,9.0,,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+2018-10-06,2018,R,,kansas,west-virginia,A,22,38,0,,9.0,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+2018-10-06,2018,R,,western-michigan,eastern-michigan,H,27,24,0,,,Waldo Stadium - Kalamazoo Michigan
+2018-10-06,2018,R,,eastern-michigan,western-michigan,A,24,27,0,,,Waldo Stadium - Kalamazoo Michigan
+2018-10-06,2018,R,,wisconsin,nebraska,H,41,24,0,16.0,,Camp Randall Stadium - Madison Wisconsin
+2018-10-06,2018,R,,nebraska,wisconsin,A,24,41,0,,16.0,Camp Randall Stadium - Madison Wisconsin
+2018-10-09,2018,R,,appalachian-state,arkansas-state,A,35,9,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2018-10-09,2018,R,,arkansas-state,appalachian-state,H,9,35,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2018-10-11,2018,R,,georgia-southern,texas-state,A,15,13,0,,,Bobcat Stadium - San Marcos Texas
+2018-10-11,2018,R,,texas-state,georgia-southern,H,13,15,0,,,Bobcat Stadium - San Marcos Texas
+2018-10-11,2018,R,,texas-tech,texas-christian,A,17,14,0,,,Amon G. Carter Stadium - Fort Worth Texas
+2018-10-11,2018,R,,texas-christian,texas-tech,H,14,17,0,,,Amon G. Carter Stadium - Fort Worth Texas
+2018-10-12,2018,R,,san-diego-state,air-force,H,21,17,0,,,SDCCU Stadium - San Diego California
+2018-10-12,2018,R,,air-force,san-diego-state,A,17,21,0,,,SDCCU Stadium - San Diego California
+2018-10-12,2018,R,,south-florida,tulsa,A,25,24,0,23.0,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2018-10-12,2018,R,,tulsa,south-florida,H,24,25,0,,23.0,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2018-10-12,2018,R,,utah,arizona,H,42,10,0,,,Rice-Eccles Stadium - Salt Lake City Utah
+2018-10-12,2018,R,,arizona,utah,A,10,42,0,,,Rice-Eccles Stadium - Salt Lake City Utah
+2018-10-13,2018,R,,alabama,missouri,H,39,10,0,1.0,,Bryant-Denny Stadium - Tuscaloosa Alabama
+2018-10-13,2018,R,,missouri,alabama,A,10,39,0,,1.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2018-10-13,2018,R,,alabama-birmingham,rice,A,42,0,0,,,Rice Stadium - Houston Texas
+2018-10-13,2018,R,,rice,alabama-birmingham,H,0,42,0,,,Rice Stadium - Houston Texas
+2018-10-13,2018,R,,army,san-jose-state,N,52,3,0,,,Levi's Stadium - Santa Clara California
+2018-10-13,2018,R,,san-jose-state,army,N,3,52,0,,,Levi's Stadium - Santa Clara California
+2018-10-13,2018,R,,ball-state,central-michigan,A,24,23,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2018-10-13,2018,R,,central-michigan,ball-state,H,23,24,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2018-10-13,2018,R,,boise-state,nevada,A,31,27,0,,,MacKay Stadium - Reno Nevada
+2018-10-13,2018,R,,nevada,boise-state,H,27,31,0,,,MacKay Stadium - Reno Nevada
+2018-10-13,2018,R,,boston-college,louisville,H,38,20,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2018-10-13,2018,R,,louisville,boston-college,A,20,38,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2018-10-13,2018,R,,brigham-young,hawaii,H,49,23,0,,,LaVell Edwards Stadium - Provo Utah
+2018-10-13,2018,R,,hawaii,brigham-young,A,23,49,0,,,LaVell Edwards Stadium - Provo Utah
+2018-10-13,2018,R,,buffalo,akron,H,24,6,0,,,UB Stadium - Buffalo New York
+2018-10-13,2018,R,,akron,buffalo,A,6,24,0,,,UB Stadium - Buffalo New York
+2018-10-13,2018,R,,central-florida,memphis,A,31,30,0,10.0,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2018-10-13,2018,R,,memphis,central-florida,H,30,31,0,,10.0,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2018-10-13,2018,R,,charlotte,western-kentucky,H,40,14,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2018-10-13,2018,R,,western-kentucky,charlotte,A,14,40,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2018-10-13,2018,R,,colorado-state,new-mexico,H,20,18,0,,,Sonny Lubick Field at Canvas Stadium - Fort Collins Colorado
+2018-10-13,2018,R,,new-mexico,colorado-state,A,18,20,0,,,Sonny Lubick Field at Canvas Stadium - Fort Collins Colorado
+2018-10-13,2018,R,,duke,georgia-tech,A,28,14,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2018-10-13,2018,R,,georgia-tech,duke,H,14,28,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2018-10-13,2018,R,,eastern-michigan,toledo,H,28,26,0,,,Rynearson Stadium - Ypsilanti Michigan
+2018-10-13,2018,R,,toledo,eastern-michigan,A,26,28,0,,,Rynearson Stadium - Ypsilanti Michigan
+2018-10-13,2018,R,,florida,vanderbilt,A,37,27,0,14.0,,Vanderbilt Stadium - Nashville Tennessee
+2018-10-13,2018,R,,vanderbilt,florida,H,27,37,0,,14.0,Vanderbilt Stadium - Nashville Tennessee
+2018-10-13,2018,R,,florida-international,middle-tennessee-state,H,24,21,0,,,Riccardo Silva Stadium - Miami Florida
+2018-10-13,2018,R,,middle-tennessee-state,florida-international,A,21,24,0,,,Riccardo Silva Stadium - Miami Florida
+2018-10-13,2018,R,,fresno-state,wyoming,H,27,3,0,,,Bulldog Stadium - Fresno California
+2018-10-13,2018,R,,wyoming,fresno-state,A,3,27,0,,,Bulldog Stadium - Fresno California
+2018-10-13,2018,R,,houston,east-carolina,A,42,20,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2018-10-13,2018,R,,east-carolina,houston,H,20,42,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2018-10-13,2018,R,,iowa,indiana,A,42,16,0,,,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+2018-10-13,2018,R,,indiana,iowa,H,16,42,0,,,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+2018-10-13,2018,R,,iowa-state,west-virginia,H,30,14,0,,6.0,Jack Trice Stadium - Ames Iowa
+2018-10-13,2018,R,,west-virginia,iowa-state,A,14,30,0,6.0,,Jack Trice Stadium - Ames Iowa
+2018-10-13,2018,R,,kansas-state,oklahoma-state,H,31,12,0,,,Bill Snyder Family Stadium - Manhattan Kansas
+2018-10-13,2018,R,,oklahoma-state,kansas-state,A,12,31,0,,,Bill Snyder Family Stadium - Manhattan Kansas
+2018-10-13,2018,R,,liberty,troy,H,22,16,0,,,Williams Stadium - Lynchburg Virginia
+2018-10-13,2018,R,,troy,liberty,A,16,22,0,,,Williams Stadium - Lynchburg Virginia
+2018-10-13,2018,R,,louisiana,new-mexico-state,H,66,38,0,,,Cajun Field - Lafayette Louisiana
+2018-10-13,2018,R,,new-mexico-state,louisiana,A,38,66,0,,,Cajun Field - Lafayette Louisiana
+2018-10-13,2018,R,,louisiana-state,georgia,H,36,16,0,13.0,2.0,Tiger Stadium - Baton Rouge Louisiana
+2018-10-13,2018,R,,georgia,louisiana-state,A,16,36,0,2.0,13.0,Tiger Stadium - Baton Rouge Louisiana
+2018-10-13,2018,R,,louisiana-tech,texas-san-antonio,A,31,3,0,,,Alamodome - San Antonio Texas
+2018-10-13,2018,R,,texas-san-antonio,louisiana-tech,H,3,31,0,,,Alamodome - San Antonio Texas
+2018-10-13,2018,R,,louisiana-monroe,coastal-carolina,A,45,20,0,,,Brooks Stadium - Conway South Carolina
+2018-10-13,2018,R,,coastal-carolina,louisiana-monroe,H,20,45,0,,,Brooks Stadium - Conway South Carolina
+2018-10-13,2018,R,,marshall,old-dominion,A,42,20,0,,,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+2018-10-13,2018,R,,old-dominion,marshall,H,20,42,0,,,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+2018-10-13,2018,R,,maryland,rutgers,H,34,7,0,,,Capital One Field at Maryland Stadium - College Park Maryland
+2018-10-13,2018,R,,rutgers,maryland,A,7,34,0,,,Capital One Field at Maryland Stadium - College Park Maryland
+2018-10-13,2018,R,,miami-oh,kent-state,H,31,6,0,,,Fred Yager Stadium - Oxford Ohio
+2018-10-13,2018,R,,kent-state,miami-oh,A,6,31,0,,,Fred Yager Stadium - Oxford Ohio
+2018-10-13,2018,R,,michigan,wisconsin,H,38,13,0,12.0,15.0,Michigan Stadium - Ann Arbor Michigan
+2018-10-13,2018,R,,wisconsin,michigan,A,13,38,0,15.0,12.0,Michigan Stadium - Ann Arbor Michigan
+2018-10-13,2018,R,,michigan-state,penn-state,A,21,17,0,,8.0,Beaver Stadium - University Park Pennsylvania
+2018-10-13,2018,R,,penn-state,michigan-state,H,17,21,0,8.0,,Beaver Stadium - University Park Pennsylvania
+2018-10-13,2018,R,,mississippi,arkansas,A,37,33,0,,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2018-10-13,2018,R,,arkansas,mississippi,H,33,37,0,,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2018-10-13,2018,R,,north-texas,southern-mississippi,H,30,7,0,,,Apogee Stadium - Denton Texas
+2018-10-13,2018,R,,southern-mississippi,north-texas,A,7,30,0,,,Apogee Stadium - Denton Texas
+2018-10-13,2018,R,,northern-illinois,ohio,H,24,21,0,,,Huskie Stadium - DeKalb Illinois
+2018-10-13,2018,R,,ohio,northern-illinois,A,21,24,0,,,Huskie Stadium - DeKalb Illinois
+2018-10-13,2018,R,,northwestern,nebraska,H,34,31,0,,,Ryan Field - Evanston Illinois
+2018-10-13,2018,R,,nebraska,northwestern,A,31,34,0,,,Ryan Field - Evanston Illinois
+2018-10-13,2018,R,,notre-dame,pittsburgh,H,19,14,0,5.0,,Notre Dame Stadium - South Bend Indiana
+2018-10-13,2018,R,,pittsburgh,notre-dame,A,14,19,0,,5.0,Notre Dame Stadium - South Bend Indiana
+2018-10-13,2018,R,,ohio-state,minnesota,H,30,14,0,3.0,,Ohio Stadium - Columbus Ohio
+2018-10-13,2018,R,,minnesota,ohio-state,A,14,30,0,,3.0,Ohio Stadium - Columbus Ohio
+2018-10-13,2018,R,,oregon,washington,H,30,27,0,17.0,7.0,Autzen Stadium - Eugene Oregon
+2018-10-13,2018,R,,washington,oregon,A,27,30,0,7.0,17.0,Autzen Stadium - Eugene Oregon
+2018-10-13,2018,R,,purdue,illinois,A,46,7,0,,,Memorial Stadium - Champaign Illinois
+2018-10-13,2018,R,,illinois,purdue,H,7,46,0,,,Memorial Stadium - Champaign Illinois
+2018-10-13,2018,R,,south-alabama,alabama-state,H,45,7,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2018-10-13,2018,R,,alabama-state,south-alabama,A,7,45,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2018-10-13,2018,R,,southern-california,colorado,H,31,20,0,,19.0,Los Angeles Memorial Coliseum - Los Angeles California
+2018-10-13,2018,R,,colorado,southern-california,A,20,31,0,19.0,,Los Angeles Memorial Coliseum - Los Angeles California
+2018-10-13,2018,R,,temple,navy,A,24,17,0,,,Navy-Marine Corps Memorial Stadium - Annapolis Maryland
+2018-10-13,2018,R,,navy,temple,H,17,24,0,,,Navy-Marine Corps Memorial Stadium - Annapolis Maryland
+2018-10-13,2018,R,,tennessee,auburn,A,30,24,0,,21.0,Jordan-Hare Stadium - Auburn Alabama
+2018-10-13,2018,R,,auburn,tennessee,H,24,30,0,21.0,,Jordan-Hare Stadium - Auburn Alabama
+2018-10-13,2018,R,,texas,baylor,H,23,17,0,9.0,,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2018-10-13,2018,R,,baylor,texas,A,17,23,0,,9.0,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2018-10-13,2018,R,,texas-a-m,south-carolina,A,26,23,0,22.0,,Williams-Brice Stadium - Columbia South Carolina
+2018-10-13,2018,R,,south-carolina,texas-a-m,H,23,26,0,,22.0,Williams-Brice Stadium - Columbia South Carolina
+2018-10-13,2018,R,,ucla,california,A,37,7,0,,,California Memorial Stadium - Berkeley California
+2018-10-13,2018,R,,california,ucla,H,7,37,0,,,California Memorial Stadium - Berkeley California
+2018-10-13,2018,R,,utah-state,nevada-las-vegas,H,59,28,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2018-10-13,2018,R,,nevada-las-vegas,utah-state,A,28,59,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2018-10-13,2018,R,,virginia,miami-fl,H,16,13,0,,16.0,Scott Stadium - Charlottesville Virginia
+2018-10-13,2018,R,,miami-fl,virginia,A,13,16,0,16.0,,Scott Stadium - Charlottesville Virginia
+2018-10-13,2018,R,,virginia-tech,north-carolina,A,22,19,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2018-10-13,2018,R,,north-carolina,virginia-tech,H,19,22,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2018-10-13,2018,R,,western-michigan,bowling-green,A,42,35,0,,,Doyt Perry Stadium - Bowling Green Ohio
+2018-10-13,2018,R,,bowling-green,western-michigan,H,35,42,0,,,Doyt Perry Stadium - Bowling Green Ohio
+2018-10-18,2018,R,,arkansas-state,georgia-state,H,51,35,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2018-10-18,2018,R,,georgia-state,arkansas-state,A,35,51,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2018-10-18,2018,R,,stanford,arizona-state,A,20,13,0,,,Sun Devil Stadium - Tempe Arizona
+2018-10-18,2018,R,,arizona-state,stanford,H,13,20,0,,,Sun Devil Stadium - Tempe Arizona
+2018-10-19,2018,R,,air-force,nevada-las-vegas,A,41,35,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2018-10-19,2018,R,,nevada-las-vegas,air-force,H,35,41,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2018-10-19,2018,R,,boise-state,colorado-state,H,56,28,0,,,Albertsons Stadium - Boise Idaho
+2018-10-19,2018,R,,colorado-state,boise-state,A,28,56,0,,,Albertsons Stadium - Boise Idaho
+2018-10-20,2018,R,,akron,kent-state,A,24,23,0,,,Dix Stadium - Kent Ohio
+2018-10-20,2018,R,,kent-state,akron,H,23,24,0,,,Dix Stadium - Kent Ohio
+2018-10-20,2018,R,,alabama,tennessee,A,58,21,0,1.0,,Neyland Stadium - Knoxville Tennessee
+2018-10-20,2018,R,,tennessee,alabama,H,21,58,0,,1.0,Neyland Stadium - Knoxville Tennessee
+2018-10-20,2018,R,,alabama-birmingham,north-texas,H,29,21,0,,,Legion Field - Birmingham Alabama
+2018-10-20,2018,R,,north-texas,alabama-birmingham,A,21,29,0,,,Legion Field - Birmingham Alabama
+2018-10-20,2018,R,,appalachian-state,louisiana,H,27,17,0,,,Kidd Brewer Stadium - Boone North Carolina
+2018-10-20,2018,R,,louisiana,appalachian-state,A,17,27,0,,,Kidd Brewer Stadium - Boone North Carolina
+2018-10-20,2018,R,,arkansas,tulsa,H,23,0,0,,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2018-10-20,2018,R,,tulsa,arkansas,A,0,23,0,,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2018-10-20,2018,R,,army,miami-oh,H,31,30,0,,,Michie Stadium - West Point New York
+2018-10-20,2018,R,,miami-oh,army,A,30,31,0,,,Michie Stadium - West Point New York
+2018-10-20,2018,R,,auburn,mississippi,A,31,16,0,,,Vaught-Hemingway Stadium - Oxford Mississippi
+2018-10-20,2018,R,,mississippi,auburn,H,16,31,0,,,Vaught-Hemingway Stadium - Oxford Mississippi
+2018-10-20,2018,R,,buffalo,toledo,A,31,17,0,,,Glass Bowl - Toledo Ohio
+2018-10-20,2018,R,,toledo,buffalo,H,17,31,0,,,Glass Bowl - Toledo Ohio
+2018-10-20,2018,R,,california,oregon-state,A,49,7,0,,,Reser Stadium - Corvallis Oregon
+2018-10-20,2018,R,,oregon-state,california,H,7,49,0,,,Reser Stadium - Corvallis Oregon
+2018-10-20,2018,R,,central-florida,east-carolina,A,37,10,0,10.0,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2018-10-20,2018,R,,east-carolina,central-florida,H,10,37,0,,10.0,Dowdy-Ficklen Stadium - Greenville North Carolina
+2018-10-20,2018,R,,clemson,north-carolina-state,H,41,7,0,3.0,16.0,Clemson Memorial Stadium - Clemson South Carolina
+2018-10-20,2018,R,,north-carolina-state,clemson,A,7,41,0,16.0,3.0,Clemson Memorial Stadium - Clemson South Carolina
+2018-10-20,2018,R,,coastal-carolina,massachusetts,A,24,13,0,,,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+2018-10-20,2018,R,,massachusetts,coastal-carolina,H,13,24,0,,,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+2018-10-20,2018,R,,eastern-michigan,ball-state,A,42,20,0,,,Scheumann Stadium - Muncie Indiana
+2018-10-20,2018,R,,ball-state,eastern-michigan,H,20,42,0,,,Scheumann Stadium - Muncie Indiana
+2018-10-20,2018,R,,florida-international,rice,H,36,17,0,,,Riccardo Silva Stadium - Miami Florida
+2018-10-20,2018,R,,rice,florida-international,A,17,36,0,,,Riccardo Silva Stadium - Miami Florida
+2018-10-20,2018,R,,florida-state,wake-forest,H,38,17,0,,,Doak Campbell Stadium - Tallahassee Florida
+2018-10-20,2018,R,,wake-forest,florida-state,A,17,38,0,,,Doak Campbell Stadium - Tallahassee Florida
+2018-10-20,2018,R,,fresno-state,new-mexico,A,38,7,0,,,Dreamstyle Stadium - Albuquerque New Mexico
+2018-10-20,2018,R,,new-mexico,fresno-state,H,7,38,0,,,Dreamstyle Stadium - Albuquerque New Mexico
+2018-10-20,2018,R,,georgia-southern,new-mexico-state,A,48,31,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2018-10-20,2018,R,,new-mexico-state,georgia-southern,H,31,48,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2018-10-20,2018,R,,houston,navy,A,49,36,0,,,Navy-Marine Corps Memorial Stadium - Annapolis Maryland
+2018-10-20,2018,R,,navy,houston,H,36,49,0,,,Navy-Marine Corps Memorial Stadium - Annapolis Maryland
+2018-10-20,2018,R,,iowa,maryland,H,23,0,0,19.0,,Kinnick Stadium - Iowa City Iowa
+2018-10-20,2018,R,,maryland,iowa,A,0,23,0,,19.0,Kinnick Stadium - Iowa City Iowa
+2018-10-20,2018,R,,kentucky,vanderbilt,H,14,7,0,14.0,,Kroger Field - Lexington Kentucky
+2018-10-20,2018,R,,vanderbilt,kentucky,A,7,14,0,,14.0,Kroger Field - Lexington Kentucky
+2018-10-20,2018,R,,liberty,idaho-state,H,48,41,0,,,Williams Stadium - Lynchburg Virginia
+2018-10-20,2018,R,,idaho-state,liberty,A,41,48,0,,,Williams Stadium - Lynchburg Virginia
+2018-10-20,2018,R,,louisiana-state,mississippi-state,H,19,3,0,5.0,22.0,Tiger Stadium - Baton Rouge Louisiana
+2018-10-20,2018,R,,mississippi-state,louisiana-state,A,3,19,0,22.0,5.0,Tiger Stadium - Baton Rouge Louisiana
+2018-10-20,2018,R,,louisiana-tech,texas-el-paso,H,31,24,0,,,Joe Aillet Stadium - Ruston Louisiana
+2018-10-20,2018,R,,texas-el-paso,louisiana-tech,A,24,31,0,,,Joe Aillet Stadium - Ruston Louisiana
+2018-10-20,2018,R,,louisiana-monroe,texas-state,H,20,14,0,,,Malone Stadium - Monroe Louisiana
+2018-10-20,2018,R,,texas-state,louisiana-monroe,A,14,20,0,,,Malone Stadium - Monroe Louisiana
+2018-10-20,2018,R,,marshall,florida-atlantic,H,31,7,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2018-10-20,2018,R,,florida-atlantic,marshall,A,7,31,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2018-10-20,2018,R,,michigan,michigan-state,A,21,7,0,6.0,24.0,Spartan Stadium - East Lansing Michigan
+2018-10-20,2018,R,,michigan-state,michigan,H,7,21,0,24.0,6.0,Spartan Stadium - East Lansing Michigan
+2018-10-20,2018,R,,middle-tennessee-state,charlotte,H,21,13,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2018-10-20,2018,R,,charlotte,middle-tennessee-state,A,13,21,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2018-10-20,2018,R,,missouri,memphis,H,65,33,0,,,Memorial Stadium/Faurot Field - Columbia Missouri
+2018-10-20,2018,R,,memphis,missouri,A,33,65,0,,,Memorial Stadium/Faurot Field - Columbia Missouri
+2018-10-20,2018,R,,nebraska,minnesota,H,53,28,0,,,Memorial Stadium - Lincoln Nebraska
+2018-10-20,2018,R,,minnesota,nebraska,A,28,53,0,,,Memorial Stadium - Lincoln Nebraska
+2018-10-20,2018,R,,nevada,hawaii,A,40,22,0,,,Aloha Stadium - Honolulu Hawaii
+2018-10-20,2018,R,,hawaii,nevada,H,22,40,0,,,Aloha Stadium - Honolulu Hawaii
+2018-10-20,2018,R,,northwestern,rutgers,A,18,15,0,,,High Point Solutions Stadium - Piscataway New Jersey
+2018-10-20,2018,R,,rutgers,northwestern,H,15,18,0,,,High Point Solutions Stadium - Piscataway New Jersey
+2018-10-20,2018,R,,ohio,bowling-green,H,49,14,0,,,Peden Stadium - Athens Ohio
+2018-10-20,2018,R,,bowling-green,ohio,A,14,49,0,,,Peden Stadium - Athens Ohio
+2018-10-20,2018,R,,oklahoma,texas-christian,A,52,27,0,9.0,,Amon G. Carter Stadium - Fort Worth Texas
+2018-10-20,2018,R,,texas-christian,oklahoma,H,27,52,0,,9.0,Amon G. Carter Stadium - Fort Worth Texas
+2018-10-20,2018,R,,old-dominion,western-kentucky,A,37,34,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2018-10-20,2018,R,,western-kentucky,old-dominion,H,34,37,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2018-10-20,2018,R,,penn-state,indiana,A,33,28,0,18.0,,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+2018-10-20,2018,R,,indiana,penn-state,H,28,33,0,,18.0,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+2018-10-20,2018,R,,purdue,ohio-state,H,49,20,0,,2.0,Ross-Ade Stadium - West Lafayette Indiana
+2018-10-20,2018,R,,ohio-state,purdue,A,20,49,0,2.0,,Ross-Ade Stadium - West Lafayette Indiana
+2018-10-20,2018,R,,san-diego-state,san-jose-state,H,16,13,0,,,SDCCU Stadium - San Diego California
+2018-10-20,2018,R,,san-jose-state,san-diego-state,A,13,16,0,,,SDCCU Stadium - San Diego California
+2018-10-20,2018,R,,south-florida,connecticut,H,38,30,0,21.0,,Raymond James Stadium - Tampa Florida
+2018-10-20,2018,R,,connecticut,south-florida,A,30,38,0,,21.0,Raymond James Stadium - Tampa Florida
+2018-10-20,2018,R,,southern-methodist,tulane,A,27,23,0,,,Yulman Stadium - New Orleans Louisiana
+2018-10-20,2018,R,,tulane,southern-methodist,H,23,27,0,,,Yulman Stadium - New Orleans Louisiana
+2018-10-20,2018,R,,southern-mississippi,texas-san-antonio,H,27,17,0,,,M. M. Roberts Stadium - Hattiesburg Mississippi
+2018-10-20,2018,R,,texas-san-antonio,southern-mississippi,A,17,27,0,,,M. M. Roberts Stadium - Hattiesburg Mississippi
+2018-10-20,2018,R,,syracuse,north-carolina,H,40,37,0,,,Carrier Dome - Syracuse New York
+2018-10-20,2018,R,,north-carolina,syracuse,A,37,40,0,,,Carrier Dome - Syracuse New York
+2018-10-20,2018,R,,temple,cincinnati,H,24,17,0,,20.0,Lincoln Financial Field - Philadelphia Pennsylvania
+2018-10-20,2018,R,,cincinnati,temple,A,17,24,0,20.0,,Lincoln Financial Field - Philadelphia Pennsylvania
+2018-10-20,2018,R,,texas-tech,kansas,H,48,16,0,,,Jones AT&T Stadium - Lubbock Texas
+2018-10-20,2018,R,,kansas,texas-tech,A,16,48,0,,,Jones AT&T Stadium - Lubbock Texas
+2018-10-20,2018,R,,ucla,arizona,H,31,30,0,,,Rose Bowl - Pasadena California
+2018-10-20,2018,R,,arizona,ucla,A,30,31,0,,,Rose Bowl - Pasadena California
+2018-10-20,2018,R,,utah,southern-california,H,41,28,0,,,Rice-Eccles Stadium - Salt Lake City Utah
+2018-10-20,2018,R,,southern-california,utah,A,28,41,0,,,Rice-Eccles Stadium - Salt Lake City Utah
+2018-10-20,2018,R,,utah-state,wyoming,A,24,16,0,,,Jonah Field War Memorial Stadium - Laramie Wyoming
+2018-10-20,2018,R,,wyoming,utah-state,H,16,24,0,,,Jonah Field War Memorial Stadium - Laramie Wyoming
+2018-10-20,2018,R,,virginia,duke,A,28,14,0,,,Wallace Wade Stadium - Durham North Carolina
+2018-10-20,2018,R,,duke,virginia,H,14,28,0,,,Wallace Wade Stadium - Durham North Carolina
+2018-10-20,2018,R,,washington,colorado,H,27,13,0,15.0,,Husky Stadium - Seattle Washington
+2018-10-20,2018,R,,colorado,washington,A,13,27,0,,15.0,Husky Stadium - Seattle Washington
+2018-10-20,2018,R,,washington-state,oregon,H,34,20,0,25.0,12.0,Martin Stadium - Pullman Washington
+2018-10-20,2018,R,,oregon,washington-state,A,20,34,0,12.0,25.0,Martin Stadium - Pullman Washington
+2018-10-20,2018,R,,western-michigan,central-michigan,A,35,10,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2018-10-20,2018,R,,central-michigan,western-michigan,H,10,35,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2018-10-20,2018,R,,wisconsin,illinois,H,49,20,0,23.0,,Camp Randall Stadium - Madison Wisconsin
+2018-10-20,2018,R,,illinois,wisconsin,A,20,49,0,,23.0,Camp Randall Stadium - Madison Wisconsin
+2018-10-23,2018,R,,troy,south-alabama,A,38,17,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2018-10-23,2018,R,,south-alabama,troy,H,17,38,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2018-10-25,2018,R,,georgia-southern,appalachian-state,H,34,14,0,,25.0,Allen E. Paulson Stadium - Statesboro Georgia
+2018-10-25,2018,R,,appalachian-state,georgia-southern,A,14,34,0,25.0,,Allen E. Paulson Stadium - Statesboro Georgia
+2018-10-25,2018,R,,georgia-tech,virginia-tech,A,49,28,0,,,Lane Stadium - Blacksburg Virginia
+2018-10-25,2018,R,,virginia-tech,georgia-tech,H,28,49,0,,,Lane Stadium - Blacksburg Virginia
+2018-10-25,2018,R,,ohio,ball-state,H,52,14,0,,,Peden Stadium - Athens Ohio
+2018-10-25,2018,R,,ball-state,ohio,A,14,52,0,,,Peden Stadium - Athens Ohio
+2018-10-25,2018,R,,toledo,western-michigan,A,51,24,0,,,Waldo Stadium - Kalamazoo Michigan
+2018-10-25,2018,R,,western-michigan,toledo,H,24,51,0,,,Waldo Stadium - Kalamazoo Michigan
+2018-10-25,2018,R,,west-virginia,baylor,H,58,14,0,13.0,,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+2018-10-25,2018,R,,baylor,west-virginia,A,14,58,0,,13.0,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+2018-10-26,2018,R,,boston-college,miami-fl,H,27,14,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2018-10-26,2018,R,,miami-fl,boston-college,A,14,27,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2018-10-26,2018,R,,louisiana-tech,florida-atlantic,A,21,13,0,,,FAU Football Stadium - Boca Raton Florida
+2018-10-26,2018,R,,florida-atlantic,louisiana-tech,H,13,21,0,,,FAU Football Stadium - Boca Raton Florida
+2018-10-26,2018,R,,minnesota,indiana,H,38,31,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2018-10-26,2018,R,,indiana,minnesota,A,31,38,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2018-10-26,2018,R,,utah,ucla,A,41,10,0,23.0,,Rose Bowl - Pasadena California
+2018-10-26,2018,R,,ucla,utah,H,10,41,0,,23.0,Rose Bowl - Pasadena California
+2018-10-26,2018,R,,wyoming,colorado-state,A,34,21,0,,,Sonny Lubick Field at Canvas Stadium - Fort Collins Colorado
+2018-10-26,2018,R,,colorado-state,wyoming,H,21,34,0,,,Sonny Lubick Field at Canvas Stadium - Fort Collins Colorado
+2018-10-27,2018,R,,akron,central-michigan,H,17,10,0,,,InfoCision Stadium - Akron Ohio
+2018-10-27,2018,R,,central-michigan,akron,A,10,17,0,,,InfoCision Stadium - Akron Ohio
+2018-10-27,2018,R,,alabama-birmingham,texas-el-paso,A,19,0,0,,,Sun Bowl - El Paso Texas
+2018-10-27,2018,R,,texas-el-paso,alabama-birmingham,H,0,19,0,,,Sun Bowl - El Paso Texas
+2018-10-27,2018,R,,arizona,oregon,H,44,15,0,,19.0,Arizona Stadium - Tucson Arizona
+2018-10-27,2018,R,,oregon,arizona,A,15,44,0,19.0,,Arizona Stadium - Tucson Arizona
+2018-10-27,2018,R,,arizona-state,southern-california,A,38,35,0,,,Los Angeles Memorial Coliseum - Los Angeles California
+2018-10-27,2018,R,,southern-california,arizona-state,H,35,38,0,,,Los Angeles Memorial Coliseum - Los Angeles California
+2018-10-27,2018,R,,army,eastern-michigan,A,37,22,0,,,Rynearson Stadium - Ypsilanti Michigan
+2018-10-27,2018,R,,eastern-michigan,army,H,22,37,0,,,Rynearson Stadium - Ypsilanti Michigan
+2018-10-27,2018,R,,boise-state,air-force,A,48,38,0,,,Falcon Stadium - Colorado Springs Colorado
+2018-10-27,2018,R,,air-force,boise-state,H,38,48,0,,,Falcon Stadium - Colorado Springs Colorado
+2018-10-27,2018,R,,california,washington,H,12,10,0,,15.0,California Memorial Stadium - Berkeley California
+2018-10-27,2018,R,,washington,california,A,10,12,0,15.0,,California Memorial Stadium - Berkeley California
+2018-10-27,2018,R,,charlotte,southern-mississippi,H,20,17,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2018-10-27,2018,R,,southern-mississippi,charlotte,A,17,20,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2018-10-27,2018,R,,cincinnati,southern-methodist,A,26,20,0,,,Gerald J. Ford Stadium - Dallas Texas
+2018-10-27,2018,R,,southern-methodist,cincinnati,H,20,26,0,,,Gerald J. Ford Stadium - Dallas Texas
+2018-10-27,2018,R,,clemson,florida-state,A,59,10,0,2.0,,Doak Campbell Stadium - Tallahassee Florida
+2018-10-27,2018,R,,florida-state,clemson,H,10,59,0,,2.0,Doak Campbell Stadium - Tallahassee Florida
+2018-10-27,2018,R,,coastal-carolina,georgia-state,A,37,34,0,,,Georgia State Stadium - Atlanta Georgia
+2018-10-27,2018,R,,georgia-state,coastal-carolina,H,34,37,0,,,Georgia State Stadium - Atlanta Georgia
+2018-10-27,2018,R,,florida-international,western-kentucky,A,38,17,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2018-10-27,2018,R,,western-kentucky,florida-international,H,17,38,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2018-10-27,2018,R,,fresno-state,hawaii,H,50,20,0,,,Bulldog Stadium - Fresno California
+2018-10-27,2018,R,,hawaii,fresno-state,A,20,50,0,,,Bulldog Stadium - Fresno California
+2018-10-27,2018,R,,georgia,florida,N,36,17,0,7.0,9.0,TIAA Bank Field - Jacksonville Florida
+2018-10-27,2018,R,,florida,georgia,N,17,36,0,9.0,7.0,TIAA Bank Field - Jacksonville Florida
+2018-10-27,2018,R,,houston,south-florida,H,57,36,0,,21.0,TDECU Stadium - Houston Texas
+2018-10-27,2018,R,,south-florida,houston,A,36,57,0,21.0,,TDECU Stadium - Houston Texas
+2018-10-27,2018,R,,iowa-state,texas-tech,H,40,31,0,,,Jack Trice Stadium - Ames Iowa
+2018-10-27,2018,R,,texas-tech,iowa-state,A,31,40,0,,,Jack Trice Stadium - Ames Iowa
+2018-10-27,2018,R,,kansas,texas-christian,H,27,26,0,,,Memorial Stadium - Lawrence Kansas
+2018-10-27,2018,R,,texas-christian,kansas,A,26,27,0,,,Memorial Stadium - Lawrence Kansas
+2018-10-27,2018,R,,kentucky,missouri,A,15,14,0,12.0,,Memorial Stadium/Faurot Field - Columbia Missouri
+2018-10-27,2018,R,,missouri,kentucky,H,14,15,0,,12.0,Memorial Stadium/Faurot Field - Columbia Missouri
+2018-10-27,2018,R,,louisiana,arkansas-state,H,47,43,0,,,Cajun Field - Lafayette Louisiana
+2018-10-27,2018,R,,arkansas-state,louisiana,A,43,47,0,,,Cajun Field - Lafayette Louisiana
+2018-10-27,2018,R,,maryland,illinois,H,63,33,0,,,Capital One Field at Maryland Stadium - College Park Maryland
+2018-10-27,2018,R,,illinois,maryland,A,33,63,0,,,Capital One Field at Maryland Stadium - College Park Maryland
+2018-10-27,2018,R,,massachusetts,connecticut,A,22,17,0,,,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+2018-10-27,2018,R,,connecticut,massachusetts,H,17,22,0,,,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+2018-10-27,2018,R,,michigan-state,purdue,H,23,13,0,,,Spartan Stadium - East Lansing Michigan
+2018-10-27,2018,R,,purdue,michigan-state,A,13,23,0,,,Spartan Stadium - East Lansing Michigan
+2018-10-27,2018,R,,middle-tennessee-state,old-dominion,A,51,17,0,,,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+2018-10-27,2018,R,,old-dominion,middle-tennessee-state,H,17,51,0,,,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+2018-10-27,2018,R,,mississippi-state,texas-a-m,H,28,13,0,,16.0,Davis Wade Stadium - Starkville Mississippi
+2018-10-27,2018,R,,texas-a-m,mississippi-state,A,13,28,0,16.0,,Davis Wade Stadium - Starkville Mississippi
+2018-10-27,2018,R,,nebraska,bethune-cookman,H,45,9,0,,,Memorial Stadium - Lincoln Nebraska
+2018-10-27,2018,R,,bethune-cookman,nebraska,A,9,45,0,,,Memorial Stadium - Lincoln Nebraska
+2018-10-27,2018,R,,nevada,san-diego-state,H,28,24,0,,,MacKay Stadium - Reno Nevada
+2018-10-27,2018,R,,san-diego-state,nevada,A,24,28,0,,,MacKay Stadium - Reno Nevada
+2018-10-27,2018,R,,north-texas,rice,H,41,17,0,,,Apogee Stadium - Denton Texas
+2018-10-27,2018,R,,rice,north-texas,A,17,41,0,,,Apogee Stadium - Denton Texas
+2018-10-27,2018,R,,northern-illinois,brigham-young,A,7,6,0,,,LaVell Edwards Stadium - Provo Utah
+2018-10-27,2018,R,,brigham-young,northern-illinois,H,6,7,0,,,LaVell Edwards Stadium - Provo Utah
+2018-10-27,2018,R,,northwestern,wisconsin,H,31,17,0,,20.0,Ryan Field - Evanston Illinois
+2018-10-27,2018,R,,wisconsin,northwestern,A,17,31,0,20.0,,Ryan Field - Evanston Illinois
+2018-10-27,2018,R,,notre-dame,navy,N,44,22,0,3.0,,SDCCU Stadium - San Diego California
+2018-10-27,2018,R,,navy,notre-dame,N,22,44,0,,3.0,SDCCU Stadium - San Diego California
+2018-10-27,2018,R,,oklahoma,kansas-state,H,51,14,0,8.0,,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2018-10-27,2018,R,,kansas-state,oklahoma,A,14,51,0,,8.0,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2018-10-27,2018,R,,oklahoma-state,texas,H,38,35,0,,6.0,Boone Pickens Stadium - Stillwater Oklahoma
+2018-10-27,2018,R,,texas,oklahoma-state,A,35,38,0,6.0,,Boone Pickens Stadium - Stillwater Oklahoma
+2018-10-27,2018,R,,oregon-state,colorado,A,41,34,0,,,Folsom Field - Boulder Colorado
+2018-10-27,2018,R,,colorado,oregon-state,H,34,41,0,,,Folsom Field - Boulder Colorado
+2018-10-27,2018,R,,penn-state,iowa,H,30,24,0,17.0,18.0,Beaver Stadium - University Park Pennsylvania
+2018-10-27,2018,R,,iowa,penn-state,A,24,30,0,18.0,17.0,Beaver Stadium - University Park Pennsylvania
+2018-10-27,2018,R,,pittsburgh,duke,H,54,45,0,,,Heinz Field - Pittsburgh Pennsylvania
+2018-10-27,2018,R,,duke,pittsburgh,A,45,54,0,,,Heinz Field - Pittsburgh Pennsylvania
+2018-10-27,2018,R,,san-jose-state,nevada-las-vegas,H,50,37,0,,,CEFCU Stadium - San Jose California
+2018-10-27,2018,R,,nevada-las-vegas,san-jose-state,A,37,50,0,,,CEFCU Stadium - San Jose California
+2018-10-27,2018,R,,south-carolina,tennessee,H,27,24,0,,,Williams-Brice Stadium - Columbia South Carolina
+2018-10-27,2018,R,,tennessee,south-carolina,A,24,27,0,,,Williams-Brice Stadium - Columbia South Carolina
+2018-10-27,2018,R,,syracuse,north-carolina-state,H,51,41,0,,22.0,Carrier Dome - Syracuse New York
+2018-10-27,2018,R,,north-carolina-state,syracuse,A,41,51,0,22.0,,Carrier Dome - Syracuse New York
+2018-10-27,2018,R,,texas-state,new-mexico-state,H,27,20,0,,,Bobcat Stadium - San Marcos Texas
+2018-10-27,2018,R,,new-mexico-state,texas-state,A,20,27,0,,,Bobcat Stadium - San Marcos Texas
+2018-10-27,2018,R,,tulane,tulsa,A,24,17,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2018-10-27,2018,R,,tulsa,tulane,H,17,24,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2018-10-27,2018,R,,utah-state,new-mexico,H,61,19,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2018-10-27,2018,R,,new-mexico,utah-state,A,19,61,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2018-10-27,2018,R,,vanderbilt,arkansas,A,45,31,0,,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2018-10-27,2018,R,,arkansas,vanderbilt,H,31,45,0,,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2018-10-27,2018,R,,virginia,north-carolina,H,31,21,0,,,Scott Stadium - Charlottesville Virginia
+2018-10-27,2018,R,,north-carolina,virginia,A,21,31,0,,,Scott Stadium - Charlottesville Virginia
+2018-10-27,2018,R,,wake-forest,louisville,A,56,35,0,,,Cardinal Stadium - Louisville Kentucky
+2018-10-27,2018,R,,louisville,wake-forest,H,35,56,0,,,Cardinal Stadium - Louisville Kentucky
+2018-10-27,2018,R,,washington-state,stanford,A,41,38,0,14.0,24.0,Stanford Stadium - Stanford California
+2018-10-27,2018,R,,stanford,washington-state,H,38,41,0,24.0,14.0,Stanford Stadium - Stanford California
+2018-10-30,2018,R,,buffalo,miami-oh,H,51,42,0,,,UB Stadium - Buffalo New York
+2018-10-30,2018,R,,miami-oh,buffalo,A,42,51,0,,,UB Stadium - Buffalo New York
+2018-10-30,2018,R,,kent-state,bowling-green,A,35,28,0,,,Doyt Perry Stadium - Bowling Green Ohio
+2018-10-30,2018,R,,bowling-green,kent-state,H,28,35,0,,,Doyt Perry Stadium - Bowling Green Ohio
+2018-10-31,2018,R,,toledo,ball-state,H,45,13,0,,,Glass Bowl - Toledo Ohio
+2018-10-31,2018,R,,ball-state,toledo,A,13,45,0,,,Glass Bowl - Toledo Ohio
+2018-11-01,2018,R,,central-florida,temple,H,52,40,0,9.0,,Spectrum Stadium - Orlando Florida
+2018-11-01,2018,R,,temple,central-florida,A,40,52,0,,9.0,Spectrum Stadium - Orlando Florida
+2018-11-01,2018,R,,northern-illinois,akron,A,36,26,0,,,InfoCision Stadium - Akron Ohio
+2018-11-01,2018,R,,akron,northern-illinois,H,26,36,0,,,InfoCision Stadium - Akron Ohio
+2018-11-01,2018,R,,ohio,western-michigan,A,59,14,0,,,Waldo Stadium - Kalamazoo Michigan
+2018-11-01,2018,R,,western-michigan,ohio,H,14,59,0,,,Waldo Stadium - Kalamazoo Michigan
+2018-11-02,2018,R,,arizona,colorado,H,42,34,0,,,Arizona Stadium - Tucson Arizona
+2018-11-02,2018,R,,colorado,arizona,A,34,42,0,,,Arizona Stadium - Tucson Arizona
+2018-11-02,2018,R,,middle-tennessee-state,western-kentucky,H,29,10,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2018-11-02,2018,R,,western-kentucky,middle-tennessee-state,A,10,29,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2018-11-02,2018,R,,pittsburgh,virginia,A,23,13,0,,23.0,Scott Stadium - Charlottesville Virginia
+2018-11-02,2018,R,,virginia,pittsburgh,H,13,23,0,23.0,,Scott Stadium - Charlottesville Virginia
+2018-11-03,2018,R,,alabama,louisiana-state,A,29,0,0,1.0,4.0,Tiger Stadium - Baton Rouge Louisiana
+2018-11-03,2018,R,,louisiana-state,alabama,H,0,29,0,4.0,1.0,Tiger Stadium - Baton Rouge Louisiana
+2018-11-03,2018,R,,alabama-birmingham,texas-san-antonio,H,52,3,0,,,Legion Field - Birmingham Alabama
+2018-11-03,2018,R,,texas-san-antonio,alabama-birmingham,A,3,52,0,,,Legion Field - Birmingham Alabama
+2018-11-03,2018,R,,appalachian-state,coastal-carolina,A,23,7,0,,,Brooks Stadium - Conway South Carolina
+2018-11-03,2018,R,,coastal-carolina,appalachian-state,H,7,23,0,,,Brooks Stadium - Conway South Carolina
+2018-11-03,2018,R,,arizona-state,utah,H,38,20,0,,16.0,Sun Devil Stadium - Tempe Arizona
+2018-11-03,2018,R,,utah,arizona-state,A,20,38,0,16.0,,Sun Devil Stadium - Tempe Arizona
+2018-11-03,2018,R,,arkansas-state,south-alabama,H,38,14,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2018-11-03,2018,R,,south-alabama,arkansas-state,A,14,38,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2018-11-03,2018,R,,army,air-force,H,17,14,0,,,Michie Stadium - West Point New York
+2018-11-03,2018,R,,air-force,army,A,14,17,0,,,Michie Stadium - West Point New York
+2018-11-03,2018,R,,auburn,texas-a-m,H,28,24,0,,25.0,Jordan-Hare Stadium - Auburn Alabama
+2018-11-03,2018,R,,texas-a-m,auburn,A,24,28,0,25.0,,Jordan-Hare Stadium - Auburn Alabama
+2018-11-03,2018,R,,baylor,oklahoma-state,H,35,31,0,,,McLane Stadium - Waco Texas
+2018-11-03,2018,R,,oklahoma-state,baylor,A,31,35,0,,,McLane Stadium - Waco Texas
+2018-11-03,2018,R,,boise-state,brigham-young,H,21,16,0,,,Albertsons Stadium - Boise Idaho
+2018-11-03,2018,R,,brigham-young,boise-state,A,16,21,0,,,Albertsons Stadium - Boise Idaho
+2018-11-03,2018,R,,boston-college,virginia-tech,A,31,21,0,24.0,,Lane Stadium - Blacksburg Virginia
+2018-11-03,2018,R,,virginia-tech,boston-college,H,21,31,0,,24.0,Lane Stadium - Blacksburg Virginia
+2018-11-03,2018,R,,cincinnati,navy,H,42,0,0,,,Nippert Stadium - Cincinnati Ohio
+2018-11-03,2018,R,,navy,cincinnati,A,0,42,0,,,Nippert Stadium - Cincinnati Ohio
+2018-11-03,2018,R,,clemson,louisville,H,77,16,0,2.0,,Clemson Memorial Stadium - Clemson South Carolina
+2018-11-03,2018,R,,louisville,clemson,A,16,77,0,,2.0,Clemson Memorial Stadium - Clemson South Carolina
+2018-11-03,2018,R,,duke,miami-fl,A,20,12,0,,,Hard Rock Stadium - Miami Gardens Florida
+2018-11-03,2018,R,,miami-fl,duke,H,12,20,0,,,Hard Rock Stadium - Miami Gardens Florida
+2018-11-03,2018,R,,eastern-michigan,central-michigan,H,17,7,0,,,Rynearson Stadium - Ypsilanti Michigan
+2018-11-03,2018,R,,central-michigan,eastern-michigan,A,7,17,0,,,Rynearson Stadium - Ypsilanti Michigan
+2018-11-03,2018,R,,florida-atlantic,florida-international,A,49,14,0,,,Riccardo Silva Stadium - Miami Florida
+2018-11-03,2018,R,,florida-international,florida-atlantic,H,14,49,0,,,Riccardo Silva Stadium - Miami Florida
+2018-11-03,2018,R,,fresno-state,nevada-las-vegas,A,48,3,0,20.0,,Sam Boyd Stadium - Las Vegas Nevada
+2018-11-03,2018,R,,nevada-las-vegas,fresno-state,H,3,48,0,,20.0,Sam Boyd Stadium - Las Vegas Nevada
+2018-11-03,2018,R,,georgia,kentucky,A,34,17,0,6.0,11.0,Kroger Field - Lexington Kentucky
+2018-11-03,2018,R,,kentucky,georgia,H,17,34,0,11.0,6.0,Kroger Field - Lexington Kentucky
+2018-11-03,2018,R,,georgia-tech,north-carolina,A,38,28,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2018-11-03,2018,R,,north-carolina,georgia-tech,H,28,38,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2018-11-03,2018,R,,illinois,minnesota,H,55,31,0,,,Memorial Stadium - Champaign Illinois
+2018-11-03,2018,R,,minnesota,illinois,A,31,55,0,,,Memorial Stadium - Champaign Illinois
+2018-11-03,2018,R,,iowa-state,kansas,A,27,3,0,,,Memorial Stadium - Lawrence Kansas
+2018-11-03,2018,R,,kansas,iowa-state,H,3,27,0,,,Memorial Stadium - Lawrence Kansas
+2018-11-03,2018,R,,louisiana-monroe,georgia-southern,H,44,25,0,,,Malone Stadium - Monroe Louisiana
+2018-11-03,2018,R,,georgia-southern,louisiana-monroe,A,25,44,0,,,Malone Stadium - Monroe Louisiana
+2018-11-03,2018,R,,massachusetts,liberty,H,62,59,0,,,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+2018-11-03,2018,R,,liberty,massachusetts,A,59,62,0,,,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+2018-11-03,2018,R,,memphis,east-carolina,A,59,41,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2018-11-03,2018,R,,east-carolina,memphis,H,41,59,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2018-11-03,2018,R,,michigan,penn-state,H,42,7,0,5.0,14.0,Michigan Stadium - Ann Arbor Michigan
+2018-11-03,2018,R,,penn-state,michigan,A,7,42,0,14.0,5.0,Michigan Stadium - Ann Arbor Michigan
+2018-11-03,2018,R,,michigan-state,maryland,A,24,3,0,,,Capital One Field at Maryland Stadium - College Park Maryland
+2018-11-03,2018,R,,maryland,michigan-state,H,3,24,0,,,Capital One Field at Maryland Stadium - College Park Maryland
+2018-11-03,2018,R,,mississippi-state,louisiana-tech,H,45,3,0,21.0,,Davis Wade Stadium - Starkville Mississippi
+2018-11-03,2018,R,,louisiana-tech,mississippi-state,A,3,45,0,,21.0,Davis Wade Stadium - Starkville Mississippi
+2018-11-03,2018,R,,missouri,florida,A,38,17,0,,13.0,Ben Hill Griffin Stadium - Gainesville Florida
+2018-11-03,2018,R,,florida,missouri,H,17,38,0,13.0,,Ben Hill Griffin Stadium - Gainesville Florida
+2018-11-03,2018,R,,new-mexico-state,alcorn-state,H,52,42,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2018-11-03,2018,R,,alcorn-state,new-mexico-state,A,42,52,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2018-11-03,2018,R,,north-carolina-state,florida-state,H,47,28,0,,,Carter-Finley Stadium - Raleigh North Carolina
+2018-11-03,2018,R,,florida-state,north-carolina-state,A,28,47,0,,,Carter-Finley Stadium - Raleigh North Carolina
+2018-11-03,2018,R,,notre-dame,northwestern,A,31,21,0,3.0,,Ryan Field - Evanston Illinois
+2018-11-03,2018,R,,northwestern,notre-dame,H,21,31,0,,3.0,Ryan Field - Evanston Illinois
+2018-11-03,2018,R,,ohio-state,nebraska,H,36,31,0,8.0,,Ohio Stadium - Columbus Ohio
+2018-11-03,2018,R,,nebraska,ohio-state,A,31,36,0,,8.0,Ohio Stadium - Columbus Ohio
+2018-11-03,2018,R,,oklahoma,texas-tech,A,51,46,0,7.0,,Jones AT&T Stadium - Lubbock Texas
+2018-11-03,2018,R,,texas-tech,oklahoma,H,46,51,0,,7.0,Jones AT&T Stadium - Lubbock Texas
+2018-11-03,2018,R,,oregon,ucla,H,42,21,0,,,Autzen Stadium - Eugene Oregon
+2018-11-03,2018,R,,ucla,oregon,A,21,42,0,,,Autzen Stadium - Eugene Oregon
+2018-11-03,2018,R,,purdue,iowa,H,38,36,0,,19.0,Ross-Ade Stadium - West Lafayette Indiana
+2018-11-03,2018,R,,iowa,purdue,A,36,38,0,19.0,,Ross-Ade Stadium - West Lafayette Indiana
+2018-11-03,2018,R,,san-diego-state,new-mexico,A,31,23,0,,,Dreamstyle Stadium - Albuquerque New Mexico
+2018-11-03,2018,R,,new-mexico,san-diego-state,H,23,31,0,,,Dreamstyle Stadium - Albuquerque New Mexico
+2018-11-03,2018,R,,south-carolina,mississippi,A,48,44,0,,,Vaught-Hemingway Stadium - Oxford Mississippi
+2018-11-03,2018,R,,mississippi,south-carolina,H,44,48,0,,,Vaught-Hemingway Stadium - Oxford Mississippi
+2018-11-03,2018,R,,southern-california,oregon-state,A,38,21,0,,,Reser Stadium - Corvallis Oregon
+2018-11-03,2018,R,,oregon-state,southern-california,H,21,38,0,,,Reser Stadium - Corvallis Oregon
+2018-11-03,2018,R,,southern-methodist,houston,H,45,31,0,,17.0,Gerald J. Ford Stadium - Dallas Texas
+2018-11-03,2018,R,,houston,southern-methodist,A,31,45,0,17.0,,Gerald J. Ford Stadium - Dallas Texas
+2018-11-03,2018,R,,southern-mississippi,marshall,H,26,24,0,,,M. M. Roberts Stadium - Hattiesburg Mississippi
+2018-11-03,2018,R,,marshall,southern-mississippi,A,24,26,0,,,M. M. Roberts Stadium - Hattiesburg Mississippi
+2018-11-03,2018,R,,syracuse,wake-forest,A,41,24,0,22.0,,BB&T Field - Winston-Salem North Carolina
+2018-11-03,2018,R,,wake-forest,syracuse,H,24,41,0,,22.0,BB&T Field - Winston-Salem North Carolina
+2018-11-03,2018,R,,tennessee,charlotte,H,14,3,0,,,Neyland Stadium - Knoxville Tennessee
+2018-11-03,2018,R,,charlotte,tennessee,A,3,14,0,,,Neyland Stadium - Knoxville Tennessee
+2018-11-03,2018,R,,texas-christian,kansas-state,H,14,13,0,,,Amon G. Carter Stadium - Fort Worth Texas
+2018-11-03,2018,R,,kansas-state,texas-christian,A,13,14,0,,,Amon G. Carter Stadium - Fort Worth Texas
+2018-11-03,2018,R,,texas-state,georgia-state,A,40,31,0,,,Georgia State Stadium - Atlanta Georgia
+2018-11-03,2018,R,,georgia-state,texas-state,H,31,40,0,,,Georgia State Stadium - Atlanta Georgia
+2018-11-03,2018,R,,texas-el-paso,rice,A,34,26,0,,,Rice Stadium - Houston Texas
+2018-11-03,2018,R,,rice,texas-el-paso,H,26,34,0,,,Rice Stadium - Houston Texas
+2018-11-03,2018,R,,troy,louisiana,H,26,16,0,,,Veterans Memorial Stadium - Troy Alabama
+2018-11-03,2018,R,,louisiana,troy,A,16,26,0,,,Veterans Memorial Stadium - Troy Alabama
+2018-11-03,2018,R,,tulane,south-florida,A,41,15,0,,,Raymond James Stadium - Tampa Florida
+2018-11-03,2018,R,,south-florida,tulane,H,15,41,0,,,Raymond James Stadium - Tampa Florida
+2018-11-03,2018,R,,tulsa,connecticut,H,49,19,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2018-11-03,2018,R,,connecticut,tulsa,A,19,49,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2018-11-03,2018,R,,utah-state,hawaii,A,56,17,0,18.0,,Aloha Stadium - Honolulu Hawaii
+2018-11-03,2018,R,,hawaii,utah-state,H,17,56,0,,18.0,Aloha Stadium - Honolulu Hawaii
+2018-11-03,2018,R,,washington,stanford,H,27,23,0,,,Husky Stadium - Seattle Washington
+2018-11-03,2018,R,,stanford,washington,A,23,27,0,,,Husky Stadium - Seattle Washington
+2018-11-03,2018,R,,washington-state,california,H,19,13,0,10.0,,Martin Stadium - Pullman Washington
+2018-11-03,2018,R,,california,washington-state,A,13,19,0,,10.0,Martin Stadium - Pullman Washington
+2018-11-03,2018,R,,west-virginia,texas,A,42,41,0,12.0,15.0,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2018-11-03,2018,R,,texas,west-virginia,H,41,42,0,15.0,12.0,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2018-11-03,2018,R,,wisconsin,rutgers,H,31,17,0,,,Camp Randall Stadium - Madison Wisconsin
+2018-11-03,2018,R,,rutgers,wisconsin,A,17,31,0,,,Camp Randall Stadium - Madison Wisconsin
+2018-11-03,2018,R,,wyoming,san-jose-state,H,24,9,0,,,Jonah Field War Memorial Stadium - Laramie Wyoming
+2018-11-03,2018,R,,san-jose-state,wyoming,A,9,24,0,,,Jonah Field War Memorial Stadium - Laramie Wyoming
+2018-11-06,2018,R,,buffalo,kent-state,H,48,14,0,,,UB Stadium - Buffalo New York
+2018-11-06,2018,R,,kent-state,buffalo,A,14,48,0,,,UB Stadium - Buffalo New York
+2018-11-07,2018,R,,miami-oh,ohio,H,30,28,0,,,Fred Yager Stadium - Oxford Ohio
+2018-11-07,2018,R,,ohio,miami-oh,A,28,30,0,,,Fred Yager Stadium - Oxford Ohio
+2018-11-07,2018,R,,northern-illinois,toledo,H,38,15,0,,,Huskie Stadium - DeKalb Illinois
+2018-11-07,2018,R,,toledo,northern-illinois,A,15,38,0,,,Huskie Stadium - DeKalb Illinois
+2018-11-08,2018,R,,wake-forest,north-carolina-state,A,27,23,0,,22.0,Carter-Finley Stadium - Raleigh North Carolina
+2018-11-08,2018,R,,north-carolina-state,wake-forest,H,23,27,0,22.0,,Carter-Finley Stadium - Raleigh North Carolina
+2018-11-09,2018,R,,boise-state,fresno-state,H,24,17,0,,16.0,Albertsons Stadium - Boise Idaho
+2018-11-09,2018,R,,fresno-state,boise-state,A,17,24,0,16.0,,Albertsons Stadium - Boise Idaho
+2018-11-09,2018,R,,syracuse,louisville,H,54,23,0,13.0,,Carrier Dome - Syracuse New York
+2018-11-09,2018,R,,louisville,syracuse,A,23,54,0,,13.0,Carrier Dome - Syracuse New York
+2018-11-10,2018,R,,air-force,new-mexico,H,42,24,0,,,Falcon Stadium - Colorado Springs Colorado
+2018-11-10,2018,R,,new-mexico,air-force,A,24,42,0,,,Falcon Stadium - Colorado Springs Colorado
+2018-11-10,2018,R,,alabama,mississippi-state,H,24,0,0,1.0,18.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2018-11-10,2018,R,,mississippi-state,alabama,A,0,24,0,18.0,1.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2018-11-10,2018,R,,alabama-birmingham,southern-mississippi,H,26,23,0,,,Legion Field - Birmingham Alabama
+2018-11-10,2018,R,,southern-mississippi,alabama-birmingham,A,23,26,0,,,Legion Field - Birmingham Alabama
+2018-11-10,2018,R,,appalachian-state,texas-state,A,38,7,0,,,Bobcat Stadium - San Marcos Texas
+2018-11-10,2018,R,,texas-state,appalachian-state,H,7,38,0,,,Bobcat Stadium - San Marcos Texas
+2018-11-10,2018,R,,arizona-state,ucla,H,31,28,0,,,Sun Devil Stadium - Tempe Arizona
+2018-11-10,2018,R,,ucla,arizona-state,A,28,31,0,,,Sun Devil Stadium - Tempe Arizona
+2018-11-10,2018,R,,arkansas-state,coastal-carolina,A,44,16,0,,,Brooks Stadium - Conway South Carolina
+2018-11-10,2018,R,,coastal-carolina,arkansas-state,H,16,44,0,,,Brooks Stadium - Conway South Carolina
+2018-11-10,2018,R,,army,lafayette,H,31,13,0,,,Michie Stadium - West Point New York
+2018-11-10,2018,R,,lafayette,army,A,13,31,0,,,Michie Stadium - West Point New York
+2018-11-10,2018,R,,bowling-green,central-michigan,A,24,13,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2018-11-10,2018,R,,central-michigan,bowling-green,H,13,24,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2018-11-10,2018,R,,brigham-young,massachusetts,A,35,16,0,,,Gillette Stadium - Foxborough Massachusetts
+2018-11-10,2018,R,,massachusetts,brigham-young,H,16,35,0,,,Gillette Stadium - Foxborough Massachusetts
+2018-11-10,2018,R,,california,southern-california,A,15,14,0,,,Los Angeles Memorial Coliseum - Los Angeles California
+2018-11-10,2018,R,,southern-california,california,H,14,15,0,,,Los Angeles Memorial Coliseum - Los Angeles California
+2018-11-10,2018,R,,central-florida,navy,H,35,24,0,11.0,,Spectrum Stadium - Orlando Florida
+2018-11-10,2018,R,,navy,central-florida,A,24,35,0,,11.0,Spectrum Stadium - Orlando Florida
+2018-11-10,2018,R,,cincinnati,south-florida,H,35,23,0,25.0,,Nippert Stadium - Cincinnati Ohio
+2018-11-10,2018,R,,south-florida,cincinnati,A,23,35,0,,25.0,Nippert Stadium - Cincinnati Ohio
+2018-11-10,2018,R,,clemson,boston-college,A,27,7,0,2.0,17.0,Alumni Stadium - Chestnut Hill Massachusetts
+2018-11-10,2018,R,,boston-college,clemson,H,7,27,0,17.0,2.0,Alumni Stadium - Chestnut Hill Massachusetts
+2018-11-10,2018,R,,duke,north-carolina,H,42,35,0,,,Wallace Wade Stadium - Durham North Carolina
+2018-11-10,2018,R,,north-carolina,duke,A,35,42,0,,,Wallace Wade Stadium - Durham North Carolina
+2018-11-10,2018,R,,eastern-michigan,akron,H,27,7,0,,,Rynearson Stadium - Ypsilanti Michigan
+2018-11-10,2018,R,,akron,eastern-michigan,A,7,27,0,,,Rynearson Stadium - Ypsilanti Michigan
+2018-11-10,2018,R,,florida,south-carolina,H,35,31,0,19.0,,Ben Hill Griffin Stadium - Gainesville Florida
+2018-11-10,2018,R,,south-carolina,florida,A,31,35,0,,19.0,Ben Hill Griffin Stadium - Gainesville Florida
+2018-11-10,2018,R,,florida-atlantic,western-kentucky,H,34,15,0,,,FAU Football Stadium - Boca Raton Florida
+2018-11-10,2018,R,,western-kentucky,florida-atlantic,A,15,34,0,,,FAU Football Stadium - Boca Raton Florida
+2018-11-10,2018,R,,florida-international,texas-san-antonio,A,45,7,0,,,Alamodome - San Antonio Texas
+2018-11-10,2018,R,,texas-san-antonio,florida-international,H,7,45,0,,,Alamodome - San Antonio Texas
+2018-11-10,2018,R,,georgia,auburn,H,27,10,0,5.0,,Sanford Stadium - Athens Georgia
+2018-11-10,2018,R,,auburn,georgia,A,10,27,0,,5.0,Sanford Stadium - Athens Georgia
+2018-11-10,2018,R,,georgia-tech,miami-fl,H,27,21,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2018-11-10,2018,R,,miami-fl,georgia-tech,A,21,27,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2018-11-10,2018,R,,indiana,maryland,H,34,32,0,,,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+2018-11-10,2018,R,,maryland,indiana,A,32,34,0,,,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+2018-11-10,2018,R,,iowa-state,baylor,H,28,14,0,23.0,,Jack Trice Stadium - Ames Iowa
+2018-11-10,2018,R,,baylor,iowa-state,A,14,28,0,,23.0,Jack Trice Stadium - Ames Iowa
+2018-11-10,2018,R,,kansas-state,kansas,H,21,17,0,,,Bill Snyder Family Stadium - Manhattan Kansas
+2018-11-10,2018,R,,kansas,kansas-state,A,17,21,0,,,Bill Snyder Family Stadium - Manhattan Kansas
+2018-11-10,2018,R,,louisiana,georgia-state,H,36,22,0,,,Cajun Field - Lafayette Louisiana
+2018-11-10,2018,R,,georgia-state,louisiana,A,22,36,0,,,Cajun Field - Lafayette Louisiana
+2018-11-10,2018,R,,louisiana-state,arkansas,A,24,17,0,9.0,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2018-11-10,2018,R,,arkansas,louisiana-state,H,17,24,0,,9.0,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2018-11-10,2018,R,,louisiana-tech,rice,H,28,13,0,,,Joe Aillet Stadium - Ruston Louisiana
+2018-11-10,2018,R,,rice,louisiana-tech,A,13,28,0,,,Joe Aillet Stadium - Ruston Louisiana
+2018-11-10,2018,R,,louisiana-monroe,south-alabama,A,38,10,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2018-11-10,2018,R,,south-alabama,louisiana-monroe,H,10,38,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2018-11-10,2018,R,,marshall,charlotte,H,30,13,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2018-11-10,2018,R,,charlotte,marshall,A,13,30,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2018-11-10,2018,R,,memphis,tulsa,H,47,21,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2018-11-10,2018,R,,tulsa,memphis,A,21,47,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2018-11-10,2018,R,,michigan,rutgers,A,42,7,0,4.0,,High Point Solutions Stadium - Piscataway New Jersey
+2018-11-10,2018,R,,rutgers,michigan,H,7,42,0,,4.0,High Point Solutions Stadium - Piscataway New Jersey
+2018-11-10,2018,R,,middle-tennessee-state,texas-el-paso,A,48,32,0,,,Sun Bowl - El Paso Texas
+2018-11-10,2018,R,,texas-el-paso,middle-tennessee-state,H,32,48,0,,,Sun Bowl - El Paso Texas
+2018-11-10,2018,R,,minnesota,purdue,H,41,10,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2018-11-10,2018,R,,purdue,minnesota,A,10,41,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2018-11-10,2018,R,,missouri,vanderbilt,H,33,28,0,,,Memorial Stadium/Faurot Field - Columbia Missouri
+2018-11-10,2018,R,,vanderbilt,missouri,A,28,33,0,,,Memorial Stadium/Faurot Field - Columbia Missouri
+2018-11-10,2018,R,,nebraska,illinois,H,54,35,0,,,Memorial Stadium - Lincoln Nebraska
+2018-11-10,2018,R,,illinois,nebraska,A,35,54,0,,,Memorial Stadium - Lincoln Nebraska
+2018-11-10,2018,R,,nevada,colorado-state,H,49,10,0,,,MacKay Stadium - Reno Nevada
+2018-11-10,2018,R,,colorado-state,nevada,A,10,49,0,,,MacKay Stadium - Reno Nevada
+2018-11-10,2018,R,,nevada-las-vegas,san-diego-state,A,27,24,0,,,SDCCU Stadium - San Diego California
+2018-11-10,2018,R,,san-diego-state,nevada-las-vegas,H,24,27,0,,,SDCCU Stadium - San Diego California
+2018-11-10,2018,R,,northwestern,iowa,A,14,10,0,,,Kinnick Stadium - Iowa City Iowa
+2018-11-10,2018,R,,iowa,northwestern,H,10,14,0,,,Kinnick Stadium - Iowa City Iowa
+2018-11-10,2018,R,,notre-dame,florida-state,H,42,13,0,3.0,,Notre Dame Stadium - South Bend Indiana
+2018-11-10,2018,R,,florida-state,notre-dame,A,13,42,0,,3.0,Notre Dame Stadium - South Bend Indiana
+2018-11-10,2018,R,,ohio-state,michigan-state,A,26,6,0,8.0,24.0,Spartan Stadium - East Lansing Michigan
+2018-11-10,2018,R,,michigan-state,ohio-state,H,6,26,0,24.0,8.0,Spartan Stadium - East Lansing Michigan
+2018-11-10,2018,R,,oklahoma,oklahoma-state,H,48,47,0,6.0,,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2018-11-10,2018,R,,oklahoma-state,oklahoma,A,47,48,0,,6.0,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2018-11-10,2018,R,,old-dominion,north-texas,H,34,31,0,,,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+2018-11-10,2018,R,,north-texas,old-dominion,A,31,34,0,,,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+2018-11-10,2018,R,,penn-state,wisconsin,H,22,10,0,21.0,,Beaver Stadium - University Park Pennsylvania
+2018-11-10,2018,R,,wisconsin,penn-state,A,10,22,0,,21.0,Beaver Stadium - University Park Pennsylvania
+2018-11-10,2018,R,,pittsburgh,virginia-tech,H,52,22,0,,,Heinz Field - Pittsburgh Pennsylvania
+2018-11-10,2018,R,,virginia-tech,pittsburgh,A,22,52,0,,,Heinz Field - Pittsburgh Pennsylvania
+2018-11-10,2018,R,,southern-methodist,connecticut,A,62,50,0,,,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+2018-11-10,2018,R,,connecticut,southern-methodist,H,50,62,0,,,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+2018-11-10,2018,R,,stanford,oregon-state,H,48,17,0,,,Stanford Stadium - Stanford California
+2018-11-10,2018,R,,oregon-state,stanford,A,17,48,0,,,Stanford Stadium - Stanford California
+2018-11-10,2018,R,,temple,houston,A,59,49,0,,,TDECU Stadium - Houston Texas
+2018-11-10,2018,R,,houston,temple,H,49,59,0,,,TDECU Stadium - Houston Texas
+2018-11-10,2018,R,,tennessee,kentucky,H,24,7,0,,12.0,Neyland Stadium - Knoxville Tennessee
+2018-11-10,2018,R,,kentucky,tennessee,A,7,24,0,12.0,,Neyland Stadium - Knoxville Tennessee
+2018-11-10,2018,R,,texas,texas-tech,A,41,34,0,15.0,,Jones AT&T Stadium - Lubbock Texas
+2018-11-10,2018,R,,texas-tech,texas,H,34,41,0,,15.0,Jones AT&T Stadium - Lubbock Texas
+2018-11-10,2018,R,,texas-a-m,mississippi,H,38,24,0,,,Kyle Field - College Station Texas
+2018-11-10,2018,R,,mississippi,texas-a-m,A,24,38,0,,,Kyle Field - College Station Texas
+2018-11-10,2018,R,,troy,georgia-southern,A,35,21,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2018-11-10,2018,R,,georgia-southern,troy,H,21,35,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2018-11-10,2018,R,,tulane,east-carolina,H,24,18,0,,,Yulman Stadium - New Orleans Louisiana
+2018-11-10,2018,R,,east-carolina,tulane,A,18,24,0,,,Yulman Stadium - New Orleans Louisiana
+2018-11-10,2018,R,,utah,oregon,H,32,25,0,,,Rice-Eccles Stadium - Salt Lake City Utah
+2018-11-10,2018,R,,oregon,utah,A,25,32,0,,,Rice-Eccles Stadium - Salt Lake City Utah
+2018-11-10,2018,R,,utah-state,san-jose-state,H,62,24,0,14.0,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2018-11-10,2018,R,,san-jose-state,utah-state,A,24,62,0,,14.0,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2018-11-10,2018,R,,virginia,liberty,H,45,24,0,,,Scott Stadium - Charlottesville Virginia
+2018-11-10,2018,R,,liberty,virginia,A,24,45,0,,,Scott Stadium - Charlottesville Virginia
+2018-11-10,2018,R,,washington-state,colorado,A,31,7,0,10.0,,Folsom Field - Boulder Colorado
+2018-11-10,2018,R,,colorado,washington-state,H,7,31,0,,10.0,Folsom Field - Boulder Colorado
+2018-11-10,2018,R,,west-virginia,texas-christian,H,47,10,0,7.0,,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+2018-11-10,2018,R,,texas-christian,west-virginia,A,10,47,0,,7.0,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+2018-11-13,2018,R,,ball-state,western-michigan,H,42,41,0,,,Scheumann Stadium - Muncie Indiana
+2018-11-13,2018,R,,western-michigan,ball-state,A,41,42,0,,,Scheumann Stadium - Muncie Indiana
+2018-11-14,2018,R,,miami-oh,northern-illinois,A,13,7,0,,,Huskie Stadium - DeKalb Illinois
+2018-11-14,2018,R,,northern-illinois,miami-oh,H,7,13,0,,,Huskie Stadium - DeKalb Illinois
+2018-11-14,2018,R,,ohio,buffalo,H,52,17,0,,,Peden Stadium - Athens Ohio
+2018-11-14,2018,R,,buffalo,ohio,A,17,52,0,,,Peden Stadium - Athens Ohio
+2018-11-15,2018,R,,houston,tulane,H,48,17,0,,,TDECU Stadium - Houston Texas
+2018-11-15,2018,R,,tulane,houston,A,17,48,0,,,TDECU Stadium - Houston Texas
+2018-11-15,2018,R,,north-texas,florida-atlantic,H,41,38,0,,,Apogee Stadium - Denton Texas
+2018-11-15,2018,R,,florida-atlantic,north-texas,A,38,41,0,,,Apogee Stadium - Denton Texas
+2018-11-15,2018,R,,toledo,kent-state,A,56,34,0,,,Dix Stadium - Kent Ohio
+2018-11-15,2018,R,,kent-state,toledo,H,34,56,0,,,Dix Stadium - Kent Ohio
+2018-11-16,2018,R,,boise-state,new-mexico,A,45,14,0,23.0,,Dreamstyle Stadium - Albuquerque New Mexico
+2018-11-16,2018,R,,new-mexico,boise-state,H,14,45,0,,23.0,Dreamstyle Stadium - Albuquerque New Mexico
+2018-11-16,2018,R,,memphis,southern-methodist,A,28,18,0,,,Gerald J. Ford Stadium - Dallas Texas
+2018-11-16,2018,R,,southern-methodist,memphis,H,18,28,0,,,Gerald J. Ford Stadium - Dallas Texas
+2018-11-17,2018,R,,alabama,citadel,H,50,17,0,1.0,,Bryant-Denny Stadium - Tuscaloosa Alabama
+2018-11-17,2018,R,,citadel,alabama,A,17,50,0,,1.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2018-11-17,2018,R,,appalachian-state,georgia-state,H,45,17,0,,,Kidd Brewer Stadium - Boone North Carolina
+2018-11-17,2018,R,,georgia-state,appalachian-state,A,17,45,0,,,Kidd Brewer Stadium - Boone North Carolina
+2018-11-17,2018,R,,arkansas-state,louisiana-monroe,H,31,17,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2018-11-17,2018,R,,louisiana-monroe,arkansas-state,A,17,31,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2018-11-17,2018,R,,army,colgate,H,28,14,0,,,Michie Stadium - West Point New York
+2018-11-17,2018,R,,colgate,army,A,14,28,0,,,Michie Stadium - West Point New York
+2018-11-17,2018,R,,auburn,liberty,H,53,0,0,,,Jordan-Hare Stadium - Auburn Alabama
+2018-11-17,2018,R,,liberty,auburn,A,0,53,0,,,Jordan-Hare Stadium - Auburn Alabama
+2018-11-17,2018,R,,bowling-green,akron,A,21,6,0,,,InfoCision Stadium - Akron Ohio
+2018-11-17,2018,R,,akron,bowling-green,H,6,21,0,,,InfoCision Stadium - Akron Ohio
+2018-11-17,2018,R,,brigham-young,new-mexico-state,H,45,10,0,,,LaVell Edwards Stadium - Provo Utah
+2018-11-17,2018,R,,new-mexico-state,brigham-young,A,10,45,0,,,LaVell Edwards Stadium - Provo Utah
+2018-11-17,2018,R,,central-florida,cincinnati,H,38,13,0,11.0,19.0,Spectrum Stadium - Orlando Florida
+2018-11-17,2018,R,,cincinnati,central-florida,A,13,38,0,19.0,11.0,Spectrum Stadium - Orlando Florida
+2018-11-17,2018,R,,clemson,duke,H,35,6,0,2.0,,Clemson Memorial Stadium - Clemson South Carolina
+2018-11-17,2018,R,,duke,clemson,A,6,35,0,,2.0,Clemson Memorial Stadium - Clemson South Carolina
+2018-11-17,2018,R,,east-carolina,connecticut,H,55,21,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2018-11-17,2018,R,,connecticut,east-carolina,A,21,55,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2018-11-17,2018,R,,florida,idaho,H,63,10,0,15.0,,Ben Hill Griffin Stadium - Gainesville Florida
+2018-11-17,2018,R,,idaho,florida,A,10,63,0,,15.0,Ben Hill Griffin Stadium - Gainesville Florida
+2018-11-17,2018,R,,florida-international,charlotte,A,42,35,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2018-11-17,2018,R,,charlotte,florida-international,H,35,42,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2018-11-17,2018,R,,florida-state,boston-college,H,22,21,0,,22.0,Doak Campbell Stadium - Tallahassee Florida
+2018-11-17,2018,R,,boston-college,florida-state,A,21,22,0,22.0,,Doak Campbell Stadium - Tallahassee Florida
+2018-11-17,2018,R,,fresno-state,san-diego-state,H,23,14,0,,,Bulldog Stadium - Fresno California
+2018-11-17,2018,R,,san-diego-state,fresno-state,A,14,23,0,,,Bulldog Stadium - Fresno California
+2018-11-17,2018,R,,georgia,massachusetts,H,66,27,0,5.0,,Sanford Stadium - Athens Georgia
+2018-11-17,2018,R,,massachusetts,georgia,A,27,66,0,,5.0,Sanford Stadium - Athens Georgia
+2018-11-17,2018,R,,georgia-southern,coastal-carolina,A,41,17,0,,,Brooks Stadium - Conway South Carolina
+2018-11-17,2018,R,,coastal-carolina,georgia-southern,H,17,41,0,,,Brooks Stadium - Conway South Carolina
+2018-11-17,2018,R,,georgia-tech,virginia,H,30,27,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2018-11-17,2018,R,,virginia,georgia-tech,A,27,30,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2018-11-17,2018,R,,hawaii,nevada-las-vegas,H,35,28,0,,,Aloha Stadium - Honolulu Hawaii
+2018-11-17,2018,R,,nevada-las-vegas,hawaii,A,28,35,0,,,Aloha Stadium - Honolulu Hawaii
+2018-11-17,2018,R,,iowa,illinois,A,63,0,0,,,Memorial Stadium - Champaign Illinois
+2018-11-17,2018,R,,illinois,iowa,H,0,63,0,,,Memorial Stadium - Champaign Illinois
+2018-11-17,2018,R,,kansas-state,texas-tech,H,21,6,0,,,Bill Snyder Family Stadium - Manhattan Kansas
+2018-11-17,2018,R,,texas-tech,kansas-state,A,6,21,0,,,Bill Snyder Family Stadium - Manhattan Kansas
+2018-11-17,2018,R,,kentucky,middle-tennessee-state,H,34,23,0,20.0,,Kroger Field - Lexington Kentucky
+2018-11-17,2018,R,,middle-tennessee-state,kentucky,A,23,34,0,,20.0,Kroger Field - Lexington Kentucky
+2018-11-17,2018,R,,louisiana,south-alabama,H,48,38,0,,,Cajun Field - Lafayette Louisiana
+2018-11-17,2018,R,,south-alabama,louisiana,A,38,48,0,,,Cajun Field - Lafayette Louisiana
+2018-11-17,2018,R,,louisiana-state,rice,H,42,10,0,10.0,,Tiger Stadium - Baton Rouge Louisiana
+2018-11-17,2018,R,,rice,louisiana-state,A,10,42,0,,10.0,Tiger Stadium - Baton Rouge Louisiana
+2018-11-17,2018,R,,marshall,texas-san-antonio,H,23,0,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2018-11-17,2018,R,,texas-san-antonio,marshall,A,0,23,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2018-11-17,2018,R,,miami-fl,virginia-tech,A,38,14,0,,,Lane Stadium - Blacksburg Virginia
+2018-11-17,2018,R,,virginia-tech,miami-fl,H,14,38,0,,,Lane Stadium - Blacksburg Virginia
+2018-11-17,2018,R,,michigan,indiana,H,31,20,0,4.0,,Michigan Stadium - Ann Arbor Michigan
+2018-11-17,2018,R,,indiana,michigan,A,20,31,0,,4.0,Michigan Stadium - Ann Arbor Michigan
+2018-11-17,2018,R,,mississippi-state,arkansas,H,52,6,0,25.0,,Davis Wade Stadium - Starkville Mississippi
+2018-11-17,2018,R,,arkansas,mississippi-state,A,6,52,0,,25.0,Davis Wade Stadium - Starkville Mississippi
+2018-11-17,2018,R,,missouri,tennessee,A,50,17,0,,,Neyland Stadium - Knoxville Tennessee
+2018-11-17,2018,R,,tennessee,missouri,H,17,50,0,,,Neyland Stadium - Knoxville Tennessee
+2018-11-17,2018,R,,navy,tulsa,H,37,29,0,,,Navy-Marine Corps Memorial Stadium - Annapolis Maryland
+2018-11-17,2018,R,,tulsa,navy,A,29,37,0,,,Navy-Marine Corps Memorial Stadium - Annapolis Maryland
+2018-11-17,2018,R,,nebraska,michigan-state,H,9,6,0,,,Memorial Stadium - Lincoln Nebraska
+2018-11-17,2018,R,,michigan-state,nebraska,A,6,9,0,,,Memorial Stadium - Lincoln Nebraska
+2018-11-17,2018,R,,nevada,san-jose-state,A,21,12,0,,,CEFCU Stadium - San Jose California
+2018-11-17,2018,R,,san-jose-state,nevada,H,12,21,0,,,CEFCU Stadium - San Jose California
+2018-11-17,2018,R,,north-carolina,western-carolina,H,49,26,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2018-11-17,2018,R,,western-carolina,north-carolina,A,26,49,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2018-11-17,2018,R,,north-carolina-state,louisville,A,52,10,0,,,Cardinal Stadium - Louisville Kentucky
+2018-11-17,2018,R,,louisville,north-carolina-state,H,10,52,0,,,Cardinal Stadium - Louisville Kentucky
+2018-11-17,2018,R,,northwestern,minnesota,A,24,14,0,24.0,,TCF Bank Stadium - Minneapolis Minnesota
+2018-11-17,2018,R,,minnesota,northwestern,H,14,24,0,,24.0,TCF Bank Stadium - Minneapolis Minnesota
+2018-11-17,2018,R,,notre-dame,syracuse,N,36,3,0,3.0,12.0,Yankee Stadium - New York New York
+2018-11-17,2018,R,,syracuse,notre-dame,N,3,36,0,12.0,3.0,Yankee Stadium - New York New York
+2018-11-17,2018,R,,ohio-state,maryland,A,52,51,0,9.0,,Capital One Field at Maryland Stadium - College Park Maryland
+2018-11-17,2018,R,,maryland,ohio-state,H,51,52,0,,9.0,Capital One Field at Maryland Stadium - College Park Maryland
+2018-11-17,2018,R,,oklahoma,kansas,H,55,40,0,6.0,,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2018-11-17,2018,R,,kansas,oklahoma,A,40,55,0,,6.0,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2018-11-17,2018,R,,oklahoma-state,west-virginia,H,45,41,0,,7.0,Boone Pickens Stadium - Stillwater Oklahoma
+2018-11-17,2018,R,,west-virginia,oklahoma-state,A,41,45,0,7.0,,Boone Pickens Stadium - Stillwater Oklahoma
+2018-11-17,2018,R,,old-dominion,virginia-military-institute,H,77,14,0,,,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+2018-11-17,2018,R,,virginia-military-institute,old-dominion,A,14,77,0,,,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+2018-11-17,2018,R,,oregon,arizona-state,H,31,29,0,,,Autzen Stadium - Eugene Oregon
+2018-11-17,2018,R,,arizona-state,oregon,A,29,31,0,,,Autzen Stadium - Eugene Oregon
+2018-11-17,2018,R,,penn-state,rutgers,A,20,7,0,16.0,,High Point Solutions Stadium - Piscataway New Jersey
+2018-11-17,2018,R,,rutgers,penn-state,H,7,20,0,,16.0,High Point Solutions Stadium - Piscataway New Jersey
+2018-11-17,2018,R,,pittsburgh,wake-forest,A,34,13,0,,,BB&T Field - Winston-Salem North Carolina
+2018-11-17,2018,R,,wake-forest,pittsburgh,H,13,34,0,,,BB&T Field - Winston-Salem North Carolina
+2018-11-17,2018,R,,south-carolina,chattanooga,H,49,9,0,,,Williams-Brice Stadium - Columbia South Carolina
+2018-11-17,2018,R,,chattanooga,south-carolina,A,9,49,0,,,Williams-Brice Stadium - Columbia South Carolina
+2018-11-17,2018,R,,southern-mississippi,louisiana-tech,H,21,20,0,,,M. M. Roberts Stadium - Hattiesburg Mississippi
+2018-11-17,2018,R,,louisiana-tech,southern-mississippi,A,20,21,0,,,M. M. Roberts Stadium - Hattiesburg Mississippi
+2018-11-17,2018,R,,temple,south-florida,H,27,17,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2018-11-17,2018,R,,south-florida,temple,A,17,27,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2018-11-17,2018,R,,texas,iowa-state,H,24,10,0,13.0,18.0,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2018-11-17,2018,R,,iowa-state,texas,A,10,24,0,18.0,13.0,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2018-11-17,2018,R,,texas-a-m,alabama-birmingham,H,41,20,0,,,Kyle Field - College Station Texas
+2018-11-17,2018,R,,alabama-birmingham,texas-a-m,A,20,41,0,,,Kyle Field - College Station Texas
+2018-11-17,2018,R,,texas-christian,baylor,A,16,9,0,,,McLane Stadium - Waco Texas
+2018-11-17,2018,R,,baylor,texas-christian,H,9,16,0,,,McLane Stadium - Waco Texas
+2018-11-17,2018,R,,troy,texas-state,H,12,7,0,,,Veterans Memorial Stadium - Troy Alabama
+2018-11-17,2018,R,,texas-state,troy,A,7,12,0,,,Veterans Memorial Stadium - Troy Alabama
+2018-11-17,2018,R,,ucla,southern-california,H,34,27,0,,,Rose Bowl - Pasadena California
+2018-11-17,2018,R,,southern-california,ucla,A,27,34,0,,,Rose Bowl - Pasadena California
+2018-11-17,2018,R,,utah,colorado,A,30,7,0,21.0,,Folsom Field - Boulder Colorado
+2018-11-17,2018,R,,colorado,utah,H,7,30,0,,21.0,Folsom Field - Boulder Colorado
+2018-11-17,2018,R,,utah-state,colorado-state,A,29,24,0,14.0,,Sonny Lubick Field at Canvas Stadium - Fort Collins Colorado
+2018-11-17,2018,R,,colorado-state,utah-state,H,24,29,0,,14.0,Sonny Lubick Field at Canvas Stadium - Fort Collins Colorado
+2018-11-17,2018,R,,vanderbilt,mississippi,H,36,29,0,,,Vanderbilt Stadium - Nashville Tennessee
+2018-11-17,2018,R,,mississippi,vanderbilt,A,29,36,0,,,Vanderbilt Stadium - Nashville Tennessee
+2018-11-17,2018,R,,washington,oregon-state,H,42,23,0,17.0,,Husky Stadium - Seattle Washington
+2018-11-17,2018,R,,oregon-state,washington,A,23,42,0,,17.0,Husky Stadium - Seattle Washington
+2018-11-17,2018,R,,washington-state,arizona,H,69,28,0,8.0,,Martin Stadium - Pullman Washington
+2018-11-17,2018,R,,arizona,washington-state,A,28,69,0,,8.0,Martin Stadium - Pullman Washington
+2018-11-17,2018,R,,western-kentucky,texas-el-paso,H,40,16,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2018-11-17,2018,R,,texas-el-paso,western-kentucky,A,16,40,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2018-11-17,2018,R,,wisconsin,purdue,A,47,44,0,,,Ross-Ade Stadium - West Lafayette Indiana
+2018-11-17,2018,R,,purdue,wisconsin,H,44,47,0,,,Ross-Ade Stadium - West Lafayette Indiana
+2018-11-17,2018,R,,wyoming,air-force,H,35,27,0,,,Jonah Field War Memorial Stadium - Laramie Wyoming
+2018-11-17,2018,R,,air-force,wyoming,A,27,35,0,,,Jonah Field War Memorial Stadium - Laramie Wyoming
+2018-11-20,2018,R,,miami-oh,ball-state,H,42,21,0,,,Fred Yager Stadium - Oxford Ohio
+2018-11-20,2018,R,,ball-state,miami-oh,A,21,42,0,,,Fred Yager Stadium - Oxford Ohio
+2018-11-20,2018,R,,western-michigan,northern-illinois,H,28,21,0,,,Waldo Stadium - Kalamazoo Michigan
+2018-11-20,2018,R,,northern-illinois,western-michigan,A,21,28,0,,,Waldo Stadium - Kalamazoo Michigan
+2018-11-22,2018,R,,air-force,colorado-state,H,27,19,0,,,Falcon Stadium - Colorado Springs Colorado
+2018-11-22,2018,R,,colorado-state,air-force,A,19,27,0,,,Falcon Stadium - Colorado Springs Colorado
+2018-11-22,2018,R,,mississippi-state,mississippi,A,35,3,0,22.0,,Vaught-Hemingway Stadium - Oxford Mississippi
+2018-11-22,2018,R,,mississippi,mississippi-state,H,3,35,0,,22.0,Vaught-Hemingway Stadium - Oxford Mississippi
+2018-11-23,2018,R,,buffalo,bowling-green,A,44,14,0,,,Doyt Perry Stadium - Bowling Green Ohio
+2018-11-23,2018,R,,bowling-green,buffalo,H,14,44,0,,,Doyt Perry Stadium - Bowling Green Ohio
+2018-11-23,2018,R,,central-florida,south-florida,A,38,10,0,8.0,,Raymond James Stadium - Tampa Florida
+2018-11-23,2018,R,,south-florida,central-florida,H,10,38,0,,8.0,Raymond James Stadium - Tampa Florida
+2018-11-23,2018,R,,cincinnati,east-carolina,H,56,6,0,,,Nippert Stadium - Cincinnati Ohio
+2018-11-23,2018,R,,east-carolina,cincinnati,A,6,56,0,,,Nippert Stadium - Cincinnati Ohio
+2018-11-23,2018,R,,eastern-michigan,kent-state,A,28,20,0,,,Dix Stadium - Kent Ohio
+2018-11-23,2018,R,,kent-state,eastern-michigan,H,20,28,0,,,Dix Stadium - Kent Ohio
+2018-11-23,2018,R,,iowa,nebraska,H,31,28,0,,,Kinnick Stadium - Iowa City Iowa
+2018-11-23,2018,R,,nebraska,iowa,A,28,31,0,,,Kinnick Stadium - Iowa City Iowa
+2018-11-23,2018,R,,memphis,houston,H,52,31,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2018-11-23,2018,R,,houston,memphis,A,31,52,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2018-11-23,2018,R,,missouri,arkansas,H,38,0,0,,,Memorial Stadium/Faurot Field - Columbia Missouri
+2018-11-23,2018,R,,arkansas,missouri,A,0,38,0,,,Memorial Stadium/Faurot Field - Columbia Missouri
+2018-11-23,2018,R,,ohio,akron,H,49,28,0,,,Peden Stadium - Athens Ohio
+2018-11-23,2018,R,,akron,ohio,A,28,49,0,,,Peden Stadium - Athens Ohio
+2018-11-23,2018,R,,oklahoma,west-virginia,A,59,56,0,6.0,12.0,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+2018-11-23,2018,R,,west-virginia,oklahoma,H,56,59,0,12.0,6.0,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+2018-11-23,2018,R,,oregon,oregon-state,A,55,15,0,,,Reser Stadium - Corvallis Oregon
+2018-11-23,2018,R,,oregon-state,oregon,H,15,55,0,,,Reser Stadium - Corvallis Oregon
+2018-11-23,2018,R,,south-alabama,coastal-carolina,H,31,28,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2018-11-23,2018,R,,coastal-carolina,south-alabama,A,28,31,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2018-11-23,2018,R,,texas,kansas,A,24,17,0,11.0,,Memorial Stadium - Lawrence Kansas
+2018-11-23,2018,R,,kansas,texas,H,17,24,0,,11.0,Memorial Stadium - Lawrence Kansas
+2018-11-23,2018,R,,toledo,central-michigan,H,51,13,0,,,Glass Bowl - Toledo Ohio
+2018-11-23,2018,R,,central-michigan,toledo,A,13,51,0,,,Glass Bowl - Toledo Ohio
+2018-11-23,2018,R,,virginia-tech,virginia,H,34,31,0,,,Lane Stadium - Blacksburg Virginia
+2018-11-23,2018,R,,virginia,virginia-tech,A,31,34,0,,,Lane Stadium - Blacksburg Virginia
+2018-11-23,2018,R,,washington,washington-state,A,28,15,0,16.0,7.0,Martin Stadium - Pullman Washington
+2018-11-23,2018,R,,washington-state,washington,H,15,28,0,7.0,16.0,Martin Stadium - Pullman Washington
+2018-11-24,2018,R,,alabama,auburn,H,52,21,0,1.0,,Bryant-Denny Stadium - Tuscaloosa Alabama
+2018-11-24,2018,R,,auburn,alabama,A,21,52,0,,1.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2018-11-24,2018,R,,appalachian-state,troy,H,21,10,0,,,Kidd Brewer Stadium - Boone North Carolina
+2018-11-24,2018,R,,troy,appalachian-state,A,10,21,0,,,Kidd Brewer Stadium - Boone North Carolina
+2018-11-24,2018,R,,arizona-state,arizona,A,41,40,0,,,Arizona Stadium - Tucson Arizona
+2018-11-24,2018,R,,arizona,arizona-state,H,40,41,0,,,Arizona Stadium - Tucson Arizona
+2018-11-24,2018,R,,arkansas-state,texas-state,A,33,7,0,,,Bobcat Stadium - San Marcos Texas
+2018-11-24,2018,R,,texas-state,arkansas-state,H,7,33,0,,,Bobcat Stadium - San Marcos Texas
+2018-11-24,2018,R,,baylor,texas-tech,N,35,24,0,,,AT&T Stadium - Arlington Texas
+2018-11-24,2018,R,,texas-tech,baylor,N,24,35,0,,,AT&T Stadium - Arlington Texas
+2018-11-24,2018,R,,boise-state,utah-state,H,33,24,0,21.0,14.0,Albertsons Stadium - Boise Idaho
+2018-11-24,2018,R,,utah-state,boise-state,A,24,33,0,14.0,21.0,Albertsons Stadium - Boise Idaho
+2018-11-24,2018,R,,california,colorado,H,33,21,0,,,California Memorial Stadium - Berkeley California
+2018-11-24,2018,R,,colorado,california,A,21,33,0,,,California Memorial Stadium - Berkeley California
+2018-11-24,2018,R,,charlotte,florida-atlantic,A,27,24,0,,,FAU Football Stadium - Boca Raton Florida
+2018-11-24,2018,R,,florida-atlantic,charlotte,H,24,27,0,,,FAU Football Stadium - Boca Raton Florida
+2018-11-24,2018,R,,clemson,south-carolina,H,56,35,0,2.0,,Clemson Memorial Stadium - Clemson South Carolina
+2018-11-24,2018,R,,south-carolina,clemson,A,35,56,0,,2.0,Clemson Memorial Stadium - Clemson South Carolina
+2018-11-24,2018,R,,florida,florida-state,A,41,14,0,13.0,,Doak Campbell Stadium - Tallahassee Florida
+2018-11-24,2018,R,,florida-state,florida,H,14,41,0,,13.0,Doak Campbell Stadium - Tallahassee Florida
+2018-11-24,2018,R,,fresno-state,san-jose-state,H,31,13,0,,,Bulldog Stadium - Fresno California
+2018-11-24,2018,R,,san-jose-state,fresno-state,A,13,31,0,,,Bulldog Stadium - Fresno California
+2018-11-24,2018,R,,georgia,georgia-tech,H,45,21,0,5.0,,Sanford Stadium - Athens Georgia
+2018-11-24,2018,R,,georgia-tech,georgia,A,21,45,0,,5.0,Sanford Stadium - Athens Georgia
+2018-11-24,2018,R,,georgia-southern,georgia-state,A,35,14,0,,,Georgia State Stadium - Atlanta Georgia
+2018-11-24,2018,R,,georgia-state,georgia-southern,H,14,35,0,,,Georgia State Stadium - Atlanta Georgia
+2018-11-24,2018,R,,hawaii,san-diego-state,A,31,30,0,,,SDCCU Stadium - San Diego California
+2018-11-24,2018,R,,san-diego-state,hawaii,H,30,31,0,,,SDCCU Stadium - San Diego California
+2018-11-24,2018,R,,iowa-state,kansas-state,H,42,38,0,25.0,,Jack Trice Stadium - Ames Iowa
+2018-11-24,2018,R,,kansas-state,iowa-state,A,38,42,0,,25.0,Jack Trice Stadium - Ames Iowa
+2018-11-24,2018,R,,kentucky,louisville,A,56,10,0,17.0,,Cardinal Stadium - Louisville Kentucky
+2018-11-24,2018,R,,louisville,kentucky,H,10,56,0,,17.0,Cardinal Stadium - Louisville Kentucky
+2018-11-24,2018,R,,liberty,new-mexico-state,H,28,21,0,,,Williams Stadium - Lynchburg Virginia
+2018-11-24,2018,R,,new-mexico-state,liberty,A,21,28,0,,,Williams Stadium - Lynchburg Virginia
+2018-11-24,2018,R,,louisiana,louisiana-monroe,A,31,28,0,,,Malone Stadium - Monroe Louisiana
+2018-11-24,2018,R,,louisiana-monroe,louisiana,H,28,31,0,,,Malone Stadium - Monroe Louisiana
+2018-11-24,2018,R,,marshall,florida-international,A,28,25,0,,,Riccardo Silva Stadium - Miami Florida
+2018-11-24,2018,R,,florida-international,marshall,H,25,28,0,,,Riccardo Silva Stadium - Miami Florida
+2018-11-24,2018,R,,miami-fl,pittsburgh,H,24,3,0,,24.0,Hard Rock Stadium - Miami Gardens Florida
+2018-11-24,2018,R,,pittsburgh,miami-fl,A,3,24,0,24.0,,Hard Rock Stadium - Miami Gardens Florida
+2018-11-24,2018,R,,michigan-state,rutgers,H,14,10,0,,,Spartan Stadium - East Lansing Michigan
+2018-11-24,2018,R,,rutgers,michigan-state,A,10,14,0,,,Spartan Stadium - East Lansing Michigan
+2018-11-24,2018,R,,middle-tennessee-state,alabama-birmingham,H,27,3,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2018-11-24,2018,R,,alabama-birmingham,middle-tennessee-state,A,3,27,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2018-11-24,2018,R,,minnesota,wisconsin,A,37,15,0,,,Camp Randall Stadium - Madison Wisconsin
+2018-11-24,2018,R,,wisconsin,minnesota,H,15,37,0,,,Camp Randall Stadium - Madison Wisconsin
+2018-11-24,2018,R,,nevada-las-vegas,nevada,H,34,29,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2018-11-24,2018,R,,nevada,nevada-las-vegas,A,29,34,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2018-11-24,2018,R,,north-carolina-state,north-carolina,A,34,28,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2018-11-24,2018,R,,north-carolina,north-carolina-state,H,28,34,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2018-11-24,2018,R,,north-texas,texas-san-antonio,A,24,21,0,,,Alamodome - San Antonio Texas
+2018-11-24,2018,R,,texas-san-antonio,north-texas,H,21,24,0,,,Alamodome - San Antonio Texas
+2018-11-24,2018,R,,northwestern,illinois,H,24,16,0,20.0,,Ryan Field - Evanston Illinois
+2018-11-24,2018,R,,illinois,northwestern,A,16,24,0,,20.0,Ryan Field - Evanston Illinois
+2018-11-24,2018,R,,notre-dame,southern-california,A,24,17,0,3.0,,Los Angeles Memorial Coliseum - Los Angeles California
+2018-11-24,2018,R,,southern-california,notre-dame,H,17,24,0,,3.0,Los Angeles Memorial Coliseum - Los Angeles California
+2018-11-24,2018,R,,ohio-state,michigan,H,62,39,0,10.0,4.0,Ohio Stadium - Columbus Ohio
+2018-11-24,2018,R,,michigan,ohio-state,A,39,62,0,4.0,10.0,Ohio Stadium - Columbus Ohio
+2018-11-24,2018,R,,penn-state,maryland,H,38,3,0,15.0,,Beaver Stadium - University Park Pennsylvania
+2018-11-24,2018,R,,maryland,penn-state,A,3,38,0,,15.0,Beaver Stadium - University Park Pennsylvania
+2018-11-24,2018,R,,purdue,indiana,A,28,21,0,,,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+2018-11-24,2018,R,,indiana,purdue,H,21,28,0,,,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+2018-11-24,2018,R,,rice,old-dominion,H,27,13,0,,,Rice Stadium - Houston Texas
+2018-11-24,2018,R,,old-dominion,rice,A,13,27,0,,,Rice Stadium - Houston Texas
+2018-11-24,2018,R,,southern-mississippi,texas-el-paso,A,39,7,0,,,Sun Bowl - El Paso Texas
+2018-11-24,2018,R,,texas-el-paso,southern-mississippi,H,7,39,0,,,Sun Bowl - El Paso Texas
+2018-11-24,2018,R,,stanford,ucla,A,49,42,0,,,Rose Bowl - Pasadena California
+2018-11-24,2018,R,,ucla,stanford,H,42,49,0,,,Rose Bowl - Pasadena California
+2018-11-24,2018,R,,syracuse,boston-college,A,42,21,0,19.0,,Alumni Stadium - Chestnut Hill Massachusetts
+2018-11-24,2018,R,,boston-college,syracuse,H,21,42,0,,19.0,Alumni Stadium - Chestnut Hill Massachusetts
+2018-11-24,2018,R,,temple,connecticut,A,57,7,0,,,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+2018-11-24,2018,R,,connecticut,temple,H,7,57,0,,,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+2018-11-24,2018,R,,texas-a-m,louisiana-state,H,74,72,0,,8.0,Kyle Field - College Station Texas
+2018-11-24,2018,R,,louisiana-state,texas-a-m,A,72,74,0,8.0,,Kyle Field - College Station Texas
+2018-11-24,2018,R,,texas-christian,oklahoma-state,H,31,24,0,,,Amon G. Carter Stadium - Fort Worth Texas
+2018-11-24,2018,R,,oklahoma-state,texas-christian,A,24,31,0,,,Amon G. Carter Stadium - Fort Worth Texas
+2018-11-24,2018,R,,tulane,navy,H,29,28,0,,,Yulman Stadium - New Orleans Louisiana
+2018-11-24,2018,R,,navy,tulane,A,28,29,0,,,Yulman Stadium - New Orleans Louisiana
+2018-11-24,2018,R,,tulsa,southern-methodist,H,27,24,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2018-11-24,2018,R,,southern-methodist,tulsa,A,24,27,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2018-11-24,2018,R,,utah,brigham-young,H,35,27,0,18.0,,Rice-Eccles Stadium - Salt Lake City Utah
+2018-11-24,2018,R,,brigham-young,utah,A,27,35,0,,18.0,Rice-Eccles Stadium - Salt Lake City Utah
+2018-11-24,2018,R,,vanderbilt,tennessee,H,38,13,0,,,Vanderbilt Stadium - Nashville Tennessee
+2018-11-24,2018,R,,tennessee,vanderbilt,A,13,38,0,,,Vanderbilt Stadium - Nashville Tennessee
+2018-11-24,2018,R,,wake-forest,duke,A,59,7,0,,,Wallace Wade Stadium - Durham North Carolina
+2018-11-24,2018,R,,duke,wake-forest,H,7,59,0,,,Wallace Wade Stadium - Durham North Carolina
+2018-11-24,2018,R,,western-kentucky,louisiana-tech,A,30,15,0,,,Joe Aillet Stadium - Ruston Louisiana
+2018-11-24,2018,R,,louisiana-tech,western-kentucky,H,15,30,0,,,Joe Aillet Stadium - Ruston Louisiana
+2018-11-24,2018,R,,wyoming,new-mexico,A,31,3,0,,,Dreamstyle Stadium - Albuquerque New Mexico
+2018-11-24,2018,R,,new-mexico,wyoming,H,3,31,0,,,Dreamstyle Stadium - Albuquerque New Mexico
+2018-11-30,2018,R,CCG,northern-illinois,buffalo,N,30,29,0,,,MAC Championship (Detroit MI)
+2018-11-30,2018,R,CCG,buffalo,northern-illinois,N,29,30,0,,,MAC Championship (Detroit MI)
+2018-11-30,2018,R,CCG,washington,utah,N,10,3,0,10.0,17.0,Pac-12 Championship (Santa Clara CA)
+2018-11-30,2018,R,CCG,utah,washington,N,3,10,0,17.0,10.0,Pac-12 Championship (Santa Clara CA)
+2018-12-01,2018,R,CCG,alabama,georgia,N,35,28,0,1.0,4.0,SEC Championship (Atlanta GA)
+2018-12-01,2018,R,CCG,georgia,alabama,N,28,35,0,4.0,1.0,SEC Championship (Atlanta GA)
+2018-12-01,2018,R,CCG,alabama-birmingham,middle-tennessee-state,A,27,25,0,,,Conference USA Championship (Murfreesboro TN)
+2018-12-01,2018,R,CCG,middle-tennessee-state,alabama-birmingham,H,25,27,0,,,Conference USA Championship (Murfreesboro TN)
+2018-12-01,2018,R,CCG,appalachian-state,louisiana,H,30,19,0,,,Sun Belt Championship (Boone NC)
+2018-12-01,2018,R,CCG,louisiana,appalachian-state,A,19,30,0,,,Sun Belt Championship (Boone NC)
+2018-12-01,2018,R,CCG,central-florida,memphis,H,56,41,0,7.0,,American Athletic Conference Championship (Orlando FL)
+2018-12-01,2018,R,CCG,memphis,central-florida,A,41,56,0,,7.0,American Athletic Conference Championship (Orlando FL)
+2018-12-01,2018,R,CCG,clemson,pittsburgh,N,42,10,0,2.0,,ACC Championship (Charlotte NC)
+2018-12-01,2018,R,CCG,pittsburgh,clemson,N,10,42,0,,2.0,ACC Championship (Charlotte NC)
+2018-12-01,2018,R,CCG,fresno-state,boise-state,A,19,16,0,25.0,19.0,MWC Championship (Boise ID)
+2018-12-01,2018,R,CCG,boise-state,fresno-state,H,16,19,0,19.0,25.0,MWC Championship (Boise ID)
+2018-12-01,2018,R,,iowa-state,drake,H,27,24,0,24.0,,Jack Trice Stadium - Ames Iowa
+2018-12-01,2018,R,,drake,iowa-state,A,24,27,0,,24.0,Jack Trice Stadium - Ames Iowa
+2018-12-01,2018,R,,liberty,norfolk-state,H,52,17,0,,,Williams Stadium - Lynchburg Virginia
+2018-12-01,2018,R,,norfolk-state,liberty,A,17,52,0,,,Williams Stadium - Lynchburg Virginia
+2018-12-01,2018,R,,north-carolina-state,east-carolina,H,58,3,0,,,Carter-Finley Stadium - Raleigh North Carolina
+2018-12-01,2018,R,,east-carolina,north-carolina-state,A,3,58,0,,,Carter-Finley Stadium - Raleigh North Carolina
+2018-12-01,2018,R,CCG,ohio-state,northwestern,N,45,24,0,6.0,21.0,Big Ten Championship (Indianapolis IN)
+2018-12-01,2018,R,CCG,northwestern,ohio-state,N,24,45,0,21.0,6.0,Big Ten Championship (Indianapolis IN)
+2018-12-01,2018,R,,oklahoma,texas,N,39,27,0,5.0,9.0,AT&T Stadium - Arlington Texas
+2018-12-01,2018,R,,texas,oklahoma,N,27,39,0,9.0,5.0,AT&T Stadium - Arlington Texas
+2018-12-01,2018,R,,south-carolina,akron,H,28,3,0,,,Williams-Brice Stadium - Columbia South Carolina
+2018-12-01,2018,R,,akron,south-carolina,A,3,28,0,,,Williams-Brice Stadium - Columbia South Carolina
+2018-12-01,2018,R,,stanford,california,A,23,13,0,,,California Memorial Stadium - Berkeley California
+2018-12-01,2018,R,,california,stanford,H,13,23,0,,,California Memorial Stadium - Berkeley California
+2018-12-01,2018,R,,virginia-tech,marshall,H,41,20,0,,,Lane Stadium - Blacksburg Virginia
+2018-12-01,2018,R,,marshall,virginia-tech,A,20,41,0,,,Lane Stadium - Blacksburg Virginia
+2018-12-08,2018,R,,army,navy,N,17,10,0,22.0,,Lincoln Financial Field - Philadelphia Pennsylvania
+2018-12-08,2018,R,,navy,army,N,10,17,0,,22.0,Lincoln Financial Field - Philadelphia Pennsylvania
+2018-12-15,2018,R,BOWL,appalachian-state,middle-tennessee-state,N,45,13,0,,,New Orleans Bowl (Mercedes-Benz Superdome - New Orleans Louisiana)
+2018-12-15,2018,R,BOWL,middle-tennessee-state,appalachian-state,N,13,45,0,,,New Orleans Bowl (Mercedes-Benz Superdome - New Orleans Louisiana)
+2018-12-15,2018,R,BOWL,fresno-state,arizona-state,N,31,20,0,19.0,,Las Vegas Bowl (Sam Boyd Stadium - Las Vegas Nevada)
+2018-12-15,2018,R,BOWL,arizona-state,fresno-state,N,20,31,0,,19.0,Las Vegas Bowl (Sam Boyd Stadium - Las Vegas Nevada)
+2018-12-15,2018,R,BOWL,georgia-southern,eastern-michigan,N,23,21,0,,,Camellia Bowl (Cramton Bowl - Montgomery Alabama)
+2018-12-15,2018,R,BOWL,eastern-michigan,georgia-southern,N,21,23,0,,,Camellia Bowl (Cramton Bowl - Montgomery Alabama)
+2018-12-15,2018,R,BOWL,tulane,louisiana,N,41,24,0,,,Cure Bowl (Camping World Stadium - Orlando Florida)
+2018-12-15,2018,R,BOWL,louisiana,tulane,N,24,41,0,,,Cure Bowl (Camping World Stadium - Orlando Florida)
+2018-12-15,2018,R,BOWL,utah-state,north-texas,N,52,13,0,,,New Mexico Bowl (Dreamstyle Stadium - Albuquerque New Mexico)
+2018-12-15,2018,R,BOWL,north-texas,utah-state,N,13,52,0,,,New Mexico Bowl (Dreamstyle Stadium - Albuquerque New Mexico)
+2018-12-18,2018,R,BOWL,alabama-birmingham,northern-illinois,N,37,13,0,,,Boca Raton Bowl (FAU Football Stadium - Boca Raton Florida)
+2018-12-18,2018,R,BOWL,northern-illinois,alabama-birmingham,N,13,37,0,,,Boca Raton Bowl (FAU Football Stadium - Boca Raton Florida)
+2018-12-19,2018,R,BOWL,ohio,san-diego-state,N,27,0,0,,,Frisco Bowl (Toyota Stadium - Frisco Texas)
+2018-12-19,2018,R,BOWL,san-diego-state,ohio,N,0,27,0,,,Frisco Bowl (Toyota Stadium - Frisco Texas)
+2018-12-20,2018,R,BOWL,marshall,south-florida,A,38,20,0,,,Gasparilla Bowl (Raymond James Stadium - Tampa Florida)
+2018-12-20,2018,R,BOWL,south-florida,marshall,H,20,38,0,,,Gasparilla Bowl (Raymond James Stadium - Tampa Florida)
+2018-12-21,2018,R,BOWL,brigham-young,western-michigan,N,49,18,0,,,Famous Idaho Potato Bowl (Albertsons Stadium - Boise Idaho)
+2018-12-21,2018,R,BOWL,western-michigan,brigham-young,N,18,49,0,,,Famous Idaho Potato Bowl (Albertsons Stadium - Boise Idaho)
+2018-12-21,2018,R,BOWL,florida-international,toledo,N,35,32,0,,,Bahamas Bowl (Thomas Robinson Stadium - Nassau BHS)
+2018-12-21,2018,R,BOWL,toledo,florida-international,N,32,35,0,,,Bahamas Bowl (Thomas Robinson Stadium - Nassau BHS)
+2018-12-22,2018,R,BOWL,army,houston,N,70,14,0,22.0,,Armed Forces Bowl (Amon G. Carter Stadium - Fort Worth Texas)
+2018-12-22,2018,R,BOWL,houston,army,N,14,70,0,,22.0,Armed Forces Bowl (Amon G. Carter Stadium - Fort Worth Texas)
+2018-12-22,2018,R,BOWL,louisiana-tech,hawaii,N,31,14,0,,,Hawaii Bowl (Aloha Stadium - Honolulu Hawaii)
+2018-12-22,2018,R,BOWL,hawaii,louisiana-tech,N,14,31,0,,,Hawaii Bowl (Aloha Stadium - Honolulu Hawaii)
+2018-12-22,2018,R,BOWL,troy,buffalo,N,42,32,0,,,Dollar General Bowl (Ladd-Peebles Stadium - Mobile Alabama)
+2018-12-22,2018,R,BOWL,buffalo,troy,N,32,42,0,,,Dollar General Bowl (Ladd-Peebles Stadium - Mobile Alabama)
+2018-12-22,2018,R,BOWL,wake-forest,memphis,N,37,34,0,,,Birmingham Bowl (Legion Field - Birmingham Alabama)
+2018-12-22,2018,R,BOWL,memphis,wake-forest,N,34,37,0,,,Birmingham Bowl (Legion Field - Birmingham Alabama)
+2018-12-26,2018,R,BOWL,minnesota,georgia-tech,N,34,10,0,,,Quick Lane Bowl (Ford Field - Detroit Michigan)
+2018-12-26,2018,R,BOWL,georgia-tech,minnesota,N,10,34,0,,,Quick Lane Bowl (Ford Field - Detroit Michigan)
+2018-12-26,2018,R,BOWL,texas-christian,california,N,10,7,0,,,Cheez-It Bowl (Chase Field - Phoenix Arizona)
+2018-12-26,2018,R,BOWL,california,texas-christian,N,7,10,0,,,Cheez-It Bowl (Chase Field - Phoenix Arizona)
+2018-12-27,2018,R,BOWL,baylor,vanderbilt,N,45,38,0,,,Texas Bowl (NRG Stadium - Houston Texas)
+2018-12-27,2018,R,BOWL,vanderbilt,baylor,N,38,45,0,,,Texas Bowl (NRG Stadium - Houston Texas)
+2018-12-27,2018,R,BOWL,duke,temple,N,56,27,0,,,Independence Bowl (Independence Stadium - Shreveport Louisiana)
+2018-12-27,2018,R,BOWL,temple,duke,N,27,56,0,,,Independence Bowl (Independence Stadium - Shreveport Louisiana)
+2018-12-27,2018,R,BOWL,wisconsin,miami-fl,N,35,3,0,,,Pinstripe Bowl (Yankee Stadium - New York New York)
+2018-12-27,2018,R,BOWL,miami-fl,wisconsin,N,3,35,0,,,Pinstripe Bowl (Yankee Stadium - New York New York)
+2018-12-28,2018,R,BOWL,auburn,purdue,N,63,14,0,,,Music City Bowl (Nissan Stadium - Nashville Tennessee)
+2018-12-28,2018,R,BOWL,purdue,auburn,N,14,63,0,,,Music City Bowl (Nissan Stadium - Nashville Tennessee)
+2018-12-28,2018,R,BOWL,syracuse,west-virginia,N,34,18,0,17.0,15.0,Camping World Bowl (Camping World Stadium - Orlando Florida)
+2018-12-28,2018,R,BOWL,west-virginia,syracuse,N,18,34,0,15.0,17.0,Camping World Bowl (Camping World Stadium - Orlando Florida)
+2018-12-28,2018,R,BOWL,washington-state,iowa-state,N,28,26,0,12.0,25.0,Alamo Bowl (Alamodome - San Antonio Texas)
+2018-12-28,2018,R,BOWL,iowa-state,washington-state,N,26,28,0,25.0,12.0,Alamo Bowl (Alamodome - San Antonio Texas)
+2018-12-29,2018,R,CFP-SF,alabama,oklahoma,N,45,34,0,1.0,4.0,Orange Bowl (Hard Rock Stadium - Miami Gardens Florida)
+2018-12-29,2018,R,CFP-SF,oklahoma,alabama,N,34,45,0,4.0,1.0,Orange Bowl (Hard Rock Stadium - Miami Gardens Florida)
+2018-12-29,2018,R,CFP-SF,clemson,notre-dame,N,30,3,0,2.0,3.0,Cotton Bowl (AT&T Stadium - Arlington Texas)
+2018-12-29,2018,R,CFP-SF,notre-dame,clemson,N,3,30,0,3.0,2.0,Cotton Bowl (AT&T Stadium - Arlington Texas)
+2018-12-29,2018,R,BOWL,florida,michigan,N,41,15,0,10.0,8.0,Peach Bowl (Mercedes-Benz Stadium - Atlanta Georgia)
+2018-12-29,2018,R,BOWL,michigan,florida,N,15,41,0,8.0,10.0,Peach Bowl (Mercedes-Benz Stadium - Atlanta Georgia)
+2018-12-29,2018,R,BOWL,nevada,arkansas-state,N,16,13,0,,,Arizona Bowl (Arizona Stadium - Tucson Arizona)
+2018-12-29,2018,R,BOWL,arkansas-state,nevada,N,13,16,0,,,Arizona Bowl (Arizona Stadium - Tucson Arizona)
+2018-12-29,2018,R,BOWL,virginia,south-carolina,N,28,0,0,,,Belk Bowl (Bank of America Stadium - Charlotte North Carolina)
+2018-12-29,2018,R,BOWL,south-carolina,virginia,N,0,28,0,,,Belk Bowl (Bank of America Stadium - Charlotte North Carolina)
+2018-12-31,2018,R,BOWL,cincinnati,virginia-tech,N,35,31,0,,,Military Bowl (Navy-Marine Corps Memorial Stadium - Annapolis Maryland)
+2018-12-31,2018,R,BOWL,virginia-tech,cincinnati,N,31,35,0,,,Military Bowl (Navy-Marine Corps Memorial Stadium - Annapolis Maryland)
+2018-12-31,2018,R,BOWL,northwestern,utah,N,31,20,0,,20.0,Holiday Bowl (SDCCU Stadium - San Diego California)
+2018-12-31,2018,R,BOWL,utah,northwestern,N,20,31,0,20.0,,Holiday Bowl (SDCCU Stadium - San Diego California)
+2018-12-31,2018,R,BOWL,oklahoma-state,missouri,N,38,33,0,,24.0,Liberty Bowl (Liberty Bowl Memorial Stadium - Memphis Tennessee)
+2018-12-31,2018,R,BOWL,missouri,oklahoma-state,N,33,38,0,24.0,,Liberty Bowl (Liberty Bowl Memorial Stadium - Memphis Tennessee)
+2018-12-31,2018,R,BOWL,oregon,michigan-state,N,7,6,0,,,Redbox Bowl (Levi's Stadium - Santa Clara California)
+2018-12-31,2018,R,BOWL,michigan-state,oregon,N,6,7,0,,,Redbox Bowl (Levi's Stadium - Santa Clara California)
+2018-12-31,2018,R,BOWL,stanford,pittsburgh,N,14,13,0,,,Sun Bowl (Sun Bowl - El Paso Texas)
+2018-12-31,2018,R,BOWL,pittsburgh,stanford,N,13,14,0,,,Sun Bowl (Sun Bowl - El Paso Texas)
+2018-12-31,2018,R,BOWL,texas-a-m,north-carolina-state,N,52,13,0,21.0,,Gator Bowl (TIAA Bank Field - Jacksonville Florida)
+2018-12-31,2018,R,BOWL,north-carolina-state,texas-a-m,N,13,52,0,,21.0,Gator Bowl (TIAA Bank Field - Jacksonville Florida)
+2019-01-01,2018,R,BOWL,iowa,mississippi-state,N,27,22,0,,18.0,Outback Bowl (Raymond James Stadium - Tampa Florida)
+2019-01-01,2018,R,BOWL,mississippi-state,iowa,N,22,27,0,18.0,,Outback Bowl (Raymond James Stadium - Tampa Florida)
+2019-01-01,2018,R,BOWL,kentucky,penn-state,N,27,24,0,16.0,13.0,Citrus Bowl (Camping World Stadium - Orlando Florida)
+2019-01-01,2018,R,BOWL,penn-state,kentucky,N,24,27,0,13.0,16.0,Citrus Bowl (Camping World Stadium - Orlando Florida)
+2019-01-01,2018,R,BOWL,louisiana-state,central-florida,N,40,32,0,11.0,7.0,Fiesta Bowl (State Farm Stadium - Glendale Arizona)
+2019-01-01,2018,R,BOWL,central-florida,louisiana-state,N,32,40,0,7.0,11.0,Fiesta Bowl (State Farm Stadium - Glendale Arizona)
+2019-01-01,2018,R,BOWL,ohio-state,washington,N,28,23,0,5.0,9.0,Rose Bowl (Rose Bowl - Pasadena California)
+2019-01-01,2018,R,BOWL,washington,ohio-state,N,23,28,0,9.0,5.0,Rose Bowl (Rose Bowl - Pasadena California)
+2019-01-01,2018,R,BOWL,texas,georgia,N,28,21,0,14.0,6.0,Sugar Bowl (Mercedes-Benz Superdome - New Orleans Louisiana)
+2019-01-01,2018,R,BOWL,georgia,texas,N,21,28,0,6.0,14.0,Sugar Bowl (Mercedes-Benz Superdome - New Orleans Louisiana)
+2019-01-07,2018,R,NC,clemson,alabama,N,44,16,0,2.0,1.0,College Football Playoff National Championship (Levi's Stadium - Santa Clara California)
+2019-01-07,2018,R,NC,alabama,clemson,N,16,44,0,1.0,2.0,College Football Playoff National Championship (Levi's Stadium - Santa Clara California)
