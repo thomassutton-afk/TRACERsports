@@ -81,6 +81,20 @@ WHAT THIS DOES:
     re-running this normalizer against the original raw file again.
   - OT is hardcoded to 0 for every row - this source format carries no
     overtime flag. Revisit if/when a source with real OT data is added.
+  - Two source-data guards (added Nov 2026):
+      - TIE / 0-0: FBS has had no tied game since overtime came in (1996),
+        so a tied score - and every 0-0 - is a placeholder, not a result
+        (Troy-Southern Miss, Oct 6, 2026, came through as 0-0 and loaded as a
+        real tie; ESPN had it 55-34). Both scores are blanked and the row is
+        treated as unplayed: kept as an upcoming game if it is recent or in
+        the future, dropped with a warning if it is older than the buffer -
+        exactly like any other row with no final score. Fixing the CSV is
+        still needed for the real score (see drop_echo_rows / HANDOFF 9b).
+      - ECHO DUPLICATES: Sports-Reference sometimes lists a game a second
+        time one day later - same teams, same score, blank Notes (a time-zone
+        echo; seen for the Sydney games of 2016 and 2017 and the 2021 Armed
+        Forces Bowl). The later, blank-Notes row is dropped. dedupe_raw_rows()
+        cannot see these because the dates differ.
 
 WHAT THIS DOES NOT DO:
   - No conference/division assignment (`team_conference_history` is
@@ -229,6 +243,35 @@ def dedupe_raw_rows(df: pd.DataFrame) -> pd.DataFrame:
     return working.drop(columns=["_info"]).sort_index()
 
 
+def drop_echo_rows(df: pd.DataFrame, loser_pts_col: str) -> pd.DataFrame:
+    """Drop time-zone echo duplicates: a row with a blank Notes whose
+    teams and score exactly match another row dated ONE DAY EARLIER.
+    Teams never play twice in a day and never repeat an exact score a day
+    apart, so this cannot touch a real game (a sweep for teams playing twice
+    within three days across 1996-2026 found only the three known echoes).
+    Team names are compared without the AP rank prefix. Rows with no score
+    (upcoming games) are never touched."""
+    if df.empty or "Notes" not in df.columns:
+        return df
+    pw = pd.to_numeric(df["Pts"], errors="coerce")
+    pl = pd.to_numeric(df[loser_pts_col], errors="coerce")
+    scored = pw.notna() & pl.notna()
+    names_w = df["Winner"].map(lambda s: parse_team(s)[0])
+    names_l = df["Loser"].map(lambda s: parse_team(s)[0])
+    blank = df["Notes"].fillna("").astype(str).str.strip() == ""
+
+    seen = {(df.at[i, "Date"], names_w[i], names_l[i], pw[i], pl[i])
+            for i in df.index[scored]}
+    echoes = [i for i in df.index[scored & blank]
+              if (df.at[i, "Date"] - pd.Timedelta(days=1), names_w[i], names_l[i], pw[i], pl[i]) in seen]
+    if echoes:
+        print(f"WARNING: dropped {len(echoes)} echo duplicate row(s) (blank Notes, same teams and "
+              f"score as a row one day earlier):")
+        for i in echoes:
+            print(f"  {df.at[i, 'Date'].date()}: {names_w[i]} {int(pw[i])}, {names_l[i]} {int(pl[i])}")
+    return df.drop(index=echoes)
+
+
 def parse_team(raw: str) -> tuple[str, "int | None"]:
     """Split a Sports-Reference team field like '(11) Penn State' into
     (name, rank). Returns (raw, None) if there's no rank prefix - most
@@ -295,6 +338,24 @@ def normalize(path: str) -> pd.DataFrame:
     # the raw header, so pandas suffixes the second one "Pts.1".
     loser_pts_col = "Pts.1" if "Pts.1" in df.columns else "Pts"
 
+    # TIE / 0-0 GUARD (see module docstring): FBS has had no tied game since
+    # 1996, so a tied or 0-0 score is a placeholder. Blank both scores so the
+    # row falls into the no-score handling below (kept if upcoming/recent,
+    # dropped with a warning if stale) instead of loading as a real tie.
+    _pw = pd.to_numeric(df["Pts"], errors="coerce")
+    _pl = pd.to_numeric(df[loser_pts_col], errors="coerce")
+    tied = _pw.notna() & _pl.notna() & (_pw == _pl)
+    if tied.any():
+        print(f"WARNING: {int(tied.sum())} row(s) with a tied or 0-0 score treated as unplayed "
+              f"(FBS has no ties - check the real score against ESPN):")
+        for _, sr in df[tied].iterrows():
+            print(f"  {sr['Date'].date()}: {sr['Winner']} {int(sr['Pts'])}, "
+                  f"{sr['Loser']} {int(sr[loser_pts_col])}")
+        df["Pts"] = _pw.astype("float64")
+        df[loser_pts_col] = _pl.astype("float64")
+        df.loc[tied, "Pts"] = float("nan")
+        df.loc[tied, loser_pts_col] = float("nan")
+
     # A row with a real matchup but NO score (blank Pts on either side)
     # falls into one of two buckets, distinguished by date:
     #   - UPCOMING: the game's date is today or in the future (or within
@@ -340,6 +401,7 @@ def normalize(path: str) -> pd.DataFrame:
     # the classification differing between two copies of the same game
     # that creates the double-count risk.
     df = dedupe_raw_rows(df)
+    df = drop_echo_rows(df, loser_pts_col)
 
     rows = []
     for _, r in df.iterrows():

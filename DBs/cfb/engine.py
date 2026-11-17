@@ -554,6 +554,7 @@ class EloEngine:
                 return dict(
                     date=g["date"], season=g["season"], type=g["type"], round=g.get("round"),
                     team=team_id, opponent=opp_id, home_away="H" if is_home else "A",
+                    neutral=int(bool(g.get("neutral"))),
                     conf_game=conf_g, div_game=div_g,
                     games_played=games_played, days_off=days_off, opp_days_off=opp_days_off,
                     rest_adj=(team_rest_adj if is_home else -team_rest_adj),

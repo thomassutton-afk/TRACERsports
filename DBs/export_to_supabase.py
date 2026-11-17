@@ -300,9 +300,24 @@ def site_type_round(league, type_, round_):
 
 def build_games(conn, league, id_to_code, variant):
     cur = conn.cursor()
-    # A ratings table without a `neutral` column exports every game as
-    # neutral = 0 instead of crashing.
-    neutral_sql = "neutral" if _has_column(conn, "ratings", "neutral") else "0 AS neutral"
+    # Where `neutral` comes from, in order of preference:
+    #   1. the ratings table itself (NFL / NBA / WNBA keep it there);
+    #   2. games.neutral, looked up by game_id (CFB's ratings table has no
+    #      `neutral` column, but its games table carries the flag and the
+    #      engine already uses it to drop home-field advantage);
+    #   3. a constant 0, so a league with neither still exports instead of
+    #      crashing.
+    # The lookup is a subquery rather than a JOIN because the SELECT below
+    # uses unqualified column names that games would make ambiguous.
+    if _has_column(conn, "ratings", "neutral"):
+        neutral_sql = "neutral"
+    elif _has_column(conn, "games", "neutral"):
+        neutral_sql = (
+            "COALESCE((SELECT g.neutral FROM games g "
+            "WHERE g.game_id = ratings.game_id), 0) AS neutral"
+        )
+    else:
+        neutral_sql = "0 AS neutral"
     cur.execute(
         f"SELECT game_id, team, opponent, home_away, {neutral_sql}, date, season, type, "
         "round, games_played, days_off, opp_days_off, rest_adj, pre_rate, "
@@ -734,6 +749,75 @@ def build_future_preseason_ratings(conn, league, id_to_code, games_rows, schedul
     return rows, warnings
 
 
+def add_fcs_preseason_ratings(games_rows, schedule_rows, preseason_rows, fbs_codes):
+    """
+    CFB only. Gives every scheduled FCS opponent a preseason rating.
+
+    The engine never rates an FCS team: it gets no ratings rows and no rating
+    updates, and in every FBS-vs-FCS game it is held at one fixed rating for the
+    season, which build_games() already carries as opp_pre_gm_rate. So a
+    scheduled FCS team has no preseason row from build_preseason_ratings() (it
+    has no games of its own) or from build_future_preseason_ratings() (the
+    engine preview only knows FBS teams), and the Dashboard shows "No data yet"
+    for it.
+
+    The fixed rating is read back out of the data rather than hard-coded: for
+    each (league, variant, season) it is the opp_pre_gm_rate that FBS teams faced
+    from opponents with no rows of their own. A season with no FBS-vs-FCS games
+    played yet borrows the most recent earlier season's value (and says so).
+
+    Only teams outside `fbs_codes` are touched, so an FBS team that is missing a
+    rating still shows up in check_preseason_coverage() instead of being quietly
+    set to the FCS value.
+
+    Returns (rows, notes).
+    """
+    own = defaultdict(set)  # (league, variant, season) -> teams with their own game rows
+    for g in games_rows:
+        own[(g["league"], g["variant"], g["season"])].add(g["team_id"])
+    seen = defaultdict(lambda: defaultdict(int))  # key -> {fcs rating: games}
+    for g in games_rows:
+        key = (g["league"], g["variant"], g["season"])
+        if g["opponent_id"] not in own[key] and g["opp_pre_gm_rate"] is not None:
+            seen[key][round(g["opp_pre_gm_rate"], 6)] += 1
+
+    have = defaultdict(set)
+    for p in preseason_rows:
+        have[(p["league"], p["variant"], p["season"])].add(p["team_id"])
+    need = defaultdict(set)
+    for r in schedule_rows:
+        need[(r["league"], r["variant"], r["season"])].add(r["team_id"])
+
+    rows, notes = [], []
+    for key in sorted(need):
+        league, variant, season = key
+        gap = sorted(t for t in need[key] - have[key] if t not in fbs_codes)
+        if not gap:
+            continue
+        counts, source = seen.get(key), season
+        if not counts:
+            earlier = sorted(s for (lg, v, s) in seen
+                             if lg == league and v == variant and s < season)
+            if not earlier:
+                notes.append(f"{league}/{variant}/{season}: {len(gap)} scheduled FCS team(s) have no "
+                             "preseason rating and no FBS-vs-FCS game has been played to read the "
+                             "FCS rating from")
+                continue
+            source = earlier[-1]
+            counts = seen[(league, variant, source)]
+        rate = max(counts, key=counts.get)
+        if len(counts) > 1:
+            notes.append(f"{league}/{variant}/{source}: FBS teams faced more than one FCS rating "
+                         f"({sorted(counts)}); used the most common, {rate:.1f}")
+        for t in gap:
+            rows.append({"league": league, "season": season, "variant": variant,
+                         "team_id": t, "preseason_elo": rate})
+        notes.append(f"{league}/{variant}/{season}: added {len(gap)} FCS opponent preseason row(s) at "
+                     f"{rate:.1f}" + (f" (season {source}'s FCS rating)" if source != season else "")
+                     + f": {', '.join(gap[:6])}{'...' if len(gap) > 6 else ''}")
+    return rows, notes
+
+
 def check_preseason_coverage(schedule_rows, preseason_rows):
     """
     Guard against the silent failure this file once had: a season whose
@@ -792,6 +876,11 @@ def main():
     future_rows, future_warnings = build_future_preseason_ratings(
         conn, args.league, id_to_code, games_rows, schedule_rows)
     preseason_rows += future_rows
+    if args.league == "cfb":
+        fcs_rows, fcs_notes = add_fcs_preseason_ratings(
+            games_rows, schedule_rows, preseason_rows, ACTIVE_CODES["cfb"])
+        preseason_rows += fcs_rows
+        future_warnings += fcs_notes
     coverage_problems = check_preseason_coverage(schedule_rows, preseason_rows)
     conn.close()
 

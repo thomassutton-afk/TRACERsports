@@ -197,6 +197,7 @@ CREATE TABLE IF NOT EXISTS ratings (
     post_rate     REAL,
     w REAL, l REAL, t REAL, r1w REAL, r1l REAL, r2w REAL, r2l REAL,
     r3w REAL, r3l REAL, fw REAL, fl REAL,
+    neutral       INTEGER NOT NULL DEFAULT 0,
     PRIMARY KEY (game_id, team, variant)
 );
 
@@ -342,6 +343,14 @@ def _migrate(conn: sqlite3.Connection) -> None:
         conn.execute("DROP TABLE ratings")
         conn.executescript(SCHEMA)
         conn.commit()
+
+    # CFB-SPECIFIC: ratings.neutral, so CFB's ratings table matches the
+    # other leagues' (it used to live only on games.neutral). Like the rest
+    # of ratings it is derived: existing rows get the default 0 until the
+    # next rebuild rewrites them from games.
+    ratings_cols = {row[1] for row in conn.execute("PRAGMA table_info(ratings)")}
+    if ratings_cols and "neutral" not in ratings_cols:
+        conn.execute("ALTER TABLE ratings ADD COLUMN neutral INTEGER NOT NULL DEFAULT 0")
 
     # Era-specific colors: nullable by design, same as NBA/WNBA. A row
     # with no colors set just means nobody's populated that era's
@@ -985,7 +994,7 @@ def save_ratings(conn: sqlite3.Connection, variant: str, rows: list[dict],
             "pre_rate", "opp_pre_rate", "expected_win", "points_for", "points_against", "ot",
             "mov", "result", "accuracy", "test", "brier", "mov_mult", "po_mult", "k", "keff",
             "rating_change", "post_rate", "w", "l", "t", "r1w", "r1l", "r2w", "r2l", "r3w", "r3l",
-            "fw", "fl"]
+            "fw", "fl", "neutral"]
     placeholders = ",".join("?" for _ in cols)
     sql = f"INSERT INTO ratings ({','.join(cols)}) VALUES ({placeholders})"
     for gid, r in zip(game_id_by_row, rows):
