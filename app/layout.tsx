@@ -5,9 +5,11 @@ import Nav from "./Nav";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.tracersports.net"),
   title: "TRACER Sports",
   description:
     "Power ratings that trace team strength across every game, every season, since 1996.",
+  alternates: { canonical: "./" },
 };
 
 export default function RootLayout({
