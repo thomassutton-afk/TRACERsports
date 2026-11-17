@@ -64,3 +64,6 @@ DBs/cfb/Results/*.before_espn_fill.csv
 # Excel lock files
 ~$*
 DBs/cfb/espn_cache/
+
+# CFB databases stay out of git
+DBs/cfb_elo*.db
