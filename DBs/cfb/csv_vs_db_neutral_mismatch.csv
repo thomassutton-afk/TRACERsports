@@ -1,0 +1,19 @@
+season,date,issue,csv_winner,csv_loser,db_home,db_away,round,game_id
+2006,2007-01-01,"CSV N, no unique DB match",Auburn,Nebraska,,,,
+2006,2007-01-01,"CSV N, no unique DB match",Wisconsin,Arkansas,,,,
+2008,2008-12-20,"DB neutral, CSV not N",,,cfb_0176,cfb_0068,BOWL,82238
+2009,2009-09-19,"CSV N, DB not neutral",Ohio State,Toledo,cfb_0130,cfb_0098,,82450
+2009,2009-09-19,"CSV N, DB not neutral",Ohio State,Toledo,cfb_0130,cfb_0098,,82450
+2009,2009-11-28,"DB neutral, CSV not N",,,cfb_0057,cfb_0077,,83008
+2010,2010-09-11,"CSV N, DB not neutral",Arkansas,Louisiana-Monroe,cfb_0008,cfb_0063,,83164
+2010,2010-10-30,"CSV N, no unique DB match",Florida,Georgia,,,,
+2010,2010-12-30,"CSV N, DB not neutral",Army,Southern Methodist,cfb_0117,cfb_0010,BOWL,83865
+2010,2010-09-04,"DB neutral, CSV not N",,,cfb_0065,cfb_0177,,83123
+2010,2010-10-09,"DB neutral, CSV not N",,,cfb_0125,cfb_0008,,83401
+2010,2010-11-20,"DB neutral, CSV not N",,,cfb_0010,cfb_0096,,83754
+2011,2011-09-03,"CSV N, DB not neutral",California,Fresno State,cfb_0021,cfb_0041,,83910
+2012,2012-09-01,"CSV N, no unique DB match",Alabama,Michigan,,,,
+2012,2012-09-29,"CSV N, no unique DB match",Houston,Rice,,,,
+2012,2012-11-24,"CSV N, no unique DB match",Baylor,Texas Tech,,,,
+2012,2012-09-01,"DB neutral, CSV not N",,,cfb_0092,cfb_0054,,84732
+2012,2012-09-08,"DB neutral, CSV not N",,,cfb_0121,cfb_0116,,84830

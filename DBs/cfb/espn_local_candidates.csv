@@ -1,0 +1,8 @@
+date,home_code,away_code,new_neutral,round,db_neutral,espn_neutral,season,game_id,host,info
+2008-11-29,florida-atlantic,florida-international,0,,1,False,2008,82201,florida-international,Hard Rock Stadium (Miami Gardens) | florida-atlantic 57-50 florida-international
+2022-11-12,navy,notre-dame,0,,1,True,2022,93810,navy,M&T Bank Stadium (Baltimore) | navy 32-35 notre-dame
+2024-09-14,washington,washington-state,0,,1,True,2024,95164,washington,Lumen Field (Seattle) | washington 19-24 washington-state
+2024-10-19,georgia-tech,notre-dame,0,,1,True,2024,95427,georgia-tech,Mercedes-Benz Stadium (Atlanta) | georgia-tech 13-31 notre-dame
+2024-11-23,army,notre-dame,0,,1,True,2024,95705,army,Yankee Stadium (Bronx) | army 14-49 notre-dame
+2024-12-14,army,navy,0,,1,True,2024,95798,navy,Northwest Stadium (Landover) | army 13-31 navy
+2025-12-13,army,navy,0,,1,True,2025,96732,navy,M&T Bank Stadium (Baltimore) | army 16-17 navy

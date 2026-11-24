@@ -1,0 +1,182 @@
+{
+  "1996": {
+    "alpha": 0.68,
+    "kmax": 98.5,
+    "hfa": 69.5,
+    "fcs_rating": 1100
+  },
+  "1997": {
+    "alpha": 0.68,
+    "kmax": 98.5,
+    "hfa": 69.5,
+    "fcs_rating": 1100
+  },
+  "1998": {
+    "alpha": 0.68,
+    "kmax": 98.5,
+    "hfa": 69.5,
+    "fcs_rating": 1100
+  },
+  "1999": {
+    "alpha": 0.68,
+    "kmax": 98.5,
+    "hfa": 69.5,
+    "fcs_rating": 1100
+  },
+  "2000": {
+    "alpha": 0.68,
+    "kmax": 98.5,
+    "hfa": 69.5,
+    "fcs_rating": 1100
+  },
+  "2001": {
+    "alpha": 0.68,
+    "kmax": 98.5,
+    "hfa": 69.5,
+    "fcs_rating": 1100
+  },
+  "2002": {
+    "alpha": 0.68,
+    "kmax": 98.5,
+    "hfa": 69.5,
+    "fcs_rating": 1100
+  },
+  "2003": {
+    "alpha": 0.68,
+    "kmax": 98.5,
+    "hfa": 69.5,
+    "fcs_rating": 1100
+  },
+  "2004": {
+    "alpha": 0.68,
+    "kmax": 98.5,
+    "hfa": 69.5,
+    "fcs_rating": 1100
+  },
+  "2005": {
+    "alpha": 0.68,
+    "kmax": 98.5,
+    "hfa": 69.5,
+    "fcs_rating": 1100
+  },
+  "2006": {
+    "alpha": 0.68,
+    "kmax": 98.5,
+    "hfa": 68.5,
+    "fcs_rating": 1075
+  },
+  "2007": {
+    "alpha": 0.68,
+    "kmax": 95.5,
+    "hfa": 68.0,
+    "fcs_rating": 1075
+  },
+  "2008": {
+    "alpha": 0.67,
+    "kmax": 89.5,
+    "hfa": 67.0,
+    "fcs_rating": 1075
+  },
+  "2009": {
+    "alpha": 0.68,
+    "kmax": 85.5,
+    "hfa": 65.0,
+    "fcs_rating": 1075
+  },
+  "2010": {
+    "alpha": 0.68,
+    "kmax": 90.5,
+    "hfa": 66.5,
+    "fcs_rating": 1075
+  },
+  "2011": {
+    "alpha": 0.67,
+    "kmax": 88.0,
+    "hfa": 64.0,
+    "fcs_rating": 1075
+  },
+  "2012": {
+    "alpha": 0.67,
+    "kmax": 85.5,
+    "hfa": 65.0,
+    "fcs_rating": 1075
+  },
+  "2013": {
+    "alpha": 0.65,
+    "kmax": 92.0,
+    "hfa": 62.0,
+    "fcs_rating": 1075
+  },
+  "2014": {
+    "alpha": 0.63,
+    "kmax": 98.5,
+    "hfa": 58.0,
+    "fcs_rating": 1075
+  },
+  "2015": {
+    "alpha": 0.63,
+    "kmax": 98.0,
+    "hfa": 52.0,
+    "fcs_rating": 1075
+  },
+  "2016": {
+    "alpha": 0.64,
+    "kmax": 104.0,
+    "hfa": 47.0,
+    "fcs_rating": 925
+  },
+  "2017": {
+    "alpha": 0.63,
+    "kmax": 100.5,
+    "hfa": 46.5,
+    "fcs_rating": 925
+  },
+  "2018": {
+    "alpha": 0.62,
+    "kmax": 106.5,
+    "hfa": 45.0,
+    "fcs_rating": 925
+  },
+  "2019": {
+    "alpha": 0.62,
+    "kmax": 108.0,
+    "hfa": 44.0,
+    "fcs_rating": 925
+  },
+  "2020": {
+    "alpha": 0.62,
+    "kmax": 107.5,
+    "hfa": 44.5,
+    "fcs_rating": 925
+  },
+  "2021": {
+    "alpha": 0.61,
+    "kmax": 108.5,
+    "hfa": 44.0,
+    "fcs_rating": 925
+  },
+  "2022": {
+    "alpha": 0.61,
+    "kmax": 107.0,
+    "hfa": 42.5,
+    "fcs_rating": 925
+  },
+  "2023": {
+    "alpha": 0.6,
+    "kmax": 100.0,
+    "hfa": 42.5,
+    "fcs_rating": 925
+  },
+  "2024": {
+    "alpha": 0.59,
+    "kmax": 98.0,
+    "hfa": 43.5,
+    "fcs_rating": 925
+  },
+  "2025": {
+    "alpha": 0.58,
+    "kmax": 100.5,
+    "hfa": 45.5,
+    "fcs_rating": 925
+  }
+}

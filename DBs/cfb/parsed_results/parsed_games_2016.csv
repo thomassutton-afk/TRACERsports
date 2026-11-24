@@ -1,0 +1,1769 @@
+Date,Season,Type,Round,Team,Opp,HomeAway,PointsFor,PointsAgainst,OT,TeamAPRank,OppAPRank,Notes
+2016-08-26,2016,R,,california,hawaii,N,51,31,0,,,ANZ Stadium - Sydney AUS
+2016-08-26,2016,R,,hawaii,california,N,31,51,0,,,ANZ Stadium - Sydney AUS
+2016-08-27,2016,R,,california,hawaii,N,51,31,0,,,
+2016-08-27,2016,R,,hawaii,california,N,31,51,0,,,
+2016-09-01,2016,R,,central-michigan,presbyterian,H,49,3,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2016-09-01,2016,R,,presbyterian,central-michigan,A,3,49,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2016-09-01,2016,R,,cincinnati,tennessee-martin,H,28,7,0,,,Nippert Stadium - Cincinnati Ohio
+2016-09-01,2016,R,,tennessee-martin,cincinnati,A,7,28,0,,,Nippert Stadium - Cincinnati Ohio
+2016-09-01,2016,R,,connecticut,maine,H,24,21,0,,,Rentschler Field - East Hartford Connecticut
+2016-09-01,2016,R,,maine,connecticut,A,21,24,0,,,Rentschler Field - East Hartford Connecticut
+2016-09-01,2016,R,,idaho,montana-state,H,20,17,0,,,Kibbie Dome - Moscow Idaho
+2016-09-01,2016,R,,montana-state,idaho,A,17,20,0,,,Kibbie Dome - Moscow Idaho
+2016-09-01,2016,R,,indiana,florida-international,A,34,13,0,,,FIU Stadium - Miami Florida
+2016-09-01,2016,R,,florida-international,indiana,H,13,34,0,,,FIU Stadium - Miami Florida
+2016-09-01,2016,R,,louisville,charlotte,H,70,14,0,19.0,,Papa John's Cardinal Stadium - Louisville Kentucky
+2016-09-01,2016,R,,charlotte,louisville,A,14,70,0,,19.0,Papa John's Cardinal Stadium - Louisville Kentucky
+2016-09-01,2016,R,,minnesota,oregon-state,H,30,23,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2016-09-01,2016,R,,oregon-state,minnesota,A,23,30,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2016-09-01,2016,R,,nevada-las-vegas,jackson-state,H,63,13,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2016-09-01,2016,R,,jackson-state,nevada-las-vegas,A,13,63,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2016-09-01,2016,R,,new-mexico,south-dakota,H,48,21,0,,,University Stadium - Albuquerque New Mexico
+2016-09-01,2016,R,,south-dakota,new-mexico,A,21,48,0,,,University Stadium - Albuquerque New Mexico
+2016-09-01,2016,R,,north-carolina-state,william-mary,H,48,14,0,,,Carter Finley Stadium - Raleigh North Carolina
+2016-09-01,2016,R,,william-mary,north-carolina-state,A,14,48,0,,,Carter Finley Stadium - Raleigh North Carolina
+2016-09-01,2016,R,,south-carolina,vanderbilt,A,13,10,0,,,Vanderbilt Stadium - Nashville Tennessee
+2016-09-01,2016,R,,vanderbilt,south-carolina,H,10,13,0,,,Vanderbilt Stadium - Nashville Tennessee
+2016-09-01,2016,R,,tennessee,appalachian-state,H,20,13,0,9.0,,Neyland Stadium - Knoxville Tennessee
+2016-09-01,2016,R,,appalachian-state,tennessee,A,13,20,0,,9.0,Neyland Stadium - Knoxville Tennessee
+2016-09-01,2016,R,,utah,southern-utah,H,24,0,0,,,Rice-Eccles Stadium - Salt Lake City Utah
+2016-09-01,2016,R,,southern-utah,utah,A,0,24,0,,,Rice-Eccles Stadium - Salt Lake City Utah
+2016-09-01,2016,R,,utah-state,weber-state,H,45,6,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2016-09-01,2016,R,,weber-state,utah-state,A,6,45,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2016-09-01,2016,R,,wake-forest,tulane,H,7,3,0,,,BB&T Field - Winston-Salem North Carolina
+2016-09-01,2016,R,,tulane,wake-forest,A,3,7,0,,,BB&T Field - Winston-Salem North Carolina
+2016-09-01,2016,R,,western-kentucky,rice,H,46,14,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2016-09-01,2016,R,,rice,western-kentucky,A,14,46,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2016-09-02,2016,R,,albany,buffalo,A,22,16,0,,,University of Buffalo Stadium - Buffalo New York
+2016-09-02,2016,R,,buffalo,albany,H,16,22,0,,,University of Buffalo Stadium - Buffalo New York
+2016-09-02,2016,R,,army,temple,A,28,13,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2016-09-02,2016,R,,temple,army,H,13,28,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2016-09-02,2016,R,,ball-state,georgia-state,A,31,21,0,,,Georgia Dome - Atlanta Georgia
+2016-09-02,2016,R,,georgia-state,ball-state,H,21,31,0,,,Georgia Dome - Atlanta Georgia
+2016-09-02,2016,R,,baylor,northwestern-state,H,55,7,0,23.0,,McLane Stadium - Waco Texas
+2016-09-02,2016,R,,northwestern-state,baylor,A,7,55,0,,23.0,McLane Stadium - Waco Texas
+2016-09-02,2016,R,,colorado,colorado-state,N,44,7,0,,,Sports Authority Field - Denver Colorado
+2016-09-02,2016,R,,colorado-state,colorado,N,7,44,0,,,Sports Authority Field - Denver Colorado
+2016-09-02,2016,R,,eastern-michigan,mississippi-valley-state,H,61,14,0,,,Rynearson Stadium - Ypsilanti Michigan
+2016-09-02,2016,R,,mississippi-valley-state,eastern-michigan,A,14,61,0,,,Rynearson Stadium - Ypsilanti Michigan
+2016-09-02,2016,R,,michigan-state,furman,H,28,13,0,12.0,,Spartan Stadium - East Lansing Michigan
+2016-09-02,2016,R,,furman,michigan-state,A,13,28,0,,12.0,Spartan Stadium - East Lansing Michigan
+2016-09-02,2016,R,,nevada,cal-poly,H,30,27,0,,,MacKay Stadium - Reno Nevada
+2016-09-02,2016,R,,cal-poly,nevada,A,27,30,0,,,MacKay Stadium - Reno Nevada
+2016-09-02,2016,R,,stanford,kansas-state,H,26,13,0,8.0,,Stanford Stadium - Stanford California
+2016-09-02,2016,R,,kansas-state,stanford,A,13,26,0,,8.0,Stanford Stadium - Stanford California
+2016-09-02,2016,R,,syracuse,colgate,H,33,7,0,,,Carrier Dome - Syracuse New York
+2016-09-02,2016,R,,colgate,syracuse,A,7,33,0,,,Carrier Dome - Syracuse New York
+2016-09-02,2016,R,,toledo,arkansas-state,A,31,10,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2016-09-02,2016,R,,arkansas-state,toledo,H,10,31,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2016-09-03,2016,R,,air-force,abilene-christian,H,37,21,0,,,Falcon Stadium - Colorado Springs Colorado
+2016-09-03,2016,R,,abilene-christian,air-force,A,21,37,0,,,Falcon Stadium - Colorado Springs Colorado
+2016-09-03,2016,R,,akron,virginia-military-institute,H,47,24,0,,,InfoCision Stadium - Akron Ohio
+2016-09-03,2016,R,,virginia-military-institute,akron,A,24,47,0,,,InfoCision Stadium - Akron Ohio
+2016-09-03,2016,R,,alabama,southern-california,N,52,6,0,1.0,20.0,AT&T Stadium - Arlington Texas
+2016-09-03,2016,R,,southern-california,alabama,N,6,52,0,20.0,1.0,AT&T Stadium - Arlington Texas
+2016-09-03,2016,R,,arizona-state,northern-arizona,H,44,13,0,,,Sun Devil Stadium - Tempe Arizona
+2016-09-03,2016,R,,northern-arizona,arizona-state,A,13,44,0,,,Sun Devil Stadium - Tempe Arizona
+2016-09-03,2016,R,,arkansas,louisiana-tech,H,21,20,0,,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2016-09-03,2016,R,,louisiana-tech,arkansas,A,20,21,0,,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2016-09-03,2016,R,,boise-state,louisiana,A,45,10,0,,,Cajun Field - Lafayette Louisiana
+2016-09-03,2016,R,,louisiana,boise-state,H,10,45,0,,,Cajun Field - Lafayette Louisiana
+2016-09-03,2016,R,,brigham-young,arizona,N,18,16,0,,,University of Phoenix Stadium - Glendale Arizona
+2016-09-03,2016,R,,arizona,brigham-young,N,16,18,0,,,University of Phoenix Stadium - Glendale Arizona
+2016-09-03,2016,R,,central-florida,south-carolina-state,H,38,0,0,,,Bright House Networks Stadium - Orlando Florida
+2016-09-03,2016,R,,south-carolina-state,central-florida,A,0,38,0,,,Bright House Networks Stadium - Orlando Florida
+2016-09-03,2016,R,,clemson,auburn,A,19,13,0,2.0,,Jordan Hare Stadium - Auburn Alabama
+2016-09-03,2016,R,,auburn,clemson,H,13,19,0,,2.0,Jordan Hare Stadium - Auburn Alabama
+2016-09-03,2016,R,,coastal-carolina,lamar,A,38,14,0,,,
+2016-09-03,2016,R,,lamar,coastal-carolina,H,14,38,0,,,
+2016-09-03,2016,R,,duke,north-carolina-central,H,49,6,0,,,Wallace Wade Stadium - Durham North Carolina
+2016-09-03,2016,R,,north-carolina-central,duke,A,6,49,0,,,Wallace Wade Stadium - Durham North Carolina
+2016-09-03,2016,R,,east-carolina,western-carolina,H,52,7,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2016-09-03,2016,R,,western-carolina,east-carolina,A,7,52,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2016-09-03,2016,R,,eastern-washington,washington-state,A,45,42,0,,,Martin Stadium - Pullman Washington
+2016-09-03,2016,R,,washington-state,eastern-washington,H,42,45,0,,,Martin Stadium - Pullman Washington
+2016-09-03,2016,R,,florida,massachusetts,H,24,7,0,25.0,,Ben Hill Griffin Stadium - Gainesville Florida
+2016-09-03,2016,R,,massachusetts,florida,A,7,24,0,,25.0,Ben Hill Griffin Stadium - Gainesville Florida
+2016-09-03,2016,R,,florida-atlantic,southern-illinois,H,38,30,0,,,FAU Football Stadium - Boca Raton Florida
+2016-09-03,2016,R,,southern-illinois,florida-atlantic,A,30,38,0,,,FAU Football Stadium - Boca Raton Florida
+2016-09-03,2016,R,,georgia,north-carolina,N,33,24,0,18.0,22.0,Georgia Dome - Atlanta Georgia
+2016-09-03,2016,R,,north-carolina,georgia,N,24,33,0,22.0,18.0,Georgia Dome - Atlanta Georgia
+2016-09-03,2016,R,,georgia-southern,savannah-state,H,54,0,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2016-09-03,2016,R,,savannah-state,georgia-southern,A,0,54,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2016-09-03,2016,R,,georgia-tech,boston-college,N,17,14,0,,,Aviva Stadium - Dublin IRL
+2016-09-03,2016,R,,boston-college,georgia-tech,N,14,17,0,,,Aviva Stadium - Dublin IRL
+2016-09-03,2016,R,,houston,oklahoma,N,33,23,0,15.0,3.0,NRG Stadium - Houston Texas
+2016-09-03,2016,R,,oklahoma,houston,N,23,33,0,3.0,15.0,NRG Stadium - Houston Texas
+2016-09-03,2016,R,,illinois,murray-state,H,52,3,0,,,Memorial Stadium - Champaign Illinois
+2016-09-03,2016,R,,murray-state,illinois,A,3,52,0,,,Memorial Stadium - Champaign Illinois
+2016-09-03,2016,R,,iowa,miami-oh,H,45,21,0,17.0,,Kinnick Stadium - Iowa City Iowa
+2016-09-03,2016,R,,miami-oh,iowa,A,21,45,0,,17.0,Kinnick Stadium - Iowa City Iowa
+2016-09-03,2016,R,,kansas,rhode-island,H,55,6,0,,,Memorial Stadium - Lawrence Kansas
+2016-09-03,2016,R,,rhode-island,kansas,A,6,55,0,,,Memorial Stadium - Lawrence Kansas
+2016-09-03,2016,R,,louisiana-monroe,southern,H,38,21,0,,,Malone Stadium - Monroe Louisiana
+2016-09-03,2016,R,,southern,louisiana-monroe,A,21,38,0,,,Malone Stadium - Monroe Louisiana
+2016-09-03,2016,R,,maryland,howard,H,52,13,0,,,Maryland Stadium - College Park Maryland
+2016-09-03,2016,R,,howard,maryland,A,13,52,0,,,Maryland Stadium - College Park Maryland
+2016-09-03,2016,R,,memphis,southeast-missouri-state,H,35,17,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2016-09-03,2016,R,,southeast-missouri-state,memphis,A,17,35,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2016-09-03,2016,R,,miami-fl,florida-a-m,H,70,3,0,,,Hard Rock Stadium - Miami Gardens Florida
+2016-09-03,2016,R,,florida-a-m,miami-fl,A,3,70,0,,,Hard Rock Stadium - Miami Gardens Florida
+2016-09-03,2016,R,,michigan,hawaii,H,63,3,0,7.0,,Michigan Stadium - Ann Arbor Michigan
+2016-09-03,2016,R,,hawaii,michigan,A,3,63,0,,7.0,Michigan Stadium - Ann Arbor Michigan
+2016-09-03,2016,R,,middle-tennessee-state,alabama-a-m,H,55,0,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2016-09-03,2016,R,,alabama-a-m,middle-tennessee-state,A,0,55,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2016-09-03,2016,R,,navy,fordham,H,52,16,0,,,Navy Marine Corps Memorial Stadium - Annapolis Maryland
+2016-09-03,2016,R,,fordham,navy,A,16,52,0,,,Navy Marine Corps Memorial Stadium - Annapolis Maryland
+2016-09-03,2016,R,,nebraska,fresno-state,H,43,10,0,,,Memorial Stadium - Lincoln Nebraska
+2016-09-03,2016,R,,fresno-state,nebraska,A,10,43,0,,,Memorial Stadium - Lincoln Nebraska
+2016-09-03,2016,R,,northern-iowa,iowa-state,A,25,20,0,,,Jack Trice Stadium - Ames Iowa
+2016-09-03,2016,R,,iowa-state,northern-iowa,H,20,25,0,,,Jack Trice Stadium - Ames Iowa
+2016-09-03,2016,R,,ohio-state,bowling-green,H,77,10,0,6.0,,Ohio Stadium - Columbus Ohio
+2016-09-03,2016,R,,bowling-green,ohio-state,A,10,77,0,,6.0,Ohio Stadium - Columbus Ohio
+2016-09-03,2016,R,,oklahoma-state,southeastern-louisiana,H,61,7,0,21.0,,Boone Pickens Stadium - Stillwater Oklahoma
+2016-09-03,2016,R,,southeastern-louisiana,oklahoma-state,A,7,61,0,,21.0,Boone Pickens Stadium - Stillwater Oklahoma
+2016-09-03,2016,R,,oregon,california-davis,H,53,28,0,24.0,,Autzen Stadium - Eugene Oregon
+2016-09-03,2016,R,,california-davis,oregon,A,28,53,0,,24.0,Autzen Stadium - Eugene Oregon
+2016-09-03,2016,R,,penn-state,kent-state,H,33,13,0,,,Beaver Stadium - University Park Pennsylvania
+2016-09-03,2016,R,,kent-state,penn-state,A,13,33,0,,,Beaver Stadium - University Park Pennsylvania
+2016-09-03,2016,R,,pittsburgh,villanova,H,28,7,0,,,Heinz Field - Pittsburgh Pennsylvania
+2016-09-03,2016,R,,villanova,pittsburgh,A,7,28,0,,,Heinz Field - Pittsburgh Pennsylvania
+2016-09-03,2016,R,,purdue,eastern-kentucky,H,45,24,0,,,Ross Ade Stadium - West Lafayette Indiana
+2016-09-03,2016,R,,eastern-kentucky,purdue,A,24,45,0,,,Ross Ade Stadium - West Lafayette Indiana
+2016-09-03,2016,R,,richmond,virginia,A,37,20,0,,,Scott Stadium - Charlottesville Virginia
+2016-09-03,2016,R,,virginia,richmond,H,20,37,0,,,Scott Stadium - Charlottesville Virginia
+2016-09-03,2016,R,,san-diego-state,new-hampshire,H,31,0,0,,,Qualcomm Stadium - San Diego California
+2016-09-03,2016,R,,new-hampshire,san-diego-state,A,0,31,0,,,Qualcomm Stadium - San Diego California
+2016-09-03,2016,R,,south-alabama,mississippi-state,A,21,20,0,,,Davis Wade Stadium - Starkville Mississippi
+2016-09-03,2016,R,,mississippi-state,south-alabama,H,20,21,0,,,Davis Wade Stadium - Starkville Mississippi
+2016-09-03,2016,R,,south-florida,towson,H,56,20,0,,,Raymond James Stadium - Tampa Florida
+2016-09-03,2016,R,,towson,south-florida,A,20,56,0,,,Raymond James Stadium - Tampa Florida
+2016-09-03,2016,R,,southern-methodist,north-texas,A,34,21,0,,,Apogee Stadium - Denton Texas
+2016-09-03,2016,R,,north-texas,southern-methodist,H,21,34,0,,,Apogee Stadium - Denton Texas
+2016-09-03,2016,R,,southern-mississippi,kentucky,A,44,35,0,,,Commonwealth Stadium - Lexington Kentucky
+2016-09-03,2016,R,,kentucky,southern-mississippi,H,35,44,0,,,Commonwealth Stadium - Lexington Kentucky
+2016-09-03,2016,R,,texas-a-m,ucla,H,31,24,0,,16.0,Kyle Field - College Station Texas
+2016-09-03,2016,R,,ucla,texas-a-m,A,24,31,0,16.0,,Kyle Field - College Station Texas
+2016-09-03,2016,R,,texas-christian,south-dakota-state,H,59,41,0,13.0,,Amon G. Carter Stadium - Fort Worth Texas
+2016-09-03,2016,R,,south-dakota-state,texas-christian,A,41,59,0,,13.0,Amon G. Carter Stadium - Fort Worth Texas
+2016-09-03,2016,R,,texas-state,ohio,A,56,54,0,,,Peden Stadium - Athens Ohio
+2016-09-03,2016,R,,ohio,texas-state,H,54,56,0,,,Peden Stadium - Athens Ohio
+2016-09-03,2016,R,,texas-tech,stephen-f-austin,H,69,17,0,,,Jones AT&T Stadium - Lubbock Texas
+2016-09-03,2016,R,,stephen-f-austin,texas-tech,A,17,69,0,,,Jones AT&T Stadium - Lubbock Texas
+2016-09-03,2016,R,,texas-el-paso,new-mexico-state,H,38,22,0,,,Sun Bowl Stadium - El Paso Texas
+2016-09-03,2016,R,,new-mexico-state,texas-el-paso,A,22,38,0,,,Sun Bowl Stadium - El Paso Texas
+2016-09-03,2016,R,,texas-san-antonio,alabama-state,H,26,13,0,,,Alamodome - San Antonio Texas
+2016-09-03,2016,R,,alabama-state,texas-san-antonio,A,13,26,0,,,Alamodome - San Antonio Texas
+2016-09-03,2016,R,,troy,austin-peay,H,57,17,0,,,Veterans Memorial Stadium - Troy Alabama
+2016-09-03,2016,R,,austin-peay,troy,A,17,57,0,,,Veterans Memorial Stadium - Troy Alabama
+2016-09-03,2016,R,,tulsa,san-jose-state,H,45,10,0,,,Chapman Stadium - Tulsa Oklahoma
+2016-09-03,2016,R,,san-jose-state,tulsa,A,10,45,0,,,Chapman Stadium - Tulsa Oklahoma
+2016-09-03,2016,R,,virginia-tech,liberty,H,36,13,0,,,Lane Stadium - Blacksburg Virginia
+2016-09-03,2016,R,,liberty,virginia-tech,A,13,36,0,,,Lane Stadium - Blacksburg Virginia
+2016-09-03,2016,R,,washington,rutgers,H,48,13,0,14.0,,Husky Stadium - Seattle Washington
+2016-09-03,2016,R,,rutgers,washington,A,13,48,0,,14.0,Husky Stadium - Seattle Washington
+2016-09-03,2016,R,,west-virginia,missouri,H,26,11,0,,,Milan Puskar Stadium - Morgantown West Virginia
+2016-09-03,2016,R,,missouri,west-virginia,A,11,26,0,,,Milan Puskar Stadium - Morgantown West Virginia
+2016-09-03,2016,R,,western-michigan,northwestern,A,22,21,0,,,Ryan Field - Evanston Illinois
+2016-09-03,2016,R,,northwestern,western-michigan,H,21,22,0,,,Ryan Field - Evanston Illinois
+2016-09-03,2016,R,,wisconsin,louisiana-state,N,16,14,0,,5.0,Lambeau Field - Green Bay Wisconsin
+2016-09-03,2016,R,,louisiana-state,wisconsin,N,14,16,0,5.0,,Lambeau Field - Green Bay Wisconsin
+2016-09-03,2016,R,,wyoming,northern-illinois,H,40,34,0,,,War Memorial Stadium - Laramie Wyoming
+2016-09-03,2016,R,,northern-illinois,wyoming,A,34,40,0,,,War Memorial Stadium - Laramie Wyoming
+2016-09-04,2016,R,,old-dominion,hampton,H,54,21,0,,,S.B. Ballard Stadium - Norfolk Virginia
+2016-09-04,2016,R,,hampton,old-dominion,A,21,54,0,,,S.B. Ballard Stadium - Norfolk Virginia
+2016-09-04,2016,R,,texas,notre-dame,H,50,47,0,,10.0,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2016-09-04,2016,R,,notre-dame,texas,A,47,50,0,10.0,,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2016-09-05,2016,R,,florida-state,mississippi,N,45,34,0,4.0,11.0,Camping World Stadium - Orlando Florida
+2016-09-05,2016,R,,mississippi,florida-state,N,34,45,0,11.0,4.0,Camping World Stadium - Orlando Florida
+2016-09-09,2016,R,,louisville,syracuse,A,62,28,0,13.0,,Carrier Dome - Syracuse New York
+2016-09-09,2016,R,,syracuse,louisville,H,28,62,0,,13.0,Carrier Dome - Syracuse New York
+2016-09-09,2016,R,,maryland,florida-international,A,41,14,0,,,FIU Stadium - Miami Florida
+2016-09-09,2016,R,,florida-international,maryland,H,14,41,0,,,FIU Stadium - Miami Florida
+2016-09-10,2016,R,,air-force,georgia-state,H,48,14,0,,,Falcon Stadium - Colorado Springs Colorado
+2016-09-10,2016,R,,georgia-state,air-force,A,14,48,0,,,Falcon Stadium - Colorado Springs Colorado
+2016-09-10,2016,R,,alabama,western-kentucky,H,38,10,0,1.0,,Bryant-Denny Stadium - Tuscaloosa Alabama
+2016-09-10,2016,R,,western-kentucky,alabama,A,10,38,0,,1.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2016-09-10,2016,R,,appalachian-state,old-dominion,H,31,7,0,,,Kidd Brewer Stadium - Boone North Carolina
+2016-09-10,2016,R,,old-dominion,appalachian-state,A,7,31,0,,,Kidd Brewer Stadium - Boone North Carolina
+2016-09-10,2016,R,,arizona,grambling-state,H,31,21,0,,,Arizona Stadium - Tucson Arizona
+2016-09-10,2016,R,,grambling-state,arizona,A,21,31,0,,,Arizona Stadium - Tucson Arizona
+2016-09-10,2016,R,,arizona-state,texas-tech,H,68,55,0,,,Sun Devil Stadium - Tempe Arizona
+2016-09-10,2016,R,,texas-tech,arizona-state,A,55,68,0,,,Sun Devil Stadium - Tempe Arizona
+2016-09-10,2016,R,,arkansas,texas-christian,A,41,38,0,,15.0,Amon G. Carter Stadium - Fort Worth Texas
+2016-09-10,2016,R,,texas-christian,arkansas,H,38,41,0,15.0,,Amon G. Carter Stadium - Fort Worth Texas
+2016-09-10,2016,R,,army,rice,H,31,14,0,,,Michie Stadium - West Point New York
+2016-09-10,2016,R,,rice,army,A,14,31,0,,,Michie Stadium - West Point New York
+2016-09-10,2016,R,,auburn,arkansas-state,H,51,14,0,,,Jordan Hare Stadium - Auburn Alabama
+2016-09-10,2016,R,,arkansas-state,auburn,A,14,51,0,,,Jordan Hare Stadium - Auburn Alabama
+2016-09-10,2016,R,,baylor,southern-methodist,H,40,13,0,23.0,,McLane Stadium - Waco Texas
+2016-09-10,2016,R,,southern-methodist,baylor,A,13,40,0,,23.0,McLane Stadium - Waco Texas
+2016-09-10,2016,R,,boise-state,washington-state,H,31,28,0,,,Albertsons Stadium - Boise Idaho
+2016-09-10,2016,R,,washington-state,boise-state,A,28,31,0,,,Albertsons Stadium - Boise Idaho
+2016-09-10,2016,R,,boston-college,massachusetts,A,26,7,0,,,Gillette Stadium - Foxborough Massachusetts
+2016-09-10,2016,R,,massachusetts,boston-college,H,7,26,0,,,Gillette Stadium - Foxborough Massachusetts
+2016-09-10,2016,R,,bowling-green,north-dakota,H,27,26,0,,,Doyt L. Perry Stadium - Bowling Green Ohio
+2016-09-10,2016,R,,north-dakota,bowling-green,A,26,27,0,,,Doyt L. Perry Stadium - Bowling Green Ohio
+2016-09-10,2016,R,,central-michigan,oklahoma-state,A,30,27,0,,22.0,Boone Pickens Stadium - Stillwater Oklahoma
+2016-09-10,2016,R,,oklahoma-state,central-michigan,H,27,30,0,22.0,,Boone Pickens Stadium - Stillwater Oklahoma
+2016-09-10,2016,R,,charlotte,elon,H,47,14,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2016-09-10,2016,R,,elon,charlotte,A,14,47,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2016-09-10,2016,R,,cincinnati,purdue,A,38,20,0,,,Ross Ade Stadium - West Lafayette Indiana
+2016-09-10,2016,R,,purdue,cincinnati,H,20,38,0,,,Ross Ade Stadium - West Lafayette Indiana
+2016-09-10,2016,R,,clemson,troy,H,30,24,0,2.0,,Clemson Memorial Stadium - Clemson South Carolina
+2016-09-10,2016,R,,troy,clemson,A,24,30,0,,2.0,Clemson Memorial Stadium - Clemson South Carolina
+2016-09-10,2016,R,,coastal-carolina,florida-a-m,H,49,10,0,,,
+2016-09-10,2016,R,,florida-a-m,coastal-carolina,A,10,49,0,,,
+2016-09-10,2016,R,,colorado,idaho-state,H,56,7,0,,,Folsom Field - Boulder Colorado
+2016-09-10,2016,R,,idaho-state,colorado,A,7,56,0,,,Folsom Field - Boulder Colorado
+2016-09-10,2016,R,,colorado-state,texas-san-antonio,H,23,14,0,,,Sonny Lubick Field at Hughes Stadium - Fort Collins Colorado
+2016-09-10,2016,R,,texas-san-antonio,colorado-state,A,14,23,0,,,Sonny Lubick Field at Hughes Stadium - Fort Collins Colorado
+2016-09-10,2016,R,,east-carolina,north-carolina-state,H,33,30,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2016-09-10,2016,R,,north-carolina-state,east-carolina,A,30,33,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2016-09-10,2016,R,,eastern-illinois,miami-oh,A,21,17,0,,,Fred Yager Stadium - Oxford Ohio
+2016-09-10,2016,R,,miami-oh,eastern-illinois,H,17,21,0,,,Fred Yager Stadium - Oxford Ohio
+2016-09-10,2016,R,,florida,kentucky,H,45,7,0,,,Ben Hill Griffin Stadium - Gainesville Florida
+2016-09-10,2016,R,,kentucky,florida,A,7,45,0,,,Ben Hill Griffin Stadium - Gainesville Florida
+2016-09-10,2016,R,,florida-state,charleston-southern,H,52,8,0,3.0,,Doak Campbell Stadium - Tallahassee Florida
+2016-09-10,2016,R,,charleston-southern,florida-state,A,8,52,0,,3.0,Doak Campbell Stadium - Tallahassee Florida
+2016-09-10,2016,R,,fresno-state,sacramento-state,H,31,3,0,,,Bulldog Stadium - Fresno California
+2016-09-10,2016,R,,sacramento-state,fresno-state,A,3,31,0,,,Bulldog Stadium - Fresno California
+2016-09-10,2016,R,,georgia,nicholls-state,H,26,24,0,9.0,,Sanford Stadium - Athens Georgia
+2016-09-10,2016,R,,nicholls-state,georgia,A,24,26,0,,9.0,Sanford Stadium - Athens Georgia
+2016-09-10,2016,R,,georgia-southern,south-alabama,A,24,9,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2016-09-10,2016,R,,south-alabama,georgia-southern,H,9,24,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2016-09-10,2016,R,,georgia-tech,mercer,H,35,10,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2016-09-10,2016,R,,mercer,georgia-tech,A,10,35,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2016-09-10,2016,R,,hawaii,tennessee-martin,H,41,36,0,,,Hawaiian Tel Federal Credit Union Field at Aloha Stadium - Honolulu Hawaii
+2016-09-10,2016,R,,tennessee-martin,hawaii,A,36,41,0,,,Hawaiian Tel Federal Credit Union Field at Aloha Stadium - Honolulu Hawaii
+2016-09-10,2016,R,,houston,lamar,H,42,0,0,6.0,,TDECU Stadium - Houston Texas
+2016-09-10,2016,R,,lamar,houston,A,0,42,0,,6.0,TDECU Stadium - Houston Texas
+2016-09-10,2016,R,,illinois-state,northwestern,A,9,7,0,,,Ryan Field - Evanston Illinois
+2016-09-10,2016,R,,northwestern,illinois-state,H,7,9,0,,,Ryan Field - Evanston Illinois
+2016-09-10,2016,R,,indiana,ball-state,H,30,20,0,,,Memorial Stadium - Bloomington Indiana
+2016-09-10,2016,R,,ball-state,indiana,A,20,30,0,,,Memorial Stadium - Bloomington Indiana
+2016-09-10,2016,R,,iowa,iowa-state,H,42,3,0,16.0,,Kinnick Stadium - Iowa City Iowa
+2016-09-10,2016,R,,iowa-state,iowa,A,3,42,0,,16.0,Kinnick Stadium - Iowa City Iowa
+2016-09-10,2016,R,,louisiana,mcneese-state,H,30,22,0,,,Cajun Field - Lafayette Louisiana
+2016-09-10,2016,R,,mcneese-state,louisiana,A,22,30,0,,,Cajun Field - Lafayette Louisiana
+2016-09-10,2016,R,,louisiana-state,jacksonville-state,H,34,13,0,21.0,,Tiger Stadium - Baton Rouge Louisiana
+2016-09-10,2016,R,,jacksonville-state,louisiana-state,A,13,34,0,,21.0,Tiger Stadium - Baton Rouge Louisiana
+2016-09-10,2016,R,,louisiana-tech,south-carolina-state,H,53,24,0,,,Joe Aillet Stadium - Ruston Louisiana
+2016-09-10,2016,R,,south-carolina-state,louisiana-tech,A,24,53,0,,,Joe Aillet Stadium - Ruston Louisiana
+2016-09-10,2016,R,,marshall,morgan-state,H,62,0,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2016-09-10,2016,R,,morgan-state,marshall,A,0,62,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2016-09-10,2016,R,,miami-fl,florida-atlantic,H,38,10,0,25.0,,Hard Rock Stadium - Miami Gardens Florida
+2016-09-10,2016,R,,florida-atlantic,miami-fl,A,10,38,0,,25.0,Hard Rock Stadium - Miami Gardens Florida
+2016-09-10,2016,R,,michigan,central-florida,H,51,14,0,5.0,,Michigan Stadium - Ann Arbor Michigan
+2016-09-10,2016,R,,central-florida,michigan,A,14,51,0,,5.0,Michigan Stadium - Ann Arbor Michigan
+2016-09-10,2016,R,,minnesota,indiana-state,H,58,28,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2016-09-10,2016,R,,indiana-state,minnesota,A,28,58,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2016-09-10,2016,R,,mississippi,wofford,H,38,13,0,19.0,,Vaught-Hemingway Stadium - Oxford Mississippi
+2016-09-10,2016,R,,wofford,mississippi,A,13,38,0,,19.0,Vaught-Hemingway Stadium - Oxford Mississippi
+2016-09-10,2016,R,,mississippi-state,south-carolina,H,27,14,0,,,Davis Wade Stadium - Starkville Mississippi
+2016-09-10,2016,R,,south-carolina,mississippi-state,A,14,27,0,,,Davis Wade Stadium - Starkville Mississippi
+2016-09-10,2016,R,,missouri,eastern-michigan,H,61,21,0,,,Faurot Field - Columbia Missouri
+2016-09-10,2016,R,,eastern-michigan,missouri,A,21,61,0,,,Faurot Field - Columbia Missouri
+2016-09-10,2016,R,,navy,connecticut,H,28,24,0,,,Navy Marine Corps Memorial Stadium - Annapolis Maryland
+2016-09-10,2016,R,,connecticut,navy,A,24,28,0,,,Navy Marine Corps Memorial Stadium - Annapolis Maryland
+2016-09-10,2016,R,,nebraska,wyoming,H,52,17,0,,,Memorial Stadium - Lincoln Nebraska
+2016-09-10,2016,R,,wyoming,nebraska,A,17,52,0,,,Memorial Stadium - Lincoln Nebraska
+2016-09-10,2016,R,,new-mexico-state,new-mexico,H,32,31,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2016-09-10,2016,R,,new-mexico,new-mexico-state,A,31,32,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2016-09-10,2016,R,,north-carolina,illinois,A,48,23,0,,,Memorial Stadium - Champaign Illinois
+2016-09-10,2016,R,,illinois,north-carolina,H,23,48,0,,,Memorial Stadium - Champaign Illinois
+2016-09-10,2016,R,,north-carolina-a-t,kent-state,A,39,36,0,,,Dix Stadium - Kent Ohio
+2016-09-10,2016,R,,kent-state,north-carolina-a-t,H,36,39,0,,,Dix Stadium - Kent Ohio
+2016-09-10,2016,R,,north-texas,bethune-cookman,H,41,20,0,,,Apogee Stadium - Denton Texas
+2016-09-10,2016,R,,bethune-cookman,north-texas,A,20,41,0,,,Apogee Stadium - Denton Texas
+2016-09-10,2016,R,,notre-dame,nevada,H,39,10,0,18.0,,Notre Dame Stadium - South Bend Indiana
+2016-09-10,2016,R,,nevada,notre-dame,A,10,39,0,,18.0,Notre Dame Stadium - South Bend Indiana
+2016-09-10,2016,R,,ohio,kansas,A,37,21,0,,,Memorial Stadium - Lawrence Kansas
+2016-09-10,2016,R,,kansas,ohio,H,21,37,0,,,Memorial Stadium - Lawrence Kansas
+2016-09-10,2016,R,,ohio-state,tulsa,H,48,3,0,4.0,,Ohio Stadium - Columbus Ohio
+2016-09-10,2016,R,,tulsa,ohio-state,A,3,48,0,,4.0,Ohio Stadium - Columbus Ohio
+2016-09-10,2016,R,,oklahoma,louisiana-monroe,H,59,17,0,14.0,,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2016-09-10,2016,R,,louisiana-monroe,oklahoma,A,17,59,0,,14.0,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2016-09-10,2016,R,,oregon,virginia,H,44,26,0,24.0,,Autzen Stadium - Eugene Oregon
+2016-09-10,2016,R,,virginia,oregon,A,26,44,0,,24.0,Autzen Stadium - Eugene Oregon
+2016-09-10,2016,R,,pittsburgh,penn-state,H,42,39,0,,,Heinz Field - Pittsburgh Pennsylvania
+2016-09-10,2016,R,,penn-state,pittsburgh,A,39,42,0,,,Heinz Field - Pittsburgh Pennsylvania
+2016-09-10,2016,R,,rutgers,howard,H,52,14,0,,,High Points Solutions Stadium - Piscataway New Jersey
+2016-09-10,2016,R,,howard,rutgers,A,14,52,0,,,High Points Solutions Stadium - Piscataway New Jersey
+2016-09-10,2016,R,,san-diego-state,california,H,45,40,0,,,Qualcomm Stadium - San Diego California
+2016-09-10,2016,R,,california,san-diego-state,A,40,45,0,,,Qualcomm Stadium - San Diego California
+2016-09-10,2016,R,,san-jose-state,portland-state,H,66,35,0,,,CEFCU Stadium - San Jose California
+2016-09-10,2016,R,,portland-state,san-jose-state,A,35,66,0,,,CEFCU Stadium - San Jose California
+2016-09-10,2016,R,,south-florida,northern-illinois,H,48,17,0,,,Raymond James Stadium - Tampa Florida
+2016-09-10,2016,R,,northern-illinois,south-florida,A,17,48,0,,,Raymond James Stadium - Tampa Florida
+2016-09-10,2016,R,,southern-california,utah-state,H,45,7,0,,,Los Angeles Memorial Coliseum - Los Angeles California
+2016-09-10,2016,R,,utah-state,southern-california,A,7,45,0,,,Los Angeles Memorial Coliseum - Los Angeles California
+2016-09-10,2016,R,,southern-mississippi,savannah-state,H,56,0,0,,,M.M. Roberts Stadium - Hattiesburg Mississippi
+2016-09-10,2016,R,,savannah-state,southern-mississippi,A,0,56,0,,,M.M. Roberts Stadium - Hattiesburg Mississippi
+2016-09-10,2016,R,,temple,stony-brook,H,38,0,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2016-09-10,2016,R,,stony-brook,temple,A,0,38,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2016-09-10,2016,R,,tennessee,virginia-tech,N,45,24,0,17.0,,Bristol Motor Speedway - Bristol Tennessee
+2016-09-10,2016,R,,virginia-tech,tennessee,N,24,45,0,,17.0,Bristol Motor Speedway - Bristol Tennessee
+2016-09-10,2016,R,,texas,texas-el-paso,H,41,7,0,11.0,,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2016-09-10,2016,R,,texas-el-paso,texas,A,7,41,0,,11.0,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2016-09-10,2016,R,,texas-a-m,prairie-view-a-m,H,67,0,0,20.0,,Kyle Field - College Station Texas
+2016-09-10,2016,R,,prairie-view-a-m,texas-a-m,A,0,67,0,,20.0,Kyle Field - College Station Texas
+2016-09-10,2016,R,,toledo,maine,H,45,3,0,,,Glass Bowl - Toledo Ohio
+2016-09-10,2016,R,,maine,toledo,A,3,45,0,,,Glass Bowl - Toledo Ohio
+2016-09-10,2016,R,,tulane,southern,H,66,21,0,,,Yulman Stadium - New Orleans Louisiana
+2016-09-10,2016,R,,southern,tulane,A,21,66,0,,,Yulman Stadium - New Orleans Louisiana
+2016-09-10,2016,R,,ucla,nevada-las-vegas,H,42,21,0,,,Rose Bowl - Pasadena California
+2016-09-10,2016,R,,nevada-las-vegas,ucla,A,21,42,0,,,Rose Bowl - Pasadena California
+2016-09-10,2016,R,,utah,brigham-young,H,20,19,0,,,Rice-Eccles Stadium - Salt Lake City Utah
+2016-09-10,2016,R,,brigham-young,utah,A,19,20,0,,,Rice-Eccles Stadium - Salt Lake City Utah
+2016-09-10,2016,R,,vanderbilt,middle-tennessee-state,H,47,24,0,,,Vanderbilt Stadium - Nashville Tennessee
+2016-09-10,2016,R,,middle-tennessee-state,vanderbilt,A,24,47,0,,,Vanderbilt Stadium - Nashville Tennessee
+2016-09-10,2016,R,,wake-forest,duke,A,24,14,0,,,Wallace Wade Stadium - Durham North Carolina
+2016-09-10,2016,R,,duke,wake-forest,H,14,24,0,,,Wallace Wade Stadium - Durham North Carolina
+2016-09-10,2016,R,,washington,idaho,H,59,14,0,8.0,,Husky Stadium - Seattle Washington
+2016-09-10,2016,R,,idaho,washington,A,14,59,0,,8.0,Husky Stadium - Seattle Washington
+2016-09-10,2016,R,,west-virginia,youngstown-state,H,38,21,0,,,Milan Puskar Stadium - Morgantown West Virginia
+2016-09-10,2016,R,,youngstown-state,west-virginia,A,21,38,0,,,Milan Puskar Stadium - Morgantown West Virginia
+2016-09-10,2016,R,,western-michigan,north-carolina-central,H,70,21,0,,,Waldo Stadium - Kalamazoo Michigan
+2016-09-10,2016,R,,north-carolina-central,western-michigan,A,21,70,0,,,Waldo Stadium - Kalamazoo Michigan
+2016-09-10,2016,R,,wisconsin,akron,H,54,10,0,10.0,,Camp Randall Stadium - Madison Wisconsin
+2016-09-10,2016,R,,akron,wisconsin,A,10,54,0,,10.0,Camp Randall Stadium - Madison Wisconsin
+2016-09-15,2016,R,,houston,cincinnati,A,40,16,0,6.0,,Nippert Stadium - Cincinnati Ohio
+2016-09-15,2016,R,,cincinnati,houston,H,16,40,0,,6.0,Nippert Stadium - Cincinnati Ohio
+2016-09-16,2016,R,,arizona-state,texas-san-antonio,A,32,28,0,,,Alamodome - San Antonio Texas
+2016-09-16,2016,R,,texas-san-antonio,arizona-state,H,28,32,0,,,Alamodome - San Antonio Texas
+2016-09-16,2016,R,,baylor,rice,A,38,10,0,21.0,,Rice Stadium - Houston Texas
+2016-09-16,2016,R,,rice,baylor,H,10,38,0,,21.0,Rice Stadium - Houston Texas
+2016-09-16,2016,R,,utah-state,arkansas-state,H,34,20,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2016-09-16,2016,R,,arkansas-state,utah-state,A,20,34,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2016-09-17,2016,R,,akron,marshall,A,65,38,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2016-09-17,2016,R,,marshall,akron,H,38,65,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2016-09-17,2016,R,,alabama,mississippi,A,48,43,0,1.0,19.0,Vaught-Hemingway Stadium - Oxford Mississippi
+2016-09-17,2016,R,,mississippi,alabama,H,43,48,0,19.0,1.0,Vaught-Hemingway Stadium - Oxford Mississippi
+2016-09-17,2016,R,,arizona,hawaii,H,47,28,0,,,Arizona Stadium - Tucson Arizona
+2016-09-17,2016,R,,hawaii,arizona,A,28,47,0,,,Arizona Stadium - Tucson Arizona
+2016-09-17,2016,R,,arkansas,texas-state,H,42,3,0,24.0,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2016-09-17,2016,R,,texas-state,arkansas,A,3,42,0,,24.0,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2016-09-17,2016,R,,army,texas-el-paso,A,66,14,0,,,Sun Bowl Stadium - El Paso Texas
+2016-09-17,2016,R,,texas-el-paso,army,H,14,66,0,,,Sun Bowl Stadium - El Paso Texas
+2016-09-17,2016,R,,ball-state,eastern-kentucky,H,41,14,0,,,Scheumann Stadium - Muncie Indiana
+2016-09-17,2016,R,,eastern-kentucky,ball-state,A,14,41,0,,,Scheumann Stadium - Muncie Indiana
+2016-09-17,2016,R,,california,texas,H,50,43,0,,11.0,Memorial Stadium - Berkeley California
+2016-09-17,2016,R,,texas,california,A,43,50,0,11.0,,Memorial Stadium - Berkeley California
+2016-09-17,2016,R,,central-michigan,nevada-las-vegas,H,44,21,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2016-09-17,2016,R,,nevada-las-vegas,central-michigan,A,21,44,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2016-09-17,2016,R,,clemson,south-carolina-state,H,59,0,0,5.0,,Clemson Memorial Stadium - Clemson South Carolina
+2016-09-17,2016,R,,south-carolina-state,clemson,A,0,59,0,,5.0,Clemson Memorial Stadium - Clemson South Carolina
+2016-09-17,2016,R,,colorado-state,northern-colorado,H,47,21,0,,,Sonny Lubick Field at Hughes Stadium - Fort Collins Colorado
+2016-09-17,2016,R,,northern-colorado,colorado-state,A,21,47,0,,,Sonny Lubick Field at Hughes Stadium - Fort Collins Colorado
+2016-09-17,2016,R,,connecticut,virginia,H,13,10,0,,,Rentschler Field - East Hartford Connecticut
+2016-09-17,2016,R,,virginia,connecticut,A,10,13,0,,,Rentschler Field - East Hartford Connecticut
+2016-09-17,2016,R,,eastern-michigan,charlotte,A,37,19,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2016-09-17,2016,R,,charlotte,eastern-michigan,H,19,37,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2016-09-17,2016,R,,florida,north-texas,H,32,0,0,23.0,,Ben Hill Griffin Stadium - Gainesville Florida
+2016-09-17,2016,R,,north-texas,florida,A,0,32,0,,23.0,Ben Hill Griffin Stadium - Gainesville Florida
+2016-09-17,2016,R,,georgia,missouri,A,28,27,0,16.0,,Faurot Field - Columbia Missouri
+2016-09-17,2016,R,,missouri,georgia,H,27,28,0,,16.0,Faurot Field - Columbia Missouri
+2016-09-17,2016,R,,georgia-southern,louisiana-monroe,H,23,21,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2016-09-17,2016,R,,louisiana-monroe,georgia-southern,A,21,23,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2016-09-17,2016,R,,georgia-tech,vanderbilt,H,38,7,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2016-09-17,2016,R,,vanderbilt,georgia-tech,A,7,38,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2016-09-17,2016,R,,jacksonville-state,coastal-carolina,H,27,26,0,,,
+2016-09-17,2016,R,,coastal-carolina,jacksonville-state,A,26,27,0,,,
+2016-09-17,2016,R,,kansas-state,florida-atlantic,H,63,7,0,,,Bill Snyder Family Football Stadium - Manhattan Kansas
+2016-09-17,2016,R,,florida-atlantic,kansas-state,A,7,63,0,,,Bill Snyder Family Football Stadium - Manhattan Kansas
+2016-09-17,2016,R,,kent-state,monmouth,H,27,7,0,,,Dix Stadium - Kent Ohio
+2016-09-17,2016,R,,monmouth,kent-state,A,7,27,0,,,Dix Stadium - Kent Ohio
+2016-09-17,2016,R,,kentucky,new-mexico-state,H,62,42,0,,,Commonwealth Stadium - Lexington Kentucky
+2016-09-17,2016,R,,new-mexico-state,kentucky,A,42,62,0,,,Commonwealth Stadium - Lexington Kentucky
+2016-09-17,2016,R,,louisiana,south-alabama,H,28,23,0,,,Cajun Field - Lafayette Louisiana
+2016-09-17,2016,R,,south-alabama,louisiana,A,23,28,0,,,Cajun Field - Lafayette Louisiana
+2016-09-17,2016,R,,louisiana-state,mississippi-state,H,23,20,0,20.0,,Tiger Stadium - Baton Rouge Louisiana
+2016-09-17,2016,R,,mississippi-state,louisiana-state,A,20,23,0,,20.0,Tiger Stadium - Baton Rouge Louisiana
+2016-09-17,2016,R,,louisville,florida-state,H,63,20,0,10.0,2.0,Papa John's Cardinal Stadium - Louisville Kentucky
+2016-09-17,2016,R,,florida-state,louisville,A,20,63,0,2.0,10.0,Papa John's Cardinal Stadium - Louisville Kentucky
+2016-09-17,2016,R,,maryland,central-florida,A,30,24,0,,,Bright House Networks Stadium - Orlando Florida
+2016-09-17,2016,R,,central-florida,maryland,H,24,30,0,,,Bright House Networks Stadium - Orlando Florida
+2016-09-17,2016,R,,massachusetts,florida-international,H,21,13,0,,,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+2016-09-17,2016,R,,florida-international,massachusetts,A,13,21,0,,,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+2016-09-17,2016,R,,memphis,kansas,H,43,7,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2016-09-17,2016,R,,kansas,memphis,A,7,43,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2016-09-17,2016,R,,miami-fl,appalachian-state,A,45,10,0,25.0,,Kidd Brewer Stadium - Boone North Carolina
+2016-09-17,2016,R,,appalachian-state,miami-fl,H,10,45,0,,25.0,Kidd Brewer Stadium - Boone North Carolina
+2016-09-17,2016,R,,michigan,colorado,H,45,28,0,4.0,,Michigan Stadium - Ann Arbor Michigan
+2016-09-17,2016,R,,colorado,michigan,A,28,45,0,,4.0,Michigan Stadium - Ann Arbor Michigan
+2016-09-17,2016,R,,michigan-state,notre-dame,A,36,28,0,12.0,18.0,Notre Dame Stadium - South Bend Indiana
+2016-09-17,2016,R,,notre-dame,michigan-state,H,28,36,0,18.0,12.0,Notre Dame Stadium - South Bend Indiana
+2016-09-17,2016,R,,middle-tennessee-state,bowling-green,A,41,21,0,,,Doyt L. Perry Stadium - Bowling Green Ohio
+2016-09-17,2016,R,,bowling-green,middle-tennessee-state,H,21,41,0,,,Doyt L. Perry Stadium - Bowling Green Ohio
+2016-09-17,2016,R,,navy,tulane,A,21,14,0,,,Yulman Stadium - New Orleans Louisiana
+2016-09-17,2016,R,,tulane,navy,H,14,21,0,,,Yulman Stadium - New Orleans Louisiana
+2016-09-17,2016,R,,nebraska,oregon,H,35,32,0,,22.0,Memorial Stadium - Lincoln Nebraska
+2016-09-17,2016,R,,oregon,nebraska,A,32,35,0,22.0,,Memorial Stadium - Lincoln Nebraska
+2016-09-17,2016,R,,nevada,buffalo,H,38,14,0,,,MacKay Stadium - Reno Nevada
+2016-09-17,2016,R,,buffalo,nevada,A,14,38,0,,,MacKay Stadium - Reno Nevada
+2016-09-17,2016,R,,north-carolina,james-madison,H,56,28,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2016-09-17,2016,R,,james-madison,north-carolina,A,28,56,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2016-09-17,2016,R,,north-carolina-state,old-dominion,H,49,22,0,,,Carter Finley Stadium - Raleigh North Carolina
+2016-09-17,2016,R,,old-dominion,north-carolina-state,A,22,49,0,,,Carter Finley Stadium - Raleigh North Carolina
+2016-09-17,2016,R,,north-dakota-state,iowa,A,23,21,0,,13.0,Kinnick Stadium - Iowa City Iowa
+2016-09-17,2016,R,,iowa,north-dakota-state,H,21,23,0,13.0,,Kinnick Stadium - Iowa City Iowa
+2016-09-17,2016,R,,northwestern,duke,H,24,13,0,,,Ryan Field - Evanston Illinois
+2016-09-17,2016,R,,duke,northwestern,A,13,24,0,,,Ryan Field - Evanston Illinois
+2016-09-17,2016,R,,ohio-state,oklahoma,A,45,24,0,3.0,14.0,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2016-09-17,2016,R,,oklahoma,ohio-state,H,24,45,0,14.0,3.0,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2016-09-17,2016,R,,oklahoma-state,pittsburgh,H,45,38,0,,,Boone Pickens Stadium - Stillwater Oklahoma
+2016-09-17,2016,R,,pittsburgh,oklahoma-state,A,38,45,0,,,Boone Pickens Stadium - Stillwater Oklahoma
+2016-09-17,2016,R,,oregon-state,idaho-state,H,37,7,0,,,Reser Stadium - Corvallis Oregon
+2016-09-17,2016,R,,idaho-state,oregon-state,A,7,37,0,,,Reser Stadium - Corvallis Oregon
+2016-09-17,2016,R,,penn-state,temple,H,34,27,0,,,Beaver Stadium - University Park Pennsylvania
+2016-09-17,2016,R,,temple,penn-state,A,27,34,0,,,Beaver Stadium - University Park Pennsylvania
+2016-09-17,2016,R,,rutgers,new-mexico,H,37,28,0,,,High Points Solutions Stadium - Piscataway New Jersey
+2016-09-17,2016,R,,new-mexico,rutgers,A,28,37,0,,,High Points Solutions Stadium - Piscataway New Jersey
+2016-09-17,2016,R,,san-diego-state,northern-illinois,A,42,28,0,,,Huskie Stadium - DeKalb Illinois
+2016-09-17,2016,R,,northern-illinois,san-diego-state,H,28,42,0,,,Huskie Stadium - DeKalb Illinois
+2016-09-17,2016,R,,south-carolina,east-carolina,H,20,15,0,,,Williams-Brice Stadium - Columbia South Carolina
+2016-09-17,2016,R,,east-carolina,south-carolina,A,15,20,0,,,Williams-Brice Stadium - Columbia South Carolina
+2016-09-17,2016,R,,south-florida,syracuse,A,45,20,0,,,Carrier Dome - Syracuse New York
+2016-09-17,2016,R,,syracuse,south-florida,H,20,45,0,,,Carrier Dome - Syracuse New York
+2016-09-17,2016,R,,southern-methodist,liberty,H,29,14,0,,,Gerald J. Ford Stadium - Dallas Texas
+2016-09-17,2016,R,,liberty,southern-methodist,A,14,29,0,,,Gerald J. Ford Stadium - Dallas Texas
+2016-09-17,2016,R,,stanford,southern-california,H,27,10,0,7.0,,Stanford Stadium - Stanford California
+2016-09-17,2016,R,,southern-california,stanford,A,10,27,0,,7.0,Stanford Stadium - Stanford California
+2016-09-17,2016,R,,tennessee,ohio,H,28,19,0,15.0,,Neyland Stadium - Knoxville Tennessee
+2016-09-17,2016,R,,ohio,tennessee,A,19,28,0,,15.0,Neyland Stadium - Knoxville Tennessee
+2016-09-17,2016,R,,texas-a-m,auburn,A,29,16,0,17.0,,Jordan Hare Stadium - Auburn Alabama
+2016-09-17,2016,R,,auburn,texas-a-m,H,16,29,0,,17.0,Jordan Hare Stadium - Auburn Alabama
+2016-09-17,2016,R,,texas-christian,iowa-state,H,41,20,0,,,Amon G. Carter Stadium - Fort Worth Texas
+2016-09-17,2016,R,,iowa-state,texas-christian,A,20,41,0,,,Amon G. Carter Stadium - Fort Worth Texas
+2016-09-17,2016,R,,texas-tech,louisiana-tech,H,59,45,0,,,Jones AT&T Stadium - Lubbock Texas
+2016-09-17,2016,R,,louisiana-tech,texas-tech,A,45,59,0,,,Jones AT&T Stadium - Lubbock Texas
+2016-09-17,2016,R,,toledo,fresno-state,H,52,17,0,,,Glass Bowl - Toledo Ohio
+2016-09-17,2016,R,,fresno-state,toledo,A,17,52,0,,,Glass Bowl - Toledo Ohio
+2016-09-17,2016,R,,troy,southern-mississippi,A,37,31,0,,,M.M. Roberts Stadium - Hattiesburg Mississippi
+2016-09-17,2016,R,,southern-mississippi,troy,H,31,37,0,,,M.M. Roberts Stadium - Hattiesburg Mississippi
+2016-09-17,2016,R,,tulsa,north-carolina-a-t,H,58,21,0,,,Chapman Stadium - Tulsa Oklahoma
+2016-09-17,2016,R,,north-carolina-a-t,tulsa,A,21,58,0,,,Chapman Stadium - Tulsa Oklahoma
+2016-09-17,2016,R,,ucla,brigham-young,A,17,14,0,,,Lavell Edwards Stadium - Provo Utah
+2016-09-17,2016,R,,brigham-young,ucla,H,14,17,0,,,Lavell Edwards Stadium - Provo Utah
+2016-09-17,2016,R,,utah,san-jose-state,A,34,17,0,,,CEFCU Stadium - San Jose California
+2016-09-17,2016,R,,san-jose-state,utah,H,17,34,0,,,CEFCU Stadium - San Jose California
+2016-09-17,2016,R,,virginia-tech,boston-college,H,49,0,0,,,Lane Stadium - Blacksburg Virginia
+2016-09-17,2016,R,,boston-college,virginia-tech,A,0,49,0,,,Lane Stadium - Blacksburg Virginia
+2016-09-17,2016,R,,wake-forest,delaware,H,38,21,0,,,BB&T Field - Winston-Salem North Carolina
+2016-09-17,2016,R,,delaware,wake-forest,A,21,38,0,,,BB&T Field - Winston-Salem North Carolina
+2016-09-17,2016,R,,washington,portland-state,H,41,3,0,8.0,,Husky Stadium - Seattle Washington
+2016-09-17,2016,R,,portland-state,washington,A,3,41,0,,8.0,Husky Stadium - Seattle Washington
+2016-09-17,2016,R,,washington-state,idaho,H,56,6,0,,,Martin Stadium - Pullman Washington
+2016-09-17,2016,R,,idaho,washington-state,A,6,56,0,,,Martin Stadium - Pullman Washington
+2016-09-17,2016,R,,western-kentucky,miami-oh,A,31,24,0,,,Fred Yager Stadium - Oxford Ohio
+2016-09-17,2016,R,,miami-oh,western-kentucky,H,24,31,0,,,Fred Yager Stadium - Oxford Ohio
+2016-09-17,2016,R,,western-michigan,illinois,A,34,10,0,,,Memorial Stadium - Champaign Illinois
+2016-09-17,2016,R,,illinois,western-michigan,H,10,34,0,,,Memorial Stadium - Champaign Illinois
+2016-09-17,2016,R,,wisconsin,georgia-state,H,23,17,0,9.0,,Camp Randall Stadium - Madison Wisconsin
+2016-09-17,2016,R,,georgia-state,wisconsin,A,17,23,0,,9.0,Camp Randall Stadium - Madison Wisconsin
+2016-09-17,2016,R,,wyoming,california-davis,H,45,22,0,,,War Memorial Stadium - Laramie Wyoming
+2016-09-17,2016,R,,california-davis,wyoming,A,22,45,0,,,War Memorial Stadium - Laramie Wyoming
+2016-09-22,2016,R,,clemson,georgia-tech,A,26,7,0,5.0,,Bobby Dodd Stadium - Atlanta Georgia
+2016-09-22,2016,R,,georgia-tech,clemson,H,7,26,0,,5.0,Bobby Dodd Stadium - Atlanta Georgia
+2016-09-23,2016,R,,eastern-michigan,wyoming,H,27,24,0,,,Rynearson Stadium - Ypsilanti Michigan
+2016-09-23,2016,R,,wyoming,eastern-michigan,A,24,27,0,,,Rynearson Stadium - Ypsilanti Michigan
+2016-09-23,2016,R,,texas-christian,southern-methodist,A,33,3,0,,,Gerald J. Ford Stadium - Dallas Texas
+2016-09-23,2016,R,,southern-methodist,texas-christian,H,3,33,0,,,Gerald J. Ford Stadium - Dallas Texas
+2016-09-23,2016,R,,utah,southern-california,H,31,27,0,24.0,,Rice-Eccles Stadium - Salt Lake City Utah
+2016-09-23,2016,R,,southern-california,utah,A,27,31,0,,24.0,Rice-Eccles Stadium - Salt Lake City Utah
+2016-09-24,2016,R,,air-force,utah-state,A,27,20,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2016-09-24,2016,R,,utah-state,air-force,H,20,27,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2016-09-24,2016,R,,alabama,kent-state,H,48,0,0,1.0,,Bryant-Denny Stadium - Tuscaloosa Alabama
+2016-09-24,2016,R,,kent-state,alabama,A,0,48,0,,1.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2016-09-24,2016,R,,appalachian-state,akron,A,45,38,0,,,InfoCision Stadium - Akron Ohio
+2016-09-24,2016,R,,akron,appalachian-state,H,38,45,0,,,InfoCision Stadium - Akron Ohio
+2016-09-24,2016,R,,arizona-state,california,H,51,41,0,,,Sun Devil Stadium - Tempe Arizona
+2016-09-24,2016,R,,california,arizona-state,A,41,51,0,,,Sun Devil Stadium - Tempe Arizona
+2016-09-24,2016,R,,auburn,louisiana-state,H,18,13,0,,18.0,Jordan Hare Stadium - Auburn Alabama
+2016-09-24,2016,R,,louisiana-state,auburn,A,13,18,0,18.0,,Jordan Hare Stadium - Auburn Alabama
+2016-09-24,2016,R,,ball-state,florida-atlantic,A,31,27,0,,,FAU Football Stadium - Boca Raton Florida
+2016-09-24,2016,R,,florida-atlantic,ball-state,H,27,31,0,,,FAU Football Stadium - Boca Raton Florida
+2016-09-24,2016,R,,baylor,oklahoma-state,H,35,24,0,16.0,,McLane Stadium - Waco Texas
+2016-09-24,2016,R,,oklahoma-state,baylor,A,24,35,0,,16.0,McLane Stadium - Waco Texas
+2016-09-24,2016,R,,boise-state,oregon-state,A,38,24,0,,,Reser Stadium - Corvallis Oregon
+2016-09-24,2016,R,,oregon-state,boise-state,H,24,38,0,,,Reser Stadium - Corvallis Oregon
+2016-09-24,2016,R,,boston-college,wagner,H,42,10,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2016-09-24,2016,R,,wagner,boston-college,A,10,42,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2016-09-24,2016,R,,buffalo,army,H,23,20,0,,,University of Buffalo Stadium - Buffalo New York
+2016-09-24,2016,R,,army,buffalo,A,20,23,0,,,University of Buffalo Stadium - Buffalo New York
+2016-09-24,2016,R,,central-arkansas,arkansas-state,A,28,23,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2016-09-24,2016,R,,arkansas-state,central-arkansas,H,23,28,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2016-09-24,2016,R,,central-florida,florida-international,A,53,14,0,,,FIU Stadium - Miami Florida
+2016-09-24,2016,R,,florida-international,central-florida,H,14,53,0,,,FIU Stadium - Miami Florida
+2016-09-24,2016,R,,cincinnati,miami-oh,H,27,20,0,,,Nippert Stadium - Cincinnati Ohio
+2016-09-24,2016,R,,miami-oh,cincinnati,A,20,27,0,,,Nippert Stadium - Cincinnati Ohio
+2016-09-24,2016,R,,coastal-carolina,furman,H,41,21,0,,,
+2016-09-24,2016,R,,furman,coastal-carolina,A,21,41,0,,,
+2016-09-24,2016,R,,colorado,oregon,A,41,38,0,,,Autzen Stadium - Eugene Oregon
+2016-09-24,2016,R,,oregon,colorado,H,38,41,0,,,Autzen Stadium - Eugene Oregon
+2016-09-24,2016,R,,duke,notre-dame,A,38,35,0,,,Notre Dame Stadium - South Bend Indiana
+2016-09-24,2016,R,,notre-dame,duke,H,35,38,0,,,Notre Dame Stadium - South Bend Indiana
+2016-09-24,2016,R,,florida-state,south-florida,A,55,35,0,13.0,,Raymond James Stadium - Tampa Florida
+2016-09-24,2016,R,,south-florida,florida-state,H,35,55,0,,13.0,Raymond James Stadium - Tampa Florida
+2016-09-24,2016,R,,houston,texas-state,A,64,3,0,6.0,,Bobcat Stadium - San Marcos Texas
+2016-09-24,2016,R,,texas-state,houston,H,3,64,0,,6.0,Bobcat Stadium - San Marcos Texas
+2016-09-24,2016,R,,idaho,nevada-las-vegas,A,33,30,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2016-09-24,2016,R,,nevada-las-vegas,idaho,H,30,33,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2016-09-24,2016,R,,iowa,rutgers,A,14,7,0,,,High Points Solutions Stadium - Piscataway New Jersey
+2016-09-24,2016,R,,rutgers,iowa,H,7,14,0,,,High Points Solutions Stadium - Piscataway New Jersey
+2016-09-24,2016,R,,iowa-state,san-jose-state,H,44,10,0,,,Jack Trice Stadium - Ames Iowa
+2016-09-24,2016,R,,san-jose-state,iowa-state,A,10,44,0,,,Jack Trice Stadium - Ames Iowa
+2016-09-24,2016,R,,kansas-state,missouri-state,H,35,0,0,,,Bill Snyder Family Football Stadium - Manhattan Kansas
+2016-09-24,2016,R,,missouri-state,kansas-state,A,0,35,0,,,Bill Snyder Family Football Stadium - Manhattan Kansas
+2016-09-24,2016,R,,kentucky,south-carolina,H,17,10,0,,,Commonwealth Stadium - Lexington Kentucky
+2016-09-24,2016,R,,south-carolina,kentucky,A,10,17,0,,,Commonwealth Stadium - Lexington Kentucky
+2016-09-24,2016,R,,louisville,marshall,A,59,28,0,3.0,,Joan C. Edwards Stadium - Huntington West Virginia
+2016-09-24,2016,R,,marshall,louisville,H,28,59,0,,3.0,Joan C. Edwards Stadium - Huntington West Virginia
+2016-09-24,2016,R,,memphis,bowling-green,H,77,3,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2016-09-24,2016,R,,bowling-green,memphis,A,3,77,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2016-09-24,2016,R,,michigan,penn-state,H,49,10,0,4.0,,Michigan Stadium - Ann Arbor Michigan
+2016-09-24,2016,R,,penn-state,michigan,A,10,49,0,,4.0,Michigan Stadium - Ann Arbor Michigan
+2016-09-24,2016,R,,middle-tennessee-state,louisiana-tech,H,38,34,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2016-09-24,2016,R,,louisiana-tech,middle-tennessee-state,A,34,38,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2016-09-24,2016,R,,minnesota,colorado-state,H,31,24,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2016-09-24,2016,R,,colorado-state,minnesota,A,24,31,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2016-09-24,2016,R,,mississippi,georgia,H,45,14,0,23.0,12.0,Vaught-Hemingway Stadium - Oxford Mississippi
+2016-09-24,2016,R,,georgia,mississippi,A,14,45,0,12.0,23.0,Vaught-Hemingway Stadium - Oxford Mississippi
+2016-09-24,2016,R,,mississippi-state,massachusetts,A,47,35,0,,,Gillette Stadium - Foxborough Massachusetts
+2016-09-24,2016,R,,massachusetts,mississippi-state,H,35,47,0,,,Gillette Stadium - Foxborough Massachusetts
+2016-09-24,2016,R,,missouri,delaware-state,H,79,0,0,,,Faurot Field - Columbia Missouri
+2016-09-24,2016,R,,delaware-state,missouri,A,0,79,0,,,Faurot Field - Columbia Missouri
+2016-09-24,2016,R,,nebraska,northwestern,A,24,13,0,20.0,,Ryan Field - Evanston Illinois
+2016-09-24,2016,R,,northwestern,nebraska,H,13,24,0,,20.0,Ryan Field - Evanston Illinois
+2016-09-24,2016,R,,north-carolina,pittsburgh,H,37,36,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2016-09-24,2016,R,,pittsburgh,north-carolina,A,36,37,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2016-09-24,2016,R,,north-texas,rice,A,42,35,0,,,Rice Stadium - Houston Texas
+2016-09-24,2016,R,,rice,north-texas,H,35,42,0,,,Rice Stadium - Houston Texas
+2016-09-24,2016,R,,ohio,gardner-webb,H,37,21,0,,,Peden Stadium - Athens Ohio
+2016-09-24,2016,R,,gardner-webb,ohio,A,21,37,0,,,Peden Stadium - Athens Ohio
+2016-09-24,2016,R,,old-dominion,texas-san-antonio,H,33,19,0,,,S.B. Ballard Stadium - Norfolk Virginia
+2016-09-24,2016,R,,texas-san-antonio,old-dominion,A,19,33,0,,,S.B. Ballard Stadium - Norfolk Virginia
+2016-09-24,2016,R,,purdue,nevada,H,24,14,0,,,Ross Ade Stadium - West Lafayette Indiana
+2016-09-24,2016,R,,nevada,purdue,A,14,24,0,,,Ross Ade Stadium - West Lafayette Indiana
+2016-09-24,2016,R,,south-alabama,nicholls-state,H,41,40,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2016-09-24,2016,R,,nicholls-state,south-alabama,A,40,41,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2016-09-24,2016,R,,southern-mississippi,texas-el-paso,A,34,7,0,,,Sun Bowl Stadium - El Paso Texas
+2016-09-24,2016,R,,texas-el-paso,southern-mississippi,H,7,34,0,,,Sun Bowl Stadium - El Paso Texas
+2016-09-24,2016,R,,stanford,ucla,A,22,13,0,7.0,,Rose Bowl - Pasadena California
+2016-09-24,2016,R,,ucla,stanford,H,13,22,0,,7.0,Rose Bowl - Pasadena California
+2016-09-24,2016,R,,syracuse,connecticut,A,31,24,0,,,Rentschler Field - East Hartford Connecticut
+2016-09-24,2016,R,,connecticut,syracuse,H,24,31,0,,,Rentschler Field - East Hartford Connecticut
+2016-09-24,2016,R,,temple,charlotte,H,48,20,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2016-09-24,2016,R,,charlotte,temple,A,20,48,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2016-09-24,2016,R,,tennessee,florida,H,38,28,0,14.0,19.0,Neyland Stadium - Knoxville Tennessee
+2016-09-24,2016,R,,florida,tennessee,A,28,38,0,19.0,14.0,Neyland Stadium - Knoxville Tennessee
+2016-09-24,2016,R,,texas-a-m,arkansas,N,45,24,0,10.0,17.0,AT&T Stadium - Arlington Texas
+2016-09-24,2016,R,,arkansas,texas-a-m,N,24,45,0,17.0,10.0,AT&T Stadium - Arlington Texas
+2016-09-24,2016,R,,troy,new-mexico-state,H,52,6,0,,,Veterans Memorial Stadium - Troy Alabama
+2016-09-24,2016,R,,new-mexico-state,troy,A,6,52,0,,,Veterans Memorial Stadium - Troy Alabama
+2016-09-24,2016,R,,tulane,louisiana,H,41,39,0,,,Yulman Stadium - New Orleans Louisiana
+2016-09-24,2016,R,,louisiana,tulane,A,39,41,0,,,Yulman Stadium - New Orleans Louisiana
+2016-09-24,2016,R,,tulsa,fresno-state,A,48,41,0,,,Bulldog Stadium - Fresno California
+2016-09-24,2016,R,,fresno-state,tulsa,H,41,48,0,,,Bulldog Stadium - Fresno California
+2016-09-24,2016,R,,vanderbilt,western-kentucky,A,31,30,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2016-09-24,2016,R,,western-kentucky,vanderbilt,H,30,31,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2016-09-24,2016,R,,virginia,central-michigan,H,49,35,0,,,Scott Stadium - Charlottesville Virginia
+2016-09-24,2016,R,,central-michigan,virginia,A,35,49,0,,,Scott Stadium - Charlottesville Virginia
+2016-09-24,2016,R,,virginia-tech,east-carolina,H,54,17,0,,,Lane Stadium - Blacksburg Virginia
+2016-09-24,2016,R,,east-carolina,virginia-tech,A,17,54,0,,,Lane Stadium - Blacksburg Virginia
+2016-09-24,2016,R,,wake-forest,indiana,A,33,28,0,,,Memorial Stadium - Bloomington Indiana
+2016-09-24,2016,R,,indiana,wake-forest,H,28,33,0,,,Memorial Stadium - Bloomington Indiana
+2016-09-24,2016,R,,washington,arizona,A,35,28,0,9.0,,Arizona Stadium - Tucson Arizona
+2016-09-24,2016,R,,arizona,washington,H,28,35,0,,9.0,Arizona Stadium - Tucson Arizona
+2016-09-24,2016,R,,west-virginia,brigham-young,N,35,32,0,,,FedEx Field - Landover Maryland
+2016-09-24,2016,R,,brigham-young,west-virginia,N,32,35,0,,,FedEx Field - Landover Maryland
+2016-09-24,2016,R,,western-illinois,northern-illinois,A,28,23,0,,,Huskie Stadium - DeKalb Illinois
+2016-09-24,2016,R,,northern-illinois,western-illinois,H,23,28,0,,,Huskie Stadium - DeKalb Illinois
+2016-09-24,2016,R,,western-michigan,georgia-southern,H,49,31,0,,,Waldo Stadium - Kalamazoo Michigan
+2016-09-24,2016,R,,georgia-southern,western-michigan,A,31,49,0,,,Waldo Stadium - Kalamazoo Michigan
+2016-09-24,2016,R,,wisconsin,michigan-state,A,30,6,0,11.0,8.0,Spartan Stadium - East Lansing Michigan
+2016-09-24,2016,R,,michigan-state,wisconsin,H,6,30,0,8.0,11.0,Spartan Stadium - East Lansing Michigan
+2016-09-29,2016,R,,houston,connecticut,H,42,14,0,6.0,,TDECU Stadium - Houston Texas
+2016-09-29,2016,R,,connecticut,houston,A,14,42,0,,6.0,TDECU Stadium - Houston Texas
+2016-09-29,2016,R,,texas-tech,kansas,H,55,19,0,,,Jones AT&T Stadium - Lubbock Texas
+2016-09-29,2016,R,,kansas,texas-tech,A,19,55,0,,,Jones AT&T Stadium - Lubbock Texas
+2016-09-30,2016,R,,brigham-young,toledo,H,55,53,0,,,Lavell Edwards Stadium - Provo Utah
+2016-09-30,2016,R,,toledo,brigham-young,A,53,55,0,,,Lavell Edwards Stadium - Provo Utah
+2016-09-30,2016,R,,washington,stanford,H,44,6,0,10.0,7.0,Husky Stadium - Seattle Washington
+2016-09-30,2016,R,,stanford,washington,A,6,44,0,7.0,10.0,Husky Stadium - Seattle Washington
+2016-10-01,2016,R,,air-force,navy,H,28,14,0,,,Falcon Stadium - Colorado Springs Colorado
+2016-10-01,2016,R,,navy,air-force,A,14,28,0,,,Falcon Stadium - Colorado Springs Colorado
+2016-10-01,2016,R,,akron,kent-state,A,31,27,0,,,Dix Stadium - Kent Ohio
+2016-10-01,2016,R,,kent-state,akron,H,27,31,0,,,Dix Stadium - Kent Ohio
+2016-10-01,2016,R,,alabama,kentucky,H,34,6,0,1.0,,Bryant-Denny Stadium - Tuscaloosa Alabama
+2016-10-01,2016,R,,kentucky,alabama,A,6,34,0,,1.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2016-10-01,2016,R,,appalachian-state,georgia-state,H,17,3,0,,,Kidd Brewer Stadium - Boone North Carolina
+2016-10-01,2016,R,,georgia-state,appalachian-state,A,3,17,0,,,Kidd Brewer Stadium - Boone North Carolina
+2016-10-01,2016,R,,arkansas,alcorn-state,H,52,10,0,20.0,,War Memorial Stadium - Little Rock Arkansas
+2016-10-01,2016,R,,alcorn-state,arkansas,A,10,52,0,,20.0,War Memorial Stadium - Little Rock Arkansas
+2016-10-01,2016,R,,auburn,louisiana-monroe,H,58,7,0,,,Jordan Hare Stadium - Auburn Alabama
+2016-10-01,2016,R,,louisiana-monroe,auburn,A,7,58,0,,,Jordan Hare Stadium - Auburn Alabama
+2016-10-01,2016,R,,baylor,iowa-state,A,45,42,0,13.0,,Jack Trice Stadium - Ames Iowa
+2016-10-01,2016,R,,iowa-state,baylor,H,42,45,0,,13.0,Jack Trice Stadium - Ames Iowa
+2016-10-01,2016,R,,boise-state,utah-state,H,21,10,0,24.0,,Albertsons Stadium - Boise Idaho
+2016-10-01,2016,R,,utah-state,boise-state,A,10,21,0,,24.0,Albertsons Stadium - Boise Idaho
+2016-10-01,2016,R,,boston-college,buffalo,H,35,3,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2016-10-01,2016,R,,buffalo,boston-college,A,3,35,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2016-10-01,2016,R,,california,utah,H,28,23,0,,18.0,Memorial Stadium - Berkeley California
+2016-10-01,2016,R,,utah,california,A,23,28,0,18.0,,Memorial Stadium - Berkeley California
+2016-10-01,2016,R,,central-florida,east-carolina,A,47,29,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2016-10-01,2016,R,,east-carolina,central-florida,H,29,47,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2016-10-01,2016,R,,charleston-southern,coastal-carolina,A,59,58,0,,,
+2016-10-01,2016,R,,coastal-carolina,charleston-southern,H,58,59,0,,,
+2016-10-01,2016,R,,clemson,louisville,H,42,36,0,5.0,3.0,Clemson Memorial Stadium - Clemson South Carolina
+2016-10-01,2016,R,,louisville,clemson,A,36,42,0,3.0,5.0,Clemson Memorial Stadium - Clemson South Carolina
+2016-10-01,2016,R,,colorado,oregon-state,H,47,6,0,,,Folsom Field - Boulder Colorado
+2016-10-01,2016,R,,oregon-state,colorado,A,6,47,0,,,Folsom Field - Boulder Colorado
+2016-10-01,2016,R,,eastern-michigan,bowling-green,A,28,25,0,,,Doyt L. Perry Stadium - Bowling Green Ohio
+2016-10-01,2016,R,,bowling-green,eastern-michigan,H,25,28,0,,,Doyt L. Perry Stadium - Bowling Green Ohio
+2016-10-01,2016,R,,florida,vanderbilt,A,13,6,0,23.0,,Vanderbilt Stadium - Nashville Tennessee
+2016-10-01,2016,R,,vanderbilt,florida,H,6,13,0,,23.0,Vanderbilt Stadium - Nashville Tennessee
+2016-10-01,2016,R,,florida-international,florida-atlantic,H,33,31,0,,,FIU Stadium - Miami Florida
+2016-10-01,2016,R,,florida-atlantic,florida-international,A,31,33,0,,,FIU Stadium - Miami Florida
+2016-10-01,2016,R,,hawaii,nevada,H,38,17,0,,,Hawaiian Tel Federal Credit Union Field at Aloha Stadium - Honolulu Hawaii
+2016-10-01,2016,R,,nevada,hawaii,A,17,38,0,,,Hawaiian Tel Federal Credit Union Field at Aloha Stadium - Honolulu Hawaii
+2016-10-01,2016,R,,indiana,michigan-state,H,24,21,0,,17.0,Memorial Stadium - Bloomington Indiana
+2016-10-01,2016,R,,michigan-state,indiana,A,21,24,0,17.0,,Memorial Stadium - Bloomington Indiana
+2016-10-01,2016,R,,louisiana-state,missouri,H,42,7,0,,,Tiger Stadium - Baton Rouge Louisiana
+2016-10-01,2016,R,,missouri,louisiana-state,A,7,42,0,,,Tiger Stadium - Baton Rouge Louisiana
+2016-10-01,2016,R,,louisiana-tech,texas-el-paso,H,28,7,0,,,Joe Aillet Stadium - Ruston Louisiana
+2016-10-01,2016,R,,texas-el-paso,louisiana-tech,A,7,28,0,,,Joe Aillet Stadium - Ruston Louisiana
+2016-10-01,2016,R,,maryland,purdue,H,50,7,0,,,Maryland Stadium - College Park Maryland
+2016-10-01,2016,R,,purdue,maryland,A,7,50,0,,,Maryland Stadium - College Park Maryland
+2016-10-01,2016,R,,miami-fl,georgia-tech,A,35,21,0,14.0,,Bobby Dodd Stadium - Atlanta Georgia
+2016-10-01,2016,R,,georgia-tech,miami-fl,H,21,35,0,,14.0,Bobby Dodd Stadium - Atlanta Georgia
+2016-10-01,2016,R,,michigan,wisconsin,H,14,7,0,4.0,8.0,Michigan Stadium - Ann Arbor Michigan
+2016-10-01,2016,R,,wisconsin,michigan,A,7,14,0,8.0,4.0,Michigan Stadium - Ann Arbor Michigan
+2016-10-01,2016,R,,middle-tennessee-state,north-texas,A,30,13,0,,,Apogee Stadium - Denton Texas
+2016-10-01,2016,R,,north-texas,middle-tennessee-state,H,13,30,0,,,Apogee Stadium - Denton Texas
+2016-10-01,2016,R,,mississippi,memphis,H,48,28,0,16.0,,Vaught-Hemingway Stadium - Oxford Mississippi
+2016-10-01,2016,R,,memphis,mississippi,A,28,48,0,,16.0,Vaught-Hemingway Stadium - Oxford Mississippi
+2016-10-01,2016,R,,nebraska,illinois,H,31,16,0,15.0,,Memorial Stadium - Lincoln Nebraska
+2016-10-01,2016,R,,illinois,nebraska,A,16,31,0,,15.0,Memorial Stadium - Lincoln Nebraska
+2016-10-01,2016,R,,nevada-las-vegas,fresno-state,H,45,20,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2016-10-01,2016,R,,fresno-state,nevada-las-vegas,A,20,45,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2016-10-01,2016,R,,new-mexico,san-jose-state,H,48,41,0,,,University Stadium - Albuquerque New Mexico
+2016-10-01,2016,R,,san-jose-state,new-mexico,A,41,48,0,,,University Stadium - Albuquerque New Mexico
+2016-10-01,2016,R,,new-mexico-state,louisiana,H,37,31,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2016-10-01,2016,R,,louisiana,new-mexico-state,A,31,37,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2016-10-01,2016,R,,north-carolina,florida-state,A,37,35,0,,12.0,Doak Campbell Stadium - Tallahassee Florida
+2016-10-01,2016,R,,florida-state,north-carolina,H,35,37,0,12.0,,Doak Campbell Stadium - Tallahassee Florida
+2016-10-01,2016,R,,north-carolina-state,wake-forest,H,33,16,0,,,Carter Finley Stadium - Raleigh North Carolina
+2016-10-01,2016,R,,wake-forest,north-carolina-state,A,16,33,0,,,Carter Finley Stadium - Raleigh North Carolina
+2016-10-01,2016,R,,northern-illinois,ball-state,A,31,24,0,,,Scheumann Stadium - Muncie Indiana
+2016-10-01,2016,R,,ball-state,northern-illinois,H,24,31,0,,,Scheumann Stadium - Muncie Indiana
+2016-10-01,2016,R,,northwestern,iowa,A,38,31,0,,,Kinnick Stadium - Iowa City Iowa
+2016-10-01,2016,R,,iowa,northwestern,H,31,38,0,,,Kinnick Stadium - Iowa City Iowa
+2016-10-01,2016,R,,notre-dame,syracuse,N,50,33,0,,,MetLife Stadium - East Rutherford New Jersey
+2016-10-01,2016,R,,syracuse,notre-dame,N,33,50,0,,,MetLife Stadium - East Rutherford New Jersey
+2016-10-01,2016,R,,ohio,miami-oh,A,17,7,0,,,Fred Yager Stadium - Oxford Ohio
+2016-10-01,2016,R,,miami-oh,ohio,H,7,17,0,,,Fred Yager Stadium - Oxford Ohio
+2016-10-01,2016,R,,ohio-state,rutgers,H,58,0,0,2.0,,Ohio Stadium - Columbus Ohio
+2016-10-01,2016,R,,rutgers,ohio-state,A,0,58,0,,2.0,Ohio Stadium - Columbus Ohio
+2016-10-01,2016,R,,oklahoma,texas-christian,A,52,46,0,,21.0,Amon G. Carter Stadium - Fort Worth Texas
+2016-10-01,2016,R,,texas-christian,oklahoma,H,46,52,0,21.0,,Amon G. Carter Stadium - Fort Worth Texas
+2016-10-01,2016,R,,oklahoma-state,texas,H,49,31,0,,22.0,Boone Pickens Stadium - Stillwater Oklahoma
+2016-10-01,2016,R,,texas,oklahoma-state,A,31,49,0,22.0,,Boone Pickens Stadium - Stillwater Oklahoma
+2016-10-01,2016,R,,old-dominion,charlotte,A,52,17,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2016-10-01,2016,R,,charlotte,old-dominion,H,17,52,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2016-10-01,2016,R,,penn-state,minnesota,H,29,26,0,,,Beaver Stadium - University Park Pennsylvania
+2016-10-01,2016,R,,minnesota,penn-state,A,26,29,0,,,Beaver Stadium - University Park Pennsylvania
+2016-10-01,2016,R,,pittsburgh,marshall,H,43,27,0,,,Heinz Field - Pittsburgh Pennsylvania
+2016-10-01,2016,R,,marshall,pittsburgh,A,27,43,0,,,Heinz Field - Pittsburgh Pennsylvania
+2016-10-01,2016,R,,south-alabama,san-diego-state,H,42,24,0,,19.0,Ladd-Peebles Stadium - Mobile Alabama
+2016-10-01,2016,R,,san-diego-state,south-alabama,A,24,42,0,19.0,,Ladd-Peebles Stadium - Mobile Alabama
+2016-10-01,2016,R,,south-florida,cincinnati,A,45,20,0,,,Nippert Stadium - Cincinnati Ohio
+2016-10-01,2016,R,,cincinnati,south-florida,H,20,45,0,,,Nippert Stadium - Cincinnati Ohio
+2016-10-01,2016,R,,southern-california,arizona-state,H,41,20,0,,,Los Angeles Memorial Coliseum - Los Angeles California
+2016-10-01,2016,R,,arizona-state,southern-california,A,20,41,0,,,Los Angeles Memorial Coliseum - Los Angeles California
+2016-10-01,2016,R,,southern-mississippi,rice,H,44,28,0,,,M.M. Roberts Stadium - Hattiesburg Mississippi
+2016-10-01,2016,R,,rice,southern-mississippi,A,28,44,0,,,M.M. Roberts Stadium - Hattiesburg Mississippi
+2016-10-01,2016,R,,temple,southern-methodist,H,45,20,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2016-10-01,2016,R,,southern-methodist,temple,A,20,45,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2016-10-01,2016,R,,tennessee,georgia,A,34,31,0,11.0,25.0,Sanford Stadium - Athens Georgia
+2016-10-01,2016,R,,georgia,tennessee,H,31,34,0,25.0,11.0,Sanford Stadium - Athens Georgia
+2016-10-01,2016,R,,texas-a-m,south-carolina,A,24,13,0,9.0,,Williams-Brice Stadium - Columbia South Carolina
+2016-10-01,2016,R,,south-carolina,texas-a-m,H,13,24,0,,9.0,Williams-Brice Stadium - Columbia South Carolina
+2016-10-01,2016,R,,texas-state,incarnate-word,H,48,17,0,,,Bobcat Stadium - San Marcos Texas
+2016-10-01,2016,R,,incarnate-word,texas-state,A,17,48,0,,,Bobcat Stadium - San Marcos Texas
+2016-10-01,2016,R,,troy,idaho,A,34,13,0,,,Kibbie Dome - Moscow Idaho
+2016-10-01,2016,R,,idaho,troy,H,13,34,0,,,Kibbie Dome - Moscow Idaho
+2016-10-01,2016,R,,tulane,massachusetts,A,31,24,0,,,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+2016-10-01,2016,R,,massachusetts,tulane,H,24,31,0,,,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+2016-10-01,2016,R,,ucla,arizona,H,45,24,0,,,Rose Bowl - Pasadena California
+2016-10-01,2016,R,,arizona,ucla,A,24,45,0,,,Rose Bowl - Pasadena California
+2016-10-01,2016,R,,virginia,duke,A,34,20,0,,,Wallace Wade Stadium - Durham North Carolina
+2016-10-01,2016,R,,duke,virginia,H,20,34,0,,,Wallace Wade Stadium - Durham North Carolina
+2016-10-01,2016,R,,washington-state,oregon,H,51,33,0,,,Martin Stadium - Pullman Washington
+2016-10-01,2016,R,,oregon,washington-state,A,33,51,0,,,Martin Stadium - Pullman Washington
+2016-10-01,2016,R,,west-virginia,kansas-state,H,17,16,0,,,Milan Puskar Stadium - Morgantown West Virginia
+2016-10-01,2016,R,,kansas-state,west-virginia,A,16,17,0,,,Milan Puskar Stadium - Morgantown West Virginia
+2016-10-01,2016,R,,western-kentucky,houston-baptist,H,50,3,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2016-10-01,2016,R,,houston-baptist,western-kentucky,A,3,50,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2016-10-01,2016,R,,western-michigan,central-michigan,A,49,10,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2016-10-01,2016,R,,central-michigan,western-michigan,H,10,49,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2016-10-01,2016,R,,wyoming,colorado-state,A,38,17,0,,,Sonny Lubick Field at Hughes Stadium - Fort Collins Colorado
+2016-10-01,2016,R,,colorado-state,wyoming,H,17,38,0,,,Sonny Lubick Field at Hughes Stadium - Fort Collins Colorado
+2016-10-05,2016,R,,arkansas-state,georgia-southern,H,27,26,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2016-10-05,2016,R,,georgia-southern,arkansas-state,A,26,27,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2016-10-06,2016,R,,louisiana-tech,western-kentucky,H,55,52,0,,,Joe Aillet Stadium - Ruston Louisiana
+2016-10-06,2016,R,,western-kentucky,louisiana-tech,A,52,55,0,,,Joe Aillet Stadium - Ruston Louisiana
+2016-10-06,2016,R,,memphis,temple,H,34,27,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2016-10-06,2016,R,,temple,memphis,A,27,34,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2016-10-07,2016,R,,boise-state,new-mexico,A,49,21,0,19.0,,University Stadium - Albuquerque New Mexico
+2016-10-07,2016,R,,new-mexico,boise-state,H,21,49,0,,19.0,University Stadium - Albuquerque New Mexico
+2016-10-07,2016,R,,clemson,boston-college,A,56,10,0,3.0,,Alumni Stadium - Chestnut Hill Massachusetts
+2016-10-07,2016,R,,boston-college,clemson,H,10,56,0,,3.0,Alumni Stadium - Chestnut Hill Massachusetts
+2016-10-07,2016,R,,old-dominion,massachusetts,H,36,16,0,,,S.B. Ballard Stadium - Norfolk Virginia
+2016-10-07,2016,R,,massachusetts,old-dominion,A,16,36,0,,,S.B. Ballard Stadium - Norfolk Virginia
+2016-10-07,2016,R,,tulsa,southern-methodist,H,43,40,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2016-10-07,2016,R,,southern-methodist,tulsa,A,40,43,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2016-10-08,2016,R,,akron,miami-oh,H,35,13,0,,,InfoCision Stadium - Akron Ohio
+2016-10-08,2016,R,,miami-oh,akron,A,13,35,0,,,InfoCision Stadium - Akron Ohio
+2016-10-08,2016,R,,alabama,arkansas,A,49,30,0,1.0,16.0,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2016-10-08,2016,R,,arkansas,alabama,H,30,49,0,16.0,1.0,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2016-10-08,2016,R,,arizona-state,ucla,H,23,20,0,,,Sun Devil Stadium - Tempe Arizona
+2016-10-08,2016,R,,ucla,arizona-state,A,20,23,0,,,Sun Devil Stadium - Tempe Arizona
+2016-10-08,2016,R,,auburn,mississippi-state,A,38,14,0,,,Davis Wade Stadium - Starkville Mississippi
+2016-10-08,2016,R,,mississippi-state,auburn,H,14,38,0,,,Davis Wade Stadium - Starkville Mississippi
+2016-10-08,2016,R,,brigham-young,michigan-state,A,31,14,0,,,Spartan Stadium - East Lansing Michigan
+2016-10-08,2016,R,,michigan-state,brigham-young,H,14,31,0,,,Spartan Stadium - East Lansing Michigan
+2016-10-08,2016,R,,central-michigan,ball-state,H,24,21,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2016-10-08,2016,R,,ball-state,central-michigan,A,21,24,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2016-10-08,2016,R,,colorado-state,utah-state,H,31,24,0,,,Sonny Lubick Field at Hughes Stadium - Fort Collins Colorado
+2016-10-08,2016,R,,utah-state,colorado-state,A,24,31,0,,,Sonny Lubick Field at Hughes Stadium - Fort Collins Colorado
+2016-10-08,2016,R,,connecticut,cincinnati,H,20,9,0,,,Rentschler Field - East Hartford Connecticut
+2016-10-08,2016,R,,cincinnati,connecticut,A,9,20,0,,,Rentschler Field - East Hartford Connecticut
+2016-10-08,2016,R,,duke,army,H,13,6,0,,,Wallace Wade Stadium - Durham North Carolina
+2016-10-08,2016,R,,army,duke,A,6,13,0,,,Wallace Wade Stadium - Durham North Carolina
+2016-10-08,2016,R,,florida-international,texas-el-paso,A,35,21,0,,,Sun Bowl Stadium - El Paso Texas
+2016-10-08,2016,R,,texas-el-paso,florida-international,H,21,35,0,,,Sun Bowl Stadium - El Paso Texas
+2016-10-08,2016,R,,florida-state,miami-fl,A,20,19,0,23.0,10.0,Hard Rock Stadium - Miami Gardens Florida
+2016-10-08,2016,R,,miami-fl,florida-state,H,19,20,0,10.0,23.0,Hard Rock Stadium - Miami Gardens Florida
+2016-10-08,2016,R,,georgia-state,texas-state,H,41,21,0,,,Georgia Dome - Atlanta Georgia
+2016-10-08,2016,R,,texas-state,georgia-state,A,21,41,0,,,Georgia Dome - Atlanta Georgia
+2016-10-08,2016,R,,hawaii,san-jose-state,A,34,17,0,,,CEFCU Stadium - San Jose California
+2016-10-08,2016,R,,san-jose-state,hawaii,H,17,34,0,,,CEFCU Stadium - San Jose California
+2016-10-08,2016,R,,idaho,louisiana-monroe,A,34,31,0,,,Malone Stadium - Monroe Louisiana
+2016-10-08,2016,R,,louisiana-monroe,idaho,H,31,34,0,,,Malone Stadium - Monroe Louisiana
+2016-10-08,2016,R,,iowa,minnesota,A,14,7,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2016-10-08,2016,R,,minnesota,iowa,H,7,14,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2016-10-08,2016,R,,kansas-state,texas-tech,H,44,38,0,,,Bill Snyder Family Football Stadium - Manhattan Kansas
+2016-10-08,2016,R,,texas-tech,kansas-state,A,38,44,0,,,Bill Snyder Family Football Stadium - Manhattan Kansas
+2016-10-08,2016,R,,kent-state,buffalo,A,44,20,0,,,University of Buffalo Stadium - Buffalo New York
+2016-10-08,2016,R,,buffalo,kent-state,H,20,44,0,,,University of Buffalo Stadium - Buffalo New York
+2016-10-08,2016,R,,kentucky,vanderbilt,H,20,13,0,,,Commonwealth Stadium - Lexington Kentucky
+2016-10-08,2016,R,,vanderbilt,kentucky,A,13,20,0,,,Commonwealth Stadium - Lexington Kentucky
+2016-10-08,2016,R,,michigan,rutgers,A,78,0,0,4.0,,High Points Solutions Stadium - Piscataway New Jersey
+2016-10-08,2016,R,,rutgers,michigan,H,0,78,0,,4.0,High Points Solutions Stadium - Piscataway New Jersey
+2016-10-08,2016,R,,navy,houston,H,46,40,0,,6.0,Navy Marine Corps Memorial Stadium - Annapolis Maryland
+2016-10-08,2016,R,,houston,navy,A,40,46,0,6.0,,Navy Marine Corps Memorial Stadium - Annapolis Maryland
+2016-10-08,2016,R,,nevada,fresno-state,H,27,22,0,,,MacKay Stadium - Reno Nevada
+2016-10-08,2016,R,,fresno-state,nevada,A,22,27,0,,,MacKay Stadium - Reno Nevada
+2016-10-08,2016,R,,north-carolina-state,notre-dame,H,10,3,0,,,Carter Finley Stadium - Raleigh North Carolina
+2016-10-08,2016,R,,notre-dame,north-carolina-state,A,3,10,0,,,Carter Finley Stadium - Raleigh North Carolina
+2016-10-08,2016,R,,north-texas,marshall,H,38,21,0,,,Apogee Stadium - Denton Texas
+2016-10-08,2016,R,,marshall,north-texas,A,21,38,0,,,Apogee Stadium - Denton Texas
+2016-10-08,2016,R,,ohio,bowling-green,H,30,24,0,,,Peden Stadium - Athens Ohio
+2016-10-08,2016,R,,bowling-green,ohio,A,24,30,0,,,Peden Stadium - Athens Ohio
+2016-10-08,2016,R,,ohio-state,indiana,H,38,17,0,2.0,,Ohio Stadium - Columbus Ohio
+2016-10-08,2016,R,,indiana,ohio-state,A,17,38,0,,2.0,Ohio Stadium - Columbus Ohio
+2016-10-08,2016,R,,oklahoma,texas,N,45,40,0,20.0,,Cotton Bowl Stadium - Dallas Texas
+2016-10-08,2016,R,,texas,oklahoma,N,40,45,0,,20.0,Cotton Bowl Stadium - Dallas Texas
+2016-10-08,2016,R,,oklahoma-state,iowa-state,H,38,31,0,,,Boone Pickens Stadium - Stillwater Oklahoma
+2016-10-08,2016,R,,iowa-state,oklahoma-state,A,31,38,0,,,Boone Pickens Stadium - Stillwater Oklahoma
+2016-10-08,2016,R,,oregon-state,california,H,47,44,0,,,Reser Stadium - Corvallis Oregon
+2016-10-08,2016,R,,california,oregon-state,A,44,47,0,,,Reser Stadium - Corvallis Oregon
+2016-10-08,2016,R,,penn-state,maryland,H,38,14,0,,,Beaver Stadium - University Park Pennsylvania
+2016-10-08,2016,R,,maryland,penn-state,A,14,38,0,,,Beaver Stadium - University Park Pennsylvania
+2016-10-08,2016,R,,pittsburgh,georgia-tech,H,37,34,0,,,Heinz Field - Pittsburgh Pennsylvania
+2016-10-08,2016,R,,georgia-tech,pittsburgh,A,34,37,0,,,Heinz Field - Pittsburgh Pennsylvania
+2016-10-08,2016,R,,purdue,illinois,A,34,31,0,,,Memorial Stadium - Champaign Illinois
+2016-10-08,2016,R,,illinois,purdue,H,31,34,0,,,Memorial Stadium - Champaign Illinois
+2016-10-08,2016,R,,san-diego-state,nevada-las-vegas,H,26,7,0,,,Qualcomm Stadium - San Diego California
+2016-10-08,2016,R,,nevada-las-vegas,san-diego-state,A,7,26,0,,,Qualcomm Stadium - San Diego California
+2016-10-08,2016,R,,south-florida,east-carolina,H,38,22,0,,,Raymond James Stadium - Tampa Florida
+2016-10-08,2016,R,,east-carolina,south-florida,A,22,38,0,,,Raymond James Stadium - Tampa Florida
+2016-10-08,2016,R,,southern-california,colorado,H,21,17,0,,21.0,Los Angeles Memorial Coliseum - Los Angeles California
+2016-10-08,2016,R,,colorado,southern-california,A,17,21,0,21.0,,Los Angeles Memorial Coliseum - Los Angeles California
+2016-10-08,2016,R,,texas-a-m,tennessee,H,45,38,0,8.0,9.0,Kyle Field - College Station Texas
+2016-10-08,2016,R,,tennessee,texas-a-m,A,38,45,0,9.0,8.0,Kyle Field - College Station Texas
+2016-10-08,2016,R,,texas-christian,kansas,A,24,23,0,,,Memorial Stadium - Lawrence Kansas
+2016-10-08,2016,R,,kansas,texas-christian,H,23,24,0,,,Memorial Stadium - Lawrence Kansas
+2016-10-08,2016,R,,texas-san-antonio,southern-mississippi,H,55,32,0,,,Alamodome - San Antonio Texas
+2016-10-08,2016,R,,southern-mississippi,texas-san-antonio,A,32,55,0,,,Alamodome - San Antonio Texas
+2016-10-08,2016,R,,toledo,eastern-michigan,A,35,20,0,,,Rynearson Stadium - Ypsilanti Michigan
+2016-10-08,2016,R,,eastern-michigan,toledo,H,20,35,0,,,Rynearson Stadium - Ypsilanti Michigan
+2016-10-08,2016,R,,utah,arizona,H,36,23,0,24.0,,Rice-Eccles Stadium - Salt Lake City Utah
+2016-10-08,2016,R,,arizona,utah,A,23,36,0,,24.0,Rice-Eccles Stadium - Salt Lake City Utah
+2016-10-08,2016,R,,virginia-tech,north-carolina,A,34,3,0,25.0,17.0,Kenan Memorial Stadium - Chapel Hill North Carolina
+2016-10-08,2016,R,,north-carolina,virginia-tech,H,3,34,0,17.0,25.0,Kenan Memorial Stadium - Chapel Hill North Carolina
+2016-10-08,2016,R,,wake-forest,syracuse,H,28,9,0,,,BB&T Field - Winston-Salem North Carolina
+2016-10-08,2016,R,,syracuse,wake-forest,A,9,28,0,,,BB&T Field - Winston-Salem North Carolina
+2016-10-08,2016,R,,washington,oregon,A,70,21,0,5.0,,Autzen Stadium - Eugene Oregon
+2016-10-08,2016,R,,oregon,washington,H,21,70,0,,5.0,Autzen Stadium - Eugene Oregon
+2016-10-08,2016,R,,washington-state,stanford,A,42,16,0,,15.0,Stanford Stadium - Stanford California
+2016-10-08,2016,R,,stanford,washington-state,H,16,42,0,15.0,,Stanford Stadium - Stanford California
+2016-10-08,2016,R,,western-michigan,northern-illinois,H,45,30,0,,,Waldo Stadium - Kalamazoo Michigan
+2016-10-08,2016,R,,northern-illinois,western-michigan,A,30,45,0,,,Waldo Stadium - Kalamazoo Michigan
+2016-10-08,2016,R,,wyoming,air-force,H,35,26,0,,,War Memorial Stadium - Laramie Wyoming
+2016-10-08,2016,R,,air-force,wyoming,A,26,35,0,,,War Memorial Stadium - Laramie Wyoming
+2016-10-09,2016,R,,charlotte,florida-atlantic,A,28,23,0,,,FAU Football Stadium - Boca Raton Florida
+2016-10-09,2016,R,,florida-atlantic,charlotte,H,23,28,0,,,FAU Football Stadium - Boca Raton Florida
+2016-10-09,2016,R,,georgia,south-carolina,A,28,14,0,,,Williams-Brice Stadium - Columbia South Carolina
+2016-10-09,2016,R,,south-carolina,georgia,H,14,28,0,,,Williams-Brice Stadium - Columbia South Carolina
+2016-10-12,2016,R,,appalachian-state,louisiana,A,24,0,0,,,Cajun Field - Lafayette Louisiana
+2016-10-12,2016,R,,louisiana,appalachian-state,H,0,24,0,,,Cajun Field - Lafayette Louisiana
+2016-10-14,2016,R,,brigham-young,mississippi-state,H,28,21,0,,,Lavell Edwards Stadium - Provo Utah
+2016-10-14,2016,R,,mississippi-state,brigham-young,A,21,28,0,,,Lavell Edwards Stadium - Provo Utah
+2016-10-14,2016,R,,louisville,duke,H,24,14,0,7.0,,Papa John's Cardinal Stadium - Louisville Kentucky
+2016-10-14,2016,R,,duke,louisville,A,14,24,0,,7.0,Papa John's Cardinal Stadium - Louisville Kentucky
+2016-10-14,2016,R,,memphis,tulane,A,24,14,0,,,Yulman Stadium - New Orleans Louisiana
+2016-10-14,2016,R,,tulane,memphis,H,14,24,0,,,Yulman Stadium - New Orleans Louisiana
+2016-10-14,2016,R,,san-diego-state,fresno-state,A,17,3,0,,,Bulldog Stadium - Fresno California
+2016-10-14,2016,R,,fresno-state,san-diego-state,H,3,17,0,,,Bulldog Stadium - Fresno California
+2016-10-15,2016,R,,alabama,tennessee,A,49,10,0,1.0,9.0,Neyland Stadium - Knoxville Tennessee
+2016-10-15,2016,R,,tennessee,alabama,H,10,49,0,9.0,1.0,Neyland Stadium - Knoxville Tennessee
+2016-10-15,2016,R,,arkansas,mississippi,H,34,30,0,22.0,12.0,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2016-10-15,2016,R,,mississippi,arkansas,A,30,34,0,12.0,22.0,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2016-10-15,2016,R,,arkansas-state,south-alabama,H,17,7,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2016-10-15,2016,R,,south-alabama,arkansas-state,A,7,17,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2016-10-15,2016,R,,army,lafayette,H,62,7,0,,,Michie Stadium - West Point New York
+2016-10-15,2016,R,,lafayette,army,A,7,62,0,,,Michie Stadium - West Point New York
+2016-10-15,2016,R,,ball-state,buffalo,A,31,21,0,,,University of Buffalo Stadium - Buffalo New York
+2016-10-15,2016,R,,buffalo,ball-state,H,21,31,0,,,University of Buffalo Stadium - Buffalo New York
+2016-10-15,2016,R,,baylor,kansas,H,49,7,0,11.0,,McLane Stadium - Waco Texas
+2016-10-15,2016,R,,kansas,baylor,A,7,49,0,,11.0,McLane Stadium - Waco Texas
+2016-10-15,2016,R,,boise-state,colorado-state,H,28,23,0,15.0,,Albertsons Stadium - Boise Idaho
+2016-10-15,2016,R,,colorado-state,boise-state,A,23,28,0,,15.0,Albertsons Stadium - Boise Idaho
+2016-10-15,2016,R,,central-michigan,northern-illinois,A,34,28,0,,,Huskie Stadium - DeKalb Illinois
+2016-10-15,2016,R,,northern-illinois,central-michigan,H,28,34,0,,,Huskie Stadium - DeKalb Illinois
+2016-10-15,2016,R,,clemson,north-carolina-state,H,24,17,0,3.0,,Clemson Memorial Stadium - Clemson South Carolina
+2016-10-15,2016,R,,north-carolina-state,clemson,A,17,24,0,,3.0,Clemson Memorial Stadium - Clemson South Carolina
+2016-10-15,2016,R,,coastal-carolina,gardner-webb,A,17,7,0,,,
+2016-10-15,2016,R,,gardner-webb,coastal-carolina,H,7,17,0,,,
+2016-10-15,2016,R,,colorado,arizona-state,H,40,16,0,,,Folsom Field - Boulder Colorado
+2016-10-15,2016,R,,arizona-state,colorado,A,16,40,0,,,Folsom Field - Boulder Colorado
+2016-10-15,2016,R,,eastern-michigan,ohio,A,27,20,0,,,Peden Stadium - Athens Ohio
+2016-10-15,2016,R,,ohio,eastern-michigan,H,20,27,0,,,Peden Stadium - Athens Ohio
+2016-10-15,2016,R,,florida,missouri,H,40,14,0,18.0,,Ben Hill Griffin Stadium - Gainesville Florida
+2016-10-15,2016,R,,missouri,florida,A,14,40,0,,18.0,Ben Hill Griffin Stadium - Gainesville Florida
+2016-10-15,2016,R,,florida-international,charlotte,A,27,26,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2016-10-15,2016,R,,charlotte,florida-international,H,26,27,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2016-10-15,2016,R,,florida-state,wake-forest,H,17,6,0,14.0,,Doak Campbell Stadium - Tallahassee Florida
+2016-10-15,2016,R,,wake-forest,florida-state,A,6,17,0,,14.0,Doak Campbell Stadium - Tallahassee Florida
+2016-10-15,2016,R,,georgia-tech,georgia-southern,H,35,24,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2016-10-15,2016,R,,georgia-southern,georgia-tech,A,24,35,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2016-10-15,2016,R,,houston,tulsa,H,38,31,0,13.0,,TDECU Stadium - Houston Texas
+2016-10-15,2016,R,,tulsa,houston,A,31,38,0,,13.0,TDECU Stadium - Houston Texas
+2016-10-15,2016,R,,idaho,new-mexico-state,H,55,23,0,,,Kibbie Dome - Moscow Idaho
+2016-10-15,2016,R,,new-mexico-state,idaho,A,23,55,0,,,Kibbie Dome - Moscow Idaho
+2016-10-15,2016,R,,illinois,rutgers,A,24,7,0,,,High Points Solutions Stadium - Piscataway New Jersey
+2016-10-15,2016,R,,rutgers,illinois,H,7,24,0,,,High Points Solutions Stadium - Piscataway New Jersey
+2016-10-15,2016,R,,iowa,purdue,A,49,35,0,,,Ross Ade Stadium - West Lafayette Indiana
+2016-10-15,2016,R,,purdue,iowa,H,35,49,0,,,Ross Ade Stadium - West Lafayette Indiana
+2016-10-15,2016,R,,louisiana-state,southern-mississippi,H,45,10,0,,,Tiger Stadium - Baton Rouge Louisiana
+2016-10-15,2016,R,,southern-mississippi,louisiana-state,A,10,45,0,,,Tiger Stadium - Baton Rouge Louisiana
+2016-10-15,2016,R,,louisiana-tech,massachusetts,A,56,28,0,,,Gillette Stadium - Foxborough Massachusetts
+2016-10-15,2016,R,,massachusetts,louisiana-tech,H,28,56,0,,,Gillette Stadium - Foxborough Massachusetts
+2016-10-15,2016,R,,louisiana-monroe,texas-state,H,40,34,0,,,Malone Stadium - Monroe Louisiana
+2016-10-15,2016,R,,texas-state,louisiana-monroe,A,34,40,0,,,Malone Stadium - Monroe Louisiana
+2016-10-15,2016,R,,marshall,florida-atlantic,H,27,21,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2016-10-15,2016,R,,florida-atlantic,marshall,A,21,27,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2016-10-15,2016,R,,miami-oh,kent-state,H,18,14,0,,,Fred Yager Stadium - Oxford Ohio
+2016-10-15,2016,R,,kent-state,miami-oh,A,14,18,0,,,Fred Yager Stadium - Oxford Ohio
+2016-10-15,2016,R,,minnesota,maryland,A,31,10,0,,,Maryland Stadium - College Park Maryland
+2016-10-15,2016,R,,maryland,minnesota,H,10,31,0,,,Maryland Stadium - College Park Maryland
+2016-10-15,2016,R,,nebraska,indiana,A,27,22,0,10.0,,Memorial Stadium - Bloomington Indiana
+2016-10-15,2016,R,,indiana,nebraska,H,22,27,0,,10.0,Memorial Stadium - Bloomington Indiana
+2016-10-15,2016,R,,nevada-las-vegas,hawaii,A,41,38,0,,,Hawaiian Tel Federal Credit Union Field at Aloha Stadium - Honolulu Hawaii
+2016-10-15,2016,R,,hawaii,nevada-las-vegas,H,38,41,0,,,Hawaiian Tel Federal Credit Union Field at Aloha Stadium - Honolulu Hawaii
+2016-10-15,2016,R,,new-mexico,air-force,N,45,40,0,,,Cotton Bowl Stadium - Dallas Texas
+2016-10-15,2016,R,,air-force,new-mexico,N,40,45,0,,,Cotton Bowl Stadium - Dallas Texas
+2016-10-15,2016,R,,north-carolina,miami-fl,A,20,13,0,,16.0,Hard Rock Stadium - Miami Gardens Florida
+2016-10-15,2016,R,,miami-fl,north-carolina,H,13,20,0,16.0,,Hard Rock Stadium - Miami Gardens Florida
+2016-10-15,2016,R,,northwestern,michigan-state,A,54,40,0,,,Spartan Stadium - East Lansing Michigan
+2016-10-15,2016,R,,michigan-state,northwestern,H,40,54,0,,,Spartan Stadium - East Lansing Michigan
+2016-10-15,2016,R,,ohio-state,wisconsin,A,30,23,0,2.0,8.0,Camp Randall Stadium - Madison Wisconsin
+2016-10-15,2016,R,,wisconsin,ohio-state,H,23,30,0,8.0,2.0,Camp Randall Stadium - Madison Wisconsin
+2016-10-15,2016,R,,oklahoma,kansas-state,H,38,17,0,19.0,,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2016-10-15,2016,R,,kansas-state,oklahoma,A,17,38,0,,19.0,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2016-10-15,2016,R,,pittsburgh,virginia,A,45,31,0,,,Scott Stadium - Charlottesville Virginia
+2016-10-15,2016,R,,virginia,pittsburgh,H,31,45,0,,,Scott Stadium - Charlottesville Virginia
+2016-10-15,2016,R,,san-jose-state,nevada,H,14,10,0,,,CEFCU Stadium - San Jose California
+2016-10-15,2016,R,,nevada,san-jose-state,A,10,14,0,,,CEFCU Stadium - San Jose California
+2016-10-15,2016,R,,south-florida,connecticut,H,42,27,0,,,Raymond James Stadium - Tampa Florida
+2016-10-15,2016,R,,connecticut,south-florida,A,27,42,0,,,Raymond James Stadium - Tampa Florida
+2016-10-15,2016,R,,southern-california,arizona,A,48,14,0,,,Arizona Stadium - Tucson Arizona
+2016-10-15,2016,R,,arizona,southern-california,H,14,48,0,,,Arizona Stadium - Tucson Arizona
+2016-10-15,2016,R,,stanford,notre-dame,A,17,10,0,,,Notre Dame Stadium - South Bend Indiana
+2016-10-15,2016,R,,notre-dame,stanford,H,10,17,0,,,Notre Dame Stadium - South Bend Indiana
+2016-10-15,2016,R,,syracuse,virginia-tech,H,31,17,0,,17.0,Carrier Dome - Syracuse New York
+2016-10-15,2016,R,,virginia-tech,syracuse,A,17,31,0,17.0,,Carrier Dome - Syracuse New York
+2016-10-15,2016,R,,temple,central-florida,A,26,25,0,,,Bright House Networks Stadium - Orlando Florida
+2016-10-15,2016,R,,central-florida,temple,H,25,26,0,,,Bright House Networks Stadium - Orlando Florida
+2016-10-15,2016,R,,texas,iowa-state,H,27,6,0,,,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2016-10-15,2016,R,,iowa-state,texas,A,6,27,0,,,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2016-10-15,2016,R,,texas-san-antonio,rice,A,14,13,0,,,Rice Stadium - Houston Texas
+2016-10-15,2016,R,,rice,texas-san-antonio,H,13,14,0,,,Rice Stadium - Houston Texas
+2016-10-15,2016,R,,toledo,bowling-green,H,42,35,0,,,Glass Bowl - Toledo Ohio
+2016-10-15,2016,R,,bowling-green,toledo,A,35,42,0,,,Glass Bowl - Toledo Ohio
+2016-10-15,2016,R,,troy,georgia-state,H,31,21,0,,,Veterans Memorial Stadium - Troy Alabama
+2016-10-15,2016,R,,georgia-state,troy,A,21,31,0,,,Veterans Memorial Stadium - Troy Alabama
+2016-10-15,2016,R,,utah,oregon-state,A,19,14,0,21.0,,Reser Stadium - Corvallis Oregon
+2016-10-15,2016,R,,oregon-state,utah,H,14,19,0,,21.0,Reser Stadium - Corvallis Oregon
+2016-10-15,2016,R,,vanderbilt,georgia,A,17,16,0,,,Sanford Stadium - Athens Georgia
+2016-10-15,2016,R,,georgia,vanderbilt,H,16,17,0,,,Sanford Stadium - Athens Georgia
+2016-10-15,2016,R,,washington-state,ucla,H,27,21,0,,,Martin Stadium - Pullman Washington
+2016-10-15,2016,R,,ucla,washington-state,A,21,27,0,,,Martin Stadium - Pullman Washington
+2016-10-15,2016,R,,west-virginia,texas-tech,A,48,17,0,20.0,,Jones AT&T Stadium - Lubbock Texas
+2016-10-15,2016,R,,texas-tech,west-virginia,H,17,48,0,,20.0,Jones AT&T Stadium - Lubbock Texas
+2016-10-15,2016,R,,western-kentucky,middle-tennessee-state,A,44,43,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2016-10-15,2016,R,,middle-tennessee-state,western-kentucky,H,43,44,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2016-10-15,2016,R,,western-michigan,akron,A,41,0,0,24.0,,InfoCision Stadium - Akron Ohio
+2016-10-15,2016,R,,akron,western-michigan,H,0,41,0,,24.0,InfoCision Stadium - Akron Ohio
+2016-10-20,2016,R,,boise-state,brigham-young,H,28,27,0,14.0,,Albertsons Stadium - Boise Idaho
+2016-10-20,2016,R,,brigham-young,boise-state,A,27,28,0,,14.0,Albertsons Stadium - Boise Idaho
+2016-10-20,2016,R,,troy,south-alabama,A,28,21,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2016-10-20,2016,R,,south-alabama,troy,H,21,28,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2016-10-20,2016,R,,virginia-tech,miami-fl,H,37,16,0,,,Lane Stadium - Blacksburg Virginia
+2016-10-20,2016,R,,miami-fl,virginia-tech,A,16,37,0,,,Lane Stadium - Blacksburg Virginia
+2016-10-21,2016,R,,california,oregon,H,52,49,0,,,Memorial Stadium - Berkeley California
+2016-10-21,2016,R,,oregon,california,A,49,52,0,,,Memorial Stadium - Berkeley California
+2016-10-21,2016,R,,san-diego-state,san-jose-state,H,42,3,0,,,Qualcomm Stadium - San Diego California
+2016-10-21,2016,R,,san-jose-state,san-diego-state,A,3,42,0,,,Qualcomm Stadium - San Diego California
+2016-10-21,2016,R,,temple,south-florida,H,46,30,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2016-10-21,2016,R,,south-florida,temple,A,30,46,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2016-10-22,2016,R,,akron,ball-state,A,35,25,0,,,Scheumann Stadium - Muncie Indiana
+2016-10-22,2016,R,,ball-state,akron,H,25,35,0,,,Scheumann Stadium - Muncie Indiana
+2016-10-22,2016,R,,alabama,texas-a-m,H,33,14,0,1.0,6.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2016-10-22,2016,R,,texas-a-m,alabama,A,14,33,0,6.0,1.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2016-10-22,2016,R,,appalachian-state,idaho,H,37,19,0,,,Kidd Brewer Stadium - Boone North Carolina
+2016-10-22,2016,R,,idaho,appalachian-state,A,19,37,0,,,Kidd Brewer Stadium - Boone North Carolina
+2016-10-22,2016,R,,auburn,arkansas,H,56,3,0,21.0,17.0,Jordan Hare Stadium - Auburn Alabama
+2016-10-22,2016,R,,arkansas,auburn,A,3,56,0,17.0,21.0,Jordan Hare Stadium - Auburn Alabama
+2016-10-22,2016,R,,central-florida,connecticut,A,24,16,0,,,Rentschler Field - East Hartford Connecticut
+2016-10-22,2016,R,,connecticut,central-florida,H,16,24,0,,,Rentschler Field - East Hartford Connecticut
+2016-10-22,2016,R,,charlotte,marshall,A,27,24,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2016-10-22,2016,R,,marshall,charlotte,H,24,27,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2016-10-22,2016,R,,cincinnati,east-carolina,H,31,19,0,,,Nippert Stadium - Cincinnati Ohio
+2016-10-22,2016,R,,east-carolina,cincinnati,A,19,31,0,,,Nippert Stadium - Cincinnati Ohio
+2016-10-22,2016,R,,colorado,stanford,A,10,5,0,,,Stanford Stadium - Stanford California
+2016-10-22,2016,R,,stanford,colorado,H,5,10,0,,,Stanford Stadium - Stanford California
+2016-10-22,2016,R,,colorado-state,nevada-las-vegas,A,42,23,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2016-10-22,2016,R,,nevada-las-vegas,colorado-state,H,23,42,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2016-10-22,2016,R,,georgia-southern,new-mexico-state,A,22,19,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2016-10-22,2016,R,,new-mexico-state,georgia-southern,H,19,22,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2016-10-22,2016,R,,georgia-state,tennessee-martin,H,31,6,0,,,Georgia Dome - Atlanta Georgia
+2016-10-22,2016,R,,tennessee-martin,georgia-state,A,6,31,0,,,Georgia Dome - Atlanta Georgia
+2016-10-22,2016,R,,hawaii,air-force,A,34,27,0,,,Falcon Stadium - Colorado Springs Colorado
+2016-10-22,2016,R,,air-force,hawaii,H,27,34,0,,,Falcon Stadium - Colorado Springs Colorado
+2016-10-22,2016,R,,kansas-state,texas,H,24,21,0,,,Bill Snyder Family Football Stadium - Manhattan Kansas
+2016-10-22,2016,R,,texas,kansas-state,A,21,24,0,,,Bill Snyder Family Football Stadium - Manhattan Kansas
+2016-10-22,2016,R,,kentucky,mississippi-state,H,40,38,0,,,Commonwealth Stadium - Lexington Kentucky
+2016-10-22,2016,R,,mississippi-state,kentucky,A,38,40,0,,,Commonwealth Stadium - Lexington Kentucky
+2016-10-22,2016,R,,louisiana,texas-state,A,27,3,0,,,Bobcat Stadium - San Marcos Texas
+2016-10-22,2016,R,,texas-state,louisiana,H,3,27,0,,,Bobcat Stadium - San Marcos Texas
+2016-10-22,2016,R,,louisiana-state,mississippi,H,38,21,0,25.0,23.0,Tiger Stadium - Baton Rouge Louisiana
+2016-10-22,2016,R,,mississippi,louisiana-state,A,21,38,0,23.0,25.0,Tiger Stadium - Baton Rouge Louisiana
+2016-10-22,2016,R,,louisiana-tech,florida-international,A,44,24,0,,,FIU Stadium - Miami Florida
+2016-10-22,2016,R,,florida-international,louisiana-tech,H,24,44,0,,,FIU Stadium - Miami Florida
+2016-10-22,2016,R,,louisville,north-carolina-state,H,54,13,0,7.0,,Papa John's Cardinal Stadium - Louisville Kentucky
+2016-10-22,2016,R,,north-carolina-state,louisville,A,13,54,0,,7.0,Papa John's Cardinal Stadium - Louisville Kentucky
+2016-10-22,2016,R,,maryland,michigan-state,H,28,17,0,,,Maryland Stadium - College Park Maryland
+2016-10-22,2016,R,,michigan-state,maryland,A,17,28,0,,,Maryland Stadium - College Park Maryland
+2016-10-22,2016,R,,miami-oh,bowling-green,A,40,26,0,,,Doyt L. Perry Stadium - Bowling Green Ohio
+2016-10-22,2016,R,,bowling-green,miami-oh,H,26,40,0,,,Doyt L. Perry Stadium - Bowling Green Ohio
+2016-10-22,2016,R,,michigan,illinois,H,41,8,0,3.0,,Michigan Stadium - Ann Arbor Michigan
+2016-10-22,2016,R,,illinois,michigan,A,8,41,0,,3.0,Michigan Stadium - Ann Arbor Michigan
+2016-10-22,2016,R,,middle-tennessee-state,missouri,A,51,45,0,,,Faurot Field - Columbia Missouri
+2016-10-22,2016,R,,missouri,middle-tennessee-state,H,45,51,0,,,Faurot Field - Columbia Missouri
+2016-10-22,2016,R,,minnesota,rutgers,H,34,32,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2016-10-22,2016,R,,rutgers,minnesota,A,32,34,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2016-10-22,2016,R,,navy,memphis,H,42,28,0,24.0,,Navy Marine Corps Memorial Stadium - Annapolis Maryland
+2016-10-22,2016,R,,memphis,navy,A,28,42,0,,24.0,Navy Marine Corps Memorial Stadium - Annapolis Maryland
+2016-10-22,2016,R,,nebraska,purdue,H,27,14,0,8.0,,Memorial Stadium - Lincoln Nebraska
+2016-10-22,2016,R,,purdue,nebraska,A,14,27,0,,8.0,Memorial Stadium - Lincoln Nebraska
+2016-10-22,2016,R,,new-mexico,louisiana-monroe,H,59,17,0,,,University Stadium - Albuquerque New Mexico
+2016-10-22,2016,R,,louisiana-monroe,new-mexico,A,17,59,0,,,University Stadium - Albuquerque New Mexico
+2016-10-22,2016,R,,north-carolina,virginia,A,35,14,0,22.0,,Scott Stadium - Charlottesville Virginia
+2016-10-22,2016,R,,virginia,north-carolina,H,14,35,0,,22.0,Scott Stadium - Charlottesville Virginia
+2016-10-22,2016,R,,north-texas,army,A,35,18,0,,,Michie Stadium - West Point New York
+2016-10-22,2016,R,,army,north-texas,H,18,35,0,,,Michie Stadium - West Point New York
+2016-10-22,2016,R,,northern-illinois,buffalo,H,44,7,0,,,Huskie Stadium - DeKalb Illinois
+2016-10-22,2016,R,,buffalo,northern-illinois,A,7,44,0,,,Huskie Stadium - DeKalb Illinois
+2016-10-22,2016,R,,northwestern,indiana,H,24,14,0,,,Ryan Field - Evanston Illinois
+2016-10-22,2016,R,,indiana,northwestern,A,14,24,0,,,Ryan Field - Evanston Illinois
+2016-10-22,2016,R,,ohio,kent-state,A,14,10,0,,,Dix Stadium - Kent Ohio
+2016-10-22,2016,R,,kent-state,ohio,H,10,14,0,,,Dix Stadium - Kent Ohio
+2016-10-22,2016,R,,oklahoma,texas-tech,A,66,59,0,16.0,,Jones AT&T Stadium - Lubbock Texas
+2016-10-22,2016,R,,texas-tech,oklahoma,H,59,66,0,,16.0,Jones AT&T Stadium - Lubbock Texas
+2016-10-22,2016,R,,oklahoma-state,kansas,A,44,20,0,,,Memorial Stadium - Lawrence Kansas
+2016-10-22,2016,R,,kansas,oklahoma-state,H,20,44,0,,,Memorial Stadium - Lawrence Kansas
+2016-10-22,2016,R,,penn-state,ohio-state,H,24,21,0,,2.0,Beaver Stadium - University Park Pennsylvania
+2016-10-22,2016,R,,ohio-state,penn-state,A,21,24,0,2.0,,Beaver Stadium - University Park Pennsylvania
+2016-10-22,2016,R,,rice,prairie-view-a-m,H,65,44,0,,,Rice Stadium - Houston Texas
+2016-10-22,2016,R,,prairie-view-a-m,rice,A,44,65,0,,,Rice Stadium - Houston Texas
+2016-10-22,2016,R,,south-carolina,massachusetts,H,34,28,0,,,Williams-Brice Stadium - Columbia South Carolina
+2016-10-22,2016,R,,massachusetts,south-carolina,A,28,34,0,,,Williams-Brice Stadium - Columbia South Carolina
+2016-10-22,2016,R,,southern-methodist,houston,H,38,16,0,,11.0,Gerald J. Ford Stadium - Dallas Texas
+2016-10-22,2016,R,,houston,southern-methodist,A,16,38,0,11.0,,Gerald J. Ford Stadium - Dallas Texas
+2016-10-22,2016,R,,syracuse,boston-college,A,28,20,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2016-10-22,2016,R,,boston-college,syracuse,H,20,28,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2016-10-22,2016,R,,texas-el-paso,texas-san-antonio,A,52,49,0,,,Alamodome - San Antonio Texas
+2016-10-22,2016,R,,texas-san-antonio,texas-el-paso,H,49,52,0,,,Alamodome - San Antonio Texas
+2016-10-22,2016,R,,toledo,central-michigan,H,31,17,0,,,Glass Bowl - Toledo Ohio
+2016-10-22,2016,R,,central-michigan,toledo,A,17,31,0,,,Glass Bowl - Toledo Ohio
+2016-10-22,2016,R,,tulsa,tulane,H,50,27,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2016-10-22,2016,R,,tulane,tulsa,A,27,50,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2016-10-22,2016,R,,utah,ucla,A,52,45,0,19.0,,Rose Bowl - Pasadena California
+2016-10-22,2016,R,,ucla,utah,H,45,52,0,,19.0,Rose Bowl - Pasadena California
+2016-10-22,2016,R,,utah-state,fresno-state,H,38,20,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2016-10-22,2016,R,,fresno-state,utah-state,A,20,38,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2016-10-22,2016,R,,vanderbilt,tennessee-state,H,35,17,0,,,Vanderbilt Stadium - Nashville Tennessee
+2016-10-22,2016,R,,tennessee-state,vanderbilt,A,17,35,0,,,Vanderbilt Stadium - Nashville Tennessee
+2016-10-22,2016,R,,washington,oregon-state,H,41,17,0,5.0,,Husky Stadium - Seattle Washington
+2016-10-22,2016,R,,oregon-state,washington,A,17,41,0,,5.0,Husky Stadium - Seattle Washington
+2016-10-22,2016,R,,washington-state,arizona-state,A,37,32,0,,,Sun Devil Stadium - Tempe Arizona
+2016-10-22,2016,R,,arizona-state,washington-state,H,32,37,0,,,Sun Devil Stadium - Tempe Arizona
+2016-10-22,2016,R,,west-virginia,texas-christian,H,34,10,0,12.0,,Milan Puskar Stadium - Morgantown West Virginia
+2016-10-22,2016,R,,texas-christian,west-virginia,A,10,34,0,,12.0,Milan Puskar Stadium - Morgantown West Virginia
+2016-10-22,2016,R,,western-kentucky,old-dominion,H,59,24,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2016-10-22,2016,R,,old-dominion,western-kentucky,A,24,59,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2016-10-22,2016,R,,western-michigan,eastern-michigan,H,45,31,0,20.0,,Waldo Stadium - Kalamazoo Michigan
+2016-10-22,2016,R,,eastern-michigan,western-michigan,A,31,45,0,,20.0,Waldo Stadium - Kalamazoo Michigan
+2016-10-22,2016,R,,wisconsin,iowa,A,17,9,0,10.0,,Kinnick Stadium - Iowa City Iowa
+2016-10-22,2016,R,,iowa,wisconsin,H,9,17,0,,10.0,Kinnick Stadium - Iowa City Iowa
+2016-10-22,2016,R,,wyoming,nevada,A,42,34,0,,,MacKay Stadium - Reno Nevada
+2016-10-22,2016,R,,nevada,wyoming,H,34,42,0,,,MacKay Stadium - Reno Nevada
+2016-10-27,2016,R,,appalachian-state,georgia-southern,A,34,10,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2016-10-27,2016,R,,georgia-southern,appalachian-state,H,10,34,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2016-10-27,2016,R,,buffalo,akron,H,41,20,0,,,University of Buffalo Stadium - Buffalo New York
+2016-10-27,2016,R,,akron,buffalo,A,20,41,0,,,University of Buffalo Stadium - Buffalo New York
+2016-10-27,2016,R,,ohio,toledo,A,31,26,0,,,Glass Bowl - Toledo Ohio
+2016-10-27,2016,R,,toledo,ohio,H,26,31,0,,,Glass Bowl - Toledo Ohio
+2016-10-27,2016,R,,southern-california,california,H,45,24,0,,,Los Angeles Memorial Coliseum - Los Angeles California
+2016-10-27,2016,R,,california,southern-california,A,24,45,0,,,Los Angeles Memorial Coliseum - Los Angeles California
+2016-10-27,2016,R,,virginia-tech,pittsburgh,A,39,36,0,25.0,,Heinz Field - Pittsburgh Pennsylvania
+2016-10-27,2016,R,,pittsburgh,virginia-tech,H,36,39,0,,25.0,Heinz Field - Pittsburgh Pennsylvania
+2016-10-28,2016,R,,air-force,fresno-state,A,31,21,0,,,Bulldog Stadium - Fresno California
+2016-10-28,2016,R,,fresno-state,air-force,H,21,31,0,,,Bulldog Stadium - Fresno California
+2016-10-28,2016,R,,san-diego-state,utah-state,A,40,13,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2016-10-28,2016,R,,utah-state,san-diego-state,H,13,40,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2016-10-28,2016,R,,south-florida,navy,H,52,45,0,,22.0,Raymond James Stadium - Tampa Florida
+2016-10-28,2016,R,,navy,south-florida,A,45,52,0,22.0,,Raymond James Stadium - Tampa Florida
+2016-10-29,2016,R,,arkansas-state,louisiana-monroe,H,51,10,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2016-10-29,2016,R,,louisiana-monroe,arkansas-state,A,10,51,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2016-10-29,2016,R,,army,wake-forest,A,21,13,0,,,BB&T Field - Winston-Salem North Carolina
+2016-10-29,2016,R,,wake-forest,army,H,13,21,0,,,BB&T Field - Winston-Salem North Carolina
+2016-10-29,2016,R,,auburn,mississippi,A,40,29,0,15.0,,Vaught-Hemingway Stadium - Oxford Mississippi
+2016-10-29,2016,R,,mississippi,auburn,H,29,40,0,,15.0,Vaught-Hemingway Stadium - Oxford Mississippi
+2016-10-29,2016,R,,boston-college,north-carolina-state,A,21,14,0,,,Carter Finley Stadium - Raleigh North Carolina
+2016-10-29,2016,R,,north-carolina-state,boston-college,H,14,21,0,,,Carter Finley Stadium - Raleigh North Carolina
+2016-10-29,2016,R,,clemson,florida-state,A,37,34,0,3.0,12.0,Doak Campbell Stadium - Tallahassee Florida
+2016-10-29,2016,R,,florida-state,clemson,H,34,37,0,12.0,3.0,Doak Campbell Stadium - Tallahassee Florida
+2016-10-29,2016,R,,coastal-carolina,presbyterian,A,48,17,0,,,
+2016-10-29,2016,R,,presbyterian,coastal-carolina,H,17,48,0,,,
+2016-10-29,2016,R,,east-carolina,connecticut,H,41,3,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2016-10-29,2016,R,,connecticut,east-carolina,A,3,41,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2016-10-29,2016,R,,florida,georgia,N,24,10,0,14.0,,EverBank Field - Jacksonville Florida
+2016-10-29,2016,R,,georgia,florida,N,10,24,0,,14.0,EverBank Field - Jacksonville Florida
+2016-10-29,2016,R,,georgia-tech,duke,H,38,35,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2016-10-29,2016,R,,duke,georgia-tech,A,35,38,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2016-10-29,2016,R,,houston,central-florida,H,31,24,0,,,TDECU Stadium - Houston Texas
+2016-10-29,2016,R,,central-florida,houston,A,24,31,0,,,TDECU Stadium - Houston Texas
+2016-10-29,2016,R,,indiana,maryland,H,42,36,0,,,Memorial Stadium - Bloomington Indiana
+2016-10-29,2016,R,,maryland,indiana,A,36,42,0,,,Memorial Stadium - Bloomington Indiana
+2016-10-29,2016,R,,kansas-state,iowa-state,A,31,26,0,,,Jack Trice Stadium - Ames Iowa
+2016-10-29,2016,R,,iowa-state,kansas-state,H,26,31,0,,,Jack Trice Stadium - Ames Iowa
+2016-10-29,2016,R,,kent-state,central-michigan,A,27,24,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2016-10-29,2016,R,,central-michigan,kent-state,H,24,27,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2016-10-29,2016,R,,kentucky,missouri,A,35,21,0,,,Faurot Field - Columbia Missouri
+2016-10-29,2016,R,,missouri,kentucky,H,21,35,0,,,Faurot Field - Columbia Missouri
+2016-10-29,2016,R,,louisiana-tech,rice,H,61,16,0,,,Joe Aillet Stadium - Ruston Louisiana
+2016-10-29,2016,R,,rice,louisiana-tech,A,16,61,0,,,Joe Aillet Stadium - Ruston Louisiana
+2016-10-29,2016,R,,louisville,virginia,A,32,25,0,5.0,,Scott Stadium - Charlottesville Virginia
+2016-10-29,2016,R,,virginia,louisville,H,25,32,0,,5.0,Scott Stadium - Charlottesville Virginia
+2016-10-29,2016,R,,massachusetts,wagner,H,34,10,0,,,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+2016-10-29,2016,R,,wagner,massachusetts,A,10,34,0,,,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+2016-10-29,2016,R,,miami-oh,eastern-michigan,A,28,15,0,,,Rynearson Stadium - Ypsilanti Michigan
+2016-10-29,2016,R,,eastern-michigan,miami-oh,H,15,28,0,,,Rynearson Stadium - Ypsilanti Michigan
+2016-10-29,2016,R,,michigan,michigan-state,A,32,23,0,2.0,,Spartan Stadium - East Lansing Michigan
+2016-10-29,2016,R,,michigan-state,michigan,H,23,32,0,,2.0,Spartan Stadium - East Lansing Michigan
+2016-10-29,2016,R,,middle-tennessee-state,florida-international,A,42,35,0,,,FIU Stadium - Miami Florida
+2016-10-29,2016,R,,florida-international,middle-tennessee-state,H,35,42,0,,,FIU Stadium - Miami Florida
+2016-10-29,2016,R,,minnesota,illinois,A,40,17,0,,,Memorial Stadium - Champaign Illinois
+2016-10-29,2016,R,,illinois,minnesota,H,17,40,0,,,Memorial Stadium - Champaign Illinois
+2016-10-29,2016,R,,mississippi-state,samford,H,56,41,0,,,Davis Wade Stadium - Starkville Mississippi
+2016-10-29,2016,R,,samford,mississippi-state,A,41,56,0,,,Davis Wade Stadium - Starkville Mississippi
+2016-10-29,2016,R,,new-mexico,hawaii,A,28,21,0,,,Hawaiian Tel Federal Credit Union Field at Aloha Stadium - Honolulu Hawaii
+2016-10-29,2016,R,,hawaii,new-mexico,H,21,28,0,,,Hawaiian Tel Federal Credit Union Field at Aloha Stadium - Honolulu Hawaii
+2016-10-29,2016,R,,notre-dame,miami-fl,H,30,27,0,,,Notre Dame Stadium - South Bend Indiana
+2016-10-29,2016,R,,miami-fl,notre-dame,A,27,30,0,,,Notre Dame Stadium - South Bend Indiana
+2016-10-29,2016,R,,ohio-state,northwestern,H,24,20,0,6.0,,Ohio Stadium - Columbus Ohio
+2016-10-29,2016,R,,northwestern,ohio-state,A,20,24,0,,6.0,Ohio Stadium - Columbus Ohio
+2016-10-29,2016,R,,oklahoma,kansas,H,56,3,0,16.0,,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2016-10-29,2016,R,,kansas,oklahoma,A,3,56,0,,16.0,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2016-10-29,2016,R,,oklahoma-state,west-virginia,H,37,20,0,,10.0,Boone Pickens Stadium - Stillwater Oklahoma
+2016-10-29,2016,R,,west-virginia,oklahoma-state,A,20,37,0,10.0,,Boone Pickens Stadium - Stillwater Oklahoma
+2016-10-29,2016,R,,old-dominion,texas-el-paso,A,31,21,0,,,Sun Bowl Stadium - El Paso Texas
+2016-10-29,2016,R,,texas-el-paso,old-dominion,H,21,31,0,,,Sun Bowl Stadium - El Paso Texas
+2016-10-29,2016,R,,oregon,arizona-state,H,54,35,0,,,Autzen Stadium - Eugene Oregon
+2016-10-29,2016,R,,arizona-state,oregon,A,35,54,0,,,Autzen Stadium - Eugene Oregon
+2016-10-29,2016,R,,penn-state,purdue,A,62,24,0,24.0,,Ross-Ade Stadium - West Lafayette Indiana
+2016-10-29,2016,R,,purdue,penn-state,H,24,62,0,,24.0,Ross-Ade Stadium - West Lafayette Indiana
+2016-10-29,2016,R,,san-jose-state,nevada-las-vegas,H,30,24,0,,,CEFCU Stadium - San Jose California
+2016-10-29,2016,R,,nevada-las-vegas,san-jose-state,A,24,30,0,,,CEFCU Stadium - San Jose California
+2016-10-29,2016,R,,south-alabama,georgia-state,H,13,10,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2016-10-29,2016,R,,georgia-state,south-alabama,A,10,13,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2016-10-29,2016,R,,south-carolina,tennessee,H,24,21,0,,18.0,Williams-Brice Stadium - Columbia South Carolina
+2016-10-29,2016,R,,tennessee,south-carolina,A,21,24,0,18.0,,Williams-Brice Stadium - Columbia South Carolina
+2016-10-29,2016,R,,southern-methodist,tulane,A,35,31,0,,,Yulman Stadium - New Orleans Louisiana
+2016-10-29,2016,R,,tulane,southern-methodist,H,31,35,0,,,Yulman Stadium - New Orleans Louisiana
+2016-10-29,2016,R,,southern-mississippi,marshall,H,24,14,0,,,M.M. Roberts Stadium - Hattiesburg Mississippi
+2016-10-29,2016,R,,marshall,southern-mississippi,A,14,24,0,,,M.M. Roberts Stadium - Hattiesburg Mississippi
+2016-10-29,2016,R,,stanford,arizona,A,34,10,0,,,Arizona Stadium - Tucson Arizona
+2016-10-29,2016,R,,arizona,stanford,H,10,34,0,,,Arizona Stadium - Tucson Arizona
+2016-10-29,2016,R,,temple,cincinnati,H,34,13,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2016-10-29,2016,R,,cincinnati,temple,A,13,34,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2016-10-29,2016,R,,texas,baylor,H,35,34,0,,8.0,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2016-10-29,2016,R,,baylor,texas,A,34,35,0,8.0,,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2016-10-29,2016,R,,texas-a-m,new-mexico-state,H,52,10,0,9.0,,Kyle Field - College Station Texas
+2016-10-29,2016,R,,new-mexico-state,texas-a-m,A,10,52,0,,9.0,Kyle Field - College Station Texas
+2016-10-29,2016,R,,texas-tech,texas-christian,A,27,24,0,,,Amon G. Carter Stadium - Fort Worth Texas
+2016-10-29,2016,R,,texas-christian,texas-tech,H,24,27,0,,,Amon G. Carter Stadium - Fort Worth Texas
+2016-10-29,2016,R,,texas-san-antonio,north-texas,H,31,17,0,,,Alamodome - San Antonio Texas
+2016-10-29,2016,R,,north-texas,texas-san-antonio,A,17,31,0,,,Alamodome - San Antonio Texas
+2016-10-29,2016,R,,tulsa,memphis,A,59,30,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2016-10-29,2016,R,,memphis,tulsa,H,30,59,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2016-10-29,2016,R,,washington,utah,A,31,24,0,4.0,17.0,Rice-Eccles Stadium - Salt Lake City Utah
+2016-10-29,2016,R,,utah,washington,H,24,31,0,17.0,4.0,Rice-Eccles Stadium - Salt Lake City Utah
+2016-10-29,2016,R,,washington-state,oregon-state,A,35,31,0,,,Reser Stadium - Corvallis Oregon
+2016-10-29,2016,R,,oregon-state,washington-state,H,31,35,0,,,Reser Stadium - Corvallis Oregon
+2016-10-29,2016,R,,western-kentucky,florida-atlantic,A,52,3,0,,,FAU Football Stadium - Boca Raton Florida
+2016-10-29,2016,R,,florida-atlantic,western-kentucky,H,3,52,0,,,FAU Football Stadium - Boca Raton Florida
+2016-10-29,2016,R,,wisconsin,nebraska,H,23,17,0,11.0,7.0,Camp Randall Stadium - Madison Wisconsin
+2016-10-29,2016,R,,nebraska,wisconsin,A,17,23,0,7.0,11.0,Camp Randall Stadium - Madison Wisconsin
+2016-10-29,2016,R,,wyoming,boise-state,H,30,28,0,,13.0,War Memorial Stadium - Laramie Wyoming
+2016-10-29,2016,R,,boise-state,wyoming,A,28,30,0,13.0,,War Memorial Stadium - Laramie Wyoming
+2016-11-01,2016,R,,northern-illinois,bowling-green,H,45,20,0,,,Huskie Stadium - DeKalb Illinois
+2016-11-01,2016,R,,bowling-green,northern-illinois,A,20,45,0,,,Huskie Stadium - DeKalb Illinois
+2016-11-01,2016,R,,western-michigan,ball-state,A,52,20,0,17.0,,Scheumann Stadium - Muncie Indiana
+2016-11-01,2016,R,,ball-state,western-michigan,H,20,52,0,,17.0,Scheumann Stadium - Muncie Indiana
+2016-11-02,2016,R,,toledo,akron,A,48,17,0,,,InfoCision Stadium - Akron Ohio
+2016-11-02,2016,R,,akron,toledo,H,17,48,0,,,InfoCision Stadium - Akron Ohio
+2016-11-03,2016,R,,arkansas-state,georgia-state,A,31,16,0,,,Georgia Dome - Atlanta Georgia
+2016-11-03,2016,R,,georgia-state,arkansas-state,H,16,31,0,,,Georgia Dome - Atlanta Georgia
+2016-11-03,2016,R,,colorado,ucla,H,20,10,0,21.0,,Folsom Field - Boulder Colorado
+2016-11-03,2016,R,,ucla,colorado,A,10,20,0,,21.0,Folsom Field - Boulder Colorado
+2016-11-03,2016,R,,ohio,buffalo,H,34,10,0,,,Peden Stadium - Athens Ohio
+2016-11-03,2016,R,,buffalo,ohio,A,10,34,0,,,Peden Stadium - Athens Ohio
+2016-11-03,2016,R,,oklahoma,iowa-state,A,34,24,0,12.0,,Jack Trice Stadium - Ames Iowa
+2016-11-03,2016,R,,iowa-state,oklahoma,H,24,34,0,,12.0,Jack Trice Stadium - Ames Iowa
+2016-11-04,2016,R,,boise-state,san-jose-state,H,45,31,0,24.0,,Albertsons Stadium - Boise Idaho
+2016-11-04,2016,R,,san-jose-state,boise-state,A,31,45,0,,24.0,Albertsons Stadium - Boise Idaho
+2016-11-04,2016,R,,miami-oh,central-michigan,H,37,17,0,,,Fred Yager Stadium - Oxford Ohio
+2016-11-04,2016,R,,central-michigan,miami-oh,A,17,37,0,,,Fred Yager Stadium - Oxford Ohio
+2016-11-04,2016,R,,temple,connecticut,A,21,0,0,,,Rentschler Field - East Hartford Connecticut
+2016-11-04,2016,R,,connecticut,temple,H,0,21,0,,,Rentschler Field - East Hartford Connecticut
+2016-11-05,2016,R,,air-force,army,A,31,12,0,,,Michie Stadium - West Point New York
+2016-11-05,2016,R,,army,air-force,H,12,31,0,,,Michie Stadium - West Point New York
+2016-11-05,2016,R,,alabama,louisiana-state,A,10,0,0,1.0,15.0,Tiger Stadium - Baton Rouge Louisiana
+2016-11-05,2016,R,,louisiana-state,alabama,H,0,10,0,15.0,1.0,Tiger Stadium - Baton Rouge Louisiana
+2016-11-05,2016,R,,appalachian-state,texas-state,H,35,10,0,,,Kidd Brewer Stadium - Boone North Carolina
+2016-11-05,2016,R,,texas-state,appalachian-state,A,10,35,0,,,Kidd Brewer Stadium - Boone North Carolina
+2016-11-05,2016,R,,arkansas,florida,H,31,10,0,,10.0,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2016-11-05,2016,R,,florida,arkansas,A,10,31,0,10.0,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2016-11-05,2016,R,,auburn,vanderbilt,H,23,16,0,11.0,,Jordan Hare Stadium - Auburn Alabama
+2016-11-05,2016,R,,vanderbilt,auburn,A,16,23,0,,11.0,Jordan Hare Stadium - Auburn Alabama
+2016-11-05,2016,R,,brigham-young,cincinnati,A,20,3,0,,,Nippert Stadium - Cincinnati Ohio
+2016-11-05,2016,R,,cincinnati,brigham-young,H,3,20,0,,,Nippert Stadium - Cincinnati Ohio
+2016-11-05,2016,R,,central-florida,tulane,H,37,6,0,,,Bright House Networks Stadium - Orlando Florida
+2016-11-05,2016,R,,tulane,central-florida,A,6,37,0,,,Bright House Networks Stadium - Orlando Florida
+2016-11-05,2016,R,,charlotte,southern-mississippi,A,38,27,0,,,M.M. Roberts Stadium - Hattiesburg Mississippi
+2016-11-05,2016,R,,southern-mississippi,charlotte,H,27,38,0,,,M.M. Roberts Stadium - Hattiesburg Mississippi
+2016-11-05,2016,R,,clemson,syracuse,H,54,0,0,3.0,,Clemson Memorial Stadium - Clemson South Carolina
+2016-11-05,2016,R,,syracuse,clemson,A,0,54,0,,3.0,Clemson Memorial Stadium - Clemson South Carolina
+2016-11-05,2016,R,,coastal-carolina,monmouth,H,38,17,0,,,
+2016-11-05,2016,R,,monmouth,coastal-carolina,A,17,38,0,,,
+2016-11-05,2016,R,,colorado-state,fresno-state,H,37,0,0,,,Sonny Lubick Field at Hughes Stadium - Fort Collins Colorado
+2016-11-05,2016,R,,fresno-state,colorado-state,A,0,37,0,,,Sonny Lubick Field at Hughes Stadium - Fort Collins Colorado
+2016-11-05,2016,R,,florida-atlantic,rice,A,42,25,0,,,Rice Stadium - Houston Texas
+2016-11-05,2016,R,,rice,florida-atlantic,H,25,42,0,,,Rice Stadium - Houston Texas
+2016-11-05,2016,R,,florida-state,north-carolina-state,A,24,20,0,19.0,,Carter Finley Stadium - Raleigh North Carolina
+2016-11-05,2016,R,,north-carolina-state,florida-state,H,20,24,0,,19.0,Carter Finley Stadium - Raleigh North Carolina
+2016-11-05,2016,R,,georgia,kentucky,A,27,24,0,,,Commonwealth Stadium - Lexington Kentucky
+2016-11-05,2016,R,,kentucky,georgia,H,24,27,0,,,Commonwealth Stadium - Lexington Kentucky
+2016-11-05,2016,R,,idaho,louisiana,A,23,13,0,,,Cajun Field - Lafayette Louisiana
+2016-11-05,2016,R,,louisiana,idaho,H,13,23,0,,,Cajun Field - Lafayette Louisiana
+2016-11-05,2016,R,,illinois,michigan-state,H,31,27,0,,,Memorial Stadium - Champaign Illinois
+2016-11-05,2016,R,,michigan-state,illinois,A,27,31,0,,,Memorial Stadium - Champaign Illinois
+2016-11-05,2016,R,,indiana,rutgers,A,33,27,0,,,High Points Solutions Stadium - Piscataway New Jersey
+2016-11-05,2016,R,,rutgers,indiana,H,27,33,0,,,High Points Solutions Stadium - Piscataway New Jersey
+2016-11-05,2016,R,,louisiana-tech,north-texas,A,45,24,0,,,Apogee Stadium - Denton Texas
+2016-11-05,2016,R,,north-texas,louisiana-tech,H,24,45,0,,,Apogee Stadium - Denton Texas
+2016-11-05,2016,R,,louisiana-monroe,south-alabama,H,42,35,0,,,Malone Stadium - Monroe Louisiana
+2016-11-05,2016,R,,south-alabama,louisiana-monroe,A,35,42,0,,,Malone Stadium - Monroe Louisiana
+2016-11-05,2016,R,,louisville,boston-college,A,52,7,0,5.0,,Alumni Stadium - Chestnut Hill Massachusetts
+2016-11-05,2016,R,,boston-college,louisville,H,7,52,0,,5.0,Alumni Stadium - Chestnut Hill Massachusetts
+2016-11-05,2016,R,,memphis,southern-methodist,A,51,7,0,,,Gerald J. Ford Stadium - Dallas Texas
+2016-11-05,2016,R,,southern-methodist,memphis,H,7,51,0,,,Gerald J. Ford Stadium - Dallas Texas
+2016-11-05,2016,R,,miami-fl,pittsburgh,H,51,28,0,,,Hard Rock Stadium - Miami Gardens Florida
+2016-11-05,2016,R,,pittsburgh,miami-fl,A,28,51,0,,,Hard Rock Stadium - Miami Gardens Florida
+2016-11-05,2016,R,,michigan,maryland,H,59,3,0,2.0,,Michigan Stadium - Ann Arbor Michigan
+2016-11-05,2016,R,,maryland,michigan,A,3,59,0,,2.0,Michigan Stadium - Ann Arbor Michigan
+2016-11-05,2016,R,,minnesota,purdue,H,44,31,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2016-11-05,2016,R,,purdue,minnesota,A,31,44,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2016-11-05,2016,R,,mississippi,georgia-southern,H,37,27,0,,,Vaught-Hemingway Stadium - Oxford Mississippi
+2016-11-05,2016,R,,georgia-southern,mississippi,A,27,37,0,,,Vaught-Hemingway Stadium - Oxford Mississippi
+2016-11-05,2016,R,,mississippi-state,texas-a-m,H,35,28,0,,7.0,Davis Wade Stadium - Starkville Mississippi
+2016-11-05,2016,R,,texas-a-m,mississippi-state,A,28,35,0,7.0,,Davis Wade Stadium - Starkville Mississippi
+2016-11-05,2016,R,,navy,notre-dame,N,28,27,0,,,EverBank Field - Jacksonville Florida
+2016-11-05,2016,R,,notre-dame,navy,N,27,28,0,,,EverBank Field - Jacksonville Florida
+2016-11-05,2016,R,,new-mexico,nevada,H,35,26,0,,,University Stadium - Albuquerque New Mexico
+2016-11-05,2016,R,,nevada,new-mexico,A,26,35,0,,,University Stadium - Albuquerque New Mexico
+2016-11-05,2016,R,,north-carolina,georgia-tech,H,48,20,0,18.0,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2016-11-05,2016,R,,georgia-tech,north-carolina,A,20,48,0,,18.0,Kenan Memorial Stadium - Chapel Hill North Carolina
+2016-11-05,2016,R,,ohio-state,nebraska,H,62,3,0,6.0,9.0,Ohio Stadium - Columbus Ohio
+2016-11-05,2016,R,,nebraska,ohio-state,A,3,62,0,9.0,6.0,Ohio Stadium - Columbus Ohio
+2016-11-05,2016,R,,oklahoma-state,kansas-state,A,43,37,0,22.0,,Bill Snyder Family Football Stadium - Manhattan Kansas
+2016-11-05,2016,R,,kansas-state,oklahoma-state,H,37,43,0,,22.0,Bill Snyder Family Football Stadium - Manhattan Kansas
+2016-11-05,2016,R,,old-dominion,marshall,H,38,14,0,,,S.B. Ballard Stadium - Norfolk Virginia
+2016-11-05,2016,R,,marshall,old-dominion,A,14,38,0,,,S.B. Ballard Stadium - Norfolk Virginia
+2016-11-05,2016,R,,penn-state,iowa,H,41,14,0,20.0,,Beaver Stadium - University Park Pennsylvania
+2016-11-05,2016,R,,iowa,penn-state,A,14,41,0,,20.0,Beaver Stadium - University Park Pennsylvania
+2016-11-05,2016,R,,san-diego-state,hawaii,H,55,0,0,,,Qualcomm Stadium - San Diego California
+2016-11-05,2016,R,,hawaii,san-diego-state,A,0,55,0,,,Qualcomm Stadium - San Diego California
+2016-11-05,2016,R,,south-carolina,missouri,H,31,21,0,,,Williams-Brice Stadium - Columbia South Carolina
+2016-11-05,2016,R,,missouri,south-carolina,A,21,31,0,,,Williams-Brice Stadium - Columbia South Carolina
+2016-11-05,2016,R,,southern-california,oregon,H,45,20,0,,,Los Angeles Memorial Coliseum - Los Angeles California
+2016-11-05,2016,R,,oregon,southern-california,A,20,45,0,,,Los Angeles Memorial Coliseum - Los Angeles California
+2016-11-05,2016,R,,stanford,oregon-state,H,26,15,0,,,Stanford Stadium - Stanford California
+2016-11-05,2016,R,,oregon-state,stanford,A,15,26,0,,,Stanford Stadium - Stanford California
+2016-11-05,2016,R,,tennessee,tennessee-tech,H,55,0,0,,,Neyland Stadium - Knoxville Tennessee
+2016-11-05,2016,R,,tennessee-tech,tennessee,A,0,55,0,,,Neyland Stadium - Knoxville Tennessee
+2016-11-05,2016,R,,texas,texas-tech,A,45,37,0,,,Jones AT&T Stadium - Lubbock Texas
+2016-11-05,2016,R,,texas-tech,texas,H,37,45,0,,,Jones AT&T Stadium - Lubbock Texas
+2016-11-05,2016,R,,texas-christian,baylor,A,62,22,0,,13.0,McLane Stadium - Waco Texas
+2016-11-05,2016,R,,baylor,texas-christian,H,22,62,0,13.0,,McLane Stadium - Waco Texas
+2016-11-05,2016,R,,texas-el-paso,houston-baptist,H,42,10,0,,,Sun Bowl Stadium - El Paso Texas
+2016-11-05,2016,R,,houston-baptist,texas-el-paso,A,10,42,0,,,Sun Bowl Stadium - El Paso Texas
+2016-11-05,2016,R,,texas-san-antonio,middle-tennessee-state,A,45,25,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2016-11-05,2016,R,,middle-tennessee-state,texas-san-antonio,H,25,45,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2016-11-05,2016,R,,troy,massachusetts,H,52,31,0,,,Veterans Memorial Stadium - Troy Alabama
+2016-11-05,2016,R,,massachusetts,troy,A,31,52,0,,,Veterans Memorial Stadium - Troy Alabama
+2016-11-05,2016,R,,tulsa,east-carolina,H,45,24,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2016-11-05,2016,R,,east-carolina,tulsa,A,24,45,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2016-11-05,2016,R,,virginia-tech,duke,A,24,21,0,23.0,,Wallace Wade Stadium - Durham North Carolina
+2016-11-05,2016,R,,duke,virginia-tech,H,21,24,0,,23.0,Wallace Wade Stadium - Durham North Carolina
+2016-11-05,2016,R,,wake-forest,virginia,H,27,20,0,,,BB&T Field - Winston-Salem North Carolina
+2016-11-05,2016,R,,virginia,wake-forest,A,20,27,0,,,BB&T Field - Winston-Salem North Carolina
+2016-11-05,2016,R,,washington,california,A,66,27,0,4.0,,Memorial Stadium - Berkeley California
+2016-11-05,2016,R,,california,washington,H,27,66,0,,4.0,Memorial Stadium - Berkeley California
+2016-11-05,2016,R,,washington-state,arizona,H,69,7,0,25.0,,Martin Stadium - Pullman Washington
+2016-11-05,2016,R,,arizona,washington-state,A,7,69,0,,25.0,Martin Stadium - Pullman Washington
+2016-11-05,2016,R,,west-virginia,kansas,H,48,21,0,14.0,,Milan Puskar Stadium - Morgantown West Virginia
+2016-11-05,2016,R,,kansas,west-virginia,A,21,48,0,,14.0,Milan Puskar Stadium - Morgantown West Virginia
+2016-11-05,2016,R,,western-kentucky,florida-international,H,49,21,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2016-11-05,2016,R,,florida-international,western-kentucky,A,21,49,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2016-11-05,2016,R,,wisconsin,northwestern,A,21,7,0,8.0,,Ryan Field - Evanston Illinois
+2016-11-05,2016,R,,northwestern,wisconsin,H,7,21,0,,8.0,Ryan Field - Evanston Illinois
+2016-11-05,2016,R,,wyoming,utah-state,H,52,28,0,,,War Memorial Stadium - Laramie Wyoming
+2016-11-05,2016,R,,utah-state,wyoming,A,28,52,0,,,War Memorial Stadium - Laramie Wyoming
+2016-11-08,2016,R,,eastern-michigan,ball-state,A,48,41,0,,,Scheumann Stadium - Muncie Indiana
+2016-11-08,2016,R,,ball-state,eastern-michigan,H,41,48,0,,,Scheumann Stadium - Muncie Indiana
+2016-11-08,2016,R,,western-michigan,kent-state,A,37,21,0,14.0,,Dix Stadium - Kent Ohio
+2016-11-08,2016,R,,kent-state,western-michigan,H,21,37,0,,14.0,Dix Stadium - Kent Ohio
+2016-11-09,2016,R,,bowling-green,akron,A,38,28,0,,,InfoCision Stadium - Akron Ohio
+2016-11-09,2016,R,,akron,bowling-green,H,28,38,0,,,InfoCision Stadium - Akron Ohio
+2016-11-09,2016,R,,toledo,northern-illinois,N,31,24,0,,,Guaranteed Rate Field - Chicago Illinois
+2016-11-09,2016,R,,northern-illinois,toledo,N,24,31,0,,,Guaranteed Rate Field - Chicago Illinois
+2016-11-10,2016,R,,duke,north-carolina,H,28,27,0,,15.0,Wallace Wade Stadium - Durham North Carolina
+2016-11-10,2016,R,,north-carolina,duke,A,27,28,0,15.0,,Wallace Wade Stadium - Durham North Carolina
+2016-11-10,2016,R,,louisiana,georgia-southern,A,33,26,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2016-11-10,2016,R,,georgia-southern,louisiana,H,26,33,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2016-11-10,2016,R,,utah,arizona-state,A,49,26,0,13.0,,Sun Devil Stadium - Tempe Arizona
+2016-11-10,2016,R,,arizona-state,utah,H,26,49,0,,13.0,Sun Devil Stadium - Tempe Arizona
+2016-11-11,2016,R,,florida-state,boston-college,H,45,7,0,20.0,,Doak Campbell Stadium - Tallahassee Florida
+2016-11-11,2016,R,,boston-college,florida-state,A,7,45,0,,20.0,Doak Campbell Stadium - Tallahassee Florida
+2016-11-12,2016,R,,air-force,colorado-state,H,49,46,0,,,Falcon Stadium - Colorado Springs Colorado
+2016-11-12,2016,R,,colorado-state,air-force,A,46,49,0,,,Falcon Stadium - Colorado Springs Colorado
+2016-11-12,2016,R,,alabama,mississippi-state,H,51,3,0,1.0,,Bryant-Denny Stadium - Tuscaloosa Alabama
+2016-11-12,2016,R,,mississippi-state,alabama,A,3,51,0,,1.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2016-11-12,2016,R,,arkansas-state,new-mexico-state,H,41,22,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2016-11-12,2016,R,,new-mexico-state,arkansas-state,A,22,41,0,,,Centennial Bank Stadium - Jonesboro Arkansas
+2016-11-12,2016,R,,boise-state,hawaii,A,52,16,0,24.0,,Hawaiian Tel Federal Credit Union Field at Aloha Stadium - Honolulu Hawaii
+2016-11-12,2016,R,,hawaii,boise-state,H,16,52,0,,24.0,Hawaiian Tel Federal Credit Union Field at Aloha Stadium - Honolulu Hawaii
+2016-11-12,2016,R,,brigham-young,southern-utah,H,37,7,0,,,Lavell Edwards Stadium - Provo Utah
+2016-11-12,2016,R,,southern-utah,brigham-young,A,7,37,0,,,Lavell Edwards Stadium - Provo Utah
+2016-11-12,2016,R,,central-florida,cincinnati,H,24,3,0,,,Spectrum Stadium - Orlando Florida
+2016-11-12,2016,R,,cincinnati,central-florida,A,3,24,0,,,Spectrum Stadium - Orlando Florida
+2016-11-12,2016,R,,colorado,arizona,A,49,24,0,16.0,,Arizona Stadium - Tucson Arizona
+2016-11-12,2016,R,,arizona,colorado,H,24,49,0,,16.0,Arizona Stadium - Tucson Arizona
+2016-11-12,2016,R,,florida,south-carolina,H,20,7,0,22.0,,Ben Hill Griffin Stadium - Gainesville Florida
+2016-11-12,2016,R,,south-carolina,florida,A,7,20,0,,22.0,Ben Hill Griffin Stadium - Gainesville Florida
+2016-11-12,2016,R,,florida-atlantic,texas-el-paso,H,35,31,0,,,FAU Football Stadium - Boca Raton Florida
+2016-11-12,2016,R,,texas-el-paso,florida-atlantic,A,31,35,0,,,FAU Football Stadium - Boca Raton Florida
+2016-11-12,2016,R,,georgia,auburn,H,13,7,0,,8.0,Sanford Stadium - Athens Georgia
+2016-11-12,2016,R,,auburn,georgia,A,7,13,0,8.0,,Sanford Stadium - Athens Georgia
+2016-11-12,2016,R,,georgia-tech,virginia-tech,A,30,20,0,,18.0,Lane Stadium - Blacksburg Virginia
+2016-11-12,2016,R,,virginia-tech,georgia-tech,H,20,30,0,18.0,,Lane Stadium - Blacksburg Virginia
+2016-11-12,2016,R,,houston,tulane,H,30,18,0,,,TDECU Stadium - Houston Texas
+2016-11-12,2016,R,,tulane,houston,A,18,30,0,,,TDECU Stadium - Houston Texas
+2016-11-12,2016,R,,idaho,texas-state,A,47,14,0,,,Bobcat Stadium - San Marcos Texas
+2016-11-12,2016,R,,texas-state,idaho,H,14,47,0,,,Bobcat Stadium - San Marcos Texas
+2016-11-12,2016,R,,iowa,michigan,H,14,13,0,,2.0,Kinnick Stadium - Iowa City Iowa
+2016-11-12,2016,R,,michigan,iowa,A,13,14,0,2.0,,Kinnick Stadium - Iowa City Iowa
+2016-11-12,2016,R,,iowa-state,kansas,A,31,24,0,,,Memorial Stadium - Lawrence Kansas
+2016-11-12,2016,R,,kansas,iowa-state,H,24,31,0,,,Memorial Stadium - Lawrence Kansas
+2016-11-12,2016,R,,louisiana-state,arkansas,A,38,10,0,19.0,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2016-11-12,2016,R,,arkansas,louisiana-state,H,10,38,0,,19.0,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+2016-11-12,2016,R,,louisiana-tech,texas-san-antonio,H,63,35,0,,,Joe Aillet Stadium - Ruston Louisiana
+2016-11-12,2016,R,,texas-san-antonio,louisiana-tech,A,35,63,0,,,Joe Aillet Stadium - Ruston Louisiana
+2016-11-12,2016,R,,louisiana-monroe,georgia-state,A,37,23,0,,,Georgia Dome - Atlanta Georgia
+2016-11-12,2016,R,,georgia-state,louisiana-monroe,H,23,37,0,,,Georgia Dome - Atlanta Georgia
+2016-11-12,2016,R,,louisville,wake-forest,H,44,12,0,5.0,,Papa John's Cardinal Stadium - Louisville Kentucky
+2016-11-12,2016,R,,wake-forest,louisville,A,12,44,0,,5.0,Papa John's Cardinal Stadium - Louisville Kentucky
+2016-11-12,2016,R,,marshall,middle-tennessee-state,H,42,17,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2016-11-12,2016,R,,middle-tennessee-state,marshall,A,17,42,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2016-11-12,2016,R,,miami-fl,virginia,A,34,14,0,,,Scott Stadium - Charlottesville Virginia
+2016-11-12,2016,R,,virginia,miami-fl,H,14,34,0,,,Scott Stadium - Charlottesville Virginia
+2016-11-12,2016,R,,miami-oh,buffalo,A,35,24,0,,,University of Buffalo Stadium - Buffalo New York
+2016-11-12,2016,R,,buffalo,miami-oh,H,24,35,0,,,University of Buffalo Stadium - Buffalo New York
+2016-11-12,2016,R,,michigan-state,rutgers,H,49,0,0,,,Spartan Stadium - East Lansing Michigan
+2016-11-12,2016,R,,rutgers,michigan-state,A,0,49,0,,,Spartan Stadium - East Lansing Michigan
+2016-11-12,2016,R,,mississippi,texas-a-m,A,29,28,0,,10.0,Kyle Field - College Station Texas
+2016-11-12,2016,R,,texas-a-m,mississippi,H,28,29,0,10.0,,Kyle Field - College Station Texas
+2016-11-12,2016,R,,missouri,vanderbilt,H,26,17,0,,,Faurot Field - Columbia Missouri
+2016-11-12,2016,R,,vanderbilt,missouri,A,17,26,0,,,Faurot Field - Columbia Missouri
+2016-11-12,2016,R,,navy,tulsa,H,42,40,0,,,Navy Marine Corps Memorial Stadium - Annapolis Maryland
+2016-11-12,2016,R,,tulsa,navy,A,40,42,0,,,Navy Marine Corps Memorial Stadium - Annapolis Maryland
+2016-11-12,2016,R,,nebraska,minnesota,H,24,17,0,21.0,,Memorial Stadium - Lincoln Nebraska
+2016-11-12,2016,R,,minnesota,nebraska,A,17,24,0,,21.0,Memorial Stadium - Lincoln Nebraska
+2016-11-12,2016,R,,nevada-las-vegas,wyoming,H,69,66,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2016-11-12,2016,R,,wyoming,nevada-las-vegas,A,66,69,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2016-11-12,2016,R,,new-mexico,utah-state,A,24,21,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2016-11-12,2016,R,,utah-state,new-mexico,H,21,24,0,,,Merlin Olsen Field at Maverik Stadium - Logan Utah
+2016-11-12,2016,R,,north-carolina-state,syracuse,A,35,20,0,,,Carrier Dome - Syracuse New York
+2016-11-12,2016,R,,syracuse,north-carolina-state,H,20,35,0,,,Carrier Dome - Syracuse New York
+2016-11-12,2016,R,,northwestern,purdue,A,45,17,0,,,Ross Ade Stadium - West Lafayette Indiana
+2016-11-12,2016,R,,purdue,northwestern,H,17,45,0,,,Ross Ade Stadium - West Lafayette Indiana
+2016-11-12,2016,R,,notre-dame,army,N,44,6,0,,,Alamodome - San Antonio Texas
+2016-11-12,2016,R,,army,notre-dame,N,6,44,0,,,Alamodome - San Antonio Texas
+2016-11-12,2016,R,,ohio-state,maryland,A,62,3,0,6.0,,Maryland Stadium - College Park Maryland
+2016-11-12,2016,R,,maryland,ohio-state,H,3,62,0,,6.0,Maryland Stadium - College Park Maryland
+2016-11-12,2016,R,,oklahoma,baylor,H,45,24,0,9.0,25.0,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2016-11-12,2016,R,,baylor,oklahoma,A,24,45,0,25.0,9.0,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2016-11-12,2016,R,,oklahoma-state,texas-tech,H,45,44,0,17.0,,Boone Pickens Stadium - Stillwater Oklahoma
+2016-11-12,2016,R,,texas-tech,oklahoma-state,A,44,45,0,,17.0,Boone Pickens Stadium - Stillwater Oklahoma
+2016-11-12,2016,R,,old-dominion,southern-mississippi,H,51,35,0,,,S.B. Ballard Stadium - Norfolk Virginia
+2016-11-12,2016,R,,southern-mississippi,old-dominion,A,35,51,0,,,S.B. Ballard Stadium - Norfolk Virginia
+2016-11-12,2016,R,,penn-state,indiana,A,45,31,0,12.0,,Memorial Stadium - Bloomington Indiana
+2016-11-12,2016,R,,indiana,penn-state,H,31,45,0,,12.0,Memorial Stadium - Bloomington Indiana
+2016-11-12,2016,R,,pittsburgh,clemson,A,43,42,0,,3.0,Clemson Memorial Stadium - Clemson South Carolina
+2016-11-12,2016,R,,clemson,pittsburgh,H,42,43,0,3.0,,Clemson Memorial Stadium - Clemson South Carolina
+2016-11-12,2016,R,,rice,charlotte,A,22,21,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2016-11-12,2016,R,,charlotte,rice,H,21,22,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2016-11-12,2016,R,,san-diego-state,nevada,A,46,16,0,,,MacKay Stadium - Reno Nevada
+2016-11-12,2016,R,,nevada,san-diego-state,H,16,46,0,,,MacKay Stadium - Reno Nevada
+2016-11-12,2016,R,,south-florida,memphis,A,49,42,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2016-11-12,2016,R,,memphis,south-florida,H,42,49,0,,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2016-11-12,2016,R,,southern-california,washington,A,26,13,0,,4.0,Husky Stadium - Seattle Washington
+2016-11-12,2016,R,,washington,southern-california,H,13,26,0,4.0,,Husky Stadium - Seattle Washington
+2016-11-12,2016,R,,southern-methodist,east-carolina,A,55,31,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2016-11-12,2016,R,,east-carolina,southern-methodist,H,31,55,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2016-11-12,2016,R,,stanford,oregon,A,52,27,0,,,Autzen Stadium - Eugene Oregon
+2016-11-12,2016,R,,oregon,stanford,H,27,52,0,,,Autzen Stadium - Eugene Oregon
+2016-11-12,2016,R,,tennessee,kentucky,H,49,36,0,,,Neyland Stadium - Knoxville Tennessee
+2016-11-12,2016,R,,kentucky,tennessee,A,36,49,0,,,Neyland Stadium - Knoxville Tennessee
+2016-11-12,2016,R,,troy,appalachian-state,H,28,24,0,,,Veterans Memorial Stadium - Troy Alabama
+2016-11-12,2016,R,,appalachian-state,troy,A,24,28,0,,,Veterans Memorial Stadium - Troy Alabama
+2016-11-12,2016,R,,ucla,oregon-state,H,38,24,0,,,Rose Bowl - Pasadena California
+2016-11-12,2016,R,,oregon-state,ucla,A,24,38,0,,,Rose Bowl - Pasadena California
+2016-11-12,2016,R,,washington-state,california,H,56,21,0,23.0,,Martin Stadium - Pullman Washington
+2016-11-12,2016,R,,california,washington-state,A,21,56,0,,23.0,Martin Stadium - Pullman Washington
+2016-11-12,2016,R,,west-virginia,texas,A,24,20,0,11.0,,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2016-11-12,2016,R,,texas,west-virginia,H,20,24,0,,11.0,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2016-11-12,2016,R,,western-kentucky,north-texas,H,45,7,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2016-11-12,2016,R,,north-texas,western-kentucky,A,7,45,0,,,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+2016-11-12,2016,R,,wisconsin,illinois,H,48,3,0,7.0,,Camp Randall Stadium - Madison Wisconsin
+2016-11-12,2016,R,,illinois,wisconsin,A,3,48,0,,7.0,Camp Randall Stadium - Madison Wisconsin
+2016-11-15,2016,R,,bowling-green,kent-state,H,42,7,0,,,Doyt L. Perry Stadium - Bowling Green Ohio
+2016-11-15,2016,R,,kent-state,bowling-green,A,7,42,0,,,Doyt L. Perry Stadium - Bowling Green Ohio
+2016-11-15,2016,R,,central-michigan,ohio,H,27,20,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2016-11-15,2016,R,,ohio,central-michigan,A,20,27,0,,,Kelly/Shorts Stadium - Mount Pleasant Michigan
+2016-11-16,2016,R,,northern-illinois,eastern-michigan,A,31,24,0,,,Rynearson Stadium - Ypsilanti Michigan
+2016-11-16,2016,R,,eastern-michigan,northern-illinois,H,24,31,0,,,Rynearson Stadium - Ypsilanti Michigan
+2016-11-16,2016,R,,toledo,ball-state,H,37,19,0,,,Glass Bowl - Toledo Ohio
+2016-11-16,2016,R,,ball-state,toledo,A,19,37,0,,,Glass Bowl - Toledo Ohio
+2016-11-17,2016,R,,arkansas-state,troy,A,35,3,0,,25.0,Veterans Memorial Stadium - Troy Alabama
+2016-11-17,2016,R,,troy,arkansas-state,H,3,35,0,25.0,,Veterans Memorial Stadium - Troy Alabama
+2016-11-17,2016,R,,coastal-carolina,liberty,H,42,7,0,,,
+2016-11-17,2016,R,,liberty,coastal-carolina,A,7,42,0,,,
+2016-11-17,2016,R,,houston,louisville,H,36,10,0,,3.0,TDECU Stadium - Houston Texas
+2016-11-17,2016,R,,louisville,houston,A,10,36,0,3.0,,TDECU Stadium - Houston Texas
+2016-11-18,2016,R,,boise-state,nevada-las-vegas,H,42,25,0,22.0,,Albertsons Stadium - Boise Idaho
+2016-11-18,2016,R,,nevada-las-vegas,boise-state,A,25,42,0,,22.0,Albertsons Stadium - Boise Idaho
+2016-11-18,2016,R,,memphis,cincinnati,A,34,7,0,,,Nippert Stadium - Cincinnati Ohio
+2016-11-18,2016,R,,cincinnati,memphis,H,7,34,0,,,Nippert Stadium - Cincinnati Ohio
+2016-11-19,2016,R,,air-force,san-jose-state,A,41,38,0,,,CEFCU Stadium - San Jose California
+2016-11-19,2016,R,,san-jose-state,air-force,H,38,41,0,,,CEFCU Stadium - San Jose California
+2016-11-19,2016,R,,alabama,chattanooga,H,31,3,0,1.0,,Bryant-Denny Stadium - Tuscaloosa Alabama
+2016-11-19,2016,R,,chattanooga,alabama,A,3,31,0,,1.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2016-11-19,2016,R,,appalachian-state,louisiana-monroe,H,42,17,0,,,Kidd Brewer Stadium - Boone North Carolina
+2016-11-19,2016,R,,louisiana-monroe,appalachian-state,A,17,42,0,,,Kidd Brewer Stadium - Boone North Carolina
+2016-11-19,2016,R,,arkansas,mississippi-state,A,58,42,0,,,Davis Wade Stadium - Starkville Mississippi
+2016-11-19,2016,R,,mississippi-state,arkansas,H,42,58,0,,,Davis Wade Stadium - Starkville Mississippi
+2016-11-19,2016,R,,army,morgan-state,H,60,3,0,,,Michie Stadium - West Point New York
+2016-11-19,2016,R,,morgan-state,army,A,3,60,0,,,Michie Stadium - West Point New York
+2016-11-19,2016,R,,auburn,alabama-a-m,H,55,0,0,18.0,,Jordan Hare Stadium - Auburn Alabama
+2016-11-19,2016,R,,alabama-a-m,auburn,A,0,55,0,,18.0,Jordan Hare Stadium - Auburn Alabama
+2016-11-19,2016,R,,boston-college,connecticut,H,30,0,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2016-11-19,2016,R,,connecticut,boston-college,A,0,30,0,,,Alumni Stadium - Chestnut Hill Massachusetts
+2016-11-19,2016,R,,brigham-young,massachusetts,H,51,9,0,,,Lavell Edwards Stadium - Provo Utah
+2016-11-19,2016,R,,massachusetts,brigham-young,A,9,51,0,,,Lavell Edwards Stadium - Provo Utah
+2016-11-19,2016,R,,clemson,wake-forest,A,35,13,0,5.0,,BB&T Field - Winston-Salem North Carolina
+2016-11-19,2016,R,,wake-forest,clemson,H,13,35,0,,5.0,BB&T Field - Winston-Salem North Carolina
+2016-11-19,2016,R,,colorado,washington-state,H,38,24,0,12.0,20.0,Folsom Field - Boulder Colorado
+2016-11-19,2016,R,,washington-state,colorado,A,24,38,0,20.0,12.0,Folsom Field - Boulder Colorado
+2016-11-19,2016,R,,colorado-state,new-mexico,H,49,31,0,,,Sonny Lubick Field at Hughes Stadium - Fort Collins Colorado
+2016-11-19,2016,R,,new-mexico,colorado-state,A,31,49,0,,,Sonny Lubick Field at Hughes Stadium - Fort Collins Colorado
+2016-11-19,2016,R,,florida,louisiana-state,A,16,10,0,21.0,16.0,Tiger Stadium - Baton Rouge Louisiana
+2016-11-19,2016,R,,louisiana-state,florida,H,10,16,0,16.0,21.0,Tiger Stadium - Baton Rouge Louisiana
+2016-11-19,2016,R,,florida-international,marshall,H,31,14,0,,,FIU Stadium - Miami Florida
+2016-11-19,2016,R,,marshall,florida-international,A,14,31,0,,,FIU Stadium - Miami Florida
+2016-11-19,2016,R,,florida-state,syracuse,A,45,14,0,17.0,,Carrier Dome - Syracuse New York
+2016-11-19,2016,R,,syracuse,florida-state,H,14,45,0,,17.0,Carrier Dome - Syracuse New York
+2016-11-19,2016,R,,georgia,louisiana,H,35,21,0,,,Sanford Stadium - Athens Georgia
+2016-11-19,2016,R,,louisiana,georgia,A,21,35,0,,,Sanford Stadium - Athens Georgia
+2016-11-19,2016,R,,georgia-state,georgia-southern,H,30,24,0,,,Georgia Dome - Atlanta Georgia
+2016-11-19,2016,R,,georgia-southern,georgia-state,A,24,30,0,,,Georgia Dome - Atlanta Georgia
+2016-11-19,2016,R,,georgia-tech,virginia,H,31,17,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2016-11-19,2016,R,,virginia,georgia-tech,A,17,31,0,,,Bobby Dodd Stadium - Atlanta Georgia
+2016-11-19,2016,R,,hawaii,fresno-state,A,14,13,0,,,Bulldog Stadium - Fresno California
+2016-11-19,2016,R,,fresno-state,hawaii,H,13,14,0,,,Bulldog Stadium - Fresno California
+2016-11-19,2016,R,,iowa,illinois,A,28,0,0,,,Memorial Stadium - Champaign Illinois
+2016-11-19,2016,R,,illinois,iowa,H,0,28,0,,,Memorial Stadium - Champaign Illinois
+2016-11-19,2016,R,,iowa-state,texas-tech,H,66,10,0,,,Jack Trice Stadium - Ames Iowa
+2016-11-19,2016,R,,texas-tech,iowa-state,A,10,66,0,,,Jack Trice Stadium - Ames Iowa
+2016-11-19,2016,R,,kansas,texas,H,24,21,0,,,Memorial Stadium - Lawrence Kansas
+2016-11-19,2016,R,,texas,kansas,A,21,24,0,,,Memorial Stadium - Lawrence Kansas
+2016-11-19,2016,R,,kansas-state,baylor,A,42,21,0,,,McLane Stadium - Waco Texas
+2016-11-19,2016,R,,baylor,kansas-state,H,21,42,0,,,McLane Stadium - Waco Texas
+2016-11-19,2016,R,,kentucky,austin-peay,H,49,13,0,,,Commonwealth Stadium - Lexington Kentucky
+2016-11-19,2016,R,,austin-peay,kentucky,A,13,49,0,,,Commonwealth Stadium - Lexington Kentucky
+2016-11-19,2016,R,,miami-fl,north-carolina-state,A,27,13,0,,,Carter Finley Stadium - Raleigh North Carolina
+2016-11-19,2016,R,,north-carolina-state,miami-fl,H,13,27,0,,,Carter Finley Stadium - Raleigh North Carolina
+2016-11-19,2016,R,,michigan,indiana,H,20,10,0,4.0,,Michigan Stadium - Ann Arbor Michigan
+2016-11-19,2016,R,,indiana,michigan,A,10,20,0,,4.0,Michigan Stadium - Ann Arbor Michigan
+2016-11-19,2016,R,,middle-tennessee-state,charlotte,A,38,31,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2016-11-19,2016,R,,charlotte,middle-tennessee-state,H,31,38,0,,,Jerry Richardson Stadium - Charlotte North Carolina
+2016-11-19,2016,R,,minnesota,northwestern,H,29,12,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2016-11-19,2016,R,,northwestern,minnesota,A,12,29,0,,,TCF Bank Stadium - Minneapolis Minnesota
+2016-11-19,2016,R,,navy,east-carolina,A,66,31,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2016-11-19,2016,R,,east-carolina,navy,H,31,66,0,,,Dowdy-Ficklen Stadium - Greenville North Carolina
+2016-11-19,2016,R,,nebraska,maryland,H,28,7,0,19.0,,Memorial Stadium - Lincoln Nebraska
+2016-11-19,2016,R,,maryland,nebraska,A,7,28,0,,19.0,Memorial Stadium - Lincoln Nebraska
+2016-11-19,2016,R,,nevada,utah-state,H,38,37,0,,,MacKay Stadium - Reno Nevada
+2016-11-19,2016,R,,utah-state,nevada,A,37,38,0,,,MacKay Stadium - Reno Nevada
+2016-11-19,2016,R,,new-mexico-state,texas-state,H,50,10,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2016-11-19,2016,R,,texas-state,new-mexico-state,A,10,50,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2016-11-19,2016,R,,north-carolina,citadel,H,41,7,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2016-11-19,2016,R,,citadel,north-carolina,A,7,41,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2016-11-19,2016,R,,north-texas,southern-mississippi,H,29,23,0,,,Apogee Stadium - Denton Texas
+2016-11-19,2016,R,,southern-mississippi,north-texas,A,23,29,0,,,Apogee Stadium - Denton Texas
+2016-11-19,2016,R,,ohio-state,michigan-state,A,17,16,0,2.0,,Spartan Stadium - East Lansing Michigan
+2016-11-19,2016,R,,michigan-state,ohio-state,H,16,17,0,,2.0,Spartan Stadium - East Lansing Michigan
+2016-11-19,2016,R,,oklahoma,west-virginia,A,56,28,0,8.0,10.0,Milan Puskar Stadium - Morgantown West Virginia
+2016-11-19,2016,R,,west-virginia,oklahoma,H,28,56,0,10.0,8.0,Milan Puskar Stadium - Morgantown West Virginia
+2016-11-19,2016,R,,oklahoma-state,texas-christian,A,31,6,0,13.0,,Amon G. Carter Stadium - Fort Worth Texas
+2016-11-19,2016,R,,texas-christian,oklahoma-state,H,6,31,0,,13.0,Amon G. Carter Stadium - Fort Worth Texas
+2016-11-19,2016,R,,old-dominion,florida-atlantic,A,42,24,0,,,FAU Football Stadium - Boca Raton Florida
+2016-11-19,2016,R,,florida-atlantic,old-dominion,H,24,42,0,,,FAU Football Stadium - Boca Raton Florida
+2016-11-19,2016,R,,oregon,utah,A,30,28,0,,11.0,Rice-Eccles Stadium - Salt Lake City Utah
+2016-11-19,2016,R,,utah,oregon,H,28,30,0,11.0,,Rice-Eccles Stadium - Salt Lake City Utah
+2016-11-19,2016,R,,oregon-state,arizona,H,42,17,0,,,Reser Stadium - Corvallis Oregon
+2016-11-19,2016,R,,arizona,oregon-state,A,17,42,0,,,Reser Stadium - Corvallis Oregon
+2016-11-19,2016,R,,penn-state,rutgers,A,39,0,0,9.0,,High Point Solutions Stadium - Piscataway New Jersey
+2016-11-19,2016,R,,rutgers,penn-state,H,0,39,0,,9.0,High Point Solutions Stadium - Piscataway New Jersey
+2016-11-19,2016,R,,pittsburgh,duke,H,56,14,0,,,Heinz Field - Pittsburgh Pennsylvania
+2016-11-19,2016,R,,duke,pittsburgh,A,14,56,0,,,Heinz Field - Pittsburgh Pennsylvania
+2016-11-19,2016,R,,rice,texas-el-paso,H,44,24,0,,,Rice Stadium - Houston Texas
+2016-11-19,2016,R,,texas-el-paso,rice,A,24,44,0,,,Rice Stadium - Houston Texas
+2016-11-19,2016,R,,south-alabama,presbyterian,H,31,7,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2016-11-19,2016,R,,presbyterian,south-alabama,A,7,31,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2016-11-19,2016,R,,south-carolina,western-carolina,H,44,31,0,,,Williams-Brice Stadium - Columbia South Carolina
+2016-11-19,2016,R,,western-carolina,south-carolina,A,31,44,0,,,Williams-Brice Stadium - Columbia South Carolina
+2016-11-19,2016,R,,south-florida,southern-methodist,A,35,27,0,,,Gerald J. Ford Stadium - Dallas Texas
+2016-11-19,2016,R,,southern-methodist,south-florida,H,27,35,0,,,Gerald J. Ford Stadium - Dallas Texas
+2016-11-19,2016,R,,southern-california,ucla,A,36,14,0,15.0,,Rose Bowl - Pasadena California
+2016-11-19,2016,R,,ucla,southern-california,H,14,36,0,,15.0,Rose Bowl - Pasadena California
+2016-11-19,2016,R,,stanford,california,A,45,31,0,,,Memorial Stadium - Berkeley California
+2016-11-19,2016,R,,california,stanford,H,31,45,0,,,Memorial Stadium - Berkeley California
+2016-11-19,2016,R,,temple,tulane,A,31,0,0,,,Yulman Stadium - New Orleans Louisiana
+2016-11-19,2016,R,,tulane,temple,H,0,31,0,,,Yulman Stadium - New Orleans Louisiana
+2016-11-19,2016,R,,tennessee,missouri,H,63,37,0,,,Neyland Stadium - Knoxville Tennessee
+2016-11-19,2016,R,,missouri,tennessee,A,37,63,0,,,Neyland Stadium - Knoxville Tennessee
+2016-11-19,2016,R,,texas-a-m,texas-san-antonio,H,23,10,0,23.0,,Kyle Field - College Station Texas
+2016-11-19,2016,R,,texas-san-antonio,texas-a-m,A,10,23,0,,23.0,Kyle Field - College Station Texas
+2016-11-19,2016,R,,tulsa,central-florida,A,35,20,0,,,Bright House Networks Stadium - Orlando Florida
+2016-11-19,2016,R,,central-florida,tulsa,H,20,35,0,,,Bright House Networks Stadium - Orlando Florida
+2016-11-19,2016,R,,vanderbilt,mississippi,H,38,17,0,,,Vanderbilt Stadium - Nashville Tennessee
+2016-11-19,2016,R,,mississippi,vanderbilt,A,17,38,0,,,Vanderbilt Stadium - Nashville Tennessee
+2016-11-19,2016,R,,virginia-tech,notre-dame,A,34,31,0,,,Notre Dame Stadium - South Bend Indiana
+2016-11-19,2016,R,,notre-dame,virginia-tech,H,31,34,0,,,Notre Dame Stadium - South Bend Indiana
+2016-11-19,2016,R,,washington,arizona-state,H,44,18,0,7.0,,Husky Stadium - Seattle Washington
+2016-11-19,2016,R,,arizona-state,washington,A,18,44,0,,7.0,Husky Stadium - Seattle Washington
+2016-11-19,2016,R,,western-michigan,buffalo,H,38,0,0,14.0,,Waldo Stadium - Kalamazoo Michigan
+2016-11-19,2016,R,,buffalo,western-michigan,A,0,38,0,,14.0,Waldo Stadium - Kalamazoo Michigan
+2016-11-19,2016,R,,wisconsin,purdue,A,49,20,0,6.0,,Ross Ade Stadium - West Lafayette Indiana
+2016-11-19,2016,R,,purdue,wisconsin,H,20,49,0,,6.0,Ross Ade Stadium - West Lafayette Indiana
+2016-11-19,2016,R,,wyoming,san-diego-state,H,34,33,0,,24.0,War Memorial Stadium - Laramie Wyoming
+2016-11-19,2016,R,,san-diego-state,wyoming,A,33,34,0,24.0,,War Memorial Stadium - Laramie Wyoming
+2016-11-22,2016,R,,eastern-michigan,central-michigan,H,26,21,0,,,Rynearson Stadium - Ypsilanti Michigan
+2016-11-22,2016,R,,central-michigan,eastern-michigan,A,21,26,0,,,Rynearson Stadium - Ypsilanti Michigan
+2016-11-22,2016,R,,miami-oh,ball-state,H,21,20,0,,,Fred Yager Stadium - Oxford Ohio
+2016-11-22,2016,R,,ball-state,miami-oh,A,20,21,0,,,Fred Yager Stadium - Oxford Ohio
+2016-11-22,2016,R,,ohio,akron,H,9,3,0,,,Peden Stadium - Athens Ohio
+2016-11-22,2016,R,,akron,ohio,A,3,9,0,,,Peden Stadium - Athens Ohio
+2016-11-24,2016,R,,louisiana-state,texas-a-m,A,54,39,0,25.0,22.0,Kyle Field - College Station Texas
+2016-11-24,2016,R,,texas-a-m,louisiana-state,H,39,54,0,22.0,25.0,Kyle Field - College Station Texas
+2016-11-25,2016,R,,air-force,boise-state,H,27,20,0,,20.0,Falcon Stadium - Colorado Springs Colorado
+2016-11-25,2016,R,,boise-state,air-force,A,20,27,0,20.0,,Falcon Stadium - Colorado Springs Colorado
+2016-11-25,2016,R,,arizona,arizona-state,H,56,35,0,,,Arizona Stadium - Tucson Arizona
+2016-11-25,2016,R,,arizona-state,arizona,A,35,56,0,,,Arizona Stadium - Tucson Arizona
+2016-11-25,2016,R,,bowling-green,buffalo,H,27,19,0,,,Doyt L. Perry Stadium - Bowling Green Ohio
+2016-11-25,2016,R,,buffalo,bowling-green,A,19,27,0,,,Doyt L. Perry Stadium - Bowling Green Ohio
+2016-11-25,2016,R,,iowa,nebraska,H,40,10,0,,17.0,Kinnick Stadium - Iowa City Iowa
+2016-11-25,2016,R,,nebraska,iowa,A,10,40,0,17.0,,Kinnick Stadium - Iowa City Iowa
+2016-11-25,2016,R,,memphis,houston,H,48,44,0,,18.0,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2016-11-25,2016,R,,houston,memphis,A,44,48,0,18.0,,Liberty Bowl Memorial Stadium - Memphis Tennessee
+2016-11-25,2016,R,,missouri,arkansas,H,28,24,0,,,Faurot Field - Columbia Missouri
+2016-11-25,2016,R,,arkansas,missouri,A,24,28,0,,,Faurot Field - Columbia Missouri
+2016-11-25,2016,R,,north-carolina-state,north-carolina,A,28,21,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2016-11-25,2016,R,,north-carolina,north-carolina-state,H,21,28,0,,,Kenan Memorial Stadium - Chapel Hill North Carolina
+2016-11-25,2016,R,,northern-illinois,kent-state,A,31,21,0,,,Dix Stadium - Kent Ohio
+2016-11-25,2016,R,,kent-state,northern-illinois,H,21,31,0,,,Dix Stadium - Kent Ohio
+2016-11-25,2016,R,,southern-mississippi,louisiana-tech,H,39,24,0,,,M.M. Roberts Stadium - Hattiesburg Mississippi
+2016-11-25,2016,R,,louisiana-tech,southern-mississippi,A,24,39,0,,,M.M. Roberts Stadium - Hattiesburg Mississippi
+2016-11-25,2016,R,,texas-christian,texas,A,31,9,0,,,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2016-11-25,2016,R,,texas,texas-christian,H,9,31,0,,,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+2016-11-25,2016,R,,texas-tech,baylor,N,54,35,0,,,AT&T Stadium - Arlington Texas
+2016-11-25,2016,R,,baylor,texas-tech,N,35,54,0,,,AT&T Stadium - Arlington Texas
+2016-11-25,2016,R,,tulsa,cincinnati,H,40,37,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2016-11-25,2016,R,,cincinnati,tulsa,A,37,40,0,,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+2016-11-25,2016,R,,washington,washington-state,A,45,17,0,6.0,23.0,Martin Stadium - Pullman Washington
+2016-11-25,2016,R,,washington-state,washington,H,17,45,0,23.0,6.0,Martin Stadium - Pullman Washington
+2016-11-25,2016,R,,western-michigan,toledo,H,55,35,0,14.0,,Waldo Stadium - Kalamazoo Michigan
+2016-11-25,2016,R,,toledo,western-michigan,A,35,55,0,,14.0,Waldo Stadium - Kalamazoo Michigan
+2016-11-26,2016,R,,alabama,auburn,H,30,12,0,1.0,16.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2016-11-26,2016,R,,auburn,alabama,A,12,30,0,16.0,1.0,Bryant-Denny Stadium - Tuscaloosa Alabama
+2016-11-26,2016,R,,appalachian-state,new-mexico-state,A,37,7,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2016-11-26,2016,R,,new-mexico-state,appalachian-state,H,7,37,0,,,Aggie Memorial Stadium - Las Cruces New Mexico
+2016-11-26,2016,R,,boston-college,wake-forest,A,17,14,0,,,BB&T Field - Winston-Salem North Carolina
+2016-11-26,2016,R,,wake-forest,boston-college,H,14,17,0,,,BB&T Field - Winston-Salem North Carolina
+2016-11-26,2016,R,,brigham-young,utah-state,H,28,10,0,,,Lavell Edwards Stadium - Provo Utah
+2016-11-26,2016,R,,utah-state,brigham-young,A,10,28,0,,,Lavell Edwards Stadium - Provo Utah
+2016-11-26,2016,R,,california,ucla,H,36,10,0,,,Memorial Stadium - Berkeley California
+2016-11-26,2016,R,,ucla,california,A,10,36,0,,,Memorial Stadium - Berkeley California
+2016-11-26,2016,R,,clemson,south-carolina,H,56,7,0,4.0,,Clemson Memorial Stadium - Clemson South Carolina
+2016-11-26,2016,R,,south-carolina,clemson,A,7,56,0,,4.0,Clemson Memorial Stadium - Clemson South Carolina
+2016-11-26,2016,R,,coastal-carolina,hampton,H,26,7,0,,,
+2016-11-26,2016,R,,hampton,coastal-carolina,A,7,26,0,,,
+2016-11-26,2016,R,,colorado,utah,H,27,22,0,9.0,21.0,Folsom Field - Boulder Colorado
+2016-11-26,2016,R,,utah,colorado,A,22,27,0,21.0,9.0,Folsom Field - Boulder Colorado
+2016-11-26,2016,R,,colorado-state,san-diego-state,A,63,31,0,,,Qualcomm Stadium - San Diego California
+2016-11-26,2016,R,,san-diego-state,colorado-state,H,31,63,0,,,Qualcomm Stadium - San Diego California
+2016-11-26,2016,R,,florida-state,florida,H,31,13,0,15.0,13.0,Doak Campbell Stadium - Tallahassee Florida
+2016-11-26,2016,R,,florida,florida-state,A,13,31,0,13.0,15.0,Doak Campbell Stadium - Tallahassee Florida
+2016-11-26,2016,R,,georgia-tech,georgia,A,28,27,0,,,Sanford Stadium - Athens Georgia
+2016-11-26,2016,R,,georgia,georgia-tech,H,27,28,0,,,Sanford Stadium - Athens Georgia
+2016-11-26,2016,R,,hawaii,massachusetts,H,46,40,0,,,Hawaiian Tel Federal Credit Union Field at Aloha Stadium - Honolulu Hawaii
+2016-11-26,2016,R,,massachusetts,hawaii,A,40,46,0,,,Hawaiian Tel Federal Credit Union Field at Aloha Stadium - Honolulu Hawaii
+2016-11-26,2016,R,,idaho,south-alabama,H,38,31,0,,,Kibbie Dome - Moscow Idaho
+2016-11-26,2016,R,,south-alabama,idaho,A,31,38,0,,,Kibbie Dome - Moscow Idaho
+2016-11-26,2016,R,,indiana,purdue,H,26,24,0,,,Memorial Stadium - Bloomington Indiana
+2016-11-26,2016,R,,purdue,indiana,A,24,26,0,,,Memorial Stadium - Bloomington Indiana
+2016-11-26,2016,R,,kansas-state,kansas,H,34,19,0,,,Bill Snyder Family Football Stadium - Manhattan Kansas
+2016-11-26,2016,R,,kansas,kansas-state,A,19,34,0,,,Bill Snyder Family Football Stadium - Manhattan Kansas
+2016-11-26,2016,R,,kentucky,louisville,A,41,38,0,,11.0,Papa John's Cardinal Stadium - Louisville Kentucky
+2016-11-26,2016,R,,louisville,kentucky,H,38,41,0,11.0,,Papa John's Cardinal Stadium - Louisville Kentucky
+2016-11-26,2016,R,,louisiana,arkansas-state,H,24,19,0,,,Cajun Field - Lafayette Louisiana
+2016-11-26,2016,R,,arkansas-state,louisiana,A,19,24,0,,,Cajun Field - Lafayette Louisiana
+2016-11-26,2016,R,,maryland,rutgers,H,31,13,0,,,Maryland Stadium - College Park Maryland
+2016-11-26,2016,R,,rutgers,maryland,A,13,31,0,,,Maryland Stadium - College Park Maryland
+2016-11-26,2016,R,,miami-fl,duke,H,40,21,0,,,Hard Rock Stadium - Miami Gardens Florida
+2016-11-26,2016,R,,duke,miami-fl,A,21,40,0,,,Hard Rock Stadium - Miami Gardens Florida
+2016-11-26,2016,R,,middle-tennessee-state,florida-atlantic,H,77,56,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2016-11-26,2016,R,,florida-atlantic,middle-tennessee-state,A,56,77,0,,,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+2016-11-26,2016,R,,mississippi-state,mississippi,A,55,20,0,,,Vaught-Hemingway Stadium - Oxford Mississippi
+2016-11-26,2016,R,,mississippi,mississippi-state,H,20,55,0,,,Vaught-Hemingway Stadium - Oxford Mississippi
+2016-11-26,2016,R,,navy,southern-methodist,A,75,31,0,,,Gerald J. Ford Stadium - Dallas Texas
+2016-11-26,2016,R,,southern-methodist,navy,H,31,75,0,,,Gerald J. Ford Stadium - Dallas Texas
+2016-11-26,2016,R,,nevada,nevada-las-vegas,A,45,10,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2016-11-26,2016,R,,nevada-las-vegas,nevada,H,10,45,0,,,Sam Boyd Stadium - Las Vegas Nevada
+2016-11-26,2016,R,,new-mexico,wyoming,H,56,35,0,,,University Stadium - Albuquerque New Mexico
+2016-11-26,2016,R,,wyoming,new-mexico,A,35,56,0,,,University Stadium - Albuquerque New Mexico
+2016-11-26,2016,R,,northwestern,illinois,H,42,21,0,,,Ryan Field - Evanston Illinois
+2016-11-26,2016,R,,illinois,northwestern,A,21,42,0,,,Ryan Field - Evanston Illinois
+2016-11-26,2016,R,,ohio-state,michigan,H,30,27,0,2.0,3.0,Ohio Stadium - Columbus Ohio
+2016-11-26,2016,R,,michigan,ohio-state,A,27,30,0,3.0,2.0,Ohio Stadium - Columbus Ohio
+2016-11-26,2016,R,,old-dominion,florida-international,H,42,28,0,,,S.B. Ballard Stadium - Norfolk Virginia
+2016-11-26,2016,R,,florida-international,old-dominion,A,28,42,0,,,S.B. Ballard Stadium - Norfolk Virginia
+2016-11-26,2016,R,,oregon-state,oregon,H,34,24,0,,,Reser Stadium - Corvallis Oregon
+2016-11-26,2016,R,,oregon,oregon-state,A,24,34,0,,,Reser Stadium - Corvallis Oregon
+2016-11-26,2016,R,,penn-state,michigan-state,H,45,12,0,8.0,,Beaver Stadium - University Park Pennsylvania
+2016-11-26,2016,R,,michigan-state,penn-state,A,12,45,0,,8.0,Beaver Stadium - University Park Pennsylvania
+2016-11-26,2016,R,,pittsburgh,syracuse,H,76,61,0,,,Heinz Field - Pittsburgh Pennsylvania
+2016-11-26,2016,R,,syracuse,pittsburgh,A,61,76,0,,,Heinz Field - Pittsburgh Pennsylvania
+2016-11-26,2016,R,,san-jose-state,fresno-state,A,16,14,0,,,Bulldog Stadium - Fresno California
+2016-11-26,2016,R,,fresno-state,san-jose-state,H,14,16,0,,,Bulldog Stadium - Fresno California
+2016-11-26,2016,R,,south-florida,central-florida,H,48,31,0,,,Raymond James Stadium - Tampa Florida
+2016-11-26,2016,R,,central-florida,south-florida,A,31,48,0,,,Raymond James Stadium - Tampa Florida
+2016-11-26,2016,R,,southern-california,notre-dame,H,45,27,0,12.0,,Los Angeles Memorial Coliseum - Los Angeles California
+2016-11-26,2016,R,,notre-dame,southern-california,A,27,45,0,,12.0,Los Angeles Memorial Coliseum - Los Angeles California
+2016-11-26,2016,R,,stanford,rice,H,41,17,0,,,Stanford Stadium - Stanford California
+2016-11-26,2016,R,,rice,stanford,A,17,41,0,,,Stanford Stadium - Stanford California
+2016-11-26,2016,R,,temple,east-carolina,H,37,10,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2016-11-26,2016,R,,east-carolina,temple,A,10,37,0,,,Lincoln Financial Field - Philadelphia Pennsylvania
+2016-11-26,2016,R,,texas-el-paso,north-texas,H,52,24,0,,,Sun Bowl Stadium - El Paso Texas
+2016-11-26,2016,R,,north-texas,texas-el-paso,A,24,52,0,,,Sun Bowl Stadium - El Paso Texas
+2016-11-26,2016,R,,texas-san-antonio,charlotte,H,33,14,0,,,Alamodome - San Antonio Texas
+2016-11-26,2016,R,,charlotte,texas-san-antonio,A,14,33,0,,,Alamodome - San Antonio Texas
+2016-11-26,2016,R,,troy,texas-state,A,40,7,0,,,Bobcat Stadium - San Marcos Texas
+2016-11-26,2016,R,,texas-state,troy,H,7,40,0,,,Bobcat Stadium - San Marcos Texas
+2016-11-26,2016,R,,tulane,connecticut,A,38,13,0,,,Rentschler Field - East Hartford Connecticut
+2016-11-26,2016,R,,connecticut,tulane,H,13,38,0,,,Rentschler Field - East Hartford Connecticut
+2016-11-26,2016,R,,vanderbilt,tennessee,H,45,34,0,,24.0,Vanderbilt Stadium - Nashville Tennessee
+2016-11-26,2016,R,,tennessee,vanderbilt,A,34,45,0,24.0,,Vanderbilt Stadium - Nashville Tennessee
+2016-11-26,2016,R,,virginia-tech,virginia,H,52,10,0,,,Lane Stadium - Blacksburg Virginia
+2016-11-26,2016,R,,virginia,virginia-tech,A,10,52,0,,,Lane Stadium - Blacksburg Virginia
+2016-11-26,2016,R,,west-virginia,iowa-state,A,49,19,0,19.0,,Jack Trice Stadium - Ames Iowa
+2016-11-26,2016,R,,iowa-state,west-virginia,H,19,49,0,,19.0,Jack Trice Stadium - Ames Iowa
+2016-11-26,2016,R,,western-kentucky,marshall,A,60,6,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2016-11-26,2016,R,,marshall,western-kentucky,H,6,60,0,,,Joan C. Edwards Stadium - Huntington West Virginia
+2016-11-26,2016,R,,wisconsin,minnesota,H,31,17,0,5.0,,Camp Randall Stadium - Madison Wisconsin
+2016-11-26,2016,R,,minnesota,wisconsin,A,17,31,0,,5.0,Camp Randall Stadium - Madison Wisconsin
+2016-12-02,2016,R,CCG,washington,colorado,N,41,10,0,4.0,9.0,Pac-12 Championship (Santa Clara CA)
+2016-12-02,2016,R,CCG,colorado,washington,N,10,41,0,9.0,4.0,Pac-12 Championship (Santa Clara CA)
+2016-12-02,2016,R,CCG,western-michigan,ohio,N,29,23,0,13.0,,MAC Championship (Detroit MI)
+2016-12-02,2016,R,CCG,ohio,western-michigan,N,23,29,0,,13.0,MAC Championship (Detroit MI)
+2016-12-03,2016,R,CCG,alabama,florida,N,54,16,0,1.0,15.0,SEC Championship (Atlanta GA)
+2016-12-03,2016,R,CCG,florida,alabama,N,16,54,0,15.0,1.0,SEC Championship (Atlanta GA)
+2016-12-03,2016,R,,arkansas-state,texas-state,A,36,14,0,,,Bobcat Stadium - San Marcos Texas
+2016-12-03,2016,R,,texas-state,arkansas-state,H,14,36,0,,,Bobcat Stadium - San Marcos Texas
+2016-12-03,2016,R,CCG,clemson,virginia-tech,N,42,35,0,3.0,19.0,ACC Championship (Orlando FL)
+2016-12-03,2016,R,CCG,virginia-tech,clemson,N,35,42,0,19.0,3.0,ACC Championship (Orlando FL)
+2016-12-03,2016,R,,georgia-southern,troy,H,28,24,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2016-12-03,2016,R,,troy,georgia-southern,A,24,28,0,,,Allen E. Paulson Stadium - Statesboro Georgia
+2016-12-03,2016,R,,idaho,georgia-state,H,37,12,0,,,Kibbie Dome - Moscow Idaho
+2016-12-03,2016,R,,georgia-state,idaho,A,12,37,0,,,Kibbie Dome - Moscow Idaho
+2016-12-03,2016,R,,kansas-state,texas-christian,A,30,6,0,,,Amon G. Carter Stadium - Fort Worth Texas
+2016-12-03,2016,R,,texas-christian,kansas-state,H,6,30,0,,,Amon G. Carter Stadium - Fort Worth Texas
+2016-12-03,2016,R,,louisiana,louisiana-monroe,A,30,3,0,,,Malone Stadium - Monroe Louisiana
+2016-12-03,2016,R,,louisiana-monroe,louisiana,H,3,30,0,,,Malone Stadium - Monroe Louisiana
+2016-12-03,2016,R,,oklahoma,oklahoma-state,H,38,20,0,7.0,11.0,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2016-12-03,2016,R,,oklahoma-state,oklahoma,A,20,38,0,11.0,7.0,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+2016-12-03,2016,R,CCG,penn-state,wisconsin,N,38,31,0,8.0,6.0,Big Ten Championship (Indianapolis IN)
+2016-12-03,2016,R,CCG,wisconsin,penn-state,N,31,38,0,6.0,8.0,Big Ten Championship (Indianapolis IN)
+2016-12-03,2016,R,CCG,san-diego-state,wyoming,A,27,24,0,,,MWC Championship (Laramie WY)
+2016-12-03,2016,R,CCG,wyoming,san-diego-state,H,24,27,0,,,MWC Championship (Laramie WY)
+2016-12-03,2016,R,,south-alabama,new-mexico-state,H,35,28,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2016-12-03,2016,R,,new-mexico-state,south-alabama,A,28,35,0,,,Ladd-Peebles Stadium - Mobile Alabama
+2016-12-03,2016,R,CCG,temple,navy,A,34,10,0,,20.0,American Athletic Conference Championship (Annapolis MD)
+2016-12-03,2016,R,CCG,navy,temple,H,10,34,0,20.0,,American Athletic Conference Championship (Annapolis MD)
+2016-12-03,2016,R,,west-virginia,baylor,H,24,21,0,14.0,,Milan Puskar Stadium - Morgantown West Virginia
+2016-12-03,2016,R,,baylor,west-virginia,A,21,24,0,,14.0,Milan Puskar Stadium - Morgantown West Virginia
+2016-12-03,2016,R,CCG,western-kentucky,louisiana-tech,H,58,44,0,,,Conference USA Championship (Bowling Green KY)
+2016-12-03,2016,R,CCG,louisiana-tech,western-kentucky,A,44,58,0,,,Conference USA Championship (Bowling Green KY)
+2016-12-10,2016,R,,army,navy,N,21,17,0,,,M&T Bank Stadium - Baltimore Maryland
+2016-12-10,2016,R,,navy,army,N,17,21,0,,,M&T Bank Stadium - Baltimore Maryland
+2016-12-17,2016,R,BOWL,appalachian-state,toledo,N,31,28,0,,,Raycom Media Camellia Bowl (Montgomery AL)
+2016-12-17,2016,R,BOWL,toledo,appalachian-state,N,28,31,0,,,Raycom Media Camellia Bowl (Montgomery AL)
+2016-12-17,2016,R,BOWL,arkansas-state,central-florida,N,31,13,0,,,Cure Bowl (Camping World Stadium - Orlando Florida)
+2016-12-17,2016,R,BOWL,central-florida,arkansas-state,N,13,31,0,,,Cure Bowl (Camping World Stadium - Orlando Florida)
+2016-12-17,2016,R,BOWL,new-mexico,texas-san-antonio,N,23,20,0,,,New Mexico Bowl (University Stadium - Albuquerque New Mexico)
+2016-12-17,2016,R,BOWL,texas-san-antonio,new-mexico,N,20,23,0,,,New Mexico Bowl (University Stadium - Albuquerque New Mexico)
+2016-12-17,2016,R,BOWL,san-diego-state,houston,N,34,10,0,,,Las Vegas Bowl (Sam Boyd Stadium - Las Vegas Nevada)
+2016-12-17,2016,R,BOWL,houston,san-diego-state,N,10,34,0,,,Las Vegas Bowl (Sam Boyd Stadium - Las Vegas Nevada)
+2016-12-17,2016,R,BOWL,southern-mississippi,louisiana,N,28,21,0,,,New Orleans Bowl (Mercedes-Benz Superdome - New Orleans Louisiana)
+2016-12-17,2016,R,BOWL,louisiana,southern-mississippi,N,21,28,0,,,New Orleans Bowl (Mercedes-Benz Superdome - New Orleans Louisiana)
+2016-12-19,2016,R,BOWL,tulsa,central-michigan,N,55,10,0,,,Miami Beach Bowl (Marlins Park - Miami Florida)
+2016-12-19,2016,R,BOWL,central-michigan,tulsa,N,10,55,0,,,Miami Beach Bowl (Marlins Park - Miami Florida)
+2016-12-20,2016,R,BOWL,western-kentucky,memphis,N,51,31,0,,,Boca Raton Bowl (FAU Football Stadium - Boca Raton Florida)
+2016-12-20,2016,R,BOWL,memphis,western-kentucky,N,31,51,0,,,Boca Raton Bowl (FAU Football Stadium - Boca Raton Florida)
+2016-12-21,2016,R,BOWL,brigham-young,wyoming,N,24,21,0,,,Poinsettia Bowl (Qualcomm Stadium - San Diego California)
+2016-12-21,2016,R,BOWL,wyoming,brigham-young,N,21,24,0,,,Poinsettia Bowl (Qualcomm Stadium - San Diego California)
+2016-12-22,2016,R,BOWL,idaho,colorado-state,N,61,50,0,,,Famous Idaho Potato Bowl (Albertsons Stadium - Boise Idaho)
+2016-12-22,2016,R,BOWL,colorado-state,idaho,N,50,61,0,,,Famous Idaho Potato Bowl (Albertsons Stadium - Boise Idaho)
+2016-12-23,2016,R,BOWL,louisiana-tech,navy,N,48,45,0,,,Armed Forces Bowl (Amon G. Carter Stadium - Fort Worth Texas)
+2016-12-23,2016,R,BOWL,navy,louisiana-tech,N,45,48,0,,,Armed Forces Bowl (Amon G. Carter Stadium - Fort Worth Texas)
+2016-12-23,2016,R,BOWL,old-dominion,eastern-michigan,N,24,20,0,,,Bahamas Bowl (Thomas A. Robinson Stadium - Nassau Bahamas)
+2016-12-23,2016,R,BOWL,eastern-michigan,old-dominion,N,20,24,0,,,Bahamas Bowl (Thomas A. Robinson Stadium - Nassau Bahamas)
+2016-12-23,2016,R,BOWL,troy,ohio,N,28,23,0,,,Dollar General Bowl (Ladd-Peebles Stadium - Mobile Alabama)
+2016-12-23,2016,R,BOWL,ohio,troy,N,23,28,0,,,Dollar General Bowl (Ladd-Peebles Stadium - Mobile Alabama)
+2016-12-24,2016,R,BOWL,hawaii,middle-tennessee-state,N,52,35,0,,,Hawaii Bowl (Hawaiian Tel Federal Credit Union Field at Aloha Stadium - Honolulu Hawaii)
+2016-12-24,2016,R,BOWL,middle-tennessee-state,hawaii,N,35,52,0,,,Hawaii Bowl (Hawaiian Tel Federal Credit Union Field at Aloha Stadium - Honolulu Hawaii)
+2016-12-26,2016,R,BOWL,boston-college,maryland,N,36,30,0,,,Quick Lane Bowl (Ford Field - Detroit Michigan)
+2016-12-26,2016,R,BOWL,maryland,boston-college,N,30,36,0,,,Quick Lane Bowl (Ford Field - Detroit Michigan)
+2016-12-26,2016,R,BOWL,mississippi-state,miami-oh,N,17,16,0,,,St. Petersburg Bowl (Tropicana Field - St. Petersburg Florida)
+2016-12-26,2016,R,BOWL,miami-oh,mississippi-state,N,16,17,0,,,St. Petersburg Bowl (Tropicana Field - St. Petersburg Florida)
+2016-12-26,2016,R,BOWL,north-carolina-state,vanderbilt,N,41,17,0,,,Independence Bowl (Independence Stadium - Shreveport Louisiana)
+2016-12-26,2016,R,BOWL,vanderbilt,north-carolina-state,N,17,41,0,,,Independence Bowl (Independence Stadium - Shreveport Louisiana)
+2016-12-27,2016,R,BOWL,army,north-texas,N,38,31,0,,,Heart of Dallas Bowl (Dallas TX)
+2016-12-27,2016,R,BOWL,north-texas,army,N,31,38,0,,,Heart of Dallas Bowl (Dallas TX)
+2016-12-27,2016,R,BOWL,baylor,boise-state,N,31,12,0,,,Cactus Bowl (Chase Field - Phoenix Arizona)
+2016-12-27,2016,R,BOWL,boise-state,baylor,N,12,31,0,,,Cactus Bowl (Chase Field - Phoenix Arizona)
+2016-12-27,2016,R,BOWL,minnesota,washington-state,N,17,12,0,,,Holiday Bowl (Qualcomm Stadium - San Diego California)
+2016-12-27,2016,R,BOWL,washington-state,minnesota,N,12,17,0,,,Holiday Bowl (Qualcomm Stadium - San Diego California)
+2016-12-27,2016,R,BOWL,wake-forest,temple,N,34,26,0,,23.0,Military Bowl (Navy Marine Corps Memorial Stadium - Annapolis Maryland)
+2016-12-27,2016,R,BOWL,temple,wake-forest,N,26,34,0,23.0,,Military Bowl (Navy Marine Corps Memorial Stadium - Annapolis Maryland)
+2016-12-28,2016,R,BOWL,kansas-state,texas-a-m,N,33,28,0,,,Texas Bowl (NRG Stadium - Houston Texas)
+2016-12-28,2016,R,BOWL,texas-a-m,kansas-state,N,28,33,0,,,Texas Bowl (NRG Stadium - Houston Texas)
+2016-12-28,2016,R,BOWL,miami-fl,west-virginia,N,31,14,0,,14.0,Russell Athletic Bowl (Camping World Stadium - Orlando Florida)
+2016-12-28,2016,R,BOWL,west-virginia,miami-fl,N,14,31,0,14.0,,Russell Athletic Bowl (Camping World Stadium - Orlando Florida)
+2016-12-28,2016,R,BOWL,northwestern,pittsburgh,N,31,24,0,,22.0,Pinstripe Bowl (Yankee Stadium - Bronx New York)
+2016-12-28,2016,R,BOWL,pittsburgh,northwestern,N,24,31,0,22.0,,Pinstripe Bowl (Yankee Stadium - Bronx New York)
+2016-12-28,2016,R,BOWL,utah,indiana,N,26,24,0,,,Foster Farms Bowl (Levi's Stadium - Santa Clara California)
+2016-12-28,2016,R,BOWL,indiana,utah,N,24,26,0,,,Foster Farms Bowl (Levi's Stadium - Santa Clara California)
+2016-12-29,2016,R,BOWL,oklahoma-state,colorado,N,38,8,0,13.0,11.0,Alamo Bowl (Alamodome - San Antonio Texas)
+2016-12-29,2016,R,BOWL,colorado,oklahoma-state,N,8,38,0,11.0,13.0,Alamo Bowl (Alamodome - San Antonio Texas)
+2016-12-29,2016,R,BOWL,south-florida,south-carolina,N,46,39,0,25.0,,Birmingham Bowl (Legion Field - Birmingham Alabama)
+2016-12-29,2016,R,BOWL,south-carolina,south-florida,N,39,46,0,,25.0,Birmingham Bowl (Legion Field - Birmingham Alabama)
+2016-12-29,2016,R,BOWL,virginia-tech,arkansas,N,35,24,0,18.0,,Belk Bowl (Bank of America Stadium - Charlotte North Carolina)
+2016-12-29,2016,R,BOWL,arkansas,virginia-tech,N,24,35,0,,18.0,Belk Bowl (Bank of America Stadium - Charlotte North Carolina)
+2016-12-30,2016,R,BOWL,air-force,south-alabama,N,45,21,0,,,Arizona Bowl (Arizona Stadium - Tucson Arizona)
+2016-12-30,2016,R,BOWL,south-alabama,air-force,N,21,45,0,,,Arizona Bowl (Arizona Stadium - Tucson Arizona)
+2016-12-30,2016,R,BOWL,florida-state,michigan,N,33,32,0,10.0,6.0,Orange Bowl (Hard Rock Stadium - Miami Gardens Florida)
+2016-12-30,2016,R,BOWL,michigan,florida-state,N,32,33,0,6.0,10.0,Orange Bowl (Hard Rock Stadium - Miami Gardens Florida)
+2016-12-30,2016,R,BOWL,georgia,texas-christian,N,31,23,0,,,Liberty Bowl (Liberty Bowl Memorial Stadium - Memphis Tennessee)
+2016-12-30,2016,R,BOWL,texas-christian,georgia,N,23,31,0,,,Liberty Bowl (Liberty Bowl Memorial Stadium - Memphis Tennessee)
+2016-12-30,2016,R,BOWL,stanford,north-carolina,N,25,23,0,16.0,,Sun Bowl (Sun Bowl Stadium - El Paso Texas)
+2016-12-30,2016,R,BOWL,north-carolina,stanford,N,23,25,0,,16.0,Sun Bowl (Sun Bowl Stadium - El Paso Texas)
+2016-12-30,2016,R,BOWL,tennessee,nebraska,N,38,24,0,,24.0,Music City Bowl (Nissan Stadium - Nashville Tennessee)
+2016-12-30,2016,R,BOWL,nebraska,tennessee,N,24,38,0,24.0,,Music City Bowl (Nissan Stadium - Nashville Tennessee)
+2016-12-31,2016,R,CFP-SF,alabama,washington,N,24,7,0,1.0,4.0,Peach Bowl (Georgia Dome - Atlanta Georgia)
+2016-12-31,2016,R,CFP-SF,washington,alabama,N,7,24,0,4.0,1.0,Peach Bowl (Georgia Dome - Atlanta Georgia)
+2016-12-31,2016,R,CFP-SF,clemson,ohio-state,N,31,0,0,3.0,2.0,Fiesta Bowl (University of Phoenix Stadium - Glendale Arizona)
+2016-12-31,2016,R,CFP-SF,ohio-state,clemson,N,0,31,0,2.0,3.0,Fiesta Bowl (University of Phoenix Stadium - Glendale Arizona)
+2016-12-31,2016,R,BOWL,georgia-tech,kentucky,N,33,18,0,,,TaxSlayer Bowl (EverBank Field - Jacksonville Florida)
+2016-12-31,2016,R,BOWL,kentucky,georgia-tech,N,18,33,0,,,TaxSlayer Bowl (EverBank Field - Jacksonville Florida)
+2016-12-31,2016,R,BOWL,louisiana-state,louisville,N,29,9,0,19.0,15.0,Citrus Bowl (Camping World Stadium - Orlando Florida)
+2016-12-31,2016,R,BOWL,louisville,louisiana-state,N,9,29,0,15.0,19.0,Citrus Bowl (Camping World Stadium - Orlando Florida)
+2017-01-02,2016,R,BOWL,florida,iowa,N,30,3,0,20.0,21.0,Outback Bowl (Raymond James Stadium - Tampa Florida)
+2017-01-02,2016,R,BOWL,iowa,florida,N,3,30,0,21.0,20.0,Outback Bowl (Raymond James Stadium - Tampa Florida)
+2017-01-02,2016,R,BOWL,oklahoma,auburn,N,35,19,0,7.0,17.0,Sugar Bowl (Mercedes-Benz Superdome - New Orleans Louisiana)
+2017-01-02,2016,R,BOWL,auburn,oklahoma,N,19,35,0,17.0,7.0,Sugar Bowl (Mercedes-Benz Superdome - New Orleans Louisiana)
+2017-01-02,2016,R,BOWL,southern-california,penn-state,N,52,49,0,9.0,5.0,Rose Bowl (Pasadena CA)
+2017-01-02,2016,R,BOWL,penn-state,southern-california,N,49,52,0,5.0,9.0,Rose Bowl (Pasadena CA)
+2017-01-02,2016,R,BOWL,wisconsin,western-michigan,N,24,16,0,8.0,12.0,Cotton Bowl (AT&T Stadium - Arlington Texas)
+2017-01-02,2016,R,BOWL,western-michigan,wisconsin,N,16,24,0,12.0,8.0,Cotton Bowl (AT&T Stadium - Arlington Texas)
+2017-01-09,2016,R,NC,clemson,alabama,N,35,31,0,3.0,1.0,College Football Playoff National Championship (Raymond James Stadium - Tampa Florida)
+2017-01-09,2016,R,NC,alabama,clemson,N,31,35,0,1.0,3.0,College Football Playoff National Championship (Raymond James Stadium - Tampa Florida)
